@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "E:\大学\校创\基于GNN的关键用户识别\experiments\continue_v5_candidate_reduction.py", line 136, in <module>
+    main()
+    ~~~~^^
+  File "E:\大学\校创\基于GNN的关键用户识别\experiments\continue_v5_candidate_reduction.py", line 114, in main
+    reports = {'higgs': validate('higgs', 'preflight')}
+                        ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\大学\校创\基于GNN的关键用户识别\experiments\continue_v5_candidate_reduction.py", line 101, in validate
+    return execute(f'{dataset}-{mode}-validation', 'validate_v5_candidate_reduction.py',
+                   ['--study-dir', str(directory), '--mode', mode], report=True)
+  File "E:\大学\校创\基于GNN的关键用户识别\experiments\continue_v5_candidate_reduction.py", line 94, in execute
+    value = json.loads((control / f'{label}.stdout.log').read_text(encoding='utf-8'))
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\36024\Miniconda3\Lib\pathlib\_local.py", line 546, in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\36024\Miniconda3\Lib\pathlib\_abc.py", line 633, in read_text
+    return f.read()
+           ~~~~~~^^
+  File "<frozen codecs>", line 325, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb4 in position 61: invalid start byte

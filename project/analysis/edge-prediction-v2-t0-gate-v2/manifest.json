@@ -1,0 +1,22 @@
+{
+  "sha256": {
+    "audits\\edge-prediction-v2-t0-outer-test-v1\\report.json": "a85654a395114f18ef23cdf8996d387f7d80174ee3a6a24e9d90bc6438f17e10",
+    "audits\\edge-prediction-v2-temporal-selection-v1\\report.json": "121a70e2be80a5b8d50402d24116f866e36004136c7028316103054e86d3e6cf",
+    "E:\\大学\\校创\\基于GNN的关键用户识别\\backend\\app\\model_v2.py": "33ba30f22b47760f4960064bc90b987636fe4f530c970fa174718dbddb735316",
+    "E:\\大学\\校创\\基于GNN的关键用户识别\\experiments\\run_edge_prediction_v2_pilot.py": "09940e780b028951852835e0a03cf709a71db1e1146d92040b6a33a3db783d21",
+    "E:\\大学\\校创\\基于GNN的关键用户识别\\protocols\\edge_prediction_v2_preregistration.md": "0797bab6198fe08971dc66c8eff8b4de5bcd6925a704fde6efa7e0ccfc4ef86d"
+  },
+  "environment": {
+    "python": "3.13.0 | packaged by conda-forge | (main, Nov 27 2024, 19:03:49) [MSC v.1942 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8"
+  },
+  "t0_config": {
+    "epochs": 10,
+    "hidden_channels": 32,
+    "layers": 1,
+    "learning_rate": 0.01,
+    "decoder": "concat_mlp"
+  }
+}

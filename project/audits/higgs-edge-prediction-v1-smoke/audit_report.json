@@ -1,0 +1,88 @@
+{
+  "purpose": "Independent temporal edge-probability audit; frozen study outputs are read-only and were not modified.",
+  "protocol": {
+    "dataset": "data\\processed\\higgs-twitter\\pilot-50000",
+    "dataset_sha256": {
+      "nodes.csv": "04560116149c19d1bd7f0dcdaad6b70dbbaa32cf1932cab9221c2aeebfac8e57",
+      "edges.csv": "5178d5be13faf6b0875b584e936d24d8043112dcc1b25b0b49ea95dc17f5b7f9",
+      "cascades.csv": "d503d39922201baa8dd018c187beb7500c5cf5910ce745c948478525f867b552"
+    },
+    "fractions": [
+      0.6
+    ],
+    "seeds": [
+      42
+    ],
+    "epochs": 10,
+    "negative_sampling": "Balanced uniformly sampled directed non-edges; future negatives exclude training and future positives, matching pipeline.py.",
+    "train_evaluation": "Observed unique training edges versus sampled absent directed pairs.",
+    "future_evaluation": "Observed unique future edges versus sampled absent directed pairs.",
+    "inverse_probability_auc": "AUC after replacing every probability p with 1-p; values above 0.5 indicate score-direction reversal."
+  },
+  "environment": {
+    "python": "3.13.0 | packaged by conda-forge | (main, Nov 27 2024, 19:03:49) [MSC v.1942 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "torch": "2.11.0+cu128",
+    "cuda_available": true
+  },
+  "runs": [
+    {
+      "train_fraction": 0.6,
+      "random_seed": 42,
+      "epochs": 10,
+      "training_cutoff": "2012-07-03T09:53:03+00:00",
+      "node_count": 33529,
+      "training_event_count": 27796,
+      "future_event_count": 18532,
+      "unique_training_edges": 26188,
+      "unique_future_edges": 17304,
+      "backend": "torch-geometric GATv2",
+      "train_reconstruction": {
+        "positive_edges": 26188,
+        "negative_edges": 26188,
+        "auc": 0.8936822004507409,
+        "average_precision": 0.8689677705377785,
+        "brier": 0.13838682456652177,
+        "ece_10_bins": 0.08013652437111204,
+        "inverse_probability_auc": 0.10631779954925913,
+        "mean_positive_score": 0.7112655828359683,
+        "mean_negative_score": 0.3273485278947145
+      },
+      "future_edge_prediction": {
+        "positive_edges": 17304,
+        "negative_edges": 17304,
+        "auc": 0.36370619547344496,
+        "average_precision": 0.45491682822417584,
+        "brier": 0.36022184129965196,
+        "ece_10_bins": 0.33809253880629253,
+        "inverse_probability_auc": 0.636293804526555,
+        "mean_positive_score": 0.27435924818672985,
+        "mean_negative_score": 0.3268322086704863
+      },
+      "runtime_seconds": 1.0846809999784455
+    }
+  ],
+  "by_fraction": {
+    "0.60": {
+      "run_count": 1,
+      "train_reconstruction_mean": {
+        "auc": 0.8936822004507409,
+        "average_precision": 0.8689677705377785,
+        "brier": 0.13838682456652177,
+        "ece_10_bins": 0.08013652437111204,
+        "inverse_probability_auc": 0.10631779954925913,
+        "mean_positive_score": 0.7112655828359683,
+        "mean_negative_score": 0.3273485278947145
+      },
+      "future_edge_prediction_mean": {
+        "auc": 0.36370619547344496,
+        "average_precision": 0.45491682822417584,
+        "brier": 0.36022184129965196,
+        "ece_10_bins": 0.33809253880629253,
+        "inverse_probability_auc": 0.636293804526555,
+        "mean_positive_score": 0.27435924818672985,
+        "mean_negative_score": 0.3268322086704863
+      }
+    }
+  }
+}

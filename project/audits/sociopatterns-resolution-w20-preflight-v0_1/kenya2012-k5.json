@@ -1,0 +1,31 @@
+{
+  "schema": "sociopatterns-resolution-preflight-0.1",
+  "study": "sociopatterns-resolution-confirmation-v0_1",
+  "dataset": "kenya2012",
+  "outcome_blind": true,
+  "status": "COMPLETED_NO_SELECTION_RECORDED",
+  "config": {
+    "p": 0.01,
+    "horizon": 3,
+    "k": 5,
+    "selection_world_count": 20
+  },
+  "input_sha256": {
+    "nodes.csv": "24c28abb0885c80d42c64010540c63804efdf924010c8e06985af9fc6c9824ee",
+    "edges.csv": "d65fc4f7b2cd90c86412b5d7149d2151d0cb545d47c1b52dddb05a0dde2bb711",
+    "cascades.csv": "0fdf9458a5ef3ae500c40f76968537b66cff8d3fc1781f2a0305e294c1436d58",
+    "data_card.json": "4fad97144c172de751f22dabf24b5df5ec55fe84ea04683b8b7eecca0c8ac277"
+  },
+  "history_cutoff": "2000-01-02T19:00:00+00:00",
+  "timestamp_group_count": 42,
+  "graph": {
+    "historical_nodes": 75,
+    "historical_edges": 1044,
+    "self_loops_removed": 0,
+    "duplicate_events_collapsed": 4668,
+    "community_count": 6
+  },
+  "candidate_world_evaluations": 7300,
+  "elapsed_seconds": 0.455844,
+  "warnings": []
+}

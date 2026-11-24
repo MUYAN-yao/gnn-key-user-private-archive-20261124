@@ -1,0 +1,1270 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        11
+      ]
+    ],
+    "date-time": "2026-09-11T22:09:45Z",
+    "timestamp": 1789164585648,
+    "version": "build-2803163510"
+  },
+  "reference-count": 107,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "1",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            21
+          ]
+        ],
+        "date-time": "2024-05-21T00:00:00Z",
+        "timestamp": 1716249600000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            21
+          ]
+        ],
+        "date-time": "2024-05-21T00:00:00Z",
+        "timestamp": 1716249600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100001691",
+      "name": "Japan Society for the Promotion of Science",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "JSPS short-term fellowship"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "JSPS short-term fellowship"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001691",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100001691",
+      "name": "Japan Society for the Promotion of Science",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "JP 21H04595"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "JP 21H04595"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001691",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "link.springer.com"
+    ],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Appl Netw Sci"
+  ],
+  "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Influence maximization (IM) is an important topic in network science where a small seed set is chosen to maximize the spread of influence on a network. Recently, this problem has attracted attention on temporal networks where the network structure changes with time. IM on such dynamically varying networks is the topic of this review. We first categorize methods into two main paradigms: single and multiple seeding. In single seeding, nodes activate at the beginning of the diffusion process, and most methods either efficiently estimate the influence spread and select nodes with a greedy algorithm, or use a node-ranking heuristic. Nodes activate at different time points in the multiple seeding problem, via either sequential seeding, maintenance seeding or node probing paradigms. Throughout this review, we give special attention to deploying these algorithms in practice while also discussing existing solutions for real-world applications. We conclude by sharing important future research directions and challenges.</jats:p>",
+  "DOI": "10.1007/s41109-024-00625-3",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2024,
+        5,
+        21
+      ]
+    ],
+    "date-time": "2024-05-21T10:01:37Z",
+    "timestamp": 1716285697000
+  },
+  "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 35,
+  "title": [
+    "Influence maximization on temporal networks: a review"
+  ],
+  "prefix": "10.1007",
+  "volume": "9",
+  "author": [
+    {
+      "given": "Eric",
+      "family": "Yanchenko",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Tsuyoshi",
+      "family": "Murata",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Petter",
+      "family": "Holme",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "297",
+  "published-online": {
+    "date-parts": [
+      [
+        2024,
+        5,
+        21
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "625_CR1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Aggarwal CC (2016) Recommender systems. Springer, Berlin, vol 1",
+      "DOI": "10.1007/978-3-319-29659-3_1"
+    },
+    {
+      "key": "625_CR2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Aggarwal CC, Lin S, Yu PS (2012) On influential node discovery in dynamic social networks. In: Proceedings of the 2012 SIAM international conference on data mining. SIAM, pp 636–647",
+      "DOI": "10.1137/1.9781611972825.55"
+    },
+    {
+      "key": "625_CR3",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Albano A, Guillaume J-L, Heymann S, Grand BL (2013) A matter of time-intrinsic or extrinsic-for diffusion in evolving complex networks. In: Proceedings of the 2013 IEEE/ACM international conference on advances in social networks analysis and mining, pp 202–206",
+      "DOI": "10.1145/2492517.2492634"
+    },
+    {
+      "issue": "6",
+      "key": "625_CR4",
+      "doi-asserted-by": "publisher",
+      "first-page": "375",
+      "DOI": "10.1038/s41562-018-0346-z",
+      "volume": "2",
+      "author": "S Aral",
+      "year": "2018",
+      "unstructured": "Aral S, Dhillon PS (2018) Social influence maximization under empirical influence models. Nat Hum Behav 2(6):375–382",
+      "journal-title": "Nat Hum Behav"
+    },
+    {
+      "key": "625_CR5",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.cosrev.2021.100393",
+      "volume": "40",
+      "author": "M Azaouzi",
+      "year": "2021",
+      "unstructured": "Azaouzi M, Mnasri W, Romdhane LB (2021) New trends in influence maximization models. Comput Sci Rev 40:100393",
+      "journal-title": "Comput Sci Rev"
+    },
+    {
+      "key": "625_CR6",
+      "doi-asserted-by": "publisher",
+      "first-page": "4804",
+      "DOI": "10.1038/s41598-017-03868-6",
+      "volume": "7",
+      "author": "Y Bai",
+      "year": "2017",
+      "unstructured": "Bai Y, Yang B, Lin L, Herrera JL, Du Z, Holme P (2017) Optimizing sentinel surveillance in temporal network epidemiology. Sci Rep 7:4804",
+      "journal-title": "Sci Rep"
+    },
+    {
+      "key": "625_CR7",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Bharathi S, Kempe D, Salek M (2007) Competitive influence maximization in social networks. In: Internet and network economics: third international workshop, WINE (2007) San Diego, CA, USA, December 12–14, 2007. Proceedings 3. Springer 2007:306–311",
+      "DOI": "10.1007/978-3-540-77105-0_31"
+    },
+    {
+      "key": "625_CR8",
+      "doi-asserted-by": "publisher",
+      "first-page": "478",
+      "DOI": "10.1016/j.physa.2019.03.008",
+      "volume": "525",
+      "author": "S Bhattacharya",
+      "year": "2019",
+      "unstructured": "Bhattacharya S, Gaurav K, Ghosh S (2019) Viral marketing on social networks: an epidemiological perspective. Phys A 525:478–490",
+      "journal-title": "Phys A"
+    },
+    {
+      "key": "625_CR9",
+      "doi-asserted-by": "publisher",
+      "first-page": "109",
+      "DOI": "10.1016/j.knosys.2013.03.012",
+      "volume": "46",
+      "author": "J Bobadilla",
+      "year": "2013",
+      "unstructured": "Bobadilla J, Ortega F, Hernando A, Gutiérrez A (2013) Recommender systems survey. Knowl Based Syst 46:109–132",
+      "journal-title": "Knowl Based Syst"
+    },
+    {
+      "key": "625_CR10",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Borgs C, Brautbar M, Chayes J, Lucier B (2014) Maximizing social influence in nearly optimal time. In: Proceedings of the twenty-fifth annual ACM-SIAM symposium on Discrete algorithms. SIAM, pp 946–957",
+      "DOI": "10.1137/1.9781611973402.70"
+    },
+    {
+      "key": "625_CR11",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.micpro.2022.104689",
+      "volume": "95",
+      "author": "J Chandran",
+      "year": "2022",
+      "unstructured": "Chandran J, Viswanatham VM (2022) Dynamic node influence tracking based influence maximization on dynamic social networks. Microprocess Microsyst 95:104689",
+      "journal-title": "Microprocess Microsyst"
+    },
+    {
+      "key": "625_CR12",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Chen W, Wang Y, Yang S (2009) Efficient influence maximization in social networks. In: Proceedings of the 15th ACM SIGKDD international conference on knowledge discovery and data mining, pp 199–208",
+      "DOI": "10.1145/1557019.1557047"
+    },
+    {
+      "key": "625_CR13",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Chen W, Yuan Y, Zhang L (2010) Scalable influence maximization in social networks under the linear threshold model. In: 2010 IEEE international conference on data mining. IEEE, pp 88–97",
+      "DOI": "10.1109/ICDM.2010.118"
+    },
+    {
+      "key": "625_CR14",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Chen X, Song G, He X, Xie K (2015) On influential nodes tracking in dynamic social networks. In: Proceedings of the 2015 SIAM international conference on data mining. SIAM, pp 613–621",
+      "DOI": "10.1137/1.9781611974010.69"
+    },
+    {
+      "issue": "9",
+      "key": "625_CR15",
+      "doi-asserted-by": "publisher",
+      "first-page": "1294809",
+      "DOI": "10.1371/journal.pone.0012948",
+      "volume": "5",
+      "author": "NA Christakis",
+      "year": "2010",
+      "unstructured": "Christakis NA, Fowler JH (2010) Social network sensors for early detection of contagious outbreaks. PLOS ONE 5(9):1294809",
+      "journal-title": "PLOS ONE"
+    },
+    {
+      "key": "625_CR16",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Cohen E, Delling D, Pajor T, Werneck RF (2014) Sketch-based influence maximization and computation: scaling up with guarantees. In: Proceedings of the 23rd ACM international conference on conference on information and knowledge management, pp. 629–638",
+      "DOI": "10.1145/2661829.2662077"
+    },
+    {
+      "key": "625_CR17",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Domingos P, Richardson M (2001) Mining the network value of customers. In: Proceedings of the seventh ACM SIGKDD international conference on knowledge discovery and data mining, pp 57–66",
+      "DOI": "10.1145/502512.502525"
+    },
+    {
+      "issue": "4",
+      "key": "625_CR18",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevE.102.042307",
+      "volume": "102",
+      "author": "Ş Erkol",
+      "year": "2020",
+      "unstructured": "Erkol Ş, Mazzilli D, Radicchi F (2020) Influence maximization on temporal networks. Phys Rev E 102(4):042307",
+      "journal-title": "Phys Rev E"
+    },
+    {
+      "issue": "3",
+      "key": "625_CR19",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevE.106.034301",
+      "volume": "106",
+      "author": "Ş Erkol",
+      "year": "2022",
+      "unstructured": "Erkol Ş, Mazzilli D, Radicchi F (2022) Effective submodularity of influence maximization on temporal networks. Phys Rev E 106(3):034301",
+      "journal-title": "Phys Rev E"
+    },
+    {
+      "issue": "6",
+      "key": "625_CR20",
+      "doi-asserted-by": "publisher",
+      "first-page": "1464",
+      "DOI": "10.1086/229693",
+      "volume": "96",
+      "author": "SL Feld",
+      "year": "1991",
+      "unstructured": "Feld SL (1991) Why your friends have more friends than you do. Am J Sociol 96(6):1464–1477",
+      "journal-title": "Am J Sociol"
+    },
+    {
+      "issue": "1",
+      "key": "625_CR21",
+      "first-page": "JCMC313",
+      "volume": "3",
+      "author": "L Garton",
+      "year": "1997",
+      "unstructured": "Garton L, Haythornthwaite C, Wellman B (1997) Studying online social networks. J Comput Med Commun 3(1):JCMC313",
+      "journal-title": "J Comput Med Commun"
+    },
+    {
+      "key": "625_CR22",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Gayraud NT, Pitoura E, Tsaparas P (2015) Diffusion maximization in evolving social networks. In: Proceedings of the 2015 ACM conference on online social networks, pp 125–135",
+      "DOI": "10.1145/2817946.2817965"
+    },
+    {
+      "issue": "12",
+      "key": "625_CR23",
+      "doi-asserted-by": "publisher",
+      "first-page": "7821",
+      "DOI": "10.1073/pnas.122653799",
+      "volume": "99",
+      "author": "M Girvan",
+      "year": "2002",
+      "unstructured": "Girvan M, Newman MEJ (2002) Community structure in social and biological networks. Proc Natl Acad Sci USA 99(12):7821–7826",
+      "journal-title": "Proc Natl Acad Sci USA"
+    },
+    {
+      "key": "625_CR24",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Goyal A, Lu W, Lakshmanan LV (2011) Celf++ optimizing the greedy algorithm for influence maximization in social networks. In: Proceedings of the 20th international conference companion on world wide web, pp 47–48",
+      "DOI": "10.1145/1963192.1963217"
+    },
+    {
+      "issue": "4",
+      "key": "625_CR25",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevE.83.046120",
+      "volume": "83",
+      "author": "P Grindrod",
+      "year": "2011",
+      "unstructured": "Grindrod P, Parsons MC, Higham DJ, Estrada E (2011) Communicability across evolving networks. Phys Rev E 83(4):046120",
+      "journal-title": "Phys Rev E"
+    },
+    {
+      "key": "625_CR26",
+      "doi-asserted-by": "publisher",
+      "first-page": "381",
+      "DOI": "10.1140/epjb/e2004-00131-0",
+      "volume": "38",
+      "author": "R Guimera",
+      "year": "2004",
+      "unstructured": "Guimera R, Amaral LAN (2004) Modeling the world-wide airport network. Eur Phys J B 38:381–385",
+      "journal-title": "Eur Phys J B"
+    },
+    {
+      "key": "625_CR27",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Guo Q, Wang S, Wei Z, Chen M (2020) Influence maximization revisited: efficient reverse reachable set generation with bound tightened. In: Proceedings of the 2020 ACM SIGMOD international conference on management of data, ser. SIGMOD ’20. New York, NY, USA: Association for Computing Machinery, 2167–2181. https://doi.org/10.1145/3318464.3389740",
+      "DOI": "10.1145/3318464.3389740"
+    },
+    {
+      "key": "625_CR28",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.eswa.2020.113642",
+      "volume": "159",
+      "author": "N Hafiene",
+      "year": "2020",
+      "unstructured": "Hafiene N, Karoui W, Romdhane LB (2020) Influential nodes detection in dynamic social networks: a survey. Expert Syst Appl 159:113642",
+      "journal-title": "Expert Syst Appl"
+    },
+    {
+      "issue": "4",
+      "key": "625_CR29",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/ett.3054",
+      "volume": "28",
+      "author": "M Han",
+      "year": "2017",
+      "unstructured": "Han M, Yan M, Cai Z, Li Y, Cai X, Yu J (2017) Influence maximization by probing partial communities in dynamic online social networks. Trans Emerg Telecommun Technol 28(4):e3054",
+      "journal-title": "Trans Emerg Telecommun Technol"
+    },
+    {
+      "key": "625_CR30",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Hao F, Zhu C, Chen M, Yang L T, Pei Z (2011) Influence strength aware diffusion models for dynamic influence maximization in social networks. In: 2011 international conference on internet of things and 4th international conference on cyber, physical and social computing. IEEE, pp 317–322",
+      "DOI": "10.1109/iThings/CPSCom.2011.164"
+    },
+    {
+      "issue": "1",
+      "key": "625_CR31",
+      "doi-asserted-by": "publisher",
+      "first-page": "2181",
+      "DOI": "10.1038/s41467-017-01916-3",
+      "volume": "8",
+      "author": "U Harush",
+      "year": "2017",
+      "unstructured": "Harush U, Barzel B (2017) Dynamic patterns of information flow in complex networks. Nat Commun 8(1):2181",
+      "journal-title": "Nat Commun"
+    },
+    {
+      "issue": "1",
+      "key": "625_CR32",
+      "doi-asserted-by": "publisher",
+      "first-page": "5",
+      "DOI": "10.1145/963770.963772",
+      "volume": "22",
+      "author": "JL Herlocker",
+      "year": "2004",
+      "unstructured": "Herlocker JL, Konstan JA, Terveen LG, Riedl JT (2004) Evaluating collaborative filtering recommender systems. ACM Trans Info Syst 22(1):5–53",
+      "journal-title": "ACM Trans Info Syst"
+    },
+    {
+      "issue": "6",
+      "key": "625_CR33",
+      "doi-asserted-by": "publisher",
+      "first-page": "55",
+      "DOI": "10.1509/jm.10.0088",
+      "volume": "75",
+      "author": "O Hinz",
+      "year": "2011",
+      "unstructured": "Hinz O, Skiera B, Barrot C, Becker JU (2011) Seeding strategies for viral marketing: an empirical comparison. J Mark 75(6):55–71",
+      "journal-title": "J Mark"
+    },
+    {
+      "issue": "6",
+      "key": "625_CR34",
+      "doi-asserted-by": "publisher",
+      "first-page": "908",
+      "DOI": "10.1209/epl/i2004-10286-2",
+      "volume": "68",
+      "author": "P Holme",
+      "year": "2004",
+      "unstructured": "Holme P (2004) Efficient local strategies for vaccination and network attack. Europhys Lett 68(6):908",
+      "journal-title": "Europhys Lett"
+    },
+    {
+      "key": "625_CR35",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.1140/epjb/e2015-60657-4",
+      "volume": "88",
+      "author": "P Holme",
+      "year": "2015",
+      "unstructured": "Holme P (2015) Modern temporal network theory: a colloquium. Eur Phys J B 88:1–30",
+      "journal-title": "Eur Phys J B"
+    },
+    {
+      "key": "625_CR36",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevE.96.062305",
+      "volume": "96",
+      "author": "P Holme",
+      "year": "2017",
+      "unstructured": "Holme P (2017) Three faces of node importance in network epidemiology: exact results for small graphs. Phys Rev E 96:062305",
+      "journal-title": "Phys Rev E"
+    },
+    {
+      "issue": "3",
+      "key": "625_CR37",
+      "doi-asserted-by": "publisher",
+      "first-page": "97",
+      "DOI": "10.1016/j.physrep.2012.03.001",
+      "volume": "519",
+      "author": "P Holme",
+      "year": "2012",
+      "unstructured": "Holme P, Saramäki J (2012) Temporal networks. Phys Rep 519(3):97–125",
+      "journal-title": "Phys Rep"
+    },
+    {
+      "key": "625_CR38",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Huang S, Lin W, Bao Z, Sun J (2022) Influence maximization in real-world closed social networks. arXiv preprint arXiv:2209.10286",
+      "DOI": "10.14778/3565816.3565821"
+    },
+    {
+      "issue": "2",
+      "key": "625_CR39",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevE.83.025102",
+      "volume": "83",
+      "author": "M Karsai",
+      "year": "2011",
+      "unstructured": "Karsai M, Kivelä M, Pan RK, Kaski K, Kertész J, Barabási A-L, Saramäki J (2011) Small but slow world: how network topology and burstiness slow down spreading. Phys Rev E 83(2):025102",
+      "journal-title": "Phys Rev E"
+    },
+    {
+      "key": "625_CR40",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Kempe D, Kleinberg J, Tardos É (2003) Maximizing the spread of influence through a social network. In: Proceedings of the ninth ACM SIGKDD international conference on knowledge discovery and data mining, pp 137–146",
+      "DOI": "10.1145/956750.956769"
+    },
+    {
+      "key": "625_CR41",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Kim M, Leskovec J (2011) The network completion problem: inferring missing nodes and edges in networks. In: Proceedings of the 2011 SIAM international conference on data mining. SIAM, pp 47–58",
+      "DOI": "10.1137/1.9781611972818.5"
+    },
+    {
+      "key": "625_CR42",
+      "doi-asserted-by": "publisher",
+      "first-page": "217",
+      "DOI": "10.1016/j.ins.2017.02.023",
+      "volume": "394",
+      "author": "D Kim",
+      "year": "2017",
+      "unstructured": "Kim D, Hyeon D, Oh J, Han W-S, Yu H (2017) Influence maximization based on reachability sketches in dynamic graphs. Inf Sci 394:217–231",
+      "journal-title": "Inf Sci"
+    },
+    {
+      "key": "625_CR43",
+      "doi-asserted-by": "publisher",
+      "first-page": "1617",
+      "DOI": "10.1016/j.ins.2022.06.075",
+      "volume": "607",
+      "author": "S Kumar",
+      "year": "2022",
+      "unstructured": "Kumar S, Mallik A, Khetarpal A, Panda B (2022) Influence maximization in social networks using graph embedding and graph neural network. Inform Sci 607:1617–1636",
+      "journal-title": "Inform Sci"
+    },
+    {
+      "issue": "1",
+      "key": "625_CR44",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevE.71.015103",
+      "volume": "71",
+      "author": "V Latora",
+      "year": "2005",
+      "unstructured": "Latora V, Marchiori M (2005) Vulnerability and protection of infrastructure networks. Phys Rev E 71(1):015103",
+      "journal-title": "Phys Rev E"
+    },
+    {
+      "key": "625_CR45",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1371/journal.pone.0036439",
+      "volume": "7",
+      "author": "S Lee",
+      "year": "2012",
+      "unstructured": "Lee S, Rocha LEC, Liljeros F, Holme P (2012) Exploiting temporal network structures of human interaction to effectively immunize populations. PLoS ONE 7:e36439",
+      "journal-title": "PLoS ONE"
+    },
+    {
+      "key": "625_CR46",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Leskovec J, Adamic LA, Huberman BA (2007) The dynamics of viral marketing. ACM Trans Web, 1(1), 5–es",
+      "DOI": "10.1145/1232722.1232727"
+    },
+    {
+      "key": "625_CR47",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Leskovec J, Krause A, Guestrin C, Faloutsos C, VanBriesen J, Glance N (2007) Cost-effective outbreak detection in networks. In: Proceedings of the 13th ACM SIGKDD international conference on knowledge discovery and data mining, pp 420–429",
+      "DOI": "10.1145/1281192.1281239"
+    },
+    {
+      "key": "625_CR48",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ress.2019.106617",
+      "volume": "193",
+      "author": "W Liu",
+      "year": "2020",
+      "unstructured": "Liu W, Song Z (2020) Review of studies on the resilience of urban critical infrastructure networks. Reliab Eng Syst Saf 193:106617",
+      "journal-title": "Reliab Eng Syst Saf"
+    },
+    {
+      "key": "625_CR49",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Li X, Du N, Li H, Li K, Gao J, Zhang A (2014) A deep learning approach to link prediction in dynamic networks. In: Proceedings of the 2014 SIAM international conference on data mining. SIAM, pp 289–297",
+      "DOI": "10.1137/1.9781611973440.33"
+    },
+    {
+      "issue": "6366",
+      "key": "625_CR50",
+      "doi-asserted-by": "publisher",
+      "first-page": "1042",
+      "DOI": "10.1126/science.aai7488",
+      "volume": "358",
+      "author": "A Li",
+      "year": "2017",
+      "unstructured": "Li A, Cornelius SP, Liu Y-Y, Wang L, Barabási A-L (2017) The fundamental advantages of temporal networks. Science 358(6366):1042–1046",
+      "journal-title": "Science"
+    },
+    {
+      "issue": "10",
+      "key": "625_CR51",
+      "doi-asserted-by": "publisher",
+      "first-page": "1852",
+      "DOI": "10.1109/TKDE.2018.2807843",
+      "volume": "30",
+      "author": "Y Li",
+      "year": "2018",
+      "unstructured": "Li Y, Fan J, Wang Y, Tan K-L (2018) Influence maximization on social graphs: a survey. IEEE Trans Knowl Data Eng 30(10):1852–1872",
+      "journal-title": "IEEE Trans Knowl Data Eng"
+    },
+    {
+      "issue": "2",
+      "key": "625_CR52",
+      "doi-asserted-by": "publisher",
+      "first-page": "573",
+      "DOI": "10.1016/j.geb.2007.08.001",
+      "volume": "62",
+      "author": "D López-Pintado",
+      "year": "2008",
+      "unstructured": "López-Pintado D (2008) Diffusion in complex social networks. Games Econ Behav 62(2):573–590",
+      "journal-title": "Games Econ Behav"
+    },
+    {
+      "key": "625_CR53",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.1016/j.physrep.2016.06.007",
+      "volume": "650",
+      "author": "L Lü",
+      "year": "2016",
+      "unstructured": "Lü L, Chen D, Ren X-L, Zhang Q-M, Zhang Y-C, Zhou T (2016) Vital nodes identification in complex networks. Phys Rep 650:1–63",
+      "journal-title": "Phys Rep"
+    },
+    {
+      "key": "625_CR54",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Michalski R, Palus S, Kazienko P (2011) Matching organizational structure and social network extracted from email communication. In: Business information systems: 14th international conference, BIS (2011) Poznań, Poland, June 15–17, 2011. Proceedings 14. Springer 2011:197–206",
+      "DOI": "10.1007/978-3-642-21863-7_17"
+    },
+    {
+      "issue": "3",
+      "key": "625_CR55",
+      "doi-asserted-by": "publisher",
+      "first-page": "213",
+      "DOI": "10.1007/s00354-014-0402-9",
+      "volume": "32",
+      "author": "R Michalski",
+      "year": "2014",
+      "unstructured": "Michalski R, Kajdanowicz T, Bródka P, Kazienko P (2014) Seed selection for spread of influence in social networks: temporal vs. static approach. N Gener Comput 32(3):213–235",
+      "journal-title": "N Gener Comput"
+    },
+    {
+      "key": "625_CR56",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Michalski R, Jankowski J, Pazura P (2020) Entropy-based measure for influence maximization in temporal networks. In: Computational science-ICCS, 20th international conference, Amsterdam, The Netherlands, June 3–5, 2020, Proceedings, Part IV 20. Springer 2020:277–290",
+      "DOI": "10.1007/978-3-030-50423-6_21"
+    },
+    {
+      "key": "625_CR57",
+      "doi-asserted-by": "publisher",
+      "first-page": "151208",
+      "DOI": "10.1109/ACCESS.2020.3016913",
+      "volume": "8",
+      "author": "R Michalski",
+      "year": "2020",
+      "unstructured": "Michalski R, Jankowski J, Bródka P (2020) Effective influence spreading in temporal networks with sequential seeding. IEEE Access 8:151208–151218",
+      "journal-title": "IEEE Access"
+    },
+    {
+      "key": "625_CR58",
+      "doi-asserted-by": "publisher",
+      "first-page": "1831",
+      "DOI": "10.1007/s11280-020-00792-0",
+      "volume": "23",
+      "author": "H Min",
+      "year": "2020",
+      "unstructured": "Min H, Cao J, Yuan T, Liu B (2020) Topic based time-sensitive influence maximization in online social networks. World Wide Web 23:1831–1859",
+      "journal-title": "World Wide Web"
+    },
+    {
+      "key": "625_CR59",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Mislove A, Marcon M, Gummadi KP, Druschel P, Bhattacharjee B (2007) Measurement and analysis of online social networks. In Proceedings of the 7th ACM SIGCOMM conference on internet measurement, pp 29–42",
+      "DOI": "10.1145/1298306.1298311"
+    },
+    {
+      "issue": "3/4",
+      "key": "625_CR60",
+      "doi-asserted-by": "publisher",
+      "first-page": "342",
+      "DOI": "10.2307/2785588",
+      "volume": "1",
+      "author": "JL Moreno",
+      "year": "1938",
+      "unstructured": "Moreno JL, Jennings HH (1938) Statistics of social configurations. Sociometry 1(3/4):342–274",
+      "journal-title": "Sociometry"
+    },
+    {
+      "issue": "7563",
+      "key": "625_CR61",
+      "doi-asserted-by": "publisher",
+      "first-page": "65",
+      "DOI": "10.1038/nature14604",
+      "volume": "524",
+      "author": "F Morone",
+      "year": "2015",
+      "unstructured": "Morone F, Makse HA (2015) Influence maximization in complex networks through optimal percolation. Nature 524(7563):65–68",
+      "journal-title": "Nature"
+    },
+    {
+      "issue": "1",
+      "key": "625_CR62",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.1186/s40649-018-0056-8",
+      "volume": "5",
+      "author": "T Murata",
+      "year": "2018",
+      "unstructured": "Murata T, Koga H (2018) Extended methods for influence maximization in dynamic networks. Comput Soc Netw 5(1):1–21",
+      "journal-title": "Comput Soc Netw"
+    },
+    {
+      "key": "625_CR63",
+      "doi-asserted-by": "publisher",
+      "first-page": "265",
+      "DOI": "10.1007/BF01588971",
+      "volume": "14",
+      "author": "GL Nemhauser",
+      "year": "1978",
+      "unstructured": "Nemhauser GL, Wolsey LA, Fisher ML (1978) An analysis of approximations for maximizing submodular set functions–i. Math Program 14:265–294",
+      "journal-title": "Math Program"
+    },
+    {
+      "issue": "2",
+      "key": "625_CR64",
+      "doi-asserted-by": "publisher",
+      "first-page": "167",
+      "DOI": "10.1137/S003614450342480",
+      "volume": "45",
+      "author": "MEJ Newman",
+      "year": "2003",
+      "unstructured": "Newman MEJ (2003) The structure and function of complex networks. SIAM Rev 45(2):167–256",
+      "journal-title": "SIAM Rev"
+    },
+    {
+      "key": "625_CR65",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/oso/9780198805090.001.0001",
+      "volume-title": "Networks",
+      "author": "MEJ Newman",
+      "year": "2018",
+      "unstructured": "Newman MEJ (2018) Networks. Oxford University Press, Oxford"
+    },
+    {
+      "key": "625_CR66",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Nguyen HT, Thai MT, Dinh TN (2016) Stop-and-stare: optimal sampling algorithms for viral marketing in billion-scale networks. In: Proceedings of the 2016 international conference on management of data, ser. SIGMOD ’16. New York, NY, USA: Association for Computing Machinery, pp 695–710. https://doi.org/10.1145/2882903.2915207",
+      "DOI": "10.1145/2882903.2915207"
+    },
+    {
+      "key": "625_CR67",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Ohsaka N, Akiba T, Yoshida Y, Kawarabayashi K-i (2014) Fast and accurate influence maximization on large networks with pruned monte-carlo simulations. In: Proceedings of the AAAI conference on artificial intelligence, vol 28",
+      "DOI": "10.1609/aaai.v28i1.8726"
+    },
+    {
+      "issue": "12",
+      "key": "625_CR68",
+      "doi-asserted-by": "publisher",
+      "first-page": "1077",
+      "DOI": "10.14778/2994509.2994525",
+      "volume": "9",
+      "author": "N Ohsaka",
+      "year": "2016",
+      "unstructured": "Ohsaka N, Akiba T, Yoshida Y, Kawarabayashi K-I (2016) Dynamic influence analysis in evolving networks. Proc VLDB Endow 9(12):1077–1088",
+      "journal-title": "Proc VLDB Endow"
+    },
+    {
+      "key": "625_CR69",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Osawa S, Murata T (2015) Selecting seed nodes for influence maximization in dynamic networks. In: Complex networks VI. Springer, pp 91–98",
+      "DOI": "10.1007/978-3-319-16112-9_9"
+    },
+    {
+      "issue": "3",
+      "key": "625_CR70",
+      "doi-asserted-by": "publisher",
+      "first-page": "925",
+      "DOI": "10.1103/RevModPhys.87.925",
+      "volume": "87",
+      "author": "R Pastor-Satorras",
+      "year": "2015",
+      "unstructured": "Pastor-Satorras R, Castellano C, Van Mieghem P, Vespignani A (2015) Epidemic processes in complex networks. Rev Mod Phys 87(3):925",
+      "journal-title": "Rev Mod Phys"
+    },
+    {
+      "key": "625_CR71",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Pathak N, Banerjee A, Srivastava J (2010) A generalized linear threshold model for multiple cascades. In: 2010 IEEE international conference on data mining. IEEE, pp 965–970",
+      "DOI": "10.1109/ICDM.2010.153"
+    },
+    {
+      "key": "625_CR72",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.1186/1756-0381-4-10",
+      "volume": "4",
+      "author": "GA Pavlopoulos",
+      "year": "2011",
+      "unstructured": "Pavlopoulos GA, Secrier M, Moschopoulos CN, Soldatos TG, Kossida S, Aerts J, Schneider R, Bagos PG (2011) Using graph theory to analyze biological networks. BioData Min 4:1–27",
+      "journal-title": "BioData Min"
+    },
+    {
+      "key": "625_CR73",
+      "first-page": "10718",
+      "volume": "34",
+      "author": "B Peng",
+      "year": "2021",
+      "unstructured": "Peng B (2021) Dynamic influence maximization. Adv Neural Inf Process Syst 34:10718–10731",
+      "journal-title": "Adv Neural Inf Process Syst"
+    },
+    {
+      "key": "625_CR74",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Phuvipadawat S, Murata T (2010) Breaking news detection and tracking in twitter. In 2010 IEEE/WIC/ACM international conference on web intelligence and intelligent agent technology, vol 3. IEEE, pp 120–123",
+      "DOI": "10.1109/WI-IAT.2010.205"
+    },
+    {
+      "key": "625_CR75",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Prakash BA, Tong H, Valler N, Faloutsos M, Faloutsos C (2010) Virus propagation on time-varying networks: Theory and immunization algorithms. In: Joint European conference on machine learning and knowledge discovery in databases. Springer, pp. 99–114",
+      "DOI": "10.1007/978-3-642-15939-8_7"
+    },
+    {
+      "key": "625_CR76",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Qiu J, Tang J, Ma H, Dong Y, Wang K, Tang J (2018) Deepinf: social influence prediction with deep learning. In: Proceedings of the 24th ACM SIGKDD international conference on knowledge discovery & data mining, pp 2110–2119",
+      "DOI": "10.1145/3219819.3220077"
+    },
+    {
+      "key": "625_CR77",
+      "unstructured": "Rodriguez MG, Balduzzi D, Schölkopf B (2011) Uncovering the temporal dynamics of diffusion networks. arXiv preprint arXiv:1105.0697"
+    },
+    {
+      "key": "625_CR78",
+      "unstructured": "Saito K, Nakano R, Kimura M (2008) Prediction of information diffusion probabilities for independent cascade model. In: Knowledge-based intelligent information and engineering systems: 12th international conference, KES (2008) Zagreb, Croatia, September 3–5, 2008, Proceedings, Part III 12. Springer 2008:67–75"
+    },
+    {
+      "key": "625_CR79",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-319-23105-1_4",
+      "volume-title": "The independent cascade and linear threshold models",
+      "author": "P Shakarian",
+      "year": "2015",
+      "unstructured": "Shakarian P, Bhatnagar A, Aleali A, Shaabani E, Guo R, Shakarian P, Bhatnagar A, Aleali A, Shaabani E, Guo R (2015) The independent cascade and linear threshold models. Springer, Berlin"
+    },
+    {
+      "key": "625_CR80",
+      "volume-title": "Conflict and the web of group affiliations",
+      "author": "G Simmel",
+      "year": "1955",
+      "unstructured": "Simmel G (1955) Conflict and the web of group affiliations. The Free Press, Glencoe, IL"
+    },
+    {
+      "key": "625_CR81",
+      "doi-asserted-by": "publisher",
+      "first-page": "151",
+      "DOI": "10.1016/j.neucom.2021.04.084",
+      "volume": "453",
+      "author": "AK Singh",
+      "year": "2021",
+      "unstructured": "Singh AK, Kailasam L (2021) Link prediction-based influence maximization in online social networks. Neurocomputing 453:151–163",
+      "journal-title": "Neurocomputing"
+    },
+    {
+      "issue": "2",
+      "key": "625_CR82",
+      "doi-asserted-by": "publisher",
+      "first-page": "359",
+      "DOI": "10.1109/TKDE.2016.2620141",
+      "volume": "29",
+      "author": "G Song",
+      "year": "2016",
+      "unstructured": "Song G, Li Y, Chen X, He X, Tang J (2016) Influential node tracking on dynamic social network: an interchange greedy approach. IEEE Trans Knowl Data Eng 29(2):359–372",
+      "journal-title": "IEEE Trans Knowl Data Eng"
+    },
+    {
+      "issue": "6825",
+      "key": "625_CR83",
+      "doi-asserted-by": "publisher",
+      "first-page": "268",
+      "DOI": "10.1038/35065725",
+      "volume": "410",
+      "author": "SH Strogatz",
+      "year": "2001",
+      "unstructured": "Strogatz SH (2001) Exploring complex networks. Nature 410(6825):268–276",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "625_CR84",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Tang Y, Xiao X, Shi Y (2014) Influence maximization: near-optimal time complexity meets practical efficiency. In: Proceedings of the 2014 ACM SIGMOD international conference on management of data, pp 75–86",
+      "DOI": "10.1145/2588555.2593670"
+    },
+    {
+      "key": "625_CR85",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Tang Y, Shi Y, Xiao X (2015) Influence maximization in near-linear time: a martingale approach. In: Proceedings of the 2015 ACM SIGMOD international conference on management of data, ser. SIGMOD ’15. New York, NY, USA: Association for Computing Machinery, pp 1539–1554. https://doi.org/10.1145/2723372.2723734",
+      "DOI": "10.1145/2723372.2723734"
+    },
+    {
+      "key": "625_CR86",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.1007/s41019-020-00117-1",
+      "volume": "5",
+      "author": "S Tian",
+      "year": "2020",
+      "unstructured": "Tian S, Mo S, Wang L, Peng Z (2020) Deep reinforcement learning-based approach to tackle topic-aware influence maximization. Data Sci Eng 5:1–11",
+      "journal-title": "Data Sci Eng"
+    },
+    {
+      "issue": "1",
+      "key": "625_CR87",
+      "doi-asserted-by": "publisher",
+      "first-page": "112",
+      "DOI": "10.1109/TNET.2016.2563397",
+      "volume": "25",
+      "author": "G Tong",
+      "year": "2016",
+      "unstructured": "Tong G, Wu W, Tang S, Du D-Z (2016) Adaptive influence maximization in dynamic social networks. IEEE/ACM Trans Netw 25(1):112–125",
+      "journal-title": "IEEE/ACM Trans Netw"
+    },
+    {
+      "issue": "4",
+      "key": "625_CR88",
+      "doi-asserted-by": "publisher",
+      "first-page": "2323",
+      "DOI": "10.1007/s11280-019-00748-z",
+      "volume": "23",
+      "author": "X Wang",
+      "year": "2020",
+      "unstructured": "Wang X, Deng K, Li J, Yu JX, Jensen CS, Yang X (2020) Efficient targeted influence minimization in big social networks. World Wide Web 23(4):2323–2340",
+      "journal-title": "World Wide Web"
+    },
+    {
+      "key": "625_CR89",
+      "unstructured": "Wang S, Zhao X, Chen Y, Li Z, Zhang K, Xia J (2013) Negative influence minimizing by blocking nodes in social networks. In: Proceedings of the 17th AAAI conference on late-breaking developments in the field of artificial intelligence, pp 134–136"
+    },
+    {
+      "key": "625_CR90",
+      "unstructured": "Wang Y, Zhu J, Ming Q (2017) Incremental influence maximization for dynamic social networks. In: Data science: third international conference of pioneering computer scientists, engineers and educators, ICPCSEE (2017) Changsha, China, September 22–24, 2017, Proceedings, Part II. Springer 2017:13–27"
+    },
+    {
+      "key": "625_CR91",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Wang Y, Fan Q, Li Y, Tan K-L (2017) Real-time influence maximization on dynamic social streams. arXiv preprint arXiv:1702.01586",
+      "DOI": "10.14778/3067421.3067429"
+    },
+    {
+      "issue": "10",
+      "key": "625_CR92",
+      "doi-asserted-by": "publisher",
+      "first-page": "2168",
+      "DOI": "10.1109/TKDE.2017.2728064",
+      "volume": "29",
+      "author": "B Wang",
+      "year": "2017",
+      "unstructured": "Wang B, Chen G, Fu L, Song L, Wang X (2017) Drimux: dynamic rumor influence minimization with user experience in social networks. IEEE Trans Knowl Data Eng 29(10):2168–2181",
+      "journal-title": "IEEE Trans Knowl Data Eng"
+    },
+    {
+      "issue": "9",
+      "key": "625_CR93",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.isci.2022.104956",
+      "volume": "25",
+      "author": "M Waniek",
+      "year": "2022",
+      "unstructured": "Waniek M, Holme P, Cebrian M, Rahwan T (2022) Social diffusion sources can escape detection. iScience 25(9):104956",
+      "journal-title": "iScience"
+    },
+    {
+      "key": "625_CR94",
+      "unstructured": "Wilder B, Yadav A, Immorlica N, Rice E, Tambe M(2017) Uncharted but not uninfluenced: influence maximization with an uncertain network. In: Proceedings of the 16th conference on autonomous agents and multiagent systems, pp 1305–1313"
+    },
+    {
+      "key": "625_CR95",
+      "first-page": "1414",
+      "volume": "18",
+      "author": "B Wilder",
+      "year": "2018",
+      "unstructured": "Wilder B, Onasch-Vera L, Hudson J, Luna J, Wilson N, Petering R, Woo D, Tambe M, Rice E (2018) End-to-end influence maximization in the field. AAMAS 18:1414–1422",
+      "journal-title": "AAMAS"
+    },
+    {
+      "key": "625_CR96",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Wu X, Fu L, Meng J, Wang X (2019) Maximizing influence diffusion over evolving social networks. In: Proceedings of the fourth international workshop on social sensing, pp 6–11",
+      "DOI": "10.1145/3313294.3313382"
+    },
+    {
+      "key": "625_CR97",
+      "unstructured": "Xu B, Liu L (2010) Information diffusion through online social networks. In: 2010 IEEE international conference on emergency management and management sciences. IEEE, pp 53–56"
+    },
+    {
+      "key": "625_CR98",
+      "first-page": "740",
+      "volume": "16",
+      "author": "A Yadav",
+      "year": "2016",
+      "unstructured": "Yadav A, Chan H, Jiang AX, Xu H, Rice E, Tambe M (2016) Using social networks to aid homeless shelters: dynamic influence maximization under uncertainty. AAMAS 16:740–748",
+      "journal-title": "AAMAS"
+    },
+    {
+      "key": "625_CR99",
+      "unstructured": "Yadav A, Wilder B, Rice E, Petering R, Craddock J, Yoshioka-Maxwell A, Hemler M, Onasch-Vera L, Tambe M, Woo D (2017) Influence maximization in the field: the arduous journey from emerging to deployed application. In: Proceedings of the 16th conference on autonomous agents and multiagent systems, pp 150–158"
+    },
+    {
+      "key": "625_CR100",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Yadav A, Wilder B, Rice E, Petering R, Craddock J, Yoshioka-Maxwell A, Hemler M, Onasch-Vera L, Tambe M, Woo D (2018) Bridging the gap between theory and practice in influence maximization: raising awareness about hiv among homeless youth. In: IJCAI, pp 5399–5403",
+      "DOI": "10.24963/ijcai.2018/761"
+    },
+    {
+      "issue": "1",
+      "key": "625_CR101",
+      "doi-asserted-by": "publisher",
+      "first-page": "70",
+      "DOI": "10.1007/s41109-023-00594-z",
+      "volume": "8",
+      "author": "E Yanchenko",
+      "year": "2023",
+      "unstructured": "Yanchenko E, Murata T, Holme P (2023) Link prediction for ex ante influence maximization on temporal networks. Appl Net Sci 8(1):70",
+      "journal-title": "Appl Net Sci"
+    },
+    {
+      "issue": "11",
+      "key": "625_CR102",
+      "doi-asserted-by": "publisher",
+      "first-page": "2615",
+      "DOI": "10.1109/TKDE.2017.2734667",
+      "volume": "29",
+      "author": "Y Yang",
+      "year": "2017",
+      "unstructured": "Yang Y, Wang Z, Pei J, Chen E (2017) Tracking influential individuals in dynamic networks. IEEE Trans Knowl Data Eng 29(11):2615–2628",
+      "journal-title": "IEEE Trans Knowl Data Eng"
+    },
+    {
+      "issue": "3",
+      "key": "625_CR103",
+      "first-page": "1045",
+      "volume": "33",
+      "author": "Y Yang",
+      "year": "2019",
+      "unstructured": "Yang Y, Pei J (2019) Influence analysis in evolving networks: a survey. IEEE Trans Knowl Data Eng 33(3):1045–1063",
+      "journal-title": "IEEE Trans Knowl Data Eng"
+    },
+    {
+      "key": "625_CR104",
+      "doi-asserted-by": "publisher",
+      "first-page": "10",
+      "DOI": "10.1016/j.automatica.2018.10.053",
+      "volume": "100",
+      "author": "L Yang",
+      "year": "2019",
+      "unstructured": "Yang L, Li Z, Giua A (2019) Influence minimization in linear threshold networks. Automatica 100:10–16",
+      "journal-title": "Automatica"
+    },
+    {
+      "key": "625_CR105",
+      "doi-asserted-by": "publisher",
+      "first-page": "439",
+      "DOI": "10.1007/s40747-020-00212-w",
+      "volume": "7",
+      "author": "Q Zhang",
+      "year": "2021",
+      "unstructured": "Zhang Q, Lu J, Jin Y (2021) Artificial intelligence in recommender systems. Complex Intell Syst 7:439–457",
+      "journal-title": "Complex Intell Syst"
+    },
+    {
+      "issue": "1",
+      "key": "625_CR106",
+      "doi-asserted-by": "publisher",
+      "first-page": "718",
+      "DOI": "10.14778/1687627.1687709",
+      "volume": "2",
+      "author": "Y Zhou",
+      "year": "2009",
+      "unstructured": "Zhou Y, Cheng H, Yu JX (2009) Graph clustering based on structural/attribute similarities. Proc VLDB Endow 2(1):718–729",
+      "journal-title": "Proc VLDB Endow"
+    },
+    {
+      "key": "625_CR107",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Zhuang H, Sun Y, Tang J, Zhang J, Sun X (2013) Influence maximization in dynamic social networks. In: 2013 IEEE 13th international conference on data mining. IEEE, pp 1313–1318",
+      "DOI": "10.1109/ICDM.2013.145"
+    }
+  ],
+  "container-title": [
+    "Applied Network Science"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://link.springer.com/content/pdf/10.1007/s41109-024-00625-3.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://link.springer.com/article/10.1007/s41109-024-00625-3/fulltext.html",
+      "content-type": "text/html",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://link.springer.com/content/pdf/10.1007/s41109-024-00625-3.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2024,
+        5,
+        21
+      ]
+    ],
+    "date-time": "2024-05-21T11:33:39Z",
+    "timestamp": 1716291219000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://appliednetsci.springeropen.com/articles/10.1007/s41109-024-00625-3"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2024,
+        5,
+        21
+      ]
+    ]
+  },
+  "references-count": 107,
+  "journal-issue": {
+    "issue": "1",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          12
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "625"
+  ],
+  "URL": "https://doi.org/10.1007/s41109-024-00625-3",
+  "relation": {},
+  "ISSN": [
+    "2364-8228"
+  ],
+  "issn-type": [
+    {
+      "value": "2364-8228",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2024,
+        5,
+        21
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "13 December 2023",
+      "order": 1,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "13 May 2024",
+      "order": 2,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "21 May 2024",
+      "order": 3,
+      "name": "first_online",
+      "label": "First Online",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "order": 1,
+      "name": "Ethics",
+      "group": {
+        "name": "EthicsHeading",
+        "label": "Declarations"
+      }
+    },
+    {
+      "value": "The authors declare no conflict of interest.",
+      "order": 2,
+      "name": "Ethics",
+      "group": {
+        "name": "EthicsHeading",
+        "label": "Conflict of interest"
+      }
+    }
+  ],
+  "article-number": "16"
+}

@@ -1,0 +1,20 @@
+{
+  "mode": "selection",
+  "train_fraction": 0.6,
+  "seed": 46,
+  "config": {
+    "epochs": 10,
+    "hidden_channels": 32,
+    "layers": 1,
+    "learning_rate": 0.01,
+    "decoder": "concat_mlp"
+  },
+  "metrics": {
+    "auc": 0.6509675265541703,
+    "average_precision": 0.7633794217776588,
+    "brier": 0.20046771119088094,
+    "ece_10_bins": 0.10324941993413694,
+    "inverse_probability_auc": 0.34903247344582966
+  },
+  "positives": 4238
+}

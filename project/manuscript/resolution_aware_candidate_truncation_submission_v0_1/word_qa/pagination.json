@@ -1,0 +1,98 @@
+[
+  {
+    "page": 1,
+    "characters": 3710,
+    "start": "1\nSelection Resolution Changes Candidate-Truncation Conclusions\nin Simulated Influence Maximization\nJiayue Sun",
+    "end": "mulation of Kempe et al. [1] and efficient\nsampling-based optimization represented by Tang et al. [2]. The present experiment concerns an enumerative,"
+  },
+  {
+    "page": 2,
+    "characters": 4586,
+    "start": "2\nfinite-world greedy implementation. Its comparator is the stored greedy trace at a specified simulation budg",
+    "end": "etwork influence maximization explicitly\nconsiders evolving interactions [11], whereas our timestamp split supplies an aggregated historical topology."
+  },
+  {
+    "page": 3,
+    "characters": 1852,
+    "start": "3\nEmpirically motivated influence models can change seed-selection conclusions [15]; contact observations alon",
+    "end": " budget. For a seed set \ud835, let \ud835(\ud835; \ud835 ) be its simulated spread\nin world \ud835 . Selection uses the finite-world objective\n\ud835\u0000\ud835 (\ud835) = 1\n\ud835 \u2211\ud835 \u2208\ud835 \ud835 \ud835(\ud835; \ud835 )."
+  },
+  {
+    "page": 4,
+    "characters": 3100,
+    "start": "4\nStarting from the empty set, greedy selection adds the available node that maximizes this objective after ad",
+    "end": "n\nevidence across networks\nDecision time What computation is saved in the tested\nimplementation?\nDepends on timing scope, hardware, and\nimplementation"
+  },
+  {
+    "page": 5,
+    "characters": 2390,
+    "start": "5\nFor timing, the measured interval includes greedy enumeration and final independent evaluation. Data prepara",
+    "end": "d comes from evaluation. Diagram tiles are\nschematic. Conditions sharing data or worlds are dependent comparisons, not independent network replicates."
+  },
+  {
+    "page": 6,
+    "characters": 3670,
+    "start": "6\n3.1 Networks and simulated diffusion\nWe use four SocioPatterns contact datasets: the 2013 and 2015 workplace",
+    "end": "s, each with a fresh selection cache and\na separate evaluation cache. Each arm is timed once per condition. The reported times therefore describe this"
+  },
+  {
+    "page": 7,
+    "characters": 2707,
+    "start": "7\nexecution order and implementation; repeated timing trials and randomized arm order were not part of the\npro",
+    "end": "tes of a population success probability. The analysis also does not\nequate a small point estimate of spread loss with established utility equivalence."
+  },
+  {
+    "page": 8,
+    "characters": 2523,
+    "start": "8\nPost-hoc diagnostics\nAfter inspecting the confirmation summaries, we computed additional diagnostics from th",
+    "end": "ge counts. The 14 individual tie trajectories are shown by\nnetwork and seed budget in Fig. 4; individual trajectories need not decrease monotonically."
+  },
+  {
+    "page": 9,
+    "characters": 1792,
+    "start": "9\nFig. 3 Fewer pooled ties coexist with changes in final seed sets. (a) The proportion of greedy rounds with m",
+    "end": " 4\ud835 80 4/14 2 2/12 66.2%\nDegree 4\ud835 320 4/14 2 2/12 72.4%\nDegree 8\ud835 20 6/14 4 2/10 32.8%\nDegree 8\ud835 80 5/14 4 1/10 41.2%\nDegree 8\ud835 320 7/14 4 3/10 45.6%"
+  },
+  {
+    "page": 10,
+    "characters": 1986,
+    "start": "10\nActual candidate coverage qualifies these nominal-pool totals. At \ud835 = 20, the 4\ud835 pool covers all 75 Kenya n",
+    "end": "gate agreement counts into individual conditions, making the successful and failed\ncomparisons visible for each network, seed budget, and random path."
+  },
+  {
+    "page": 11,
+    "characters": 1852,
+    "start": "11\nFig. 5 Complete same-budget ordered-agreement matrix. Rows identify all 14 network\u2013seed-budget\u2013path blocks;",
+    "end": " networks and seed budgets. Figure 6 pairs each held-out difference with its measured time\nsaving, exposing variation concealed by aggregate averages."
+  },
+  {
+    "page": 12,
+    "characters": 1320,
+    "start": "12\nFig. 6 Condition-level computation\u2013utility trade-off at three selection resolutions. Each panel shows 14 co",
+    "end": "onotonic convergence: individual\nblocks can become less similar, and no tested block has identical final membership across either adjacent\ntransition."
+  },
+  {
+    "page": 13,
+    "characters": 1062,
+    "start": "13\nFig. 7 Post-hoc seed-set diagnostics from frozen full-greedy outputs. (a) Final-set Jaccard similarity for ",
+    "end": "ing actual coverage from nominal pool labels prevents full-search controls from being mistaken for\nevidence that a reduced search space is sufficient."
+  },
+  {
+    "page": 14,
+    "characters": 2306,
+    "start": "14\nFig. 8 Post-hoc conditional evaluation uncertainty at 320 selection worlds. Points show candidate-minus-ful",
+    "end": ", the pools use only weighted degree,\nand the graph instances come from four contact datasets. The experiment does not establish that the same pattern"
+  },
+  {
+    "page": 15,
+    "characters": 4232,
+    "start": "15\nholds for other rankings, diffusion models, parameter regimes, or larger networks. Increasing the world cou",
+    "end": "data-preparation code, data cards, source hashes, frozen protocol, immutable source\nsnapshot, condition-level outputs, validator and analysis scripts."
+  },
+  {
+    "page": 16,
+    "characters": 3606,
+    "start": "16\nCode availability: [Insert an archival repository DOI or persistent URL after the authors create and verify",
+    "end": " (2017) Debunking the myths of influence maximization: an in-depth benchmarking study. In:\nSIGMOD, pp 651\u2013666. https://doi.org/10.1145/3035918.3035924"
+  }
+]

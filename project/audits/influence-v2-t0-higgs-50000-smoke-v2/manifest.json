@@ -1,0 +1,22 @@
+{
+  "protocol": {
+    "influence_v2_t0_preregistration.md": "e81bdf10f309f80784092ab6416c7a6dcc14c3329ae513e588a17ac5b8723686"
+  },
+  "inputs": {
+    "nodes.csv": "04560116149c19d1bd7f0dcdaad6b70dbbaa32cf1932cab9221c2aeebfac8e57",
+    "edges.csv": "5178d5be13faf6b0875b584e936d24d8043112dcc1b25b0b49ea95dc17f5b7f9",
+    "cascades.csv": "d503d39922201baa8dd018c187beb7500c5cf5910ce745c948478525f867b552"
+  },
+  "frozen_input_verification": {
+    "manifest": "reproducibility\\frozen-study-manifest-v1.json",
+    "verified": true
+  },
+  "source": {
+    "pipeline_v2_t0.py": "6d321005eb81fa132f54d967349eddf981ecd3921145ab24721aa3dc4c893d55",
+    "model_v2.py": "33ba30f22b47760f4960064bc90b987636fe4f530c970fa174718dbddb735316",
+    "run_rolling_study_v2_t0.py": "7d2dc79baa86e6695a6c958dc44d8d0f61270cd489d3d6a062a1c57be402935b"
+  },
+  "runs": {
+    "split-0.60-seed-42.json": "c7c487aa813c7f3fbea4778fca2b12aadcd48ac5de9526ce136a486d9ff723b9"
+  }
+}

@@ -1,0 +1,8 @@
+{"dataset": "invs2013", "world_path": 301, "k": 5, "selection_world_count": 20, "path": "invs2013/k5/path-301-w20.json"}
+{"dataset": "invs2013", "world_path": 301, "k": 5, "selection_world_count": 80, "path": "invs2013/k5/path-301-w80.json"}
+{"dataset": "invs2013", "world_path": 301, "k": 5, "selection_world_count": 320, "path": "invs2013/k5/path-301-w320.json"}
+{"dataset": "invs2013", "world_path": 301, "k": 20, "selection_world_count": 20, "path": "invs2013/k20/path-301-w20.json"}
+{"dataset": "invs2013", "world_path": 301, "k": 20, "selection_world_count": 80, "path": "invs2013/k20/path-301-w80.json"}
+{"dataset": "invs2013", "world_path": 301, "k": 20, "selection_world_count": 320, "path": "invs2013/k20/path-301-w320.json"}
+{"dataset": "invs2013", "world_path": 302, "k": 5, "selection_world_count": 20, "path": "invs2013/k5/path-302-w20.json"}
+{"dataset": "invs2013", "world_path": 302, "k": 5, "selection_world_count": 80, "path": "invs2013/k5/path-302-w80.json"}

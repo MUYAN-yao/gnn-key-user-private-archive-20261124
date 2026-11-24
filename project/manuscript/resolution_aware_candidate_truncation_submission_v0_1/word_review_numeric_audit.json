@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "conditions": 42,
+  "rounds_per_budget": 160,
+  "table4": [
+    {
+      "W": 20,
+      "pool": "degree_2k",
+      "matches": 0,
+      "saturated": 0,
+      "restricted_matches": 0,
+      "restricted_conditions": 14
+    },
+    {
+      "W": 20,
+      "pool": "degree_4k",
+      "matches": 4,
+      "saturated": 2,
+      "restricted_matches": 2,
+      "restricted_conditions": 12
+    },
+    {
+      "W": 20,
+      "pool": "degree_8k",
+      "matches": 6,
+      "saturated": 4,
+      "restricted_matches": 2,
+      "restricted_conditions": 10
+    },
+    {
+      "W": 80,
+      "pool": "degree_2k",
+      "matches": 0,
+      "saturated": 0,
+      "restricted_matches": 0,
+      "restricted_conditions": 14
+    },
+    {
+      "W": 80,
+      "pool": "degree_4k",
+      "matches": 4,
+      "saturated": 2,
+      "restricted_matches": 2,
+      "restricted_conditions": 12
+    },
+    {
+      "W": 80,
+      "pool": "degree_8k",
+      "matches": 5,
+      "saturated": 4,
+      "restricted_matches": 1,
+      "restricted_conditions": 10
+    },
+    {
+      "W": 320,
+      "pool": "degree_2k",
+      "matches": 0,
+      "saturated": 0,
+      "restricted_matches": 0,
+      "restricted_conditions": 14
+    },
+    {
+      "W": 320,
+      "pool": "degree_4k",
+      "matches": 4,
+      "saturated": 2,
+      "restricted_matches": 2,
+      "restricted_conditions": 12
+    },
+    {
+      "W": 320,
+      "pool": "degree_8k",
+      "matches": 7,
+      "saturated": 4,
+      "restricted_matches": 3,
+      "restricted_conditions": 10
+    }
+  ],
+  "figures": 8,
+  "tables": 4,
+  "cited_references": 16
+}

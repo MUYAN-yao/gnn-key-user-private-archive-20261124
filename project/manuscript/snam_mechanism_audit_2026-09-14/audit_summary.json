@@ -1,0 +1,306 @@
+{
+  "integrity": {
+    "run_hashes": 30,
+    "input_hashes": 3,
+    "recorded_source_hashes": 4,
+    "csv_rows": 480,
+    "contrasts_checked": 36,
+    "source_limit": "graph.py and validation.py were not listed in the original v3 source manifest; current versions recorded below"
+  },
+  "groups": [
+    {
+      "fraction": 0.6,
+      "n": 10,
+      "selected_sets": {
+        "88,677": 1,
+        "88,1988": 9
+      },
+      "same_as_prior_top2": 1,
+      "screen_seconds": {
+        "n": 10,
+        "mean": 13.2483545,
+        "sd": 4.927480883525537,
+        "min": 8.475115,
+        "max": 25.681557,
+        "median": 12.31436
+      },
+      "full_seconds": {
+        "n": 10,
+        "mean": 3014.1338220000002,
+        "sd": 820.6760790363358,
+        "min": 2051.15593,
+        "max": 4844.808043,
+        "median": 2908.9098805
+      },
+      "ratio_of_mean_times": 227.5100520596728,
+      "audit_minus_greedy_J": {
+        "n": 10,
+        "mean": -260.8307226,
+        "sd": 244.2848679993882,
+        "min": -906.771614,
+        "max": 0.0,
+        "median": -228.81466999999998
+      }
+    },
+    {
+      "fraction": 0.65,
+      "n": 10,
+      "selected_sets": {
+        "88,1988": 10
+      },
+      "same_as_prior_top2": 1,
+      "screen_seconds": {
+        "n": 10,
+        "mean": 14.326091700000001,
+        "sd": 2.270106897494039,
+        "min": 10.923516,
+        "max": 17.289636,
+        "median": 14.362020000000001
+      },
+      "full_seconds": {
+        "n": 10,
+        "mean": 3452.9325538000003,
+        "sd": 443.9068168093127,
+        "min": 2734.013529,
+        "max": 3974.973493,
+        "median": 3493.1921965
+      },
+      "ratio_of_mean_times": 241.0240438290647,
+      "audit_minus_greedy_J": {
+        "n": 10,
+        "mean": -169.2004768,
+        "sd": 92.24148626523424,
+        "min": -269.926023,
+        "max": 0.0,
+        "median": -188.9619540000001
+      }
+    },
+    {
+      "fraction": 0.7,
+      "n": 10,
+      "selected_sets": {
+        "88,677": 1,
+        "88,1988": 9
+      },
+      "same_as_prior_top2": 3,
+      "screen_seconds": {
+        "n": 10,
+        "mean": 24.501155400000002,
+        "sd": 7.875746275517531,
+        "min": 12.983028,
+        "max": 35.582226,
+        "median": 22.920631
+      },
+      "full_seconds": {
+        "n": 10,
+        "mean": 5962.273645,
+        "sd": 1832.7499103184846,
+        "min": 3243.068098,
+        "max": 8184.878446,
+        "median": 5962.100005
+      },
+      "ratio_of_mean_times": 243.34663193067212,
+      "audit_minus_greedy_J": {
+        "n": 10,
+        "mean": -140.07121500000002,
+        "sd": 107.39564379071535,
+        "min": -287.1861709999994,
+        "max": 0.0,
+        "median": -167.81938600000012
+      }
+    }
+  ],
+  "graph_stats": [
+    {
+      "fraction": 0.6,
+      "nodes": 33529,
+      "edges": 26187,
+      "outgoing_nodes": 4265,
+      "isolates": 11830,
+      "retained_event_rows": 27795
+    },
+    {
+      "fraction": 0.65,
+      "nodes": 33529,
+      "edges": 28321,
+      "outgoing_nodes": 4603,
+      "isolates": 10211,
+      "retained_event_rows": 30112
+    },
+    {
+      "fraction": 0.7,
+      "nodes": 33529,
+      "edges": 30438,
+      "outgoing_nodes": 4861,
+      "isolates": 8698,
+      "retained_event_rows": 32428
+    }
+  ],
+  "structural_ranks": [
+    {
+      "fraction": 0.6,
+      "node": "88",
+      "weighted_out_degree_rank": 1,
+      "out_degree_rank": 1,
+      "pagerank_rank": 16640,
+      "out_degree": 1243,
+      "weighted_out_degree": 659.5433151351725
+    },
+    {
+      "fraction": 0.6,
+      "node": "1988",
+      "weighted_out_degree_rank": 4,
+      "out_degree_rank": 4,
+      "pagerank_rank": 23230,
+      "out_degree": 632,
+      "weighted_out_degree": 458.6732468811209
+    },
+    {
+      "fraction": 0.6,
+      "node": "677",
+      "weighted_out_degree_rank": 2,
+      "out_degree_rank": 2,
+      "pagerank_rank": 1541,
+      "out_degree": 750,
+      "weighted_out_degree": 659.1316435672585
+    },
+    {
+      "fraction": 0.65,
+      "node": "88",
+      "weighted_out_degree_rank": 1,
+      "out_degree_rank": 1,
+      "pagerank_rank": 17150,
+      "out_degree": 1353,
+      "weighted_out_degree": 730.2446274477759
+    },
+    {
+      "fraction": 0.65,
+      "node": "1988",
+      "weighted_out_degree_rank": 4,
+      "out_degree_rank": 4,
+      "pagerank_rank": 24300,
+      "out_degree": 693,
+      "weighted_out_degree": 490.1160301580509
+    },
+    {
+      "fraction": 0.65,
+      "node": "677",
+      "weighted_out_degree_rank": 2,
+      "out_degree_rank": 2,
+      "pagerank_rank": 1677,
+      "out_degree": 796,
+      "weighted_out_degree": 650.2164606701149
+    },
+    {
+      "fraction": 0.7,
+      "node": "88",
+      "weighted_out_degree_rank": 1,
+      "out_degree_rank": 1,
+      "pagerank_rank": 18310,
+      "out_degree": 1634,
+      "weighted_out_degree": 1000.5887186087131
+    },
+    {
+      "fraction": 0.7,
+      "node": "1988",
+      "weighted_out_degree_rank": 4,
+      "out_degree_rank": 5,
+      "pagerank_rank": 25325,
+      "out_degree": 710,
+      "weighted_out_degree": 477.4741710185363
+    },
+    {
+      "fraction": 0.7,
+      "node": "677",
+      "weighted_out_degree_rank": 2,
+      "out_degree_rank": 2,
+      "pagerank_rank": 1754,
+      "out_degree": 817,
+      "weighted_out_degree": 627.5076782164168
+    }
+  ],
+  "prior_rank_known": 35,
+  "prior_rank_bounded": 25,
+  "community_invariant_blocks": 90,
+  "risk_switch": {
+    "run_id": "split-0.70-seed-48",
+    "changed_arms": 3,
+    "base": {
+      "top_k": [
+        "88",
+        "1988"
+      ],
+      "mean_spread": 3218.05,
+      "spread_std": 241.754519,
+      "robust_objective": 3133.935918,
+      "community_coverage": 2
+    },
+    "alternative": {
+      "top_k": [
+        "88",
+        "677"
+      ],
+      "mean_spread": 3177.7,
+      "spread_std": 173.298904,
+      "robust_objective": 3056.390767,
+      "community_coverage": 2
+    },
+    "delta_mean": 40.350000000000364,
+    "delta_sd": 68.455615,
+    "pairwise_crossing_lambda": 0.5894330216739762,
+    "base_minus_alternative_at_lambda_035": 16.390534750000366,
+    "base_minus_alternative_at_lambda_070": -7.568930499999631,
+    "reporting_difference": 107.51109799999995
+  },
+  "missing_evidence": [
+    "full prior vectors and candidate lists",
+    "per-round runner-up scores and tie counts",
+    "saved edge probabilities/model checkpoints",
+    "separate training and preprocessing timers"
+  ],
+  "hashes": {
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\split-0.60-seed-42.json": "7ab8e2062d29ecd294c2d8131c7ee1f93cf6e6724917536b4544eb8cdf8bff1f",
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\split-0.60-seed-43.json": "c6e89f44fb0ce142bd2077daad018d72d7329df4f5f695381a59e2c1df7cb1cd",
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\split-0.60-seed-44.json": "812f54cf5b07b96aa3cb7a83134e54f7d30b46182a2d13802ccc103be4d951c3",
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\split-0.60-seed-45.json": "e4b4948ae3ddce2d68b96076fd302236927ae33fd14ee85df291269cac7a23c5",
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\split-0.60-seed-46.json": "a32273ab158e95b529da0d30d46b50737baafbc700576cf752c509328675d62b",
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\split-0.60-seed-47.json": "c7e0170f864e037f3833a2e210b73721a63ef58ec1358271a95df8dd51b4ffa9",
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\split-0.60-seed-48.json": "c4a2ff5f8e105f69256279c39be878d971d1794890d4b4230348e8f0d200db4d",
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\split-0.60-seed-49.json": "ce2dc9f2c9b1745230c9b42ee362d10e76f69807a9c81efde0648cb4be119a50",
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\split-0.60-seed-50.json": "0c037be4ebf89c9a51581b5a2bf5887049fccd7488ea08e09ca30730a9fb5ad3",
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\split-0.60-seed-51.json": "a6307ba00ecef197ecea4ee2816c2e747722fb3d47a08e70279ce81f0c08265a",
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\split-0.65-seed-42.json": "985a92cdd5b8b6a2168ae68d17e6c6cd750bf14e8b777d1135f1f17988163581",
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\split-0.65-seed-43.json": "a52f70617ef8cbabdcc725d50d0ce8cd69e96759450eeff279c320cfcb21569f",
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\split-0.65-seed-44.json": "122816120bf9268e618a970976a7a63561b58e16f94866cba848ed05549cf5e5",
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\split-0.65-seed-45.json": "7ab28ccc36601a890b0c9d076bd58dbbb944b4ec356895fee43d4f41e05fbd26",
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\split-0.65-seed-46.json": "f40ca37509d274263cfdcf3aefc8ec9a34604e3c952c743136b6436a061b822a",
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\split-0.65-seed-47.json": "ef7597ae14bf2df585325c43305893f7e7dfb1fc2cc9699b26b3acbd25927aaf",
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\split-0.65-seed-48.json": "98f588e2122b7489c5efea419aa9f826eb83770a0e679e8d990414ded80b6142",
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\split-0.65-seed-49.json": "ea243f7b2bb69431f4ad8a718874efcefe4e4b8857dc586863a51f261bb3f136",
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\split-0.65-seed-50.json": "b5d7984099f6a1cea84766df68413e8fcc1d293ad901c419f250cece40674e31",
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\split-0.65-seed-51.json": "ffc23247ab0206900918299752f9b98416a1b0ad1cd47683936196ad09505ea1",
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\split-0.70-seed-42.json": "3c2ff6d3c261f0db262311a48831974777a398bf9f556ff14087c9d975c3172d",
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\split-0.70-seed-43.json": "d098d6ecc106dbca9835d17d12ace42a9d80a7deeceb1c164483971a9f288f4a",
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\split-0.70-seed-44.json": "b72262d030215bed3f7bed1103c98df6c7e23867cb94f45e1259d6f8ade5e33a",
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\split-0.70-seed-45.json": "a03193db8ed7e7a698ed2733ece0fd8c32ab7be1840d3327569ed81688d78d7d",
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\split-0.70-seed-46.json": "0be83ff8f018ebaeb9e6f17e47410dd9a5abe051050d533c994f464980a64f29",
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\split-0.70-seed-47.json": "8445b7e2c3b57cde223207f4d9f27790430db19da9d446fbb297c743e291abb2",
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\split-0.70-seed-48.json": "a50fc9c4e375fefd702da9b11462cde85bf0d20ab84d78f90ef7ffcd4ceee452",
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\split-0.70-seed-49.json": "0110d48cb13aa7987a9a262b5788b582eaef008c81f38774315c024a9820a1ed",
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\split-0.70-seed-50.json": "d8e9c9d8492c8cec2186f0e0a23fdf9f56edf77c9a0541d5bee4cde50a37664b",
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\split-0.70-seed-51.json": "9755ab50a094e27c270446819cfc056d1dbeffb50c489b9635ab5f59c25f8c20",
+    "data\\processed\\higgs-twitter\\pilot-50000\\nodes.csv": "04560116149c19d1bd7f0dcdaad6b70dbbaa32cf1932cab9221c2aeebfac8e57",
+    "data\\processed\\higgs-twitter\\pilot-50000\\edges.csv": "5178d5be13faf6b0875b584e936d24d8043112dcc1b25b0b49ea95dc17f5b7f9",
+    "data\\processed\\higgs-twitter\\pilot-50000\\cascades.csv": "d503d39922201baa8dd018c187beb7500c5cf5910ce745c948478525f867b552",
+    "experiments\\run_v3_fairness_sensitivity.py": "942d1c5f7393be17170502192e8faf3ee83461fa42d5ef38f9eaa9cf1574979e",
+    "backend\\app\\pipeline_v2_t0.py": "6d321005eb81fa132f54d967349eddf981ecd3921145ab24721aa3dc4c893d55",
+    "backend\\app\\pipeline_v2_t0b.py": "54ec7169056fcef066c4840e8d1e025bbbce0730168430d09ca21635be8a814f",
+    "backend\\app\\model_v2.py": "33ba30f22b47760f4960064bc90b987636fe4f530c970fa174718dbddb735316",
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\influence_v3_fairness_sensitivity_preregistration.md": "4ee2c0f4c062ee374771b9ec859f66221bc20e02ae278a762b707b5b583a1985",
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\manifest.json": "4aa0b33e39d99707815a0c27c20a71958a1aa3e464a696905a0425758cd7142b",
+    "results\\large-robust-greedy-higgs-50000-v3-fairness-sensitivity\\method_metrics.csv": "678014a584fc5726c861eda9d47a9f62c06f8ce6ee33723ebf44780d2293a93e",
+    "analysis\\v3-fairness-sensitivity-strict-paired-v1\\paired_comparisons.json": "328a78fb9e72a3abb043579d1a36f17fd92c09144a4c86c3dbd7655ee949067a",
+    "backend\\app\\graph.py": "8faef93d5ae47af21db01234da18188b3789ed2e087cd8acf8ab202e78f3b424",
+    "backend\\app\\validation.py": "2d2431583d8fe4e3c35ab29959bd50f3ab096eb47a7843f36bcce16b8dc52df1"
+  }
+}

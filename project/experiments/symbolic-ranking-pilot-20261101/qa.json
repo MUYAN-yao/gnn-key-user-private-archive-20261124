@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "checks": [
+    "directed cascade hand check",
+    "exact tie picks lexicographic index",
+    "copied engine byte identity",
+    "PR score parity against installed NetworkX",
+    "complete frozen matrix counts",
+    "nonmissing bounded utility and stability",
+    "no violated numerical sufficient certificates",
+    "10000 evaluation worlds in every graph"
+  ],
+  "networkx_parity": [
+    {
+      "graph": "college_msg",
+      "max_score_difference_networkx": 1.734723475976807e-18,
+      "default_pool20_matches_legacy": true
+    },
+    {
+      "graph": "ca_grqc",
+      "max_score_difference_networkx": 3.2526065174565133e-19,
+      "default_pool20_matches_legacy": true
+    },
+    {
+      "graph": "wiki_vote",
+      "max_score_difference_networkx": 1.0842021724855044e-18,
+      "default_pool20_matches_legacy": true
+    }
+  ]
+}

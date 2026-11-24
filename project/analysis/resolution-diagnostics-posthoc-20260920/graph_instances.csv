@@ -1,0 +1,5 @@
+dataset,nodes,directed_edges,k,conditions
+invs2013,91,1238,5;20,12
+invs2015,212,6938,5;20,12
+kenya2012,75,1044,5;20,12
+sfhh2009,402,11856,5,6

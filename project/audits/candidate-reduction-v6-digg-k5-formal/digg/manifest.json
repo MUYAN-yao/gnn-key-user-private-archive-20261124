@@ -1,0 +1,73 @@
+{
+  "study_version": "v6-digg-k5-candidate-reduction",
+  "artifact_schema": "v6-digg-k5-1",
+  "dataset_id": "digg",
+  "execution_mode": "formal",
+  "formal_batch": true,
+  "not_eligible_for_inference": false,
+  "protocol": {
+    "influence_v6_digg_k5_preregistration.md": "9b2b5c7b771276a195872eb5165537746887609d9ef992509952d19ab7d75ce4"
+  },
+  "inputs": {
+    "nodes.csv": "b1ee9740805a04f594c8e0f1ee102131f7ba1db661fef4992d83a9f80769cb56",
+    "edges.csv": "95b4163488e4ae690eba7e42f839db27c0a61cda0d13f6733783694152b16d67",
+    "cascades.csv": "18fe5afa3196de05e6757e6c1015d6dcc434f4740d28db51be44021ce778c246"
+  },
+  "source_snapshot": {
+    "snapshot_dir": "E:\\大学\\校创\\基于GNN的关键用户识别\\reproducibility\\v6-source-snapshots\\digg-k5-v6-20260918-r1",
+    "snapshot_id": "8e1f2d93f882d5be1cad",
+    "manifest_name": "snapshot_manifest.json",
+    "manifest_sha256": "797e9863811e0d0587b94e6e25f3286609e3eeac43c8fd1d10f82888d7919c9b",
+    "file_count": 18
+  },
+  "expected_run_ids": [
+    "seed-74",
+    "seed-75",
+    "seed-76",
+    "seed-77",
+    "seed-78",
+    "seed-79",
+    "seed-80",
+    "seed-81",
+    "seed-82",
+    "seed-83"
+  ],
+  "runs": {
+    "seed-74.json": "c284172d5e4fb1ee334bc97928af4f8f6a6e69b64d0474a8902045924d7a2f87",
+    "seed-75.json": "d76490ea29434cb54cb66881ccc4bb1c741ddee9b2f2663a4aca531d17a77174",
+    "seed-76.json": "d4cce802107eb9a12ca9a1c3551cf974f7b0be8d08e3a4ed55c66bfada879b32",
+    "seed-77.json": "599bdf80b4e5e8d614c65dffa62cdfbbb835a524176fdbc26cc8c79efe411e1f",
+    "seed-78.json": "df60bac5903c7e6ab80b00ed05635e5d06e2a46293e2150c9209fb251aeec77a",
+    "seed-79.json": "b098dfc03aff12eaea6b9e7731f88b83fb3dc475c07d4f9ca8ffc60d211ce6fd",
+    "seed-80.json": "645c586f90c16aa6479bc838bd22119634e3b528877e307fb019f2c46504e60c",
+    "seed-81.json": "cbb1eb22622ec2df69f6a15ea5bb01cb71122eee7326a633c7b575f73ffc2936",
+    "seed-82.json": "cc81c05e33c98d5eda40a8e0be5e0f9bac27d4cdf06f3e40f93e30941c07f1ac",
+    "seed-83.json": "ff967fcf743b104fef98065e73353a1db0bfa84373f2c3915fdd33aa39343ca9"
+  },
+  "run_parameters": {
+    "fraction": 0.65,
+    "seeds": [
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83
+    ],
+    "seed_count": 5,
+    "selection_world_count": 20,
+    "primary_evaluation_world_count": 100,
+    "stability_evaluation_world_count": 100,
+    "arms": [
+      "full_candidate",
+      "gnn_pool_30",
+      "gnn_pool_60",
+      "gnn_pool_120",
+      "weighted_out_degree_pool_120"
+    ]
+  }
+}

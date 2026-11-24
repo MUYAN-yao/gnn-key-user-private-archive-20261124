@@ -1,0 +1,10 @@
+{
+  "observations": 126,
+  "trajectory_blocks": 14,
+  "exclusions": 0,
+  "source_sha256": {
+    "candidate_condition_profile.csv": "00f09f6bf27bf683d192f81a956ee65f44a7d3c6f84c714ad2089c8d1cb200d2",
+    "full_trajectories.json": "108c0940be9001e5724343898dcdd4a1e59e9cfc80cced815a3b931832f6d9b1",
+    "summary.json": "096d3bae470f7fca64e2d14ada30c5b3a6dff6d186712212880b3b6e8ba20ef8"
+  }
+}

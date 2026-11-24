@@ -1,0 +1,28 @@
+{
+  "ratio_linear": {
+    "intercept": 0.2872744275886808,
+    "coefficients": [
+      0.34007545974380504
+    ]
+  },
+  "linear_structure": {
+    "intercept": 0.7226359644614021,
+    "coefficients": [
+      0.1966041035489727,
+      -0.36861296094068896,
+      -0.7470891264434858
+    ]
+  },
+  "symbolic": {
+    "expression": "x",
+    "nodes": 1,
+    "validation_mse": 0.02259589797138034,
+    "criterion": 0.024595897971380343,
+    "intercept": 0.2872744275886808,
+    "coefficient": [
+      0.34007545974380504
+    ],
+    "search_seconds": 0.8545279999962077
+  },
+  "selected_simple_on_validation": "linear_structure"
+}

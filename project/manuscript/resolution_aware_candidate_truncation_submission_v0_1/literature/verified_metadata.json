@@ -1,0 +1,828 @@
+[
+  {
+    "doi": "10.1145/1281192.1281239",
+    "title": [
+      "Cost-effective outbreak detection in networks"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2007,
+          8,
+          12
+        ]
+      ]
+    },
+    "abstract": "",
+    "authors": [
+      {
+        "given": "Jure",
+        "family": "Leskovec",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Carnegie Mellon University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andreas",
+        "family": "Krause",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Carnegie Mellon University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Carlos",
+        "family": "Guestrin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Carnegie Mellon University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christos",
+        "family": "Faloutsos",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Carnegie Mellon University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jeanne",
+        "family": "VanBriesen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Carnegie Mellon University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Natalie",
+        "family": "Glance",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nielsen BuzzMetrics"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "Proceedings of the 13th ACM SIGKDD international conference on Knowledge discovery and data mining"
+    ],
+    "volume": null,
+    "page": "420-429",
+    "article-number": null,
+    "bibtex": true
+  },
+  {
+    "doi": "10.1145/2505515.2505541",
+    "title": [
+      "StaticGreedy"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2013,
+          10,
+          27
+        ]
+      ]
+    },
+    "abstract": "",
+    "authors": [
+      {
+        "given": "Suqi",
+        "family": "Cheng",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Chinese Academy of Sciences, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Huawei",
+        "family": "Shen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Chinese Academy of Sciences, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Junming",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Chinese Academy of Sciences, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Guoqing",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Chinese Academy of Sciences, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xueqi",
+        "family": "Cheng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Chinese Academy of Sciences, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "Proceedings of the 22nd ACM international conference on Information &amp; Knowledge Management"
+    ],
+    "volume": null,
+    "page": "509-518",
+    "article-number": null,
+    "bibtex": true
+  },
+  {
+    "doi": "10.1109/TKDE.2018.2807843",
+    "title": [
+      "Influence Maximization on Social Graphs: A Survey"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2018,
+          10,
+          1
+        ]
+      ]
+    },
+    "abstract": "",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-9646-291X",
+        "authenticated-orcid": false,
+        "given": "Yuchen",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4729-9903",
+        "authenticated-orcid": false,
+        "given": "Ju",
+        "family": "Fan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7661-3917",
+        "authenticated-orcid": false,
+        "given": "Yanhao",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kian-Lee",
+        "family": "Tan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "IEEE Transactions on Knowledge and Data Engineering"
+    ],
+    "volume": "30",
+    "page": "1852-1872",
+    "article-number": null,
+    "bibtex": true
+  },
+  {
+    "doi": "10.1145/3604559",
+    "title": [
+      "A Survey on Influence Maximization: From an ML-Based Combinatorial Optimization"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          18
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Influence Maximization (IM) is a classical combinatorial optimization problem, which can be widely used in mobile networks, social computing, and recommendation systems. It aims at selecting a small number of users such that maximizing the influence spread across the online social network. Because of its potential commercial and academic value, there are a lot of researchers focusing on studying the IM problem from different perspectives. The main challenge comes from the NP-hardness of the IM problem and #P-hardness of estimating the influence spread, thus traditional algorithms for overcoming them can be categorized into two classes: heuristic algorithms and approximation algorithms. However, there is no theoretical guarantee for heuristic algorithms, and the theoretical design is close to the limit. Therefore, it is almost impossible to further optimize and improve their performance.</jats:p>\n                  <jats:p>With the rapid development of artificial intelligence, technologies based on Machine Learning (ML) have achieved remarkable achievements in many fields. In view of this, in recent years, a number of new methods have emerged to solve combinatorial optimization problems by using ML-based techniques. These methods have the advantages of fast solving speed and strong generalization ability to unknown graphs, which provide a brand-new direction for solving combinatorial optimization problems. Therefore, we abandon the traditional algorithms based on iterative search and review the recent development of ML-based methods, especially Deep Reinforcement Learning, to solve the IM problem and other variants in social networks. We focus on summarizing the relevant background knowledge, basic principles, common methods, and applied research. Finally, the challenges that need to be solved urgently in future IM research are pointed out.</jats:p>",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0009-0004-5996-2172",
+        "authenticated-orcid": false,
+        "given": "Yandi",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science, BNU-HKBU United International College, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0005-0967-1331",
+        "authenticated-orcid": false,
+        "given": "Haobo",
+        "family": "Gao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science, BNU-HKBU United International College, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0002-5232-8166",
+        "authenticated-orcid": false,
+        "given": "Yunxuan",
+        "family": "Gao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science, BNU-HKBU United International College, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0994-3297",
+        "authenticated-orcid": false,
+        "given": "Jianxiong",
+        "family": "Guo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Advanced Institute of Natural Sciences, Beijing Normal University, China and Guangdong Key Lab of AI and Multi-Modal Data Processing, BNU-HKBU United International College, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8747-6340",
+        "authenticated-orcid": false,
+        "given": "Weili",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science, The University of Texas at Dallas, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "ACM Transactions on Knowledge Discovery from Data"
+    ],
+    "volume": "17",
+    "page": "1-50",
+    "article-number": null,
+    "bibtex": true
+  },
+  {
+    "doi": "10.1007/s41109-024-00625-3",
+    "title": [
+      "Influence maximization on temporal networks: a review"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          21
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Influence maximization (IM) is an important topic in network science where a small seed set is chosen to maximize the spread of influence on a network. Recently, this problem has attracted attention on temporal networks where the network structure changes with time. IM on such dynamically varying networks is the topic of this review. We first categorize methods into two main paradigms: single and multiple seeding. In single seeding, nodes activate at the beginning of the diffusion process, and most methods either efficiently estimate the influence spread and select nodes with a greedy algorithm, or use a node-ranking heuristic. Nodes activate at different time points in the multiple seeding problem, via either sequential seeding, maintenance seeding or node probing paradigms. Throughout this review, we give special attention to deploying these algorithms in practice while also discussing existing solutions for real-world applications. We conclude by sharing important future research directions and challenges.</jats:p>",
+    "authors": [
+      {
+        "given": "Eric",
+        "family": "Yanchenko",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tsuyoshi",
+        "family": "Murata",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Petter",
+        "family": "Holme",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "Applied Network Science"
+    ],
+    "volume": "9",
+    "page": null,
+    "article-number": "16",
+    "bibtex": true
+  },
+  {
+    "doi": "10.1007/s00607-019-00778-5",
+    "title": [
+      "A neighbour scale fixed approach for influence maximization in social networks"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          6
+        ]
+      ]
+    },
+    "abstract": "",
+    "authors": [
+      {
+        "given": "Xiaobin",
+        "family": "Rui",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Xiaodong",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jianping",
+        "family": "Fan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Zhixiao",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "Computing"
+    ],
+    "volume": "102",
+    "page": "427-449",
+    "article-number": null,
+    "bibtex": true
+  },
+  {
+    "doi": "10.1007/s00607-023-01207-4",
+    "title": [
+      "Influence maximization in social networks based on discrete harris hawks optimization algorithm"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          21
+        ]
+      ]
+    },
+    "abstract": "",
+    "authors": [
+      {
+        "given": "Chencheng",
+        "family": "Fan",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Zhixiao",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jian",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jiayu",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Xiaobin",
+        "family": "Rui",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "Computing"
+    ],
+    "volume": "106",
+    "page": "327-351",
+    "article-number": null,
+    "bibtex": true
+  },
+  {
+    "doi": "10.1007/s40747-024-01666-y",
+    "title": [
+      "Influence maximization under imbalanced heterogeneous networks via lightweight reinforcement learning with prior knowledge"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          15
+        ]
+      ]
+    },
+    "abstract": "",
+    "authors": [
+      {
+        "given": "Kehong",
+        "family": "You",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Sanyang",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7658-934X",
+        "authenticated-orcid": false,
+        "given": "Yiguang",
+        "family": "Bai",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "Complex &amp; Intelligent Systems"
+    ],
+    "volume": "11",
+    "page": null,
+    "article-number": "40",
+    "bibtex": true
+  },
+  {
+    "doi": "10.1038/s41562-018-0346-z",
+    "title": [
+      "Social influence maximization under empirical influence models"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2018,
+          5,
+          21
+        ]
+      ]
+    },
+    "abstract": "",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2762-058X",
+        "authenticated-orcid": false,
+        "given": "Sinan",
+        "family": "Aral",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Paramveer S.",
+        "family": "Dhillon",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "Nature Human Behaviour"
+    ],
+    "volume": "2",
+    "page": "375-382",
+    "article-number": null,
+    "bibtex": true
+  },
+  {
+    "doi": "10.1145/3035918.3035924",
+    "title": [
+      "Debunking the Myths of Influence Maximization"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2017,
+          5,
+          9
+        ]
+      ]
+    },
+    "abstract": "",
+    "authors": [
+      {
+        "given": "Akhil",
+        "family": "Arora",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Xerox Research Centre India, Bangalore, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sainyam",
+        "family": "Galhotra",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Massachusetts, Amherst, MA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sayan",
+        "family": "Ranu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Indian Institute of Technology, Delhi, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "Proceedings of the 2017 ACM International Conference on Management of Data"
+    ],
+    "volume": null,
+    "page": "651-666",
+    "article-number": null,
+    "bibtex": true
+  }
+]

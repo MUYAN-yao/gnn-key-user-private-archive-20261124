@@ -1,0 +1,48 @@
+{
+  "figures": {
+    "fig-02-method-mechanism": {
+      "width_mm": 183.0000055948893,
+      "pixels": [
+        4322,
+        2490
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "fig-06-v1-future-auc": {
+      "width_mm": 183.0000055948893,
+      "pixels": [
+        4322,
+        2190
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "exact_source_value_match": true
+    },
+    "fig-07-t0-outer-auc": {
+      "width_mm": 183.0000055948893,
+      "pixels": [
+        4322,
+        2190
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "exact_source_value_match": true
+    }
+  },
+  "document": {
+    "inline_figures": 10,
+    "pages": 20,
+    "figure_pages": {
+      "2": 6,
+      "6": 11,
+      "7": 11
+    }
+  }
+}

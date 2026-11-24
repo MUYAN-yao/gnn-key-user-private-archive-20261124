@@ -1,0 +1,59 @@
+{
+  "study_version": "v4-screening-formal",
+  "formal_batch": false,
+  "smoke_test": true,
+  "not_eligible_for_inference": true,
+  "protocol": {
+    "influence_v4_screening_formal_preregistration.md": "75608fee489ec9bac6ff4c7ec897845e9d4e0ed2c1c445225db51add6c8490ba"
+  },
+  "inputs": {
+    "nodes.csv": "04560116149c19d1bd7f0dcdaad6b70dbbaa32cf1932cab9221c2aeebfac8e57",
+    "edges.csv": "5178d5be13faf6b0875b584e936d24d8043112dcc1b25b0b49ea95dc17f5b7f9",
+    "cascades.csv": "d503d39922201baa8dd018c187beb7500c5cf5910ce745c948478525f867b552"
+  },
+  "frozen_input_verification": {
+    "manifest": "reproducibility\\frozen-study-manifest-v1.json",
+    "verified": true
+  },
+  "source": {
+    "run_v4_screening_formal.py": "6b1fe27d01135a9558eae144638aab590c0daa9fd2f417e8d31e487b961c9dc4",
+    "influence_v4_screening_formal_preregistration.md": "75608fee489ec9bac6ff4c7ec897845e9d4e0ed2c1c445225db51add6c8490ba",
+    "run_v4_screening_diagnostic.py": "9599f04c4f2ed3541e984959a69c62613f1c7445942a4bd99e5f29f28fcadbad",
+    "run_v3_fairness_sensitivity.py": "942d1c5f7393be17170502192e8faf3ee83461fa42d5ef38f9eaa9cf1574979e",
+    "pipeline_v2_t0.py": "6d321005eb81fa132f54d967349eddf981ecd3921145ab24721aa3dc4c893d55",
+    "pipeline_v2_t0b.py": "54ec7169056fcef066c4840e8d1e025bbbce0730168430d09ca21635be8a814f",
+    "model_v2.py": "33ba30f22b47760f4960064bc90b987636fe4f530c970fa174718dbddb735316",
+    "graph.py": "8faef93d5ae47af21db01234da18188b3789ed2e087cd8acf8ab202e78f3b424",
+    "validation.py": "2d2431583d8fe4e3c35ab29959bd50f3ab096eb47a7843f36bcce16b8dc52df1"
+  },
+  "run_parameters": {
+    "fractions": [
+      0.6
+    ],
+    "seeds": [
+      52
+    ],
+    "pool_size": 16,
+    "selection_world_count": 20,
+    "evaluation_world_count": 20,
+    "arms": [
+      "gnn_prior",
+      "weighted_out_degree",
+      "pagerank",
+      "uniform_random"
+    ]
+  },
+  "expected_run_ids": [
+    "split-0.60-seed-52"
+  ],
+  "runs": {
+    "split-0.60-seed-52.json": "952346d32da27d1d45d729e629be91601239a11a2242394778aeaaa489947a42"
+  },
+  "environment": {
+    "python": "3.13.0 | packaged by conda-forge | (main, Nov 27 2024, 19:03:49) [MSC v.1942 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.3.3",
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8"
+  }
+}

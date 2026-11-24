@@ -1,0 +1,38 @@
+{
+  "schema": "candidate-truncation-preflight-0.1",
+  "study": "candidate-truncation-evaluation-preflight-v0_1",
+  "dataset": "higgs_pilot1500",
+  "development_only": true,
+  "outcome_blind": true,
+  "status": "COMPLETED_NO_OUTCOME_RECORDED",
+  "input_sha256": {
+    "nodes.csv": "0cecf44e905c99e293aa55a4dcee2ff39ab38658bd6d8097d655c6e31aa2df57",
+    "edges.csv": "d70356f279584df09beec26cbec23c379cb2f75cfecef875cd09461de118ed91",
+    "cascades.csv": "337cb498f0ba985bb39c8b3006db35cd479a1098218899ee9b935a4d7e239918"
+  },
+  "history_fraction": 0.65,
+  "history_cutoff": "2012-07-01T14:45:01+00:00",
+  "timestamp_group_count": 1039,
+  "selection_world_count": 4,
+  "selection_world_sha256": "0ae4bb0311897ddd9076edcc3d90f66f32cceea22af8afc58cce26394a278f6a",
+  "horizon": 4,
+  "edge_probability": 0.05,
+  "seed_budget": 5,
+  "graph": {
+    "historical_nodes": 850,
+    "historical_edges": 720,
+    "self_loops_removed": 40,
+    "duplicate_events_collapsed": 33,
+    "community_count": 219
+  },
+  "warnings": [
+    "Self-loops retained; they are ignored by diffusion simulation.",
+    "Duplicate cascade events were retained for audit; they are collapsed in feature building."
+  ],
+  "full_reference": {
+    "completed": true,
+    "candidate_world_evaluations": 16960,
+    "elapsed_seconds": 0.750535,
+    "selection_or_objective_recorded": false
+  }
+}

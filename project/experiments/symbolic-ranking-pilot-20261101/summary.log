@@ -1,0 +1,89 @@
+PR real default       graph   m  replacements          gap  residual  iterations
+college_msg  20             0 6.635875e-05  0.000498           9
+college_msg  72             0 3.919946e-06  0.000498           9
+    ca_grqc  20             2 8.082744e-07  0.003867          12
+    ca_grqc 263             3 3.066564e-07  0.003867          12
+  wiki_vote  20             1 4.631195e-06  0.001687           5
+  wiki_vote 356             1 3.957538e-07  0.001687           5
+MC restricted summary       instability  same_order
+W                            
+80       0.634127    0.016667
+320      0.529497    0.066667
+1280     0.475000    0.133333
+ties W
+80      0.266667
+320     0.100000
+1280    0.043333
+transitions             count  set_changed  order_changed  distinguishable
+arm                                                           
+full           12            7             11                6
+restricted    120          100            115               54
+REAL transitions       graph        arm  path  W_from  W_to  set_jaccard  order_equal  spread_from  spread_to   delta       se       low     high  distinguishable
+college_msg       full  4101      80   320     0.666667        False      14.8033    15.0193  0.2160 0.024170  0.168627 0.263373             True
+college_msg       full  4101     320  1280     1.000000        False      15.0193    15.0193  0.0000 0.000000  0.000000 0.000000            False
+college_msg       full  4102      80   320     0.666667        False      14.8273    15.0193  0.1920 0.023986  0.144988 0.239012             True
+college_msg       full  4102     320  1280     1.000000         True      15.0193    15.0193  0.0000 0.000000  0.000000 0.000000            False
+college_msg restricted  4101      80   320     0.666667        False      13.8968    14.1613  0.2645 0.021629  0.222108 0.306892             True
+college_msg restricted  4101     320  1280     1.000000        False      14.1613    14.1613  0.0000 0.000000  0.000000 0.000000            False
+college_msg restricted  4102      80   320     1.000000        False      14.1613    14.1613  0.0000 0.000000  0.000000 0.000000            False
+college_msg restricted  4102     320  1280     1.000000        False      14.1613    14.1613  0.0000 0.000000  0.000000 0.000000            False
+college_msg restricted  4103      80   320     0.666667        False      13.9755    14.1613  0.1858 0.021326  0.144001 0.227599             True
+college_msg restricted  4103     320  1280     1.000000         True      14.1613    14.1613  0.0000 0.000000  0.000000 0.000000            False
+college_msg restricted  4104      80   320     0.666667        False      13.9372    14.0906  0.1534 0.022381  0.109533 0.197267             True
+college_msg restricted  4104     320  1280     0.666667        False      14.0906    14.1613  0.0707 0.022948  0.025721 0.115679             True
+    ca_grqc       full  4101      80   320     0.428571        False       9.7332     9.9616  0.2284 0.027683  0.174141 0.282659             True
+    ca_grqc       full  4101     320  1280     1.000000        False       9.9616     9.9616  0.0000 0.000000  0.000000 0.000000            False
+    ca_grqc       full  4102      80   320     0.250000        False       9.3017     9.8979  0.5962 0.033263  0.531005 0.661395             True
+    ca_grqc       full  4102     320  1280     0.666667        False       9.8979     9.8713 -0.0266 0.019961 -0.065723 0.012523            False
+    ca_grqc restricted  4101      80   320     0.666667        False       9.8677     9.9616  0.0939 0.019624  0.055438 0.132362             True
+    ca_grqc restricted  4101     320  1280     1.000000        False       9.9616     9.9616  0.0000 0.000000  0.000000 0.000000            False
+    ca_grqc restricted  4102      80   320     0.666667        False       9.9289     9.9616  0.0327 0.019707 -0.005926 0.071326            False
+    ca_grqc restricted  4102     320  1280     0.666667        False       9.9616     9.9289 -0.0327 0.019707 -0.071326 0.005926            False
+    ca_grqc restricted  4103      80   320     1.000000        False       9.9616     9.9616  0.0000 0.000000  0.000000 0.000000            False
+    ca_grqc restricted  4103     320  1280     1.000000         True       9.9616     9.9616  0.0000 0.000000  0.000000 0.000000            False
+    ca_grqc restricted  4104      80   320     0.666667        False       9.9289     9.9616  0.0327 0.019707 -0.005926 0.071326            False
+    ca_grqc restricted  4104     320  1280     0.666667        False       9.9616     9.9289 -0.0327 0.019707 -0.071326 0.005926            False
+  wiki_vote       full  4101      80   320     0.666667        False      58.5776    60.5403  1.9627 0.069760  1.825971 2.099429             True
+  wiki_vote       full  4101     320  1280     1.000000        False      60.5403    60.5403  0.0000 0.000000  0.000000 0.000000            False
+  wiki_vote       full  4102      80   320     0.666667        False      59.9177    60.5403  0.6226 0.072756  0.479998 0.765202             True
+  wiki_vote       full  4102     320  1280     1.000000        False      60.5403    60.5403  0.0000 0.000000  0.000000 0.000000            False
+  wiki_vote restricted  4101      80   320     0.666667        False      19.1882    19.4902  0.3020 0.025354  0.252307 0.351693             True
+  wiki_vote restricted  4101     320  1280     1.000000         True      19.4902    19.4902  0.0000 0.000000  0.000000 0.000000            False
+  wiki_vote restricted  4102      80   320     1.000000        False      19.4902    19.4902  0.0000 0.000000  0.000000 0.000000            False
+  wiki_vote restricted  4102     320  1280     1.000000        False      19.4902    19.4902  0.0000 0.000000  0.000000 0.000000            False
+  wiki_vote restricted  4103      80   320     1.000000        False      19.4902    19.4902  0.0000 0.000000  0.000000 0.000000            False
+  wiki_vote restricted  4103     320  1280     1.000000        False      19.4902    19.4902  0.0000 0.000000  0.000000 0.000000            False
+  wiki_vote restricted  4104      80   320     0.428571        False      18.8951    19.4902  0.5951 0.035758  0.525015 0.665185             True
+  wiki_vote restricted  4104     320  1280     1.000000        False      19.4902    19.4902  0.0000 0.000000  0.000000 0.000000            False
+cost       graph  pilot_seconds  median_selection
+college_msg       0.602313          0.020882
+    ca_grqc       0.023603          0.021818
+  wiki_vote       0.083850          0.043345
+       ER_0       0.001809          0.005646
+       ER_1       0.002269          0.005803
+       ER_2       0.003072          0.005902
+       BA_0       0.001751          0.007181
+       BA_1       0.002723          0.008224
+       BA_2       0.002892          0.009182
+      SBM_0       0.001436          0.005443
+      SBM_1       0.002436          0.005610
+      SBM_2       0.003869          0.006155
+       WS_0       0.001730          0.005148
+       WS_1       0.002075          0.005081
+       WS_2       0.002736          0.005295
+refs [('college_msg', {'residual14': 1.0648814078792479e-11, 'residual15': 1.090217407453617e-12, 'maxdiff14_15': 1.0661228844188742e-11, 'pool20_stable': True, 'pool5pct_stable': True}), ('ca_grqc', {'residual14': 4.401957459974166e-11, 'residual15': 3.825158173878778e-12, 'maxdiff14_15': 9.340563262086321e-13, 'pool20_stable': True, 'pool5pct_stable': True}), ('wiki_vote', {'residual14': 2.270313379296434e-11, 'residual15': 2.7766717215966553e-12, 'maxdiff14_15': 4.0512510880719166e-12, 'pool20_stable': True, 'pool5pct_stable': True}), ('ER_0', {'residual14': 4.740457158758371e-13, 'residual15': 6.82578993327354e-14, 'maxdiff14_15': 1.1237538677377756e-14, 'pool20_stable': True, 'pool5pct_stable': True}), ('ER_1', {'residual14': 9.188006258598058e-13, 'residual15': 7.947635605187742e-14, 'maxdiff14_15': 1.2156074757907476e-14, 'pool20_stable': True, 'pool5pct_stable': True}), ('ER_2', {'residual14': 9.710229582210461e-13, 'residual15': 1.6037280010927635e-13, 'maxdiff14_15': 9.798151873186e-15, 'pool20_stable': True, 'pool5pct_stable': True}), ('BA_0', {'residual14': 5.178435805164305e-13, 'residual15': 7.943559005019196e-14, 'maxdiff14_15': 1.5230872119076366e-14, 'pool20_stable': True, 'pool5pct_stable': True}), ('BA_1', {'residual14': 7.746130126218276e-13, 'residual15': 1.1838316785195424e-13, 'maxdiff14_15': 1.9137469386976136e-14, 'pool20_stable': True, 'pool5pct_stable': True}), ('BA_2', {'residual14': 1.0661241854614811e-12, 'residual15': 1.5677563414140394e-13, 'maxdiff14_15': 1.770632251929527e-14, 'pool20_stable': True, 'pool5pct_stable': True}), ('SBM_0', {'residual14': 1.1474243864079137e-12, 'residual15': 9.601737807618527e-14, 'maxdiff14_15': 7.392697565222761e-14, 'pool20_stable': True, 'pool5pct_stable': True}), ('SBM_1', {'residual14': 1.506341709353598e-12, 'residual15': 1.397469379799121e-13, 'maxdiff14_15': 4.7102079181460255e-14, 'pool20_stable': True, 'pool5pct_stable': True}), ('SBM_2', {'residual14': 1.909017648821232e-12, 'residual15': 2.325477050507674e-13, 'maxdiff14_15': 4.886022142436275e-14, 'pool20_stable': True, 'pool5pct_stable': True}), ('WS_0', {'residual14': 1.2003002758387282e-12, 'residual15': 1.2037766616845857e-13, 'maxdiff14_15': 1.0328630312139708e-13, 'pool20_stable': True, 'pool5pct_stable': True}), ('WS_1', {'residual14': 1.5418534504707537e-12, 'residual15': 1.6347860565257832e-13, 'maxdiff14_15': 9.660067884498247e-14, 'pool20_stable': True, 'pool5pct_stable': True}), ('WS_2', {'residual14': 2.2662431826969698e-12, 'residual15': 2.2238027391763282e-13, 'maxdiff14_15': 9.558022776023911e-14, 'pool20_stable': True, 'pool5pct_stable': True})]
+by graph models model      constant  linear_structure  ratio_linear  symbolic
+graph                                                        
+SBM_0      0.044452          0.061301      0.070711  0.070711
+SBM_1      0.084931          0.007869      0.016179  0.016179
+SBM_2      0.071938          0.051307      0.047810  0.047810
+WS_0       0.105036          0.031829      0.034338  0.034338
+WS_1       0.089628          0.019769      0.016765  0.016765
+WS_2       0.094867          0.033722      0.033362  0.033362
+ca_grqc    0.160482          0.032305      0.143806  0.143806
+wiki_vote  0.214686          0.036102      0.258621  0.258621
+TEST synthetic model
+constant            0.081809
+linear_structure    0.034299
+ratio_linear        0.036527
+symbolic            0.036527

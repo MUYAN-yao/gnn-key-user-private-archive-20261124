@@ -1,0 +1,4 @@
+run_id,train_fraction,random_seed,aco_mean_spread,aco_std_spread,aco_objective,aco_community_coverage,gnn_mean_spread,greedy_mean_spread,ris_mean_spread,runtime_seconds
+split-0.60-seed-42,0.6,42,55.4,2.871,54.895,2,57.4,55.8,55.8,3.283
+split-0.65-seed-42,0.65,42,56.0,1.095,55.867,1,57.2,86.2,87.4,3.523
+split-0.70-seed-42,0.7,42,85.6,2.577,84.948,1,86.8,117.6,117.0,3.507

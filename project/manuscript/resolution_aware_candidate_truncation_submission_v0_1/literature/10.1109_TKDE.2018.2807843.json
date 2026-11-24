@@ -1,0 +1,934 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        16
+      ]
+    ],
+    "date-time": "2026-09-16T12:13:50Z",
+    "timestamp": 1789560830974,
+    "version": "build-2803163510"
+  },
+  "reference-count": 117,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "issue": "10",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2018,
+            10,
+            1
+          ]
+        ],
+        "date-time": "2018-10-01T00:00:00Z",
+        "timestamp": 1538352000000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100001809",
+      "name": "National Natural Science Foundation of China (NSFC)",
+      "doi-asserted-by": "crossref",
+      "award": [
+        "61602488"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "61602488"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001809",
+          "id-type": "DOI",
+          "asserted-by": "crossref"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100001809",
+      "name": "National Natural Science Foundation of China (NSFC)",
+      "doi-asserted-by": "crossref",
+      "award": [
+        "61632016"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "61632016"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001809",
+          "id-type": "DOI",
+          "asserted-by": "crossref"
+        }
+      ]
+    },
+    {
+      "name": "Tencent Social Ads Rhino-Bird Focused Research"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "IEEE Trans. Knowl. Data Eng."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2018,
+        10,
+        1
+      ]
+    ]
+  },
+  "DOI": "10.1109/tkde.2018.2807843",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2018,
+        2,
+        22
+      ]
+    ],
+    "date-time": "2018-02-22T16:56:11Z",
+    "timestamp": 1519318571000
+  },
+  "page": "1852-1872",
+  "source": "Crossref",
+  "is-referenced-by-count": 573,
+  "title": [
+    "Influence Maximization on Social Graphs: A Survey"
+  ],
+  "prefix": "10.1109",
+  "volume": "30",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0001-9646-291X",
+      "authenticated-orcid": false,
+      "given": "Yuchen",
+      "family": "Li",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-4729-9903",
+      "authenticated-orcid": false,
+      "given": "Ju",
+      "family": "Fan",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-7661-3917",
+      "authenticated-orcid": false,
+      "given": "Yanhao",
+      "family": "Wang",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Kian-Lee",
+      "family": "Tan",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "263",
+  "reference": [
+    {
+      "key": "ref39",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1098/rspa.1927.0118"
+    },
+    {
+      "key": "ref38",
+      "first-page": "2026",
+      "article-title": "Anytime\n influence bounds and the explosive behavior of continuous-time diffusion networks",
+      "volume": "2",
+      "author": "scaman",
+      "year": "2015",
+      "journal-title": "Proc 28th Int Conf Neural Inf Process Syst"
+    },
+    {
+      "key": "ref33",
+      "first-page": "592",
+      "article-title": "Time-critical influence maximization in social networks with time-delayed diffusion process",
+      "author": "chen",
+      "year": "2012",
+      "journal-title": "Proc 26th AAAI Conf Artif Intell"
+    },
+    {
+      "key": "ref32",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1250790.1250811"
+    },
+    {
+      "key": "ref31",
+      "first-page": "1127",
+      "article-title": "Influential\n nodes in a diffusion model for social networks",
+      "author": "kempe",
+      "year": "2005",
+      "journal-title": "Proc 32nd Int Conf Automata Lang Program"
+    },
+    {
+      "key": "ref30",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICDM.2011.132"
+    },
+    {
+      "key": "ref37",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2623330.2623728"
+    },
+    {
+      "key": "ref36",
+      "first-page": "346",
+      "article-title": "Dynadiffuse: A dynamic diffusion model for\n continuous time constrained influence maximization",
+      "author": "xie",
+      "year": "2015",
+      "journal-title": "Proc 29th AAAI Conf Artif Intell"
+    },
+    {
+      "key": "ref35",
+      "first-page": "561",
+      "article-title": "Uncovering the temporal dynamics of diffusion networks",
+      "author": "rodriguez",
+      "year": "2011",
+      "journal-title": "Proc 28th Int Conf Mach Learn"
+    },
+    {
+      "key": "ref34",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICDM.2012.40"
+    },
+    {
+      "key": "ref28",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1086/226707"
+    },
+    {
+      "key": "ref27",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2318857.2254783"
+    },
+    {
+      "key": "ref29",
+      "author": "schelling",
+      "year": "1978",
+      "journal-title": "Micromotives and Macrobehavior"
+    },
+    {
+      "key": "ref20",
+      "article-title": "Refutations on",
+      "author": "lu",
+      "year": "1705",
+      "journal-title": "CoRR"
+    },
+    {
+      "key": "ref22",
+      "first-page": "67",
+      "article-title": "Prediction\n of information diffusion probabilities for independent cascade model",
+      "author": "saito",
+      "year": "2008",
+      "journal-title": "Proc Int Conf Knowl -Based Intell Inf Eng Syst"
+    },
+    {
+      "key": "ref21",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1023/A:1011122126881"
+    },
+    {
+      "key": "ref24",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2020408.2020492"
+    },
+    {
+      "key": "ref23",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1718487.1718518"
+    },
+    {
+      "key": "ref101",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2783258.2783271"
+    },
+    {
+      "key": "ref26",
+      "first-page": "3186",
+      "article-title": "Learnability of influence in networks",
+      "volume": "2",
+      "author": "narasimhan",
+      "year": "2015",
+      "journal-title": "Proc 28th Int Conf Neural Inf Process Syst"
+    },
+    {
+      "key": "ref100",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2817946.2817965"
+    },
+    {
+      "key": "ref25",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2487575.2487657"
+    },
+    {
+      "key": "ref50",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0020-0190(99)00031-9"
+    },
+    {
+      "key": "ref51",
+      "first-page": "5",
+      "article-title": "A note on the budgeted maximization of submodular functions",
+      "author": "krause",
+      "year": "2005"
+    },
+    {
+      "key": "ref59",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1557019.1557047"
+    },
+    {
+      "key": "ref58",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1835804.1835935"
+    },
+    {
+      "key": "ref57",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TKDE.2015.2419659"
+    },
+    {
+      "key": "ref56",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1963192.1963217"
+    },
+    {
+      "key": "ref55",
+      "first-page": "1256",
+      "article-title": "Stability of influence maximization",
+      "author": "he",
+      "year": "0"
+    },
+    {
+      "key": "ref54",
+      "first-page": "259",
+      "article-title": "Tractable models for information diffusion in social networks",
+      "author": "kimura",
+      "year": "2006",
+      "journal-title": "Proc 10th Eur Conf Principle Practice Knowl Discovery Databases"
+    },
+    {
+      "key": "ref53",
+      "first-page": "1999",
+      "article-title": "The pagerank citation ranking: Bringing\n order to the web",
+      "author": "page",
+      "year": "1999"
+    },
+    {
+      "key": "ref52",
+      "first-page": "127",
+      "article-title": "Simulated annealing based influence maximization in social networks",
+      "author": "jiang",
+      "year": "2011",
+      "journal-title": "Proc 25th AAAI Conf Artif Intell"
+    },
+    {
+      "key": "ref40",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/biomet/60.3.581"
+    },
+    {
+      "key": "ref4",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1963405.1963499"
+    },
+    {
+      "key": "ref3",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1281192.1281239"
+    },
+    {
+      "key": "ref6",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2348283.2348373"
+    },
+    {
+      "key": "ref5",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1137/1.9781611972825.40"
+    },
+    {
+      "key": "ref8",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.14778/2735703.2735706"
+    },
+    {
+      "key": "ref49",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/BF01588971"
+    },
+    {
+      "key": "ref7",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/956750.956769"
+    },
+    {
+      "key": "ref9",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICDM.2012.158"
+    },
+    {
+      "key": "ref46",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1835804.1835934"
+    },
+    {
+      "key": "ref45",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICDM.2010.118"
+    },
+    {
+      "key": "ref48",
+      "first-page": "313",
+      "article-title": "Influence maximization in continuous time diffusion networks",
+      "author": "gomez-rodriguez",
+      "year": "2012",
+      "journal-title": "Proc 29th Int Conf Mach Learn"
+    },
+    {
+      "key": "ref47",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1137/0208032"
+    },
+    {
+      "key": "ref42",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2433396.2433478"
+    },
+    {
+      "key": "ref41",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-540-77105-0_27"
+    },
+    {
+      "key": "ref44",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s10115-011-0396-2"
+    },
+    {
+      "key": "ref43",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TC.2013.2295802"
+    },
+    {
+      "key": "ref73",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.14778/2794367.2794376"
+    },
+    {
+      "key": "ref72",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/99.660313"
+    },
+    {
+      "key": "ref71",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0378-8733(78)90021-7"
+    },
+    {
+      "key": "ref70",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.14778/3099622.3099623"
+    },
+    {
+      "key": "ref76",
+      "first-page": "295",
+      "article-title": "Online topic-aware influence\n maximization queries",
+      "author": "aslay",
+      "year": "2014",
+      "journal-title": "Proc Extending Database Technol"
+    },
+    {
+      "key": "ref77",
+      "first-page": "1",
+      "article-title": "Real-time\n topic-aware influence maximization using preprocessing",
+      "author": "chen",
+      "year": "2015",
+      "journal-title": "Proc Int Conf Comput Soc Netw"
+    },
+    {
+      "key": "ref74",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/INFOCOM.2016.7524377"
+    },
+    {
+      "key": "ref75",
+      "first-page": "199",
+      "article-title": "Personalized influence maximization on social networks",
+      "author": "guo",
+      "year": "2013",
+      "journal-title": "Proc 2nd IEEE Int Conf Ind Info"
+    },
+    {
+      "key": "ref78",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3035918.3035952"
+    },
+    {
+      "key": "ref79",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2588555.2588561"
+    },
+    {
+      "key": "ref60",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TASE.2010.2052042"
+    },
+    {
+      "key": "ref62",
+      "first-page": "266",
+      "article-title": "Scalable and parallelizable\n processing of influence maximization for large-scale social networks?",
+      "author": "kim",
+      "year": "2013",
+      "journal-title": "Proc IEEE 29th Int Conf Data Eng"
+    },
+    {
+      "key": "ref61",
+      "first-page": "1371",
+      "article-title": "Extracting\n influential nodes for information diffusion on a social network",
+      "volume": "2",
+      "author": "kimura",
+      "year": "2007",
+      "journal-title": "Proc 22nd Nat Conf Artif Intell"
+    },
+    {
+      "key": "ref63",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICDM.2012.79"
+    },
+    {
+      "key": "ref64",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2600428.2609592"
+    },
+    {
+      "key": "ref65",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2661829.2662009"
+    },
+    {
+      "key": "ref66",
+      "first-page": "509",
+      "article-title": "Staticgreedy: Solving the scalability-accuracy dilemma in\n influence maximization",
+      "author": "cheng",
+      "year": "2013",
+      "journal-title": "Proc ACM Int Conf Inf Knowl Manag"
+    },
+    {
+      "key": "ref67",
+      "first-page": "138",
+      "article-title": "Fast and accurate\n influence maximization on large networks with pruned monte-carlo simulations",
+      "author": "ohsaka",
+      "year": "2014",
+      "journal-title": "Proc 28th AAAI Conf Artif Intell"
+    },
+    {
+      "key": "ref68",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2661829.2662077"
+    },
+    {
+      "key": "ref2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/502512.502525"
+    },
+    {
+      "key": "ref69",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1137/1.9781611973402.70"
+    },
+    {
+      "key": "ref1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2503792.2503797"
+    },
+    {
+      "key": "ref109",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2882903.2915250"
+    },
+    {
+      "key": "ref95",
+      "article-title": "Octopus: An online topic-aware influence analysis system for social networks",
+      "author": "fan",
+      "year": "2018",
+      "journal-title": "Proc Int Conf Data Eng"
+    },
+    {
+      "key": "ref108",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2723372.2723710"
+    },
+    {
+      "key": "ref94",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICDM.2012.122"
+    },
+    {
+      "key": "ref107",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2783258.2783392"
+    },
+    {
+      "key": "ref93",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1557019.1557108"
+    },
+    {
+      "key": "ref106",
+      "first-page": "539",
+      "article-title": "Threshold\n models for competitive influence in social networks",
+      "author": "borodin",
+      "year": "2010",
+      "journal-title": "Internet Economics"
+    },
+    {
+      "key": "ref92",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2983323.2983741"
+    },
+    {
+      "key": "ref105",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1282100.1282167"
+    },
+    {
+      "key": "ref91",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.14778/2850578.2850581"
+    },
+    {
+      "key": "ref104",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-540-77105-0_31"
+    },
+    {
+      "key": "ref90",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/INFOCOM.2016.7524472"
+    },
+    {
+      "key": "ref103",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.14778/3067421.3067429"
+    },
+    {
+      "key": "ref102",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TNET.2016.2563397"
+    },
+    {
+      "key": "ref111",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2939672.2939745"
+    },
+    {
+      "key": "ref112",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2433396.2433478"
+    },
+    {
+      "key": "ref110",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2939672.2939760"
+    },
+    {
+      "key": "ref98",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1137/1.9781611972825.55"
+    },
+    {
+      "key": "ref99",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICDM.2013.145"
+    },
+    {
+      "key": "ref96",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2983323.2983862"
+    },
+    {
+      "key": "ref97",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TKDE.2016.2621038"
+    },
+    {
+      "key": "ref10",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-1-4419-8462-3_7"
+    },
+    {
+      "key": "ref11",
+      "first-page": "37",
+      "article-title": "Recent\n advances in information diffusion and influence maximization in complex social networks",
+      "author": "zhang",
+      "year": "2014",
+      "journal-title": "Social Networks"
+    },
+    {
+      "key": "ref12",
+      "author": "chen",
+      "year": "2013",
+      "journal-title": "Information and Influence Propagation in Social Networks"
+    },
+    {
+      "key": "ref13",
+      "first-page": "651",
+      "article-title": "Debunking the\n myths of influence maximization: An in-depth benchmarking study",
+      "author": "arora",
+      "year": "2017",
+      "journal-title": "Proc ACM Int Conf Manage Data"
+    },
+    {
+      "key": "ref14",
+      "first-page": "1345",
+      "article-title": "Diffusion models and approaches for influence maximization in social networks",
+      "author": "tejaswi",
+      "year": "2016",
+      "journal-title": "Proc Int Conf Adv Comput Commun Informat"
+    },
+    {
+      "key": "ref15",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2588555.2593670"
+    },
+    {
+      "key": "ref16",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2723372.2723734"
+    },
+    {
+      "key": "ref82",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2983323.2983724"
+    },
+    {
+      "key": "ref117",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1177/002200275800200106"
+    },
+    {
+      "key": "ref17",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2882903.2915207"
+    },
+    {
+      "key": "ref81",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TKDE.2016.2633472"
+    },
+    {
+      "key": "ref18",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TKDE.2016.2624734"
+    },
+    {
+      "key": "ref84",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TKDE.2013.106"
+    },
+    {
+      "key": "ref19",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2882903.2882929"
+    },
+    {
+      "key": "ref83",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2806416.2806462"
+    },
+    {
+      "key": "ref114",
+      "first-page": "1057",
+      "article-title": "Submodular meets spectral: Greedy algorithms for subset selection, sparse approximation and dictionary\n selection",
+      "author": "das",
+      "year": "2011",
+      "journal-title": "Proc Int Conf Int Conf Mach Learn"
+    },
+    {
+      "key": "ref113",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1137/1.9781611972832.43"
+    },
+    {
+      "key": "ref116",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2487575.2487691"
+    },
+    {
+      "key": "ref80",
+      "first-page": "1",
+      "article-title": "Distance-aware influence maximization in\n geo-social network",
+      "author": "wang",
+      "year": "2016",
+      "journal-title": "Proc IEEE 32nd Int Conf Data Eng"
+    },
+    {
+      "key": "ref115",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2063576.2063721"
+    },
+    {
+      "key": "ref89",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.14778/2994509.2994525"
+    },
+    {
+      "key": "ref85",
+      "first-page": "3147",
+      "article-title": "Scalable influence estimation in\n continuous-time diffusion networks",
+      "volume": "2",
+      "author": "du",
+      "year": "2013",
+      "journal-title": "Proc 26th Int Conf Neural Inf Process Syst"
+    },
+    {
+      "key": "ref86",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2824253"
+    },
+    {
+      "key": "ref87",
+      "doi-asserted-by": "crossref",
+      "first-page": "132",
+      "DOI": "10.1007/978-3-319-46128-1_9",
+      "article-title": "Maximizing time-decaying\n influence in social networks",
+      "volume": "9851",
+      "author": "ohsaka",
+      "year": "2016",
+      "journal-title": "Proc Eur Conf Mach Learn Knowl Discovery Databases"
+    },
+    {
+      "key": "ref88",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1137/1.9781611974010.69"
+    }
+  ],
+  "container-title": [
+    "IEEE Transactions on Knowledge and Data Engineering"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "http://xplorestaging.ieee.org/ielx7/69/8458057/08295265.pdf?arnumber=8295265",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2022,
+        1,
+        26
+      ]
+    ],
+    "date-time": "2022-01-26T03:35:49Z",
+    "timestamp": 1643168149000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://ieeexplore.ieee.org/document/8295265/"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2018,
+        10,
+        1
+      ]
+    ]
+  },
+  "references-count": 117,
+  "journal-issue": {
+    "issue": "10"
+  },
+  "URL": "https://doi.org/10.1109/tkde.2018.2807843",
+  "relation": {},
+  "ISSN": [
+    "1041-4347",
+    "1558-2191",
+    "2326-3865"
+  ],
+  "issn-type": [
+    {
+      "value": "1041-4347",
+      "type": "print"
+    },
+    {
+      "value": "1558-2191",
+      "type": "electronic"
+    },
+    {
+      "value": "2326-3865",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2018,
+        10,
+        1
+      ]
+    ]
+  }
+}

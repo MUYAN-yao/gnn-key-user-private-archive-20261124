@@ -1,0 +1,157 @@
+{
+  "schema": "candidate-truncation-resolution-manifest-0.1",
+  "development_only": true,
+  "protocol": "candidate_truncation_resolution_development_protocol_v0_1.md",
+  "datasets": [
+    "digg_pilot5000",
+    "higgs_pilot1500"
+  ],
+  "seeds": [
+    104,
+    105
+  ],
+  "budgets": [
+    5,
+    20
+  ],
+  "world_counts": [
+    20,
+    80
+  ],
+  "methods": [
+    "full",
+    "degree_2k",
+    "degree_4k",
+    "degree_8k"
+  ],
+  "runs": [
+    {
+      "dataset": "digg_pilot5000",
+      "seed": 104,
+      "k": 5,
+      "selection_worlds": 20,
+      "path": "digg_pilot5000/k5/seed-104-w20.json",
+      "elapsed_seconds": 1.134532
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "seed": 104,
+      "k": 5,
+      "selection_worlds": 80,
+      "path": "digg_pilot5000/k5/seed-104-w80.json",
+      "elapsed_seconds": 2.915876
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "seed": 104,
+      "k": 20,
+      "selection_worlds": 20,
+      "path": "digg_pilot5000/k20/seed-104-w20.json",
+      "elapsed_seconds": 10.972526
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "seed": 104,
+      "k": 20,
+      "selection_worlds": 80,
+      "path": "digg_pilot5000/k20/seed-104-w80.json",
+      "elapsed_seconds": 46.901154
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "seed": 105,
+      "k": 5,
+      "selection_worlds": 20,
+      "path": "digg_pilot5000/k5/seed-105-w20.json",
+      "elapsed_seconds": 1.104754
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "seed": 105,
+      "k": 5,
+      "selection_worlds": 80,
+      "path": "digg_pilot5000/k5/seed-105-w80.json",
+      "elapsed_seconds": 3.065276
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "seed": 105,
+      "k": 20,
+      "selection_worlds": 20,
+      "path": "digg_pilot5000/k20/seed-105-w20.json",
+      "elapsed_seconds": 11.820407
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "seed": 105,
+      "k": 20,
+      "selection_worlds": 80,
+      "path": "digg_pilot5000/k20/seed-105-w80.json",
+      "elapsed_seconds": 46.099215
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "seed": 104,
+      "k": 5,
+      "selection_worlds": 20,
+      "path": "higgs_pilot1500/k5/seed-104-w20.json",
+      "elapsed_seconds": 5.509685
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "seed": 104,
+      "k": 5,
+      "selection_worlds": 80,
+      "path": "higgs_pilot1500/k5/seed-104-w80.json",
+      "elapsed_seconds": 19.24369
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "seed": 104,
+      "k": 20,
+      "selection_worlds": 20,
+      "path": "higgs_pilot1500/k20/seed-104-w20.json",
+      "elapsed_seconds": 64.302006
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "seed": 104,
+      "k": 20,
+      "selection_worlds": 80,
+      "path": "higgs_pilot1500/k20/seed-104-w80.json",
+      "elapsed_seconds": 256.733853
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "seed": 105,
+      "k": 5,
+      "selection_worlds": 20,
+      "path": "higgs_pilot1500/k5/seed-105-w20.json",
+      "elapsed_seconds": 5.574318
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "seed": 105,
+      "k": 5,
+      "selection_worlds": 80,
+      "path": "higgs_pilot1500/k5/seed-105-w80.json",
+      "elapsed_seconds": 18.952171
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "seed": 105,
+      "k": 20,
+      "selection_worlds": 20,
+      "path": "higgs_pilot1500/k20/seed-105-w20.json",
+      "elapsed_seconds": 63.746041
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "seed": 105,
+      "k": 20,
+      "selection_worlds": 80,
+      "path": "higgs_pilot1500/k20/seed-105-w80.json",
+      "elapsed_seconds": 249.643615
+    }
+  ]
+}

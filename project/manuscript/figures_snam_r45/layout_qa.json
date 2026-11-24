@@ -1,0 +1,34 @@
+{
+  "backend": "Python/matplotlib",
+  "width_mm": 183,
+  "figures": {
+    "fig-02-method-mechanism": {
+      "text_overlap_pairs": [],
+      "box_text_containment": "pass"
+    },
+    "fig-06-v1-future-auc": {
+      "source": "audits\\higgs-edge-prediction-v1\\audit_report.json",
+      "sha256": "de57e5591abf2e2b23664a8788c69421b79370969ca131fcf52b4a55647d5fdb",
+      "observations": 30,
+      "excluded": 0,
+      "means": {
+        "0.6": 0.6293822422318127,
+        "0.65": 0.6336079939478161,
+        "0.7": 0.6306206889597371
+      },
+      "legend_outside_axes": true
+    },
+    "fig-07-t0-outer-auc": {
+      "source": "audits\\edge-prediction-v2-t0-outer-test-v1\\report.json",
+      "sha256": "a85654a395114f18ef23cdf8996d387f7d80174ee3a6a24e9d90bc6438f17e10",
+      "observations": 30,
+      "excluded": 0,
+      "means": {
+        "0.6": 0.8228093941157543,
+        "0.65": 0.8332856877971434,
+        "0.7": 0.8416863963504779
+      },
+      "legend_outside_axes": true
+    }
+  }
+}

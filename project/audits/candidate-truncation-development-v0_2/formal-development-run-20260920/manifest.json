@@ -1,0 +1,133 @@
+{
+  "schema": "candidate-truncation-development-manifest-0.2",
+  "development_only": true,
+  "protocol": "candidate_truncation_development_protocol_v0_2.md",
+  "datasets": [
+    "digg_pilot5000",
+    "higgs_pilot1500"
+  ],
+  "seeds": [
+    101,
+    102,
+    103
+  ],
+  "budgets": [
+    5,
+    20
+  ],
+  "selection_worlds": 20,
+  "evaluation_worlds": 1000,
+  "methods": [
+    "full",
+    "degree_1k",
+    "degree_2k",
+    "degree_4k",
+    "degree_8k",
+    "degree_16k",
+    "pagerank_1k",
+    "pagerank_2k",
+    "pagerank_4k",
+    "pagerank_8k",
+    "pagerank_16k",
+    "degree_doubling"
+  ],
+  "runs": [
+    {
+      "dataset": "digg_pilot5000",
+      "k": 5,
+      "seed": 101,
+      "path": "digg_pilot5000/k5/seed-101.json",
+      "status": "completed",
+      "block_elapsed_seconds": 2.591851
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "k": 5,
+      "seed": 102,
+      "path": "digg_pilot5000/k5/seed-102.json",
+      "status": "completed",
+      "block_elapsed_seconds": 2.657334
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "k": 5,
+      "seed": 103,
+      "path": "digg_pilot5000/k5/seed-103.json",
+      "status": "completed",
+      "block_elapsed_seconds": 2.506376
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "k": 20,
+      "seed": 101,
+      "path": "digg_pilot5000/k20/seed-101.json",
+      "status": "completed",
+      "block_elapsed_seconds": 45.358763
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "k": 20,
+      "seed": 102,
+      "path": "digg_pilot5000/k20/seed-102.json",
+      "status": "completed",
+      "block_elapsed_seconds": 43.885926
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "k": 20,
+      "seed": 103,
+      "path": "digg_pilot5000/k20/seed-103.json",
+      "status": "completed",
+      "block_elapsed_seconds": 45.183863
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "k": 5,
+      "seed": 101,
+      "path": "higgs_pilot1500/k5/seed-101.json",
+      "status": "completed",
+      "block_elapsed_seconds": 8.222492
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "k": 5,
+      "seed": 102,
+      "path": "higgs_pilot1500/k5/seed-102.json",
+      "status": "completed",
+      "block_elapsed_seconds": 8.088152
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "k": 5,
+      "seed": 103,
+      "path": "higgs_pilot1500/k5/seed-103.json",
+      "status": "completed",
+      "block_elapsed_seconds": 7.875129
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "k": 20,
+      "seed": 101,
+      "path": "higgs_pilot1500/k20/seed-101.json",
+      "status": "completed",
+      "block_elapsed_seconds": 141.900802
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "k": 20,
+      "seed": 102,
+      "path": "higgs_pilot1500/k20/seed-102.json",
+      "status": "completed",
+      "block_elapsed_seconds": 101.141693
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "k": 20,
+      "seed": 103,
+      "path": "higgs_pilot1500/k20/seed-103.json",
+      "status": "completed",
+      "block_elapsed_seconds": 94.353426
+    }
+  ],
+  "total_elapsed_seconds": 504.217164
+}

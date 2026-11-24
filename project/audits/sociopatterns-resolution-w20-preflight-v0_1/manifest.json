@@ -1,0 +1,55 @@
+{
+  "schema": "sociopatterns-resolution-w20-preflight-0.1",
+  "outcome_blind": true,
+  "world_count": 20,
+  "runs": [
+    {
+      "dataset": "invs2013",
+      "k": 5,
+      "path": "invs2013-k5.json",
+      "elapsed_seconds": 0.657059
+    },
+    {
+      "dataset": "invs2013",
+      "k": 20,
+      "path": "invs2013-k20.json",
+      "elapsed_seconds": 5.720528
+    },
+    {
+      "dataset": "invs2015",
+      "k": 5,
+      "path": "invs2015-k5.json",
+      "elapsed_seconds": 4.418506
+    },
+    {
+      "dataset": "invs2015",
+      "k": 20,
+      "path": "invs2015-k20.json",
+      "elapsed_seconds": 54.064258
+    },
+    {
+      "dataset": "sfhh2009",
+      "k": 5,
+      "path": "sfhh2009-k5.json",
+      "elapsed_seconds": 13.539423
+    },
+    {
+      "dataset": "sfhh2009",
+      "k": 20,
+      "path": "sfhh2009-k20.json",
+      "elapsed_seconds": 157.813947
+    },
+    {
+      "dataset": "kenya2012",
+      "k": 5,
+      "path": "kenya2012-k5.json",
+      "elapsed_seconds": 0.455844
+    },
+    {
+      "dataset": "kenya2012",
+      "k": 20,
+      "path": "kenya2012-k20.json",
+      "elapsed_seconds": 3.999124
+    }
+  ]
+}

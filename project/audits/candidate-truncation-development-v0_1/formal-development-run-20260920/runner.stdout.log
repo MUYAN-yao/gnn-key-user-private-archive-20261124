@@ -1,0 +1,3 @@
+{"dataset": "higgs_pilot1500", "k": 20, "seed": 101, "path": "higgs_pilot1500/k20/seed-101.json", "status": "completed", "block_elapsed_seconds": 147.495008}
+{"dataset": "higgs_pilot1500", "k": 20, "seed": 102, "path": "higgs_pilot1500/k20/seed-102.json", "status": "completed", "block_elapsed_seconds": 116.537613}
+{"dataset": "higgs_pilot1500", "k": 20, "seed": 103, "path": "higgs_pilot1500/k20/seed-103.json", "status": "completed", "block_elapsed_seconds": 141.550824}

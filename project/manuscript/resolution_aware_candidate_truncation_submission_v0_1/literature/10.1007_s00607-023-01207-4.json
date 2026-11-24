@@ -1,0 +1,696 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        4,
+        20
+      ]
+    ],
+    "date-time": "2026-04-20T10:05:45Z",
+    "timestamp": 1776679545177,
+    "version": "3.51.2"
+  },
+  "reference-count": 34,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "2",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            21
+          ]
+        ],
+        "date-time": "2023-09-21T00:00:00Z",
+        "timestamp": 1695254400000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            21
+          ]
+        ],
+        "date-time": "2023-09-21T00:00:00Z",
+        "timestamp": 1695254400000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100001809",
+      "name": "National Natural Science Foundation of China",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "No.61876186"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "No.61876186"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001809",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100018636",
+      "name": "Xuzhou Science and Technology Program",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "No.KC21300"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "No.KC21300"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100018636",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "name": "Postgraduate Research & Practice Innovation Program of Jiangsu Province",
+      "award": [
+        "No. KYCX23_2726"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "No. KYCX23_2726"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Graduate Innovation Program of China University of Mining and Technology",
+      "award": [
+        "No. 2023WLKXJ177"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "No. 2023WLKXJ177"
+          ]
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100012226",
+      "name": "Fundamental Research Funds for the Central Universities",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "No.2022QN1093"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "No.2022QN1093"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100012226",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "link.springer.com"
+    ],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Computing"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2024,
+        2
+      ]
+    ]
+  },
+  "DOI": "10.1007/s00607-023-01207-4",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2023,
+        9,
+        21
+      ]
+    ],
+    "date-time": "2023-09-21T06:02:29Z",
+    "timestamp": 1695276149000
+  },
+  "page": "327-351",
+  "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 15,
+  "title": [
+    "Influence maximization in social networks based on discrete harris hawks optimization algorithm"
+  ],
+  "prefix": "10.1007",
+  "volume": "106",
+  "author": [
+    {
+      "given": "Chencheng",
+      "family": "Fan",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Zhixiao",
+      "family": "Wang",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Jian",
+      "family": "Zhang",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Jiayu",
+      "family": "Zhao",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Xiaobin",
+      "family": "Rui",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "member": "297",
+  "published-online": {
+    "date-parts": [
+      [
+        2023,
+        9,
+        21
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "1207_CR1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Banerjee P, Chen W, Lakshmanan LV (2019) Maximizing welfare in social networks under a utility driven influence diffusion model. In: Proceedings of the 2019 international conference on management of data, 1078–1095",
+      "DOI": "10.1145/3299869.3319879"
+    },
+    {
+      "key": "1207_CR2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Domingos P, Richardson M (2001) Mining the network value of customers. In: Proceedings of the seventh ACM SIGKDD international conference on knowledge discovery and data mining, 57–66",
+      "DOI": "10.1145/502512.502525"
+    },
+    {
+      "key": "1207_CR3",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Richardson M, Domingos P (2002) Mining knowledge-sharing sites for viral marketing. In: Proceedings of the Eighth ACM SIGKDD international conference on knowledge discovery and data mining, pp. 61–70",
+      "DOI": "10.1145/775047.775057"
+    },
+    {
+      "key": "1207_CR4",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Liu Q, Xiang B, Chen E, Ge Y, Xiong H, Bao T, Zheng Y (2012) Influential seed items recommendation. In: Proceedings of the sixth ACM conference on recommender systems, pp 245–248",
+      "DOI": "10.1145/2365952.2366005"
+    },
+    {
+      "key": "1207_CR5",
+      "doi-asserted-by": "crossref",
+      "unstructured": "He X, Song G, Chen W, Jiang Q (2012) Influence blocking maximization in social networks under the competitive linear threshold model. In: Proceedings of the 2012 Siam international conference on data mining, pp 463–474. SIAM",
+      "DOI": "10.1137/1.9781611972825.40"
+    },
+    {
+      "key": "1207_CR6",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Goyal A, Lu W, Lakshmanan LV (2011) Celf++ optimizing the greedy algorithm for influence maximization in social networks. In: Proceedings of the 20th international conference companion on world wide web, pp 47–48",
+      "DOI": "10.1145/1963192.1963217"
+    },
+    {
+      "key": "1207_CR7",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Cheng S, Shen H, Huang J, Zhang G, Cheng X (2013) Staticgreedy: solving the scalability-accuracy dilemma in influence maximization. In: Proceedings of the 22nd ACM international conference on information & knowledge management, pp. 509–518",
+      "DOI": "10.1145/2505515.2505541"
+    },
+    {
+      "key": "1207_CR8",
+      "doi-asserted-by": "publisher",
+      "first-page": "124",
+      "DOI": "10.1016/j.physa.2014.10.088",
+      "volume": "420",
+      "author": "M Heidari",
+      "year": "2015",
+      "unstructured": "Heidari M, Asadpour M, Faili H (2015) Smg: fast scalable greedy algorithm for influence maximization in social networks. Physica A Statistical Mech Appl 420:124–133",
+      "journal-title": "Physica A Statistical Mech Appl"
+    },
+    {
+      "key": "1207_CR9",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Chen W, Wang Y, Yang S (2009) Efficient influence maximization in social networks. In: Proceedings of the 15th ACM SIGKDD international conference on knowledge discovery and data mining, pp 199–208",
+      "DOI": "10.1145/1557019.1557047"
+    },
+    {
+      "key": "1207_CR10",
+      "doi-asserted-by": "publisher",
+      "first-page": "238",
+      "DOI": "10.1016/j.physa.2016.05.020",
+      "volume": "461",
+      "author": "X Wang",
+      "year": "2016",
+      "unstructured": "Wang X, Su Y, Zhao C, Yi D (2016) Effective identification of multiple influential spreaders by degreepunishment. Physica A: Statistical Mech Appl 461:238–247",
+      "journal-title": "Physica A: Statistical Mech Appl"
+    },
+    {
+      "key": "1207_CR11",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Aghaee Z, Beni HA, Kianian S, Vahidipour M (2020) A heuristic algorithm focusing on the rich-club phenomenon for the influence maximization problem in social networks. In: 2020 6th international conference on web research (ICWR), pp 119–125. IEEE",
+      "DOI": "10.1109/ICWR49608.2020.9122321"
+    },
+    {
+      "issue": "1",
+      "key": "1207_CR12",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.1007/s13278-019-0586-6",
+      "volume": "9",
+      "author": "B Saxena",
+      "year": "2019",
+      "unstructured": "Saxena B, Kumar P (2019) A node activity and connectivity-based model for influence maximization in social networks. Social Netw Anal Min 9(1):1–16",
+      "journal-title": "Social Netw Anal Min"
+    },
+    {
+      "issue": "4",
+      "key": "1207_CR13",
+      "doi-asserted-by": "publisher",
+      "first-page": "118",
+      "DOI": "10.3390/info8040118",
+      "volume": "8",
+      "author": "M Li",
+      "year": "2017",
+      "unstructured": "Li M, Wang X, Gao K, Zhang S (2017) A survey on information diffusion in online social networks: models and methods. Information 8(4):118",
+      "journal-title": "Information"
+    },
+    {
+      "issue": "7",
+      "key": "1207_CR14",
+      "doi-asserted-by": "publisher",
+      "first-page": "2684",
+      "DOI": "10.1007/s10489-018-01398-w",
+      "volume": "49",
+      "author": "X Rui",
+      "year": "2019",
+      "unstructured": "Rui X, Meng F, Wang Z, Yuan G (2019) A reversed node ranking approach for influence maximization in social networks. Appl Intell 49(7):2684–2698",
+      "journal-title": "Appl Intell"
+    },
+    {
+      "issue": "8",
+      "key": "1207_CR15",
+      "doi-asserted-by": "publisher",
+      "first-page": "1147",
+      "DOI": "10.1007/s00607-018-0659-9",
+      "volume": "101",
+      "author": "N Samadi",
+      "year": "2019",
+      "unstructured": "Samadi N, Bouyer A (2019) Identifying influential spreaders based on edge ratio and neighborhood diversity measures in complex networks. Computing 101(8):1147–1175",
+      "journal-title": "Computing"
+    },
+    {
+      "key": "1207_CR16",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Jiang Q, Song G, Gao C, Wang Y, Si W, Xie K (2011) Simulated annealing based influence maximization in social networks. In: Twenty-fifth AAAI conference on artificial intelligence",
+      "DOI": "10.1609/aaai.v25i1.7838"
+    },
+    {
+      "key": "1207_CR17",
+      "doi-asserted-by": "publisher",
+      "first-page": "600",
+      "DOI": "10.1016/j.ins.2016.07.012",
+      "volume": "367",
+      "author": "M Gong",
+      "year": "2016",
+      "unstructured": "Gong M, Yan J, Shen B, Ma L, Cai Q (2016) Influence maximization in social networks based on discrete particle swarm optimization. Inf Sci 367:600–614",
+      "journal-title": "Inf Sci"
+    },
+    {
+      "key": "1207_CR18",
+      "doi-asserted-by": "publisher",
+      "first-page": "119",
+      "DOI": "10.1016/j.jnca.2017.12.003",
+      "volume": "103",
+      "author": "L Cui",
+      "year": "2018",
+      "unstructured": "Cui L, Hu H, Yu S, Yan Q, Ming Z, Wen Z, Lu N (2018) Ddse: a novel evolutionary algorithm based on degree-descending search strategy for influence maximization in social networks. J Netw Comput Appl 103:119–130",
+      "journal-title": "J Netw Comput Appl"
+    },
+    {
+      "key": "1207_CR19",
+      "doi-asserted-by": "publisher",
+      "first-page": "88",
+      "DOI": "10.1016/j.knosys.2018.06.013",
+      "volume": "160",
+      "author": "J Tang",
+      "year": "2018",
+      "unstructured": "Tang J, Zhang R, Yao Y, Zhao Z, Wang P, Li H, Yuan J (2018) Maximizing the spread of influence via the collective intelligence of discrete bat algorithm. Knowl Based Syst 160:88–103",
+      "journal-title": "Knowl Based Syst"
+    },
+    {
+      "key": "1207_CR20",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.eswa.2019.112971",
+      "volume": "142",
+      "author": "A Zareie",
+      "year": "2020",
+      "unstructured": "Zareie A, Sheikhahmadi A, Jalili M (2020) Identification of influential users in social network using gray wolf optimization algorithm. Expert Syst Appl 142:112971",
+      "journal-title": "Expert Syst Appl"
+    },
+    {
+      "key": "1207_CR21",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.knosys.2019.07.004",
+      "volume": "187",
+      "author": "J Tang",
+      "year": "2020",
+      "unstructured": "Tang J, Zhang R, Wang P, Zhao Z, Fan L, Liu X (2020) A discrete shuffled frog-leaping algorithm to identify influential nodes for influence maximization in social networks. Knowl Based Syst 187:104833",
+      "journal-title": "Knowl Based Syst"
+    },
+    {
+      "issue": "11",
+      "key": "1207_CR22",
+      "doi-asserted-by": "publisher",
+      "first-page": "7749",
+      "DOI": "10.1007/s10489-021-02283-9",
+      "volume": "51",
+      "author": "H Li",
+      "year": "2021",
+      "unstructured": "Li H, Zhang R, Zhao Z, Liu X, Yuan Y (2021) Identification of top-k influential nodes based on discrete crow search algorithm optimization for influence maximization. Appl Intell 51(11):7749–7765",
+      "journal-title": "Appl Intell"
+    },
+    {
+      "key": "1207_CR23",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.physa.2021.126480",
+      "volume": "586",
+      "author": "JJ Lotf",
+      "year": "2022",
+      "unstructured": "Lotf JJ, Azgomi MA, Dishabi MRE (2022) An improved influence maximization method for social networks based on genetic algorithm. Physica A: Stat Mech Appl 586:126480",
+      "journal-title": "Physica A: Stat Mech Appl"
+    },
+    {
+      "key": "1207_CR24",
+      "unstructured": "Wu J, Gao J, Zhu H, Zhang Z (2022) Budgeted influence maximization via boost simulated annealing in social networks. arXiv preprint arXiv:2203.11594"
+    },
+    {
+      "issue": "12",
+      "key": "1207_CR25",
+      "first-page": "44",
+      "volume": "52",
+      "author": "LC Byus",
+      "year": "2009",
+      "unstructured": "Byus LC (2009) Six degrees of separation in copenhagen. Nuclear News 52(12):44",
+      "journal-title": "Nuclear News"
+    },
+    {
+      "key": "1207_CR26",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Lawrence EE, Latha R (2015) Analysis of six degrees of separation in facebook using ant colony optimization. In: 2015 International conference on circuits, power and computing technologies [ICCPCT-2015], pp 1–5. IEEE",
+      "DOI": "10.1109/ICCPCT.2015.7159171"
+    },
+    {
+      "key": "1207_CR27",
+      "doi-asserted-by": "publisher",
+      "first-page": "849",
+      "DOI": "10.1016/j.future.2019.02.028",
+      "volume": "97",
+      "author": "AA Heidari",
+      "year": "2019",
+      "unstructured": "Heidari AA, Mirjalili S, Faris H, Aljarah I, Mafarja M, Chen H (2019) Harris hawks optimization algorithm and applications. Future Gener Comput Syst 97:849–872",
+      "journal-title": "Future Gener Comput Syst"
+    },
+    {
+      "issue": "4",
+      "key": "1207_CR28",
+      "doi-asserted-by": "publisher",
+      "first-page": "1847",
+      "DOI": "10.1007/s12065-020-00465-x",
+      "volume": "14",
+      "author": "C Fan",
+      "year": "2021",
+      "unstructured": "Fan C, Zhou Y, Tang Z (2021) Neighborhood centroid opposite-based learning Harris hawks optimization for training neural networks. Evolut Intell 14(4):1847–1867",
+      "journal-title": "Evolut Intell"
+    },
+    {
+      "key": "1207_CR29",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Saito K, Nakano R, Kimura M (2008) Prediction of information diffusion probabilities for independent cascade model. In: Knowledge-based intelligent information and engineering systems: 12th international conference, KES 2008, Zagreb, Croatia, September 3-5, 2008, Proceedings, Part III 12, pp 67–75. Springer",
+      "DOI": "10.1007/978-3-540-85567-5_9"
+    },
+    {
+      "key": "1207_CR30",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Guille A, Hacid H (2012) A predictive model for the temporal dynamics of information diffusion in online social networks. In: Proceedings of the 21st international conference on world wide web, pp 1145–1152",
+      "DOI": "10.1145/2187980.2188254"
+    },
+    {
+      "key": "1207_CR31",
+      "doi-asserted-by": "publisher",
+      "first-page": "211",
+      "DOI": "10.1023/A:1011122126881",
+      "volume": "12",
+      "author": "J Goldenberg",
+      "year": "2001",
+      "unstructured": "Goldenberg J, Libai B, Muller E (2001) Talk of the network: a complex systems look at the underlying process of word-of-mouth. Market Lett 12:211–223",
+      "journal-title": "Market Lett"
+    },
+    {
+      "issue": "10",
+      "key": "1207_CR32",
+      "doi-asserted-by": "publisher",
+      "first-page": "1852",
+      "DOI": "10.1109/TKDE.2018.2807843",
+      "volume": "30",
+      "author": "Y Li",
+      "year": "2018",
+      "unstructured": "Li Y, Fan J, Wang Y, Tan K-L (2018) Influence maximization on social graphs: a survey. IEEE Trans Knowl Data Eng 30(10):1852–1872",
+      "journal-title": "IEEE Trans Knowl Data Eng"
+    },
+    {
+      "key": "1207_CR33",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Arora A, Galhotra S, Ranu S (2017) Debunking the myths of influence maximization: An in-depth benchmarking study. In: Proceedings of the 2017 ACM international conference on management of data, pp 651–666",
+      "DOI": "10.1145/3035918.3035924"
+    },
+    {
+      "key": "1207_CR34",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Tang Y, Shi Y, Xiao X (2015) Influence maximization in near-linear time: A martingale approach. In: Proceedings of the 2015 ACM SIGMOD international conference on management of data, pp 1539–1554 (2015)",
+      "DOI": "10.1145/2723372.2723734"
+    }
+  ],
+  "container-title": [
+    "Computing"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://link.springer.com/content/pdf/10.1007/s00607-023-01207-4.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://link.springer.com/article/10.1007/s00607-023-01207-4/fulltext.html",
+      "content-type": "text/html",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://link.springer.com/content/pdf/10.1007/s00607-023-01207-4.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2024,
+        1,
+        30
+      ]
+    ],
+    "date-time": "2024-01-30T07:08:29Z",
+    "timestamp": 1706598509000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://link.springer.com/10.1007/s00607-023-01207-4"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2023,
+        9,
+        21
+      ]
+    ]
+  },
+  "references-count": 34,
+  "journal-issue": {
+    "issue": "2",
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          2
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "1207"
+  ],
+  "URL": "https://doi.org/10.1007/s00607-023-01207-4",
+  "relation": {},
+  "ISSN": [
+    "0010-485X",
+    "1436-5057"
+  ],
+  "issn-type": [
+    {
+      "value": "0010-485X",
+      "type": "print"
+    },
+    {
+      "value": "1436-5057",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2023,
+        9,
+        21
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "17 March 2023",
+      "order": 1,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "25 July 2023",
+      "order": 2,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "21 September 2023",
+      "order": 3,
+      "name": "first_online",
+      "label": "First Online",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "order": 1,
+      "name": "Ethics",
+      "group": {
+        "name": "EthicsHeading",
+        "label": "Declarations"
+      }
+    },
+    {
+      "value": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.",
+      "order": 2,
+      "name": "Ethics",
+      "group": {
+        "name": "EthicsHeading",
+        "label": "Conflict of interest"
+      }
+    }
+  ]
+}

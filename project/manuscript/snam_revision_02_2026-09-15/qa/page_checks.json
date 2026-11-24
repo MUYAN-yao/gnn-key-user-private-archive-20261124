@@ -1,0 +1,167 @@
+{
+  "renderer": "Word PDF export + PyMuPDF at 110 dpi",
+  "pages": [
+    {
+      "page": 1,
+      "text_chars": 1192,
+      "out_of_page_spans": [],
+      "section_markers": []
+    },
+    {
+      "page": 2,
+      "text_chars": 1233,
+      "out_of_page_spans": [],
+      "section_markers": []
+    },
+    {
+      "page": 3,
+      "text_chars": 1402,
+      "out_of_page_spans": [],
+      "section_markers": []
+    },
+    {
+      "page": 4,
+      "text_chars": 891,
+      "out_of_page_spans": [],
+      "section_markers": []
+    },
+    {
+      "page": 5,
+      "text_chars": 796,
+      "out_of_page_spans": [],
+      "section_markers": [
+        "图 1：研究流程与时间窗口边界。图示的外部测试隔离指窗口内记录未直接用于特征学习或校准拟合；校准负样本资格"
+      ]
+    },
+    {
+      "page": 6,
+      "text_chars": 1225,
+      "out_of_page_spans": [],
+      "section_markers": []
+    },
+    {
+      "page": 7,
+      "text_chars": 913,
+      "out_of_page_spans": [],
+      "section_markers": [
+        "图 2：方法机制图。（a）由时间快照学习边概率 p，构造节点先验 q 并筛选前 120 个候选；学习得到的 p 同时用于 IC "
+      ]
+    },
+    {
+      "page": 8,
+      "text_chars": 1180,
+      "out_of_page_spans": [],
+      "section_markers": []
+    },
+    {
+      "page": 9,
+      "text_chars": 1028,
+      "out_of_page_spans": [],
+      "section_markers": []
+    },
+    {
+      "page": 10,
+      "text_chars": 1115,
+      "out_of_page_spans": [],
+      "section_markers": [
+        "图 3：冻结 Digg 与 Higgs 协议下的主比较。图中保留全部训练比例以及 Higgs/RIS 的非优势结果，因此只能支持两套协"
+      ]
+    },
+    {
+      "page": 11,
+      "text_chars": 526,
+      "out_of_page_spans": [],
+      "section_markers": [
+        "图 4：严格时间戳分组的 v2-T0b 主比较。该图支持在已列明的 Holm 显著对比中作 Higgs 协议内的条件性改进结论；正",
+        "图 5：种子级差异展示了协议重复的离散性，特别是 RIS 对比存在大量平局并且 95% t 区间跨零。每个点是随机协议重"
+      ]
+    },
+    {
+      "page": 12,
+      "text_chars": 406,
+      "out_of_page_spans": [],
+      "section_markers": [
+        "图 6：v1 的时间前向审计不能由平均 AUC 取代。保留三个训练比例、种子 42—51 的全部 30 个观测；颜色与点形区分"
+      ]
+    },
+    {
+      "page": 13,
+      "text_chars": 996,
+      "out_of_page_spans": [],
+      "section_markers": [
+        "图 7：固定 T0 候选在三个 Higgs 外部切分上的校准后 AUC。每个切分保留种子 42—51 的全部 10 个观测，短横线表示"
+      ]
+    },
+    {
+      "page": 14,
+      "text_chars": 567,
+      "out_of_page_spans": [],
+      "section_markers": [
+        "图 8：共同世界目标消融的紧凑参数表。所有九项对比均显示 0.000、10 次平局和 Holm p=1.000；浅色背景仅用于区分",
+        "图 9：联合目标结构图。该图用于区分目标定义与经验效应，不替代消融统计。 "
+      ]
+    },
+    {
+      "page": 15,
+      "text_chars": 693,
+      "out_of_page_spans": [],
+      "section_markers": [
+        "图 10：候选筛选公平性机制图。v3 的零差异结果说明，在本协议内 GNN 筛选没有改变鲁棒贪心的选择或得分。 "
+      ]
+    },
+    {
+      "page": 16,
+      "text_chars": 1224,
+      "out_of_page_spans": [],
+      "section_markers": [
+        "6.7 同预算筛选的单次机制诊断 "
+      ]
+    },
+    {
+      "page": 17,
+      "text_chars": 1086,
+      "out_of_page_spans": [],
+      "section_markers": [
+        "7.1 基线优势与组件作用是不同问题 ",
+        "7.2 如何解释零差异与社区奖励 ",
+        "7.3 预测有效性与计算价值的边界 "
+      ]
+    },
+    {
+      "page": 18,
+      "text_chars": 1276,
+      "out_of_page_spans": [],
+      "section_markers": [
+        "7.4 外推范围与复现限制 ",
+        "8 结论 "
+      ]
+    },
+    {
+      "page": 19,
+      "text_chars": 2088,
+      "out_of_page_spans": [],
+      "section_markers": []
+    },
+    {
+      "page": 20,
+      "text_chars": 2599,
+      "out_of_page_spans": [],
+      "section_markers": []
+    },
+    {
+      "page": 21,
+      "text_chars": 2572,
+      "out_of_page_spans": [],
+      "section_markers": []
+    },
+    {
+      "page": 22,
+      "text_chars": 2126,
+      "out_of_page_spans": [],
+      "section_markers": [
+        "Abstract "
+      ]
+    }
+  ],
+  "page_count": 22
+}

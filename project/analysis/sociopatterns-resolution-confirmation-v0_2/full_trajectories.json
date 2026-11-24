@@ -1,0 +1,170 @@
+[
+  {
+    "dataset": "invs2013",
+    "world_path": 301,
+    "k": 5,
+    "same_20_80": false,
+    "same_80_320": false,
+    "zero_margin_rounds": {
+      "20": 0,
+      "80": 1,
+      "320": 0
+    }
+  },
+  {
+    "dataset": "invs2013",
+    "world_path": 301,
+    "k": 20,
+    "same_20_80": false,
+    "same_80_320": false,
+    "zero_margin_rounds": {
+      "20": 10,
+      "80": 10,
+      "320": 3
+    }
+  },
+  {
+    "dataset": "invs2013",
+    "world_path": 302,
+    "k": 5,
+    "same_20_80": false,
+    "same_80_320": false,
+    "zero_margin_rounds": {
+      "20": 0,
+      "80": 0,
+      "320": 0
+    }
+  },
+  {
+    "dataset": "invs2013",
+    "world_path": 302,
+    "k": 20,
+    "same_20_80": false,
+    "same_80_320": false,
+    "zero_margin_rounds": {
+      "20": 11,
+      "80": 7,
+      "320": 3
+    }
+  },
+  {
+    "dataset": "invs2015",
+    "world_path": 301,
+    "k": 5,
+    "same_20_80": false,
+    "same_80_320": false,
+    "zero_margin_rounds": {
+      "20": 2,
+      "80": 1,
+      "320": 0
+    }
+  },
+  {
+    "dataset": "invs2015",
+    "world_path": 301,
+    "k": 20,
+    "same_20_80": false,
+    "same_80_320": false,
+    "zero_margin_rounds": {
+      "20": 12,
+      "80": 4,
+      "320": 5
+    }
+  },
+  {
+    "dataset": "invs2015",
+    "world_path": 302,
+    "k": 5,
+    "same_20_80": false,
+    "same_80_320": false,
+    "zero_margin_rounds": {
+      "20": 3,
+      "80": 0,
+      "320": 0
+    }
+  },
+  {
+    "dataset": "invs2015",
+    "world_path": 302,
+    "k": 20,
+    "same_20_80": false,
+    "same_80_320": false,
+    "zero_margin_rounds": {
+      "20": 8,
+      "80": 4,
+      "320": 1
+    }
+  },
+  {
+    "dataset": "kenya2012",
+    "world_path": 301,
+    "k": 5,
+    "same_20_80": false,
+    "same_80_320": false,
+    "zero_margin_rounds": {
+      "20": 2,
+      "80": 1,
+      "320": 0
+    }
+  },
+  {
+    "dataset": "kenya2012",
+    "world_path": 301,
+    "k": 20,
+    "same_20_80": false,
+    "same_80_320": false,
+    "zero_margin_rounds": {
+      "20": 14,
+      "80": 8,
+      "320": 6
+    }
+  },
+  {
+    "dataset": "kenya2012",
+    "world_path": 302,
+    "k": 5,
+    "same_20_80": false,
+    "same_80_320": false,
+    "zero_margin_rounds": {
+      "20": 2,
+      "80": 2,
+      "320": 0
+    }
+  },
+  {
+    "dataset": "kenya2012",
+    "world_path": 302,
+    "k": 20,
+    "same_20_80": false,
+    "same_80_320": false,
+    "zero_margin_rounds": {
+      "20": 14,
+      "80": 8,
+      "320": 3
+    }
+  },
+  {
+    "dataset": "sfhh2009",
+    "world_path": 301,
+    "k": 5,
+    "same_20_80": false,
+    "same_80_320": false,
+    "zero_margin_rounds": {
+      "20": 2,
+      "80": 0,
+      "320": 0
+    }
+  },
+  {
+    "dataset": "sfhh2009",
+    "world_path": 302,
+    "k": 5,
+    "same_20_80": false,
+    "same_80_320": false,
+    "zero_margin_rounds": {
+      "20": 0,
+      "80": 0,
+      "320": 0
+    }
+  }
+]

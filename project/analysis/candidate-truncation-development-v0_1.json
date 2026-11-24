@@ -1,0 +1,1650 @@
+{
+  "schema": "candidate-truncation-development-analysis-0.1",
+  "status": "DEVELOPMENT_DESCRIPTIVE_ONLY",
+  "study_root": "audits\\candidate-truncation-development-v0_1\\formal-development-run-20260920",
+  "block_count": 12,
+  "method_execution_count": 144,
+  "gnn_status": "not_run_no_frozen_reproducible_model_input",
+  "no_inferential_statistics": true,
+  "cells": [
+    {
+      "dataset": "digg_pilot5000",
+      "k": 5,
+      "method": "full",
+      "same_ordered_top_k_count": 3,
+      "divergent_count": 0,
+      "first_divergence_values": [],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 1.0,
+        "sample_sd": 0.0,
+        "median": 1.0,
+        "minimum": 1.0,
+        "maximum": 1.0
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 159,
+        "sample_sd": 0.0,
+        "median": 159,
+        "minimum": 159,
+        "maximum": 159
+      }
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "k": 5,
+      "method": "degree_1k",
+      "same_ordered_top_k_count": 0,
+      "divergent_count": 3,
+      "first_divergence_values": [
+        3,
+        4,
+        5
+      ],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": 0.024667,
+        "sample_sd": 0.171267,
+        "median": 0.071,
+        "minimum": -0.165,
+        "maximum": 0.168
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.124568,
+        "sample_sd": 0.02278,
+        "median": 0.111933,
+        "minimum": 0.110905,
+        "maximum": 0.150866
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 5,
+        "sample_sd": 0.0,
+        "median": 5,
+        "minimum": 5,
+        "maximum": 5
+      }
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "k": 5,
+      "method": "degree_2k",
+      "same_ordered_top_k_count": 1,
+      "divergent_count": 2,
+      "first_divergence_values": [
+        3,
+        5
+      ],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": 0.035333,
+        "sample_sd": 0.031182,
+        "median": 0.047,
+        "minimum": 0.0,
+        "maximum": 0.059
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.156266,
+        "sample_sd": 0.021908,
+        "median": 0.143882,
+        "minimum": 0.143355,
+        "maximum": 0.181561
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 10,
+        "sample_sd": 0.0,
+        "median": 10,
+        "minimum": 10,
+        "maximum": 10
+      }
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "k": 5,
+      "method": "degree_4k",
+      "same_ordered_top_k_count": 3,
+      "divergent_count": 0,
+      "first_divergence_values": [],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.217772,
+        "sample_sd": 0.015342,
+        "median": 0.211833,
+        "minimum": 0.206287,
+        "maximum": 0.235196
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 20,
+        "sample_sd": 0.0,
+        "median": 20,
+        "minimum": 20,
+        "maximum": 20
+      }
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "k": 5,
+      "method": "degree_8k",
+      "same_ordered_top_k_count": 3,
+      "divergent_count": 0,
+      "first_divergence_values": [],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.341898,
+        "sample_sd": 0.014911,
+        "median": 0.336898,
+        "minimum": 0.330129,
+        "maximum": 0.358666
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 40,
+        "sample_sd": 0.0,
+        "median": 40,
+        "minimum": 40,
+        "maximum": 40
+      }
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "k": 5,
+      "method": "degree_16k",
+      "same_ordered_top_k_count": 3,
+      "divergent_count": 0,
+      "first_divergence_values": [],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.560139,
+        "sample_sd": 0.035092,
+        "median": 0.571202,
+        "minimum": 0.520848,
+        "maximum": 0.588366
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 80,
+        "sample_sd": 0.0,
+        "median": 80,
+        "minimum": 80,
+        "maximum": 80
+      }
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "k": 5,
+      "method": "pagerank_1k",
+      "same_ordered_top_k_count": 0,
+      "divergent_count": 3,
+      "first_divergence_values": [
+        1,
+        1,
+        1
+      ],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": -1.985,
+        "sample_sd": 0.163698,
+        "median": -1.908,
+        "minimum": -2.173,
+        "maximum": -1.874
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.28484,
+        "sample_sd": 0.315383,
+        "median": 0.103674,
+        "minimum": 0.101835,
+        "maximum": 0.649012
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 5,
+        "sample_sd": 0.0,
+        "median": 5,
+        "minimum": 5,
+        "maximum": 5
+      }
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "k": 5,
+      "method": "pagerank_2k",
+      "same_ordered_top_k_count": 0,
+      "divergent_count": 3,
+      "first_divergence_values": [
+        1,
+        1,
+        1
+      ],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": -1.504667,
+        "sample_sd": 0.224367,
+        "median": -1.415,
+        "minimum": -1.76,
+        "maximum": -1.339
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.304703,
+        "sample_sd": 0.31509,
+        "median": 0.1246,
+        "minimum": 0.120978,
+        "maximum": 0.668531
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 10,
+        "sample_sd": 0.0,
+        "median": 10,
+        "minimum": 10,
+        "maximum": 10
+      }
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "k": 5,
+      "method": "pagerank_4k",
+      "same_ordered_top_k_count": 0,
+      "divergent_count": 3,
+      "first_divergence_values": [
+        1,
+        1,
+        1
+      ],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": -1.267,
+        "sample_sd": 0.089504,
+        "median": -1.268,
+        "minimum": -1.356,
+        "maximum": -1.177
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.343095,
+        "sample_sd": 0.31252,
+        "median": 0.166205,
+        "minimum": 0.159142,
+        "maximum": 0.703939
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 20,
+        "sample_sd": 0.0,
+        "median": 20,
+        "minimum": 20,
+        "maximum": 20
+      }
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "k": 5,
+      "method": "pagerank_8k",
+      "same_ordered_top_k_count": 0,
+      "divergent_count": 3,
+      "first_divergence_values": [
+        1,
+        2,
+        1
+      ],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": -0.265667,
+        "sample_sd": 0.157294,
+        "median": -0.211,
+        "minimum": -0.443,
+        "maximum": -0.143
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.46859,
+        "sample_sd": 0.293062,
+        "median": 0.300152,
+        "minimum": 0.29863,
+        "maximum": 0.806987
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 40,
+        "sample_sd": 0.0,
+        "median": 40,
+        "minimum": 40,
+        "maximum": 40
+      }
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "k": 5,
+      "method": "pagerank_16k",
+      "same_ordered_top_k_count": 1,
+      "divergent_count": 2,
+      "first_divergence_values": [
+        5,
+        4
+      ],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": 0.055333,
+        "sample_sd": 0.181442,
+        "median": 0.0,
+        "minimum": -0.092,
+        "maximum": 0.258
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.70762,
+        "sample_sd": 0.27291,
+        "median": 0.55536,
+        "minimum": 0.544809,
+        "maximum": 1.022691
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 80,
+        "sample_sd": 0.0,
+        "median": 80,
+        "minimum": 80,
+        "maximum": 80
+      }
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "k": 5,
+      "method": "degree_doubling",
+      "same_ordered_top_k_count": 3,
+      "divergent_count": 0,
+      "first_divergence_values": [],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.43579,
+        "sample_sd": 0.150795,
+        "median": 0.495021,
+        "minimum": 0.264373,
+        "maximum": 0.547978
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 33.333333,
+        "sample_sd": 11.547005,
+        "median": 40,
+        "minimum": 20,
+        "maximum": 40
+      }
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "k": 20,
+      "method": "full",
+      "same_ordered_top_k_count": 3,
+      "divergent_count": 0,
+      "first_divergence_values": [],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 1.0,
+        "sample_sd": 0.0,
+        "median": 1.0,
+        "minimum": 1.0,
+        "maximum": 1.0
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 159,
+        "sample_sd": 0.0,
+        "median": 159,
+        "minimum": 159,
+        "maximum": 159
+      }
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "k": 20,
+      "method": "degree_1k",
+      "same_ordered_top_k_count": 0,
+      "divergent_count": 3,
+      "first_divergence_values": [
+        6,
+        6,
+        8
+      ],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": -0.320667,
+        "sample_sd": 0.01365,
+        "median": -0.323,
+        "minimum": -0.333,
+        "maximum": -0.306
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.069526,
+        "sample_sd": 0.002143,
+        "median": 0.07008,
+        "minimum": 0.06716,
+        "maximum": 0.071338
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 20,
+        "sample_sd": 0.0,
+        "median": 20,
+        "minimum": 20,
+        "maximum": 20
+      }
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "k": 20,
+      "method": "degree_2k",
+      "same_ordered_top_k_count": 0,
+      "divergent_count": 3,
+      "first_divergence_values": [
+        13,
+        8,
+        8
+      ],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": 0.156,
+        "sample_sd": 0.119,
+        "median": 0.156,
+        "minimum": 0.037,
+        "maximum": 0.275
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.212045,
+        "sample_sd": 0.010731,
+        "median": 0.210414,
+        "minimum": 0.202223,
+        "maximum": 0.223499
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 40,
+        "sample_sd": 0.0,
+        "median": 40,
+        "minimum": 40,
+        "maximum": 40
+      }
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "k": 20,
+      "method": "degree_4k",
+      "same_ordered_top_k_count": 0,
+      "divergent_count": 3,
+      "first_divergence_values": [
+        17,
+        13,
+        18
+      ],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": 0.006,
+        "sample_sd": 0.00781,
+        "median": 0.01,
+        "minimum": -0.003,
+        "maximum": 0.011
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.491686,
+        "sample_sd": 0.025336,
+        "median": 0.506183,
+        "minimum": 0.462431,
+        "maximum": 0.506445
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 80,
+        "sample_sd": 0.0,
+        "median": 80,
+        "minimum": 80,
+        "maximum": 80
+      }
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "k": 20,
+      "method": "degree_8k",
+      "same_ordered_top_k_count": 3,
+      "divergent_count": 0,
+      "first_divergence_values": [],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 1.052114,
+        "sample_sd": 0.004676,
+        "median": 1.053233,
+        "minimum": 1.046979,
+        "maximum": 1.056129
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 159,
+        "sample_sd": 0.0,
+        "median": 159,
+        "minimum": 159,
+        "maximum": 159
+      }
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "k": 20,
+      "method": "degree_16k",
+      "same_ordered_top_k_count": 3,
+      "divergent_count": 0,
+      "first_divergence_values": [],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 1.046325,
+        "sample_sd": 0.019604,
+        "median": 1.038762,
+        "minimum": 1.031629,
+        "maximum": 1.068584
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 159,
+        "sample_sd": 0.0,
+        "median": 159,
+        "minimum": 159,
+        "maximum": 159
+      }
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "k": 20,
+      "method": "pagerank_1k",
+      "same_ordered_top_k_count": 0,
+      "divergent_count": 3,
+      "first_divergence_values": [
+        1,
+        1,
+        1
+      ],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": -4.299,
+        "sample_sd": 0.032909,
+        "median": -4.288,
+        "minimum": -4.336,
+        "maximum": -4.273
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.04011,
+        "sample_sd": 0.001138,
+        "median": 0.040574,
+        "minimum": 0.038814,
+        "maximum": 0.040942
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 20,
+        "sample_sd": 0.0,
+        "median": 20,
+        "minimum": 20,
+        "maximum": 20
+      }
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "k": 20,
+      "method": "pagerank_2k",
+      "same_ordered_top_k_count": 0,
+      "divergent_count": 3,
+      "first_divergence_values": [
+        1,
+        2,
+        1
+      ],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": -2.491333,
+        "sample_sd": 0.10416,
+        "median": -2.498,
+        "minimum": -2.592,
+        "maximum": -2.384
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.163526,
+        "sample_sd": 0.007076,
+        "median": 0.162841,
+        "minimum": 0.156818,
+        "maximum": 0.17092
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 40,
+        "sample_sd": 0.0,
+        "median": 40,
+        "minimum": 40,
+        "maximum": 40
+      }
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "k": 20,
+      "method": "pagerank_4k",
+      "same_ordered_top_k_count": 0,
+      "divergent_count": 3,
+      "first_divergence_values": [
+        5,
+        4,
+        6
+      ],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": -1.377,
+        "sample_sd": 0.272527,
+        "median": -1.238,
+        "minimum": -1.691,
+        "maximum": -1.202
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.441497,
+        "sample_sd": 0.010873,
+        "median": 0.435588,
+        "minimum": 0.434859,
+        "maximum": 0.454045
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 80,
+        "sample_sd": 0.0,
+        "median": 80,
+        "minimum": 80,
+        "maximum": 80
+      }
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "k": 20,
+      "method": "pagerank_8k",
+      "same_ordered_top_k_count": 3,
+      "divergent_count": 0,
+      "first_divergence_values": [],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 1.100179,
+        "sample_sd": 0.049545,
+        "median": 1.08644,
+        "minimum": 1.058954,
+        "maximum": 1.155143
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 159,
+        "sample_sd": 0.0,
+        "median": 159,
+        "minimum": 159,
+        "maximum": 159
+      }
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "k": 20,
+      "method": "pagerank_16k",
+      "same_ordered_top_k_count": 3,
+      "divergent_count": 0,
+      "first_divergence_values": [],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 1.365301,
+        "sample_sd": 0.417589,
+        "median": 1.126036,
+        "minimum": 1.12238,
+        "maximum": 1.847487
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 159,
+        "sample_sd": 0.0,
+        "median": 159,
+        "minimum": 159,
+        "maximum": 159
+      }
+    },
+    {
+      "dataset": "digg_pilot5000",
+      "k": 20,
+      "method": "degree_doubling",
+      "same_ordered_top_k_count": 3,
+      "divergent_count": 0,
+      "first_divergence_values": [],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 2.558199,
+        "sample_sd": 0.601756,
+        "median": 2.525469,
+        "minimum": 1.973476,
+        "maximum": 3.175653
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 159,
+        "sample_sd": 0.0,
+        "median": 159,
+        "minimum": 159,
+        "maximum": 159
+      }
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "k": 5,
+      "method": "full",
+      "same_ordered_top_k_count": 3,
+      "divergent_count": 0,
+      "first_divergence_values": [],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 1.0,
+        "sample_sd": 0.0,
+        "median": 1.0,
+        "minimum": 1.0,
+        "maximum": 1.0
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 850,
+        "sample_sd": 0.0,
+        "median": 850,
+        "minimum": 850,
+        "maximum": 850
+      }
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "k": 5,
+      "method": "degree_1k",
+      "same_ordered_top_k_count": 1,
+      "divergent_count": 2,
+      "first_divergence_values": [
+        5,
+        4
+      ],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": 0.242333,
+        "sample_sd": 0.217339,
+        "median": 0.307,
+        "minimum": 0.0,
+        "maximum": 0.42
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.019318,
+        "sample_sd": 0.002708,
+        "median": 0.019903,
+        "minimum": 0.016365,
+        "maximum": 0.021685
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 5,
+        "sample_sd": 0.0,
+        "median": 5,
+        "minimum": 5,
+        "maximum": 5
+      }
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "k": 5,
+      "method": "degree_2k",
+      "same_ordered_top_k_count": 3,
+      "divergent_count": 0,
+      "first_divergence_values": [],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.026043,
+        "sample_sd": 0.001524,
+        "median": 0.026615,
+        "minimum": 0.024315,
+        "maximum": 0.027198
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 10,
+        "sample_sd": 0.0,
+        "median": 10,
+        "minimum": 10,
+        "maximum": 10
+      }
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "k": 5,
+      "method": "degree_4k",
+      "same_ordered_top_k_count": 3,
+      "divergent_count": 0,
+      "first_divergence_values": [],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.038109,
+        "sample_sd": 0.005018,
+        "median": 0.037431,
+        "minimum": 0.033464,
+        "maximum": 0.043432
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 20,
+        "sample_sd": 0.0,
+        "median": 20,
+        "minimum": 20,
+        "maximum": 20
+      }
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "k": 5,
+      "method": "degree_8k",
+      "same_ordered_top_k_count": 3,
+      "divergent_count": 0,
+      "first_divergence_values": [],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.065735,
+        "sample_sd": 0.016688,
+        "median": 0.062993,
+        "minimum": 0.050588,
+        "maximum": 0.083625
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 40,
+        "sample_sd": 0.0,
+        "median": 40,
+        "minimum": 40,
+        "maximum": 40
+      }
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "k": 5,
+      "method": "degree_16k",
+      "same_ordered_top_k_count": 3,
+      "divergent_count": 0,
+      "first_divergence_values": [],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.096492,
+        "sample_sd": 0.029837,
+        "median": 0.111193,
+        "minimum": 0.062156,
+        "maximum": 0.116126
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 80,
+        "sample_sd": 0.0,
+        "median": 80,
+        "minimum": 80,
+        "maximum": 80
+      }
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "k": 5,
+      "method": "pagerank_1k",
+      "same_ordered_top_k_count": 0,
+      "divergent_count": 3,
+      "first_divergence_values": [
+        1,
+        1,
+        1
+      ],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": -5.547667,
+        "sample_sd": 0.255171,
+        "median": -5.446,
+        "minimum": -5.838,
+        "maximum": -5.359
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.016831,
+        "sample_sd": 0.003385,
+        "median": 0.017039,
+        "minimum": 0.013346,
+        "maximum": 0.020107
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 5,
+        "sample_sd": 0.0,
+        "median": 5,
+        "minimum": 5,
+        "maximum": 5
+      }
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "k": 5,
+      "method": "pagerank_2k",
+      "same_ordered_top_k_count": 0,
+      "divergent_count": 3,
+      "first_divergence_values": [
+        1,
+        1,
+        1
+      ],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": -5.338667,
+        "sample_sd": 0.214701,
+        "median": -5.275,
+        "minimum": -5.578,
+        "maximum": -5.163
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.017511,
+        "sample_sd": 0.00325,
+        "median": 0.017864,
+        "minimum": 0.014098,
+        "maximum": 0.02057
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 10,
+        "sample_sd": 0.0,
+        "median": 10,
+        "minimum": 10,
+        "maximum": 10
+      }
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "k": 5,
+      "method": "pagerank_4k",
+      "same_ordered_top_k_count": 0,
+      "divergent_count": 3,
+      "first_divergence_values": [
+        1,
+        1,
+        1
+      ],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": -5.295333,
+        "sample_sd": 0.239149,
+        "median": -5.212,
+        "minimum": -5.565,
+        "maximum": -5.109
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.018829,
+        "sample_sd": 0.002779,
+        "median": 0.019514,
+        "minimum": 0.015772,
+        "maximum": 0.021202
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 20,
+        "sample_sd": 0.0,
+        "median": 20,
+        "minimum": 20,
+        "maximum": 20
+      }
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "k": 5,
+      "method": "pagerank_8k",
+      "same_ordered_top_k_count": 0,
+      "divergent_count": 3,
+      "first_divergence_values": [
+        1,
+        1,
+        1
+      ],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": -5.293667,
+        "sample_sd": 0.247227,
+        "median": -5.205,
+        "minimum": -5.573,
+        "maximum": -5.103
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.022192,
+        "sample_sd": 0.001393,
+        "median": 0.02256,
+        "minimum": 0.020651,
+        "maximum": 0.023364
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 40,
+        "sample_sd": 0.0,
+        "median": 40,
+        "minimum": 40,
+        "maximum": 40
+      }
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "k": 5,
+      "method": "pagerank_16k",
+      "same_ordered_top_k_count": 0,
+      "divergent_count": 3,
+      "first_divergence_values": [
+        1,
+        1,
+        1
+      ],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": -5.160667,
+        "sample_sd": 0.293819,
+        "median": -5.088,
+        "minimum": -5.484,
+        "maximum": -4.91
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.028831,
+        "sample_sd": 0.001221,
+        "median": 0.028893,
+        "minimum": 0.027581,
+        "maximum": 0.030021
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 80,
+        "sample_sd": 0.0,
+        "median": 80,
+        "minimum": 80,
+        "maximum": 80
+      }
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "k": 5,
+      "method": "degree_doubling",
+      "same_ordered_top_k_count": 3,
+      "divergent_count": 0,
+      "first_divergence_values": [],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.041185,
+        "sample_sd": 0.013746,
+        "median": 0.041639,
+        "minimum": 0.027218,
+        "maximum": 0.054698
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 16.666667,
+        "sample_sd": 5.773503,
+        "median": 20,
+        "minimum": 10,
+        "maximum": 20
+      }
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "k": 20,
+      "method": "full",
+      "same_ordered_top_k_count": 3,
+      "divergent_count": 0,
+      "first_divergence_values": [],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 1.0,
+        "sample_sd": 0.0,
+        "median": 1.0,
+        "minimum": 1.0,
+        "maximum": 1.0
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 850,
+        "sample_sd": 0.0,
+        "median": 850,
+        "minimum": 850,
+        "maximum": 850
+      }
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "k": 20,
+      "method": "degree_1k",
+      "same_ordered_top_k_count": 0,
+      "divergent_count": 3,
+      "first_divergence_values": [
+        17,
+        9,
+        16
+      ],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": 0.622333,
+        "sample_sd": 0.288014,
+        "median": 0.567,
+        "minimum": 0.366,
+        "maximum": 0.934
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.011907,
+        "sample_sd": 0.000727,
+        "median": 0.011884,
+        "minimum": 0.011192,
+        "maximum": 0.012645
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 20,
+        "sample_sd": 0.0,
+        "median": 20,
+        "minimum": 20,
+        "maximum": 20
+      }
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "k": 20,
+      "method": "degree_2k",
+      "same_ordered_top_k_count": 1,
+      "divergent_count": 2,
+      "first_divergence_values": [
+        17,
+        16
+      ],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": 0.093,
+        "sample_sd": 0.089705,
+        "median": 0.1,
+        "minimum": 0.0,
+        "maximum": 0.179
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.035981,
+        "sample_sd": 0.002088,
+        "median": 0.035534,
+        "minimum": 0.034153,
+        "maximum": 0.038257
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 40,
+        "sample_sd": 0.0,
+        "median": 40,
+        "minimum": 40,
+        "maximum": 40
+      }
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "k": 20,
+      "method": "degree_4k",
+      "same_ordered_top_k_count": 1,
+      "divergent_count": 2,
+      "first_divergence_values": [
+        17,
+        16
+      ],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": 0.016,
+        "sample_sd": 0.020421,
+        "median": 0.009,
+        "minimum": 0.0,
+        "maximum": 0.039
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.084329,
+        "sample_sd": 0.005907,
+        "median": 0.083969,
+        "minimum": 0.078611,
+        "maximum": 0.090408
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 80,
+        "sample_sd": 0.0,
+        "median": 80,
+        "minimum": 80,
+        "maximum": 80
+      }
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "k": 20,
+      "method": "degree_8k",
+      "same_ordered_top_k_count": 3,
+      "divergent_count": 0,
+      "first_divergence_values": [],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.178237,
+        "sample_sd": 0.008493,
+        "median": 0.173647,
+        "minimum": 0.173027,
+        "maximum": 0.188037
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 160,
+        "sample_sd": 0.0,
+        "median": 160,
+        "minimum": 160,
+        "maximum": 160
+      }
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "k": 20,
+      "method": "degree_16k",
+      "same_ordered_top_k_count": 3,
+      "divergent_count": 0,
+      "first_divergence_values": [],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.408416,
+        "sample_sd": 0.04348,
+        "median": 0.400818,
+        "minimum": 0.369237,
+        "maximum": 0.455194
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 320,
+        "sample_sd": 0.0,
+        "median": 320,
+        "minimum": 320,
+        "maximum": 320
+      }
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "k": 20,
+      "method": "pagerank_1k",
+      "same_ordered_top_k_count": 0,
+      "divergent_count": 3,
+      "first_divergence_values": [
+        1,
+        1,
+        1
+      ],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": -11.147667,
+        "sample_sd": 0.229457,
+        "median": -11.109,
+        "minimum": -11.394,
+        "maximum": -10.94
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.008902,
+        "sample_sd": 0.010211,
+        "median": 0.003196,
+        "minimum": 0.00282,
+        "maximum": 0.020691
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 20,
+        "sample_sd": 0.0,
+        "median": 20,
+        "minimum": 20,
+        "maximum": 20
+      }
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "k": 20,
+      "method": "pagerank_2k",
+      "same_ordered_top_k_count": 0,
+      "divergent_count": 3,
+      "first_divergence_values": [
+        1,
+        1,
+        1
+      ],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": -10.664667,
+        "sample_sd": 0.326971,
+        "median": -10.711,
+        "minimum": -10.966,
+        "maximum": -10.317
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.012222,
+        "sample_sd": 0.009558,
+        "median": 0.008093,
+        "minimum": 0.005422,
+        "maximum": 0.023151
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 40,
+        "sample_sd": 0.0,
+        "median": 40,
+        "minimum": 40,
+        "maximum": 40
+      }
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "k": 20,
+      "method": "pagerank_4k",
+      "same_ordered_top_k_count": 0,
+      "divergent_count": 3,
+      "first_divergence_values": [
+        1,
+        1,
+        1
+      ],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": -10.334667,
+        "sample_sd": 0.229644,
+        "median": -10.237,
+        "minimum": -10.597,
+        "maximum": -10.17
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.019592,
+        "sample_sd": 0.011074,
+        "median": 0.014213,
+        "minimum": 0.012236,
+        "maximum": 0.032328
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 80,
+        "sample_sd": 0.0,
+        "median": 80,
+        "minimum": 80,
+        "maximum": 80
+      }
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "k": 20,
+      "method": "pagerank_8k",
+      "same_ordered_top_k_count": 0,
+      "divergent_count": 3,
+      "first_divergence_values": [
+        1,
+        1,
+        1
+      ],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": -9.986,
+        "sample_sd": 0.247756,
+        "median": -9.892,
+        "minimum": -10.267,
+        "maximum": -9.799
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.040162,
+        "sample_sd": 0.011522,
+        "median": 0.03792,
+        "minimum": 0.029926,
+        "maximum": 0.05264
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 160,
+        "sample_sd": 0.0,
+        "median": 160,
+        "minimum": 160,
+        "maximum": 160
+      }
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "k": 20,
+      "method": "pagerank_16k",
+      "same_ordered_top_k_count": 0,
+      "divergent_count": 3,
+      "first_divergence_values": [
+        1,
+        1,
+        1
+      ],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": -9.671,
+        "sample_sd": 0.274583,
+        "median": -9.705,
+        "minimum": -9.927,
+        "maximum": -9.381
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.080259,
+        "sample_sd": 0.009934,
+        "median": 0.079332,
+        "minimum": 0.07082,
+        "maximum": 0.090624
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 320,
+        "sample_sd": 0.0,
+        "median": 320,
+        "minimum": 320,
+        "maximum": 320
+      }
+    },
+    {
+      "dataset": "higgs_pilot1500",
+      "k": 20,
+      "method": "degree_doubling",
+      "same_ordered_top_k_count": 3,
+      "divergent_count": 0,
+      "first_divergence_values": [],
+      "mean_spread_delta": {
+        "count": 3,
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "cold_time_ratio_to_full": {
+        "count": 3,
+        "mean": 0.463343,
+        "sample_sd": 0.286341,
+        "median": 0.604375,
+        "minimum": 0.133841,
+        "maximum": 0.651813
+      },
+      "candidate_count": {
+        "count": 3,
+        "mean": 240,
+        "sample_sd": 138.564065,
+        "median": 320,
+        "minimum": 80,
+        "maximum": 320
+      }
+    }
+  ]
+}

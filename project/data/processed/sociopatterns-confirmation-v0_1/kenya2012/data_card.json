@@ -1,0 +1,15 @@
+{
+  "schema": "sociopatterns-confirmation-data-card-0.1",
+  "dataset": "kenya2012",
+  "source_file": "scc2034_household_contact_dataset.zip",
+  "source_sha256": "1d6211ac1ddfeda4feb2285b1882cac5a7bde4ce96fdd04488d5abd2de1abadb",
+  "source_page": "https://sociopatterns.org/datasets/kenyan-households-contact-network/",
+  "license": "CC0",
+  "downloaded_on": "2026-09-20",
+  "raw_contact_semantics": "undirected, timestamped proximity contact",
+  "edge_transformation": "each undirected contact emitted as two directed events at the original timestamp",
+  "cascade_semantics": "not observed; cascades.csv is schema-only and must not be used for propagation claims",
+  "node_count": 75,
+  "directed_event_count": 8126,
+  "timestamp_group_count": 42
+}

@@ -1,0 +1,1799 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        15
+      ]
+    ],
+    "date-time": "2026-09-15T13:10:50Z",
+    "timestamp": 1789477850032,
+    "version": "build-2803163510"
+  },
+  "reference-count": 252,
+  "publisher": "Association for Computing Machinery (ACM)",
+  "issue": "9",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            18
+          ]
+        ],
+        "date-time": "2023-07-18T00:00:00Z",
+        "timestamp": 1689638400000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100001809",
+      "name": "National Natural Science Foundation of China",
+      "doi-asserted-by": "crossref",
+      "award": [
+        "62202055"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "62202055"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001809",
+          "id-type": "DOI",
+          "asserted-by": "crossref"
+        }
+      ]
+    },
+    {
+      "name": "Start-up Fund from Beijing Normal University",
+      "award": [
+        "310432104"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "310432104"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Start-up Fund from BNU-HKBU United International College",
+      "award": [
+        "UICR0700018-22"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "UICR0700018-22"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Project of Young Innovative Talents of Guangdong Education Department",
+      "award": [
+        "2022KQNCX102"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "2022KQNCX102"
+          ]
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "dl.acm.org"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "ACM Trans. Knowl. Discov. Data"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2023,
+        11,
+        30
+      ]
+    ]
+  },
+  "abstract": "<jats:p>Influence Maximization (IM) is a classical combinatorial optimization problem, which can be widely used in mobile networks, social computing, and recommendation systems. It aims at selecting a small number of users such that maximizing the influence spread across the online social network. Because of its potential commercial and academic value, there are a lot of researchers focusing on studying the IM problem from different perspectives. The main challenge comes from the NP-hardness of the IM problem and #P-hardness of estimating the influence spread, thus traditional algorithms for overcoming them can be categorized into two classes: heuristic algorithms and approximation algorithms. However, there is no theoretical guarantee for heuristic algorithms, and the theoretical design is close to the limit. Therefore, it is almost impossible to further optimize and improve their performance.</jats:p>\n                  <jats:p>With the rapid development of artificial intelligence, technologies based on Machine Learning (ML) have achieved remarkable achievements in many fields. In view of this, in recent years, a number of new methods have emerged to solve combinatorial optimization problems by using ML-based techniques. These methods have the advantages of fast solving speed and strong generalization ability to unknown graphs, which provide a brand-new direction for solving combinatorial optimization problems. Therefore, we abandon the traditional algorithms based on iterative search and review the recent development of ML-based methods, especially Deep Reinforcement Learning, to solve the IM problem and other variants in social networks. We focus on summarizing the relevant background knowledge, basic principles, common methods, and applied research. Finally, the challenges that need to be solved urgently in future IM research are pointed out.</jats:p>",
+  "DOI": "10.1145/3604559",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2023,
+        6,
+        12
+      ]
+    ],
+    "date-time": "2023-06-12T07:35:56Z",
+    "timestamp": 1686555356000
+  },
+  "page": "1-50",
+  "update-policy": "https://doi.org/10.1145/crossmark-policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 43,
+  "title": [
+    "A Survey on Influence Maximization: From an ML-Based Combinatorial Optimization"
+  ],
+  "prefix": "10.1145",
+  "volume": "17",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0009-0004-5996-2172",
+      "authenticated-orcid": false,
+      "given": "Yandi",
+      "family": "Li",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Department of Computer Science, BNU-HKBU United International College, China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0005-0967-1331",
+      "authenticated-orcid": false,
+      "given": "Haobo",
+      "family": "Gao",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Computer Science, BNU-HKBU United International College, China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0002-5232-8166",
+      "authenticated-orcid": false,
+      "given": "Yunxuan",
+      "family": "Gao",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Computer Science, BNU-HKBU United International College, China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-0994-3297",
+      "authenticated-orcid": false,
+      "given": "Jianxiong",
+      "family": "Guo",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Advanced Institute of Natural Sciences, Beijing Normal University, China and Guangdong Key Lab of AI and Multi-Modal Data Processing, BNU-HKBU United International College, China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-8747-6340",
+      "authenticated-orcid": false,
+      "given": "Weili",
+      "family": "Wu",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Computer Science, The University of Texas at Dallas, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "320",
+  "published-online": {
+    "date-parts": [
+      [
+        2023,
+        7,
+        18
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_3_1_2_2",
+      "unstructured": "Kenshin Abe Zijian Xu Issei Sato and Masashi Sugiyama. 2019. Solving NP-hard problems on graphs with extended AlphaGo Zero. arXiv:1905.11623. Retrieved from https://arxiv.org/abs/1905.11623."
+    },
+    {
+      "key": "e_1_3_1_3_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s00607-021-00945-7"
+    },
+    {
+      "key": "e_1_3_1_4_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/WI.2018.00-62"
+    },
+    {
+      "key": "e_1_3_1_5_2",
+      "first-page": "1",
+      "article-title": "Leveraging transfer learning in reinforcement learning to tackle competitive influence maximization",
+      "author": "Ali Khurshed",
+      "year": "2022",
+      "unstructured": "Khurshed Ali, Chih-Yu Wang, and Yi-Shin Chen. 2022. Leveraging transfer learning in reinforcement learning to tackle competitive influence maximization. Knowledge and Information Systems 64, 8 (2022), 1–32.",
+      "journal-title": "Knowledge and Information Systems"
+    },
+    {
+      "key": "e_1_3_1_6_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ASONAM49781.2020.9381471"
+    },
+    {
+      "key": "e_1_3_1_7_2",
+      "first-page": "1",
+      "volume-title": "Proceedings of the 2021 IEEE 8th International Conference on Data Science and Advanced Analytics",
+      "author": "Ali Khurshed",
+      "year": "2021",
+      "unstructured": "Khurshed Ali, Chih-Yu Wang, Mi-Yen Yeh, Cheng-Te Li, and Yi-Shin Chen. 2021. NEDRL-CIM: Network embedding meets deep reinforcement learning to tackle competitive influence maximization on evolving social networks. In Proceedings of the 2021 IEEE 8th International Conference on Data Science and Advanced Analytics. IEEE, 1–9."
+    },
+    {
+      "key": "e_1_3_1_8_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.comcom.2022.09.029"
+    },
+    {
+      "key": "e_1_3_1_9_2",
+      "article-title": "Hindsight experience replay",
+      "author": "Andrychowicz Marcin",
+      "year": "2017",
+      "unstructured": "Marcin Andrychowicz, Filip Wolski, Alex Ray, Jonas Schneider, Rachel Fong, Peter Welinder, Bob McGrew, Josh Tobin, Pieter Abbeel, and Wojciech Zaremba. 2017. Hindsight experience replay. In Proceedings of the 31st International Conference on Neural Information Processing Systems.",
+      "journal-title": "Proceedings of the 31st International Conference on Neural Information Processing Systems"
+    },
+    {
+      "key": "e_1_3_1_10_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41562-018-0346-z"
+    },
+    {
+      "key": "e_1_3_1_11_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3035918.3035924"
+    },
+    {
+      "key": "e_1_3_1_12_2",
+      "first-page": "295",
+      "volume-title": "Proceedings of the International Conference on Extending Database Technology",
+      "author": "Aslay Cigdem",
+      "year": "2014",
+      "unstructured": "Cigdem Aslay, Nicola Barbieri, Francesco Bonchi, and Ricardo Baeza-Yates. 2014. Online topic-aware influence maximization queries. In Proceedings of the International Conference on Extending Database Technology. 295–306."
+    },
+    {
+      "key": "e_1_3_1_13_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.cosrev.2021.100393"
+    },
+    {
+      "key": "e_1_3_1_14_2",
+      "volume-title": "Proceedings of the International Conference on Learning Representations",
+      "author": "Bahdanau Dzmitry",
+      "year": "2015",
+      "unstructured": "Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio. 2015. Neural machine translation by jointly learning to align and translate. In Proceedings of the International Conference on Learning Representations."
+    },
+    {
+      "key": "e_1_3_1_15_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5555/3382225.3382464"
+    },
+    {
+      "key": "e_1_3_1_16_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s10115-020-01461-4"
+    },
+    {
+      "key": "e_1_3_1_17_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1098/rsta.2012.0375"
+    },
+    {
+      "key": "e_1_3_1_18_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1609/aaai.v34i04.5723"
+    },
+    {
+      "key": "e_1_3_1_19_2",
+      "volume-title": "Proceedings of the 5th International Conference on Learning Representations",
+      "author": "Bello Irwan",
+      "year": "2017",
+      "unstructured": "Irwan Bello, Hieu Pham, Quoc V. Le, Mohammad Norouzi, and Samy Bengio. 2017. Neural combinatorial optimization with reinforcement learning. In Proceedings of the 5th International Conference on Learning Representations."
+    },
+    {
+      "key": "e_1_3_1_20_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ejor.2020.07.063"
+    },
+    {
+      "key": "e_1_3_1_21_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1371/journal.pone.0154244"
+    },
+    {
+      "key": "e_1_3_1_22_2",
+      "unstructured": "Dimitri Bertsekas. 2012. Dynamic programming and optimal control: Volume I. Athena scientific."
+    },
+    {
+      "key": "e_1_3_1_23_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5555/1781894.1781932"
+    },
+    {
+      "key": "e_1_3_1_24_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5555/2634074.2634144"
+    },
+    {
+      "key": "e_1_3_1_25_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2835776.2835817"
+    },
+    {
+      "key": "e_1_3_1_26_2",
+      "volume-title": "Proceedings of the Conference on Neural Information Processing Systems",
+      "author": "Brandfonbrener David",
+      "year": "2022",
+      "unstructured": "David Brandfonbrener, Alberto Bietti, Jacob Buckman, Romain Laroche, and Joan Bruna. 2022. When does return-conditioned supervised learning work for offline reinforcement learning? In Proceedings of the Conference on Neural Information Processing Systems."
+    },
+    {
+      "key": "e_1_3_1_27_2",
+      "article-title": "Signature verification using a “siamese” time delay neural network",
+      "author": "Bromley Jane",
+      "year": "1993",
+      "unstructured": "Jane Bromley, Isabelle Guyon, Yann LeCun, Eduard Säckinger, and Roopak Shah. 1993. Signature verification using a “siamese” time delay neural network. In Proceedings of the 6th International Conference on Neural Information Processing Systems.",
+      "journal-title": "Proceedings of the 6th International Conference on Neural Information Processing Systems"
+    },
+    {
+      "key": "e_1_3_1_28_2",
+      "volume-title": "Proceedings of the 2nd International Conference on Learning Representations",
+      "author": "Bruna Joan",
+      "year": "2014",
+      "unstructured": "Joan Bruna, Wojciech Zaremba, Arthur Szlam, and Yann LeCun. 2014. Spectral networks and deep locally connected networks on graphs. In Proceedings of the 2nd International Conference on Learning Representations."
+    },
+    {
+      "key": "e_1_3_1_29_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1963405.1963499"
+    },
+    {
+      "key": "e_1_3_1_30_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/INFOCOM.2016.7524471"
+    },
+    {
+      "key": "e_1_3_1_31_2",
+      "unstructured": "Taotao Cai Jianxin Li Ajmal Mian Rong-Hua Li Timos Sellis and Jeffrey Xu Yu. 2020. Target-aware holistic influence maximization in spatial social networks. IEEE Transactions on Knowledge and Data Engineering 34 4 (2020) 1993–2007."
+    },
+    {
+      "key": "e_1_3_1_32_2",
+      "unstructured": "Taotao Cai Quan Z. Sheng Xiangyu Song Jian Yang Wei Emma Zhang Jia Wu and Philip S. Yu. 2022. A survey on location-driven influence maximization. arXiv:2204.08005. Retrieved from https://arxiv.org/abs/2204.08005."
+    },
+    {
+      "key": "e_1_3_1_33_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1609/aaai.v35i5.16484"
+    },
+    {
+      "key": "e_1_3_1_34_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1023/A:1007379606734"
+    },
+    {
+      "key": "e_1_3_1_35_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.physrep.2022.05.003"
+    },
+    {
+      "key": "e_1_3_1_36_2",
+      "first-page": "1535",
+      "volume-title": "Proceedings of the 37th Conference on Uncertainty in Artificial Intelligence",
+      "author": "Chen Haipeng",
+      "year": "2021",
+      "unstructured": "Haipeng Chen, Wei Qiu, Han-Ching Ou, Bo An, and Milind Tambe. 2021. Contingency-aware influence maximization: A reinforcement learning approach. In Proceedings of the 37th Conference on Uncertainty in Artificial Intelligence. PMLR, 1535–1545."
+    },
+    {
+      "key": "e_1_3_1_37_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3543507.3583465"
+    },
+    {
+      "key": "e_1_3_1_38_2",
+      "first-page": "15084",
+      "article-title": "Decision transformer: Reinforcement learning via sequence modeling",
+      "author": "Chen Lili",
+      "year": "2021",
+      "unstructured": "Lili Chen, Kevin Lu, Aravind Rajeswaran, Kimin Lee, Aditya Grover, Misha Laskin, Pieter Abbeel, Aravind Srinivas, and Igor Mordatch. 2021. Decision transformer: Reinforcement learning via sequence modeling. InProceedings of the 35th Conference on Neural Information Processing Systems. 15084–15097.",
+      "journal-title": "Proceedings of the 35th Conference on Neural Information Processing Systems"
+    },
+    {
+      "key": "e_1_3_1_39_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/mice.12702"
+    },
+    {
+      "key": "e_1_3_1_40_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.14778/2735703.2735706"
+    },
+    {
+      "key": "e_1_3_1_41_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1142/S179383092230003X"
+    },
+    {
+      "key": "e_1_3_1_42_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TCSS.2019.2944120"
+    },
+    {
+      "key": "e_1_3_1_43_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TCSS.2023.3272331"
+    },
+    {
+      "key": "e_1_3_1_44_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-030-04648-4_24"
+    },
+    {
+      "key": "e_1_3_1_45_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5555/2601921"
+    },
+    {
+      "key": "e_1_3_1_46_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1835804.1835934"
+    },
+    {
+      "key": "e_1_3_1_47_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1557019.1557047"
+    },
+    {
+      "key": "e_1_3_1_48_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICDM.2010.118"
+    },
+    {
+      "key": "e_1_3_1_49_2",
+      "article-title": "Efficient similarity-aware influence maximization in geo-social network",
+      "author": "Chen Xuanhao",
+      "year": "2020",
+      "unstructured": "Xuanhao Chen, Yan Zhao, Guanfeng Liu, Rui Sun, Xiaofang Zhou, and Kai Zheng. 2020. Efficient similarity-aware influence maximization in geo-social network. IEEE Transactions on Knowledge and Data Engineering 34, 10 (2020), 4767–4780.",
+      "journal-title": "IEEE Transactions on Knowledge and Data Engineering"
+    },
+    {
+      "key": "e_1_3_1_50_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICDE.2019.00074"
+    },
+    {
+      "key": "e_1_3_1_51_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2600428.2609592"
+    },
+    {
+      "key": "e_1_3_1_52_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2505515.2505541"
+    },
+    {
+      "key": "e_1_3_1_53_2",
+      "unstructured": "Junyoung Chung Caglar Gulcehre KyungHyun Cho and Yoshua Bengio. 2014. Empirical evaluation of gated recurrent neural networks on sequence modeling. In NIPS 2014 Workshop on Deep Learning December 2014."
+    },
+    {
+      "key": "e_1_3_1_54_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2661829.2662077"
+    },
+    {
+      "key": "e_1_3_1_55_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.24963/ijcai.2019/304"
+    },
+    {
+      "key": "e_1_3_1_56_2",
+      "first-page": "2702",
+      "volume-title": "Proceedings of the International Conference on Machine Learning",
+      "author": "Dai Hanjun",
+      "year": "2016",
+      "unstructured": "Hanjun Dai, Bo Dai, and Le Song. 2016. Discriminative embeddings of latent variable models for structured data. In Proceedings of the International Conference on Machine Learning. 2702–2711."
+    },
+    {
+      "key": "e_1_3_1_57_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s10489-017-0987-z"
+    },
+    {
+      "key": "e_1_3_1_58_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ins.2019.11.029"
+    },
+    {
+      "key": "e_1_3_1_59_2",
+      "article-title": "Convolutional neural networks on graphs with fast localized spectral filtering",
+      "author": "Defferrard Michaël",
+      "year": "2016",
+      "unstructured": "Michaël Defferrard, Xavier Bresson, and Pierre Vandergheynst. 2016. Convolutional neural networks on graphs with fast localized spectral filtering. In Proceedings of the 30th International Conference on Neural Information Processing Systems.",
+      "journal-title": "Proceedings of the 30th International Conference on Neural Information Processing Systems"
+    },
+    {
+      "key": "e_1_3_1_60_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-319-93031-2_12"
+    },
+    {
+      "key": "e_1_3_1_61_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/502512.502525"
+    },
+    {
+      "key": "e_1_3_1_62_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3097983.3098036"
+    },
+    {
+      "key": "e_1_3_1_63_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICDCS.2013.34"
+    },
+    {
+      "key": "e_1_3_1_64_2",
+      "article-title": "Curriculum-guided hindsight experience replay",
+      "author": "Fang Meng",
+      "year": "2019",
+      "unstructured": "Meng Fang, Tianyi Zhou, Yali Du, Lei Han, and Zhengyou Zhang. 2019. Curriculum-guided hindsight experience replay. In Proceedings of the 33rd International Conference on Neural Information Processing Systems.",
+      "journal-title": "Proceedings of the 33rd International Conference on Neural Information Processing Systems"
+    },
+    {
+      "key": "e_1_3_1_65_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICDE.2018.00089"
+    },
+    {
+      "key": "e_1_3_1_66_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TKDE.2022.3209067"
+    },
+    {
+      "key": "e_1_3_1_67_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/BFb0121195"
+    },
+    {
+      "key": "e_1_3_1_68_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3160000"
+    },
+    {
+      "key": "e_1_3_1_69_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2882903.2882929"
+    },
+    {
+      "key": "e_1_3_1_70_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s10710-017-9314-z"
+    },
+    {
+      "key": "e_1_3_1_71_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1718487.1718518"
+    },
+    {
+      "key": "e_1_3_1_72_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1963192.1963217"
+    },
+    {
+      "key": "e_1_3_1_73_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICDM.2011.132"
+    },
+    {
+      "key": "e_1_3_1_74_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2939672.2939754"
+    },
+    {
+      "key": "e_1_3_1_75_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/988672.988739"
+    },
+    {
+      "key": "e_1_3_1_76_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3390/math8020298"
+    },
+    {
+      "key": "e_1_3_1_77_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2503792.2503797"
+    },
+    {
+      "key": "e_1_3_1_78_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Udesh Gunarathna Renata Borovica-Gajic Shanika Karunasekara and Egemen Tanin. 2022. Solving dynamic graph problems with multi-attention deep reinforcement learning. arXiv:2201.04895. Retrieved from https://arxiv.org/abs/2201.04895.",
+      "DOI": "10.1145/3557915.3560956"
+    },
+    {
+      "issue": "1",
+      "key": "e_1_3_1_79_2",
+      "first-page": "386",
+      "article-title": "A multi-feature diffusion model: Rumor blocking in social networks",
+      "volume": "29",
+      "author": "Guo Jianxiong",
+      "year": "2020",
+      "unstructured": "Jianxiong Guo, Tiantian Chen, and Weili Wu. 2020. A multi-feature diffusion model: Rumor blocking in social networks. IEEE/ACM Transactions on Networking 29, 1 (2020), 386–397.",
+      "journal-title": "IEEE/ACM Transactions on Networking"
+    },
+    {
+      "key": "e_1_3_1_80_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TNSE.2019.2944108"
+    },
+    {
+      "key": "e_1_3_1_81_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3447396"
+    },
+    {
+      "key": "e_1_3_1_82_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TCSS.2021.3061452"
+    },
+    {
+      "key": "e_1_3_1_83_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3318464.3389740"
+    },
+    {
+      "key": "e_1_3_1_84_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3533817"
+    },
+    {
+      "key": "e_1_3_1_85_2",
+      "article-title": "Inductive representation learning on large graphs",
+      "author": "Hamilton Will",
+      "year": "2017",
+      "unstructured": "Will Hamilton, Zhitao Ying, and Jure Leskovec. 2017. Inductive representation learning on large graphs. In Proceedings of the 31st International Conference on Neural Information Processing Systems.",
+      "journal-title": "Proceedings of the 31st International Conference on Neural Information Processing Systems"
+    },
+    {
+      "key": "e_1_3_1_86_2",
+      "article-title": "Reinforcement-learning-based competitive opinion maximization approach in signed social networks",
+      "author": "He Qiang",
+      "year": "2021",
+      "unstructured": "Qiang He, Xingwei Wang, Yong Zhao, Bo Yi, Xijia Lu, Mingzhou Yang, and Min Huang. 2021. Reinforcement-learning-based competitive opinion maximization approach in signed social networks. IEEE Transactions on Computational Social Systems 9, 5 (2021), 1505–1514.",
+      "journal-title": "IEEE Transactions on Computational Social Systems"
+    },
+    {
+      "key": "e_1_3_1_87_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TCSS.2022.3188701"
+    },
+    {
+      "key": "e_1_3_1_88_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICDCS.2015.29"
+    },
+    {
+      "key": "e_1_3_1_89_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVT.2016.2585591"
+    },
+    {
+      "key": "e_1_3_1_90_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/BF00339943"
+    },
+    {
+      "key": "e_1_3_1_91_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ins.2020.04.023"
+    },
+    {
+      "key": "e_1_3_1_92_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.knosys.2020.106600"
+    },
+    {
+      "key": "e_1_3_1_93_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.14778/3099622.3099623"
+    },
+    {
+      "key": "e_1_3_1_94_2",
+      "first-page": "9622",
+      "volume-title": "Proceedings of the International Conference on Machine Learning",
+      "volume": "162",
+      "author": "Ireland David",
+      "year": "2022",
+      "unstructured": "David Ireland and Giovanni Montana. 2022. LeNSE: Learning to navigate subgraph embeddings for large-scale combinatorial optimisation. In Proceedings of the International Conference on Machine Learning. Vol. 162, 9622–9638."
+    },
+    {
+      "key": "e_1_3_1_95_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICDM.2018.00134"
+    },
+    {
+      "key": "e_1_3_1_96_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/AICCSA47632.2019.9035366"
+    },
+    {
+      "key": "e_1_3_1_97_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1609/aaai.v25i1.7838"
+    },
+    {
+      "key": "e_1_3_1_98_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ins.2022.04.062"
+    },
+    {
+      "key": "e_1_3_1_99_2",
+      "unstructured": "Chaitanya K. Joshi Thomas Laurent and Xavier Bresson. 2019. An efficient graph convolutional network technique for the travelling salesman problem. arXiv:1906.01227. Retrieved from https://arxiv.org/abs/1906.01227."
+    },
+    {
+      "key": "e_1_3_1_100_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICDM.2012.79"
+    },
+    {
+      "key": "e_1_3_1_101_2",
+      "first-page": "575",
+      "volume-title": "Proceedings of the 19th International Conference on Autonomous Agents and MultiAgent Systems",
+      "author": "Kamarthi Harshavardhan",
+      "year": "2020",
+      "unstructured": "Harshavardhan Kamarthi, Priyesh Vijayan, Bryan Wilder, Balaraman Ravindran, and Milind Tambe. 2020. Influence maximization in unknown social networks: Learning policies for effective graph sampling. In Proceedings of the 19th International Conference on Autonomous Agents and MultiAgent Systems. 575–583."
+    },
+    {
+      "key": "e_1_3_1_102_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Venkatakrishna Rao K. Mahender Katukuri and Maheswari Jagarapu. 2022. CIM: clique-based heuristic for finding influential nodes in multilayer networks. Applied Intelligence 52 5 (2022) 5173–5184.",
+      "DOI": "10.1007/s10489-021-02656-0"
+    },
+    {
+      "key": "e_1_3_1_103_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.knosys.2018.02.028"
+    },
+    {
+      "key": "e_1_3_1_104_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.eswa.2019.112905"
+    },
+    {
+      "key": "e_1_3_1_105_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/956750.956769"
+    },
+    {
+      "key": "e_1_3_1_106_2",
+      "first-page": "4171",
+      "volume-title": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+      "author": "Kenton Jacob Devlin, Ming-Wei Chang,",
+      "year": "2019",
+      "unstructured": "Jacob Devlin, Ming-Wei Chang, KentonLee, and Kristina Toutanova. 2019. BERT: Pre-training of deep bidirectional transformers for language understanding. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. 4171–4186."
+    },
+    {
+      "key": "e_1_3_1_107_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.24963/ijcai.2020/594"
+    },
+    {
+      "key": "e_1_3_1_108_2",
+      "article-title": "Learning combinatorial optimization algorithms over graphs",
+      "author": "Khalil Elias",
+      "year": "2017",
+      "unstructured": "Elias Khalil, Hanjun Dai, Yuyu Zhang, Bistra Dilkina, and Le Song. 2017. Learning combinatorial optimization algorithms over graphs. In Proceedings of the 31st International Conference on Neural Information Processing Systems.",
+      "journal-title": "Proceedings of the 31st International Conference on Neural Information Processing Systems"
+    },
+    {
+      "key": "e_1_3_1_109_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2623330.2623704"
+    },
+    {
+      "key": "e_1_3_1_110_2",
+      "first-page": "266",
+      "volume-title": "Proceedings of the 2013 IEEE 29th International Conference on Data Engineering",
+      "author": "Kim Jinha",
+      "year": "2013",
+      "unstructured": "Jinha Kim, Seung-Keol Kim, and Hwanjo Yu. 2013. Scalable and parallelizable processing of influence maximization for large-scale social networks? In Proceedings of the 2013 IEEE 29th International Conference on Data Engineering. IEEE, 266–277."
+    },
+    {
+      "key": "e_1_3_1_111_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/11871637_27"
+    },
+    {
+      "key": "e_1_3_1_112_2",
+      "volume-title": "Proceedings of the International Conference on Learning Representations",
+      "author": "Kool Wouter",
+      "year": "2019",
+      "unstructured": "Wouter Kool, Herke van Hoof, and Max Welling. 2019. Attention, learn to solve routing problems! In Proceedings of the International Conference on Learning Representations."
+    },
+    {
+      "key": "e_1_3_1_113_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ins.2022.06.075"
+    },
+    {
+      "key": "e_1_3_1_114_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.eswa.2022.118770"
+    },
+    {
+      "key": "e_1_3_1_115_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2487575.2487657"
+    },
+    {
+      "key": "e_1_3_1_116_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1287/opre.14.4.699"
+    },
+    {
+      "key": "e_1_3_1_117_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1137/1.9781611974973.61"
+    },
+    {
+      "key": "e_1_3_1_118_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2783258.2783271"
+    },
+    {
+      "key": "e_1_3_1_119_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICTAI.2019.00125"
+    },
+    {
+      "key": "e_1_3_1_120_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1281192.1281239"
+    },
+    {
+      "key": "e_1_3_1_121_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3038912.3052643"
+    },
+    {
+      "key": "e_1_3_1_122_2",
+      "first-page": "1455",
+      "volume-title": "Proceedings of the 37th Conference on Uncertainty in Artificial Intelligence",
+      "author": "Li Dexun",
+      "year": "2021",
+      "unstructured": "Dexun Li, Meghna Lowalekar, and Pradeep Varakantham. 2021. CLAIM: Curriculum learning policy for influence maximization in unknown social networks. In Proceedings of the 37th Conference on Uncertainty in Artificial Intelligence. PMLR, 1455–1465."
+    },
+    {
+      "key": "e_1_3_1_123_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2588555.2588561"
+    },
+    {
+      "key": "e_1_3_1_124_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Hui Li Mengting Xu Sourav S. Bhowmick Joty Shafiq Rayhan Changsheng Sun and Jiangtao Cui. 2022. PIANO: Influence maximization meets deep reinforcement learning. IEEE Transactions on Computational Social Systems 10 3 (2022) 1288–1300.",
+      "DOI": "10.1109/TCSS.2022.3164667"
+    },
+    {
+      "key": "e_1_3_1_125_2",
+      "unstructured": "Hui Li Mengting Xu Sourav S. Bhowmick Changsheng Sun Zhongyuan Jiang and Jiangtao Cui. 2019. DISCO: Influence maximization meets network embedding and deep learning. arXiv:1906.07378. Retrieved from https://arxiv.org/abs/1906.07378."
+    },
+    {
+      "key": "e_1_3_1_126_2",
+      "unstructured": "Wenzhe Li Hao Luo Zichuan Lin Chongjie Zhang Zongqing Lu and Deheng Ye. 2023. A survey on transformers in reinforcement learning. arXiv:2301.03044. Retrieved from https://arxiv.org/abs/2301.03044."
+    },
+    {
+      "key": "e_1_3_1_127_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s00521-017-3231-1"
+    },
+    {
+      "key": "e_1_3_1_128_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TKDE.2018.2807843"
+    },
+    {
+      "key": "e_1_3_1_129_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.eswa.2022.117289"
+    },
+    {
+      "key": "e_1_3_1_130_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.14778/2794367.2794376"
+    },
+    {
+      "key": "e_1_3_1_131_2",
+      "article-title": "Combinatorial optimization with graph convolutional networks and guided tree search",
+      "author": "Li Zhuwen",
+      "year": "2018",
+      "unstructured": "Zhuwen Li, Qifeng Chen, and Vladlen Koltun. 2018. Combinatorial optimization with graph convolutional networks and guided tree search. In Proceedings of the 32nd International Conference on Neural Information Processing Systems.",
+      "journal-title": "Proceedings of the 32nd International Conference on Neural Information Processing Systems"
+    },
+    {
+      "key": "e_1_3_1_132_2",
+      "first-page": "1",
+      "volume-title": "Proceedings of the 4th International Conference on Learning Representations",
+      "author": "Lillicrap Timothy P.",
+      "year": "2016",
+      "unstructured": "Timothy P. Lillicrap, Jonathan J. Hunt, Alexander Pritzel, Nicolas Heess, Tom Erez, Yuval Tassa, David Silver, and Daan Wierstra. 2016. Continuous control with deep reinforcement learning. In Proceedings of the 4th International Conference on Learning Representations. 1–14."
+    },
+    {
+      "key": "e_1_3_1_133_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2783258.2783392"
+    },
+    {
+      "key": "e_1_3_1_134_2",
+      "unstructured": "Chen Ling Junji Jiang Junxiang Wang My Thai Lukas Xue James Song Meikang Qiu and Liang Zhao. 2023. Deep graph representation learning and optimization for influence maximization. In International Conference on Machine Learning (ICML’23) ."
+    },
+    {
+      "key": "e_1_3_1_135_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/BigData47090.2019.9006450"
+    },
+    {
+      "key": "e_1_3_1_136_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2661829.2662009"
+    },
+    {
+      "key": "e_1_3_1_137_2",
+      "first-page": "1",
+      "article-title": "An influence maximization algorithm based on low-dimensional representation learning",
+      "author": "Liu Yuening",
+      "year": "2022",
+      "unstructured": "Yuening Liu, Liqing Qiu, and Chengai Sun. 2022. An influence maximization algorithm based on low-dimensional representation learning. Applied Intelligence 52, 14 (2022), 1–18.",
+      "journal-title": "Applied Intelligence"
+    },
+    {
+      "key": "e_1_3_1_138_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-030-91431-8_27"
+    },
+    {
+      "key": "e_1_3_1_139_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3488560.3498497"
+    },
+    {
+      "key": "e_1_3_1_140_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TETCI.2021.3136643"
+    },
+    {
+      "key": "e_1_3_1_141_2",
+      "unstructured": "Qiang Ma Suwen Ge Danyang He Darshan Thaker and Iddo Drori. 2019. Combinatorial optimization by graph pointer networks and hierarchical reinforcement learning. arXiv:1911.04936. Retrieved from https://arxiv.org/abs/1911.04936."
+    },
+    {
+      "key": "e_1_3_1_142_2",
+      "first-page": "20000",
+      "article-title": "GCOMB: Learning budget-constrained combinatorial algorithms over billion-sized graphs",
+      "author": "Manchanda Sahil",
+      "year": "2020",
+      "unstructured": "Sahil Manchanda, Akash Mittal, Anuj Dhawan, Sourav Medya, Sayan Ranu, and Ambuj Singh. 2020. GCOMB: Learning budget-constrained combinatorial algorithms over billion-sized graphs. In Proceedings of the 34th International Conference on Neural Information Processing Systems. 20000–20011.",
+      "journal-title": "Proceedings of the 34th International Conference on Neural Information Processing Systems"
+    },
+    {
+      "key": "e_1_3_1_143_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3341302.3342080"
+    },
+    {
+      "key": "e_1_3_1_144_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2020408.2020492"
+    },
+    {
+      "key": "e_1_3_1_145_2",
+      "first-page": "7565",
+      "volume-title": "Proceedings of the International Conference on Machine Learning",
+      "author": "Meirom Eli",
+      "year": "2021",
+      "unstructured": "Eli Meirom, Haggai Maron, Shie Mannor, and Gal Chechik. 2021. Controlling graph dynamics with reinforcement learning and graph neural networks. In Proceedings of the International Conference on Machine Learning. PMLR, 7565–7577."
+    },
+    {
+      "key": "e_1_3_1_146_2",
+      "first-page": "1",
+      "article-title": "Efficient information diffusion in time-varying graphs through deep reinforcement learning",
+      "author": "Mendonça Matheus R. F.",
+      "year": "2022",
+      "unstructured": "Matheus R. F. Mendonça, André Barreto, and Artur Ziviani. 2022. Efficient information diffusion in time-varying graphs through deep reinforcement learning. World Wide Web 25, 6 (2022), 1–26.",
+      "journal-title": "World Wide Web"
+    },
+    {
+      "key": "e_1_3_1_147_2",
+      "volume-title": "Proceedings of the 1st International Conference on Learning Representations",
+      "author": "Mikolov Tomas",
+      "year": "2013",
+      "unstructured": "Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean. 2013. Efficient estimation of word representations in vector space. In Proceedings of the 1st International Conference on Learning Representations."
+    },
+    {
+      "key": "e_1_3_1_148_2",
+      "article-title": "Distributed representations of words and phrases and their compositionality",
+      "author": "Mikolov Tomas",
+      "year": "2013",
+      "unstructured": "Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg S. Corrado, and Jeff Dean. 2013. Distributed representations of words and phrases and their compositionality. InProceedings of the 26th International Conference on Neural Information Processing Systems.",
+      "journal-title": "Proceedings of the 26th International Conference on Neural Information Processing Systems"
+    },
+    {
+      "key": "e_1_3_1_149_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Volodymyr Mnih Koray Kavukcuoglu David Silver Andrei A. Rusu Joel Veness Marc G. Bellemare Alex Graves Martin Riedmiller Andreas K. Fidjeland Georg Ostrovski Petersen Stig Charles Beattie Amir Sadik Ioannis Antonoglou Helen King Dharshan Kumaran Daan Wierstra Shane Legg and Demis Hassabis. 2015. Human-level control through deep reinforcement learning. Nature 518 7540 (2015) 529–533.",
+      "DOI": "10.1038/nature14236"
+    },
+    {
+      "key": "e_1_3_1_150_2",
+      "volume-title": "Probabilistic Machine Learning: An Introduction",
+      "author": "Murphy Kevin P.",
+      "year": "2022",
+      "unstructured": "Kevin P. Murphy. 2022. Probabilistic Machine Learning: An Introduction. MIT Press."
+    },
+    {
+      "key": "e_1_3_1_151_2",
+      "article-title": "Visual reinforcement learning with imagined goals",
+      "author": "Nair Ashvin V.",
+      "year": "2018",
+      "unstructured": "Ashvin V. Nair, Vitchyr Pong, Murtaza Dalal, Shikhar Bahl, Steven Lin, and Sergey Levine. 2018. Visual reinforcement learning with imagined goals. In Proceedings of the 32nd International Conference on Neural Information Processing Systems.",
+      "journal-title": "Proceedings of the 32nd International Conference on Neural Information Processing Systems"
+    },
+    {
+      "key": "e_1_3_1_152_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TASE.2010.2052042"
+    },
+    {
+      "key": "e_1_3_1_153_2",
+      "article-title": "Reinforcement learning for solving the vehicle routing problem",
+      "author": "Nazari Mohammadreza",
+      "year": "2018",
+      "unstructured": "Mohammadreza Nazari, Afshin Oroojlooy, Lawrence Snyder, and Martin Takác. 2018. Reinforcement learning for solving the vehicle routing problem. In Proceedings of the 32nd International Conference on Neural Information Processing Systems.",
+      "journal-title": "Proceedings of the 32nd International Conference on Neural Information Processing Systems"
+    },
+    {
+      "key": "e_1_3_1_154_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/BF01588971"
+    },
+    {
+      "key": "e_1_3_1_155_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICDM.2013.24"
+    },
+    {
+      "key": "e_1_3_1_156_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/INFOCOM.2016.7524377"
+    },
+    {
+      "key": "e_1_3_1_157_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-030-04648-4_23"
+    },
+    {
+      "key": "e_1_3_1_158_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2882903.2915207"
+    },
+    {
+      "key": "e_1_3_1_159_2",
+      "unstructured": "Runbo Ni Xueyan Li Fangqi Li Xiaofeng Gao and Guihai Chen. 2021. FastCover: An unsupervised learning framework for multi-hop influence maximization in social networks. arXiv:2111.00463. Retrieved from https://arxiv.org/abs/2111.00463."
+    },
+    {
+      "key": "e_1_3_1_160_2",
+      "first-page": "1527",
+      "volume-title": "Proceedings of the 30th International Joint Conference on Artificial Intelligence",
+      "author": "Nishad Sunil",
+      "year": "2020",
+      "unstructured": "Sunil Nishad, Shubhangi Agarwal, Arnab Bhattacharya, and Sayan Ranu. 2020. GraphReach: Position-aware graph neural network using reachability estimations. In Proceedings of the 30th International Joint Conference on Artificial Intelligence. 1527–1533."
+    },
+    {
+      "key": "e_1_3_1_161_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1609/aaai.v28i1.8726"
+    },
+    {
+      "key": "e_1_3_1_162_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.14778/2994509.2994525"
+    },
+    {
+      "key": "e_1_3_1_163_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5555/3463952.3464068"
+    },
+    {
+      "key": "e_1_3_1_164_2",
+      "article-title": "Multi-task learning for influence estimation and maximization",
+      "author": "Panagopoulos George",
+      "year": "2020",
+      "unstructured": "George Panagopoulos, Fragkiskos Malliaros, and Michalis Vazirgiannis. 2020. Multi-task learning for influence estimation and maximization. IEEE Transactions on Knowledge and Data Engineering 34, 9 (2020), 4398–4409.",
+      "journal-title": "IEEE Transactions on Knowledge and Data Engineering"
+    },
+    {
+      "key": "e_1_3_1_165_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1609/icwsm.v14i1.7319"
+    },
+    {
+      "key": "e_1_3_1_166_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jnca.2018.01.005"
+    },
+    {
+      "key": "e_1_3_1_167_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2623330.2623732"
+    },
+    {
+      "key": "e_1_3_1_168_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1609/aaai.v33i01.33014731"
+    },
+    {
+      "key": "e_1_3_1_169_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3219819.3220077"
+    },
+    {
+      "key": "e_1_3_1_170_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5555/3367471.3367678"
+    },
+    {
+      "key": "e_1_3_1_171_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3097983.3098061"
+    },
+    {
+      "key": "e_1_3_1_172_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/775047.775057"
+    },
+    {
+      "key": "e_1_3_1_173_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-540-85567-5_9"
+    },
+    {
+      "key": "e_1_3_1_174_2",
+      "unstructured": "Daniel Selsam Matthew Lamm Bünz Benedikt Percy Liang Leonardo de Moura and David L. Dill. 2019. Learning a SAT Solver from Single-Bit Supervision. In 7th International Conference on Learning Representations (ICLR’19) . New Orleans LA."
+    },
+    {
+      "key": "e_1_3_1_175_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3077136.3080646"
+    },
+    {
+      "key": "e_1_3_1_176_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TFUZZ.2019.2931272"
+    },
+    {
+      "key": "e_1_3_1_177_2",
+      "first-page": "839",
+      "article-title": "Dynamic influence maximization via network representation learning",
+      "author": "Sheng Wei",
+      "year": "2022",
+      "unstructured": "Wei Sheng, Wenbo Song, Dong Li, Fei Yang, and Yatao Zhang. 2022. Dynamic influence maximization via network representation learning. Frontiers in Physics 9 (2022), 839.",
+      "journal-title": "Frontiers in Physics"
+    },
+    {
+      "key": "e_1_3_1_178_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Tuo Shi Siyao Cheng Zhipeng Cai Yingshu Li and Jianzhong Li. 2016. Retrieving the maximal time-bounded positive influence set from social networks. Personal and Ubiquitous Computing 20 5 (2016) 717–730.",
+      "DOI": "10.1007/s00779-016-0943-7"
+    },
+    {
+      "key": "e_1_3_1_179_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.asoc.2019.105554"
+    },
+    {
+      "key": "e_1_3_1_180_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Shashank Sheshar Singh Divya Srivastva Madhushi Verma and Jagendra Singh. 2022. Influence maximization frameworks performance challenges and directions on social network: A theoretical study. Journal of King Saud University-Computer and Information Sciences 34 9 (2022) 7570–7603.",
+      "DOI": "10.1016/j.jksuci.2021.08.009"
+    },
+    {
+      "key": "e_1_3_1_181_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1287/ijoc.11.1.15"
+    },
+    {
+      "key": "e_1_3_1_182_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2983323.2983724"
+    },
+    {
+      "key": "e_1_3_1_183_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.future.2018.07.015"
+    },
+    {
+      "key": "e_1_3_1_184_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-1-4419-8462-3_7"
+    },
+    {
+      "key": "e_1_3_1_185_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/LCOMM.2020.3025298"
+    },
+    {
+      "key": "e_1_3_1_186_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.2200/S00433ED1V01Y201207DMK005"
+    },
+    {
+      "key": "e_1_3_1_187_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3366423.3380149"
+    },
+    {
+      "key": "e_1_3_1_188_2",
+      "article-title": "Sequence to sequence learning with neural networks",
+      "author": "Sutskever Ilya",
+      "year": "2014",
+      "unstructured": "Ilya Sutskever, Oriol Vinyals, and Quoc V. Le. 2014. Sequence to sequence learning with neural networks. In Proceedings of the 27th International Conference on Neural Information Processing Systems.",
+      "journal-title": "Proceedings of the 27th International Conference on Neural Information Processing Systems"
+    },
+    {
+      "key": "e_1_3_1_189_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Kamal Taha. 2022. Identifying the Top-k influential spreaders in social networks: A survey and experimental evaluation. IEEE Access 10 (2022) 107809–107845.",
+      "DOI": "10.1109/ACCESS.2022.3213044"
+    },
+    {
+      "key": "e_1_3_1_190_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3183713.3183749"
+    },
+    {
+      "key": "e_1_3_1_191_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TCSS.2019.2921422"
+    },
+    {
+      "key": "e_1_3_1_192_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2723372.2723734"
+    },
+    {
+      "key": "e_1_3_1_193_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2588555.2593670"
+    },
+    {
+      "key": "e_1_3_1_194_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICACCI.2016.7732235"
+    },
+    {
+      "key": "e_1_3_1_195_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s41019-020-00117-1"
+    },
+    {
+      "key": "e_1_3_1_196_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-030-26072-9_9"
+    },
+    {
+      "key": "e_1_3_1_197_2",
+      "first-page": "15546",
+      "article-title": "StratLearner: Learning a strategy for misinformation prevention in social networks",
+      "author": "Tong Guangmo",
+      "year": "2020",
+      "unstructured": "Guangmo Tong. 2020. StratLearner: Learning a strategy for misinformation prevention in social networks. In Proceedings of the 34th International Conference on Neural Information Processing Systems. 15546–15555.",
+      "journal-title": "Proceedings of the 34th International Conference on Neural Information Processing Systems"
+    },
+    {
+      "key": "e_1_3_1_198_2",
+      "first-page": "1646",
+      "article-title": "USCO-Solver: Solving undetermined stochastic combinatorial optimization problems",
+      "author": "Tong Guangmo",
+      "year": "2021",
+      "unstructured": "Guangmo Tong. 2021. USCO-Solver: Solving undetermined stochastic combinatorial optimization problems. In Proceedings of the 35th Conference on Neural Information Processing Systems. 1646–1659.",
+      "journal-title": "Proceedings of the 35th Conference on Neural Information Processing Systems"
+    },
+    {
+      "key": "e_1_3_1_199_2",
+      "volume-title": "Proceedings of the 36th Conference on Neural Information Processing Systems",
+      "author": "Tong Guangmo",
+      "year": "2022",
+      "unstructured": "Guangmo Tong. 2022. Social-inverse: Inverse decision-making of social contagion management with task migrations. In Proceedings of the 36th Conference on Neural Information Processing Systems."
+    },
+    {
+      "key": "e_1_3_1_200_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TCSS.2020.3032616"
+    },
+    {
+      "key": "e_1_3_1_201_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TNET.2016.2563397"
+    },
+    {
+      "key": "e_1_3_1_202_2",
+      "unstructured": "Cong Tran Won-Yong Shin and Andreas Spitz. 2021. IM-META: Influence maximization using node metadata in networks with unknown topology. arXiv:2106.02926. Retrieved from https://arxiv.org/abs/2106.02926."
+    },
+    {
+      "key": "e_1_3_1_203_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1609/aaai.v30i1.10295"
+    },
+    {
+      "key": "e_1_3_1_204_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5555/2896565.2896577"
+    },
+    {
+      "key": "e_1_3_1_205_2",
+      "article-title": "Attention is all you need",
+      "author": "Vaswani Ashish",
+      "year": "2017",
+      "unstructured": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, and Illia Polosukhin. 2017. Attention is all you need. In Proceedings of the 31st International Conference on Neural Information Processing Systems.",
+      "journal-title": "Proceedings of the 31st International Conference on Neural Information Processing Systems"
+    },
+    {
+      "key": "e_1_3_1_206_2",
+      "first-page": "3530",
+      "volume-title": "Proceedings of the International Conference on Machine Learning",
+      "author": "Vaswani Sharan",
+      "year": "2017",
+      "unstructured": "Sharan Vaswani, Branislav Kveton, Zheng Wen, Mohammad Ghavamzadeh, Laks V. S. Lakshmanan, and Mark Schmidt. 2017. Model-independent online learning for influence maximization. In Proceedings of the International Conference on Machine Learning. PMLR, 3530–3539."
+    },
+    {
+      "key": "e_1_3_1_207_2",
+      "volume-title": "Proceedings of the International Conference on Learning Representations",
+      "author": "Veličković Petar",
+      "year": "2018",
+      "unstructured": "Petar Veličković, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Liò, and Yoshua Bengio. 2018. Graph attention networks. In Proceedings of the International Conference on Learning Representations."
+    },
+    {
+      "key": "e_1_3_1_208_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICGTSPICC.2016.7955308"
+    },
+    {
+      "key": "e_1_3_1_209_2",
+      "article-title": "Pointer networks",
+      "author": "Vinyals Oriol",
+      "year": "2015",
+      "unstructured": "Oriol Vinyals, Meire Fortunato, and Navdeep Jaitly. 2015. Pointer networks. In Proceedings of the 28th International Conference on Neural Information Processing Systems.",
+      "journal-title": "Proceedings of the 28th International Conference on Neural Information Processing Systems"
+    },
+    {
+      "key": "e_1_3_1_210_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-030-73197-7_48"
+    },
+    {
+      "key": "e_1_3_1_211_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2939672.2939753"
+    },
+    {
+      "key": "e_1_3_1_212_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICDM.2017.57"
+    },
+    {
+      "key": "e_1_3_1_213_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ins.2022.11.073"
+    },
+    {
+      "key": "e_1_3_1_214_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICDE.2016.7498224"
+    },
+    {
+      "key": "e_1_3_1_215_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TKDE.2016.2624734"
+    },
+    {
+      "key": "e_1_3_1_216_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1835804.1835935"
+    },
+    {
+      "key": "e_1_3_1_217_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.24963/ijcai.2022/553"
+    },
+    {
+      "key": "e_1_3_1_218_2",
+      "volume-title": "Proceedings of the 6th International Conference on Learning Representations",
+      "author": "Welling Max",
+      "year": "2017",
+      "unstructured": "Max Welling and Thomas N. Kipf. 2017. Semi-supervised classification with graph convolutional networks. In Proceedings of the 6th International Conference on Learning Representations."
+    },
+    {
+      "key": "e_1_3_1_219_2",
+      "first-page": "16509",
+      "article-title": "Multi-agent reinforcement learning is a sequence modeling problem",
+      "author": "Wen Muning",
+      "year": "2022",
+      "unstructured": "Muning Wen, Jakub Kuba, Runji Lin, Weinan Zhang, Ying Wen, Jun Wang, and Yaodong Yang. 2022. Multi-agent reinforcement learning is a sequence modeling problem. InProceedings of the 36th Conference on Neural Information Processing Systems. 16509–16521.",
+      "journal-title": "Proceedings of the 36th Conference on Neural Information Processing Systems"
+    },
+    {
+      "key": "e_1_3_1_220_2",
+      "article-title": "End to end learning and optimization on graphs",
+      "author": "Wilder Bryan",
+      "year": "2019",
+      "unstructured": "Bryan Wilder, Eric Ewing, Bistra Dilkina, and Milind Tambe. 2019. End to end learning and optimization on graphs. InProceedings of the 33rd International Conference on Neural Information Processing Systems.",
+      "journal-title": "Proceedings of the 33rd International Conference on Neural Information Processing Systems"
+    },
+    {
+      "key": "e_1_3_1_221_2",
+      "first-page": "1414",
+      "volume-title": "Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems",
+      "volume": "18",
+      "author": "Wilder Bryan",
+      "year": "2018",
+      "unstructured": "Bryan Wilder, Laura Onasch-Vera, Juliana Hudson, Jose Luna, Nicole Wilson, Robin Petering, Darlene Woo, Milind Tambe, and Eric Rice. 2018. End-to-end influence maximization in the field. In Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems. Vol. 18, 1414–1422."
+    },
+    {
+      "key": "e_1_3_1_222_2",
+      "article-title": "DiffNet++: A neural influence and interest diffusion network for social recommendation",
+      "author": "Wu Le",
+      "year": "2020",
+      "unstructured": "Le Wu, Junwei Li, Peijie Sun, Richang Hong, Yong Ge, and Meng Wang. 2020. DiffNet++: A neural influence and interest diffusion network for social recommendation. IEEE Transactions on Knowledge and Data Engineering 34, 10 (2020), 4753–4766.",
+      "journal-title": "IEEE Transactions on Knowledge and Data Engineering"
+    },
+    {
+      "key": "e_1_3_1_223_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3331184.3331214"
+    },
+    {
+      "key": "e_1_3_1_224_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.knosys.2022.110060"
+    },
+    {
+      "key": "e_1_3_1_225_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TNNLS.2020.2978386"
+    },
+    {
+      "key": "e_1_3_1_226_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3390/app12031321"
+    },
+    {
+      "key": "e_1_3_1_227_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TNSM.2021.3123460"
+    },
+    {
+      "key": "e_1_3_1_228_2",
+      "unstructured": "Zhihui Xie Zichuan Lin Junyou Li Shuai Li and Deheng Ye. 2022. Pretraining in deep reinforcement learning: A survey. arXiv:2211.03959. Retrieved from https://arxiv.org/abs/2211.03959."
+    },
+    {
+      "key": "e_1_3_1_229_2",
+      "article-title": "An adaptive data uploading scheme for mobile crowdsensing via deep reinforcement learning with graph neural network",
+      "author": "Xu Chenghao",
+      "year": "2022",
+      "unstructured": "Chenghao Xu and Wei Song. 2022. An adaptive data uploading scheme for mobile crowdsensing via deep reinforcement learning with graph neural network. IEEE Internet of Things Journal 9, 18 (2022), 18064–18078.",
+      "journal-title": "IEEE Internet of Things Journal"
+    },
+    {
+      "key": "e_1_3_1_230_2",
+      "first-page": "740",
+      "volume-title": "Proceedings of the 2016 International Conference on Autonomous Agents & Multiagent Systems",
+      "volume": "16",
+      "author": "Yadav Amulya",
+      "year": "2016",
+      "unstructured": "Amulya Yadav, Hau Chan, Albert Xin Jiang, Haifeng Xu, Eric Rice, and Milind Tambe. 2016. Using social networks to aid homeless shelters: Dynamic influence maximization under uncertainty. In Proceedings of the 2016 International Conference on Autonomous Agents & Multiagent Systems. Vol. 16, 740–748."
+    },
+    {
+      "key": "e_1_3_1_231_2",
+      "unstructured": "Amulya Yadav Ritesh Noothigattu Eric Rice Laura Onasch-Vera Leandro Soriano Marcolino and Milind Tambe. 2018. Please be an influencer?: Contingency-aware influence maximization. In Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems ."
+    },
+    {
+      "key": "e_1_3_1_232_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/DSAA.2018.00038"
+    },
+    {
+      "key": "e_1_3_1_233_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2348283.2348373"
+    },
+    {
+      "key": "e_1_3_1_234_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TCSS.2022.3208793"
+    },
+    {
+      "key": "e_1_3_1_235_2",
+      "article-title": "Hierarchical graph representation learning with differentiable pooling",
+      "author": "Ying Zhitao",
+      "year": "2018",
+      "unstructured": "Zhitao Ying, Jiaxuan You, Christopher Morris, Xiang Ren, Will Hamilton, and Jure Leskovec. 2018. Hierarchical graph representation learning with differentiable pooling. InProceedings of the 32nd International Conference on Neural Information Processing Systems.",
+      "journal-title": "Proceedings of the 32nd International Conference on Neural Information Processing Systems"
+    },
+    {
+      "key": "e_1_3_1_236_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.asoc.2021.107169"
+    },
+    {
+      "key": "e_1_3_1_237_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3442381.3449844"
+    },
+    {
+      "key": "e_1_3_1_238_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-030-67664-3_21"
+    },
+    {
+      "key": "e_1_3_1_239_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TETCI.2021.3139802"
+    },
+    {
+      "key": "e_1_3_1_240_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3309699"
+    },
+    {
+      "key": "e_1_3_1_241_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s13278-023-01078-9"
+    },
+    {
+      "key": "e_1_3_1_242_2",
+      "first-page": "67",
+      "volume-title": "Proceedings of the 2016 IEEE 17th International Conference on Information Reuse and Integration",
+      "author": "Zhan Qianyi",
+      "year": "2016",
+      "unstructured": "Qianyi Zhan, Jiawei Zhang, S. Yu Philip, Sherry Emery, and Junyuan Xie. 2016. Discover tipping users for cross network influencing. In Proceedings of the 2016 IEEE 17th International Conference on Information Reuse and Integration. IEEE, 67–76."
+    },
+    {
+      "key": "e_1_3_1_243_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TCSS.2022.3193583"
+    },
+    {
+      "key": "e_1_3_1_244_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3394486.3403327"
+    },
+    {
+      "key": "e_1_3_1_245_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.14778/3476249.3476295"
+    },
+    {
+      "key": "e_1_3_1_246_2",
+      "article-title": "Deep set prediction networks",
+      "author": "Zhang Yan",
+      "year": "2019",
+      "unstructured": "Yan Zhang, Jonathon Hare, and Adam Prugel-Bennett. 2019. Deep set prediction networks. In Proceedings of the 33rd International Conference on Neural Information Processing Systems.",
+      "journal-title": "Proceedings of the 33rd International Conference on Neural Information Processing Systems"
+    },
+    {
+      "key": "e_1_3_1_247_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TKDE.2020.2981333"
+    },
+    {
+      "key": "e_1_3_1_248_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.is.2022.102045"
+    },
+    {
+      "key": "e_1_3_1_249_2",
+      "first-page": "27042",
+      "volume-title": "Proceedings of the International Conference on Machine Learning",
+      "author": "Zheng Qinqing",
+      "year": "2022",
+      "unstructured": "Qinqing Zheng, Amy Zhang, and Aditya Grover. 2022. Online decision transformer. In Proceedings of the International Conference on Machine Learning. PMLR, 27042–27059."
+    },
+    {
+      "key": "e_1_3_1_250_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TKDE.2015.2419659"
+    },
+    {
+      "key": "e_1_3_1_251_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1609/aaai.v35i5.16602"
+    },
+    {
+      "key": "e_1_3_1_252_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1609/aaai.v32i1.11257"
+    },
+    {
+      "key": "e_1_3_1_253_2",
+      "first-page": "1766",
+      "article-title": "Transfer learning of graph neural networks with ego-graph information maximization",
+      "author": "Zhu Qi",
+      "year": "2021",
+      "unstructured": "Qi Zhu, Carl Yang, Yidan Xu, Haonan Wang, Chao Zhang, and Jiawei Han. 2021. Transfer learning of graph neural networks with ego-graph information maximization. InProceedings of the 35th Conference on Neural Information Processing Systems. 1766–1779.",
+      "journal-title": "Proceedings of the 35th Conference on Neural Information Processing Systems"
+    }
+  ],
+  "container-title": [
+    "ACM Transactions on Knowledge Discovery from Data"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://dl.acm.org/doi/10.1145/3604559",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://dl.acm.org/doi/pdf/10.1145/3604559",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        6,
+        17
+      ]
+    ],
+    "date-time": "2025-06-17T12:47:20Z",
+    "timestamp": 1750164440000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://dl.acm.org/doi/10.1145/3604559"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2023,
+        7,
+        18
+      ]
+    ]
+  },
+  "references-count": 252,
+  "journal-issue": {
+    "issue": "9",
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          30
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1145/3604559"
+  ],
+  "URL": "https://doi.org/10.1145/3604559",
+  "relation": {},
+  "ISSN": [
+    "1556-4681",
+    "1556-472X"
+  ],
+  "issn-type": [
+    {
+      "value": "1556-4681",
+      "type": "print"
+    },
+    {
+      "value": "1556-472X",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2023,
+        7,
+        18
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "2022-11-06",
+      "order": 0,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2023-06-08",
+      "order": 1,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2023-07-18",
+      "order": 2,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "v6-source-snapshot-1",
+  "study_version": "v6-digg-k5-candidate-reduction",
+  "snapshot_id": "8e1f2d93f882d5be1cad",
+  "created_at_utc": "2026-09-18T08:12:26.646018+00:00",
+  "files": {
+    "experiments/v6_digg_snapshot.py": "c002d6f5a5bc3ce3a2c645eee6d9a5a0c8a1a518586e69ea8ee7687c5c35df5c",
+    "experiments/create_v6_digg_snapshot.py": "96bc607219779012c9afe828aa41405b167b3418acbbf4b6bf92c5f639a01e70",
+    "experiments/run_v6_digg_k5.py": "02f6e7f49251aaefa64e9407e279fd052057f1f2f233cb723a8d8e6c79238c94",
+    "experiments/v5_source_snapshot.py": "76f1573a489849054795de98d2de981d63fe54f2c09f02ed166de4b4ee4f47d1",
+    "experiments/run_v5_candidate_reduction.py": "d45a815599aa6b4cf513ae309a1216cf1c4814069f6212dce2b393eb053df4bd",
+    "backend/app/__init__.py": "5cf11b2e5ad944e7da2dbfb602671c75c3d8bcdb94b851fcdb0f8e4252c9685a",
+    "backend/app/baselines.py": "bf04580ccc11f4f0478aa8eadf7dbbf105633e16515c5dbe105efe31b5b31cfa",
+    "backend/app/contracts.py": "4af89977f7b0d557fb7c8ef8457504f2e91fde01a41a2d698791be33be62e9ae",
+    "backend/app/diffusion.py": "156e7418b85cae39fe7599ce36dc7c4f51e6fa08616da559d26c8bd3ee11c79f",
+    "backend/app/graph.py": "8faef93d5ae47af21db01234da18188b3789ed2e087cd8acf8ab202e78f3b424",
+    "backend/app/model_v2.py": "33ba30f22b47760f4960064bc90b987636fe4f530c970fa174718dbddb735316",
+    "backend/app/optimizer.py": "4cc2c87f0092095dad67338fcd43894e87bb12a2d3fcad0d9a58fed3c9ea6773",
+    "backend/app/pipeline_v2_t0.py": "6d321005eb81fa132f54d967349eddf981ecd3921145ab24721aa3dc4c893d55",
+    "backend/app/pipeline_v2_t0b.py": "54ec7169056fcef066c4840e8d1e025bbbce0730168430d09ca21635be8a814f",
+    "backend/app/validation.py": "2d2431583d8fe4e3c35ab29959bd50f3ab096eb47a7843f36bcce16b8dc52df1",
+    "protocols/influence_v6_digg_k5_preregistration.md": "9b2b5c7b771276a195872eb5165537746887609d9ef992509952d19ab7d75ce4",
+    "requirements.txt": "0cd554e6872d08e1d7742e2e15f59ccb411dc9fd65a4503848cc802440f12d45",
+    "pyproject.toml": "091d90437b70a8d8edfe8fc59f11076c16371e01c63f5c7ab0cdf9eb240d3cd5"
+  },
+  "hash_algorithm": "sha256"
+}

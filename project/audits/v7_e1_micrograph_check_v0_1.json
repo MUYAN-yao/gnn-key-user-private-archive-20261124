@@ -1,0 +1,10 @@
+{
+  "schema": "v7-e1-micrograph-check-0.1",
+  "world_count": 8,
+  "checked_structural_cases": 6114,
+  "checked_partial_cases": 165078,
+  "checked_trajectories": 288,
+  "unsafe_prunes": 0,
+  "trajectory_mismatches": 0,
+  "status": "PASS"
+}

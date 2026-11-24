@@ -1,0 +1,15 @@
+{
+  "python": "3.13.0 | packaged by conda-forge | (main, Nov 27 2024, 19:03:49) [MSC v.1942 64 bit (AMD64)]",
+  "executable": "C:\\Users\\36024\\Miniconda3\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "versions": {
+    "numpy": "2.3.3",
+    "scipy": "1.16.1",
+    "pandas": "2.3.2",
+    "networkx": "3.5",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "numba": "0.68.1",
+    "llvmlite": "0.50.0"
+  }
+}

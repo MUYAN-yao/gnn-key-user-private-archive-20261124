@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="493.2pt" height="208.8pt" viewBox="0 0 493.2 208.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-21T18:41:41.234483</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.6, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 208.8 
+L 493.2 208.8 
+L 493.2 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 49.32 146.16 
+L 238.058287 146.16 
+L 238.058287 31.32 
+L 49.32 31.32 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 57.899013 146.16 
+L 93.304464 146.16 
+L 93.304464 88.74 
+L 57.899013 88.74 
+z
+" clip-path="url(#p9d62d2747e)" style="fill: #2b6f9e"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 125.986418 146.16 
+L 161.391869 146.16 
+L 161.391869 113.1435 
+L 125.986418 113.1435 
+z
+" clip-path="url(#p9d62d2747e)" style="fill: #2b6f9e"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 194.073823 146.16 
+L 229.479274 146.16 
+L 229.479274 131.08725 
+L 194.073823 131.08725 
+z
+" clip-path="url(#p9d62d2747e)" style="fill: #2b6f9e"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m0bc7215bec" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m0bc7215bec" x="75.601738" y="146.16" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="75.601738" y="158.88625" transform="rotate(-0 75.601738 158.88625)">20</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m0bc7215bec" x="143.689144" y="146.16" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="143.689144" y="158.88625" transform="rotate(-0 143.689144 158.88625)">80</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m0bc7215bec" x="211.776549" y="146.16" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="211.776549" y="158.88625" transform="rotate(-0 211.776549 158.88625)">320</text>
+     </g>
+    </g>
+    <g id="text_4">
+     <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="143.689144" y="170.2025" transform="rotate(-0 143.689144 170.2025)">Selection worlds</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4">
+      <defs>
+       <path id="ma9346ec4e7" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#ma9346ec4e7" x="49.32" y="146.16" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="42.32" y="149.023125" transform="rotate(-0 42.32 149.023125)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#ma9346ec4e7" x="49.32" y="117.45" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="42.32" y="120.313125" transform="rotate(-0 42.32 120.313125)">25</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#ma9346ec4e7" x="49.32" y="88.74" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="42.32" y="91.603125" transform="rotate(-0 42.32 91.603125)">50</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#ma9346ec4e7" x="49.32" y="60.03" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="42.32" y="62.893125" transform="rotate(-0 42.32 62.893125)">75</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#ma9346ec4e7" x="49.32" y="31.32" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="42.32" y="34.183125" transform="rotate(-0 42.32 34.183125)">100</text>
+     </g>
+    </g>
+    <g id="text_10">
+     <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="23.29" y="88.74" transform="rotate(-90 23.29 88.74)">Rounds with tied best scores (%)</text>
+    </g>
+   </g>
+   <g id="patch_6">
+    <path d="M 49.32 146.16 
+L 49.32 31.32 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 49.32 146.16 
+L 238.058287 146.16 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif" transform="translate(64.260488 75.03255)">50.0%</text>
+    <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif" transform="translate(60.704863 83.61105)">(80/160)</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif" transform="translate(132.347894 99.43605)">28.8%</text>
+    <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif" transform="translate(128.792269 108.01455)">(46/160)</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif" transform="translate(200.435299 117.3798)">13.1%</text>
+    <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif" transform="translate(196.879674 125.9583)">(21/160)</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="49.32" y="19.32" transform="rotate(-0 49.32 19.32)">a  Pooled tie frequency</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_8">
+    <path d="M 319.21575 146.16 
+L 483.336 146.16 
+L 483.336 31.32 
+L 319.21575 31.32 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 326.675762 146.16 
+L 372.97928 146.16 
+L 372.97928 51.585882 
+L 326.675762 51.585882 
+z
+" clip-path="url(#p5c8b6a7eee)" style="fill: #d17c41"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 429.57247 146.16 
+L 475.875989 146.16 
+L 475.875989 51.585882 
+L 429.57247 51.585882 
+z
+" clip-path="url(#p5c8b6a7eee)" style="fill: #d17c41"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_4">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m0bc7215bec" x="349.827521" y="146.16" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="349.827521" y="158.88625" transform="rotate(-0 349.827521 158.88625)">20 → 80</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m0bc7215bec" x="452.724229" y="146.16" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="452.724229" y="158.88625" transform="rotate(-0 452.724229 158.88625)">80 → 320</text>
+     </g>
+    </g>
+    <g id="text_17">
+     <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="401.275875" y="170.2025" transform="rotate(-0 401.275875 170.2025)">Selection-world transition</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_6">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#ma9346ec4e7" x="319.21575" y="146.16" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="312.21575" y="149.023125" transform="rotate(-0 312.21575 149.023125)">0</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#ma9346ec4e7" x="319.21575" y="98.872941" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="312.21575" y="101.736066" transform="rotate(-0 312.21575 101.736066)">7</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#ma9346ec4e7" x="319.21575" y="51.585882" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_20">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="312.21575" y="54.449007" transform="rotate(-0 312.21575 54.449007)">14</text>
+     </g>
+    </g>
+    <g id="text_21">
+     <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="297.6345" y="88.74" transform="rotate(-90 297.6345 88.74)">Changed final seed sets (blocks)</text>
+    </g>
+   </g>
+   <g id="patch_11">
+    <path d="M 319.21575 146.16 
+L 319.21575 31.32 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 319.21575 146.16 
+L 483.336 146.16 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="349.827521" y="48.883765" transform="rotate(-0 349.827521 48.883765)">14/14</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="452.724229" y="48.883765" transform="rotate(-0 452.724229 48.883765)">14/14</text>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="319.21575" y="19.32" transform="rotate(-0 319.21575 19.32)">b  Final-set changes</text>
+   </g>
+  </g>
+  <g id="text_25">
+   <text style="font-size: 7px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="266.328" y="190.008" transform="rotate(-0 266.328 190.008)">160 rounds per budget = 8 traces × 5 rounds + 6 traces × 20 rounds</text>
+  </g>
+  <g id="text_26">
+   <text style="font-size: 7px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #555555" x="266.328" y="201.492" transform="rotate(-0 266.328 201.492)">Descriptive counts; final-set changes are post-hoc diagnostics.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p9d62d2747e">
+   <rect x="49.32" y="31.32" width="188.738287" height="114.84"/>
+  </clipPath>
+  <clipPath id="p5c8b6a7eee">
+   <rect x="319.21575" y="31.32" width="164.12025" height="114.84"/>
+  </clipPath>
+ </defs>
+</svg>

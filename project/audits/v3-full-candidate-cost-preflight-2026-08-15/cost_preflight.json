@@ -1,0 +1,23 @@
+{
+  "study_version": "v3-fairness-sensitivity",
+  "input_hashes": {
+    "nodes.csv": "04560116149c19d1bd7f0dcdaad6b70dbbaa32cf1932cab9221c2aeebfac8e57",
+    "edges.csv": "5178d5be13faf6b0875b584e936d24d8043112dcc1b25b0b49ea95dc17f5b7f9",
+    "cascades.csv": "d503d39922201baa8dd018c187beb7500c5cf5910ce745c948478525f867b552"
+  },
+  "node_count": 33529,
+  "seed_budget": 2,
+  "worlds_per_selection": 20,
+  "planned_runs": 30,
+  "candidate_set_evaluations_per_run": {
+    "full_candidate": 67057,
+    "screened_120": 239,
+    "candidate_pool_sensitivity": 1796,
+    "objective_weight_sensitivity": 2151
+  },
+  "diffusion_calls_per_run": 1424860,
+  "diffusion_calls_full_batch": 42745800,
+  "source": {
+    "v3_full_candidate_cost_preflight.py": "1aa4d637af19ca9c8dc64adf155e055900087decb8a6c858e8446ee72a037057"
+  }
+}

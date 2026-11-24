@@ -1,0 +1,65 @@
+[
+  {
+    "expression": "x",
+    "nodes": 1,
+    "validation_mse": 0.022278782532224768,
+    "criterion": 0.02427878253222477,
+    "intercept": 0.18060613529191788,
+    "coefficient": [
+      0.4166637620344957
+    ],
+    "search_seconds": 0.8538304000394419,
+    "seed": 7101,
+    "sampled_graphs": [
+      "college_msg",
+      "BA_1",
+      "ER_1",
+      "ER_1",
+      "BA_1"
+    ],
+    "test_mse": 0.07280417248788595,
+    "beats_simple": false
+  },
+  {
+    "expression": "(c-(x/x))",
+    "nodes": 5,
+    "validation_mse": 0.02180723252696931,
+    "criterion": 0.03180723252696931,
+    "intercept": 0.4308733621432179,
+    "coefficient": [
+      -0.6427826497636162
+    ],
+    "search_seconds": 0.8551486999494955,
+    "seed": 7102,
+    "sampled_graphs": [
+      "BA_0",
+      "BA_1",
+      "college_msg",
+      "BA_1",
+      "college_msg"
+    ],
+    "test_mse": 0.029848569284523827,
+    "beats_simple": true
+  },
+  {
+    "expression": "x",
+    "nodes": 1,
+    "validation_mse": 0.02656612159206679,
+    "criterion": 0.02856612159206679,
+    "intercept": 0.3594502672693144,
+    "coefficient": [
+      0.2853478542772944
+    ],
+    "search_seconds": 0.8533525000093505,
+    "seed": 7103,
+    "sampled_graphs": [
+      "BA_1",
+      "BA_0",
+      "ER_0",
+      "ER_1",
+      "BA_0"
+    ],
+    "test_mse": 0.08227850824194674,
+    "beats_simple": false
+  }
+]

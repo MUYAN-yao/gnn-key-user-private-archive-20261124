@@ -1,0 +1,8 @@
+run_id,train_fraction,random_seed,method,mean_spread,spread_std,robust_objective,community_coverage,runtime_seconds
+split-0.60-seed-42,0.6,42,gnn_guided_robust_greedy_v2_t0,2480.05,297.019,2376.593,2,1858.083
+split-0.60-seed-42,0.6,42,degree,2480.05,297.019,2376.593,2,1858.083
+split-0.60-seed-42,0.6,42,pagerank,2.0,0.0,2.5,2,1858.083
+split-0.60-seed-42,0.6,42,k_shell,4.75,5.503,3.074,1,1858.083
+split-0.60-seed-42,0.6,42,gnn_top_k,2480.05,297.019,2376.593,2,1858.083
+split-0.60-seed-42,0.6,42,greedy_mc,2169.9,127.21,2125.876,2,1858.083
+split-0.60-seed-42,0.6,42,ris_approx,2480.05,297.019,2376.593,2,1858.083

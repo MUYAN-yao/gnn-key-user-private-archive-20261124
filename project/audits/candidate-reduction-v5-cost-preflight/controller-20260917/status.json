@@ -1,0 +1,6 @@
+{
+  "utc": "2026-09-17T23:25:35.967519+00:00",
+  "stage": "stopped",
+  "reason": "'utf-8' codec can't decode byte 0xb4 in position 61: invalid start byte",
+  "formal_evidence_admitted": false
+}

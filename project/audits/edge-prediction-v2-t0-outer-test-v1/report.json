@@ -1,0 +1,852 @@
+{
+  "mode": "outer_test",
+  "config": {
+    "epochs": 10,
+    "hidden_channels": 32,
+    "layers": 1,
+    "learning_rate": 0.01,
+    "decoder": "concat_mlp"
+  },
+  "runs": [
+    {
+      "mode": "outer_test",
+      "train_fraction": 0.6,
+      "seed": 42,
+      "config": {
+        "epochs": 10,
+        "hidden_channels": 32,
+        "layers": 1,
+        "learning_rate": 0.01,
+        "decoder": "concat_mlp"
+      },
+      "calibration_metrics": {
+        "auc": 0.8370159528683808,
+        "average_precision": 0.8204318522983912,
+        "brier": 0.15536105419065918,
+        "ece_10_bins": 2.9695620509545196e-18,
+        "inverse_probability_auc": 0.16298404713161924
+      },
+      "metrics": {
+        "auc": 0.8134575577489613,
+        "average_precision": 0.7994035963196204,
+        "brier": 0.16784045539147627,
+        "ece_10_bins": 0.017410088511582603,
+        "inverse_probability_auc": 0.18654244225103866
+      },
+      "positives": 17304,
+      "calibration_positives": 5365
+    },
+    {
+      "mode": "outer_test",
+      "train_fraction": 0.6,
+      "seed": 43,
+      "config": {
+        "epochs": 10,
+        "hidden_channels": 32,
+        "layers": 1,
+        "learning_rate": 0.01,
+        "decoder": "concat_mlp"
+      },
+      "calibration_metrics": {
+        "auc": 0.8518144856943584,
+        "average_precision": 0.834887817508145,
+        "brier": 0.14837398002452798,
+        "ece_10_bins": 9.072167269257569e-17,
+        "inverse_probability_auc": 0.14818551430564156
+      },
+      "metrics": {
+        "auc": 0.8394921125321653,
+        "average_precision": 0.8240257523508497,
+        "brier": 0.15716667153996555,
+        "ece_10_bins": 0.01853316761957418,
+        "inverse_probability_auc": 0.1605078874678347
+      },
+      "positives": 17304,
+      "calibration_positives": 5365
+    },
+    {
+      "mode": "outer_test",
+      "train_fraction": 0.6,
+      "seed": 44,
+      "config": {
+        "epochs": 10,
+        "hidden_channels": 32,
+        "layers": 1,
+        "learning_rate": 0.01,
+        "decoder": "concat_mlp"
+      },
+      "calibration_metrics": {
+        "auc": 0.8353494439903799,
+        "average_precision": 0.8217402300170819,
+        "brier": 0.15662373091710866,
+        "ece_10_bins": 5.446288030691173e-17,
+        "inverse_probability_auc": 0.16465055600962017
+      },
+      "metrics": {
+        "auc": 0.8171313005910567,
+        "average_precision": 0.8064085374847112,
+        "brier": 0.16687067808071587,
+        "ece_10_bins": 0.017506146421214418,
+        "inverse_probability_auc": 0.1828686994089432
+      },
+      "positives": 17304,
+      "calibration_positives": 5365
+    },
+    {
+      "mode": "outer_test",
+      "train_fraction": 0.6,
+      "seed": 45,
+      "config": {
+        "epochs": 10,
+        "hidden_channels": 32,
+        "layers": 1,
+        "learning_rate": 0.01,
+        "decoder": "concat_mlp"
+      },
+      "calibration_metrics": {
+        "auc": 0.8607767371446389,
+        "average_precision": 0.8406672857513737,
+        "brier": 0.1421759327356457,
+        "ece_10_bins": 9.450346687244983e-17,
+        "inverse_probability_auc": 0.13922326285536107
+      },
+      "metrics": {
+        "auc": 0.8475650687742341,
+        "average_precision": 0.8284900289046704,
+        "brier": 0.15010864280913191,
+        "ece_10_bins": 0.015417924313447007,
+        "inverse_probability_auc": 0.15243493122576582
+      },
+      "positives": 17304,
+      "calibration_positives": 5365
+    },
+    {
+      "mode": "outer_test",
+      "train_fraction": 0.6,
+      "seed": 46,
+      "config": {
+        "epochs": 10,
+        "hidden_channels": 32,
+        "layers": 1,
+        "learning_rate": 0.01,
+        "decoder": "concat_mlp"
+      },
+      "calibration_metrics": {
+        "auc": 0.856339482458967,
+        "average_precision": 0.8377280597615882,
+        "brier": 0.14494469328492307,
+        "ece_10_bins": 9.282080126779312e-17,
+        "inverse_probability_auc": 0.14366051754103304
+      },
+      "metrics": {
+        "auc": 0.8450533064971364,
+        "average_precision": 0.8277783229665306,
+        "brier": 0.15147723103362368,
+        "ece_10_bins": 0.014810569761588429,
+        "inverse_probability_auc": 0.15494669350286383
+      },
+      "positives": 17304,
+      "calibration_positives": 5365
+    },
+    {
+      "mode": "outer_test",
+      "train_fraction": 0.6,
+      "seed": 47,
+      "config": {
+        "epochs": 10,
+        "hidden_channels": 32,
+        "layers": 1,
+        "learning_rate": 0.01,
+        "decoder": "concat_mlp"
+      },
+      "calibration_metrics": {
+        "auc": 0.8130355267694986,
+        "average_precision": 0.7994641405736519,
+        "brier": 0.16543075096982454,
+        "ece_10_bins": 2.978356921140273e-17,
+        "inverse_probability_auc": 0.18696447323050142
+      },
+      "metrics": {
+        "auc": 0.7928352514812756,
+        "average_precision": 0.7811832002759971,
+        "brier": 0.17553030439033332,
+        "ece_10_bins": 0.016618611590102424,
+        "inverse_probability_auc": 0.20716474851872443
+      },
+      "positives": 17304,
+      "calibration_positives": 5365
+    },
+    {
+      "mode": "outer_test",
+      "train_fraction": 0.6,
+      "seed": 48,
+      "config": {
+        "epochs": 10,
+        "hidden_channels": 32,
+        "layers": 1,
+        "learning_rate": 0.01,
+        "decoder": "concat_mlp"
+      },
+      "calibration_metrics": {
+        "auc": 0.7877378750991246,
+        "average_precision": 0.7689351772028452,
+        "brier": 0.17363176843851622,
+        "ece_10_bins": 6.470179057537055e-17,
+        "inverse_probability_auc": 0.21226212490087543
+      },
+      "metrics": {
+        "auc": 0.7614161559736535,
+        "average_precision": 0.7440144872088031,
+        "brier": 0.1854148586601992,
+        "ece_10_bins": 0.019047579897541654,
+        "inverse_probability_auc": 0.23858384402634653
+      },
+      "positives": 17304,
+      "calibration_positives": 5365
+    },
+    {
+      "mode": "outer_test",
+      "train_fraction": 0.6,
+      "seed": 49,
+      "config": {
+        "epochs": 10,
+        "hidden_channels": 32,
+        "layers": 1,
+        "learning_rate": 0.01,
+        "decoder": "concat_mlp"
+      },
+      "calibration_metrics": {
+        "auc": 0.8539498266785602,
+        "average_precision": 0.8341094429161606,
+        "brier": 0.14592789750502103,
+        "ece_10_bins": 5.941969501086782e-17,
+        "inverse_probability_auc": 0.14605017332143982
+      },
+      "metrics": {
+        "auc": 0.8404061256497446,
+        "average_precision": 0.8225264834550572,
+        "brier": 0.15563644232309917,
+        "ece_10_bins": 0.017053701382578126,
+        "inverse_probability_auc": 0.15959387435025538
+      },
+      "positives": 17304,
+      "calibration_positives": 5365
+    },
+    {
+      "mode": "outer_test",
+      "train_fraction": 0.6,
+      "seed": 50,
+      "config": {
+        "epochs": 10,
+        "hidden_channels": 32,
+        "layers": 1,
+        "learning_rate": 0.01,
+        "decoder": "concat_mlp"
+      },
+      "calibration_metrics": {
+        "auc": 0.8516621400138449,
+        "average_precision": 0.833053720575946,
+        "brier": 0.14724049570520256,
+        "ece_10_bins": 4.200843876960052e-18,
+        "inverse_probability_auc": 0.14833785998615512
+      },
+      "metrics": {
+        "auc": 0.8359125374393325,
+        "average_precision": 0.8197064023750424,
+        "brier": 0.15628077896267353,
+        "ece_10_bins": 0.012198771257477719,
+        "inverse_probability_auc": 0.16408746256066759
+      },
+      "positives": 17304,
+      "calibration_positives": 5365
+    },
+    {
+      "mode": "outer_test",
+      "train_fraction": 0.6,
+      "seed": 51,
+      "config": {
+        "epochs": 10,
+        "hidden_channels": 32,
+        "layers": 1,
+        "learning_rate": 0.01,
+        "decoder": "concat_mlp"
+      },
+      "calibration_metrics": {
+        "auc": 0.851014332132692,
+        "average_precision": 0.8299136113010862,
+        "brier": 0.1473523079114852,
+        "ece_10_bins": 3.274407771951897e-17,
+        "inverse_probability_auc": 0.14898566786730816
+      },
+      "metrics": {
+        "auc": 0.8348245244699819,
+        "average_precision": 0.8148214512800946,
+        "brier": 0.15653448255928468,
+        "ece_10_bins": 0.011367554532140538,
+        "inverse_probability_auc": 0.16517547553001782
+      },
+      "positives": 17304,
+      "calibration_positives": 5365
+    },
+    {
+      "mode": "outer_test",
+      "train_fraction": 0.65,
+      "seed": 42,
+      "config": {
+        "epochs": 10,
+        "hidden_channels": 32,
+        "layers": 1,
+        "learning_rate": 0.01,
+        "decoder": "concat_mlp"
+      },
+      "calibration_metrics": {
+        "auc": 0.8365907130048873,
+        "average_precision": 0.8141669330541812,
+        "brier": 0.15538089302108024,
+        "ece_10_bins": 9.717571687564578e-17,
+        "inverse_probability_auc": 0.16340928699511276
+      },
+      "metrics": {
+        "auc": 0.8362997800820073,
+        "average_precision": 0.8186869929759699,
+        "brier": 0.15606437073701634,
+        "ece_10_bins": 0.020905923874620952,
+        "inverse_probability_auc": 0.1637002199179926
+      },
+      "positives": 15166,
+      "calibration_positives": 5782
+    },
+    {
+      "mode": "outer_test",
+      "train_fraction": 0.65,
+      "seed": 43,
+      "config": {
+        "epochs": 10,
+        "hidden_channels": 32,
+        "layers": 1,
+        "learning_rate": 0.01,
+        "decoder": "concat_mlp"
+      },
+      "calibration_metrics": {
+        "auc": 0.8513563874623243,
+        "average_precision": 0.8303529278278425,
+        "brier": 0.14884301519122276,
+        "ece_10_bins": 5.232372435322642e-18,
+        "inverse_probability_auc": 0.14864361253767552
+      },
+      "metrics": {
+        "auc": 0.8516481323770078,
+        "average_precision": 0.8371566857191797,
+        "brier": 0.15155009970364416,
+        "ece_10_bins": 0.027437808584738543,
+        "inverse_probability_auc": 0.14835186762299235
+      },
+      "positives": 15166,
+      "calibration_positives": 5782
+    },
+    {
+      "mode": "outer_test",
+      "train_fraction": 0.65,
+      "seed": 44,
+      "config": {
+        "epochs": 10,
+        "hidden_channels": 32,
+        "layers": 1,
+        "learning_rate": 0.01,
+        "decoder": "concat_mlp"
+      },
+      "calibration_metrics": {
+        "auc": 0.8294870434264379,
+        "average_precision": 0.8115301552546828,
+        "brier": 0.15939582557384305,
+        "ece_10_bins": 1.8787577281986932e-16,
+        "inverse_probability_auc": 0.1705129565735621
+      },
+      "metrics": {
+        "auc": 0.8281246660435799,
+        "average_precision": 0.8159926505384668,
+        "brier": 0.1601213044728311,
+        "ece_10_bins": 0.01757511113700942,
+        "inverse_probability_auc": 0.1718753339564201
+      },
+      "positives": 15166,
+      "calibration_positives": 5782
+    },
+    {
+      "mode": "outer_test",
+      "train_fraction": 0.65,
+      "seed": 45,
+      "config": {
+        "epochs": 10,
+        "hidden_channels": 32,
+        "layers": 1,
+        "learning_rate": 0.01,
+        "decoder": "concat_mlp"
+      },
+      "calibration_metrics": {
+        "auc": 0.854891598719819,
+        "average_precision": 0.8346404472861778,
+        "brier": 0.14528359452600462,
+        "ece_10_bins": 8.371795896516227e-18,
+        "inverse_probability_auc": 0.14510840128018096
+      },
+      "metrics": {
+        "auc": 0.858828568223211,
+        "average_precision": 0.8432439557366594,
+        "brier": 0.14426031638210027,
+        "ece_10_bins": 0.014043332593679288,
+        "inverse_probability_auc": 0.1411714317767891
+      },
+      "positives": 15166,
+      "calibration_positives": 5782
+    },
+    {
+      "mode": "outer_test",
+      "train_fraction": 0.65,
+      "seed": 46,
+      "config": {
+        "epochs": 10,
+        "hidden_channels": 32,
+        "layers": 1,
+        "learning_rate": 0.01,
+        "decoder": "concat_mlp"
+      },
+      "calibration_metrics": {
+        "auc": 0.8493920289125917,
+        "average_precision": 0.8284843961459891,
+        "brier": 0.14679487167709993,
+        "ece_10_bins": 3.2885940790171185e-17,
+        "inverse_probability_auc": 0.1506079710874084
+      },
+      "metrics": {
+        "auc": 0.8559186790367879,
+        "average_precision": 0.8374309923607558,
+        "brier": 0.1461124219209514,
+        "ece_10_bins": 0.011560977068138288,
+        "inverse_probability_auc": 0.1440813209632122
+      },
+      "positives": 15166,
+      "calibration_positives": 5782
+    },
+    {
+      "mode": "outer_test",
+      "train_fraction": 0.65,
+      "seed": 47,
+      "config": {
+        "epochs": 10,
+        "hidden_channels": 32,
+        "layers": 1,
+        "learning_rate": 0.01,
+        "decoder": "concat_mlp"
+      },
+      "calibration_metrics": {
+        "auc": 0.790031124515891,
+        "average_precision": 0.7790236425842956,
+        "brier": 0.17385712688184668,
+        "ece_10_bins": 1.1904847375779956e-18,
+        "inverse_probability_auc": 0.20996887548410895
+      },
+      "metrics": {
+        "auc": 0.7883912887627048,
+        "average_precision": 0.7820976803597914,
+        "brier": 0.1745238516061496,
+        "ece_10_bins": 0.013021366662369912,
+        "inverse_probability_auc": 0.21160871123729513
+      },
+      "positives": 15166,
+      "calibration_positives": 5782
+    },
+    {
+      "mode": "outer_test",
+      "train_fraction": 0.65,
+      "seed": 48,
+      "config": {
+        "epochs": 10,
+        "hidden_channels": 32,
+        "layers": 1,
+        "learning_rate": 0.01,
+        "decoder": "concat_mlp"
+      },
+      "calibration_metrics": {
+        "auc": 0.7710110971907832,
+        "average_precision": 0.7480580282565968,
+        "brier": 0.18076233356093338,
+        "ece_10_bins": 2.394794459205284e-16,
+        "inverse_probability_auc": 0.2289889028092168
+      },
+      "metrics": {
+        "auc": 0.763946883118918,
+        "average_precision": 0.745840586297023,
+        "brier": 0.1834544917726854,
+        "ece_10_bins": 0.01657995485786059,
+        "inverse_probability_auc": 0.23605311688108194
+      },
+      "positives": 15166,
+      "calibration_positives": 5782
+    },
+    {
+      "mode": "outer_test",
+      "train_fraction": 0.65,
+      "seed": 49,
+      "config": {
+        "epochs": 10,
+        "hidden_channels": 32,
+        "layers": 1,
+        "learning_rate": 0.01,
+        "decoder": "concat_mlp"
+      },
+      "calibration_metrics": {
+        "auc": 0.8534248393821352,
+        "average_precision": 0.8319164178812706,
+        "brier": 0.14650870876239397,
+        "ece_10_bins": 8.880692119268192e-17,
+        "inverse_probability_auc": 0.14657516061786474
+      },
+      "metrics": {
+        "auc": 0.8527102300934845,
+        "average_precision": 0.8359096879964966,
+        "brier": 0.1490425396693454,
+        "ece_10_bins": 0.020240156568687738,
+        "inverse_probability_auc": 0.1472897699065156
+      },
+      "positives": 15166,
+      "calibration_positives": 5782
+    },
+    {
+      "mode": "outer_test",
+      "train_fraction": 0.65,
+      "seed": 50,
+      "config": {
+        "epochs": 10,
+        "hidden_channels": 32,
+        "layers": 1,
+        "learning_rate": 0.01,
+        "decoder": "concat_mlp"
+      },
+      "calibration_metrics": {
+        "auc": 0.8485934861958433,
+        "average_precision": 0.825496236889761,
+        "brier": 0.14827285178834457,
+        "ece_10_bins": 1.459303871869801e-17,
+        "inverse_probability_auc": 0.1514065138041568
+      },
+      "metrics": {
+        "auc": 0.8456165718312314,
+        "average_precision": 0.827477768707642,
+        "brier": 0.15058407981519994,
+        "ece_10_bins": 0.015789569139222456,
+        "inverse_probability_auc": 0.15438342816876852
+      },
+      "positives": 15166,
+      "calibration_positives": 5782
+    },
+    {
+      "mode": "outer_test",
+      "train_fraction": 0.65,
+      "seed": 51,
+      "config": {
+        "epochs": 10,
+        "hidden_channels": 32,
+        "layers": 1,
+        "learning_rate": 0.01,
+        "decoder": "concat_mlp"
+      },
+      "calibration_metrics": {
+        "auc": 0.8496449488811817,
+        "average_precision": 0.8275292058235123,
+        "brier": 0.14788651739292236,
+        "ece_10_bins": 8.894073071711735e-17,
+        "inverse_probability_auc": 0.15035505111881828
+      },
+      "metrics": {
+        "auc": 0.8513720784025025,
+        "average_precision": 0.8337293685916395,
+        "brier": 0.1480998340215993,
+        "ece_10_bins": 0.015096325192939117,
+        "inverse_probability_auc": 0.14862792159749744
+      },
+      "positives": 15166,
+      "calibration_positives": 5782
+    },
+    {
+      "mode": "outer_test",
+      "train_fraction": 0.7,
+      "seed": 42,
+      "config": {
+        "epochs": 10,
+        "hidden_channels": 32,
+        "layers": 1,
+        "learning_rate": 0.01,
+        "decoder": "concat_mlp"
+      },
+      "calibration_metrics": {
+        "auc": 0.8490681492926162,
+        "average_precision": 0.8306582962745612,
+        "brier": 0.1488419958235863,
+        "ece_10_bins": 3.9045602124663794e-17,
+        "inverse_probability_auc": 0.1509318507073838
+      },
+      "metrics": {
+        "auc": 0.8504175729660303,
+        "average_precision": 0.8361601130036662,
+        "brier": 0.14845140839977616,
+        "ece_10_bins": 0.011405802662512577,
+        "inverse_probability_auc": 0.14958242703396976
+      },
+      "positives": 13007,
+      "calibration_positives": 6237
+    },
+    {
+      "mode": "outer_test",
+      "train_fraction": 0.7,
+      "seed": 43,
+      "config": {
+        "epochs": 10,
+        "hidden_channels": 32,
+        "layers": 1,
+        "learning_rate": 0.01,
+        "decoder": "concat_mlp"
+      },
+      "calibration_metrics": {
+        "auc": 0.8708525405120991,
+        "average_precision": 0.8483162274636817,
+        "brier": 0.13857890199127298,
+        "ece_10_bins": 1.1414630664436133e-17,
+        "inverse_probability_auc": 0.12914745948790096
+      },
+      "metrics": {
+        "auc": 0.8629339895274588,
+        "average_precision": 0.8456466680265465,
+        "brier": 0.14444473860565865,
+        "ece_10_bins": 0.017491969497777957,
+        "inverse_probability_auc": 0.13706601047254136
+      },
+      "positives": 13007,
+      "calibration_positives": 6237
+    },
+    {
+      "mode": "outer_test",
+      "train_fraction": 0.7,
+      "seed": 44,
+      "config": {
+        "epochs": 10,
+        "hidden_channels": 32,
+        "layers": 1,
+        "learning_rate": 0.01,
+        "decoder": "concat_mlp"
+      },
+      "calibration_metrics": {
+        "auc": 0.8410990579501082,
+        "average_precision": 0.824252775606378,
+        "brier": 0.15465428600882652,
+        "ece_10_bins": 1.2642092848848647e-16,
+        "inverse_probability_auc": 0.15890094204989189
+      },
+      "metrics": {
+        "auc": 0.8394946174224428,
+        "average_precision": 0.8273143281282094,
+        "brier": 0.1547247380751048,
+        "ece_10_bins": 0.011455878963221023,
+        "inverse_probability_auc": 0.16050538257755703
+      },
+      "positives": 13007,
+      "calibration_positives": 6237
+    },
+    {
+      "mode": "outer_test",
+      "train_fraction": 0.7,
+      "seed": 45,
+      "config": {
+        "epochs": 10,
+        "hidden_channels": 32,
+        "layers": 1,
+        "learning_rate": 0.01,
+        "decoder": "concat_mlp"
+      },
+      "calibration_metrics": {
+        "auc": 0.8677401889950659,
+        "average_precision": 0.8480162924458107,
+        "brier": 0.137617599105219,
+        "ece_10_bins": 6.757550356314335e-18,
+        "inverse_probability_auc": 0.13225981100493417
+      },
+      "metrics": {
+        "auc": 0.8667263776903423,
+        "average_precision": 0.8501528316404028,
+        "brier": 0.1391938144449436,
+        "ece_10_bins": 0.011749818198828761,
+        "inverse_probability_auc": 0.1332736223096577
+      },
+      "positives": 13007,
+      "calibration_positives": 6237
+    },
+    {
+      "mode": "outer_test",
+      "train_fraction": 0.7,
+      "seed": 46,
+      "config": {
+        "epochs": 10,
+        "hidden_channels": 32,
+        "layers": 1,
+        "learning_rate": 0.01,
+        "decoder": "concat_mlp"
+      },
+      "calibration_metrics": {
+        "auc": 0.8648084665133462,
+        "average_precision": 0.8394542288595592,
+        "brier": 0.13907610686826,
+        "ece_10_bins": 8.94390826876559e-17,
+        "inverse_probability_auc": 0.13519153348665403
+      },
+      "metrics": {
+        "auc": 0.8616696739498645,
+        "average_precision": 0.8398649616044996,
+        "brier": 0.14046896923701788,
+        "ece_10_bins": 0.015884677309240383,
+        "inverse_probability_auc": 0.13833032605013548
+      },
+      "positives": 13007,
+      "calibration_positives": 6237
+    },
+    {
+      "mode": "outer_test",
+      "train_fraction": 0.7,
+      "seed": 47,
+      "config": {
+        "epochs": 10,
+        "hidden_channels": 32,
+        "layers": 1,
+        "learning_rate": 0.01,
+        "decoder": "concat_mlp"
+      },
+      "calibration_metrics": {
+        "auc": 0.796811589687438,
+        "average_precision": 0.7797183261312592,
+        "brier": 0.17211421386593212,
+        "ece_10_bins": 6.218637384203919e-17,
+        "inverse_probability_auc": 0.2031884103125619
+      },
+      "metrics": {
+        "auc": 0.7985653726182261,
+        "average_precision": 0.7850629635040689,
+        "brier": 0.17109443990100665,
+        "ece_10_bins": 0.012992153347132567,
+        "inverse_probability_auc": 0.20143462738177384
+      },
+      "positives": 13007,
+      "calibration_positives": 6237
+    },
+    {
+      "mode": "outer_test",
+      "train_fraction": 0.7,
+      "seed": 48,
+      "config": {
+        "epochs": 10,
+        "hidden_channels": 32,
+        "layers": 1,
+        "learning_rate": 0.01,
+        "decoder": "concat_mlp"
+      },
+      "calibration_metrics": {
+        "auc": 0.7687551434545181,
+        "average_precision": 0.742103266415202,
+        "brier": 0.18279844319560604,
+        "ece_10_bins": 1.5001895295470037e-16,
+        "inverse_probability_auc": 0.23124485654548183
+      },
+      "metrics": {
+        "auc": 0.7680279927334371,
+        "average_precision": 0.7457114606088987,
+        "brier": 0.1835586834685777,
+        "ece_10_bins": 0.014549425395737624,
+        "inverse_probability_auc": 0.23197200726656292
+      },
+      "positives": 13007,
+      "calibration_positives": 6237
+    },
+    {
+      "mode": "outer_test",
+      "train_fraction": 0.7,
+      "seed": 49,
+      "config": {
+        "epochs": 10,
+        "hidden_channels": 32,
+        "layers": 1,
+        "learning_rate": 0.01,
+        "decoder": "concat_mlp"
+      },
+      "calibration_metrics": {
+        "auc": 0.8662343343546914,
+        "average_precision": 0.8442119592138166,
+        "brier": 0.13949882269485583,
+        "ece_10_bins": 5.2137938738609646e-17,
+        "inverse_probability_auc": 0.13376566564530867
+      },
+      "metrics": {
+        "auc": 0.8588422463189342,
+        "average_precision": 0.8405175399900672,
+        "brier": 0.14428856246734212,
+        "ece_10_bins": 0.013960866161191701,
+        "inverse_probability_auc": 0.14115775368106578
+      },
+      "positives": 13007,
+      "calibration_positives": 6237
+    },
+    {
+      "mode": "outer_test",
+      "train_fraction": 0.7,
+      "seed": 50,
+      "config": {
+        "epochs": 10,
+        "hidden_channels": 32,
+        "layers": 1,
+        "learning_rate": 0.01,
+        "decoder": "concat_mlp"
+      },
+      "calibration_metrics": {
+        "auc": 0.855209767854736,
+        "average_precision": 0.8384117246589418,
+        "brier": 0.1440597610583503,
+        "ece_10_bins": 8.590566485234897e-17,
+        "inverse_probability_auc": 0.14479023214526393
+      },
+      "metrics": {
+        "auc": 0.852181725852014,
+        "average_precision": 0.8403998339607952,
+        "brier": 0.14575049911936538,
+        "ece_10_bins": 0.013594884783682306,
+        "inverse_probability_auc": 0.147818274147986
+      },
+      "positives": 13007,
+      "calibration_positives": 6237
+    },
+    {
+      "mode": "outer_test",
+      "train_fraction": 0.7,
+      "seed": 51,
+      "config": {
+        "epochs": 10,
+        "hidden_channels": 32,
+        "layers": 1,
+        "learning_rate": 0.01,
+        "decoder": "concat_mlp"
+      },
+      "calibration_metrics": {
+        "auc": 0.8598007119197864,
+        "average_precision": 0.8371709046735615,
+        "brier": 0.14179360450863593,
+        "ece_10_bins": 6.452715190421986e-20,
+        "inverse_probability_auc": 0.14019928808021376
+      },
+      "metrics": {
+        "auc": 0.8580043944260305,
+        "average_precision": 0.8387784998821636,
+        "brier": 0.14434666265391352,
+        "ece_10_bins": 0.016130172972895332,
+        "inverse_probability_auc": 0.14199560557396962
+      },
+      "positives": 13007,
+      "calibration_positives": 6237
+    }
+  ]
+}

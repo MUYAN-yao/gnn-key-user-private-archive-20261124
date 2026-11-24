@@ -1,0 +1,328 @@
+{
+  "date": "2026-09-19",
+  "analysis_status": "exploratory_post_hoc_read_only",
+  "source_directory": "audits/candidate-reduction-v6-digg-k5-formal/digg",
+  "interpretation": "Repeated omission of the same fifth full-greedy seed on the same graph; not ten distinct failure mechanisms. No unrun degree arm or candidate size is assigned a utility.",
+  "rows": [
+    {
+      "artifact": "seed-74.json",
+      "full": [
+        "2241",
+        "360",
+        "1485",
+        "174",
+        "290"
+      ],
+      "pool30": [
+        "2241",
+        "360",
+        "1485",
+        "174",
+        "8041"
+      ],
+      "gnn_ranks": [
+        3,
+        12,
+        18,
+        20,
+        39
+      ],
+      "degree_ranks": [
+        4,
+        14,
+        19,
+        21,
+        34
+      ],
+      "first_divergence": 5
+    },
+    {
+      "artifact": "seed-75.json",
+      "full": [
+        "2241",
+        "360",
+        "1485",
+        "174",
+        "290"
+      ],
+      "pool30": [
+        "2241",
+        "360",
+        "1485",
+        "174",
+        "2440"
+      ],
+      "gnn_ranks": [
+        4,
+        13,
+        18,
+        20,
+        37
+      ],
+      "degree_ranks": [
+        4,
+        14,
+        19,
+        21,
+        34
+      ],
+      "first_divergence": 5
+    },
+    {
+      "artifact": "seed-76.json",
+      "full": [
+        "2241",
+        "360",
+        "1485",
+        "174",
+        "290"
+      ],
+      "pool30": [
+        "2241",
+        "360",
+        "1485",
+        "174",
+        "8041"
+      ],
+      "gnn_ranks": [
+        4,
+        13,
+        20,
+        21,
+        33
+      ],
+      "degree_ranks": [
+        4,
+        14,
+        19,
+        21,
+        34
+      ],
+      "first_divergence": 5
+    },
+    {
+      "artifact": "seed-77.json",
+      "full": [
+        "2241",
+        "360",
+        "1485",
+        "174",
+        "290"
+      ],
+      "pool30": [
+        "2241",
+        "360",
+        "1485",
+        "174",
+        "2496"
+      ],
+      "gnn_ranks": [
+        3,
+        13,
+        18,
+        19,
+        41
+      ],
+      "degree_ranks": [
+        4,
+        14,
+        19,
+        21,
+        34
+      ],
+      "first_divergence": 5
+    },
+    {
+      "artifact": "seed-78.json",
+      "full": [
+        "2241",
+        "360",
+        "1485",
+        "174",
+        "290"
+      ],
+      "pool30": [
+        "2241",
+        "360",
+        "1485",
+        "174",
+        "2496"
+      ],
+      "gnn_ranks": [
+        4,
+        13,
+        18,
+        22,
+        35
+      ],
+      "degree_ranks": [
+        4,
+        14,
+        19,
+        21,
+        34
+      ],
+      "first_divergence": 5
+    },
+    {
+      "artifact": "seed-79.json",
+      "full": [
+        "2241",
+        "360",
+        "1485",
+        "174",
+        "290"
+      ],
+      "pool30": [
+        "2241",
+        "360",
+        "1485",
+        "174",
+        "8041"
+      ],
+      "gnn_ranks": [
+        3,
+        13,
+        23,
+        24,
+        32
+      ],
+      "degree_ranks": [
+        4,
+        14,
+        19,
+        21,
+        34
+      ],
+      "first_divergence": 5
+    },
+    {
+      "artifact": "seed-80.json",
+      "full": [
+        "2241",
+        "360",
+        "1485",
+        "174",
+        "290"
+      ],
+      "pool30": [
+        "2241",
+        "360",
+        "1485",
+        "174",
+        "8041"
+      ],
+      "gnn_ranks": [
+        4,
+        13,
+        19,
+        20,
+        36
+      ],
+      "degree_ranks": [
+        4,
+        14,
+        19,
+        21,
+        34
+      ],
+      "first_divergence": 5
+    },
+    {
+      "artifact": "seed-81.json",
+      "full": [
+        "2241",
+        "360",
+        "1485",
+        "174",
+        "290"
+      ],
+      "pool30": [
+        "2241",
+        "360",
+        "1485",
+        "174",
+        "117"
+      ],
+      "gnn_ranks": [
+        3,
+        12,
+        18,
+        20,
+        35
+      ],
+      "degree_ranks": [
+        4,
+        14,
+        19,
+        21,
+        34
+      ],
+      "first_divergence": 5
+    },
+    {
+      "artifact": "seed-82.json",
+      "full": [
+        "2241",
+        "360",
+        "1485",
+        "174",
+        "290"
+      ],
+      "pool30": [
+        "2241",
+        "360",
+        "1485",
+        "174",
+        "2440"
+      ],
+      "gnn_ranks": [
+        4,
+        13,
+        23,
+        20,
+        33
+      ],
+      "degree_ranks": [
+        4,
+        14,
+        19,
+        21,
+        34
+      ],
+      "first_divergence": 5
+    },
+    {
+      "artifact": "seed-83.json",
+      "full": [
+        "2241",
+        "360",
+        "1485",
+        "174",
+        "290"
+      ],
+      "pool30": [
+        "2241",
+        "360",
+        "1485",
+        "174",
+        "2496"
+      ],
+      "gnn_ranks": [
+        3,
+        13,
+        22,
+        18,
+        44
+      ],
+      "degree_ranks": [
+        4,
+        14,
+        19,
+        21,
+        34
+      ],
+      "first_divergence": 5
+    }
+  ]
+}

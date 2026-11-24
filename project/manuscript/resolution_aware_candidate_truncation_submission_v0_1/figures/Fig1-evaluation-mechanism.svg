@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="493.228346pt" height="345.6pt" viewBox="0 0 493.228346 345.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-20T18:36:40.179677</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.6, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 345.6 
+L 493.228346 345.6 
+L 493.228346 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 20.28155 62.650368 
+L 472.946797 62.650368 
+Q 477.681789 62.650368 477.681789 59.332608 
+L 477.681789 27.482112 
+Q 477.681789 24.164352 472.946797 24.164352 
+L 20.28155 24.164352 
+Q 15.546557 24.164352 15.546557 27.482112 
+L 15.546557 59.332608 
+Q 15.546557 62.650368 20.28155 62.650368 
+z
+" clip-path="url(#p9a2efcf405)" style="fill: #f1f4f6; stroke: #52606a; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 20.28155 132.323328 
+L 207.787238 132.323328 
+Q 212.52223 132.323328 212.52223 129.005568 
+L 212.52223 87.201792 
+Q 212.52223 83.884032 207.787238 83.884032 
+L 20.28155 83.884032 
+Q 15.546557 83.884032 15.546557 87.201792 
+L 15.546557 129.005568 
+Q 15.546557 132.323328 20.28155 132.323328 
+z
+" clip-path="url(#p9a2efcf405)" style="fill: #e7eff5; stroke: #52606a; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 247.561172 132.323328 
+L 472.946797 132.323328 
+Q 477.681789 132.323328 477.681789 129.005568 
+L 477.681789 87.201792 
+Q 477.681789 83.884032 472.946797 83.884032 
+L 247.561172 83.884032 
+Q 242.82618 83.884032 242.82618 87.201792 
+L 242.82618 129.005568 
+Q 242.82618 132.323328 247.561172 132.323328 
+z
+" clip-path="url(#p9a2efcf405)" style="fill: #f8eee5; stroke: #52606a; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 62.896479 205.314048 
+L 430.331868 205.314048 
+Q 435.06686 205.314048 435.06686 201.996288 
+L 435.06686 158.533632 
+Q 435.06686 155.215872 430.331868 155.215872 
+L 62.896479 155.215872 
+Q 58.161487 155.215872 58.161487 158.533632 
+L 58.161487 201.996288 
+Q 58.161487 205.314048 62.896479 205.314048 
+z
+" clip-path="url(#p9a2efcf405)" style="fill: #f1f4f6; stroke: #52606a; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 20.28155 281.622528 
+L 221.992214 281.622528 
+Q 226.727206 281.622528 226.727206 278.304768 
+L 226.727206 231.524352 
+Q 226.727206 228.206592 221.992214 228.206592 
+L 20.28155 228.206592 
+Q 15.546557 228.206592 15.546557 231.524352 
+L 15.546557 278.304768 
+Q 15.546557 281.622528 20.28155 281.622528 
+z
+" clip-path="url(#p9a2efcf405)" style="fill: #f1f4f6; stroke: #52606a; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 252.296164 281.622528 
+L 472.946797 281.622528 
+Q 477.681789 281.622528 477.681789 278.304768 
+L 477.681789 231.524352 
+Q 477.681789 228.206592 472.946797 228.206592 
+L 252.296164 228.206592 
+Q 247.561172 228.206592 247.561172 231.524352 
+L 247.561172 278.304768 
+Q 247.561172 281.622528 252.296164 281.622528 
+z
+" clip-path="url(#p9a2efcf405)" style="fill: #eaf2ee; stroke: #52606a; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif" transform="translate(143.011673 41.19061)">Observed contacts → historical aggregation → fixed graph</text>
+    <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif" transform="translate(150.774798 49.86286)">Simulated independent cascade: p = 0.01; horizon = 3</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif" transform="translate(76.683144 105.88443)">Search-space choice</text>
+    <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif" transform="translate(42.517519 114.46293)">Full node set  |  Degree pools: 2k, 4k, 8k</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif" transform="translate(312.452109 105.882555)">Selection-resolution choice</text>
+    <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif" transform="translate(291.557109 114.461055)">Nested world prefixes: 20 → 80 → 320</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 114.034394 61.99524 
+Q 114.034394 73.267583 114.034394 83.421893 
+" style="fill: none; stroke: #52606a; stroke-linecap: round"/>
+    <path d="M 115.634394 80.221893 
+L 114.034394 83.421893 
+L 112.434394 80.221893 
+z
+" style="fill: #52606a; stroke: #52606a; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 360.253984 61.99524 
+Q 360.253984 73.267583 360.253984 83.421893 
+" style="fill: none; stroke: #52606a; stroke-linecap: round"/>
+    <path d="M 361.853984 80.221893 
+L 360.253984 83.421893 
+L 358.653984 80.221893 
+z
+" style="fill: #52606a; stroke: #52606a; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif" transform="translate(160.791048 173.72121)">Greedy re-optimization for each pool and budget</text>
+    <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif" transform="translate(150.794173 182.39346)">Shared selection worlds and deterministic tie-breaking</text>
+    <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif" transform="translate(144.119798 190.94871)">Record ordered seeds, score gaps, ties, and elapsed time</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 115.75395 130.693264 
+Q 137.709942 143.76995 158.705363 156.274533 
+" style="fill: none; stroke: #52606a; stroke-linecap: round"/>
+    <path d="M 156.774774 153.26242 
+L 158.705363 156.274533 
+L 155.137319 156.011737 
+z
+" style="fill: #52606a; stroke: #52606a; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 358.835567 131.077102 
+Q 346.049843 143.768771 334.057601 155.672794 
+" style="fill: none; stroke: #52606a; stroke-linecap: round"/>
+    <path d="M 337.455867 154.553961 
+L 334.057601 155.672794 
+L 335.201494 152.282882 
+z
+" style="fill: #52606a; stroke: #52606a; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif" transform="translate(82.451882 248.310435)">Decision reproduction</text>
+    <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif" transform="translate(53.555007 256.888935)">Across budgets: full-reference stability</text>
+    <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif" transform="translate(59.325007 265.561185)">Within budget: pool–full agreement</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif" transform="translate(313.92398 248.41581)">Independent utility and cost</text>
+    <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif" transform="translate(291.68898 256.97106)">Evaluate seeds on 2,000 unused worlds</text>
+    <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif" transform="translate(297.482105 265.54956)">Compare spread and measured time</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 150.439703 204.011021 
+Q 136.526944 216.759094 123.438504 228.751855 
+" style="fill: none; stroke: #52606a; stroke-linecap: round"/>
+    <path d="M 126.87876 227.769693 
+L 123.438504 228.751855 
+L 124.716929 225.410353 
+z
+" style="fill: #52606a; stroke: #52606a; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 342.518283 204.253717 
+Q 351.967424 216.759891 360.742575 228.374022 
+" style="fill: none; stroke: #52606a; stroke-linecap: round"/>
+    <path d="M 360.090091 224.856315 
+L 360.742575 228.374022 
+L 357.536919 226.785385 
+z
+" style="fill: #52606a; stroke: #52606a; stroke-linecap: round"/>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="246.614173" y="310.48704" transform="rotate(-0 246.614173 310.48704)">Ordered trace agreement ≠ final-set equality ≠ utility equivalence</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="246.614173" y="327.07584" transform="rotate(-0 246.614173 327.07584)">Evaluation mechanism and information flow; no causal mechanism is inferred.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p9a2efcf405">
+   <rect x="9.864567" y="6.912" width="473.499213" height="331.776"/>
+  </clipPath>
+ </defs>
+</svg>

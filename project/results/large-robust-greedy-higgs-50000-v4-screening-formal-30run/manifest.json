@@ -1,0 +1,130 @@
+{
+  "study_version": "v4-screening-formal",
+  "artifact_schema": "v4-screening-formal-1",
+  "formal_batch": true,
+  "smoke_test": false,
+  "not_eligible_for_inference": false,
+  "protocol": {
+    "influence_v4_screening_formal_preregistration.md": "4e65554686be19fd3892066d84b9c9450a1c7512bfe1bdf0ab83c7c325db23c6"
+  },
+  "inputs": {
+    "nodes.csv": "04560116149c19d1bd7f0dcdaad6b70dbbaa32cf1932cab9221c2aeebfac8e57",
+    "edges.csv": "5178d5be13faf6b0875b584e936d24d8043112dcc1b25b0b49ea95dc17f5b7f9",
+    "cascades.csv": "d503d39922201baa8dd018c187beb7500c5cf5910ce745c948478525f867b552"
+  },
+  "frozen_input_verification": {
+    "manifest": "reproducibility\\frozen-study-manifest-v1.json",
+    "verified": true
+  },
+  "source": {
+    "run_v4_screening_formal.py": "0e8f312d90bb173add2bb0e5d5051c257c043a379b1af43d20d0df1b61153f93",
+    "influence_v4_screening_formal_preregistration.md": "4e65554686be19fd3892066d84b9c9450a1c7512bfe1bdf0ab83c7c325db23c6",
+    "run_rolling_study_v2_t0.py": "7d2dc79baa86e6695a6c958dc44d8d0f61270cd489d3d6a062a1c57be402935b",
+    "run_v4_screening_diagnostic.py": "9599f04c4f2ed3541e984959a69c62613f1c7445942a4bd99e5f29f28fcadbad",
+    "run_v3_fairness_sensitivity.py": "942d1c5f7393be17170502192e8faf3ee83461fa42d5ef38f9eaa9cf1574979e",
+    "pipeline_v2_t0.py": "6d321005eb81fa132f54d967349eddf981ecd3921145ab24721aa3dc4c893d55",
+    "pipeline_v2_t0b.py": "54ec7169056fcef066c4840e8d1e025bbbce0730168430d09ca21635be8a814f",
+    "model_v2.py": "33ba30f22b47760f4960064bc90b987636fe4f530c970fa174718dbddb735316",
+    "graph.py": "8faef93d5ae47af21db01234da18188b3789ed2e087cd8acf8ab202e78f3b424",
+    "validation.py": "2d2431583d8fe4e3c35ab29959bd50f3ab096eb47a7843f36bcce16b8dc52df1"
+  },
+  "run_parameters": {
+    "fractions": [
+      0.6,
+      0.65,
+      0.7
+    ],
+    "seeds": [
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61
+    ],
+    "pool_size": 120,
+    "selection_world_count": 20,
+    "evaluation_world_count": 20,
+    "arms": [
+      "gnn_prior",
+      "weighted_out_degree",
+      "pagerank",
+      "uniform_random"
+    ]
+  },
+  "expected_run_ids": [
+    "split-0.60-seed-52",
+    "split-0.60-seed-53",
+    "split-0.60-seed-54",
+    "split-0.60-seed-55",
+    "split-0.60-seed-56",
+    "split-0.60-seed-57",
+    "split-0.60-seed-58",
+    "split-0.60-seed-59",
+    "split-0.60-seed-60",
+    "split-0.60-seed-61",
+    "split-0.65-seed-52",
+    "split-0.65-seed-53",
+    "split-0.65-seed-54",
+    "split-0.65-seed-55",
+    "split-0.65-seed-56",
+    "split-0.65-seed-57",
+    "split-0.65-seed-58",
+    "split-0.65-seed-59",
+    "split-0.65-seed-60",
+    "split-0.65-seed-61",
+    "split-0.70-seed-52",
+    "split-0.70-seed-53",
+    "split-0.70-seed-54",
+    "split-0.70-seed-55",
+    "split-0.70-seed-56",
+    "split-0.70-seed-57",
+    "split-0.70-seed-58",
+    "split-0.70-seed-59",
+    "split-0.70-seed-60",
+    "split-0.70-seed-61"
+  ],
+  "runs": {
+    "split-0.60-seed-52.json": "fc1178b333ca4ad018c21e689ffbc4bfe004576945d78a1529ca8b87d4d7a530",
+    "split-0.60-seed-53.json": "b8005058130be246bf05bf9673bc85ffeb0af6afad72318fb2203a3ae8dbc252",
+    "split-0.60-seed-54.json": "907e7f70943cfa9ec518818a24db9e19a304b185ed1260091688e4e59de181c7",
+    "split-0.60-seed-55.json": "db526d6b60ae058e141ade98891dfe2eda2897d479f416f6b430942cae8a8846",
+    "split-0.60-seed-56.json": "151efe587a12df7f5ae94ce011ba3f8c4112bf000918e72bbd2f07964fb411b4",
+    "split-0.60-seed-57.json": "f797995824bc7b2439ac448f4a830af8c02c0cb378b6c89d2e31ee3c3967ad90",
+    "split-0.60-seed-58.json": "8afec00086e4baa106e1eef44f14f0f4112e40d9268894d393de63e28663d6ff",
+    "split-0.60-seed-59.json": "013c96645c4d30a97402bba157e69de4ea403237a2c5fef6e638f884e8cb214c",
+    "split-0.60-seed-60.json": "1aca4ba327c0990a01644ad7c225d323b2544c805425000ea67c7972358aab27",
+    "split-0.60-seed-61.json": "ddd2b92c2872dc1f3b9156452800cf7bf5031557cd4ba324c33c3325c40faf2c",
+    "split-0.65-seed-52.json": "d8bc6911765e99e7876590873332955d1fb1946fe20a3881b51b7a748d563262",
+    "split-0.65-seed-53.json": "3dc7c61c8a9ed639b6097a9c6439ff363c7553c5257d636bf919e4ec78bcd234",
+    "split-0.65-seed-54.json": "7ed181373ea689982d13e13b27f7c3961f3c7a7c4a25378c2b80ea88d11bccab",
+    "split-0.65-seed-55.json": "a22f094f373f6e3a2c2868e8ff9dfc286b8d2d299dbc4c17749a132bf9ab26f5",
+    "split-0.65-seed-56.json": "fdab4dff8df59b5369c1dfd45d7da5794fdbd9fc150e41538ce3e1ba3b6ad1d3",
+    "split-0.65-seed-57.json": "cb3d82ab17ba44f0dc61d3a2ffb319eaa9d98cb60aadeef3f2cb68f958bc56c7",
+    "split-0.65-seed-58.json": "1f562fb0ced05082a32d0e0c6fdec2524a3d84d293190083fd9e1bcf32dba0b3",
+    "split-0.65-seed-59.json": "026954fa50fab181dec7f3f5764a6c7fe51a90c042059ec38fb9c0778cd9548b",
+    "split-0.65-seed-60.json": "a04860ba8ade3af8eebaeb50319928e59451a0fe182af880bdef24a36b114684",
+    "split-0.65-seed-61.json": "18ed093ed4417602f47e499e6356af27b5c68d9817c65ad0e317e721eaf41f0a",
+    "split-0.70-seed-52.json": "6abd5eced25ec6ac378eb5916da10835d26c896ada0c9dc3c65e805717cd962b",
+    "split-0.70-seed-53.json": "4de1db11681089b38d6058113389d31ccff18700afce9b2ce22b121b2bbb867c",
+    "split-0.70-seed-54.json": "800189d2aa4cc583d472494a7d444aa35ed646beebc118fb907e6f1fe49679fe",
+    "split-0.70-seed-55.json": "4de613b4b6f10dfdedfe8e0f4c7bc1a454d158e230df71397381fcecc47d0333",
+    "split-0.70-seed-56.json": "bd36a45050b19fd7cf45d812c5b99aab9ae261852607ceb05a64b113ff22cb0d",
+    "split-0.70-seed-57.json": "616224720f33224f54838026a2fea69403bd9b633d21066f7ad404d5634ce1c1",
+    "split-0.70-seed-58.json": "e7393731d63b497c3ea480ecb99a06b876ebafa05a14ba461a14d278c0f8dc98",
+    "split-0.70-seed-59.json": "51ed6a829179107ec650d19d08b755279934b5f212df5800d7476f70e843bbd3",
+    "split-0.70-seed-60.json": "be3a2da6095e3ba31aa84beb604f30f579017565fe52dbe2fb32d4872cdb2ead",
+    "split-0.70-seed-61.json": "1be0a3959e84d668b66c4bc9b7afb2a4c0b80918f25b960a92a2eae6f7976bb5"
+  },
+  "environment": {
+    "python": "3.13.0 | packaged by conda-forge | (main, Nov 27 2024, 19:03:49) [MSC v.1942 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.3.3",
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8"
+  }
+}

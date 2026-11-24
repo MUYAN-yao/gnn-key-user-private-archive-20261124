@@ -1,0 +1,20 @@
+{
+  "primary": "graph-equal MSE of final seed-set 1-Jaccard vs independent finite W1280 reference",
+  "simple_selected": "linear_structure",
+  "relative_mse_improvement": -1.266894123097701,
+  "graphs_improved": 3,
+  "test_graphs": 8,
+  "resample_positive": 1,
+  "formula_structures": [
+    "x",
+    "(c-(x/x))",
+    "x"
+  ],
+  "paired_mse_reduction": -0.04342329746630913,
+  "conditional_graph_bootstrap95": [
+    -0.100200045181626,
+    -0.0012130372916312237
+  ],
+  "search_expressions": 1200,
+  "analysis_seconds": 3.52420310000889
+}

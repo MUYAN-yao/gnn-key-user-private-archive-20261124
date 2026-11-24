@@ -1,0 +1,693 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        10
+      ]
+    ],
+    "date-time": "2026-09-10T14:30:49Z",
+    "timestamp": 1789050649408,
+    "version": "build-2803163510"
+  },
+  "reference-count": 43,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "6",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2018,
+            5,
+            21
+          ]
+        ],
+        "date-time": "2018-05-21T00:00:00Z",
+        "timestamp": 1526860800000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2018,
+            5,
+            21
+          ]
+        ],
+        "date-time": "2018-05-21T00:00:00Z",
+        "timestamp": 1526860800000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "link.springer.com"
+    ],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Nat Hum Behav"
+  ],
+  "DOI": "10.1038/s41562-018-0346-z",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2018,
+        5,
+        18
+      ]
+    ],
+    "date-time": "2018-05-18T04:38:06Z",
+    "timestamp": 1526618286000
+  },
+  "page": "375-382",
+  "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 92,
+  "title": [
+    "Social influence maximization under empirical influence models"
+  ],
+  "prefix": "10.1038",
+  "volume": "2",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-2762-058X",
+      "authenticated-orcid": false,
+      "given": "Sinan",
+      "family": "Aral",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Paramveer S.",
+      "family": "Dhillon",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "297",
+  "published-online": {
+    "date-parts": [
+      [
+        2018,
+        5,
+        21
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "346_CR1",
+      "doi-asserted-by": "publisher",
+      "first-page": "888",
+      "DOI": "10.1038/nphys1746",
+      "volume": "6",
+      "author": "M Kitsak",
+      "year": "2010",
+      "unstructured": "Kitsak, M. et al. Identification of influential spreaders in complex networks. Nat. Phys. 6, 888–893 (2010).",
+      "journal-title": "Nat. Phys."
+    },
+    {
+      "key": "346_CR2",
+      "doi-asserted-by": "publisher",
+      "first-page": "1236498",
+      "DOI": "10.1126/science.1236498",
+      "volume": "341",
+      "author": "A Banerjee",
+      "year": "2013",
+      "unstructured": "Banerjee, A., Chandrasekhar, A., Duflo, E. & Jackson, M. The diffusion of microfinance. Science 341, 1236498 (2013).",
+      "journal-title": "Science"
+    },
+    {
+      "key": "346_CR3",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Kempe, D., Kleinberg, J. & Tardos, É. Maximizing the spread of influence through a social network. In Proc. 9th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining 137–146 (2003).",
+      "DOI": "10.1145/956750.956769"
+    },
+    {
+      "key": "346_CR4",
+      "doi-asserted-by": "publisher",
+      "first-page": "105",
+      "DOI": "10.4086/toc.2015.v011a004",
+      "volume": "11",
+      "author": "D Kempe",
+      "year": "2015",
+      "unstructured": "Kempe, D., Kleinberg, J. & Tardos, É. Maximizing the spread of influence through a social network. Theory Comput. 11, 105–147 (2015).",
+      "journal-title": "Theory Comput."
+    },
+    {
+      "key": "346_CR5",
+      "doi-asserted-by": "publisher",
+      "first-page": "702",
+      "DOI": "10.1086/521848",
+      "volume": "113",
+      "author": "D Centola",
+      "year": "2007",
+      "unstructured": "Centola, D. & Macy, M. Complex contagions and the weakness of long ties. Am. J. Sociol. 113, 702–734 (2007).",
+      "journal-title": "Am. J. Sociol."
+    },
+    {
+      "key": "346_CR6",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Bakshy, E., Rosenn, I., Marlow, C. & Adamic, L. The role of social networks in information diffusion. In Proc. 21st International Conference on World Wide Web 519–528 (2012).",
+      "DOI": "10.1145/2187836.2187907"
+    },
+    {
+      "key": "346_CR7",
+      "doi-asserted-by": "publisher",
+      "first-page": "449",
+      "DOI": "10.1016/j.physa.2006.06.018",
+      "volume": "374",
+      "author": "D Centola",
+      "year": "2007",
+      "unstructured": "Centola, D., Eguiluz, V. & Macy, M. Cascade dynamics of complex propagation. Physica A 374, 449–456 (2007).",
+      "journal-title": "Physica A"
+    },
+    {
+      "key": "346_CR8",
+      "doi-asserted-by": "publisher",
+      "first-page": "370",
+      "DOI": "10.1056/NEJMsa066082",
+      "volume": "357",
+      "author": "N Christakis",
+      "year": "2007",
+      "unstructured": "Christakis, N. & Fowler, J. The spread of obesity in a large social network over 32 years. New Engl. J. Med. 357, 370–379 (2007).",
+      "journal-title": "New Engl. J. Med."
+    },
+    {
+      "key": "346_CR9",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Domingos, P. & Richardson, M. Mining the network value of customers. In Proc. 7th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining 57–66 (2001).",
+      "DOI": "10.1145/502512.502525"
+    },
+    {
+      "key": "346_CR10",
+      "doi-asserted-by": "publisher",
+      "first-page": "400",
+      "DOI": "10.1287/mksc.1060.0224",
+      "volume": "26",
+      "author": "C van den Bulte",
+      "year": "2007",
+      "unstructured": "van den Bulte, C. & Joshi, Y. New product diffusion with influentials and imitators. Mark. Sci. 26, 400–421 (2007).",
+      "journal-title": "Mark. Sci."
+    },
+    {
+      "key": "346_CR11",
+      "first-page": "021024",
+      "volume": "4",
+      "author": "F Altarelli",
+      "year": "2014",
+      "unstructured": "Altarelli, F. et al. Containing epidemic outbreaks by message-passing techniques. Phys. Rev. X 4, 021024 (2014).",
+      "journal-title": "Phys. Rev. X"
+    },
+    {
+      "key": "346_CR12",
+      "doi-asserted-by": "publisher",
+      "first-page": "016128",
+      "DOI": "10.1103/PhysRevE.66.016128",
+      "volume": "66",
+      "author": "M Newman",
+      "year": "2002",
+      "unstructured": "Newman, M. Spread of epidemic disease on networks. Phys. Rev. E 66, 016128 (2002).",
+      "journal-title": "Phys. Rev. E"
+    },
+    {
+      "key": "346_CR13",
+      "doi-asserted-by": "publisher",
+      "first-page": "058701",
+      "DOI": "10.1103/PhysRevLett.101.058701",
+      "volume": "101",
+      "author": "Y Chen",
+      "year": "2008",
+      "unstructured": "Chen, Y. et al. Finding a better immunization strategy. Phys. Rev. Lett. 101, 058701 (2008).",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "346_CR14",
+      "doi-asserted-by": "publisher",
+      "first-page": "458",
+      "DOI": "10.1093/jurban/78.3.458",
+      "volume": "78",
+      "author": "I Kawachi",
+      "year": "2001",
+      "unstructured": "Kawachi, I. & Berkman, L. Social ties and mental health. J. Urban Health 78, 458–467 (2001).",
+      "journal-title": "J. Urban Health"
+    },
+    {
+      "key": "346_CR15",
+      "unstructured": "van Leeuwen, J. Handbook of Theoretical Computer Science, Vol. A: Algorithms and Complexity (MIT Press, Cambridge, MA, 1991)."
+    },
+    {
+      "key": "346_CR16",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Chen, W., Wang, Y. & Yang, S. Efficient influence maximization in social networks. In Proc. 15th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining 199–208 (2009).",
+      "DOI": "10.1145/1557019.1557047"
+    },
+    {
+      "key": "346_CR17",
+      "doi-asserted-by": "publisher",
+      "first-page": "545",
+      "DOI": "10.1007/s10618-012-0262-1",
+      "volume": "25",
+      "author": "C Wang",
+      "year": "2012",
+      "unstructured": "Wang, C., Chen, W. & Wang, Y. Scalable influence maximization for independent cascade model in large-scale social networks. Data Min. Knowl. Discov. 25, 545–576 (2012).",
+      "journal-title": "Data Min. Knowl. Discov."
+    },
+    {
+      "key": "346_CR18",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Borges, C., Brautbar, M., Chayes, J. & Lucier, B. Maximizing social influence in nearly optimal time. In Proc. 25th Annual ACM-SIAM Symposium on Discrete Algorithms 946–957 (2014).",
+      "DOI": "10.1137/1.9781611973402.70"
+    },
+    {
+      "key": "346_CR19",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Leskovec, J. et al. Cost-effective outbreak detection in networks. In Proc. 13th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining 420–429 (2007).",
+      "DOI": "10.1145/1281192.1281239"
+    },
+    {
+      "key": "346_CR20",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Goyal, A., Lu, W. & Laksmanan, L. Celf++: optimizing the greedy algorithm for influence maximization in social networks. In Proc. 20th International Conference Companion on World Wide Web 47–48 (2011).",
+      "DOI": "10.1145/1963192.1963217"
+    },
+    {
+      "key": "346_CR21",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Tang, Y., Xiaokui, X. & Shi, Y. Influence maximization: near-optimal time complexity meets practical efficiency. In Proc. 2014 ACM SIGMOD International Conference on Management of Data 75–86 (2014).",
+      "DOI": "10.1145/2588555.2593670"
+    },
+    {
+      "key": "346_CR22",
+      "doi-asserted-by": "crossref",
+      "unstructured": "He, X. & Kempe, D. Robust influence maximization. In Proc. 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining 885–894 (2016).",
+      "DOI": "10.1145/2939672.2939760"
+    },
+    {
+      "key": "346_CR23",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Chen, W., Lin, T., Tan, Z., Zhao, M. & Zhou, X. Robust influence maximization. In Proc. 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining 795–804 (2016).",
+      "DOI": "10.1145/2939672.2939745"
+    },
+    {
+      "key": "346_CR24",
+      "doi-asserted-by": "publisher",
+      "first-page": "1420",
+      "DOI": "10.1086/226707",
+      "volume": "83",
+      "author": "M Granovetter",
+      "year": "1978",
+      "unstructured": "Granovetter, M. Threshold models of collective behavior. Am. J. Sociol. 83, 1420–1443 (1978).",
+      "journal-title": "Am. J. Sociol."
+    },
+    {
+      "key": "346_CR25",
+      "doi-asserted-by": "publisher",
+      "first-page": "211",
+      "DOI": "10.1023/A:1011122126881",
+      "volume": "12",
+      "author": "J Goldenberg",
+      "year": "2001",
+      "unstructured": "Goldenberg, J., Libai, B. & Muller, E. Talk of the network: a complex systems look at the underlying process of word-of-mouth. Mark. Lett. 12, 211–223 (2001).",
+      "journal-title": "Mark. Lett."
+    },
+    {
+      "key": "346_CR26",
+      "first-page": "1",
+      "volume": "9",
+      "author": "J Goldenberg",
+      "year": "2001",
+      "unstructured": "Goldenberg, J., Libai, B. & Muller, E. Using complex systems analysis to advance marketing theory development: modeling heterogeneity effects on new product growth through stochastic cellular automata. Acad. Mark. Sci. Rev. 9, 1–18 (2001).",
+      "journal-title": "Acad. Mark. Sci. Rev."
+    },
+    {
+      "key": "346_CR27",
+      "doi-asserted-by": "publisher",
+      "first-page": "9",
+      "DOI": "10.1145/2824253",
+      "volume": "34",
+      "author": "M Gomez-Rodriguez",
+      "year": "2016",
+      "unstructured": "Gomez-Rodriguez, M. et al. Influence estimation and maximization in continuous-time diffusion networks. ACM Trans. Inf. Syst. 34, 9 (2016).",
+      "journal-title": "ACM Trans. Inf. Syst."
+    },
+    {
+      "key": "346_CR28",
+      "doi-asserted-by": "publisher",
+      "first-page": "65",
+      "DOI": "10.1038/nature14604",
+      "volume": "524",
+      "author": "F Morone",
+      "year": "2015",
+      "unstructured": "Morone, F. & Makse, H. A. Influence maximization in complex networks through optimal percolation. Nature 524, 65–68 (2015).",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "346_CR29",
+      "doi-asserted-by": "publisher",
+      "first-page": "208701",
+      "DOI": "10.1103/PhysRevLett.89.208701",
+      "volume": "89",
+      "author": "M Newman",
+      "year": "2002",
+      "unstructured": "Newman, M. Assortative mixing in networks. Phys. Rev. Lett. 89, 208701 (2002).",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "346_CR30",
+      "doi-asserted-by": "publisher",
+      "first-page": "125",
+      "DOI": "10.1017/nws.2013.6",
+      "volume": "1",
+      "author": "S Aral",
+      "year": "2013",
+      "unstructured": "Aral, S., Muchnik, L. & Sundararajan, A. Engineering social contagions: optimal network seeding in the presence of homophily. Netw. Sci. 1, 125–153 (2013).",
+      "journal-title": "Netw. Sci."
+    },
+    {
+      "key": "346_CR31",
+      "doi-asserted-by": "publisher",
+      "first-page": "41",
+      "DOI": "10.1016/j.jeconom.2008.12.021",
+      "volume": "150",
+      "author": "Y Bramoullé",
+      "year": "2009",
+      "unstructured": "Bramoullé, Y., Djebbari, H. & Fortin, B. Identification of peer effects through social networks. J. Econ. 150, 41–55 (2009).",
+      "journal-title": "J. Econ."
+    },
+    {
+      "key": "346_CR32",
+      "doi-asserted-by": "publisher",
+      "first-page": "1287",
+      "DOI": "10.1093/qje/qjs021",
+      "volume": "127",
+      "author": "B Golub",
+      "year": "2012",
+      "unstructured": "Golub, B. & Jackson, M. O. How homophily affects the speed of learning and best-response dynamics. Q. J. Econ. 127, 1287–1338 (2012).",
+      "journal-title": "Q. J. Econ."
+    },
+    {
+      "key": "346_CR33",
+      "doi-asserted-by": "publisher",
+      "first-page": "21544",
+      "DOI": "10.1073/pnas.0908800106",
+      "volume": "106",
+      "author": "S Aral",
+      "year": "2009",
+      "unstructured": "Aral, S., Muchnik, L. & Sundararajan, A. Distinguishing influence-based contagion from homophily-driven diffusion in dynamic networks. Proc. Natl Acad. Sci. USA 106, 21544–21549 (2009).",
+      "journal-title": "Proc. Natl Acad. Sci. USA"
+    },
+    {
+      "key": "346_CR34",
+      "doi-asserted-by": "publisher",
+      "first-page": "337",
+      "DOI": "10.1126/science.1215842",
+      "volume": "337",
+      "author": "S Aral",
+      "year": "2012",
+      "unstructured": "Aral, S. & Walker, D. Identifying influential and susceptible members of social networks. Science 337, 337–341 (2012).",
+      "journal-title": "Science"
+    },
+    {
+      "key": "346_CR35",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Bakshy, E., Hofman, J., Mason, W. & Watts, D. Everyone's an influencer: quantifying influence on twitter. In Proc. 4th ACM International Conference on Web Search and Data Mining 65–74 (2011).",
+      "DOI": "10.1145/1935826.1935845"
+    },
+    {
+      "key": "346_CR36",
+      "doi-asserted-by": "publisher",
+      "first-page": "349",
+      "DOI": "10.1086/421787",
+      "volume": "110",
+      "author": "R Burt",
+      "year": "2004",
+      "unstructured": "Burt, R. Structural holes and good ideas. Am. J. Sociol. 110, 349–399 (2004).",
+      "journal-title": "Am. J. Sociol."
+    },
+    {
+      "key": "346_CR37",
+      "doi-asserted-by": "publisher",
+      "first-page": "217",
+      "DOI": "10.1287/mksc.1100.0596",
+      "volume": "30",
+      "author": "S Aral",
+      "year": "2011",
+      "unstructured": "Aral, S. Commentary-identifying social influence: a comment on opinion leadership and social contagion in new product diffusion. Mark. Sci. 30, 217–223 (2011).",
+      "journal-title": "Mark. Sci."
+    },
+    {
+      "key": "346_CR38",
+      "doi-asserted-by": "publisher",
+      "first-page": "1623",
+      "DOI": "10.1287/mnsc.1110.1421",
+      "volume": "57",
+      "author": "S Aral",
+      "year": "2011",
+      "unstructured": "Aral, S. & Walker, D. Creating social contagion through viral product design: a randomized trial of peer influence in networks. Manage. Sci. 57, 1623–1639 (2011).",
+      "journal-title": "Manage. Sci."
+    },
+    {
+      "key": "346_CR39",
+      "doi-asserted-by": "publisher",
+      "first-page": "647",
+      "DOI": "10.1126/science.1240466",
+      "volume": "341",
+      "author": "L Muchnik",
+      "year": "2013",
+      "unstructured": "Muchnik, L., Aral, S. & Taylor, S. J. Social influence bias: a randomized experiment. Science 341, 647–651 (2013).",
+      "journal-title": "Science"
+    },
+    {
+      "key": "346_CR40",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Bakshy, E., Eckles, D. & Bernstein, M. Designing and deploying online field experiments. In Proc. 23rd International Conference on World Wide Web 283–292 (2014).",
+      "DOI": "10.1145/2566486.2567967"
+    },
+    {
+      "key": "346_CR41",
+      "doi-asserted-by": "publisher",
+      "first-page": "1352",
+      "DOI": "10.1287/mnsc.2014.1936",
+      "volume": "60",
+      "author": "S Aral",
+      "year": "2014",
+      "unstructured": "Aral, S. & Walker, D. Tie strength, embeddedness, and social influence: a large-scale networked experiment. Manage. Sci. 60, 1352–1370 (2014).",
+      "journal-title": "Manage. Sci."
+    },
+    {
+      "key": "346_CR42",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Ugander, J. & Backstrom, L. Balanced label propagation for partitioning massive graphs. In Proc. 6th ACM International Conference on Web Search and Data Mining 507–516 (2013).",
+      "DOI": "10.1145/2433396.2433461"
+    },
+    {
+      "key": "346_CR43",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Pfeiffer, J. III et al. Attributed graph models: modeling network structure with correlated attributes. In Proc. 23rd International Conference on World Wide Web 831–842 (2014).",
+      "DOI": "10.1145/2566486.2567993"
+    }
+  ],
+  "updated-by": [
+    {
+      "DOI": "10.1038/s41562-018-0416-2",
+      "type": "correction",
+      "label": "Correction",
+      "source": "publisher",
+      "updated": {
+        "date-parts": [
+          [
+            2018,
+            8,
+            2
+          ]
+        ],
+        "date-time": "2018-08-02T00:00:00Z",
+        "timestamp": 1533168000000
+      }
+    }
+  ],
+  "container-title": [
+    "Nature Human Behaviour"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://www.nature.com/articles/s41562-018-0346-z",
+      "content-type": "text/html",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://www.nature.com/articles/s41562-018-0346-z.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://www.nature.com/articles/s41562-018-0346-z.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2022,
+        12,
+        20
+      ]
+    ],
+    "date-time": "2022-12-20T19:03:22Z",
+    "timestamp": 1671563002000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://www.nature.com/articles/s41562-018-0346-z"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2018,
+        5,
+        21
+      ]
+    ]
+  },
+  "references-count": 43,
+  "journal-issue": {
+    "issue": "6",
+    "published-online": {
+      "date-parts": [
+        [
+          2018,
+          6
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "346"
+  ],
+  "URL": "https://doi.org/10.1038/s41562-018-0346-z",
+  "relation": {},
+  "ISSN": [
+    "2397-3374"
+  ],
+  "issn-type": [
+    {
+      "value": "2397-3374",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2018,
+        5,
+        21
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "1 September 2017",
+      "order": 1,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "9 April 2018",
+      "order": 2,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "21 May 2018",
+      "order": 3,
+      "name": "first_online",
+      "label": "First Online",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "2 August 2018",
+      "order": 4,
+      "name": "change_date",
+      "label": "Change Date",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "Correction",
+      "order": 5,
+      "name": "change_type",
+      "label": "Change Type",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "In the version of this Letter originally published, in the key for Fig. 1 the red square was mistakenly labelled ‘Low influence’ and ‘High susceptibility’ but should have been labelled ‘High influence’ and ‘Low susceptibility’. This has now been corrected.",
+      "order": 6,
+      "name": "change_details",
+      "label": "Change Details",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "The authors declare no competing interests.",
+      "order": 1,
+      "name": "Ethics",
+      "group": {
+        "name": "EthicsHeading",
+        "label": "Competing interests"
+      }
+    }
+  ]
+}

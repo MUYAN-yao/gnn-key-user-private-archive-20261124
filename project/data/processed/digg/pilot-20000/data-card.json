@@ -1,0 +1,18 @@
+{
+  "source": "Network Data Repository Digg release (2009 Digg relation-and-vote data)",
+  "raw_files": [
+    "digg.edges",
+    "digg.types"
+  ],
+  "node_semantics": "type-1 nodes only (Digg users)",
+  "edge_semantics": "proxy information flow from a previous voter to a later voter on the same story when a prior directed relation permits exposure",
+  "proxy_limitation": "parent links are inferred from temporal co-voting and directed relations, not observed reshare causality",
+  "orientation_assumption": "raw relation A->B means A observes B, so potential propagation is B->A",
+  "selected_vote_events": 20000,
+  "proxy_linked_events": 2111,
+  "proxy_link_rate": 0.10555,
+  "time_range": [
+    "2009-05-31T11:43:41Z",
+    "2009-06-02T10:43:01Z"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "study_version": "v4-screening-diagnostic",
+  "diagnostic_only": true,
+  "artifact": {
+    "diagnostic-fraction-0.70-seed-48.json": "a204dac4892c78acdccb11c50d1e2cbba6102b95c22af41a6f92516586d8bca4"
+  },
+  "inputs": {
+    "nodes.csv": "04560116149c19d1bd7f0dcdaad6b70dbbaa32cf1932cab9221c2aeebfac8e57",
+    "edges.csv": "5178d5be13faf6b0875b584e936d24d8043112dcc1b25b0b49ea95dc17f5b7f9",
+    "cascades.csv": "d503d39922201baa8dd018c187beb7500c5cf5910ce745c948478525f867b552"
+  },
+  "sources": {
+    "run_v4_screening_diagnostic.py": "9599f04c4f2ed3541e984959a69c62613f1c7445942a4bd99e5f29f28fcadbad",
+    "influence_v4_screening_diagnostic.md": "642d92c29e85b434b6fff29c9d9f3c3199826c234c3b8bad2c41546ff139ec79",
+    "run_v3_fairness_sensitivity.py": "942d1c5f7393be17170502192e8faf3ee83461fa42d5ef38f9eaa9cf1574979e",
+    "pipeline_v2_t0.py": "6d321005eb81fa132f54d967349eddf981ecd3921145ab24721aa3dc4c893d55",
+    "pipeline_v2_t0b.py": "54ec7169056fcef066c4840e8d1e025bbbce0730168430d09ca21635be8a814f",
+    "model_v2.py": "33ba30f22b47760f4960064bc90b987636fe4f530c970fa174718dbddb735316",
+    "graph.py": "8faef93d5ae47af21db01234da18188b3789ed2e087cd8acf8ab202e78f3b424",
+    "validation.py": "2d2431583d8fe4e3c35ab29959bd50f3ab096eb47a7843f36bcce16b8dc52df1"
+  }
+}

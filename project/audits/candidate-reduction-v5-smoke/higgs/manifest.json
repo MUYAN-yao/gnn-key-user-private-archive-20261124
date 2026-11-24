@@ -1,0 +1,58 @@
+{
+  "study_version": "v5-candidate-reduction",
+  "artifact_schema": "v5-candidate-reduction-1",
+  "dataset_id": "higgs",
+  "dataset_path": "E:\\大学\\校创\\基于GNN的关键用户识别\\data\\processed\\higgs-twitter\\pilot-50000",
+  "execution_mode": "smoke",
+  "formal_batch": false,
+  "not_eligible_for_inference": true,
+  "protocol": {
+    "influence_v5_candidate_reduction_preregistration.md": "98e40d98b47ed46b371e34231439c0f559e2e75fb3956a38b56ee9ff02371658"
+  },
+  "inputs": {
+    "nodes.csv": "04560116149c19d1bd7f0dcdaad6b70dbbaa32cf1932cab9221c2aeebfac8e57",
+    "edges.csv": "5178d5be13faf6b0875b584e936d24d8043112dcc1b25b0b49ea95dc17f5b7f9",
+    "cascades.csv": "d503d39922201baa8dd018c187beb7500c5cf5910ce745c948478525f867b552"
+  },
+  "source_snapshot": {
+    "snapshot_dir": "E:\\大学\\校创\\基于GNN的关键用户识别\\reproducibility\\v5-source-snapshots\\candidate-reduction-v5-20260917-r2",
+    "snapshot_id": "89e7e9ae08c0493db703",
+    "manifest_name": "snapshot_manifest.json",
+    "manifest_sha256": "154176e9a6c3b5054f17bf2edca3e2d131fa6704eb128e66e255bf28ae496e36",
+    "file_count": 19
+  },
+  "run_parameters": {
+    "fraction": 0.65,
+    "seeds": [
+      61
+    ],
+    "seed_count": 5,
+    "horizon": 4,
+    "selection_world_count": 20,
+    "primary_evaluation_world_count": 100,
+    "stability_evaluation_world_count": 100,
+    "arms": [
+      "full_candidate",
+      "gnn_pool_30",
+      "gnn_pool_60",
+      "gnn_pool_120",
+      "weighted_out_degree_pool_120"
+    ],
+    "smoke_full_candidate_limit": 64,
+    "risk_lambda": 0.35,
+    "community_weight": 0.25
+  },
+  "expected_run_ids": [
+    "seed-61"
+  ],
+  "runs": {
+    "seed-61.json": "ba991a2eaebf16af5bb836acbcf283b983adb73e9fd03b20b45220146a9a7178"
+  },
+  "environment": {
+    "python": "3.13.0 | packaged by conda-forge | (main, Nov 27 2024, 19:03:49) [MSC v.1942 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.3.3",
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8"
+  }
+}

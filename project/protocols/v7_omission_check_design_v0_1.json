@@ -1,0 +1,264 @@
+{
+  "schema": "v7-omission-check-design-0.1",
+  "status": "design_only_not_preregistered_or_executable",
+  "created": "2026-09-19",
+  "launch": {
+    "formal_enabled": false,
+    "blocked_until": [
+      "method_and_numeric_correctness",
+      "novelty_and_baseline_review",
+      "development_feasibility",
+      "new_data_admission",
+      "immutable_source_and_input_freeze",
+      "resource_preflight"
+    ],
+    "approval_required_for_routine_gates": false
+  },
+  "problem": {
+    "objective": "mean_spread - risk_lambda * population_sd + community_weight * distinct_seed_communities",
+    "risk_lambda": 0.35,
+    "community_weight": 0.25,
+    "horizon": 4,
+    "seed_budgets": [
+      5,
+      20
+    ],
+    "snapshot_unique_timestamp_fraction": 0.65,
+    "probability_model": "uniform_0.05_design_simulator",
+    "probability": 0.05,
+    "ranking": "historical_weighted_out_degree",
+    "strict_online_claim": false,
+    "causal_claim": false
+  },
+  "numerics": {
+    "full_score": "v7 integer-moment objective with rational lambda=7/20 and eta=1/4; certified square-root intervals",
+    "comparison": "mathematical objective rounded half-even to integer micro-units, then ascending canonical string node ID",
+    "bound_pruning": "ceil(1e6 * rational outward upper bound) < incumbent integer micro-score; ambiguous/equal values continue evaluation",
+    "ties": "complete ambiguous candidates, compare canonical IDs; ranking only affects evaluation order",
+    "legacy": "distinct v7 arithmetic, not bitwise NumPy/v6 score replay"
+  },
+  "methods": [
+    {
+      "id": "full",
+      "role": "exact_reference"
+    },
+    {
+      "id": "fixed_2k",
+      "role": "approximate_context",
+      "pool_multiplier": 2
+    },
+    {
+      "id": "fixed_6k",
+      "role": "approximate_context",
+      "pool_multiplier": 6
+    },
+    {
+      "id": "fixed_12k",
+      "role": "approximate_context",
+      "pool_multiplier": 12
+    },
+    {
+      "id": "doubling",
+      "role": "approximate_context",
+      "initial_pool_multiplier": 2,
+      "rule": "double global rank prefix; restart greedy with valid memoization; stop at first identical consecutive ordered solution or full graph"
+    },
+    {
+      "id": "generic_bound",
+      "role": "exact_strong_control",
+      "initial_pool": 0,
+      "rule": "best-upper-bound-first; same topology and SSE bound; canonical tie-break"
+    },
+    {
+      "id": "check_mean_bound",
+      "role": "exact_ablation",
+      "initial_pool_multiplier": 2,
+      "variance_lower_bound": false
+    },
+    {
+      "id": "check_risk_bound",
+      "role": "proposed_exploratory",
+      "initial_pool_multiplier": 2,
+      "variance_lower_bound": true
+    },
+    {
+      "id": "gcomb_degree_component",
+      "role": "published_component_reimplementation",
+      "threshold": "max full-greedy degree-rank percentile over development graphs and seeds, separately at each k",
+      "dependency": "finish all E2 full runs, fit one frozen threshold per k, then run component; E2 component results are in-sample",
+      "offline_cost": "record required full-greedy label generation and threshold fit; include in single-query cost; amortization only at declared Q=10 or 100",
+      "is_full_gcomb": false
+    }
+  ],
+  "bound": {
+    "spread_upper_bound": "size of directed <=h-hop reachability union for S plus v; includes seed nodes",
+    "fallback_upper_bound": "node_count",
+    "world_batch_size": 4,
+    "partial_sse": "Q_r - A_r^2/r; exact integer numerator r*Q_r-A_r^2; D_0=0",
+    "cache_policy": "per-arm cold cache; reuse only identical seed set and world; topology cache capped with deterministic LRU",
+    "topology_cache_mib": 256
+  },
+  "stages": [
+    {
+      "id": "E0_arithmetic",
+      "status": "completed_design_check_only",
+      "training_runs": 0,
+      "result": "audits/v7_bound_design_check_v0_1.json"
+    },
+    {
+      "id": "E1_graph_correctness",
+      "status": "designed_not_run",
+      "fixtures": [
+        "chain",
+        "out_star",
+        "disconnected_components",
+        "duplicate_neighborhoods",
+        "late_rank_complement",
+        "exact_and_near_ties"
+      ],
+      "max_nodes": 8,
+      "selection_worlds": 8,
+      "pass_rule": "zero bound/comparator/trajectory violations"
+    },
+    {
+      "id": "E2_development",
+      "status": "designed_not_run",
+      "datasets": [
+        "digg_pilot5000",
+        "higgs_pilot1500"
+      ],
+      "paths": [
+        "data/processed/digg/pilot-5000",
+        "data/processed/higgs-twitter/pilot-1500"
+      ],
+      "k": [
+        5,
+        20
+      ],
+      "seeds": [
+        101,
+        102,
+        103
+      ],
+      "selection_worlds": 20,
+      "evaluation_worlds": 1000,
+      "methods": "all",
+      "expected_blocks": 12,
+      "expected_method_runs": 108
+    },
+    {
+      "id": "E3_unseen_core",
+      "status": "conditional_design_not_admitted",
+      "datasets": [
+        "CollegeMsg",
+        "email-Eu-core-temporal"
+      ],
+      "k": [
+        5,
+        20
+      ],
+      "seeds": [
+        201,
+        202,
+        203,
+        204,
+        205
+      ],
+      "selection_worlds": 20,
+      "evaluation_worlds": 1000,
+      "methods": "all",
+      "expected_blocks": 20,
+      "expected_method_runs": 180
+    },
+    {
+      "id": "E4_world_budget_sensitivity",
+      "status": "conditional_design_not_admitted",
+      "datasets": [
+        "CollegeMsg",
+        "email-Eu-core-temporal"
+      ],
+      "k": [
+        20
+      ],
+      "seeds": [
+        201,
+        202,
+        203,
+        204,
+        205
+      ],
+      "selection_worlds": 80,
+      "evaluation_worlds": 1000,
+      "methods": [
+        "full",
+        "generic_bound",
+        "check_mean_bound",
+        "check_risk_bound"
+      ],
+      "expected_blocks": 10,
+      "expected_method_runs": 40
+    }
+  ],
+  "worlds": {
+    "derivation": "SHA256 of version|graph_hash|probability_hash|seed|family|index, first 63 bits; verify no duplicate IDs",
+    "families": [
+      "selection",
+      "evaluation"
+    ],
+    "selection80": "first 20 are identical to selection20 in matching case; secondary repeated measure",
+    "share_across_k": true,
+    "formal_seed_count": 5,
+    "add_seeds_after_outcomes": false
+  },
+  "cost": {
+    "development_wall_hours": 6,
+    "formal_core_and_sensitivity_wall_hours": 72,
+    "formal_contingency_factor": 1.5,
+    "single_method_wall_seconds": 3600,
+    "single_block_wall_seconds": 18000,
+    "process_memory_limit_gib": 8,
+    "parallel_timing": false,
+    "preflight_seed": 190,
+    "projection": "C_dev=max(1,max completed development decision-time ratio versus full). Sum 1.5*C_dev*(8+L)*T_full for each E3 block and 1.5*C_dev*4*T_full for each E4 block; L=1+ceil(log2(max(1,n/(2*k)))); include separate preparation/evaluation estimates. Projection is a gate, not a guaranteed runtime bound.",
+    "preflight_effects_visible": false,
+    "unresolved_development_failure": "any retained arm timeout, memory or numeric failure blocks a finite projection; resolve or version whole design, preserve failures"
+  },
+  "statistics": {
+    "primary": "paired cold-accounted total-time ratios check_risk_bound/generic_bound and check_risk_bound/check_mean_bound",
+    "secondary_efficiency": "decision-time ratios and work counts; cannot substitute for primary",
+    "reference": "check_risk_bound/full",
+    "correctness_gate": "zero ordered trajectory differences for exact arms",
+    "reporting_unit": "network x k, five stochastic blocks; no network-population inference",
+    "summary": [
+      "all paired points",
+      "median",
+      "min_max",
+      "completion_rate",
+      "candidate_world_calls",
+      "edge_trials",
+      "cold_total_time"
+    ],
+    "formal_significance_test": false,
+    "approximate_quality": "paired independent-world delta_J; no equivalence/noninferiority claim",
+    "failures": "report all planned blocks; right-censor timeouts; no complete-case speedup headline"
+  },
+  "gnn": {
+    "in_core": false,
+    "reason": "isolate search mechanism before paying for learning",
+    "later_entry_gate": "separate declared ranking attribution study with identical mechanism and all training/inference costs"
+  },
+  "external_candidates": [
+    {
+      "id": "CollegeMsg",
+      "source": "https://snap.stanford.edu/data/CollegeMsg.html",
+      "admission": "pending terms, download, raw hashes, temporal schema",
+      "semantics": "directed timestamped messages, not cascade-parent truth"
+    },
+    {
+      "id": "email-Eu-core-temporal",
+      "source": "https://snap.stanford.edu/data/email-Eu-core-temporal.html",
+      "admission": "pending terms, download, raw hashes, temporal schema",
+      "semantics": "directed timestamped emails, not cascade-parent truth"
+    }
+  ]
+}

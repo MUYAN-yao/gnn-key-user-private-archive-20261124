@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "E:\大学\校创\基于GNN的关键用户识别\experiments\continue_v5_candidate_reduction.py", line 152, in <module>
+    main()
+    ~~~~^^
+  File "E:\大学\校创\基于GNN的关键用户识别\experiments\continue_v5_candidate_reduction.py", line 132, in main
+    raise RuntimeError('Higgs resource gate failed; no further experiments started')
+RuntimeError: Higgs resource gate failed; no further experiments started

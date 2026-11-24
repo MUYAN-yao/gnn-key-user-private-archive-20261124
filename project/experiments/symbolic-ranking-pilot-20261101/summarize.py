@@ -1,0 +1,11 @@
+from pilot import *
+r=pd.read_csv(BASE/'runs.csv');p=pd.read_csv(BASE/'pagerank.csv');t=pd.read_csv(BASE/'budget_transitions.csv');f=pd.read_csv(BASE/'features.csv');rd=pd.read_csv(BASE/'rounds.csv');m=pd.read_csv(BASE/'model_metrics_by_graph.csv')
+print('PR real default',p[(p.tol==1e-6)&p.graph.isin(['college_msg','ca_grqc','wiki_vote'])][['graph','m','replacements','gap','residual','iterations']].to_string(index=False))
+print('MC restricted summary',r[r.arm=='restricted'].groupby('W')[['instability','same_order']].mean().to_string())
+print('ties',rd[rd.arm=='restricted'].groupby('W').ties.apply(lambda s:(s>1).mean()).to_string())
+print('transitions',t.groupby('arm').agg(count=('delta','size'),set_changed=('set_jaccard',lambda s:(s<1).sum()),order_changed=('order_equal',lambda s:(~s).sum()),distinguishable=('distinguishable','sum')).to_string())
+print('REAL transitions',t[t.graph.isin(['college_msg','ca_grqc','wiki_vote'])].to_string(index=False))
+print('cost',f[['graph','pilot_seconds']].merge(r[r.arm=='restricted'].groupby('graph').seconds.median().rename('median_selection'),on='graph').to_string(index=False))
+print('refs',[(g['name'],g['reference_check']) for g in json.loads((BASE/'graphs.json').read_text(encoding='utf-8'))])
+print('by graph models',m[m.split=='test'].pivot(index='graph',columns='model',values='mse').to_string())
+print('TEST synthetic',m[(m.split=='test')&(~m.graph.isin(['ca_grqc','wiki_vote']))].groupby('model').mse.mean().to_string())

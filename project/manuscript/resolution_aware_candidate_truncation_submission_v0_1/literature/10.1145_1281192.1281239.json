@@ -1,0 +1,418 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        19
+      ]
+    ],
+    "date-time": "2026-09-19T17:22:58Z",
+    "timestamp": 1789838578882,
+    "version": "4.0.1"
+  },
+  "publisher-location": "New York, NY, USA",
+  "reference-count": 25,
+  "publisher": "ACM",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2007,
+            8,
+            12
+          ]
+        ],
+        "date-time": "2007-08-12T00:00:00Z",
+        "timestamp": 1186876800000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "dl.acm.org"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [],
+  "published-print": {
+    "date-parts": [
+      [
+        2007,
+        8,
+        12
+      ]
+    ]
+  },
+  "DOI": "10.1145/1281192.1281239",
+  "type": "proceedings-article",
+  "created": {
+    "date-parts": [
+      [
+        2007,
+        12,
+        7
+      ]
+    ],
+    "date-time": "2007-12-07T14:19:41Z",
+    "timestamp": 1197037181000
+  },
+  "page": "420-429",
+  "update-policy": "https://doi.org/10.1145/crossmark-policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 1855,
+  "title": [
+    "Cost-effective outbreak detection in networks"
+  ],
+  "prefix": "10.1145",
+  "author": [
+    {
+      "given": "Jure",
+      "family": "Leskovec",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Carnegie Mellon University"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Andreas",
+      "family": "Krause",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Carnegie Mellon University"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Carlos",
+      "family": "Guestrin",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Carnegie Mellon University"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Christos",
+      "family": "Faloutsos",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Carnegie Mellon University"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jeanne",
+      "family": "VanBriesen",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Carnegie Mellon University"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Natalie",
+      "family": "Glance",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Nielsen BuzzMetrics"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "320",
+  "published-online": {
+    "date-parts": [
+      [
+        2007,
+        8,
+        12
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_3_2_2_1_1",
+      "volume-title": "The Mathematical Theory of Infectious Diseases and its Applications",
+      "author": "Bailey N.",
+      "year": "1975",
+      "unstructured": "N. Bailey . The Mathematical Theory of Infectious Diseases and its Applications . Griffin , London , 1975 . N. Bailey. The Mathematical Theory of Infectious Diseases and its Applications. Griffin, London, 1975."
+    },
+    {
+      "key": "e_1_3_2_2_2_1",
+      "volume-title": "Water Resources Planning and Management",
+      "author": "Berry J.",
+      "year": "2006",
+      "unstructured": "J. Berry , W. E. Hart , C. E. Phillips , J. G. Uber , and J. Watson . Sensor placement in municipal water networks with temporal integer programming models. J . Water Resources Planning and Management , 2006 . J. Berry, W. E. Hart, C. E. Phillips, J. G. Uber, and J. Watson. Sensor placement in municipal water networks with temporal integer programming models. J. Water Resources Planning and Management, 2006."
+    },
+    {
+      "key": "e_1_3_2_2_3_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1086/261849"
+    },
+    {
+      "key": "e_1_3_2_2_4_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5555/993483"
+    },
+    {
+      "key": "e_1_3_2_2_5_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevLett.91.247901"
+    },
+    {
+      "key": "e_1_3_2_2_6_1",
+      "volume-title": "Dist. Syst. An. Conf.",
+      "author": "Dorini G.",
+      "year": "2006",
+      "unstructured": "G. Dorini , P. Jonkergouw , and et. al. An efficient algorithm for sensor placement in water distribution systems. In at . Dist. Syst. An. Conf. , 2006 . G. Dorini, P. Jonkergouw, and et. al. An efficient algorithm for sensor placement in water distribution systems. In at. Dist. Syst. An. Conf., 2006."
+    },
+    {
+      "key": "e_1_3_2_2_7_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1081870.1081919"
+    },
+    {
+      "key": "e_1_3_2_2_8_1",
+      "first-page": "12",
+      "article-title": "Talk of the network: A complex systems look at the underlying process of word-of-mouth",
+      "author": "Goldenberg J.",
+      "year": "2001",
+      "unstructured": "J. Goldenberg , B. Libai , and E. Muller . Talk of the network: A complex systems look at the underlying process of word-of-mouth . Marketing Letters , 12 , 2001 . J. Goldenberg, B. Libai, and E. Muller. Talk of the network: A complex systems look at the underlying process of word-of-mouth. Marketing Letters, 12, 2001.",
+      "journal-title": "Marketing Letters"
+    },
+    {
+      "key": "e_1_3_2_2_9_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/988672.988739"
+    },
+    {
+      "key": "e_1_3_2_2_10_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/956750.956769"
+    },
+    {
+      "key": "e_1_3_2_2_11_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0020-0190(99)00031-9"
+    },
+    {
+      "key": "e_1_3_2_2_12_1",
+      "volume-title": "Efficient sensor placement optimization for securing large water distribution networks. Submitted to the J. of Water Resources Planning an Management",
+      "author": "Krause A.",
+      "year": "2007",
+      "unstructured": "A. Krause , J. Leskovec , C. Guestrin , J. VanBriesen , and C. Faloutsos . Efficient sensor placement optimization for securing large water distribution networks. Submitted to the J. of Water Resources Planning an Management , 2007 . A. Krause, J. Leskovec, C. Guestrin, J. VanBriesen, and C. Faloutsos. Efficient sensor placement optimization for securing large water distribution networks. Submitted to the J. of Water Resources Planning an Management, 2007."
+    },
+    {
+      "key": "e_1_3_2_2_13_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/775152.775233"
+    },
+    {
+      "key": "e_1_3_2_2_14_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1134707.1134732"
+    },
+    {
+      "key": "e_1_3_2_2_15_1",
+      "volume-title": "CMU-ML-07-111",
+      "author": "Leskovec J.",
+      "year": "2007",
+      "unstructured": "J. Leskovec , A. Krause , C. Guestrin , C. Faloutsos , J. VanBriesen , and N. Glance . Cost-effective Outbreak Detection in Networks. TR , CMU-ML-07-111 , 2007 . J. Leskovec, A. Krause, C. Guestrin, C. Faloutsos, J. VanBriesen, and N. Glance. Cost-effective Outbreak Detection in Networks. TR, CMU-ML-07-111, 2007."
+    },
+    {
+      "key": "e_1_3_2_2_16_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1137/1.9781611972771.60"
+    },
+    {
+      "key": "e_1_3_2_2_17_1",
+      "first-page": "14",
+      "article-title": "An analysis of the approximations for maximizing submodular set functions",
+      "author": "Nemhauser G.",
+      "year": "1978",
+      "unstructured": "G. Nemhauser , L. Wolsey , and M. Fisher . An analysis of the approximations for maximizing submodular set functions . Mathematical Programming , 14 , 1978 . G. Nemhauser, L. Wolsey, and M. Fisher. An analysis of the approximations for maximizing submodular set functions. Mathematical Programming, 14, 1978.",
+      "journal-title": "Mathematical Programming"
+    },
+    {
+      "key": "e_1_3_2_2_18_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1061/(ASCE)0733-9496(2004)130:5(377)"
+    },
+    {
+      "key": "e_1_3_2_2_19_1",
+      "volume-title": "WDSA",
+      "author": "Ostfeld A.",
+      "year": "2006",
+      "unstructured": "A. Ostfeld , J. G. Uber , and E. Salomons . Battle of water sensor networks: A design challenge for engineers and algorithms . In WDSA , 2006 . A. Ostfeld, J. G. Uber, and E. Salomons. Battle of water sensor networks: A design challenge for engineers and algorithms. In WDSA, 2006."
+    },
+    {
+      "key": "e_1_3_2_2_20_1",
+      "first-page": "65",
+      "article-title": "Immunization of complex networks",
+      "author": "Pastor-Satorras R.",
+      "year": "2002",
+      "unstructured": "R. Pastor-Satorras and A. Vespignani . Immunization of complex networks . Physical Review E , 65 , 2002 . R. Pastor-Satorras and A. Vespignani. Immunization of complex networks. Physical Review E, 65, 2002.",
+      "journal-title": "Physical Review E"
+    },
+    {
+      "key": "e_1_3_2_2_21_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/775047.775057"
+    },
+    {
+      "key": "e_1_3_2_2_22_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1137/0910022"
+    },
+    {
+      "key": "e_1_3_2_2_23_1",
+      "volume-title": "Diffusion of innovations",
+      "author": "Rogers E.",
+      "year": "1995",
+      "unstructured": "E. Rogers . Diffusion of innovations . Free Press , 1995 . E. Rogers. Diffusion of innovations. Free Press, 1995."
+    },
+    {
+      "key": "e_1_3_2_2_24_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1061/40430(1999)39"
+    },
+    {
+      "key": "e_1_3_2_2_25_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0167-6377(03)00062-2"
+    }
+  ],
+  "event": {
+    "name": "KDD07: The 13th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+    "location": "San Jose California USA",
+    "acronym": "KDD07",
+    "sponsor": [
+      "SIGMOD ACM Special Interest Group on Management of Data",
+      "SIGKDD ACM Special Interest Group on Knowledge Discovery in Data",
+      "ACM Association for Computing Machinery"
+    ]
+  },
+  "container-title": [
+    "Proceedings of the 13th ACM SIGKDD international conference on Knowledge discovery and data mining"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "https://dl.acm.org/doi/10.1145/1281192.1281239",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://dl.acm.org/doi/pdf/10.1145/1281192.1281239",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2025-06-18T10:57:54Z",
+    "timestamp": 1750244274000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://dl.acm.org/doi/10.1145/1281192.1281239"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2007,
+        8,
+        12
+      ]
+    ]
+  },
+  "references-count": 25,
+  "alternative-id": [
+    "10.1145/1281192.1281239",
+    "10.1145/1281192"
+  ],
+  "URL": "https://doi.org/10.1145/1281192.1281239",
+  "relation": {},
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2007,
+        8,
+        12
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "2007-08-12",
+      "order": 2,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ]
+}

@@ -1,0 +1,751 @@
+{
+  "schema": "candidate-truncation-development-block-0.1",
+  "study": "candidate-truncation-development-v0_1",
+  "development_only": true,
+  "dataset": "higgs_pilot1500",
+  "block_seed": 103,
+  "protocol": {
+    "primary_objective": "mean_spread_on_fixed_selection_worlds",
+    "history_fraction": 0.65,
+    "history_cutoff": "2012-07-01T14:45:01+00:00",
+    "timestamp_group_count": 1039,
+    "horizon": 4,
+    "edge_probability": 0.05,
+    "seed_budget": 5,
+    "selection_world_count": 20,
+    "evaluation_world_count": 1000,
+    "selection_world_sha256": "61200b6cd36ddebdaee67088a703f3ae3a14b53d5248ce89772f96e48043a443",
+    "evaluation_world_sha256": "452d5f2bad5c92581b411d436ac87475399c72dc408bc187e338d151178e0fae",
+    "gnn_arm_status": "not_run_no_frozen_reproducible_model_input"
+  },
+  "input_sha256": {
+    "nodes.csv": "0cecf44e905c99e293aa55a4dcee2ff39ab38658bd6d8097d655c6e31aa2df57",
+    "edges.csv": "d70356f279584df09beec26cbec23c379cb2f75cfecef875cd09461de118ed91",
+    "cascades.csv": "337cb498f0ba985bb39c8b3006db35cd479a1098218899ee9b935a4d7e239918"
+  },
+  "graph": {
+    "historical_nodes": 850,
+    "historical_edges": 720,
+    "self_loops_removed": 40,
+    "duplicate_events_collapsed": 33,
+    "community_count": 219
+  },
+  "warnings": [
+    "Self-loops retained; they are ignored by diffusion simulation.",
+    "Duplicate cascade events were retained for audit; they are collapsed in feature building."
+  ],
+  "methods_planned": [
+    "full",
+    "degree_1k",
+    "degree_2k",
+    "degree_4k",
+    "degree_8k",
+    "degree_16k",
+    "pagerank_1k",
+    "pagerank_2k",
+    "pagerank_4k",
+    "pagerank_8k",
+    "pagerank_16k",
+    "degree_doubling"
+  ],
+  "arms": {
+    "full": {
+      "method": "full",
+      "candidate_count": 850,
+      "selection": {
+        "top_k": [
+          "2417",
+          "519",
+          "8",
+          "17871",
+          "2156"
+        ],
+        "rounds": [
+          {
+            "winner": "2417",
+            "score_micro": 2400000
+          },
+          {
+            "winner": "519",
+            "score_micro": 4650000
+          },
+          {
+            "winner": "8",
+            "score_micro": 6850000
+          },
+          {
+            "winner": "17871",
+            "score_micro": 9000000
+          },
+          {
+            "winner": "2156",
+            "score_micro": 11100000
+          }
+        ],
+        "candidate_world_evaluations": 84800,
+        "cache_hits": 0,
+        "cache_misses": 84800
+      },
+      "evaluation": {
+        "mean_spread": 10.408,
+        "population_sd": 2.237752,
+        "world_spreads_sha256": "1b34a69fa551853e6074a4cc0141f88b140d7289c9704dcc70bb9be689ab97dd",
+        "world_count": 1000,
+        "candidate_world_evaluations": 1000
+      },
+      "timing": {
+        "rank_seconds": 0.0,
+        "decision_seconds": 5.938998,
+        "cold_accounted_seconds": 6.012562
+      },
+      "comparison_to_full": {
+        "same_ordered_top_k": true,
+        "first_divergence": null,
+        "mean_spread_delta": 0.0
+      }
+    },
+    "degree_1k": {
+      "method": "degree_1k",
+      "candidate_count": 5,
+      "selection": {
+        "top_k": [
+          "2417",
+          "519",
+          "8",
+          "2156",
+          "3604"
+        ],
+        "rounds": [
+          {
+            "winner": "2417",
+            "score_micro": 2400000
+          },
+          {
+            "winner": "519",
+            "score_micro": 4650000
+          },
+          {
+            "winner": "8",
+            "score_micro": 6850000
+          },
+          {
+            "winner": "2156",
+            "score_micro": 8950000
+          },
+          {
+            "winner": "3604",
+            "score_micro": 10950000
+          }
+        ],
+        "candidate_world_evaluations": 300,
+        "cache_hits": 0,
+        "cache_misses": 300
+      },
+      "evaluation": {
+        "mean_spread": 10.828,
+        "population_sd": 2.302263,
+        "world_spreads_sha256": "1439da1774543ea3962a162aada63a1bf78f932b4ea529aaed8aad2f57b005b3",
+        "world_count": 1000,
+        "candidate_world_evaluations": 1000
+      },
+      "timing": {
+        "rank_seconds": 0.0014564000011887401,
+        "decision_seconds": 0.023376,
+        "cold_accounted_seconds": 0.098396
+      },
+      "comparison_to_full": {
+        "same_ordered_top_k": false,
+        "first_divergence": 4,
+        "mean_spread_delta": 0.42
+      }
+    },
+    "degree_2k": {
+      "method": "degree_2k",
+      "candidate_count": 10,
+      "selection": {
+        "top_k": [
+          "2417",
+          "519",
+          "8",
+          "17871",
+          "2156"
+        ],
+        "rounds": [
+          {
+            "winner": "2417",
+            "score_micro": 2400000
+          },
+          {
+            "winner": "519",
+            "score_micro": 4650000
+          },
+          {
+            "winner": "8",
+            "score_micro": 6850000
+          },
+          {
+            "winner": "17871",
+            "score_micro": 9000000
+          },
+          {
+            "winner": "2156",
+            "score_micro": 11100000
+          }
+        ],
+        "candidate_world_evaluations": 800,
+        "cache_hits": 0,
+        "cache_misses": 800
+      },
+      "evaluation": {
+        "mean_spread": 10.408,
+        "population_sd": 2.237752,
+        "world_spreads_sha256": "1b34a69fa551853e6074a4cc0141f88b140d7289c9704dcc70bb9be689ab97dd",
+        "world_count": 1000,
+        "candidate_world_evaluations": 1000
+      },
+      "timing": {
+        "rank_seconds": 0.0014564000011887401,
+        "decision_seconds": 0.071176,
+        "cold_accounted_seconds": 0.146196
+      },
+      "comparison_to_full": {
+        "same_ordered_top_k": true,
+        "first_divergence": null,
+        "mean_spread_delta": 0.0
+      }
+    },
+    "degree_4k": {
+      "method": "degree_4k",
+      "candidate_count": 20,
+      "selection": {
+        "top_k": [
+          "2417",
+          "519",
+          "8",
+          "17871",
+          "2156"
+        ],
+        "rounds": [
+          {
+            "winner": "2417",
+            "score_micro": 2400000
+          },
+          {
+            "winner": "519",
+            "score_micro": 4650000
+          },
+          {
+            "winner": "8",
+            "score_micro": 6850000
+          },
+          {
+            "winner": "17871",
+            "score_micro": 9000000
+          },
+          {
+            "winner": "2156",
+            "score_micro": 11100000
+          }
+        ],
+        "candidate_world_evaluations": 1800,
+        "cache_hits": 0,
+        "cache_misses": 1800
+      },
+      "evaluation": {
+        "mean_spread": 10.408,
+        "population_sd": 2.237752,
+        "world_spreads_sha256": "1b34a69fa551853e6074a4cc0141f88b140d7289c9704dcc70bb9be689ab97dd",
+        "world_count": 1000,
+        "candidate_world_evaluations": 1000
+      },
+      "timing": {
+        "rank_seconds": 0.0014564000011887401,
+        "decision_seconds": 0.150038,
+        "cold_accounted_seconds": 0.225057
+      },
+      "comparison_to_full": {
+        "same_ordered_top_k": true,
+        "first_divergence": null,
+        "mean_spread_delta": 0.0
+      }
+    },
+    "degree_8k": {
+      "method": "degree_8k",
+      "candidate_count": 40,
+      "selection": {
+        "top_k": [
+          "2417",
+          "519",
+          "8",
+          "17871",
+          "2156"
+        ],
+        "rounds": [
+          {
+            "winner": "2417",
+            "score_micro": 2400000
+          },
+          {
+            "winner": "519",
+            "score_micro": 4650000
+          },
+          {
+            "winner": "8",
+            "score_micro": 6850000
+          },
+          {
+            "winner": "17871",
+            "score_micro": 9000000
+          },
+          {
+            "winner": "2156",
+            "score_micro": 11100000
+          }
+        ],
+        "candidate_world_evaluations": 3800,
+        "cache_hits": 0,
+        "cache_misses": 3800
+      },
+      "evaluation": {
+        "mean_spread": 10.408,
+        "population_sd": 2.237752,
+        "world_spreads_sha256": "1b34a69fa551853e6074a4cc0141f88b140d7289c9704dcc70bb9be689ab97dd",
+        "world_count": 1000,
+        "candidate_world_evaluations": 1000
+      },
+      "timing": {
+        "rank_seconds": 0.0014564000011887401,
+        "decision_seconds": 0.303727,
+        "cold_accounted_seconds": 0.378747
+      },
+      "comparison_to_full": {
+        "same_ordered_top_k": true,
+        "first_divergence": null,
+        "mean_spread_delta": 0.0
+      }
+    },
+    "degree_16k": {
+      "method": "degree_16k",
+      "candidate_count": 80,
+      "selection": {
+        "top_k": [
+          "2417",
+          "519",
+          "8",
+          "17871",
+          "2156"
+        ],
+        "rounds": [
+          {
+            "winner": "2417",
+            "score_micro": 2400000
+          },
+          {
+            "winner": "519",
+            "score_micro": 4650000
+          },
+          {
+            "winner": "8",
+            "score_micro": 6850000
+          },
+          {
+            "winner": "17871",
+            "score_micro": 9000000
+          },
+          {
+            "winner": "2156",
+            "score_micro": 11100000
+          }
+        ],
+        "candidate_world_evaluations": 7800,
+        "cache_hits": 0,
+        "cache_misses": 7800
+      },
+      "evaluation": {
+        "mean_spread": 10.408,
+        "population_sd": 2.237752,
+        "world_spreads_sha256": "1b34a69fa551853e6074a4cc0141f88b140d7289c9704dcc70bb9be689ab97dd",
+        "world_count": 1000,
+        "candidate_world_evaluations": 1000
+      },
+      "timing": {
+        "rank_seconds": 0.0014564000011887401,
+        "decision_seconds": 0.623194,
+        "cold_accounted_seconds": 0.698213
+      },
+      "comparison_to_full": {
+        "same_ordered_top_k": true,
+        "first_divergence": null,
+        "mean_spread_delta": 0.0
+      }
+    },
+    "pagerank_1k": {
+      "method": "pagerank_1k",
+      "candidate_count": 5,
+      "selection": {
+        "top_k": [
+          "6704",
+          "364376",
+          "206392",
+          "184615",
+          "95848"
+        ],
+        "rounds": [
+          {
+            "winner": "6704",
+            "score_micro": 1150000
+          },
+          {
+            "winner": "364376",
+            "score_micro": 2250000
+          },
+          {
+            "winner": "206392",
+            "score_micro": 3250000
+          },
+          {
+            "winner": "184615",
+            "score_micro": 4150000
+          },
+          {
+            "winner": "95848",
+            "score_micro": 5000000
+          }
+        ],
+        "candidate_world_evaluations": 300,
+        "cache_hits": 0,
+        "cache_misses": 300
+      },
+      "evaluation": {
+        "mean_spread": 5.049,
+        "population_sd": 0.215868,
+        "world_spreads_sha256": "19b90e46bf02c2bb98f12a551d5012d2225070769414d4223b3433cfdb6036c3",
+        "world_count": 1000,
+        "candidate_world_evaluations": 1000
+      },
+      "timing": {
+        "rank_seconds": 0.004427200008649379,
+        "decision_seconds": 0.002255,
+        "cold_accounted_seconds": 0.080246
+      },
+      "comparison_to_full": {
+        "same_ordered_top_k": false,
+        "first_divergence": 1,
+        "mean_spread_delta": -5.359
+      }
+    },
+    "pagerank_2k": {
+      "method": "pagerank_2k",
+      "candidate_count": 10,
+      "selection": {
+        "top_k": [
+          "6704",
+          "364376",
+          "129505",
+          "137174",
+          "149268"
+        ],
+        "rounds": [
+          {
+            "winner": "6704",
+            "score_micro": 1150000
+          },
+          {
+            "winner": "364376",
+            "score_micro": 2250000
+          },
+          {
+            "winner": "129505",
+            "score_micro": 3300000
+          },
+          {
+            "winner": "137174",
+            "score_micro": 4350000
+          },
+          {
+            "winner": "149268",
+            "score_micro": 5400000
+          }
+        ],
+        "candidate_world_evaluations": 800,
+        "cache_hits": 0,
+        "cache_misses": 800
+      },
+      "evaluation": {
+        "mean_spread": 5.245,
+        "population_sd": 0.492925,
+        "world_spreads_sha256": "ae1e462bae00a59addd18abdab9af5d107ca851cc4c633fa4c24e2c3b58701bd",
+        "world_count": 1000,
+        "candidate_world_evaluations": 1000
+      },
+      "timing": {
+        "rank_seconds": 0.004427200008649379,
+        "decision_seconds": 0.006777,
+        "cold_accounted_seconds": 0.084768
+      },
+      "comparison_to_full": {
+        "same_ordered_top_k": false,
+        "first_divergence": 1,
+        "mean_spread_delta": -5.163
+      }
+    },
+    "pagerank_4k": {
+      "method": "pagerank_4k",
+      "candidate_count": 20,
+      "selection": {
+        "top_k": [
+          "186184",
+          "6704",
+          "189779",
+          "226803",
+          "258313"
+        ],
+        "rounds": [
+          {
+            "winner": "186184",
+            "score_micro": 1200000
+          },
+          {
+            "winner": "6704",
+            "score_micro": 2350000
+          },
+          {
+            "winner": "189779",
+            "score_micro": 3450000
+          },
+          {
+            "winner": "226803",
+            "score_micro": 4550000
+          },
+          {
+            "winner": "258313",
+            "score_micro": 5650000
+          }
+        ],
+        "candidate_world_evaluations": 1800,
+        "cache_hits": 0,
+        "cache_misses": 1800
+      },
+      "evaluation": {
+        "mean_spread": 5.299,
+        "population_sd": 0.545526,
+        "world_spreads_sha256": "70981bb921f61c2a464b4c2cf88547f94031f8a1c822cf5537ffaf3a434ade17",
+        "world_count": 1000,
+        "candidate_world_evaluations": 1000
+      },
+      "timing": {
+        "rank_seconds": 0.004427200008649379,
+        "decision_seconds": 0.016843,
+        "cold_accounted_seconds": 0.094833
+      },
+      "comparison_to_full": {
+        "same_ordered_top_k": false,
+        "first_divergence": 1,
+        "mean_spread_delta": -5.109
+      }
+    },
+    "pagerank_8k": {
+      "method": "pagerank_8k",
+      "candidate_count": 40,
+      "selection": {
+        "top_k": [
+          "186184",
+          "296120",
+          "6704",
+          "189779",
+          "226803"
+        ],
+        "rounds": [
+          {
+            "winner": "186184",
+            "score_micro": 1200000
+          },
+          {
+            "winner": "296120",
+            "score_micro": 2350000
+          },
+          {
+            "winner": "6704",
+            "score_micro": 3500000
+          },
+          {
+            "winner": "189779",
+            "score_micro": 4600000
+          },
+          {
+            "winner": "226803",
+            "score_micro": 5700000
+          }
+        ],
+        "candidate_world_evaluations": 3800,
+        "cache_hits": 0,
+        "cache_misses": 3800
+      },
+      "evaluation": {
+        "mean_spread": 5.305,
+        "population_sd": 0.5477,
+        "world_spreads_sha256": "3af7c3d9908d26ef4e6d356bf9aa4870bf4d105ec0de6c020705bae85fec7346",
+        "world_count": 1000,
+        "candidate_world_evaluations": 1000
+      },
+      "timing": {
+        "rank_seconds": 0.004427200008649379,
+        "decision_seconds": 0.046177,
+        "cold_accounted_seconds": 0.124168
+      },
+      "comparison_to_full": {
+        "same_ordered_top_k": false,
+        "first_divergence": 1,
+        "mean_spread_delta": -5.103
+      }
+    },
+    "pagerank_16k": {
+      "method": "pagerank_16k",
+      "candidate_count": 80,
+      "selection": {
+        "top_k": [
+          "186184",
+          "33833",
+          "196130",
+          "296120",
+          "319542"
+        ],
+        "rounds": [
+          {
+            "winner": "186184",
+            "score_micro": 1200000
+          },
+          {
+            "winner": "33833",
+            "score_micro": 2400000
+          },
+          {
+            "winner": "196130",
+            "score_micro": 3550000
+          },
+          {
+            "winner": "296120",
+            "score_micro": 4700000
+          },
+          {
+            "winner": "319542",
+            "score_micro": 5850000
+          }
+        ],
+        "candidate_world_evaluations": 7800,
+        "cache_hits": 0,
+        "cache_misses": 7800
+      },
+      "evaluation": {
+        "mean_spread": 5.498,
+        "population_sd": 0.722493,
+        "world_spreads_sha256": "f52e507cb9753e8169cbbe627f086224a03f323f9d94602453f06a76e74abe83",
+        "world_count": 1000,
+        "candidate_world_evaluations": 1000
+      },
+      "timing": {
+        "rank_seconds": 0.004427200008649379,
+        "decision_seconds": 0.095728,
+        "cold_accounted_seconds": 0.173719
+      },
+      "comparison_to_full": {
+        "same_ordered_top_k": false,
+        "first_divergence": 1,
+        "mean_spread_delta": -4.91
+      }
+    },
+    "degree_doubling": {
+      "method": "degree_doubling",
+      "candidate_count": 20,
+      "selection": {
+        "top_k": [
+          "2417",
+          "519",
+          "8",
+          "17871",
+          "2156"
+        ],
+        "rounds": [
+          {
+            "winner": "2417",
+            "score_micro": 2400000
+          },
+          {
+            "winner": "519",
+            "score_micro": 4650000
+          },
+          {
+            "winner": "8",
+            "score_micro": 6850000
+          },
+          {
+            "winner": "17871",
+            "score_micro": 9000000
+          },
+          {
+            "winner": "2156",
+            "score_micro": 11100000
+          }
+        ],
+        "candidate_world_evaluations": 1800,
+        "cache_hits": 0,
+        "cache_misses": 1800
+      },
+      "evaluation": {
+        "mean_spread": 10.408,
+        "population_sd": 2.237752,
+        "world_spreads_sha256": "1b34a69fa551853e6074a4cc0141f88b140d7289c9704dcc70bb9be689ab97dd",
+        "world_count": 1000,
+        "candidate_world_evaluations": 1000
+      },
+      "doubling_trace": [
+        {
+          "factor": 1,
+          "candidate_count": 5,
+          "top_k": [
+            "2417",
+            "519",
+            "8",
+            "2156",
+            "3604"
+          ]
+        },
+        {
+          "factor": 2,
+          "candidate_count": 10,
+          "top_k": [
+            "2417",
+            "519",
+            "8",
+            "17871",
+            "2156"
+          ]
+        },
+        {
+          "factor": 4,
+          "candidate_count": 20,
+          "top_k": [
+            "2417",
+            "519",
+            "8",
+            "17871",
+            "2156"
+          ]
+        }
+      ],
+      "stop_reason": "two_consecutive_equal",
+      "timing": {
+        "rank_seconds": 0.0014564000011887401,
+        "decision_seconds": 0.253853,
+        "cold_accounted_seconds": 0.328873
+      },
+      "comparison_to_full": {
+        "same_ordered_top_k": true,
+        "first_divergence": null,
+        "mean_spread_delta": 0.0
+      }
+    }
+  },
+  "common_preparation_seconds": 0.073563,
+  "block_elapsed_seconds": 8.711867
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "study_dir": "E:\\大学\\校创\\基于GNN的关键用户识别\\audits\\candidate-reduction-v5-cost-preflight\\higgs",
+  "mode": "preflight",
+  "dataset_id": "higgs",
+  "cost_gate": {
+    "full_candidate_seconds": 37498.6062595,
+    "per_dataset_limit_seconds": 14400,
+    "ten_block_projection_seconds": 374986.06259499997,
+    "ten_block_limit_seconds": 259200,
+    "passed": false
+  },
+  "validated_run_count": 1,
+  "metrics_row_count": 5
+}

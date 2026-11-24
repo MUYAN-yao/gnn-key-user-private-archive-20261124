@@ -1,0 +1,35 @@
+                                  mse                 mae          
+                                 mean       std      mean       std
+split      model                                                   
+test       constant          0.108252  0.054150  0.297462  0.079575
+           linear_structure  0.034275  0.016655  0.145109  0.045779
+           ratio_linear      0.077699  0.083997  0.221907  0.131414
+           symbolic          0.077699  0.083997  0.221907  0.131414
+train      constant          0.111785  0.047991  0.286296  0.087578
+           linear_structure  0.048081  0.032965  0.173793  0.060586
+           ratio_linear      0.089168  0.048882  0.245802  0.097093
+           symbolic          0.089168  0.048882  0.245802  0.097093
+validation constant          0.047486  0.001437  0.193926  0.003320
+           linear_structure  0.021744  0.003406  0.116948  0.001728
+           ratio_linear      0.022596  0.001624  0.123561  0.005553
+           symbolic          0.022596  0.001624  0.123561  0.005553
+{
+  "primary": "graph-equal MSE of final seed-set 1-Jaccard vs independent finite W1280 reference",
+  "simple_selected": "linear_structure",
+  "relative_mse_improvement": -1.266894123097701,
+  "graphs_improved": 3,
+  "test_graphs": 8,
+  "resample_positive": 1,
+  "formula_structures": [
+    "x",
+    "(c-(x/x))",
+    "x"
+  ],
+  "paired_mse_reduction": -0.04342329746630913,
+  "conditional_graph_bootstrap95": [
+    -0.100200045181626,
+    -0.0012130372916312237
+  ],
+  "search_expressions": 1200,
+  "analysis_seconds": 3.52420310000889
+}

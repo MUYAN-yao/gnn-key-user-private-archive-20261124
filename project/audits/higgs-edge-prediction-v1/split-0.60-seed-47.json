@@ -1,0 +1,35 @@
+{
+  "train_fraction": 0.6,
+  "random_seed": 47,
+  "epochs": 10,
+  "training_cutoff": "2012-07-03T09:53:03+00:00",
+  "node_count": 33529,
+  "training_event_count": 27796,
+  "future_event_count": 18532,
+  "unique_training_edges": 26188,
+  "unique_future_edges": 17304,
+  "backend": "torch-geometric GATv2",
+  "train_reconstruction": {
+    "positive_edges": 26188,
+    "negative_edges": 26188,
+    "auc": 0.9609274055694244,
+    "average_precision": 0.9649757737994558,
+    "brier": 0.09042719489433626,
+    "ece_10_bins": 0.10772275144317663,
+    "inverse_probability_auc": 0.03907259443057565,
+    "mean_positive_score": 0.74956610495498,
+    "mean_negative_score": 0.2252236618881592
+  },
+  "future_edge_prediction": {
+    "positive_edges": 17304,
+    "negative_edges": 17304,
+    "auc": 0.6803464838821442,
+    "average_precision": 0.7654422195496128,
+    "brier": 0.2350375192151094,
+    "ece_10_bins": 0.16929748132364192,
+    "inverse_probability_auc": 0.31965351611785564,
+    "mean_positive_score": 0.43730822079515724,
+    "mean_negative_score": 0.2256508000131302
+  },
+  "runtime_seconds": 0.4576241000322625
+}

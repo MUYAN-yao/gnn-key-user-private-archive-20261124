@@ -1,0 +1,46 @@
+{
+  "study_version": "v6-digg-k5-candidate-reduction",
+  "artifact_schema": "v6-digg-k5-1",
+  "dataset_id": "digg",
+  "execution_mode": "preflight",
+  "formal_batch": false,
+  "not_eligible_for_inference": true,
+  "protocol": {
+    "influence_v6_digg_k5_preregistration.md": "9b2b5c7b771276a195872eb5165537746887609d9ef992509952d19ab7d75ce4"
+  },
+  "inputs": {
+    "nodes.csv": "b1ee9740805a04f594c8e0f1ee102131f7ba1db661fef4992d83a9f80769cb56",
+    "edges.csv": "95b4163488e4ae690eba7e42f839db27c0a61cda0d13f6733783694152b16d67",
+    "cascades.csv": "18fe5afa3196de05e6757e6c1015d6dcc434f4740d28db51be44021ce778c246"
+  },
+  "source_snapshot": {
+    "snapshot_dir": "E:\\大学\\校创\\基于GNN的关键用户识别\\reproducibility\\v6-source-snapshots\\digg-k5-v6-20260918-r1",
+    "snapshot_id": "8e1f2d93f882d5be1cad",
+    "manifest_name": "snapshot_manifest.json",
+    "manifest_sha256": "797e9863811e0d0587b94e6e25f3286609e3eeac43c8fd1d10f82888d7919c9b",
+    "file_count": 18
+  },
+  "expected_run_ids": [
+    "seed-73"
+  ],
+  "runs": {
+    "seed-73.json": "2793be38e7be357611a84cdc295a161aff60b435325038f1e86e9b1849e035dc"
+  },
+  "run_parameters": {
+    "fraction": 0.65,
+    "seeds": [
+      73
+    ],
+    "seed_count": 5,
+    "selection_world_count": 20,
+    "primary_evaluation_world_count": 100,
+    "stability_evaluation_world_count": 100,
+    "arms": [
+      "full_candidate",
+      "gnn_pool_30",
+      "gnn_pool_60",
+      "gnn_pool_120",
+      "weighted_out_degree_pool_120"
+    ]
+  }
+}

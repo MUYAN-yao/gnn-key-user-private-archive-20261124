@@ -1,0 +1,117 @@
+{
+  "schema": "sociopatterns-resolution-confirmation-readout-0.1",
+  "condition_count": 42,
+  "trajectory_block_count": 14,
+  "full_ordered_seed_stability": {
+    "same_20_80_count": 0,
+    "same_80_320_count": 0,
+    "denominator": 14
+  },
+  "full_zero_margin_rounds": {
+    "20": 80,
+    "80": 46,
+    "320": 21
+  },
+  "candidate_profiles": {
+    "degree_2k@W20": {
+      "condition_count": 14,
+      "same_ordered_top_k_count": 0,
+      "mean_independent_evaluation_delta": 0.052714,
+      "delta_min": -0.755,
+      "delta_max": 1.27,
+      "positive_delta_count": 8,
+      "zero_delta_count": 0,
+      "negative_delta_count": 6,
+      "median_decision_time_saving_fraction": 0.671997
+    },
+    "degree_2k@W80": {
+      "condition_count": 14,
+      "same_ordered_top_k_count": 0,
+      "mean_independent_evaluation_delta": -0.225429,
+      "delta_min": -0.848,
+      "delta_max": 0.156,
+      "positive_delta_count": 3,
+      "zero_delta_count": 0,
+      "negative_delta_count": 11,
+      "median_decision_time_saving_fraction": 0.838126
+    },
+    "degree_2k@W320": {
+      "condition_count": 14,
+      "same_ordered_top_k_count": 0,
+      "mean_independent_evaluation_delta": -0.355857,
+      "delta_min": -0.8305,
+      "delta_max": 0.019,
+      "positive_delta_count": 1,
+      "zero_delta_count": 0,
+      "negative_delta_count": 13,
+      "median_decision_time_saving_fraction": 0.87384
+    },
+    "degree_4k@W20": {
+      "condition_count": 14,
+      "same_ordered_top_k_count": 4,
+      "mean_independent_evaluation_delta": 0.089643,
+      "delta_min": -0.5125,
+      "delta_max": 0.669,
+      "positive_delta_count": 8,
+      "zero_delta_count": 4,
+      "negative_delta_count": 2,
+      "median_decision_time_saving_fraction": 0.559181
+    },
+    "degree_4k@W80": {
+      "condition_count": 14,
+      "same_ordered_top_k_count": 4,
+      "mean_independent_evaluation_delta": 0.028,
+      "delta_min": -0.7385,
+      "delta_max": 0.905,
+      "positive_delta_count": 7,
+      "zero_delta_count": 4,
+      "negative_delta_count": 3,
+      "median_decision_time_saving_fraction": 0.662166
+    },
+    "degree_4k@W320": {
+      "condition_count": 14,
+      "same_ordered_top_k_count": 4,
+      "mean_independent_evaluation_delta": -0.157964,
+      "delta_min": -0.6715,
+      "delta_max": 0.0305,
+      "positive_delta_count": 1,
+      "zero_delta_count": 4,
+      "negative_delta_count": 9,
+      "median_decision_time_saving_fraction": 0.723554
+    },
+    "degree_8k@W20": {
+      "condition_count": 14,
+      "same_ordered_top_k_count": 6,
+      "mean_independent_evaluation_delta": 0.00725,
+      "delta_min": -1.112,
+      "delta_max": 0.752,
+      "positive_delta_count": 6,
+      "zero_delta_count": 6,
+      "negative_delta_count": 2,
+      "median_decision_time_saving_fraction": 0.32844
+    },
+    "degree_8k@W80": {
+      "condition_count": 14,
+      "same_ordered_top_k_count": 5,
+      "mean_independent_evaluation_delta": -0.040143,
+      "delta_min": -0.6355,
+      "delta_max": 0.47,
+      "positive_delta_count": 5,
+      "zero_delta_count": 5,
+      "negative_delta_count": 4,
+      "median_decision_time_saving_fraction": 0.411579
+    },
+    "degree_8k@W320": {
+      "condition_count": 14,
+      "same_ordered_top_k_count": 7,
+      "mean_independent_evaluation_delta": -0.124464,
+      "delta_min": -0.61,
+      "delta_max": 0.0,
+      "positive_delta_count": 0,
+      "zero_delta_count": 7,
+      "negative_delta_count": 7,
+      "median_decision_time_saving_fraction": 0.456354
+    }
+  },
+  "scope": "Descriptive results for the frozen simulated-IC protocol on four contact-derived bidirectional topologies; no population inference."
+}

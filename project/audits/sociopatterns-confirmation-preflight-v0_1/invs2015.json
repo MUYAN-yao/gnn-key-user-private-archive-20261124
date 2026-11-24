@@ -1,0 +1,27 @@
+{
+  "schema": "sociopatterns-confirmation-preflight-0.1",
+  "study": "sociopatterns-resolution-confirmation-preflight-v0_1",
+  "dataset": "invs2015",
+  "outcome_blind": true,
+  "status": "COMPLETED_NO_SELECTION_RECORDED",
+  "input_sha256": {
+    "nodes.csv": "9a6dc3b84b60648b7bc5914114361c59ca92ad700f60365c456541415ce3e7d2",
+    "edges.csv": "e8298744dd35d76003ddca0d94fe8a74f07a5a2f0532b817ca438b422d6475ce",
+    "cascades.csv": "0fdf9458a5ef3ae500c40f76968537b66cff8d3fc1781f2a0305e294c1436d58",
+    "data_card.json": "d7a1021bef78a92cb2204b04a2c0c7ddd6a8bb6672adfbfaf9f67dc594d405f6"
+  },
+  "history_cutoff": "2000-01-09T11:51:20+00:00",
+  "timestamp_group_count": 18488,
+  "graph": {
+    "historical_nodes": 212,
+    "historical_edges": 6938,
+    "self_loops_removed": 0,
+    "duplicate_events_collapsed": 100890,
+    "community_count": 9
+  },
+  "selection_world_count": 4,
+  "selection_world_sha256": "17a8f7ad5e0d5b4d7de6d793b3fd5e7611d46e7fdfa8cc56d1a31d032f0bcb6f",
+  "full_candidate_world_evaluations": 4200,
+  "elapsed_seconds": 4.807682,
+  "warnings": []
+}

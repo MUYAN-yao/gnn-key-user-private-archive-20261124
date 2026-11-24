@@ -1,0 +1,15 @@
+{
+  "schema": "sociopatterns-confirmation-data-card-0.1",
+  "dataset": "hospital2010",
+  "source_file": "hospital_lyon_contacts.dat.gz",
+  "source_sha256": "12124ddc438300bcaea0022d4937e0e566679e1fd8f11f16a62214fbebc2b012",
+  "source_page": "https://sociopatterns.org/datasets/hospital-ward-dynamic-contact-network/",
+  "license": "CC-BY-NC-SA",
+  "downloaded_on": "2026-09-20",
+  "raw_contact_semantics": "undirected, timestamped proximity contact",
+  "edge_transformation": "each undirected contact emitted as two directed events at the original timestamp",
+  "cascade_semantics": "not observed; cascades.csv is schema-only and must not be used for propagation claims",
+  "node_count": 75,
+  "directed_event_count": 64848,
+  "timestamp_group_count": 9453
+}

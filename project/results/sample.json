@@ -1,0 +1,180 @@
+{
+  "config": {
+    "seed_count": 2,
+    "horizon": 4,
+    "risk_lambda": 0.35,
+    "community_weight": 0.25,
+    "diffusion_model": "ic",
+    "random_seed": 42,
+    "epochs": 5,
+    "ants": 18,
+    "iterations": 10,
+    "simulations": 30
+  },
+  "reproducibility": {
+    "random_seed": 42,
+    "training_cutoff": "2026-01-08T09:00:00+00:00",
+    "backend": "torch-geometric GATv2"
+  },
+  "result": {
+    "top_k": [
+      "u1",
+      "u3"
+    ],
+    "mean_spread": 5.267,
+    "spread_std": 1.289,
+    "robust_objective": 5.315,
+    "community_coverage": 2
+  },
+  "calibration": {
+    "auc": 0.5,
+    "average_precision": 0.5595,
+    "brier": 0.2546,
+    "ece": 0.1783
+  },
+  "baselines": {
+    "degree": {
+      "seeds": [
+        "u3",
+        "u6"
+      ],
+      "mean_spread": 3.9,
+      "spread_std": 0.87
+    },
+    "pagerank": {
+      "seeds": [
+        "u8",
+        "u6"
+      ],
+      "mean_spread": 2.0,
+      "spread_std": 0.0
+    },
+    "k_shell": {
+      "seeds": [
+        "u1",
+        "u2"
+      ],
+      "mean_spread": 4.433,
+      "spread_std": 1.585
+    },
+    "gnn_top_k": {
+      "seeds": [
+        "u3",
+        "u5"
+      ],
+      "mean_spread": 3.933,
+      "spread_std": 1.315
+    },
+    "greedy_mc": {
+      "seeds": [
+        "u1",
+        "u8"
+      ],
+      "mean_spread": 4.5,
+      "spread_std": 1.586
+    },
+    "ris_approx": {
+      "seeds": [
+        "u1",
+        "u6"
+      ],
+      "mean_spread": 4.733,
+      "spread_std": 1.59
+    }
+  },
+  "graph": {
+    "nodes": [
+      {
+        "node_id": "u3",
+        "score": 1.0,
+        "community": 1,
+        "is_seed": true
+      },
+      {
+        "node_id": "u5",
+        "score": 0.74131,
+        "community": 1,
+        "is_seed": false
+      },
+      {
+        "node_id": "u6",
+        "score": 0.71393,
+        "community": 2,
+        "is_seed": false
+      },
+      {
+        "node_id": "u1",
+        "score": 0.678,
+        "community": 0,
+        "is_seed": true
+      },
+      {
+        "node_id": "u4",
+        "score": 0.64341,
+        "community": 0,
+        "is_seed": false
+      },
+      {
+        "node_id": "u2",
+        "score": 0.45447,
+        "community": 0,
+        "is_seed": false
+      },
+      {
+        "node_id": "u7",
+        "score": 0.0,
+        "community": 1,
+        "is_seed": false
+      },
+      {
+        "node_id": "u8",
+        "score": 0.0,
+        "community": 2,
+        "is_seed": false
+      }
+    ],
+    "edges": [
+      {
+        "source": "u1",
+        "target": "u2",
+        "probability": 0.59616
+      },
+      {
+        "source": "u1",
+        "target": "u3",
+        "probability": 0.59984
+      },
+      {
+        "source": "u2",
+        "target": "u4",
+        "probability": 0.56389
+      },
+      {
+        "source": "u3",
+        "target": "u4",
+        "probability": 0.56588
+      },
+      {
+        "source": "u3",
+        "target": "u5",
+        "probability": 0.57652
+      },
+      {
+        "source": "u4",
+        "target": "u6",
+        "probability": 0.50025
+      },
+      {
+        "source": "u5",
+        "target": "u7",
+        "probability": 0.49817
+      },
+      {
+        "source": "u6",
+        "target": "u8",
+        "probability": 0.41699
+      }
+    ]
+  },
+  "runtime_seconds": 0.328
+}

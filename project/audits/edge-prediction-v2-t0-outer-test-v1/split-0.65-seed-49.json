@@ -1,0 +1,28 @@
+{
+  "mode": "outer_test",
+  "train_fraction": 0.65,
+  "seed": 49,
+  "config": {
+    "epochs": 10,
+    "hidden_channels": 32,
+    "layers": 1,
+    "learning_rate": 0.01,
+    "decoder": "concat_mlp"
+  },
+  "calibration_metrics": {
+    "auc": 0.8534248393821352,
+    "average_precision": 0.8319164178812706,
+    "brier": 0.14650870876239397,
+    "ece_10_bins": 8.880692119268192e-17,
+    "inverse_probability_auc": 0.14657516061786474
+  },
+  "metrics": {
+    "auc": 0.8527102300934845,
+    "average_precision": 0.8359096879964966,
+    "brier": 0.1490425396693454,
+    "ece_10_bins": 0.020240156568687738,
+    "inverse_probability_auc": 0.1472897699065156
+  },
+  "positives": 15166,
+  "calibration_positives": 5782
+}

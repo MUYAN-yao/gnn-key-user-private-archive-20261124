@@ -1,0 +1,363 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        6,
+        3
+      ]
+    ],
+    "date-time": "2026-06-03T12:38:38Z",
+    "timestamp": 1780490318079,
+    "version": "3.54.1"
+  },
+  "publisher-location": "New York, NY, USA",
+  "reference-count": 29,
+  "publisher": "ACM",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2017,
+            5,
+            9
+          ]
+        ],
+        "date-time": "2017-05-09T00:00:00Z",
+        "timestamp": 1494288000000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "dl.acm.org"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [],
+  "published-print": {
+    "date-parts": [
+      [
+        2017,
+        5,
+        9
+      ]
+    ]
+  },
+  "DOI": "10.1145/3035918.3035924",
+  "type": "proceedings-article",
+  "created": {
+    "date-parts": [
+      [
+        2017,
+        5,
+        10
+      ]
+    ],
+    "date-time": "2017-05-10T18:09:00Z",
+    "timestamp": 1494439740000
+  },
+  "page": "651-666",
+  "update-policy": "https://doi.org/10.1145/crossmark-policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 101,
+  "title": [
+    "Debunking the Myths of Influence Maximization"
+  ],
+  "prefix": "10.1145",
+  "author": [
+    {
+      "given": "Akhil",
+      "family": "Arora",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Xerox Research Centre India, Bangalore, India"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Sainyam",
+      "family": "Galhotra",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "University of Massachusetts, Amherst, MA, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Sayan",
+      "family": "Ranu",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Indian Institute of Technology, Delhi, India"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "320",
+  "published-online": {
+    "date-parts": [
+      [
+        2017,
+        5,
+        9
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_3_2_1_1_1",
+      "unstructured": "arXiv. http://www.arxiv.org.  arXiv. http://www.arxiv.org."
+    },
+    {
+      "key": "e_1_3_2_1_2_1",
+      "unstructured": "SNAP Datasets. https://snap.stanford.edu/data/.  SNAP Datasets. https://snap.stanford.edu/data/."
+    },
+    {
+      "key": "e_1_3_2_1_3_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5555/2634074.2634144"
+    },
+    {
+      "key": "e_1_3_2_1_4_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1835804.1835934"
+    },
+    {
+      "key": "e_1_3_2_1_5_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1557019.1557047"
+    },
+    {
+      "key": "e_1_3_2_1_6_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICDM.2010.118"
+    },
+    {
+      "key": "e_1_3_2_1_7_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2600428.2609592"
+    },
+    {
+      "key": "e_1_3_2_1_8_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2505515.2505541"
+    },
+    {
+      "key": "e_1_3_2_1_9_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2661829.2662077"
+    },
+    {
+      "key": "e_1_3_2_1_10_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2882903.2882929"
+    },
+    {
+      "key": "e_1_3_2_1_11_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2740908.2742725"
+    },
+    {
+      "key": "e_1_3_2_1_12_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1718487.1718518"
+    },
+    {
+      "key": "e_1_3_2_1_13_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.14778/2047485.2047492"
+    },
+    {
+      "key": "e_1_3_2_1_14_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1963192.1963217"
+    },
+    {
+      "key": "e_1_3_2_1_15_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICDM.2011.132"
+    },
+    {
+      "key": "e_1_3_2_1_16_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICDM.2012.79"
+    },
+    {
+      "key": "e_1_3_2_1_17_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/956750.956769"
+    },
+    {
+      "key": "e_1_3_2_1_18_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICDE.2013.6544831"
+    },
+    {
+      "key": "e_1_3_2_1_19_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2487575.2487657"
+    },
+    {
+      "key": "e_1_3_2_1_20_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1281192.1281239"
+    },
+    {
+      "key": "e_1_3_2_1_21_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2661829.2662009"
+    },
+    {
+      "key": "e_1_3_2_1_22_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/BF01588971"
+    },
+    {
+      "key": "e_1_3_2_1_23_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2882903.2915207"
+    },
+    {
+      "key": "e_1_3_2_1_24_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5555/2893873.2893897"
+    },
+    {
+      "key": "e_1_3_2_1_25_1",
+      "volume-title": "The pagerank citation ranking: bringing order to the web",
+      "author": "Page L.",
+      "year": "1999",
+      "unstructured": "L. Page , S. Brin , R. Motwani , and T. Winograd . The pagerank citation ranking: bringing order to the web . 1999 . L. Page, S. Brin, R. Motwani, and T. Winograd. The pagerank citation ranking: bringing order to the web. 1999."
+    },
+    {
+      "key": "e_1_3_2_1_26_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2723372.2723734"
+    },
+    {
+      "key": "e_1_3_2_1_27_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2588555.2593670"
+    },
+    {
+      "key": "e_1_3_2_1_28_1",
+      "unstructured": "V. V. Vazirani. Approximation Algorithms. 2001.   V. V. Vazirani. Approximation Algorithms. 2001."
+    },
+    {
+      "key": "e_1_3_2_1_29_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICDCS.2013.37"
+    }
+  ],
+  "event": {
+    "name": "SIGMOD/PODS'17: International Conference on Management of Data",
+    "location": "Chicago Illinois USA",
+    "acronym": "SIGMOD/PODS'17",
+    "sponsor": [
+      "SIGMOD ACM Special Interest Group on Management of Data"
+    ]
+  },
+  "container-title": [
+    "Proceedings of the 2017 ACM International Conference on Management of Data"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "https://dl.acm.org/doi/10.1145/3035918.3035924",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://dl.acm.org/doi/pdf/10.1145/3035918.3035924",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2025-06-18T03:36:47Z",
+    "timestamp": 1750217807000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://dl.acm.org/doi/10.1145/3035918.3035924"
+    }
+  },
+  "subtitle": [
+    "An In-Depth Benchmarking Study"
+  ],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2017,
+        5,
+        9
+      ]
+    ]
+  },
+  "references-count": 29,
+  "alternative-id": [
+    "10.1145/3035918.3035924",
+    "10.1145/3035918"
+  ],
+  "URL": "https://doi.org/10.1145/3035918.3035924",
+  "relation": {},
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2017,
+        5,
+        9
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "2017-05-09",
+      "order": 2,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "sociopatterns-resolution-confirmation-manifest-0.1",
+  "protocol": "sociopatterns_resolution_confirmation_protocol_v0_1.md",
+  "source_snapshot": {
+    "path": "E:\\大学\\校创\\基于GNN的关键用户识别\\reproducibility\\v10-source-snapshots\\sociopatterns-resolution-confirmation-v0_1-20260920-r2",
+    "manifest_sha256": "b190e38053605117b0463c871d702217c857ca9b1b3c730bda6b8a65f6d6cf7d"
+  },
+  "matrix": {
+    "invs2013": [
+      5,
+      20
+    ],
+    "invs2015": [
+      5,
+      20
+    ],
+    "sfhh2009": [
+      5
+    ],
+    "kenya2012": [
+      5,
+      20
+    ]
+  },
+  "world_paths": [
+    301,
+    302
+  ],
+  "world_counts": [
+    20,
+    80,
+    320
+  ],
+  "runs": [
+    {
+      "dataset": "invs2013",
+      "world_path": 301,
+      "k": 5,
+      "selection_world_count": 20,
+      "path": "invs2013/k5/path-301-w20.json"
+    },
+    {
+      "dataset": "invs2013",
+      "world_path": 301,
+      "k": 5,
+      "selection_world_count": 80,
+      "path": "invs2013/k5/path-301-w80.json"
+    },
+    {
+      "dataset": "invs2013",
+      "world_path": 301,
+      "k": 5,
+      "selection_world_count": 320,
+      "path": "invs2013/k5/path-301-w320.json"
+    },
+    {
+      "dataset": "invs2013",
+      "world_path": 301,
+      "k": 20,
+      "selection_world_count": 20,
+      "path": "invs2013/k20/path-301-w20.json"
+    },
+    {
+      "dataset": "invs2013",
+      "world_path": 301,
+      "k": 20,
+      "selection_world_count": 80,
+      "path": "invs2013/k20/path-301-w80.json"
+    }
+  ]
+}

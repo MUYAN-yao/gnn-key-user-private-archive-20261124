@@ -1,0 +1,39 @@
+{
+  "reference_section_unchanged": true,
+  "all_existing_table_rows_unchanged": true,
+  "image_paths_unchanged": true,
+  "r45_embedded_images_identical": true,
+  "abstract_word_count": 201,
+  "diagnostic_sha256": "a204dac4892c78acdccb11c50d1e2cbba6102b95c22af41a6f92516586d8bca4",
+  "diagnostic_numbers_verified": true,
+  "archived_source_hash_checks": {
+    "run_v4_screening_diagnostic.py": true,
+    "influence_v4_screening_diagnostic.md": true,
+    "run_v3_fairness_sensitivity.py": true,
+    "pipeline_v2_t0.py": true,
+    "pipeline_v2_t0b.py": true,
+    "model_v2.py": true,
+    "graph.py": true,
+    "validation.py": true
+  },
+  "word_sha256": "542aeffb2e2adebdc9e4b3783ef093716f5ea982ddc83d1baaed7753963b88e8",
+  "word_inline_figures": 10,
+  "word_revision_comments": 5,
+  "source_hashes": {
+    "draft_zh_v0_1.md": "f66158761cbc0064693d3bdfefc93d71540b302bbb3f42bf743bca80e7d4fb65",
+    "abstract_en_v0_1.md": "ccd04b9c622d317358d821220ed44a0284bf59acca5cbc88a802c83200b6cea0",
+    "snam_introduction_en_v1.md": "1c08d483e7d23ac97df426117cd3693966fb560590c5911177895b2796787959",
+    "claim_ledger.md": "0d9894b6b60e0f5c301ea90cae8084552b4cef6615e7ae56d89ffa2255272066",
+    "innovation_evidence_matrix.md": "52fb48f330c26c464d10e6c7d49a8d6e063311c8f751df57242f47b34fb5df4e"
+  },
+  "visual_qa": {
+    "status": "completed",
+    "renderer": "Word PDF export + PyMuPDF; bundled LibreOffice renderer unavailable",
+    "pages_reviewed": 22,
+    "out_of_page_text_spans": 0,
+    "figures_2_6_7_overlap": false,
+    "algorithm_block_kept_together": true,
+    "tables_kept_with_captions": true,
+    "scope": "Working-draft layout review; existing plain-text equation formatting retained, not a journal-template compliance certification"
+  }
+}

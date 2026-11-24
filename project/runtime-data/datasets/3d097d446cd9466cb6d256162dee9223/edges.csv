@@ -1,0 +1,13 @@
+src,dst,timestamp,event_type,weight
+u1,u2,2026-01-01T09:00:00Z,retweet,1
+u1,u3,2026-01-02T09:00:00Z,retweet,1
+u2,u4,2026-01-03T09:00:00Z,reply,1
+u3,u4,2026-01-04T09:00:00Z,retweet,1
+u3,u5,2026-01-05T09:00:00Z,retweet,1
+u4,u6,2026-01-06T09:00:00Z,reply,1
+u5,u7,2026-01-07T09:00:00Z,retweet,1
+u6,u8,2026-01-08T09:00:00Z,retweet,1
+u2,u5,2026-01-09T09:00:00Z,retweet,1
+u5,u8,2026-01-10T09:00:00Z,reply,1
+u1,u4,2026-01-11T09:00:00Z,retweet,1
+u4,u7,2026-01-12T09:00:00Z,retweet,1
