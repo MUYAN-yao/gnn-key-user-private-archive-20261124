@@ -1,0 +1,5222 @@
+{
+  "version": 1,
+  "evaluation_worlds": 10000,
+  "paths": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010
+  ],
+  "conditions": [
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1001,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1001,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1001,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1001,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1001,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1002,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1002,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1002,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1002,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1002,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1003,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1003,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1003,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1003,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1003,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1004,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1004,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1004,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1004,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1004,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1005,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1005,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1005,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1005,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1005,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1006,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1006,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1006,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1006,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1006,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1007,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1007,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1007,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1007,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1007,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1008,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1008,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1008,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1008,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1008,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1009,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1009,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1009,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1009,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1009,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1010,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1010,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1010,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1010,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2013",
+      "path": 1010,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1001,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1001,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1001,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1001,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1001,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1002,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1002,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1002,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1002,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1002,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1003,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1003,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1003,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1003,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1003,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1004,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1004,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1004,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1004,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1004,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1005,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1005,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1005,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1005,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1005,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1006,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1006,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1006,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1006,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1006,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1007,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1007,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1007,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1007,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1007,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1008,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1008,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1008,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1008,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1008,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1009,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1009,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1009,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1009,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1009,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1010,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1010,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1010,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1010,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "invs2015",
+      "path": 1010,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1001,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1001,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1001,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1001,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1001,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1002,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1002,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1002,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1002,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1002,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1003,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1003,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1003,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1003,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1003,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1004,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1004,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1004,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1004,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1004,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1005,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1005,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1005,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1005,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1005,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1006,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1006,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1006,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1006,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1006,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1007,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1007,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1007,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1007,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1007,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1008,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1008,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1008,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1008,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1008,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1009,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1009,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1009,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1009,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1009,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1010,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1010,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1010,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1010,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "kenya2012",
+      "path": 1010,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1001,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1001,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1001,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1001,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1001,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1002,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1002,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1002,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1002,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1002,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1003,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1003,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1003,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1003,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1003,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1004,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1004,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1004,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1004,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1004,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1005,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1005,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1005,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1005,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1005,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1006,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1006,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1006,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1006,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1006,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1007,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1007,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1007,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1007,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1007,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1008,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1008,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1008,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1008,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1008,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1009,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1009,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1009,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1009,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1009,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1010,
+      "W": 20,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1010,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1010,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1010,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "resolution",
+      "dataset": "sfhh2009",
+      "path": 1010,
+      "W": 5120,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2013",
+      "path": 1001,
+      "W": 320,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2013",
+      "path": 1001,
+      "W": 1280,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2013",
+      "path": 1002,
+      "W": 320,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2013",
+      "path": 1002,
+      "W": 1280,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2013",
+      "path": 1003,
+      "W": 320,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2013",
+      "path": 1003,
+      "W": 1280,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2013",
+      "path": 1004,
+      "W": 320,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2013",
+      "path": 1004,
+      "W": 1280,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2013",
+      "path": 1005,
+      "W": 320,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2013",
+      "path": 1005,
+      "W": 1280,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2013",
+      "path": 1006,
+      "W": 320,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2013",
+      "path": 1006,
+      "W": 1280,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2013",
+      "path": 1007,
+      "W": 320,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2013",
+      "path": 1007,
+      "W": 1280,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2013",
+      "path": 1008,
+      "W": 320,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2013",
+      "path": 1008,
+      "W": 1280,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2013",
+      "path": 1009,
+      "W": 320,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2013",
+      "path": 1009,
+      "W": 1280,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2013",
+      "path": 1010,
+      "W": 320,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2013",
+      "path": 1010,
+      "W": 1280,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2015",
+      "path": 1001,
+      "W": 320,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2015",
+      "path": 1001,
+      "W": 1280,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2015",
+      "path": 1002,
+      "W": 320,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2015",
+      "path": 1002,
+      "W": 1280,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2015",
+      "path": 1003,
+      "W": 320,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2015",
+      "path": 1003,
+      "W": 1280,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2015",
+      "path": 1004,
+      "W": 320,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2015",
+      "path": 1004,
+      "W": 1280,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2015",
+      "path": 1005,
+      "W": 320,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2015",
+      "path": 1005,
+      "W": 1280,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2015",
+      "path": 1006,
+      "W": 320,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2015",
+      "path": 1006,
+      "W": 1280,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2015",
+      "path": 1007,
+      "W": 320,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2015",
+      "path": 1007,
+      "W": 1280,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2015",
+      "path": 1008,
+      "W": 320,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2015",
+      "path": 1008,
+      "W": 1280,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2015",
+      "path": 1009,
+      "W": 320,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2015",
+      "path": 1009,
+      "W": 1280,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2015",
+      "path": 1010,
+      "W": 320,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "invs2015",
+      "path": 1010,
+      "W": 1280,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "kenya2012",
+      "path": 1001,
+      "W": 320,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "kenya2012",
+      "path": 1001,
+      "W": 1280,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "kenya2012",
+      "path": 1002,
+      "W": 320,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "kenya2012",
+      "path": 1002,
+      "W": 1280,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "kenya2012",
+      "path": 1003,
+      "W": 320,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "kenya2012",
+      "path": 1003,
+      "W": 1280,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "kenya2012",
+      "path": 1004,
+      "W": 320,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "kenya2012",
+      "path": 1004,
+      "W": 1280,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "kenya2012",
+      "path": 1005,
+      "W": 320,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "kenya2012",
+      "path": 1005,
+      "W": 1280,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "kenya2012",
+      "path": 1006,
+      "W": 320,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "kenya2012",
+      "path": 1006,
+      "W": 1280,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "kenya2012",
+      "path": 1007,
+      "W": 320,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "kenya2012",
+      "path": 1007,
+      "W": 1280,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "kenya2012",
+      "path": 1008,
+      "W": 320,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "kenya2012",
+      "path": 1008,
+      "W": 1280,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "kenya2012",
+      "path": 1009,
+      "W": 320,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "kenya2012",
+      "path": 1009,
+      "W": 1280,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "kenya2012",
+      "path": 1010,
+      "W": 320,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "seed_budget",
+      "dataset": "kenya2012",
+      "path": 1010,
+      "W": 1280,
+      "k": 20,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1001,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1001,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1001,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1001,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1002,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1002,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1002,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1002,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1003,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1003,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1003,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1003,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1004,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1004,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1004,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1004,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1005,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1005,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1005,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1005,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1006,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1006,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1006,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1006,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1007,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1007,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1007,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1007,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1008,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1008,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1008,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1008,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1009,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1009,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1009,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1009,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1010,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1010,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1010,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2013",
+      "path": 1010,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1001,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1001,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1001,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1001,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1002,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1002,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1002,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1002,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1003,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1003,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1003,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1003,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1004,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1004,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1004,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1004,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1005,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1005,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1005,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1005,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1006,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1006,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1006,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1006,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1007,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1007,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1007,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1007,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1008,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1008,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1008,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1008,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1009,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1009,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1009,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1009,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1010,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1010,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1010,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "invs2015",
+      "path": 1010,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1001,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1001,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1001,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1001,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1002,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1002,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1002,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1002,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1003,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1003,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1003,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1003,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1004,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1004,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1004,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1004,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1005,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1005,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1005,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1005,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1006,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1006,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1006,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1006,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1007,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1007,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1007,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1007,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1008,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1008,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1008,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1008,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1009,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1009,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1009,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1009,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1010,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1010,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1010,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "kenya2012",
+      "path": 1010,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1001,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1001,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1001,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1001,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1002,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1002,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1002,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1002,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1003,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1003,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1003,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1003,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1004,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1004,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1004,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1004,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1005,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1005,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1005,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1005,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1006,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1006,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1006,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1006,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1007,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1007,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1007,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1007,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1008,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1008,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1008,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1008,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1009,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1009,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1009,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1009,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1010,
+      "W": 320,
+      "k": 5,
+      "p": 0.005,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1010,
+      "W": 320,
+      "k": 5,
+      "p": 0.05,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1010,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 1,
+      "coupling": "step"
+    },
+    {
+      "stage": "parameters",
+      "dataset": "sfhh2009",
+      "path": 1010,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 5,
+      "coupling": "step"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2013",
+      "path": 1001,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2013",
+      "path": 1001,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2013",
+      "path": 1002,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2013",
+      "path": 1002,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2013",
+      "path": 1003,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2013",
+      "path": 1003,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2013",
+      "path": 1004,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2013",
+      "path": 1004,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2013",
+      "path": 1005,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2013",
+      "path": 1005,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2013",
+      "path": 1006,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2013",
+      "path": 1006,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2013",
+      "path": 1007,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2013",
+      "path": 1007,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2013",
+      "path": 1008,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2013",
+      "path": 1008,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2013",
+      "path": 1009,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2013",
+      "path": 1009,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2013",
+      "path": 1010,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2013",
+      "path": 1010,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2015",
+      "path": 1001,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2015",
+      "path": 1001,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2015",
+      "path": 1002,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2015",
+      "path": 1002,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2015",
+      "path": 1003,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2015",
+      "path": 1003,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2015",
+      "path": 1004,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2015",
+      "path": 1004,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2015",
+      "path": 1005,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2015",
+      "path": 1005,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2015",
+      "path": 1006,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2015",
+      "path": 1006,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2015",
+      "path": 1007,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2015",
+      "path": 1007,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2015",
+      "path": 1008,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2015",
+      "path": 1008,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2015",
+      "path": 1009,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2015",
+      "path": 1009,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2015",
+      "path": 1010,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "invs2015",
+      "path": 1010,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "kenya2012",
+      "path": 1001,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "kenya2012",
+      "path": 1001,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "kenya2012",
+      "path": 1002,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "kenya2012",
+      "path": 1002,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "kenya2012",
+      "path": 1003,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "kenya2012",
+      "path": 1003,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "kenya2012",
+      "path": 1004,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "kenya2012",
+      "path": 1004,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "kenya2012",
+      "path": 1005,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "kenya2012",
+      "path": 1005,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "kenya2012",
+      "path": 1006,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "kenya2012",
+      "path": 1006,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "kenya2012",
+      "path": 1007,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "kenya2012",
+      "path": 1007,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "kenya2012",
+      "path": 1008,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "kenya2012",
+      "path": 1008,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "kenya2012",
+      "path": 1009,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "kenya2012",
+      "path": 1009,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "kenya2012",
+      "path": 1010,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "kenya2012",
+      "path": 1010,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "sfhh2009",
+      "path": 1001,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "sfhh2009",
+      "path": 1001,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "sfhh2009",
+      "path": 1002,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "sfhh2009",
+      "path": 1002,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "sfhh2009",
+      "path": 1003,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "sfhh2009",
+      "path": 1003,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "sfhh2009",
+      "path": 1004,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "sfhh2009",
+      "path": 1004,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "sfhh2009",
+      "path": 1005,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "sfhh2009",
+      "path": 1005,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "sfhh2009",
+      "path": 1006,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "sfhh2009",
+      "path": 1006,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "sfhh2009",
+      "path": 1007,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "sfhh2009",
+      "path": 1007,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "sfhh2009",
+      "path": 1008,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "sfhh2009",
+      "path": 1008,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "sfhh2009",
+      "path": 1009,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "sfhh2009",
+      "path": 1009,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "sfhh2009",
+      "path": 1010,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "coupling",
+      "dataset": "sfhh2009",
+      "path": 1010,
+      "W": 1280,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "edge"
+    },
+    {
+      "stage": "scale",
+      "dataset": "synthetic_ba2000",
+      "path": 1001,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "scale",
+      "dataset": "synthetic_ba2000",
+      "path": 1001,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "scale",
+      "dataset": "synthetic_ba2000",
+      "path": 1002,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "scale",
+      "dataset": "synthetic_ba2000",
+      "path": 1002,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "scale",
+      "dataset": "synthetic_ba2000",
+      "path": 1003,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "scale",
+      "dataset": "synthetic_ba2000",
+      "path": 1003,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "scale",
+      "dataset": "synthetic_ba2000",
+      "path": 1004,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "scale",
+      "dataset": "synthetic_ba2000",
+      "path": 1004,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "scale",
+      "dataset": "synthetic_ba2000",
+      "path": 1005,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "scale",
+      "dataset": "synthetic_ba2000",
+      "path": 1005,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "scale",
+      "dataset": "synthetic_sbm2000",
+      "path": 1001,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "scale",
+      "dataset": "synthetic_sbm2000",
+      "path": 1001,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "scale",
+      "dataset": "synthetic_sbm2000",
+      "path": 1002,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "scale",
+      "dataset": "synthetic_sbm2000",
+      "path": 1002,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "scale",
+      "dataset": "synthetic_sbm2000",
+      "path": 1003,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "scale",
+      "dataset": "synthetic_sbm2000",
+      "path": 1003,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "scale",
+      "dataset": "synthetic_sbm2000",
+      "path": 1004,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "scale",
+      "dataset": "synthetic_sbm2000",
+      "path": 1004,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "scale",
+      "dataset": "synthetic_sbm2000",
+      "path": 1005,
+      "W": 80,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    },
+    {
+      "stage": "scale",
+      "dataset": "synthetic_sbm2000",
+      "path": 1005,
+      "W": 320,
+      "k": 5,
+      "p": 0.01,
+      "h": 3,
+      "coupling": "step"
+    }
+  ],
+  "random_pool_repeats": 3,
+  "timing_repeats": 5,
+  "approval": "User authorized unrestricted runtime; no paid compute",
+  "world_ids_checked": 907200
+}

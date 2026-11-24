@@ -1,0 +1,22 @@
+--- D:\校创\基于GNN的关键用户识别\submission\computing-external-validation-20261015\contribution-action-revision-20261028\manuscript\history_evidence.tex
++++ D:\校创\基于GNN的关键用户识别\submission\computing-external-validation-20261015\budget-interpretation-revision-20261031\manuscript\history_evidence.tex
+@@ -14,7 +14,7 @@
+ the complete propagation graph and differ only in seed eligibility, with a
+ common lexical tie rule. Candidate sizes are capped at the number of vertices.
+ The namespace is \texttt{computing-extension-20261015-v1}; selection and evaluation
+-families have separate hash keys. Selection budgets use nested world prefixes.
++families have separate hash keys. Selection budgets use nested world prefixes for every arm. At each $W$, both full and restricted methods select seeds anew; the 10,000-world evaluation family stays fixed across budgets within each graph/path/coupling.
+ Historical PageRank uses the frozen default numerical settings; these controls
+ are distinct from the external post-hoc tolerance study.
+ 
+@@ -86,8 +86,8 @@
+ The reference-transition analysis pairs only budgets within the same
+ graph, path and coupling, and verifies that their saved evaluation-world hashes agree.
+ Under step coupling, $W=1280\to5120$ changes 16/40 final sets, with a descriptive
+-mean gain of 0.01111 nodes and range $[-0.0383,0.1180]$. Under fixed-edge coupling,
+-$W=320\to1280$ changes 29/40 sets, with mean gain 0.061845 nodes and range
++mean high-minus-low spread change of 0.01111 nodes and range $[-0.0383,0.1180]$. Under fixed-edge coupling,
++$W=320\to1280$ changes 29/40 sets, with mean high-minus-low spread change 0.061845 nodes and range
+ $[-0.0110,0.2572]$. Table~\ref{tab:hist-transitions} retains the network-specific
+ results, and Fig.~\ref{fig:hist-edge-transitions} shows every fixed-edge path.
+ The two intervals in $W$ differ: their averages cannot be interpreted as a

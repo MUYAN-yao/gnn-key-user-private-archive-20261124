@@ -1,0 +1,333 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./review_diff.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(./svjour3.cls
+Document Class: svjour3 2007/05/08 v3.2 
+LaTeX document class for Springer journals
+(./svglov3.clo
+SVJour Class option: svglov3.clo for standardised journals
+)) (c:/texlive/2026/texmf-dist/tex/latex/base/fix-cm.sty
+(c:/texlive/2026/texmf-dist/tex/latex/base/ts1enc.def))
+(c:/texlive/2026/texmf-dist/tex/latex/base/fontenc.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/base/inputenc.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/psnfss/mathptmx.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(c:/texlive/2026/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(c:/texlive/2026/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(c:/texlive/2026/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(c:/texlive/2026/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/tools/tabularx.sty
+(c:/texlive/2026/texmf-dist/tex/latex/tools/array.sty))
+(c:/texlive/2026/texmf-dist/tex/latex/url/url.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/placeins/placeins.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/natbib/natbib.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty
+(c:/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(c:/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(c:/texlive/2026/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(c:/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(c:/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(c:/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(c:/texlive/2026/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/hyperref/nameref.sty
+(c:/texlive/2026/texmf-dist/tex/latex/refcount/refcount.sty)
+(c:/texlive/2026/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(c:/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(c:/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(c:/texlive/2026/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(c:/texlive/2026/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/hyperref/puenc.def)
+(c:/texlive/2026/texmf-dist/tex/generic/bitset/bitset.sty
+(c:/texlive/2026/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(c:/texlive/2026/texmf-dist/tex/latex/hyperref/hpdftex.def
+(c:/texlive/2026/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(c:/texlive/2026/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(c:/texlive/2026/texmf-dist/tex/generic/ulem/ulem.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/color.sty
+(c:/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(c:/texlive/2026/texmf-dist/tex/latex/oberdiek/settobox.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/listings/listings.sty
+(c:/texlive/2026/texmf-dist/tex/latex/listings/lstpatch.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/listings/lstmisc.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/listings/listings.cfg))
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11b (Carsten Heinz)
+    so I'm assuming it got fixed.
+(c:/texlive/2026/texmf-dist/tex/latex/psnfss/t1ptm.fd)
+(c:/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+No file review_diff.aux.
+(c:/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (c:/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(c:/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+
+Package mathptmx Warning: There are no bold math fonts on input line 143.
+
+(c:/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd)
+(c:/texlive/2026/texmf-dist/tex/latex/psnfss/omlztmcm.fd)
+(c:/texlive/2026/texmf-dist/tex/latex/psnfss/omsztmcm.fd)
+(c:/texlive/2026/texmf-dist/tex/latex/psnfss/omxztmcm.fd)
+(c:/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ptm.fd)
+Underfull \hbox (badness 1622) in paragraph at lines 144--145
+[]|   []   |   []   |   []   |   []   |   []   |   []   |   []
+
+Underfull \hbox (badness 1490) in paragraph at lines 144--145
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
+
+Underfull \hbox (badness 1184) in paragraph at lines 144--145
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
+  |   []
+[1{c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/202
+6/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+
+Package natbib Warning: Citation `ref1' on page 2 undefined on input line 149.
+
+
+Package natbib Warning: Citation `ref7' on page 2 undefined on input line 149.
+
+
+Package natbib Warning: Citation `ref8' on page 2 undefined on input line 149.
+
+
+Package natbib Warning: Citation `ref2' on page 2 undefined on input line 149.
+
+[2]
+
+LaTeX Warning: Reference `fig:evaluation-mechanism' on page 3 undefined on inpu
+t line 156.
+
+
+LaTeX Warning: Reference `fig:evaluation-mechanism' on page 3 undefined on inpu
+t line 156.
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 158--159
+[]\T1/ptm/m/n/10 four small con-tact graphs[]|   []   |   []   |   []   |   [] 
+  |   []   |   []   |   []
+
+Underfull \hbox (badness 1460) in paragraph at lines 158--159
+|   []   |   []   |   []   |   []   |   []   [][]|   []   |   []   |   []   |  
+ []   |   []   |   []   |   []
+
+LaTeX Warning: Reference `tab:precision-output' on page 3 undefined on input li
+ne 162.
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 165--166
+[]\T1/ptm/b/n/10 We []|   []   [][]|   []   []the []|   []   |   []   |   []   
+|   []   [][]|   []
+
+Underfull \hbox (badness 2020) in paragraph at lines 165--166
+|   []   []\T1/ptm/b/n/10 of can-di-date []|   [][][]|   [][]. []|   []   |   [
+]   []\T1/ptm/m/n/10 Degree-4k
+
+Underfull \hbox (badness 1248) in paragraph at lines 165--166
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
+
+Underfull \vbox (badness 3690) has occurred while \output is active [3]
+Underfull \hbox (badness 1527) in paragraph at lines 170--170
+[]\T1/ptm/b/n/8 Fig. 1|[]\T1/ptm/m/n/8 Paired eval-u-a-tion []|   []   |   []  
+ |   []   |   []   |   []   |   []   |   []   |   []
+
+Package natbib Warning: Citation `ref1' on page 4 undefined on input line 174.
+
+
+Package natbib Warning: Citation `ref7' on page 4 undefined on input line 174.
+
+
+Package natbib Warning: Citation `ref8' on page 4 undefined on input line 174.
+
+
+Package natbib Warning: Citation `ref2' on page 4 undefined on input line 174.
+
+[4 <./FigEvaluationMechanism.pdf>]
+
+Package natbib Warning: Citation `ref12' on page 5 undefined on input line 176.
+
+
+
+Package natbib Warning: Citation `ref13' on page 5 undefined on input line 176.
+
+
+
+Package natbib Warning: Citation `ref19' on page 5 undefined on input line 176.
+
+
+
+Package natbib Warning: Citation `ref9' on page 5 undefined on input line 178.
+
+
+Package natbib Warning: Citation `ref16' on page 5 undefined on input line 178.
+
+
+
+Package natbib Warning: Citation `ref11' on page 5 undefined on input line 178.
+
+
+
+Package natbib Warning: Citation `ref15' on page 5 undefined on input line 178.
+
+
+
+LaTeX Warning: Reference `sec:paired' on page 5 undefined on input line 185.
+
+
+LaTeX Warning: Reference `sec:coupling' on page 5 undefined on input line 185.
+
+
+LaTeX Warning: Reference `sec:cost' on page 5 undefined on input line 185.
+
+
+LaTeX Warning: Reference `sec:experimental-setup' on page 5 undefined on input 
+line 185.
+
+[5] [6]
+
+Package natbib Warning: Citation `networkxpr' on page 7 undefined on input line
+ 201.
+
+[7]
+
+LaTeX Warning: Reference `fig:evaluation-mechanism' on page 8 undefined on inpu
+t line 212.
+
+[8]
+
+LaTeX Warning: Reference `tab:primary' on page 9 undefined on input line 243.
+
+
+LaTeX Warning: Reference `tab:case' on page 9 undefined on input line 243.
+
+
+Package natbib Warning: Citation `snap' on page 9 undefined on input line 246.
+
+
+LaTeX Warning: Reference `tab:data' on page 9 undefined on input line 246.
+
+[9]
+
+Package natbib Warning: Citation `college' on page 10 undefined on input line 2
+60.
+
+
+Package natbib Warning: Citation `grqc' on page 10 undefined on input line 262.
+
+
+
+Package natbib Warning: Citation `signed' on page 10 undefined on input line 26
+2.
+
+
+Package natbib Warning: Citation `links' on page 10 undefined on input line 262
+.
+
+
+Package natbib Warning: Citation `ref3' on page 10 undefined on input line 264.
+
+
+
+Package natbib Warning: Citation `ref4' on page 10 undefined on input line 264.
+
+
+
+Package natbib Warning: Citation `ref5' on page 10 undefined on input line 264.
+
+
+
+Package natbib Warning: Citation `ref6' on page 10 undefined on input line 264.
+
+
+
+Package natbib Warning: Citation `ref17' on page 10 undefined on input line 264
+.
+
+
+Package natbib Warning: Citation `ref18' on page 10 undefined on input line 264
+.
+
+[10]
+
+LaTeX Warning: Reference `tab:settings' on page 11 undefined on input line 267.
+
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 267--271
+|   []   |   []   []\T1/ptm/m/n/10 fixed-edge []|   []   |   []   |   []   |   
+[]   |   []   |   []
+
+Underfull \hbox (badness 1496) in paragraph at lines 287--287
+[]||   []   [][]|   []   []\T1/ptm/m/n/8 worlds per graph[]|   [][][]|   []
+
+Underfull \vbox (badness 3199) has occurred while \output is active [11]
+
+LaTeX Warning: Reference `fig:precision-budget' on page 12 undefined on input l
+ine 305.
+
+
+LaTeX Warning: Reference `tab:precision-output' on page 12 undefined on input l
+ine 305.
+
+
+LaTeX Warning: Reference `fig:precision-budget' on page 12 undefined on input l
+ine 307.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [12]
+
+LaTeX Warning: Reference `tab:precision-output' on page 13 undefined on input l
+ine 310.
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 310--313
+[]|   []   |   []   |   []   [][]|   []   |   []   |   []   |   []   |   []   |
+   []   |   []
+
+Underfull \vbox (badness 1521) has occurred while \output is active [13]
+
+LaTeX Warning: Reference `fig:transitions' on page 14 undefined on input line 3
+34.
+
+
+Underfull \vbox (badness 7796) has occurred while \output is active [14 <./Fig4
+.pdf>]
+Underfull \hbox (badness 2197) in paragraph at lines 344--344
+[]\T1/ptm/b/n/8 Fig. 3|[][]|   []   |   []   |   []   |   []   |   []   |   [] 
+  |   []   |   []   |   []   |   []
+
+Overfull \hbox (8.65154pt too wide) in paragraph at lines 341--346
+[]|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [
+][][]|   []   |   []
+
+Underfull \hbox (badness 1466) in paragraph at lines 341--346
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
+  |   []
+
+LaTeX Warning: Reference `tab:primary' on page 15 undefined on input line 348.
+
+! Misplaced \noalign.
+\bottomrule ->\noalign 
+                       {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global...
+l.375 \DIFdelendFL \bottomrule
+                              \end{tabular}
+!  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on review_diff.log.

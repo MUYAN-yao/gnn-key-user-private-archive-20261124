@@ -1,0 +1,66 @@
+{
+  "archive": "D:\\\u6821\u521b\\\u57fa\u4e8eGNN\u7684\u5173\u952e\u7528\u6237\u8bc6\u522b\\submission\\computing-submission-preparation-20261016-v1.zip",
+  "target": "D:\\\u6821\u521b\\\u57fa\u4e8eGNN\u7684\u5173\u952e\u7528\u6237\u8bc6\u522b\\tmp\\submission-ready-incremental-verify",
+  "members": 2070,
+  "crc_checked": true,
+  "extracted": [
+    [
+      0,
+      350
+    ],
+    [
+      350,
+      350
+    ],
+    [
+      700,
+      350
+    ],
+    [
+      1050,
+      350
+    ],
+    [
+      1400,
+      350
+    ],
+    [
+      1750,
+      320
+    ]
+  ],
+  "hashed": [
+    [
+      0,
+      350
+    ],
+    [
+      350,
+      350
+    ],
+    [
+      0,
+      350
+    ],
+    [
+      350,
+      350
+    ],
+    [
+      700,
+      350
+    ],
+    [
+      1050,
+      350
+    ],
+    [
+      1400,
+      350
+    ],
+    [
+      1750,
+      319
+    ]
+  ]
+}

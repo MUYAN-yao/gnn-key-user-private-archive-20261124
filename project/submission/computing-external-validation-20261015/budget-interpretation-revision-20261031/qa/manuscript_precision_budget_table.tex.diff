@@ -1,0 +1,9 @@
+--- D:\校创\基于GNN的关键用户识别\submission\computing-external-validation-20261015\contribution-action-revision-20261028\manuscript\precision_budget_table.tex
++++ D:\校创\基于GNN的关键用户识别\submission\computing-external-validation-20261015\budget-interpretation-revision-20261031\manuscript\precision_budget_table.tex
+@@ -1,5 +1,5 @@
+ \begin{table}[htbp]
+-\caption{Post-hoc PageRank loss across budgets. Each entry is the mean incremental-loss percentage across five original paths at $W=80/320/1280$. Default uses NetworkX tolerance $10^{-6}$; Tighter uses $10^{-12}$, with candidate membership unchanged at $10^{-14}$. Pool Jaccard compares default- and tighter-tolerance candidates. This is a numerical sensitivity analysis, not a new primary test family.}\label{tab:precision-budget}
++\caption{Post-hoc PageRank loss across budgets. Each entry is the mean incremental-loss percentage across five original paths at $W=80/320/1280$, relative to the full reference selected at the same $W$. Default uses NetworkX tolerance $10^{-6}$; Tighter uses $10^{-12}$, with candidate membership unchanged at $10^{-14}$. Pool Jaccard compares default- and tighter-tolerance candidates. This is a numerical sensitivity analysis, not a new primary test family.}\label{tab:precision-budget}
+ \begin{tabular}{llrrr}
+ \toprule
+ Graph & Pool & Default loss (\%) & Tighter loss (\%) & Pool Jaccard \\

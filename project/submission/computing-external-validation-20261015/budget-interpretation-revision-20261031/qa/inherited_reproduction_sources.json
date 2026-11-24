@@ -1,0 +1,27 @@
+{
+  "EXTERNAL_REPRODUCE_INHERITED.md": {
+    "source": "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-external-validation-20261015\\structural-language-revision-20261027\\EXTERNAL_REPRODUCE_INHERITED.md",
+    "sha256": "5c272acb86d998102708687335ad1b72718ddecfbd0fc0b7b16c3df3ce0c71d0",
+    "executed_this_revision": false
+  },
+  "evidence\\HISTORICAL_REPRODUCE_INHERITED.md": {
+    "source": "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-external-validation-20261015\\structural-language-revision-20261027\\REPRODUCE.md",
+    "sha256": "4299e5923e7ea1787dff40caa89866a355786a8da74e8541b0860fb70dd3e5e4",
+    "executed_this_revision": false
+  },
+  "src\\reproduce.py": {
+    "source": "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-external-validation-20261015\\structural-language-revision-20261027\\src\\reproduce.py",
+    "sha256": "e09faa88a148a72e9c5f163ac8c9e4132de54e38b32031998c032b0a40aff545",
+    "executed_this_revision": false
+  },
+  "src\\integrate_historical.py": {
+    "source": "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-external-validation-20261015\\structural-language-revision-20261027\\src\\integrate_historical.py",
+    "sha256": "036d9b6d1453074ede8cc87c888bc4514e0af52123abf2e75247384590aa7196",
+    "executed_this_revision": false
+  },
+  "requirements.txt": {
+    "source": "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-external-validation-20261015\\requirements.txt",
+    "sha256": "dd6ae76d896ff8f498889ee8679c1fbfe711b522047e1b1764e5c70c0bca6b8b",
+    "executed_this_revision": false
+  }
+}

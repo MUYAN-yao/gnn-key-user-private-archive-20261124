@@ -1,0 +1,2130 @@
+{
+  "config": {
+    "stage": "seed_budget",
+    "dataset": "kenya2012",
+    "path": 1008,
+    "W": 1280,
+    "k": 20,
+    "p": 0.01,
+    "h": 3,
+    "coupling": "step"
+  },
+  "source_manifest_sha256": "d2ece59609e65a342881390c61f6873a6ba7831c53c6143907ee0b17edb5dd99",
+  "graph": {
+    "n": 75,
+    "m": 1044,
+    "dataset": "kenya2012",
+    "kind": "historical contact-derived; simulated diffusion only",
+    "history_cutoff": "2000-01-02T19:00:00+00:00",
+    "timestamp_group_count": 42,
+    "input_sha256": {
+      "nodes.csv": "24c28abb0885c80d42c64010540c63804efdf924010c8e06985af9fc6c9824ee",
+      "edges.csv": "d65fc4f7b2cd90c86412b5d7149d2151d0cb545d47c1b52dddb05a0dde2bb711",
+      "cascades.csv": "0fdf9458a5ef3ae500c40f76968537b66cff8d3fc1781f2a0305e294c1436d58",
+      "data_card.json": "4fad97144c172de751f22dabf24b5df5ec55fe84ea04683b8b7eecca0c8ac277"
+    },
+    "graph_sha256": "56a0944e3feeca126c0bced1944844c4bdcef7659d1ffa89d79903aa60b9aee6"
+  },
+  "selection_world_sha256": "6832b3fa4d6bf37f9d3f1c3ee4749a9672d39f3a3ada50ec670ff55e5e0f33d1",
+  "evaluation_world_sha256": "0a9b10a41db6a72a81f3e5fe2bc83d1c6344b88591774b1d59dc34a8084b63fc",
+  "evaluation_world_count": 10000,
+  "preparation_seconds": 0.01860310000483878,
+  "world_preparation_seconds": 0.14870820000214735,
+  "order": [
+    "random0_4k",
+    "weighted_4k",
+    "random2_4k",
+    "weighted_2k",
+    "weighted_8k",
+    "degree_4k",
+    "full",
+    "random1_4k",
+    "pagerank_4k"
+  ],
+  "arms": {
+    "random0_4k": {
+      "selected": [
+        "H-36",
+        "H-44",
+        "E-10",
+        "H-18",
+        "H-32",
+        "E-27",
+        "B-8",
+        "H-49",
+        "E-25",
+        "L-1",
+        "B-4",
+        "H-3",
+        "E-11",
+        "H-30",
+        "B-26",
+        "F-10",
+        "B-25",
+        "E-4",
+        "H-41",
+        "F-3"
+      ],
+      "candidate_ids": [
+        "B-12",
+        "B-25",
+        "B-26",
+        "B-27",
+        "B-32",
+        "B-36",
+        "B-38",
+        "B-4",
+        "B-42",
+        "B-47",
+        "B-5",
+        "B-50",
+        "B-56",
+        "B-58",
+        "B-8",
+        "E-10",
+        "E-11",
+        "E-13",
+        "E-15",
+        "E-16",
+        "E-17",
+        "E-2",
+        "E-20",
+        "E-22",
+        "E-23",
+        "E-25",
+        "E-27",
+        "E-30",
+        "E-4",
+        "E-5",
+        "E-6",
+        "E-9",
+        "F-1",
+        "F-10",
+        "F-11",
+        "F-12",
+        "F-3",
+        "F-5",
+        "F-7",
+        "F-9",
+        "H-10",
+        "H-14",
+        "H-15",
+        "H-18",
+        "H-19",
+        "H-26",
+        "H-28",
+        "H-29",
+        "H-3",
+        "H-30",
+        "H-32",
+        "H-33",
+        "H-34",
+        "H-36",
+        "H-39",
+        "H-4",
+        "H-40",
+        "H-41",
+        "H-43",
+        "H-44",
+        "H-45",
+        "H-46",
+        "H-47",
+        "H-49",
+        "H-50",
+        "H-51",
+        "H-6",
+        "H-7",
+        "H-8",
+        "L-1",
+        "L-3",
+        "L-4",
+        "L-6",
+        "L-7",
+        "L-8"
+      ],
+      "candidate_count": 75,
+      "coverage": 1.0,
+      "full_pool": true,
+      "mean_spread": 22.7202,
+      "incremental_spread": 2.7201999999999984,
+      "selection_seconds": 1.2346249999973224,
+      "evaluation_seconds": 0.018699000000196975,
+      "ranking_seconds": 0.00014250000094762072,
+      "trace": [
+        {
+          "winner": "H-36",
+          "total": 1670,
+          "ties": 1,
+          "margin": 0.00078125
+        },
+        {
+          "winner": "H-44",
+          "total": 3288,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "E-10",
+          "total": 4867,
+          "ties": 1,
+          "margin": 0.009375
+        },
+        {
+          "winner": "H-18",
+          "total": 6434,
+          "ties": 1,
+          "margin": 0.00390625
+        },
+        {
+          "winner": "H-32",
+          "total": 7963,
+          "ties": 1,
+          "margin": 0.01015625
+        },
+        {
+          "winner": "E-27",
+          "total": 9477,
+          "ties": 1,
+          "margin": 0.0046875
+        },
+        {
+          "winner": "B-8",
+          "total": 10985,
+          "ties": 1,
+          "margin": 0.02109375
+        },
+        {
+          "winner": "H-49",
+          "total": 12461,
+          "ties": 1,
+          "margin": 0.00859375
+        },
+        {
+          "winner": "E-25",
+          "total": 13923,
+          "ties": 2,
+          "margin": 0.0
+        },
+        {
+          "winner": "L-1",
+          "total": 15372,
+          "ties": 1,
+          "margin": 0.00703125
+        },
+        {
+          "winner": "B-4",
+          "total": 16812,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "H-3",
+          "total": 18242,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "E-11",
+          "total": 19662,
+          "ties": 1,
+          "margin": 0.00859375
+        },
+        {
+          "winner": "H-30",
+          "total": 21069,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "B-26",
+          "total": 22473,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "F-10",
+          "total": 23867,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "B-25",
+          "total": 25245,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "E-4",
+          "total": 26621,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "H-41",
+          "total": 27991,
+          "ties": 1,
+          "margin": 0.003125
+        },
+        {
+          "winner": "F-3",
+          "total": 29349,
+          "ties": 1,
+          "margin": 0.00546875
+        }
+      ],
+      "delta": 0.0,
+      "mc_se": 0.0,
+      "same_order": true,
+      "same_set": true
+    },
+    "weighted_4k": {
+      "selected": [
+        "H-36",
+        "H-44",
+        "E-10",
+        "H-18",
+        "H-32",
+        "E-27",
+        "B-8",
+        "H-49",
+        "E-25",
+        "L-1",
+        "B-4",
+        "H-3",
+        "E-11",
+        "H-30",
+        "B-26",
+        "F-10",
+        "B-25",
+        "E-4",
+        "H-41",
+        "F-3"
+      ],
+      "candidate_ids": [
+        "B-12",
+        "B-25",
+        "B-26",
+        "B-27",
+        "B-32",
+        "B-36",
+        "B-38",
+        "B-4",
+        "B-42",
+        "B-47",
+        "B-5",
+        "B-50",
+        "B-56",
+        "B-58",
+        "B-8",
+        "E-10",
+        "E-11",
+        "E-13",
+        "E-15",
+        "E-16",
+        "E-17",
+        "E-2",
+        "E-20",
+        "E-22",
+        "E-23",
+        "E-25",
+        "E-27",
+        "E-30",
+        "E-4",
+        "E-5",
+        "E-6",
+        "E-9",
+        "F-1",
+        "F-10",
+        "F-11",
+        "F-12",
+        "F-3",
+        "F-5",
+        "F-7",
+        "F-9",
+        "H-10",
+        "H-14",
+        "H-15",
+        "H-18",
+        "H-19",
+        "H-26",
+        "H-28",
+        "H-29",
+        "H-3",
+        "H-30",
+        "H-32",
+        "H-33",
+        "H-34",
+        "H-36",
+        "H-39",
+        "H-4",
+        "H-40",
+        "H-41",
+        "H-43",
+        "H-44",
+        "H-45",
+        "H-46",
+        "H-47",
+        "H-49",
+        "H-50",
+        "H-51",
+        "H-6",
+        "H-7",
+        "H-8",
+        "L-1",
+        "L-3",
+        "L-4",
+        "L-6",
+        "L-7",
+        "L-8"
+      ],
+      "candidate_count": 75,
+      "coverage": 1.0,
+      "full_pool": true,
+      "mean_spread": 22.7202,
+      "incremental_spread": 2.7201999999999984,
+      "selection_seconds": 1.2702132999984315,
+      "evaluation_seconds": 0.018013400003837887,
+      "ranking_seconds": 3.809999907389283e-05,
+      "trace": [
+        {
+          "winner": "H-36",
+          "total": 1670,
+          "ties": 1,
+          "margin": 0.00078125
+        },
+        {
+          "winner": "H-44",
+          "total": 3288,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "E-10",
+          "total": 4867,
+          "ties": 1,
+          "margin": 0.009375
+        },
+        {
+          "winner": "H-18",
+          "total": 6434,
+          "ties": 1,
+          "margin": 0.00390625
+        },
+        {
+          "winner": "H-32",
+          "total": 7963,
+          "ties": 1,
+          "margin": 0.01015625
+        },
+        {
+          "winner": "E-27",
+          "total": 9477,
+          "ties": 1,
+          "margin": 0.0046875
+        },
+        {
+          "winner": "B-8",
+          "total": 10985,
+          "ties": 1,
+          "margin": 0.02109375
+        },
+        {
+          "winner": "H-49",
+          "total": 12461,
+          "ties": 1,
+          "margin": 0.00859375
+        },
+        {
+          "winner": "E-25",
+          "total": 13923,
+          "ties": 2,
+          "margin": 0.0
+        },
+        {
+          "winner": "L-1",
+          "total": 15372,
+          "ties": 1,
+          "margin": 0.00703125
+        },
+        {
+          "winner": "B-4",
+          "total": 16812,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "H-3",
+          "total": 18242,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "E-11",
+          "total": 19662,
+          "ties": 1,
+          "margin": 0.00859375
+        },
+        {
+          "winner": "H-30",
+          "total": 21069,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "B-26",
+          "total": 22473,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "F-10",
+          "total": 23867,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "B-25",
+          "total": 25245,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "E-4",
+          "total": 26621,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "H-41",
+          "total": 27991,
+          "ties": 1,
+          "margin": 0.003125
+        },
+        {
+          "winner": "F-3",
+          "total": 29349,
+          "ties": 1,
+          "margin": 0.00546875
+        }
+      ],
+      "delta": 0.0,
+      "mc_se": 0.0,
+      "same_order": true,
+      "same_set": true
+    },
+    "random2_4k": {
+      "selected": [
+        "H-36",
+        "H-44",
+        "E-10",
+        "H-18",
+        "H-32",
+        "E-27",
+        "B-8",
+        "H-49",
+        "E-25",
+        "L-1",
+        "B-4",
+        "H-3",
+        "E-11",
+        "H-30",
+        "B-26",
+        "F-10",
+        "B-25",
+        "E-4",
+        "H-41",
+        "F-3"
+      ],
+      "candidate_ids": [
+        "B-12",
+        "B-25",
+        "B-26",
+        "B-27",
+        "B-32",
+        "B-36",
+        "B-38",
+        "B-4",
+        "B-42",
+        "B-47",
+        "B-5",
+        "B-50",
+        "B-56",
+        "B-58",
+        "B-8",
+        "E-10",
+        "E-11",
+        "E-13",
+        "E-15",
+        "E-16",
+        "E-17",
+        "E-2",
+        "E-20",
+        "E-22",
+        "E-23",
+        "E-25",
+        "E-27",
+        "E-30",
+        "E-4",
+        "E-5",
+        "E-6",
+        "E-9",
+        "F-1",
+        "F-10",
+        "F-11",
+        "F-12",
+        "F-3",
+        "F-5",
+        "F-7",
+        "F-9",
+        "H-10",
+        "H-14",
+        "H-15",
+        "H-18",
+        "H-19",
+        "H-26",
+        "H-28",
+        "H-29",
+        "H-3",
+        "H-30",
+        "H-32",
+        "H-33",
+        "H-34",
+        "H-36",
+        "H-39",
+        "H-4",
+        "H-40",
+        "H-41",
+        "H-43",
+        "H-44",
+        "H-45",
+        "H-46",
+        "H-47",
+        "H-49",
+        "H-50",
+        "H-51",
+        "H-6",
+        "H-7",
+        "H-8",
+        "L-1",
+        "L-3",
+        "L-4",
+        "L-6",
+        "L-7",
+        "L-8"
+      ],
+      "candidate_count": 75,
+      "coverage": 1.0,
+      "full_pool": true,
+      "mean_spread": 22.7202,
+      "incremental_spread": 2.7201999999999984,
+      "selection_seconds": 1.2643040999973891,
+      "evaluation_seconds": 0.01619310000387486,
+      "ranking_seconds": 4.27999984822236e-05,
+      "trace": [
+        {
+          "winner": "H-36",
+          "total": 1670,
+          "ties": 1,
+          "margin": 0.00078125
+        },
+        {
+          "winner": "H-44",
+          "total": 3288,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "E-10",
+          "total": 4867,
+          "ties": 1,
+          "margin": 0.009375
+        },
+        {
+          "winner": "H-18",
+          "total": 6434,
+          "ties": 1,
+          "margin": 0.00390625
+        },
+        {
+          "winner": "H-32",
+          "total": 7963,
+          "ties": 1,
+          "margin": 0.01015625
+        },
+        {
+          "winner": "E-27",
+          "total": 9477,
+          "ties": 1,
+          "margin": 0.0046875
+        },
+        {
+          "winner": "B-8",
+          "total": 10985,
+          "ties": 1,
+          "margin": 0.02109375
+        },
+        {
+          "winner": "H-49",
+          "total": 12461,
+          "ties": 1,
+          "margin": 0.00859375
+        },
+        {
+          "winner": "E-25",
+          "total": 13923,
+          "ties": 2,
+          "margin": 0.0
+        },
+        {
+          "winner": "L-1",
+          "total": 15372,
+          "ties": 1,
+          "margin": 0.00703125
+        },
+        {
+          "winner": "B-4",
+          "total": 16812,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "H-3",
+          "total": 18242,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "E-11",
+          "total": 19662,
+          "ties": 1,
+          "margin": 0.00859375
+        },
+        {
+          "winner": "H-30",
+          "total": 21069,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "B-26",
+          "total": 22473,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "F-10",
+          "total": 23867,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "B-25",
+          "total": 25245,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "E-4",
+          "total": 26621,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "H-41",
+          "total": 27991,
+          "ties": 1,
+          "margin": 0.003125
+        },
+        {
+          "winner": "F-3",
+          "total": 29349,
+          "ties": 1,
+          "margin": 0.00546875
+        }
+      ],
+      "delta": 0.0,
+      "mc_se": 0.0,
+      "same_order": true,
+      "same_set": true
+    },
+    "weighted_2k": {
+      "selected": [
+        "H-36",
+        "H-44",
+        "E-10",
+        "H-18",
+        "H-32",
+        "E-27",
+        "B-36",
+        "H-49",
+        "E-25",
+        "L-1",
+        "B-58",
+        "H-3",
+        "E-11",
+        "H-30",
+        "B-42",
+        "F-10",
+        "E-4",
+        "B-25",
+        "H-15",
+        "E-16"
+      ],
+      "candidate_ids": [
+        "B-25",
+        "B-26",
+        "B-36",
+        "B-42",
+        "B-50",
+        "B-58",
+        "E-10",
+        "E-11",
+        "E-13",
+        "E-15",
+        "E-16",
+        "E-2",
+        "E-20",
+        "E-22",
+        "E-25",
+        "E-27",
+        "E-4",
+        "E-5",
+        "E-9",
+        "F-10",
+        "F-11",
+        "H-14",
+        "H-15",
+        "H-18",
+        "H-19",
+        "H-26",
+        "H-28",
+        "H-3",
+        "H-30",
+        "H-32",
+        "H-33",
+        "H-36",
+        "H-39",
+        "H-43",
+        "H-44",
+        "H-45",
+        "H-49",
+        "H-51",
+        "H-8",
+        "L-1"
+      ],
+      "candidate_count": 40,
+      "coverage": 0.5333333333333333,
+      "full_pool": false,
+      "mean_spread": 22.7255,
+      "incremental_spread": 2.7255000000000003,
+      "selection_seconds": 0.5675770999951055,
+      "evaluation_seconds": 0.018662599999515805,
+      "ranking_seconds": 3.809999907389283e-05,
+      "trace": [
+        {
+          "winner": "H-36",
+          "total": 1670,
+          "ties": 1,
+          "margin": 0.00078125
+        },
+        {
+          "winner": "H-44",
+          "total": 3288,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "E-10",
+          "total": 4867,
+          "ties": 1,
+          "margin": 0.009375
+        },
+        {
+          "winner": "H-18",
+          "total": 6434,
+          "ties": 1,
+          "margin": 0.00390625
+        },
+        {
+          "winner": "H-32",
+          "total": 7963,
+          "ties": 1,
+          "margin": 0.01015625
+        },
+        {
+          "winner": "E-27",
+          "total": 9477,
+          "ties": 1,
+          "margin": 0.01015625
+        },
+        {
+          "winner": "B-36",
+          "total": 10955,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "H-49",
+          "total": 12431,
+          "ties": 1,
+          "margin": 0.00859375
+        },
+        {
+          "winner": "E-25",
+          "total": 13893,
+          "ties": 1,
+          "margin": 0.00078125
+        },
+        {
+          "winner": "L-1",
+          "total": 15342,
+          "ties": 1,
+          "margin": 0.00859375
+        },
+        {
+          "winner": "B-58",
+          "total": 16780,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "H-3",
+          "total": 18210,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "E-11",
+          "total": 19630,
+          "ties": 1,
+          "margin": 0.00859375
+        },
+        {
+          "winner": "H-30",
+          "total": 21037,
+          "ties": 1,
+          "margin": 0.00703125
+        },
+        {
+          "winner": "B-42",
+          "total": 22435,
+          "ties": 1,
+          "margin": 0.00078125
+        },
+        {
+          "winner": "F-10",
+          "total": 23829,
+          "ties": 1,
+          "margin": 0.01328125
+        },
+        {
+          "winner": "E-4",
+          "total": 25205,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "B-25",
+          "total": 26572,
+          "ties": 1,
+          "margin": 0.00078125
+        },
+        {
+          "winner": "H-15",
+          "total": 27938,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "E-16",
+          "total": 29289,
+          "ties": 1,
+          "margin": 0.0015625
+        }
+      ],
+      "delta": 0.0053,
+      "mc_se": 0.012961635367465786,
+      "same_order": false,
+      "same_set": false
+    },
+    "weighted_8k": {
+      "selected": [
+        "H-36",
+        "H-44",
+        "E-10",
+        "H-18",
+        "H-32",
+        "E-27",
+        "B-8",
+        "H-49",
+        "E-25",
+        "L-1",
+        "B-4",
+        "H-3",
+        "E-11",
+        "H-30",
+        "B-26",
+        "F-10",
+        "B-25",
+        "E-4",
+        "H-41",
+        "F-3"
+      ],
+      "candidate_ids": [
+        "B-12",
+        "B-25",
+        "B-26",
+        "B-27",
+        "B-32",
+        "B-36",
+        "B-38",
+        "B-4",
+        "B-42",
+        "B-47",
+        "B-5",
+        "B-50",
+        "B-56",
+        "B-58",
+        "B-8",
+        "E-10",
+        "E-11",
+        "E-13",
+        "E-15",
+        "E-16",
+        "E-17",
+        "E-2",
+        "E-20",
+        "E-22",
+        "E-23",
+        "E-25",
+        "E-27",
+        "E-30",
+        "E-4",
+        "E-5",
+        "E-6",
+        "E-9",
+        "F-1",
+        "F-10",
+        "F-11",
+        "F-12",
+        "F-3",
+        "F-5",
+        "F-7",
+        "F-9",
+        "H-10",
+        "H-14",
+        "H-15",
+        "H-18",
+        "H-19",
+        "H-26",
+        "H-28",
+        "H-29",
+        "H-3",
+        "H-30",
+        "H-32",
+        "H-33",
+        "H-34",
+        "H-36",
+        "H-39",
+        "H-4",
+        "H-40",
+        "H-41",
+        "H-43",
+        "H-44",
+        "H-45",
+        "H-46",
+        "H-47",
+        "H-49",
+        "H-50",
+        "H-51",
+        "H-6",
+        "H-7",
+        "H-8",
+        "L-1",
+        "L-3",
+        "L-4",
+        "L-6",
+        "L-7",
+        "L-8"
+      ],
+      "candidate_count": 75,
+      "coverage": 1.0,
+      "full_pool": true,
+      "mean_spread": 22.7202,
+      "incremental_spread": 2.7201999999999984,
+      "selection_seconds": 0.9036122000034084,
+      "evaluation_seconds": 0.007474600002751686,
+      "ranking_seconds": 3.809999907389283e-05,
+      "trace": [
+        {
+          "winner": "H-36",
+          "total": 1670,
+          "ties": 1,
+          "margin": 0.00078125
+        },
+        {
+          "winner": "H-44",
+          "total": 3288,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "E-10",
+          "total": 4867,
+          "ties": 1,
+          "margin": 0.009375
+        },
+        {
+          "winner": "H-18",
+          "total": 6434,
+          "ties": 1,
+          "margin": 0.00390625
+        },
+        {
+          "winner": "H-32",
+          "total": 7963,
+          "ties": 1,
+          "margin": 0.01015625
+        },
+        {
+          "winner": "E-27",
+          "total": 9477,
+          "ties": 1,
+          "margin": 0.0046875
+        },
+        {
+          "winner": "B-8",
+          "total": 10985,
+          "ties": 1,
+          "margin": 0.02109375
+        },
+        {
+          "winner": "H-49",
+          "total": 12461,
+          "ties": 1,
+          "margin": 0.00859375
+        },
+        {
+          "winner": "E-25",
+          "total": 13923,
+          "ties": 2,
+          "margin": 0.0
+        },
+        {
+          "winner": "L-1",
+          "total": 15372,
+          "ties": 1,
+          "margin": 0.00703125
+        },
+        {
+          "winner": "B-4",
+          "total": 16812,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "H-3",
+          "total": 18242,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "E-11",
+          "total": 19662,
+          "ties": 1,
+          "margin": 0.00859375
+        },
+        {
+          "winner": "H-30",
+          "total": 21069,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "B-26",
+          "total": 22473,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "F-10",
+          "total": 23867,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "B-25",
+          "total": 25245,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "E-4",
+          "total": 26621,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "H-41",
+          "total": 27991,
+          "ties": 1,
+          "margin": 0.003125
+        },
+        {
+          "winner": "F-3",
+          "total": 29349,
+          "ties": 1,
+          "margin": 0.00546875
+        }
+      ],
+      "delta": 0.0,
+      "mc_se": 0.0,
+      "same_order": true,
+      "same_set": true
+    },
+    "degree_4k": {
+      "selected": [
+        "H-36",
+        "H-44",
+        "E-10",
+        "H-18",
+        "H-32",
+        "E-27",
+        "B-8",
+        "H-49",
+        "E-25",
+        "L-1",
+        "B-4",
+        "H-3",
+        "E-11",
+        "H-30",
+        "B-26",
+        "F-10",
+        "B-25",
+        "E-4",
+        "H-41",
+        "F-3"
+      ],
+      "candidate_ids": [
+        "B-12",
+        "B-25",
+        "B-26",
+        "B-27",
+        "B-32",
+        "B-36",
+        "B-38",
+        "B-4",
+        "B-42",
+        "B-47",
+        "B-5",
+        "B-50",
+        "B-56",
+        "B-58",
+        "B-8",
+        "E-10",
+        "E-11",
+        "E-13",
+        "E-15",
+        "E-16",
+        "E-17",
+        "E-2",
+        "E-20",
+        "E-22",
+        "E-23",
+        "E-25",
+        "E-27",
+        "E-30",
+        "E-4",
+        "E-5",
+        "E-6",
+        "E-9",
+        "F-1",
+        "F-10",
+        "F-11",
+        "F-12",
+        "F-3",
+        "F-5",
+        "F-7",
+        "F-9",
+        "H-10",
+        "H-14",
+        "H-15",
+        "H-18",
+        "H-19",
+        "H-26",
+        "H-28",
+        "H-29",
+        "H-3",
+        "H-30",
+        "H-32",
+        "H-33",
+        "H-34",
+        "H-36",
+        "H-39",
+        "H-4",
+        "H-40",
+        "H-41",
+        "H-43",
+        "H-44",
+        "H-45",
+        "H-46",
+        "H-47",
+        "H-49",
+        "H-50",
+        "H-51",
+        "H-6",
+        "H-7",
+        "H-8",
+        "L-1",
+        "L-3",
+        "L-4",
+        "L-6",
+        "L-7",
+        "L-8"
+      ],
+      "candidate_count": 75,
+      "coverage": 1.0,
+      "full_pool": true,
+      "mean_spread": 22.7202,
+      "incremental_spread": 2.7201999999999984,
+      "selection_seconds": 0.7310203999950318,
+      "evaluation_seconds": 0.007045300000754651,
+      "ranking_seconds": 3.700000524986535e-05,
+      "trace": [
+        {
+          "winner": "H-36",
+          "total": 1670,
+          "ties": 1,
+          "margin": 0.00078125
+        },
+        {
+          "winner": "H-44",
+          "total": 3288,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "E-10",
+          "total": 4867,
+          "ties": 1,
+          "margin": 0.009375
+        },
+        {
+          "winner": "H-18",
+          "total": 6434,
+          "ties": 1,
+          "margin": 0.00390625
+        },
+        {
+          "winner": "H-32",
+          "total": 7963,
+          "ties": 1,
+          "margin": 0.01015625
+        },
+        {
+          "winner": "E-27",
+          "total": 9477,
+          "ties": 1,
+          "margin": 0.0046875
+        },
+        {
+          "winner": "B-8",
+          "total": 10985,
+          "ties": 1,
+          "margin": 0.02109375
+        },
+        {
+          "winner": "H-49",
+          "total": 12461,
+          "ties": 1,
+          "margin": 0.00859375
+        },
+        {
+          "winner": "E-25",
+          "total": 13923,
+          "ties": 2,
+          "margin": 0.0
+        },
+        {
+          "winner": "L-1",
+          "total": 15372,
+          "ties": 1,
+          "margin": 0.00703125
+        },
+        {
+          "winner": "B-4",
+          "total": 16812,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "H-3",
+          "total": 18242,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "E-11",
+          "total": 19662,
+          "ties": 1,
+          "margin": 0.00859375
+        },
+        {
+          "winner": "H-30",
+          "total": 21069,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "B-26",
+          "total": 22473,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "F-10",
+          "total": 23867,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "B-25",
+          "total": 25245,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "E-4",
+          "total": 26621,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "H-41",
+          "total": 27991,
+          "ties": 1,
+          "margin": 0.003125
+        },
+        {
+          "winner": "F-3",
+          "total": 29349,
+          "ties": 1,
+          "margin": 0.00546875
+        }
+      ],
+      "delta": 0.0,
+      "mc_se": 0.0,
+      "same_order": true,
+      "same_set": true
+    },
+    "full": {
+      "selected": [
+        "H-36",
+        "H-44",
+        "E-10",
+        "H-18",
+        "H-32",
+        "E-27",
+        "B-8",
+        "H-49",
+        "E-25",
+        "L-1",
+        "B-4",
+        "H-3",
+        "E-11",
+        "H-30",
+        "B-26",
+        "F-10",
+        "B-25",
+        "E-4",
+        "H-41",
+        "F-3"
+      ],
+      "candidate_ids": [
+        "B-12",
+        "B-25",
+        "B-26",
+        "B-27",
+        "B-32",
+        "B-36",
+        "B-38",
+        "B-4",
+        "B-42",
+        "B-47",
+        "B-5",
+        "B-50",
+        "B-56",
+        "B-58",
+        "B-8",
+        "E-10",
+        "E-11",
+        "E-13",
+        "E-15",
+        "E-16",
+        "E-17",
+        "E-2",
+        "E-20",
+        "E-22",
+        "E-23",
+        "E-25",
+        "E-27",
+        "E-30",
+        "E-4",
+        "E-5",
+        "E-6",
+        "E-9",
+        "F-1",
+        "F-10",
+        "F-11",
+        "F-12",
+        "F-3",
+        "F-5",
+        "F-7",
+        "F-9",
+        "H-10",
+        "H-14",
+        "H-15",
+        "H-18",
+        "H-19",
+        "H-26",
+        "H-28",
+        "H-29",
+        "H-3",
+        "H-30",
+        "H-32",
+        "H-33",
+        "H-34",
+        "H-36",
+        "H-39",
+        "H-4",
+        "H-40",
+        "H-41",
+        "H-43",
+        "H-44",
+        "H-45",
+        "H-46",
+        "H-47",
+        "H-49",
+        "H-50",
+        "H-51",
+        "H-6",
+        "H-7",
+        "H-8",
+        "L-1",
+        "L-3",
+        "L-4",
+        "L-6",
+        "L-7",
+        "L-8"
+      ],
+      "candidate_count": 75,
+      "coverage": 1.0,
+      "full_pool": true,
+      "mean_spread": 22.7202,
+      "incremental_spread": 2.7201999999999984,
+      "selection_seconds": 0.7218614000012167,
+      "evaluation_seconds": 0.00814929999614833,
+      "ranking_seconds": 0.0,
+      "trace": [
+        {
+          "winner": "H-36",
+          "total": 1670,
+          "ties": 1,
+          "margin": 0.00078125
+        },
+        {
+          "winner": "H-44",
+          "total": 3288,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "E-10",
+          "total": 4867,
+          "ties": 1,
+          "margin": 0.009375
+        },
+        {
+          "winner": "H-18",
+          "total": 6434,
+          "ties": 1,
+          "margin": 0.00390625
+        },
+        {
+          "winner": "H-32",
+          "total": 7963,
+          "ties": 1,
+          "margin": 0.01015625
+        },
+        {
+          "winner": "E-27",
+          "total": 9477,
+          "ties": 1,
+          "margin": 0.0046875
+        },
+        {
+          "winner": "B-8",
+          "total": 10985,
+          "ties": 1,
+          "margin": 0.02109375
+        },
+        {
+          "winner": "H-49",
+          "total": 12461,
+          "ties": 1,
+          "margin": 0.00859375
+        },
+        {
+          "winner": "E-25",
+          "total": 13923,
+          "ties": 2,
+          "margin": 0.0
+        },
+        {
+          "winner": "L-1",
+          "total": 15372,
+          "ties": 1,
+          "margin": 0.00703125
+        },
+        {
+          "winner": "B-4",
+          "total": 16812,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "H-3",
+          "total": 18242,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "E-11",
+          "total": 19662,
+          "ties": 1,
+          "margin": 0.00859375
+        },
+        {
+          "winner": "H-30",
+          "total": 21069,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "B-26",
+          "total": 22473,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "F-10",
+          "total": 23867,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "B-25",
+          "total": 25245,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "E-4",
+          "total": 26621,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "H-41",
+          "total": 27991,
+          "ties": 1,
+          "margin": 0.003125
+        },
+        {
+          "winner": "F-3",
+          "total": 29349,
+          "ties": 1,
+          "margin": 0.00546875
+        }
+      ],
+      "delta": 0.0,
+      "mc_se": 0.0,
+      "same_order": true,
+      "same_set": true
+    },
+    "random1_4k": {
+      "selected": [
+        "H-36",
+        "H-44",
+        "E-10",
+        "H-18",
+        "H-32",
+        "E-27",
+        "B-8",
+        "H-49",
+        "E-25",
+        "L-1",
+        "B-4",
+        "H-3",
+        "E-11",
+        "H-30",
+        "B-26",
+        "F-10",
+        "B-25",
+        "E-4",
+        "H-41",
+        "F-3"
+      ],
+      "candidate_ids": [
+        "B-12",
+        "B-25",
+        "B-26",
+        "B-27",
+        "B-32",
+        "B-36",
+        "B-38",
+        "B-4",
+        "B-42",
+        "B-47",
+        "B-5",
+        "B-50",
+        "B-56",
+        "B-58",
+        "B-8",
+        "E-10",
+        "E-11",
+        "E-13",
+        "E-15",
+        "E-16",
+        "E-17",
+        "E-2",
+        "E-20",
+        "E-22",
+        "E-23",
+        "E-25",
+        "E-27",
+        "E-30",
+        "E-4",
+        "E-5",
+        "E-6",
+        "E-9",
+        "F-1",
+        "F-10",
+        "F-11",
+        "F-12",
+        "F-3",
+        "F-5",
+        "F-7",
+        "F-9",
+        "H-10",
+        "H-14",
+        "H-15",
+        "H-18",
+        "H-19",
+        "H-26",
+        "H-28",
+        "H-29",
+        "H-3",
+        "H-30",
+        "H-32",
+        "H-33",
+        "H-34",
+        "H-36",
+        "H-39",
+        "H-4",
+        "H-40",
+        "H-41",
+        "H-43",
+        "H-44",
+        "H-45",
+        "H-46",
+        "H-47",
+        "H-49",
+        "H-50",
+        "H-51",
+        "H-6",
+        "H-7",
+        "H-8",
+        "L-1",
+        "L-3",
+        "L-4",
+        "L-6",
+        "L-7",
+        "L-8"
+      ],
+      "candidate_count": 75,
+      "coverage": 1.0,
+      "full_pool": true,
+      "mean_spread": 22.7202,
+      "incremental_spread": 2.7201999999999984,
+      "selection_seconds": 0.716794400002982,
+      "evaluation_seconds": 0.007159199994930532,
+      "ranking_seconds": 4.959999932907522e-05,
+      "trace": [
+        {
+          "winner": "H-36",
+          "total": 1670,
+          "ties": 1,
+          "margin": 0.00078125
+        },
+        {
+          "winner": "H-44",
+          "total": 3288,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "E-10",
+          "total": 4867,
+          "ties": 1,
+          "margin": 0.009375
+        },
+        {
+          "winner": "H-18",
+          "total": 6434,
+          "ties": 1,
+          "margin": 0.00390625
+        },
+        {
+          "winner": "H-32",
+          "total": 7963,
+          "ties": 1,
+          "margin": 0.01015625
+        },
+        {
+          "winner": "E-27",
+          "total": 9477,
+          "ties": 1,
+          "margin": 0.0046875
+        },
+        {
+          "winner": "B-8",
+          "total": 10985,
+          "ties": 1,
+          "margin": 0.02109375
+        },
+        {
+          "winner": "H-49",
+          "total": 12461,
+          "ties": 1,
+          "margin": 0.00859375
+        },
+        {
+          "winner": "E-25",
+          "total": 13923,
+          "ties": 2,
+          "margin": 0.0
+        },
+        {
+          "winner": "L-1",
+          "total": 15372,
+          "ties": 1,
+          "margin": 0.00703125
+        },
+        {
+          "winner": "B-4",
+          "total": 16812,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "H-3",
+          "total": 18242,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "E-11",
+          "total": 19662,
+          "ties": 1,
+          "margin": 0.00859375
+        },
+        {
+          "winner": "H-30",
+          "total": 21069,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "B-26",
+          "total": 22473,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "F-10",
+          "total": 23867,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "B-25",
+          "total": 25245,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "E-4",
+          "total": 26621,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "H-41",
+          "total": 27991,
+          "ties": 1,
+          "margin": 0.003125
+        },
+        {
+          "winner": "F-3",
+          "total": 29349,
+          "ties": 1,
+          "margin": 0.00546875
+        }
+      ],
+      "delta": 0.0,
+      "mc_se": 0.0,
+      "same_order": true,
+      "same_set": true
+    },
+    "pagerank_4k": {
+      "selected": [
+        "H-36",
+        "H-44",
+        "E-10",
+        "H-18",
+        "H-32",
+        "E-27",
+        "B-8",
+        "H-49",
+        "E-25",
+        "L-1",
+        "B-4",
+        "H-3",
+        "E-11",
+        "H-30",
+        "B-26",
+        "F-10",
+        "B-25",
+        "E-4",
+        "H-41",
+        "F-3"
+      ],
+      "candidate_ids": [
+        "B-12",
+        "B-25",
+        "B-26",
+        "B-27",
+        "B-32",
+        "B-36",
+        "B-38",
+        "B-4",
+        "B-42",
+        "B-47",
+        "B-5",
+        "B-50",
+        "B-56",
+        "B-58",
+        "B-8",
+        "E-10",
+        "E-11",
+        "E-13",
+        "E-15",
+        "E-16",
+        "E-17",
+        "E-2",
+        "E-20",
+        "E-22",
+        "E-23",
+        "E-25",
+        "E-27",
+        "E-30",
+        "E-4",
+        "E-5",
+        "E-6",
+        "E-9",
+        "F-1",
+        "F-10",
+        "F-11",
+        "F-12",
+        "F-3",
+        "F-5",
+        "F-7",
+        "F-9",
+        "H-10",
+        "H-14",
+        "H-15",
+        "H-18",
+        "H-19",
+        "H-26",
+        "H-28",
+        "H-29",
+        "H-3",
+        "H-30",
+        "H-32",
+        "H-33",
+        "H-34",
+        "H-36",
+        "H-39",
+        "H-4",
+        "H-40",
+        "H-41",
+        "H-43",
+        "H-44",
+        "H-45",
+        "H-46",
+        "H-47",
+        "H-49",
+        "H-50",
+        "H-51",
+        "H-6",
+        "H-7",
+        "H-8",
+        "L-1",
+        "L-3",
+        "L-4",
+        "L-6",
+        "L-7",
+        "L-8"
+      ],
+      "candidate_count": 75,
+      "coverage": 1.0,
+      "full_pool": true,
+      "mean_spread": 22.7202,
+      "incremental_spread": 2.7201999999999984,
+      "selection_seconds": 0.7143616000030306,
+      "evaluation_seconds": 0.007773000004817732,
+      "ranking_seconds": 0.003504700005578343,
+      "trace": [
+        {
+          "winner": "H-36",
+          "total": 1670,
+          "ties": 1,
+          "margin": 0.00078125
+        },
+        {
+          "winner": "H-44",
+          "total": 3288,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "E-10",
+          "total": 4867,
+          "ties": 1,
+          "margin": 0.009375
+        },
+        {
+          "winner": "H-18",
+          "total": 6434,
+          "ties": 1,
+          "margin": 0.00390625
+        },
+        {
+          "winner": "H-32",
+          "total": 7963,
+          "ties": 1,
+          "margin": 0.01015625
+        },
+        {
+          "winner": "E-27",
+          "total": 9477,
+          "ties": 1,
+          "margin": 0.0046875
+        },
+        {
+          "winner": "B-8",
+          "total": 10985,
+          "ties": 1,
+          "margin": 0.02109375
+        },
+        {
+          "winner": "H-49",
+          "total": 12461,
+          "ties": 1,
+          "margin": 0.00859375
+        },
+        {
+          "winner": "E-25",
+          "total": 13923,
+          "ties": 2,
+          "margin": 0.0
+        },
+        {
+          "winner": "L-1",
+          "total": 15372,
+          "ties": 1,
+          "margin": 0.00703125
+        },
+        {
+          "winner": "B-4",
+          "total": 16812,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "H-3",
+          "total": 18242,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "E-11",
+          "total": 19662,
+          "ties": 1,
+          "margin": 0.00859375
+        },
+        {
+          "winner": "H-30",
+          "total": 21069,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "B-26",
+          "total": 22473,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "F-10",
+          "total": 23867,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "B-25",
+          "total": 25245,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "E-4",
+          "total": 26621,
+          "ties": 1,
+          "margin": 0.00234375
+        },
+        {
+          "winner": "H-41",
+          "total": 27991,
+          "ties": 1,
+          "margin": 0.003125
+        },
+        {
+          "winner": "F-3",
+          "total": 29349,
+          "ties": 1,
+          "margin": 0.00546875
+        }
+      ],
+      "delta": 0.0,
+      "mc_se": 0.0,
+      "same_order": true,
+      "same_set": true
+    }
+  },
+  "timing_repeats": [],
+  "array_sha256": "a2012e17ca75ca843027b4b5a66cff103b223037613ea42a56e51e0676445e5c",
+  "elapsed_seconds": 8.456817400001455,
+  "peak_working_set_bytes": 744316928
+}

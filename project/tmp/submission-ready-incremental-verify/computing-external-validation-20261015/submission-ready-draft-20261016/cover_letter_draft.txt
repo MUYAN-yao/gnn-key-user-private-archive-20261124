@@ -1,0 +1,19 @@
+Dear Editors of Computing,
+
+Please consider our manuscript, “Evaluating Candidate-Restricted Influence Maximization: Reference Budgets, Ranking Precision, and External Topologies,” for publication in Computing.
+
+The paper examines how candidate restrictions in greedy influence maximization should be evaluated when the full-eligibility reference is itself defined by finitely sampled diffusion worlds and a ranking is truncated numerically before selection. Rather than proposing another seed-selection algorithm, we separate reference budget and ranking tolerance as distinct evaluation resolutions, then follow their consequences for candidate pools, seed sequences, independently evaluated spread, coverage and scoped computational cost.
+
+The frozen external study covers communication, collaboration and voting networks with 1,438--7,115 retained vertices. At W=1280, a 20-node outgoing-degree pool reproduces all 15 stored full-greedy trajectories, while default PageRank-4k has graph-specific incremental-spread losses of 5.07%, 9.01% and 73.01%. A separately frozen post-hoc tolerance control clarifies the interpretation: ca-GrQc’s default gain-to-loss pattern across budgets is not robust to PageRank tolerance, whereas CollegeMsg retains its loss and wiki-Vote retains a large strict-ranking loss. The manuscript presents this qualification prominently and does not treat the 45 post-hoc conditions as independent confirmation.
+
+We believe Computing is a suitable venue because the work contributes transparent computational evaluation evidence for network algorithms. It combines frozen condition-level outputs, independent evaluation worlds, source and data hashes, replayable score checks, a scalar oracle on predetermined worlds, machine-readable analyses and supplementary tables. The accompanying novelty and evaluation summary explains the distinction from algorithm proposals, GNN methods and general-purpose benchmarking studies.
+
+All authors have read and approved the manuscript and agreed to its submission to Computing. The authors declare no competing interests. This work was supported by a provincial undergraduate innovation and entrepreneurship training project. Third-party raw datasets are not redistributed; their source records, expected hashes and download/preprocessing instructions are provided, and the reproducibility package accompanies the submission for editorial and peer-review access.
+
+Sincerely,
+
+Binbin Yong
+Corresponding author
+School of Information Science and Engineering, Lanzhou University
+Lanzhou 730000, China
+yongbb14@lzu.edu.cn

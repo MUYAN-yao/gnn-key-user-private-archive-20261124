@@ -1,0 +1,135 @@
+--- 
++++ 
+@@ -34,7 +34,7 @@
+ 
+ Selection sampling and candidate ranking enter this comparison at different stages. In the budget sweeps, increasing $W$ can change the seeds selected by both the full-candidate reference and the restricted methods. Their relative spread difference therefore reflects budget-dependent changes in both selection procedures. Ranking precision acts before selection, where small score changes can exchange vertices at the candidate-pool boundary. Seed disagreement alone cannot resolve these effects because different sets can have similar independently evaluated spread.
+ 
+-We address this evaluation problem by separating seed selection in both arms, candidate-pool construction and independent assessment of the selected seeds. The analysis asks whether an apparent budget effect survives a ranking-precision control and how reference-set changes translate into spread differences. Full and restricted selection share the propagation graph, sampled-world prefix and tie rule (Fig.~\ref{fig:evaluation-mechanism}). Independent evaluation then measures their paired utility difference. This design makes each comparison explicit while keeping seed eligibility as the only difference between the two selection arms.
++Figure~\ref{fig:evaluation-mechanism} shows the paired comparison. Both methods use the same graph, selection worlds and greedy rule. We ask whether the ranking tolerance changes the outcome of a budget comparison, how much spread changes when the seeds change, and how much selection time each restriction saves.
+ 
+ The evidence is drawn from a small, selected sample of real-world networks. Three external communication, collaboration and voting topologies test the transfer of earlier findings from four small contact graphs. The contact-graph results provide separate budget, propagation-parameter and coupling controls. A post-hoc PageRank analysis tests whether the external budget comparison depends on solver tolerance.
+ 
+@@ -57,10 +57,10 @@
+ 
+ \paragraph{Evaluation settings and the remaining question.} Li et al. survey influence-maximization methods \cite{ref9}, and Arora et al. examine their quality and computational cost in a benchmarking study \cite{ref16}. Yanchenko et al. review temporal-network formulations \cite{ref11}; Aral and Dhillon study empirical influence models \cite{ref15}. Together, these research directions place algorithm comparisons within their diffusion models, network representations and evaluation settings. Our experiments use observed topologies with simulated diffusion. They assess sensitivity within that computational setting and do not estimate realized social influence.
+ 
+-The question addressed here is how a candidate-restriction judgment depends on two numerical components: finite-world seed selection in both arms and the ranking that determines restricted eligibility. A comparison at one budget--tolerance setting does not reveal whether its conclusion persists when either component changes. We examine this dependence with paired budget and precision controls and assess seed differences on independent worlds. This extends the evaluation of quality and cost to the stability of the comparison itself. Online Resource 1 compares this question with the cited studies' stated objectives.
++For a truncated ranking, the comparison involves two computations. The ranking determines which vertices enter the search, and the sampled objective determines which eligible vertices become seeds. We vary these computations separately and measure their consequences on independent evaluation worlds.
+ 
+ \section{Methods}
+-This is a simulation-based paired evaluation study. We compare full-candidate and candidate-restricted greedy selection under shared conditions, then evaluate the resulting seed sets independently. The design separates selection-budget and ranking-precision sensitivity from candidate coverage, propagation controls and computational cost. Section~\ref{sec:experimental-setup} specifies the networks, condition matrix and execution settings.
++We compare full and restricted greedy selection on the same propagation graph. The selection objective, evaluation metric and timing procedure are defined below. Network characteristics and parameter values appear in Section~\ref{sec:experimental-setup}.
+ \subsection{Paired selection at controlled resolutions}
+ Let $G=(V,E)$ be a directed propagation graph and $S$ a seed set of size $k$. Under the independent-cascade model, each newly activated vertex gets one opportunity to activate each inactive outgoing neighbour with probability $p$. Propagation stops after $h$ rounds. For a random world $\omega$, let $f_h(S;\omega)$ denote total activated vertices, including seeds. Greedy selection uses the sampled objective
+ \begin{equation}
+@@ -140,23 +140,23 @@
+ \end{tabularx}
+ \end{table}
+ 
+-The seed count and propagation setting are held constant while selection budget, eligibility and coupling vary. Within every budget condition, both full and restricted arms use that condition's $W$. They define a finite-horizon simulation regime rather than parameters fitted to observed cascades. Resource-only preflight measured full selection at $W=80,320$ and evaluation at $M=1000$; it recorded no selected sets or utilities. Those measurements informed the feasible main matrix, whose evaluation budget is $M=10,000$. The protocol was locally frozen before main outcomes were inspected. No network or condition was excluded on the basis of its results. The external budget ceiling is 1280; the historical 5120-world study is reported separately.
+-
+-A post-hoc numerical control tightens PageRank tolerance to $10^{-12}$ with at most 1,000 iterations. Its two protocols were frozen before the corresponding new utility outputs: the first covers $W=1280$, and the second adds $W=80,320$. Together they contain 45 conditions and 90 restricted arms, reusing the original five paths, same-budget full references and evaluation worlds. At a fixed $W$, this tolerance control recomputes only the restricted arms; across $W$, it uses the full reference previously selected at each respective budget. All pools at the tighter tolerance agree in membership with those at $10^{-14}$. This comparison assesses candidate membership stability at the tested tolerances.
++The external budget sweep spans 80 to 1280 selection worlds. At each budget both arms select five seeds, with $p=.01$ and $h=3$. The historical contact-graph sweep extends to $W=5120$.
++
++The post-hoc PageRank control uses the original five paths. At each $W$, it recomputes the restricted seeds with tolerance $10^{-12}$ and at most 1,000 iterations, then compares them with the original full reference on the same evaluation worlds. The resulting candidate pools have identical membership at $10^{-12}$ and $10^{-14}$. Online Resource 1 describes the two stages of this control.
+ 
+ \subsection{Randomization, execution and reproducibility}
+ World identifiers separate graphs, paths and selection/evaluation families. Increasing $W$ appends selection worlds without resampling the prefix; the selection and evaluation identifiers are checked for overlap. Random candidate pools use a separate randomization key and remain fixed across budgets and coupling controls. Online Resource 1, ``Executable reproduction procedure'', specifies the exact hash keys, identifier construction and hash-to-draw mapping.
+ 
+-Experiments use one serial worker on Windows with Python 3.13.0, NumPy 2.3.3, NetworkX 3.5, SciPy 1.16.1 and Numba 0.68.0. BLAS/OpenMP threads are constrained to one. JIT warm-up precedes timed conditions; randomized arm order reduces systematic order effects. The recorded host has 20 physical CPU cores and approximately 32 GiB RAM, although the implementation does not use all cores. Timing and process peak-memory records accompany each condition. Exact wall times are machine-dependent.
++Experiments use one serial worker on Windows with Python 3.13.0, NumPy 2.3.3, NetworkX 3.5, SciPy 1.16.1 and Numba 0.68.0. BLAS/OpenMP threads are constrained to one. JIT warm-up precedes timed conditions; randomized arm order reduces systematic order effects. The recorded host has 20 physical CPU cores and approximately 32 GiB RAM.
+ 
+ \section{Results}
+ \subsection{An apparent budget reversal depends on ranking precision}
+-Figure~\ref{fig:precision-budget} compares PageRank at default and tighter tolerances at each selection budget, reusing the same-budget full reference for the tolerance comparison. Across budgets, both arms select anew, while the independent evaluation worlds remain fixed. On ca-GrQc, default PageRank-4k changes from a mean incremental-spread gain of 5.61\% at $W=80$ to losses of 2.53\% and 5.07\% at 320 and 1280. Tightening tolerance exchanges two of 20 candidates; the corresponding mean relative incremental-spread differences are positive at 11.25\%, 2.96\% and 0.54\%. The mean gain-to-loss reversal therefore disappears in this numerical control.
+-
+-Budget still changes selections with the pool formed at the tighter tolerance, whose membership agrees at tolerances $10^{-12}$ and $10^{-14}$. Its selected sets change on 3/5 paths from 80 to 320 and 2/5 from 320 to 1280. At $W=1280$, PageRank-4k at the tighter tolerance minus the same-budget full reference has a mean paired difference of $+0.02608$ nodes, with path values from $-0.0408$ to $+0.1789$ and path standard deviation 0.09155. The small positive mean combines positive and negative path differences. Conditional Monte Carlo uncertainty is reported separately in the per-path supplementary results.
+-
+-CollegeMsg's default- and tighter-tolerance pools, seeds and evaluations are identical at every budget, retaining losses of 9.33\%, 8.52\% and 9.01\%. On wiki-Vote, one candidate changes, but losses at the tighter tolerance remain 74.05\%, 74.05\% and 73.96\%. Precision sensitivity is therefore network-specific: it changes the ca-GrQc interpretation while preserving the two directed-network losses.
+-The exchanged candidate IDs make the precision effect explicit: IDs 1488 and 19865 leave the ca-GrQc pool, while 17655 and 6610 enter. Table~\ref{tab:precision-output} links this fixed pool change to seed-set changes and signed spread differences at all three budgets. Online Resource 1 lists every paired seed sequence and conditional Monte Carlo error. Figure~\ref{fig:precision-budget} retains the corresponding comparisons on all three networks.
++On ca-GrQc, does the direction of the PageRank-4k comparison depend on the tolerance used to rank candidates? At default tolerance, mean relative incremental spread was 5.61\% above the same-budget full reference at $W=80$, then 2.53\% and 5.07\% below it at $W=320$ and 1280. At tighter tolerance it was above the reference at all three budgets, by 11.25\%, 2.96\% and 0.54\%, respectively (Fig.~\ref{fig:precision-budget}).
++
++Tightening tolerance removed vertices 1488 and 19865 from the 20-node pool and admitted 17655 and 6610. At each budget, this exchange changed the final seed set on all five paths (Table~\ref{tab:precision-output}). At $W=1280$, the strict-minus-full spread difference averaged $+0.02608$ nodes, ranging from $-0.0408$ to $+0.1789$ across paths (SD 0.09155). Holding the strict pool fixed and increasing $W$ changed the selected set on 3/5 paths from 80 to 320 and 2/5 from 320 to 1280.
++
++CollegeMsg's default- and tighter-tolerance pools, seeds and evaluations are identical at every budget, retaining losses of 9.33\%, 8.52\% and 9.01\%. On wiki-Vote, one candidate changes, but losses at the tighter tolerance remain 74.05\%, 74.05\% and 73.96\%.
++
+ \input{precision_output.tex}
+ 
+ \begin{figure}[t]
+@@ -165,7 +165,7 @@
+ \end{figure}
+ 
+ \subsection{Changing the reference set does not determine the spread change}
+-Figure~\ref{fig:transitions} isolates full-reference transitions, comparing independently estimated spread at the higher budget minus that at the lower budget. This within-reference diagnostic is separate from the same-budget restricted-minus-full comparison. From $W=320$ to 1280, all five ca-GrQc sets change, but their mean spread change is 0.12720 nodes; individual differences range from $-0.0266$ to $+0.2411$. CollegeMsg changes one set and gains 0.05336 nodes averaged across all five paths. wiki-Vote changes no final sets and has exactly zero paired difference, although some ordered sequences change.
++For the full reference, we compared the spread of the seeds selected at $W=1280$ with that of the seeds selected at $W=320$ on each path (Fig.~\ref{fig:transitions}). All five ca-GrQc sets changed. Their mean spread change was $+0.12720$ nodes, with individual differences from $-0.0266$ to $+0.2411$. On CollegeMsg one set changed, and spread increased by 0.05336 nodes on average across all five paths. On wiki-Vote some selection orders changed, but every final set was identical across budgets and every paired spread difference was zero.
+ 
+ Of the six changed sets, four have positive pointwise 95\% conditional Monte Carlo intervals; two ca-GrQc intervals include zero. The nine unchanged sets have identical evaluation vectors.
+ 
+@@ -179,10 +179,8 @@
+ At $W=1280$, Degree-4k reproduces every full-candidate reference trajectory across the three external graphs using only 20 candidates (Table~\ref{tab:primary}). Default PageRank-4k matches none and incurs mean incremental losses of \GrqcPRLoss{}\%, \CollegePRLoss{}\% and \WikiPRLoss{}\% on ca-GrQc, CollegeMsg and wiki-Vote. The historical extension showed much broader PageRank agreement: 40/40 trajectories at $W=5120$, compared with 39/40 for degree. The external results therefore limit transfer of the contact-graph ranking result.
+ \input{primary_table.tex}
+ 
+-Table~\ref{tab:case} traces one saved input through selection and evaluation. For wiki-Vote path 1101, Degree-4k returns the same five seeds as full selection and the same total spread, 60.8455. Default PageRank-4k returns five different seeds and total spread 19.9366. Expanding its pool to 356 candidates returns total spread 47.2095. The case illustrates the outputs; the five-path means are 60.73602, 20.04268 and 47.20590, respectively. Table~\ref{tab:primary} reports their incremental counterparts and signed gaps for every external graph.
++On wiki-Vote path 1101, the 20-node Degree pool returned the same five seeds, in the same order, as the full search over 7,115 vertices (Table~\ref{tab:case}). Their mean total spread was 60.8455 nodes. With the same pool size, default PageRank selected five different seeds and reached 19.9366 nodes. Expanding its pool to 356 vertices raised spread to 47.2095. Table~\ref{tab:primary} gives the corresponding five-path comparison for each network.
+ \input{input_output_case.tex}
+-
+-
+ 
+ For the primary comparisons at the highest tested external budget, every default PageRank-4k and within-path random-4k mean difference from full selection is negative, giving unadjusted sign-test $p=.0625$ and within-graph Holm $p=.1875$. Degree-4k differences from full selection are exactly zero. Five paths limit the minimum two-sided sign-test value to .0625. The paired effect sizes, sensitivity controls and complete test results are reported in Online Resource 1.
+ 
+@@ -202,34 +200,32 @@
+ 
+ Across the 160 historical nondefault parameter conditions at $W=320$, Degree-4k and PageRank-4k reproduce 117 and 132 full-reference trajectories, respectively. Weighted-4k minus full selection has 117 negative and 43 positive paired spread differences.
+ 
+-Under historical fixed-edge sampling at $W=1280$, Degree-4k and PageRank-4k match 38/40 and 40/40 trajectories of the fixed-edge full reference, while Weighted-4k matches 5/40. The supplementary tables retain every graph and setting.
++Under historical fixed-edge sampling at $W=1280$, Degree-4k and PageRank-4k match 38/40 and 40/40 trajectories of the fixed-edge full reference, while Weighted-4k matches 5/40.
+ \FloatBarrier
+ 
+ \section{Discussion}
+-\subsection{A budget comparison can depend on candidate-pool precision}
+-The ca-GrQc reversal disappears after two candidates are exchanged by a tighter PageRank tolerance. This changes the interpretation of the default budget scan. At fixed $W$, the full reference and evaluation worlds are unchanged, so the tolerance comparison isolates the consequence of the revised restricted pool. Across $W$, both methods select anew. The remaining budget-dependent seed changes therefore concern selection within each pool, whereas the lost mean sign reversal depends on which pool is used. The positive strict-tolerance mean at $W=1280$ also combines positive and negative path differences; it does not establish a uniform advantage.
+-
+-StaticGreedy uses shared fixed realizations to maintain a consistent sampled objective \cite{ref8}. The present comparison adds an earlier computational step: numerical ranking determines eligibility before that objective is searched. Fixing the sampled worlds cannot hold eligibility constant when the truncated ranking changes. The two controls answer different questions and both matter for interpreting this example. Our fixed-edge control follows the coverage construction; the step-indexed objective has the finite-sample limitation described in Methods. These sampled objectives must be distinguished from the expected-spread guarantee of Kempe et al. \cite{ref1}.
+-
+-\subsection{Seed differences need an independent utility scale}
+-On ca-GrQc, all five reference sets change between $W=320$ and 1280, yet their mean spread change is 0.12720 nodes. On wiki-Vote, some selection orders change while the final sets and evaluated spread remain identical. These observations separate two sources of apparent instability: changing the order of the same seeds and changing the seeds themselves. Even in the latter case, the signed utility difference requires measurement. The historical mean of 0.01111 nodes accompanies 16 changed sets across 40 pairs and includes both positive and negative changes.
+-
+-Quality--cost benchmarking compares achieved influence with computation \cite{ref16}. Here, reporting the actual spread alongside agreement distinguishes preservation of the sampled solution from similarity in utility. The wiki-Vote example makes the distinction concrete: the degree pool reproduces the reference seeds, whereas the PageRank pools return different seeds and lower spread. Across all five paths, enlarging the default PageRank pool raises mean total spread from 20.04268 to 47.20590, against 60.73602 for full selection. An agreement count alone would miss the size of that recovery.
+-
+-\subsection{Coverage and direction explain different parts of the comparison}
+-The default wiki-Vote PageRank-4k pool excludes every full-reference seed at $W=1280$; the 5\% pool contains only one. Reproducing the full set is therefore impossible within either pool. Increasing coverage still reduces incremental loss from 73.01\% to 24.28\%, showing that membership overlap and recovered utility describe different outcomes. The degree pool contains and selects the reference seeds with only 20 candidates. Pool size alone does not explain the contrast between the two rankings.
+-
+-The structural diagnostic is consistent with the direction of the ranking and propagation: PageRank candidates have higher mean in-degree, while degree candidates have higher mean out-degree. Diffusion follows outgoing arcs in this experiment. Because direction was not intervened on, this remains an explanation consistent with the observations rather than an isolated causal effect. The simulated objective also differs from estimating influence from observed adoption, as in empirical influence modelling \cite{ref15}.
+-
+-Selection-time savings have different meanings for these outputs. Degree-4k saves time while reproducing the tested reference; the PageRank savings accompany the reported spread losses. Setup and independent evaluation reduce the savings when included in assembled costs. The relevant comparison therefore depends on whether a user needs seed selection with prepared worlds or the full evaluated workflow.
+-
+-\subsection{Scope and unresolved comparisons}
+-The external sample comprises three graphs with $k=5$, $p=.01$, $h=3$ and $W\le1280$. Historical contact graphs extend parameter and coupling coverage, but do not establish the same sensitivity on larger directed networks. At historical $k=20$, Kenya's 4k pool is the complete 75-node graph and invs2013 retains 80/91 vertices. These high-coverage cases provide limited evidence for aggressive candidate reduction.
+-
+-The precision control is post-hoc and reuses the original five paths. Paths describe computational variation on each graph; conditional Monte Carlo errors describe fixed seed sets. Reference agreement is with a sampled greedy solution, and timings compare this implementation's exhaustive selection. The saved experiments leave two specific explanations unresolved: whether the external precision result persists under fixed-edge coupling, and whether changing propagation direction changes the directed-network ranking contrast. Wider external probability and horizon settings would also be required to assess transfer of the historical parameter controls.
++\subsection{Why the ca-GrQc comparison changes sign}
++At default PageRank tolerance, a budget sweep on ca-GrQc would rank the restricted method above the full reference at the lowest budget and below it at the highest. Two candidate substitutions were enough to change that judgment. At fixed $W$, the full reference, sampled objective and evaluation worlds were common to both tolerance settings. The sign reversal therefore depended on which vertices were eligible. Increasing $W$ still changed seeds within the tighter pool, and at the highest budget its spread differences lay on both sides of zero.
++
++StaticGreedy fixes sampled realizations during the search \cite{ref8}. In our comparisons the same sampling control applies to both arms, but ranking and truncation precede the search. Reporting the candidate IDs at the cutoff makes this earlier source of variation visible.
++
++\subsection{When a different sequence changes spread}
++Seed order records the decisions made by greedy search. The diffusion model instead takes the final set as its input. On wiki-Vote, a change in order therefore left every evaluation count unchanged when the two budgets returned the same set. A change in membership admits a different outcome: on ca-GrQc the higher-budget sets reached more nodes on some paths and fewer on others. The relevant quantity for seeding is the paired spread difference on each path.
++
++\subsection{Candidate coverage and the cost of exclusion}
++On wiki-Vote, the default PageRank top 20 excluded all five reference seeds. Among the top 356 candidates, one reference seed became eligible. Although the expanded pool could still reproduce at most one reference seed, its five-path mean total spread rose from 20.04268 to 47.20590 nodes, against 60.73602 for the full reference.
++
++The two 20-node pools differ in how they sample the directed graph. The PageRank candidates receive many votes, whereas the degree candidates have many distinct outgoing neighbours. Since the simulator propagates from voter to votee, the observed loss is consistent with this directional difference. Reversing the propagation direction on the same topology would directly test that interpretation.
++
++Arora et al. compare the spread and running time of influence-maximization methods \cite{ref16}. Here the timing comparison has a specific interpretation: Degree-4k eliminated most candidate evaluations while retaining the reference sequence on all 15 highest-budget paths. For default PageRank-4k on wiki-Vote, restricting the search to the same number of candidates incurred a 73.01\% mean incremental-spread loss. Table~\ref{tab:cost} separates time spent selecting seeds from costs that also include preparation and evaluation.
++
++\subsection{Scope of the comparisons}
++The external comparisons concern three observed topologies under simulated diffusion with $k=5$, $p=.01$, $h=3$ and $W\le1280$. The historical contact graphs probe other probabilities, horizons and seed counts. Their candidate coverage can be much larger: at $k=20$ the Kenya pool includes every vertex, and invs2013 retains 80/91. Agreement at these cutoffs has a different interpretation from agreement with a 20-node pool on wiki-Vote.
++
++The post-hoc tolerance comparison uses the five original paths under step coupling. A paired comparison of both tolerances under fixed-edge sampling would establish whether the ca-GrQc finding persists under that world construction.
+ 
+ \section{Conclusion}
+-The paired comparisons identify a ranking-precision dependence in a budget-based quality judgment and quantify the spread consequences of seed changes. On ca-GrQc, the default mean reversal disappears after the candidate pool changes under tighter tolerance; budget-dependent seed changes remain. Independent evaluation distinguishes these changes from their signed utility effects. On the external networks, degree pools preserve the highest-budget reference at lower selection cost, while PageRank illustrates losses and partial recovery through greater coverage. For the tested simulation settings, reporting candidate membership, both methods' selection budget, independent spread and scoped costs makes the quality of candidate compression assessable.
++On ca-GrQc, exchanging two vertices at the PageRank cutoff removed the mean sign reversal across selection budgets. On wiki-Vote, enlarging the candidate pool recovered part of the lost spread despite retaining only one reference seed. These cases motivate reporting the candidates admitted by a ranking and the spread of the seeds actually chosen. Across the three external graphs, Degree-4k reproduced the highest-budget reference sequences at lower measured selection cost.
+ 
+ \paragraph{Supplementary information.} Online Resource 1 contains the external result matrix, precision and direction diagnostics, loss--cost curves, and separate historical coverage, parameter, coupling and secondary-control tables with reproducibility details.
+ \section*{Statements and Declarations}

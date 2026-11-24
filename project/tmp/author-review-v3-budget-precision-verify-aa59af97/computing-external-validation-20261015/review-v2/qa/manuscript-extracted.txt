@@ -1,0 +1,873 @@
+Computing manuscript No.
+(will be inserted by the editor)
+Candidate-Restricted Influence Maximization: Reference
+Resolution, Coverage, and External Validation
+Jiayue Sun · Binbin Yong · Junjie An ·
+Tianyu Bo · Shuai Li
+Abstract Candidate restriction accelerates greedy influence maximization, but its
+apparent quality depends on the simulated reference, ranking and eligible fraction.
+We evaluate these dependencies using nested selection worlds, disjoint utility evalu-
+ation, trajectory records and measured costs. Historical evidence comprises 42 initial
+conditions and a separate 520-condition extension. A locally frozen external valida-
+tion adds 54 conditions and 468 arm executions on communication, collaboration and
+voting topologies with 1,438–7,115 vertices. It uses five paths, selection budgets of
+80, 320 and 1,280 worlds, and 10,000 evaluation worlds per path, with a fixed-edge
+coupling control. At 1,280 worlds, outgoing-degree pools of 20 candidates reproduce
+all 15 full-greedy trajectories. Default-tolerance PageRank pools instead lose 5.07%,
+9.01% and 73.01% of incremental spread on the collaboration, communication and
+voting graphs. A separately frozen post-hoc precision control changes the collabo-
+ration difference from −0.25082 to +0.02608 nodes, while the communication loss
+remains unchanged and the voting loss reaches 73.96%. Increasing coverage to 5%
+still leaves a 24.47% voting loss under tightened tolerance. Between 320 and 1,280
+worlds, six reference sets change, with differing utility changes. Incoming PageRank
+importance and outgoing simulated diffusion have different orientations; numerical
+tolerance is an additional consequential implementation choice. Score and evaluation
+replay support graph-specific quality–cost descriptions, not convergence, practical
+equivalence or a universally safe restriction size.
+Keywords influence maximization · Monte Carlo simulation · candidate restriction ·
+evaluation methodology · reproducibility
+Jiayue Sun
+School of Artificial Intelligence, Lanzhou University, Lanzhou 730000, China
+Binbin Yong (corresponding author)
+School of Information Science and Engineering, Lanzhou University, Lanzhou 730000, China
+E-mail: yongbb14@lzu.edu.cn
+Junjie An, Tianyu Bo and Shuai Li
+Lanzhou University, Lanzhou, China
+
+2
+Jiayue Sun et al.
+Author-review status. Names, affiliations and contact details above are inherited from
+the preceding draft and await author verification. Declarations below are pending; this
+document is not approved for submission.
+1 Introduction
+Greedy influence maximization selects seeds by estimating how much additional dif-
+fusion each candidate could generate [1]. Restricting the eligible candidates reduces
+that search. Evaluating the restriction, however, requires a computational reference,
+and full eligibility with a finite simulation budget is itself an estimated greedy proce-
+dure. Its selected sequence can change when the number of sampled worlds changes.
+Reproducing that sequence, retaining independent spread, and reducing execution
+cost are three different outcomes.
+This distinction matters when small-network results are used to justify restrictions
+on larger graphs. A pool of 4k candidates may cover most of a small graph but less
+than one percent of a larger one. A ranking that prioritizes frequent contacts can
+disagree with one that prioritizes distinct outgoing neighbours. On a directed graph,
+standard PageRank emphasizes incoming importance, whereas a seed’s simulated
+influence follows outgoing arcs. Agreement on contact graphs cannot resolve these
+differences.
+Sampling accuracy and computational efficiency are established topics in influ-
+ence maximization [2–5]. We do not claim a new optimization algorithm or a new
+general discovery that Monte Carlo references can vary. Instead, we ask which em-
+pirical claims survive when candidate eligibility, reference resolution, independent
+utility and cost are evaluated together, and when observations on small contact graphs
+are checked on different real topologies.
+The study has three contributions. First, it links reference-set changes to paired in-
+dependent utility changes under nested selection budgets. Second, it tests the transfer
+of simple ranking results to communication, collaboration and voting graphs while
+controlling actual coverage and random-world coupling. Third, it supplies traceable
+per-world outputs, integer score matrices, resource measurements and descriptive
+loss–cost curves, with an explicit audit of input identity and timing scope. These
+contributions concern evaluation evidence and reproducible diagnosis. They do not
+establish optimality, a learned selector, a new approximation bound or superiority
+over efficient influence-maximization algorithms.
+2 Related work and positioning
+The classical independent-cascade formulation relates expected reach to seed selec-
+tion and provides greedy approximation results under suitable objective assumptions
+[1]. CELF reduces redundant marginal evaluations using objective structure [6]; Stat-
+icGreedy reuses fixed realizations [3]; IMM uses a distinct sampling and guarantee
+framework [2]. Our exhaustive per-round reference isolates eligibility effects without
+transferring those algorithms’ guarantees to a different finite-world objective.
+
+Reference resolution and external validation
+3
+Candidate selection has been studied using local structure, including the
+neighbour-scale approach in Computing [7], and metaheuristic search [8]. In-
+ductive spread estimation, such as MONSTOR+, changes the estimator using learned
+predictions on unseen graphs [9]. We retain the simulator and vary seed eligibility.
+Consequently, the baselines here answer an attribution question, not a ranking of
+those published systems. Adding a trained model would require a separate training,
+validation and cross-graph testing design.
+Benchmarking work illustrates the importance of comparable settings and im-
+plementation scope [5]. Temporal-network influence maximization models temporal
+structure explicitly [10]; aggregating an event prefix does not do so. Empirical in-
+fluence estimation also requires evidence beyond observed proximity or interaction
+[11]. All diffusion outcomes in this paper are simulations on observed or synthetic
+topologies. Messages, contacts and votes are not treated as observed information cas-
+cades.
+Our joint diagnostic is narrower than a comprehensive benchmark: it documents
+how exact reference reproduction, independently evaluated reach and attributed costs
+respond to budget and ranking on specified graphs. The external validation tests the
+scope of the historical observations, including results that contradict an unrestricted
+generalization of PageRank’s earlier agreement.
+3 Methods
+3.1 Diffusion, eligibility and finite-world greedy selection
+Let G = (V,E) be a directed graph. A seed set S of size k is active initially. Each
+newly activated vertex has one opportunity to activate each inactive outgoing neigh-
+bour, independently with probability p. Propagation stops after h rounds. Let fh(S;ω)
+include the seeds in total spread. The finite-world selection objective is
+bσW(S) = 1
+W
+W
+∑
+w=1
+fh(S;ωw).
+(1)
+Given eligibility pool C ⊆V, each greedy round enumerates all unselected vertices
+in C and chooses the one maximizing the integer total W bσW. Equal totals resolve
+by lexicographic original node ID. Restriction changes only seed eligibility: all arms
+propagate on the same complete processed graph. Full greedy means C = V; it is
+neither enumeration of all size-k sets nor exact optimization of expected influence.
+The main external setting is k = 5, p = .01,h = 3. Degree ranks distinct outgoing
+neighbours. PageRank is unweighted on the directed topology, with NetworkX 3.5
+defaults: damping .85, uniform personalization and dangling-node treatment, toler-
+ance 10−6 and at most 100 iterations [12]. Iteration stops when successive vectors
+differ in L1 norm by less than n times the tolerance. Scores are sorted decreasingly,
+with lexical ties. This is the ranking produced by the specified stopping rule, not a
+certified exact PageRank ordering. Historical weighted degree is the number of out-
+going observed events in the retained history; it is used only when those event counts
+exist.
+
+4
+Jiayue Sun et al.
+The fixed multiplier pool contains min(n,4k) = 20 nodes. The coverage pool con-
+tains ⌈.05n⌉nodes. Three uniformly permuted random pools of size 20 are indepen-
+dently generated within each graph/path, then held fixed across budgets and coupling
+controls. We do not assign artificial event counts to static networks. On undirected
+data, observed links are converted to reciprocal arcs; this conversion is explicit.
+3.2 Random-world coupling and its scope
+Primary worlds hash the world identifier, propagation step, source index and tar-
+get index. They share draws across arms within a condition. This step-indexed cou-
+pling gives each fixed seed set the intended independent-cascade marginal law, but
+its realized finite-world objective need not be monotone in the seed set. For a chain
+s →u →v with horizon two, take a world in which s →u is open at step zero, u →v is
+closed at step zero and open at step one. Starting from {s} reaches all three vertices;
+starting from {s,u} activates u too early to reach v and reaches two. This counterex-
+ample does not by itself disprove submodularity.
+The separately labelled fixed-edge control hashes an edge once per world. Each
+resulting finite objective is coverage by nodes reachable within h edges and is mono-
+tone and submodular. Both controls use per-round exhaustive enumeration; no CELF
+or pruning is used. Fixed-edge results are not silently substituted for the historical
+step-coupled experiment.
+World IDs derive from a frozen namespace and the graph, path, family and index.
+Selection IDs are nested prefixes as W increases. Evaluation uses a disjoint fam-
+ily with M = 10,000 worlds per path; its IDs are held across budgets. Shared IDs
+do not make different coupling schemes identical worlds. Separate randomization
+keys generate candidate pools and arm order. The complete external ID set contains
+169,200 distinct identifiers, checked for collisions across graphs, paths and selec-
+tion/evaluation families.
+3.3 Metrics and statistical units
+We report ordered-trajectory agreement, final-set agreement, Jaccard similarity and
+the first one-based divergent round. Identical sequences have first-divergence code
+zero. An independent paired difference on world i is di = fh(SC;ηi) −fh(SV;ηi),
+with
+b∆= 1
+M ∑
+i
+di,
+SEMC = s(di)/
+√
+M.
+(2)
+The normal interval b∆± 1.96SEMC is conditional on the selected sets and the sim-
+ulated graph/model. It does not quantify selection-path uncertainty. Total spread in-
+cludes seeds; incremental spread subtracts k. Incremental loss is −100 b∆/(bσfull −k)
+percent. All observed denominators are positive. Negative loss denotes a measured
+gain against the finite reference.
+Three random-pool evaluation vectors are averaged within each path before com-
+puting a paired difference and its conditional standard error. Across-path summaries
+
+Reference resolution and external validation
+5
+then use five path means (three in the coupling control). Reported path standard de-
+viations include realized evaluation noise as well as selection changes; they do not
+isolate selection variance. Post-hoc descriptive t intervals are supplied in the machine-
+readable tables and labelled separately. Neither worlds, paths nor conditions are in-
+dependent real-network samples.
+The frozen primary family compares degree-4k, PageRank-4k and the within-
+path random mean with full greedy at W = 1280, separately for each graph. Two-
+sided exact sign tests exclude and report zero differences. Holm correction covers
+three comparisons within each graph. These tests address sign balance across com-
+putational paths, not the mean effect or a network population. Coverage and coupling
+summaries, structural diagnostics and pointwise transition intervals are descriptive.
+Tolerance curves use the frozen levels 0, 1, 2.5, 5, 10 and 20% of incremental spread.
+No application justifies selecting one as acceptable; crossing zero or failing to reject
+a sign test does not establish equivalence or noninferiority.
+3.4 Implementation audit and timing
+The adapter imports the previous exhaustive Numba core byte-for-byte. Selection
+uses integer totals; earlier micro-unit rounding is consistent with these totals at the
+studied budgets. Frozen outputs preserve selected IDs, eligibility pools, every round’s
+candidate totals, tie counts, margins and every evaluation-world spread. The author-
+review audit independently reconstructs the graph from gzip text, checks source,
+graph and result hashes and candidate identities, regenerates full greedy score ma-
+trices and all evaluation arrays, and checks a separate scalar Python oracle for hash-
+ing and diffusion on predetermined evaluation worlds. Matching seed sets must have
+identical per-world values.
+Two record qualifications are disclosed. The original entry point checked the
+frozen data-manifest file but did not enforce its raw-file hashes before running; the
+retrospective audit compares actual bytes with both the frozen manifest and every
+result’s recorded hashes. The new reproduction wrapper enforces those hashes first.
+Also, archived graph preparation includes all rankings and diagnostic metadata.
+Adding recorded ranking time again would double count it. Neither frozen code nor
+raw results were edited to address these reporting issues.
+Selection timings exclude world preparation, graph setup and evaluation. For
+a warm-process deployment estimate, we add a separate post-hoc five-repeat mea-
+surement of parsing, compressed-sparse-row construction and one method’s rank-
+ing/pool construction to the frozen selection-world preparation and selection time. A
+verification-inclusive estimate further adds independent-world preparation and evalu-
+ation. These assembled costs are hybrid estimates, not directly timed end-to-end runs.
+Imports, just-in-time compilation, downloading and output writing are excluded. Five
+additional randomized frozen repeats at path 1101, W = 320 check timing variabil-
+ity and deterministic outcomes. Reported peak memory is the psutil process-lifetime
+peak, not a reset per-condition allocation.
+
+6
+Jiayue Sun et al.
+3.5 AI assistance and human review
+OpenAI Codex assisted code development, verification scripts, analysis, figure gen-
+eration and manuscript drafting in this revision. Outputs are linked to frozen records
+and executable scripts. This assistance does not constitute human scientific approval.
+The authors must confirm the complete disclosure, check interpretations and take
+responsibility for the final manuscript before submission.
+4 Evidence layers and data
+4.1 Historical studies
+The first archived study has 42 conditions and 168 arm executions, using two paths,
+W = 20,80,320 and M = 2000. Its later diagnostics are historical exploratory evi-
+dence. A separate locally frozen extension has 520 conditions and 4,680 arm execu-
+tions, ten paths on four contact-derived graphs, budgets up to 5120 and M = 10,000.
+It includes alternative rankings, propagation parameters, seed budgets, coupling con-
+trols and two 2,000-node synthetic graphs. Neither layer is public preregistration.
+Contact data originate from the InVS workplace, SFHH conference and rural
+Kenya studies [13–16]. Retaining the first 65% of complete timestamp groups yields
+91, 212, 402 and 75 nodes, respectively. The synthetic controls use preferential
+attachment and a four-block stochastic block model [17, 18]. Their topology-
+derived weights are not independent historical-event evidence. These layers remain
+immutable and their complete results accompany the local reproduction materials.
+4.2 External topologies and preprocessing
+The external set was chosen before inspecting its seeds or utilities, using source
+provenance, structural diversity and larger graph size. Public SNAP files provide
+the three topologies [19]. Outcome-blind resource preflight persisted timing/resource
+records rather than selected sets or utility. It used W = 80,320 and M = 1000. That
+preflight is not part of the main utility evidence.
+Table 1 Frozen external topologies. Arcs are directed propagation arcs after preprocessing. The coverage
+pools use ⌈.05n⌉. The raw ca-GrQc page counts 5,242 nodes; see the endpoint rule in the text.
+Graph
+Nodes
+Arcs
+4k fraction
+5% pool
+CollegeMsg
+1,438
+13,397
+1.391%
+72
+ca-GrQc
+5,241
+28,968
+0.382%
+263
+wiki-Vote
+7,115
+103,689
+0.281%
+356
+CollegeMsg records sender, receiver and timestamp [20]. We retain the first
+⌊.65T⌋unique timestamp groups, where T = 58,911, including all rows through
+Unix timestamp 1085640224. This yields 38,939 non-self message events and the
+
+Reference resolution and external validation
+7
+topology in Table 1. Historical weighting counts messages emitted by each source.
+Diffusion uses uniform p on distinct retained directed pairs, not a message-frequency
+transmission model. The unused later events are not held-out influence cascades.
+ca-GrQc is an undirected coauthorship network [21]. Self-loops are removed,
+pairs deduplicated and reciprocal arcs constructed. Frozen code collects vertices from
+non-self edges, giving 5,241 vertices. Raw node 12295 appears only in a self-loop and
+is consequently absent. The pre-outcome manifest already recorded this size/hash, al-
+though the prose phrase “nodes appearing in edges” was ambiguous about filtering
+order. We explicitly report the implemented endpoint rule rather than asserting reten-
+tion of the entire raw node universe. Reinserting an isolate changes lexical indices
+and hash draws, so no identical-path claim is made for a 5,242-node representation.
+wiki-Vote has arcs from voters to users voted upon [22, 23]. Outgoing propa-
+gation is a simulation convention, not evidence that votes transmit adoption in that
+direction. This direction differs from incoming PageRank importance. Neither static
+file supplies event counts or observed cascades, and neither receives a historical-
+weighted ranking. The three processed graphs have, respectively, 2, 354 and 24 weak
+components; all retained components are included, with no outcome-based subgraph
+selection.
+4.3 Frozen external matrix
+The primary resolution matrix contains 3×5×3 = 45 conditions: three graphs, paths
+1101–1105, and W = 80,320,1280 under step coupling. Nine further conditions use
+fixed-edge coupling at W = 320 on paths 1101–1103. Every condition evaluates full,
+degree-4k, PageRank-4k, degree-5%, PageRank-5% and three random-4k pools. Col-
+legeMsg additionally evaluates historical-weighted 4k and 5% pools. This yields 54
+conditions and 468 executed arms, all retained. Each uses 10,000 independent evalu-
+ation worlds.
+The external study does not reach W = 5120. Its purpose is a bounded compari-
+son over the frozen budgets, not convergence assessment. Higher-budget convergence
+claims have therefore been removed instead of adding an outcome-conditioned exten-
+sion. The post-hoc audit and setup timings do not create new confirmatory paths. Data
+selection, original source hashes, processed graph hashes, code snapshot, full config-
+uration and result indices are retained separately from this author-review version.
+The audit detected changed PageRank candidates when tightening numerical tol-
+erance. A separate post-hoc protocol was then frozen before inspecting the resulting
+diffusion outcomes. It reruns both PageRank pool sizes at tolerance 10−12, with at
+most 1,000 iterations, on all three graphs and all five original W = 1280 paths. Pool
+membership also agrees at 10−14. These 15 auxiliary conditions and 30 restricted-arm
+executions reuse the original graph, worlds and full references to isolate ranking pre-
+cision; they do not add independent paths or modify the prespecified testing family.
+Original results are preserved.
+
+8
+Jiayue Sun et al.
+5 Results
+5.1 External validation limits transfer of ranking results
+Table 2 reports the frozen primary external results. At W = 1280, degree-4k exactly
+reproduces all five ordered references on each graph, using only 20 eligible vertices.
+Default-tolerance PageRank-4k matches none of those trajectories and has mean
+paired differences of -0.25082, -0.90780 and -40.69334 on ca-GrQc, CollegeMsg and
+wiki-Vote. Corresponding incremental losses are 5.07, 9.01 and 73.01 percent. Every
+default-tolerance PageRank-4k path difference is negative. The numerical-precision
+qualification below is necessary for interpreting these values.
+Table 2 Frozen external results at W = 1280, five paths per graph. PageRank uses a 20-node pool and de-
+fault solver tolerance. Loss is normalized by full-reference spread beyond the five seeds. Degree agreement
+is ordered-trajectory agreement.
+Graph
+Full extra
+PR difference
+PR loss (%)
+Degree
+ca-GrQc
+4.934
+-0.25082
+5.07
+5/5
+CollegeMsg
+10.072
+-0.90780
+9.01
+5/5
+wiki-Vote
+55.736
+-40.69334
+73.01
+5/5
+These findings contrast with the historical contact-graph extension, where
+PageRank-4k reproduced 40/40 ordered references at W = 5120 and degree-4k
+reproduced 39/40. The external results retain degree agreement at the tested highest
+budget but prevent generalizing the earlier PageRank result across topology, direction
+and coverage. They do not show that every restricted method loses utility, or that
+degree is expected-optimal.
+The primary sign-test result is equally explicit. Each PageRank and random-mean
+comparison has five negative path differences, unadjusted p = .0625 and within-graph
+Holm p = .1875. Degree comparisons have five exact zeros and assigned p = 1. With
+five paths, the prespecified two-sided sign test cannot attain .05 even when every
+nonzero sign agrees. Thus no primary comparison is declared significant after correc-
+tion. This test-resolution limit is reported alongside measured effects, not interpreted
+as equivalence or absence of a loss.
+5.2 Coverage and orientation qualify the PageRank interpretation
+At the frozen default tolerance, increasing PageRank eligibility to 5% restores ca-
+GrQc’s five ordered references at W = 1280. CollegeMsg’s mean loss falls from 9.01
+to 4.28 percent, while wiki-Vote’s falls from 73.01 to 24.28 percent (Fig. 1). Greater
+coverage helps within this implementation but does not establish a universal frac-
+tion. Historical-weighted CollegeMsg pools have mean difference −0.25224 at 4k,
+whereas the 5% pool reproduces the full references. Fixed 4k and fixed coverage
+therefore answer different questions.
+
+Reference resolution and external validation
+9
+80
+320
+1280
+0
+20
+40
+60
+80
+100
+Incremental loss (%)
+a  ca-GrQc
+Degree 4k
+PageRank 4k
+PageRank 5%
+Random 4k mean
+80
+320
+1280
+0
+20
+40
+60
+80
+100
+Incremental loss (%)
+b  CollegeMsg
+80
+320
+1280
+Selection worlds W
+0
+20
+40
+60
+80
+100
+Incremental loss (%)
+c  wiki-Vote
+Fig. 1 Frozen main-matrix incremental loss relative to each budget’s full reference; PageRank uses default
+tolerance. Points are means of five computational paths; bars are path standard deviations. Random-pool
+repeats are averaged within each path first. Negative loss denotes independently measured gain against the
+finite reference. Graph panels retain a common percentage scale. Complete method summaries and source
+data accompany Online Resource 1
+
+10
+Jiayue Sun et al.
+The post-hoc precision control changes a substantive interpretation. Tightening
+PageRank tolerance replaces two of the 20 ca-GrQc candidates and changes all five
+selected sets; its mean difference becomes +0.02608 rather than −0.25082. Individ-
+ual tightened differences range from −0.0408 to +0.1789, and none of its ordered
+traces matches full greedy. The positive mean does not establish superiority or equiv-
+alence. Thus the original small loss cannot be presented as a precision-robust property
+of PageRank or explained only by pool size. CollegeMsg’s candidates and selected
+sets remain unchanged. On wiki-Vote, tightening replaces one candidate in each pool
+size: the 4k mean difference becomes −41.21970 (73.96% incremental loss), and
+the 5% difference becomes −13.63982 (24.47%). The prominent directed-network
+loss therefore survives this precision check, whereas the collaboration result requires
+qualification. Complete auxiliary outputs and comparisons appear in Online Resource
+1.
+Post-hoc structural diagnostics give a concrete direction-related explanation for
+wiki-Vote. Its default-tolerance PageRank top 20 have mean in-degree 249.75 and
+out-degree 56.2; its degree top 20 have mean in-degree 70.3 and out-degree 489.25.
+The former contain none of the five full-reference seeds on any W = 1280 path.
+Even the default PageRank 5% pool contains only one of those five seeds. These
+are candidate-coverage facts under the observed orientation. They are consistent with
+a mismatch between incoming importance and outgoing propagation, but a reverse-
+orientation intervention was not performed and causality is not isolated. The recip-
+rocal ca-GrQc precision result further demonstrates that ranking accuracy must be
+separated from directional interpretation.
+5.3 Reference-set changes are not interchangeable with utility changes
+Table 3 and Fig. 2 separate changes in the full reference from changes in indepen-
+dently evaluated spread. Between 320 and 1280, all five ca-GrQc sets change; mean
+gain is 0.12720 nodes, with individual changes from −0.0266 to +0.2411. Col-
+legeMsg changes one set, with mean gain 0.05336 across all five paths. wiki-Vote
+changes no final sets and has exactly zero paired gain. It does change some ordered
+sequences: final-set agreement and trajectory agreement must remain distinct.
+Table 3 Full-reference transitions under step coupling. Gain is the paired independent change in total
+spread; seed counts are constant. The range is across paths, not a confidence interval.
+Graph
+Budgets
+Set changed
+Mean gain
+Path range
+ca-GrQc
+80–320
+5/5
++0.39616
++0.1819, +0.6139
+ca-GrQc
+320–1280
+5/5
++0.12720
+-0.0266, +0.2411
+CollegeMsg
+80–320
+2/5
++0.09994
++0.0000, +0.2855
+CollegeMsg
+320–1280
+1/5
++0.05336
++0.0000, +0.2668
+wiki-Vote
+80–320
+0/5
++0.00000
++0.0000, +0.0000
+wiki-Vote
+320–1280
+0/5
++0.00000
++0.0000, +0.0000
+
+Reference resolution and external validation
+11
+Of the six changed final sets in this adjacent-budget comparison, four have posi-
+tive pointwise 95% conditional Monte Carlo intervals. Two ca-GrQc intervals include
+zero. These unadjusted diagnostics do not determine application-specific importance.
+The nine unchanged sets have identical evaluation vectors, which gives exact zero
+paired differences rather than noisy estimates of differences between two separate
+runs.
+At lower resolution, ca-GrQc’s default-tolerance PageRank-4k mean difference
+changes from positive at W = 80 to negative at W = 1280. Thus a low-budget refer-
+ence alters apparent quality for this named implementation on a new topology. This
+observation must not be transferred to the tightened solver, which was tested only at
+W = 1280. It is also not universal: wiki-Vote’s set-level reference and large default
+PageRank loss persist across the main budgets. The historical extension’s separate
+1280-to-5120 comparison changed 16/40 sets while gaining only 0.01111 nodes on
+average. That historical result cannot certify external stability at 1280.
+5.4 Coupling and computational cost
+The preselected fixed-edge control does not remove the main PageRank loss pat-
+tern. At W = 320, its mean differences are −0.16240 for ca-GrQc, −0.93417 for
+CollegeMsg and −40.57597 for wiki-Vote. Degree-4k reproduces the fixed-edge ref-
+erence on all three CollegeMsg and wiki-Vote paths, but only one of three ca-GrQc
+paths. The three-path control is too narrow to conclude that coupling never matters. It
+supports reporting the coupling choice explicitly, as motivated by Section 3.2. Online
+Resource 1 contains the complete control results.
+Table 4 distinguishes raw selection savings from hybrid verification-inclusive es-
+timates. At W = 1280, degree-4k reduces measured selection time by 98.40–99.67%
+relative to exhaustive full eligibility. Charging relevant setup, both world families
+and independent evaluation reduces the estimated saving to 86.59–96.26% across the
+graphs. These are comparisons with this implementation’s exhaustive reference, not
+with optimized influence-maximization systems or a production service.
+Table 4 Degree-4k cost atW = 1280. Seconds are frozen selection measurements averaged over five paths.
+Verification savings use the separately measured setup plus frozen world, selection and evaluation times;
+they are hybrid estimates, not direct end-to-end trials.
+Graph
+Full (s)
+Degree (s)
+Selection (%)
+Verify (%)
+ca-GrQc
+23.53
+0.109
+99.54
+92.77
+CollegeMsg
+5.89
+0.094
+98.40
+86.59
+wiki-Vote
+158.94
+0.520
+99.67
+96.26
+Figure 3 combines descriptive tolerance eligibility with the verification-inclusive
+cost scenario. Degree-4k passes even the zero point-estimate loss threshold on ev-
+ery highest-budget path. PageRank-4k passes all paths at 10% on ca-GrQc and Col-
+legeMsg, but none at 20% on wiki-Vote. At 5% coverage, PageRank passes zero loss
+on ca-GrQc and 5% loss on CollegeMsg; it still passes no wiki-Vote path at 20%.
+
+12
+Jiayue Sun et al.
+ca-GrQc
+CollegeMsg
+wiki-Vote
+0.0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+Full-reference spread change
+a  W: 80 to 320
+ca-GrQc
+CollegeMsg
+wiki-Vote
+Five selection paths per graph (1101–1105)
+0.0
+0.1
+0.2
+0.3
+Full-reference spread change
+b  W: 320 to 1280
+Fig. 2 Full-reference paired spread changes for adjacent budgets. Each graph contributes paths 1101–1105
+from left to right. Filled circles mark changed final sets; hollow squares mark unchanged sets. Bars are
+unadjusted 95% normal conditional Monte Carlo intervals from 10,000 paired worlds. Panels use different
+vertical ranges to display the measured changes; these are not across-network confidence intervals
+None of the random-pool path means passes 20%. These observations show why a
+large cost reduction alone cannot justify a restriction. They do not guarantee future
+loss tolerances.
+The frozen main-condition elapsed times sum to 30.65 minutes, including re-
+peated timings. The maximum saved psutil process peak is 3.449 GiB, substantially
+above the smaller-world preflight. Negative values once displayed by a separate Pow-
+erShell diagnostic are not treated as experiment memory or given an unverified over-
+flow explanation. Raw timing repetitions, setup measurements, memory records and
+exclusions are available in the supplementary tables and local archive.
+
+Reference resolution and external validation
+13
+0
+1
+2.5
+5
+10
+20
+Degree 4k
+(92.8% saved)
+PageRank 4k
+(92.7% saved)
+PageRank 5%
+(88.1% saved)
+Random 4k mean
+(93.0% saved)
+5/5
+5/5
+5/5
+5/5
+5/5
+5/5
+0/5
+0/5
+0/5
+2/5
+5/5
+5/5
+5/5
+5/5
+5/5
+5/5
+5/5
+5/5
+0/5
+0/5
+0/5
+0/5
+0/5
+0/5
+a  ca-GrQc
+0
+1
+2.5
+5
+10
+20
+Degree 4k
+(86.6% saved)
+PageRank 4k
+(86.4% saved)
+PageRank 5%
+(82.8% saved)
+Random 4k mean
+(87.7% saved)
+5/5
+5/5
+5/5
+5/5
+5/5
+5/5
+0/5
+0/5
+0/5
+0/5
+5/5
+5/5
+0/5
+0/5
+0/5
+5/5
+5/5
+5/5
+0/5
+0/5
+0/5
+0/5
+0/5
+0/5
+b  CollegeMsg
+0
+1
+2.5
+5
+10
+20
+Descriptive incremental-loss tolerance (%)
+Degree 4k
+(96.3% saved)
+PageRank 4k
+(96.4% saved)
+PageRank 5%
+(92.0% saved)
+Random 4k mean
+(96.6% saved)
+5/5
+5/5
+5/5
+5/5
+5/5
+5/5
+0/5
+0/5
+0/5
+0/5
+0/5
+0/5
+0/5
+0/5
+0/5
+0/5
+0/5
+0/5
+0/5
+0/5
+0/5
+0/5
+0/5
+0/5
+c  wiki-Vote
+Fig. 3 Descriptive loss–cost decisions for the frozen default-tolerance matrix at W = 1280. Cells count
+paths whose point-estimate incremental loss is at or below the column tolerance. Row labels report mean
+hybrid verification-inclusive saving across all five paths, whether or not they pass. Random rows first
+average three pools within each path and use the mean cost of one random-pool deployment. The tolerances
+are illustrative, not justified application thresholds or noninferiority tests
+
+14
+Jiayue Sun et al.
+6 Discussion and limitations
+The external evidence strengthens a conditional interpretation of candidate restric-
+tion. Budget sensitivity recurs on ca-GrQc for the default implementation, while wiki-
+Vote remains insensitive at the final-set level across the studied range. Degree retains
+exact highest-budget reference agreement in this setting; PageRank’s earlier contact-
+graph agreement does not transfer to the two directed networks even after tightening
+numerical tolerance. The collaboration loss is precision-sensitive and should not be
+interpreted as robust evidence against PageRank. Coverage, ranking orientation and
+solver tolerance require separate reporting.
+Several tempting stronger conclusions remain unsupported. Reference agreement
+is not expected-objective optimality. Increasing the budget need not improve every
+realized independently evaluated set. The PageRank comparison is against a specified
+incoming ranking on fixed directed arcs, not all PageRank-based influence methods.
+A small conditional Monte Carlo interval cannot replace selection-path replication.
+A nonsignificant five-path sign test cannot prove negligible loss, and an illustrative
+tolerance cannot supply a real application’s utility criterion.
+The external topology range is substantially larger than the original 75–402-node
+contact graphs, but remains three selected networks from one repository. Different
+observed relations provide structural diversity, not a probability sample of social sys-
+tems. The main external matrix fixes k = 5, p = .01,h = 3 and reaches only 1280
+selection worlds. Larger k, other propagation laws, calibrated edge probabilities, di-
+rection interventions and further independent graphs may change the conclusions.
+Neither 1280 nor the historical 5120 budget certifies convergence to expected-spread
+greedy selection.
+The code audit reduces the risk of arithmetic, tie-policy, provenance and
+coupling-implementation mistakes. It cannot validate an unmeasured real influence
+process. The separate scalar oracle samples predetermined worlds while complete
+score and evaluation replay uses the frozen core; these checks have different inde-
+pendence levels. The ca-GrQc endpoint rule excludes a self-loop-only vertex and is
+explicitly limited to the resulting graph. Timing estimates combine measurements
+from different runs and exclude cold-start overhead. These are material boundaries,
+not reasons to discard adverse results.
+For future evaluations, we recommend retaining the actual eligibility fraction, the
+named budget and coupling, per-path reference transitions, independent total and in-
+cremental spread, and a declared cost scenario. If a practical preservation claim is
+required, its loss threshold and uncertainty design should be justified before testing.
+The present records support that next design without assigning an unsupported uni-
+versal threshold.
+7 Conclusion
+Candidate restriction can reproduce a particular full-greedy computation at much
+lower measured selection cost, yet its utility depends on ranking, topology, coverage,
+solver precision and reference resolution. External tests preserve outgoing-degree
+
+Reference resolution and external validation
+15
+agreement at the highest studied budget but limit the earlier PageRank generalization.
+A tightened-tolerance control removes the mean collaboration loss while retaining
+the directed-network losses. Paired evaluation separates changed sequences, changed
+sets and changed reach; explicit timing scopes separate search savings from verifi-
+cation costs. The resulting evidence is an auditable characterization of these tested
+settings, not a new influence-maximization algorithm or a guarantee of general loss
+preservation.
+Supplementary information. Online Resource 1 provides audit qualifications, the
+complete external aggregate matrix, primary sign tests, coupling control, timing
+definitions and a reproduction-file map. Machine-readable tables retain all path/arm
+observations and figure source data.
+Statements and Declarations
+Funding. Pending author confirmation. The preceding draft mentions an undergrad-
+uate innovation project; the official funder, award number and applicability have not
+been verified.
+Competing interests. Pending declarations from all authors; no absence of interests
+is asserted by this review draft.
+Author contributions and approval. Roles, author order, affiliations and approval of
+the final manuscript must be confirmed by all authors. No prior draft statement is
+treated as consent to submit.
+Data availability. Source pages, retrieval records, expected hashes and preprocessing
+code are retained locally. Public input files are available from the cited providers.
+The local archive omits third-party raw files because their redistribution terms are
+unresolved. Condition outputs and figure source tables are included in the author-
+review package; a public deposit and persistent link remain to be decided.
+Code availability. Frozen sources, configuration, audit, analysis and figure scripts
+accompany the local author-review package. Public access arrangements and an ap-
+propriate project licence await author approval.
+References
+1. Kempe D, Kleinberg J, Tardos É (2003) Maximizing the spread of influence
+through a social network. In: ACM SIGKDD, pp 137–146. https://doi.org/
+10.1145/956750.956769
+2. Tang Y, Shi Y, Xiao X (2015) Influence maximization in near-linear time: a mar-
+tingale approach. In: ACM SIGMOD, pp 1539–1554. https://doi.org/10.
+1145/2723372.2723734
+
+16
+Jiayue Sun et al.
+3. Cheng S, Shen H, Huang J, Zhang G, Cheng X (2013) StaticGreedy: solving the
+scalability-accuracy dilemma in influence maximization. In: CIKM, pp 509–518.
+https://doi.org/10.1145/2505515.2505541
+4. Li Y, Fan J, Wang Y, Tan K-L (2018) Influence maximization on social graphs: a
+survey. IEEE Transactions on Knowledge and Data Engineering 30:1852–1872.
+https://doi.org/10.1109/TKDE.2018.2807843
+5. Arora A, Galhotra S, Ranu S (2017) Debunking the myths of influence maxi-
+mization: an in-depth benchmarking study. In: SIGMOD, pp 651–666. https:
+//doi.org/10.1145/3035918.3035924
+6. Leskovec J, Krause A, Guestrin C, Faloutsos C, VanBriesen J, Glance N (2007)
+Cost-effective outbreak detection in networks. In: KDD, pp 420–429. https:
+//doi.org/10.1145/1281192.1281239
+7. Rui X, Yang X, Fan J, Wang Z (2020) A neighbour scale fixed approach for
+influence maximization in social networks. Computing 102:427–449. https:
+//doi.org/10.1007/s00607-019-00778-5
+8. Fan C, Wang Z, Zhang J, Zhao J, Rui X (2024) Influence maximization in so-
+cial networks based on discrete harris hawks optimization algorithm. Computing
+106:327–351. https://doi.org/10.1007/s00607-023-01207-4
+9. Ko J, Kim S, Lee K, et al. (2025) Inductive influence estimation and
+maximization over unseen social networks under two diffusion models.
+Data Mining and Knowledge Discovery 39:55. https://doi.org/10.1007/
+s10618-025-01137-z
+10. Yanchenko E, Murata T, Holme P (2024) Influence maximization on tempo-
+ral networks: a review. Applied Network Science 9:16. https://doi.org/10.
+1007/s41109-024-00625-3
+11. Aral S, Dhillon PS (2018) Social influence maximization under empirical in-
+fluence models. Nature Human Behaviour 2:375–382. https://doi.org/10.
+1038/s41562-018-0346-z
+12. NetworkX
+developers
+(2025)
+PageRank,
+NetworkX
+3.5
+documentation.
+https://networkx.org/documentation/networkx-3.5/reference/
+algorithms/generated/networkx.algorithms.link_analysis.
+pagerank_alg.pagerank.html. Accessed 15 October 2026
+13. Génois M, Vestergaard CL, Fournet J, Panisson A, Bonmarin I, Barrat A (2015)
+Data on face-to-face contacts in an office building suggest a low-cost vaccination
+strategy based on community linkers. Network Science 3:326–347. https://
+doi.org/10.1017/nws.2015.10
+14. Génois M, Barrat A (2018) Can co-location be used as a proxy for face-to-
+face contacts? EPJ Data Science 7:11. https://doi.org/10.1140/epjds/
+s13688-018-0140-1
+15. Cattuto C, Van den Broeck W, Barrat A, Colizza V, Pinton J-F, Vespignani A
+(2010) Dynamics of person-to-person interactions from distributed RFID sen-
+sor networks. PLoS ONE 5:e11596. https://doi.org/10.1371/journal.
+pone.0011596
+16. Kiti MC, Tizzoni M, Kinyanjui TM, et al. (2016) Quantifying social contacts in
+a household setting of rural Kenya using wearable proximity sensors. EPJ Data
+Science 5:21. https://doi.org/10.1140/epjds/s13688-016-0084-2
+
+Reference resolution and external validation
+17
+17. Barabasi A-L, Albert R (1999) Emergence of scaling in random networks. Sci-
+ence 286:509–512. https://doi.org/10.1126/science.286.5439.509
+18. Holland PW, Laskey KB, Leinhardt S (1983) Stochastic blockmodels: first steps.
+Social Networks 5:109–137. https://doi.org/10.1016/0378-8733(83)
+90021-7
+19. Leskovec J, Krevl A (2014) SNAP datasets: Stanford large network dataset col-
+lection. https://snap.stanford.edu/data. Accessed 15 October 2026
+20. Panzarasa P, Opsahl T, Carley KM (2009) Patterns and dynamics of users’ be-
+havior and interaction: Network analysis of an online community. Journal of
+the American Society for Information Science and Technology 60:911–932.
+https://doi.org/10.1002/asi.21015
+21. Leskovec J, Kleinberg J, Faloutsos C (2007) Graph evolution: densification and
+shrinking diameters. ACM Transactions on Knowledge Discovery from Data
+1(1):2. https://doi.org/10.1145/1217299.1217301
+22. Leskovec J, Huttenlocher D, Kleinberg J (2010) Signed networks in social media.
+In: CHI, pp 1361–1370. https://doi.org/10.1145/1753326.1753532
+23. Leskovec J, Huttenlocher D, Kleinberg J (2010) Predicting positive and negative
+links in online social networks. In: WWW, pp 641–650. https://doi.org/
+10.1145/1772690.1772756

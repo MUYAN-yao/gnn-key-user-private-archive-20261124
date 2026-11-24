@@ -1,0 +1,81 @@
+{
+  "original_version_unchanged": true,
+  "read_evidence_unchanged": true,
+  "unchanged_graphs_and_saved_analysis_files": 31,
+  "numeric_table_contents_unchanged": {
+    "cost_table.tex": true,
+    "precision_budget_table.tex": true,
+    "precision_table.tex": true,
+    "primary_table.tex": true,
+    "related_work_table.tex": true,
+    "supp_tables.tex": true,
+    "transition_table.tex": true,
+    "history_parameter_table.tex": true,
+    "history_coupling_table.tex": true,
+    "history_secondary_table.tex": true,
+    "history_transition_table.tex": true,
+    "history_coverage_table.tex": true
+  },
+  "declarations_citations_figure_inputs_equations_unchanged": true,
+  "main_text_numeric_tokens_bilingual_match": true,
+  "key_values_present_in_both_languages": true,
+  "both_arm_budget_explicit": true,
+  "neutral_contribution": true,
+  "direction_definitions": true,
+  "editorial_titles_consistent": true,
+  "english_abstract_words": 168,
+  "documents": {
+    "english": {
+      "pages": 17,
+      "sha256": "319cac6177e5ee2aac72e9d6323ebcda124825370516cd4395ddee97e1290d74",
+      "compile_errors": [],
+      "underfull_warnings": 11,
+      "font_warning": true,
+      "rendered_pages": 17,
+      "contact_sheets": [
+        "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-external-validation-20261015\\budget-interpretation-revision-20261031\\qa\\render\\english\\contact-01.jpg",
+        "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-external-validation-20261015\\budget-interpretation-revision-20261031\\qa\\render\\english\\contact-02.jpg",
+        "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-external-validation-20261015\\budget-interpretation-revision-20261031\\qa\\render\\english\\contact-03.jpg",
+        "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-external-validation-20261015\\budget-interpretation-revision-20261031\\qa\\render\\english\\contact-04.jpg",
+        "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-external-validation-20261015\\budget-interpretation-revision-20261031\\qa\\render\\english\\contact-05.jpg"
+      ],
+      "renderer_stderr": ""
+    },
+    "chinese": {
+      "pages": 20,
+      "sha256": "0f1ad9f825cb97f05a0480ed78ca22ed5491b451e9fcbd98a15d50e62d7fed2f",
+      "compile_errors": [],
+      "underfull_warnings": 16,
+      "font_warning": false,
+      "rendered_pages": 20,
+      "contact_sheets": [
+        "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-external-validation-20261015\\budget-interpretation-revision-20261031\\qa\\render\\chinese\\contact-01.jpg",
+        "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-external-validation-20261015\\budget-interpretation-revision-20261031\\qa\\render\\chinese\\contact-02.jpg",
+        "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-external-validation-20261015\\budget-interpretation-revision-20261031\\qa\\render\\chinese\\contact-03.jpg",
+        "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-external-validation-20261015\\budget-interpretation-revision-20261031\\qa\\render\\chinese\\contact-04.jpg",
+        "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-external-validation-20261015\\budget-interpretation-revision-20261031\\qa\\render\\chinese\\contact-05.jpg"
+      ],
+      "renderer_stderr": ""
+    },
+    "supplement": {
+      "pages": 27,
+      "sha256": "b378d4c42e3cc4f5b07fe255f4482c758eb67f47a0dd20075d15461e9d388f67",
+      "compile_errors": [],
+      "underfull_warnings": 25,
+      "font_warning": true,
+      "rendered_pages": 27,
+      "contact_sheets": [
+        "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-external-validation-20261015\\budget-interpretation-revision-20261031\\qa\\render\\supplement\\contact-01.jpg",
+        "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-external-validation-20261015\\budget-interpretation-revision-20261031\\qa\\render\\supplement\\contact-02.jpg",
+        "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-external-validation-20261015\\budget-interpretation-revision-20261031\\qa\\render\\supplement\\contact-03.jpg",
+        "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-external-validation-20261015\\budget-interpretation-revision-20261031\\qa\\render\\supplement\\contact-04.jpg",
+        "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-external-validation-20261015\\budget-interpretation-revision-20261031\\qa\\render\\supplement\\contact-05.jpg",
+        "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-external-validation-20261015\\budget-interpretation-revision-20261031\\qa\\render\\supplement\\contact-06.jpg",
+        "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-external-validation-20261015\\budget-interpretation-revision-20261031\\qa\\render\\supplement\\contact-07.jpg"
+      ],
+      "renderer_stderr": ""
+    }
+  },
+  "scope": "No new experiments. No seed search, propagation, training, or runner execution. PDF compilation and saved-result metadata/CSV checks only.",
+  "visual_review": "See render_checks.json; rendering alone is not visual approval."
+}

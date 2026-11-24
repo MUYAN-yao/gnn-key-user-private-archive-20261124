@@ -1,0 +1,9 @@
+[project]
+name = "robust-influence-lab"
+version = "0.1.0"
+description = "Temporal uncertainty-aware, cross-community influence maximization"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["backend"]
+testpaths = ["tests"]

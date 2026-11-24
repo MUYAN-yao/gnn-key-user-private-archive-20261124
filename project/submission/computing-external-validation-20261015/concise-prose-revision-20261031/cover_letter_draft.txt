@@ -1,0 +1,23 @@
+Dear Editors of Computing,
+
+Please consider our manuscript, “Evaluating Candidate-Restricted Influence Maximization: Effects of Reference Budget and Ranking Precision,” for publication in Computing.
+
+The manuscript examines how finite selection sampling and candidate-ranking precision affect the evaluation of candidate restriction. In the budget sweeps, W governs seed selection for both the full-candidate reference and the restricted methods. Their relative spread differences therefore reflect budget-dependent changes in both procedures. Independent evaluation uses a fixed, separate family of 10,000 worlds; ranking tolerance and pool size control candidate eligibility. At a fixed W, the post-hoc tolerance control recomputes the restricted arms and reuses the full reference selected at that budget.
+
+We identify how ranking precision alters an apparent budget effect. We vary the selection budget for both full and restricted arms and use a post-hoc precision control to examine the resulting relative spread differences. On ca-GrQc, tightening PageRank tolerance exchanges two of 20 candidates and removes the default mean gain-to-loss reversal. This identifies a numerical dependence that a budget scan at default tolerance alone would miss.
+
+We quantify independently estimated spread changes associated with reference-set changes. Independent paired evaluation measures their direction, magnitude and conditional Monte Carlo uncertainty. In the historical comparison from W=1280 to W=5120, 16 of 40 reference sets change, while mean spread increases by 0.01111 nodes across all 40 network–path pairs. Individual changes include negative, positive and zero differences; the measurements separate seed-set instability from changes in estimated utility.
+
+We identify which tested candidate pools preserve the reference while reducing selection cost. At W=1280, Degree-4k uses 20 candidates to reproduce all 15 external reference trajectories at lower selection cost in this implementation. Default PageRank-4k reproduces none, and losses on CollegeMsg and wiki-Vote persist under tighter tolerance. These comparisons delimit the transfer of earlier contact-graph agreement and relate computational savings to independently evaluated utility.
+
+We consider this study relevant to Computing because it examines numerical computation in the evaluation of network algorithms. Three external topologies form the main comparison; four small contact graphs provide separate historical sensitivity controls. The manuscript reports signed spread differences, candidate coverage and implementation-specific cost measurements, supported by source snapshots, configurations, saved outputs and validation records.
+
+All authors have read and approved the manuscript and agreed to its submission to Computing. The authors declare no competing interests. This work was supported by a provincial undergraduate innovation and entrepreneurship training project. Third-party raw datasets are not redistributed; source records, expected hashes and download/preprocessing instructions are provided. The reproducibility materials accompany the submission for editorial and peer-review access.
+
+Sincerely,
+
+Binbin Yong
+Corresponding author
+School of Information Science and Engineering, Lanzhou University
+Lanzhou 730000, China
+yongbb14@lzu.edu.cn

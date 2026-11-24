@@ -1,0 +1,24 @@
+{
+  "action": "Reorder unchanged result blocks and merge external comparison with coverage section",
+  "old_order": [
+    "external",
+    "precision",
+    "coverage",
+    "transitions",
+    "cost"
+  ],
+  "new_order": [
+    "precision",
+    "transitions",
+    "external and coverage",
+    "cost"
+  ],
+  "block_hashes_before_move": [
+    "149e4805649ef4dfaa854153433452dc11670e01e92de7ed1638c705206d97a1",
+    "29174714a11ebbfbeeb91993d46f69b96f2a9fdabd2f693ec4615001668d6446",
+    "2c1a6b30b8deba6aa69a75224d26a99c1e7d2f863ab3776a073400e0f3c935b4",
+    "a91ecc5f0cf2f98ed103fb8cd6c5c726573c97e30f9ffad644842a012933b47d",
+    "e8ca050aea46b95fc5dea3acbba3ce72801a5a3f1c89cc2df29bcc6807903c3e"
+  ],
+  "experimental_inputs_changed": false
+}

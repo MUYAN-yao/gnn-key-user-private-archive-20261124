@@ -1,0 +1,7 @@
+dataset,candidate_count,default_vs_strict_overlap,default_vs_strict_jaccard,strict_vs_tighter_same_pool,strict_added_ids,strict_removed_ids
+college_msg,20,20,1.0,True,,
+college_msg,72,72,1.0,True,,
+ca_grqc,20,18,0.8181818181818182,True,17655;6610,1488;19865
+ca_grqc,263,260,0.9774436090225563,True,4513;5156;9482,13813;14834;5712
+wiki_vote,20,19,0.9047619047619048,True,6946,2654
+wiki_vote,356,355,0.9943977591036415,True,3453,3371

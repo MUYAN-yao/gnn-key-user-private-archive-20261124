@@ -1,0 +1,82 @@
+{
+  "invs2013": {
+    "n": 91,
+    "m": 1238,
+    "dataset": "invs2013",
+    "kind": "historical contact-derived; simulated diffusion only",
+    "history_cutoff": "2000-01-09T14:04:00+00:00",
+    "timestamp_group_count": 7104,
+    "input_sha256": {
+      "nodes.csv": "2b57a4e8982eb5c048373959dddeb571713b4bae603176df50364665623dfce9",
+      "edges.csv": "20c84d59465276fe3e79bc411d156e365baa71d72020b1dffb7f82cce654ea85",
+      "cascades.csv": "0fdf9458a5ef3ae500c40f76968537b66cff8d3fc1781f2a0305e294c1436d58",
+      "data_card.json": "a092d8c3cea82bf7298da838643db2abe68c8b8e30d9a2a3c00be8e5e5ad07ff"
+    },
+    "graph_sha256": "c5ccc902ebb64eeb4a38ab83bcca98bd7a7bfdc59e4f60f9b6a4e5eed5fe54ca"
+  },
+  "invs2015": {
+    "n": 212,
+    "m": 6938,
+    "dataset": "invs2015",
+    "kind": "historical contact-derived; simulated diffusion only",
+    "history_cutoff": "2000-01-09T11:51:20+00:00",
+    "timestamp_group_count": 18488,
+    "input_sha256": {
+      "nodes.csv": "9a6dc3b84b60648b7bc5914114361c59ca92ad700f60365c456541415ce3e7d2",
+      "edges.csv": "e8298744dd35d76003ddca0d94fe8a74f07a5a2f0532b817ca438b422d6475ce",
+      "cascades.csv": "0fdf9458a5ef3ae500c40f76968537b66cff8d3fc1781f2a0305e294c1436d58",
+      "data_card.json": "d7a1021bef78a92cb2204b04a2c0c7ddd6a8bb6672adfbfaf9f67dc594d405f6"
+    },
+    "graph_sha256": "285fc16a3549bfaec4316ce6ba0f5559b1f9d9caeebf0edcadaa004a8e3f9431"
+  },
+  "kenya2012": {
+    "n": 75,
+    "m": 1044,
+    "dataset": "kenya2012",
+    "kind": "historical contact-derived; simulated diffusion only",
+    "history_cutoff": "2000-01-02T19:00:00+00:00",
+    "timestamp_group_count": 42,
+    "input_sha256": {
+      "nodes.csv": "24c28abb0885c80d42c64010540c63804efdf924010c8e06985af9fc6c9824ee",
+      "edges.csv": "d65fc4f7b2cd90c86412b5d7149d2151d0cb545d47c1b52dddb05a0dde2bb711",
+      "cascades.csv": "0fdf9458a5ef3ae500c40f76968537b66cff8d3fc1781f2a0305e294c1436d58",
+      "data_card.json": "4fad97144c172de751f22dabf24b5df5ec55fe84ea04683b8b7eecca0c8ac277"
+    },
+    "graph_sha256": "56a0944e3feeca126c0bced1944844c4bdcef7659d1ffa89d79903aa60b9aee6"
+  },
+  "sfhh2009": {
+    "n": 402,
+    "m": 11856,
+    "dataset": "sfhh2009",
+    "kind": "historical contact-derived; simulated diffusion only",
+    "history_cutoff": "2000-01-02T09:57:20+00:00",
+    "timestamp_group_count": 3509,
+    "input_sha256": {
+      "nodes.csv": "22a4307954de978ee5ba14b89c9907c0fddc9a30bb52d43090c884d07e6019c5",
+      "edges.csv": "a188bc595ac5f51493d0d07866b2671da593e0cda378c908370397e6b8253bfe",
+      "cascades.csv": "0fdf9458a5ef3ae500c40f76968537b66cff8d3fc1781f2a0305e294c1436d58",
+      "data_card.json": "b250cbefda5fbfe2f4f8f377b0363c5eb405628be374ee969e784f2d0d7796eb"
+    },
+    "graph_sha256": "37c3f41a4e2d7d9cca2e6ab1f9dfe8a53f5d9173c7a1f53094b2462c81d28f17"
+  },
+  "synthetic_ba2000": {
+    "n": 2000,
+    "m": 11982,
+    "dataset": "synthetic_ba2000",
+    "kind": "synthetic; no independent empirical-network claim",
+    "history_cutoff": null,
+    "timestamp_group_count": null,
+    "input_sha256": {},
+    "graph_sha256": "7a269905918ed399ef873e14533d07381ca20152c70d6403cde59f66c042eab9"
+  },
+  "synthetic_sbm2000": {
+    "n": 2000,
+    "m": 13058,
+    "dataset": "synthetic_sbm2000",
+    "kind": "synthetic; no independent empirical-network claim",
+    "history_cutoff": null,
+    "timestamp_group_count": null,
+    "input_sha256": {},
+    "graph_sha256": "64798fec138d3794e92b5dec79cf975a49edf71390b7d9376da9711855d06ba6"
+  }
+}

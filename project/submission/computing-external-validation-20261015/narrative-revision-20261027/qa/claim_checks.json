@@ -1,0 +1,417 @@
+{
+  "date": "2026-10-27",
+  "scope": "Read-only raw-result/statistical cross-check and editorial consistency; no new experimental executions",
+  "methods_and_setup_unchanged": true,
+  "declarations_unchanged": true,
+  "replay_script_unchanged": true,
+  "asset_hashes": {
+    "cost_table.tex": "9437932fa8dedb0e6cf3880d8bcbac36511070739ac6e00fc5fae1c0b3d8ea90",
+    "Fig1.pdf": "c3dcc2a58ce086e8d511551385b1fd03e371e49d32bd58a12f3e6c7ac7d5cf25",
+    "Fig2.pdf": "3f0edf9af9749b7241d66e9e55fc4c2deeeb4241443c671eb28d626b123a6639",
+    "Fig3.pdf": "48e32c046c755a26a4a6213ef7ff4ac8630f3602319ed33f6dceb3266c87ca84",
+    "Fig4.pdf": "383bfff6990478aa6d355c2c082da838b151ea712c675b2429770ec8dac8441f",
+    "FigDirectionMechanism.pdf": "029043a3bdafc80205aa7ce1f1566d865f7c322ba256bdae9dc2fc8d3af1c40b",
+    "FigEvaluationMechanism.pdf": "05508d3ab11718c3760b70282ca227615c6f01d8e91d7f4ba8d6a467b7d7e284",
+    "FigS1.pdf": "2e45e4e96277f9bcc3fc6e413e5294240d8b825fef0b7f46094af173365394ac",
+    "numbers.tex": "1d64bc65ec1cf9cf37b98172ff557281df5c7694799754187d1251032ef7ae27",
+    "precision_budget_table.tex": "d41a7e75b4c63d0b99e23299dcb6e3a50d4ecae2f11c615252e448f7a54468aa",
+    "primary_table.tex": "09252e0590a79d432492ddaebebc0e9b81c5bda2ccaad7508b8c1ebf63cea759",
+    "references.tex": "a31d8e7b44e03bce8a0f181ed8e768042c9e55bc632142f84eb3c752f5771ee4",
+    "supp_tables.tex": "ed103af559b425b1be48156c5e409b6281a8e384f74f4666874111b8a70a6041",
+    "svglov3.clo": "7524d6ec8fc3fe6216e6ce97db64caff366e76312b2caf65b3a8437ef4c0c032",
+    "svjour3.cls": "e9840b9fdd767d9ecf92e2c79319084b4764810ed27c792872ac8be8ceae0a07",
+    "transition_table.tex": "7e9019796083244e159b8ca2790fcbd66952ede579d81ba6a2c644f0eec518e3"
+  },
+  "title": "Reference Budgets and Ranking Precision in Candidate-Restricted Influence Maximization",
+  "numbered_contributions": 3,
+  "keywords": 5,
+  "main_conditions": 54,
+  "main_arms": 468,
+  "degree_trajectory_matches": 15,
+  "default_strict_4k_pool_exchanges": {
+    "college_msg": 0,
+    "ca_grqc": 2,
+    "wiki_vote": 1
+  },
+  "precision_summary_from_raw_arrays": "PASS",
+  "precision_arms": 90,
+  "pagerank_4k_losses": [
+    {
+      "dataset": "ca_grqc",
+      "W": 80,
+      "solver": "default",
+      "delta_nodes_mean": 0.23606,
+      "loss_percent_mean": -5.61334891605824
+    },
+    {
+      "dataset": "ca_grqc",
+      "W": 80,
+      "solver": "strict",
+      "delta_nodes_mean": 0.4857,
+      "loss_percent_mean": -11.25077642325712
+    },
+    {
+      "dataset": "ca_grqc",
+      "W": 320,
+      "solver": "default",
+      "delta_nodes_mean": -0.12632,
+      "loss_percent_mean": 2.5286640554291275
+    },
+    {
+      "dataset": "ca_grqc",
+      "W": 320,
+      "solver": "strict",
+      "delta_nodes_mean": 0.13804,
+      "loss_percent_mean": -2.9629689104876133
+    },
+    {
+      "dataset": "ca_grqc",
+      "W": 1280,
+      "solver": "default",
+      "delta_nodes_mean": -0.25082,
+      "loss_percent_mean": 5.070376765246573
+    },
+    {
+      "dataset": "ca_grqc",
+      "W": 1280,
+      "solver": "strict",
+      "delta_nodes_mean": 0.02608,
+      "loss_percent_mean": -0.544437247287677
+    },
+    {
+      "dataset": "college_msg",
+      "W": 80,
+      "solver": "default",
+      "delta_nodes_mean": -0.92828,
+      "loss_percent_mean": 9.331053771642956
+    },
+    {
+      "dataset": "college_msg",
+      "W": 80,
+      "solver": "strict",
+      "delta_nodes_mean": -0.92828,
+      "loss_percent_mean": 9.331053771642956
+    },
+    {
+      "dataset": "college_msg",
+      "W": 320,
+      "solver": "default",
+      "delta_nodes_mean": -0.85444,
+      "loss_percent_mean": 8.517664854035221
+    },
+    {
+      "dataset": "college_msg",
+      "W": 320,
+      "solver": "strict",
+      "delta_nodes_mean": -0.85444,
+      "loss_percent_mean": 8.517664854035221
+    },
+    {
+      "dataset": "college_msg",
+      "W": 1280,
+      "solver": "default",
+      "delta_nodes_mean": -0.9078,
+      "loss_percent_mean": 9.011828932333028
+    },
+    {
+      "dataset": "college_msg",
+      "W": 1280,
+      "solver": "strict",
+      "delta_nodes_mean": -0.9078,
+      "loss_percent_mean": 9.011828932333028
+    },
+    {
+      "dataset": "wiki_vote",
+      "W": 80,
+      "solver": "default",
+      "delta_nodes_mean": -40.69334,
+      "loss_percent_mean": 73.01069737882712
+    },
+    {
+      "dataset": "wiki_vote",
+      "W": 80,
+      "solver": "strict",
+      "delta_nodes_mean": -41.27506,
+      "loss_percent_mean": 74.05426167525829
+    },
+    {
+      "dataset": "wiki_vote",
+      "W": 320,
+      "solver": "default",
+      "delta_nodes_mean": -40.7222,
+      "loss_percent_mean": 73.06259144013978
+    },
+    {
+      "dataset": "wiki_vote",
+      "W": 320,
+      "solver": "strict",
+      "delta_nodes_mean": -41.27522,
+      "loss_percent_mean": 74.05461983925575
+    },
+    {
+      "dataset": "wiki_vote",
+      "W": 1280,
+      "solver": "default",
+      "delta_nodes_mean": -40.69334,
+      "loss_percent_mean": 73.01069737882712
+    },
+    {
+      "dataset": "wiki_vote",
+      "W": 1280,
+      "solver": "strict",
+      "delta_nodes_mean": -41.2197,
+      "loss_percent_mean": 73.95513103805385
+    }
+  ],
+  "reference_transitions": [
+    {
+      "dataset": "ca_grqc",
+      "path": 1101,
+      "changed": true,
+      "delta": 0.2393,
+      "lo": 0.1846155998123415,
+      "hi": 0.29398440018765853
+    },
+    {
+      "dataset": "ca_grqc",
+      "path": 1102,
+      "changed": true,
+      "delta": -0.0266,
+      "lo": -0.06538167930370424,
+      "hi": 0.012181679303704243
+    },
+    {
+      "dataset": "ca_grqc",
+      "path": 1103,
+      "changed": true,
+      "delta": 0.2411,
+      "lo": 0.1883352291126828,
+      "hi": 0.2938647708873172
+    },
+    {
+      "dataset": "ca_grqc",
+      "path": 1104,
+      "changed": true,
+      "delta": 0.0295,
+      "lo": -0.006118976008655706,
+      "hi": 0.06511897600865571
+    },
+    {
+      "dataset": "ca_grqc",
+      "path": 1105,
+      "changed": true,
+      "delta": 0.1527,
+      "lo": 0.09949648850651752,
+      "hi": 0.2059035114934825
+    },
+    {
+      "dataset": "college_msg",
+      "path": 1101,
+      "changed": false,
+      "delta": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    },
+    {
+      "dataset": "college_msg",
+      "path": 1102,
+      "changed": false,
+      "delta": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    },
+    {
+      "dataset": "college_msg",
+      "path": 1103,
+      "changed": false,
+      "delta": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    },
+    {
+      "dataset": "college_msg",
+      "path": 1104,
+      "changed": false,
+      "delta": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    },
+    {
+      "dataset": "college_msg",
+      "path": 1105,
+      "changed": true,
+      "delta": 0.2668,
+      "lo": 0.2208039801497368,
+      "hi": 0.3127960198502632
+    },
+    {
+      "dataset": "wiki_vote",
+      "path": 1101,
+      "changed": false,
+      "delta": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    },
+    {
+      "dataset": "wiki_vote",
+      "path": 1102,
+      "changed": false,
+      "delta": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    },
+    {
+      "dataset": "wiki_vote",
+      "path": 1103,
+      "changed": false,
+      "delta": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    },
+    {
+      "dataset": "wiki_vote",
+      "path": 1104,
+      "changed": false,
+      "delta": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    },
+    {
+      "dataset": "wiki_vote",
+      "path": 1105,
+      "changed": false,
+      "delta": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    }
+  ],
+  "historical_transition": {
+    "low": 1280,
+    "high": 5120,
+    "changed": 16,
+    "n": 40,
+    "mean_jaccard": 0.7892857142857143,
+    "mean_delta": 0.011109999999999998
+  },
+  "cost_savings": {
+    "ca_grqc": {
+      "selection_saving_percent": 99.53715003721359,
+      "verification_saving_percent": 92.76927040331675
+    },
+    "college_msg": {
+      "selection_saving_percent": 98.40150274096732,
+      "verification_saving_percent": 86.58799722751324
+    },
+    "wiki_vote": {
+      "selection_saving_percent": 99.67315822302541,
+      "verification_saving_percent": 96.26362470735839
+    }
+  },
+  "inherited_reproduction": {
+    "source": "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-external-validation-20261015\\reproducible-revision-20261026\\qa\\reproduction-final\\verification.json",
+    "sha256": "b872dbb605c0a81e45c74eee06f86c4c9bf9e7297c4a64bfab74db637f130919",
+    "rerun_this_turn": false
+  },
+  "input_json_hashes": {
+    "results\\main\\conditions\\resolution__college_msg__p1101__w80__step.json": "0509536231a177c4f54f1b0f34238c431702c0ab41ec057470a0b2107ccc766c",
+    "results\\main\\conditions\\resolution__college_msg__p1101__w320__step.json": "a481bef6ccd82d4a7ed8e3954eb77967f22521368200dc40fb81034ccc77e0cf",
+    "results\\main\\conditions\\resolution__college_msg__p1101__w1280__step.json": "eb16db55a0e39e3c5d38d473a0a01096d627dcef79cdd985bba4f1ca29846c43",
+    "results\\main\\conditions\\resolution__college_msg__p1102__w80__step.json": "97a3fff5de2e34b6789b3d7da774a1b514327e58f165533916381835a233706a",
+    "results\\main\\conditions\\resolution__college_msg__p1102__w320__step.json": "f62420a6a91af8955959ce0b2c7c6b741597eae41469e0ddd31f4bceab0bcc37",
+    "results\\main\\conditions\\resolution__college_msg__p1102__w1280__step.json": "a3e2355272e84f6414fe1a80565575520da6a18eeb32177a68bf21f539cd7015",
+    "results\\main\\conditions\\resolution__college_msg__p1103__w80__step.json": "baef32541dde5f3803e7e16a95b5476fe9b9d04dc56a51fbf279b25970d76eff",
+    "results\\main\\conditions\\resolution__college_msg__p1103__w320__step.json": "77a9c2472a77e22a19bdf08c55d98f902e0a2fdf2e4cff672bbe4ba1e38576e1",
+    "results\\main\\conditions\\resolution__college_msg__p1103__w1280__step.json": "249bb0a8791e725d12363884179b74fe6a3d23529a29ffc87c03175899d3437a",
+    "results\\main\\conditions\\resolution__college_msg__p1104__w80__step.json": "9bb04d72785a495df063abf7848954da07140ac390ae90cd5f198e78d9073eff",
+    "results\\main\\conditions\\resolution__college_msg__p1104__w320__step.json": "2ab511ba238ad9f86267ab0fd5914669fdd331354cfa6fd785c2afd9241023ee",
+    "results\\main\\conditions\\resolution__college_msg__p1104__w1280__step.json": "618bda0d8ccf70b678dbe233f1bf46948ce90167fdb36bf6dd66ebf9efa17775",
+    "results\\main\\conditions\\resolution__college_msg__p1105__w80__step.json": "b1ca160cb5dab0376227b555d61eb782a75d6916fdc10f6f143dfa12c1e7c93c",
+    "results\\main\\conditions\\resolution__college_msg__p1105__w320__step.json": "4e2a1d3cab9d484a08f55288534a935675f8d4e40a72dfe743294dc5eeb7e18b",
+    "results\\main\\conditions\\resolution__college_msg__p1105__w1280__step.json": "0495d8dbe6d837f67aaaec443add5fd78a35b3e1dbe71e450e5b38bff2b27b2e",
+    "results\\main\\conditions\\fixed_edge_control__college_msg__p1101__w320__edge.json": "b965f2177cf50d1fa5e5fa51fb0b7e40c21c1bb0bc0a8a3b40f7881f1403d4a4",
+    "results\\main\\conditions\\fixed_edge_control__college_msg__p1102__w320__edge.json": "acbc1cff95f7971325cdef561129a23eaf1ed3c00509772960db61b66b4b2e39",
+    "results\\main\\conditions\\fixed_edge_control__college_msg__p1103__w320__edge.json": "a6fff056b8f8097eedbb8e10bab6fc1bebfc16f12a30acc45391c2317b164d31",
+    "results\\main\\conditions\\resolution__ca_grqc__p1101__w80__step.json": "d329a78102c54fafaaa2a22250aa2809a608c1612349e9df13c2073022f178f7",
+    "results\\main\\conditions\\resolution__ca_grqc__p1101__w320__step.json": "1372c5ecbdda8f008f3fcd47d13bfe04f3845898a6f8ee242ada32a51644f298",
+    "results\\main\\conditions\\resolution__ca_grqc__p1101__w1280__step.json": "125c23237138fbbe3a69ce054923e251c5085e3952bef63263f6f56915831779",
+    "results\\main\\conditions\\resolution__ca_grqc__p1102__w80__step.json": "f79bd65d365c3d5959deda63fd5b9138775397e10336715c17fdbf95b250966a",
+    "results\\main\\conditions\\resolution__ca_grqc__p1102__w320__step.json": "1bc63253a567807f2a118425b4c222b8d0f6bdddb87689410b3a45954f486256",
+    "results\\main\\conditions\\resolution__ca_grqc__p1102__w1280__step.json": "da970a359b7f1d277f4b34e5205615ac02d306c2bab92ccf551de0b5d7318126",
+    "results\\main\\conditions\\resolution__ca_grqc__p1103__w80__step.json": "d7e6b4290480a7ab6d417eaedf38e2a52665b2a981bed657beed0e996e5b9f46",
+    "results\\main\\conditions\\resolution__ca_grqc__p1103__w320__step.json": "8d35b0455d53fbc6c1e482104ab18fc9d0aff7065e38289d91e76fbc0f1e5957",
+    "results\\main\\conditions\\resolution__ca_grqc__p1103__w1280__step.json": "eda10f0f340623aaded21b12a2f8cc058e54dc3d7ce0de8d3cb3a267a688e1de",
+    "results\\main\\conditions\\resolution__ca_grqc__p1104__w80__step.json": "53ce0c6ecf5b7aecd03674935c1a89b7ca7bdd13675cd89384e2c19c8156e206",
+    "results\\main\\conditions\\resolution__ca_grqc__p1104__w320__step.json": "d6dce2de8cd248ed96ae20c2aae5f543ff93758e966efedc62b5c1a85a8e49be",
+    "results\\main\\conditions\\resolution__ca_grqc__p1104__w1280__step.json": "e94373f3b434695e249186ecf16772af9d379cfa456f58160c2ca1eb2ec41479",
+    "results\\main\\conditions\\resolution__ca_grqc__p1105__w80__step.json": "a6646df69e4241b9566592645ff4f9c2a4ed8fdb0adaa1b3c0c5105999a9f467",
+    "results\\main\\conditions\\resolution__ca_grqc__p1105__w320__step.json": "01ac6860e85753a1cdb8d95f69a7b298e7f789e62c41bb5b3a374c9d9c71b02b",
+    "results\\main\\conditions\\resolution__ca_grqc__p1105__w1280__step.json": "056bb214ca7547b76b641510ff8933c1b272eb5be041bb1c80f89310142f625d",
+    "results\\main\\conditions\\fixed_edge_control__ca_grqc__p1101__w320__edge.json": "c397f2ae93f1b584bbef05d344abe108ef2b2d657a54de8aa499ad1219e1ffad",
+    "results\\main\\conditions\\fixed_edge_control__ca_grqc__p1102__w320__edge.json": "512fa64ba23d754b063680aa91bbf4e6c8f04078c7514516e97d057fc4defd27",
+    "results\\main\\conditions\\fixed_edge_control__ca_grqc__p1103__w320__edge.json": "8a1b4ff2110edf7dde15fd9ff646a23ae9f14443af6f765fb55d333f35850804",
+    "results\\main\\conditions\\resolution__wiki_vote__p1101__w80__step.json": "5f916ea884a0053a40c5de517f807d18611e209b0ef7c0d4e6d9619e1e8b5e05",
+    "results\\main\\conditions\\resolution__wiki_vote__p1101__w320__step.json": "7a4021c75ad6d12445c360acd4513c7d3d481f7233ffc512dea962302e1c15b9",
+    "results\\main\\conditions\\resolution__wiki_vote__p1101__w1280__step.json": "ead8e4733f979b2714bf903ab061d04ab514650069f2de6e171758c041428749",
+    "results\\main\\conditions\\resolution__wiki_vote__p1102__w80__step.json": "02d8c3d4acbcd9dd65e0338fc0f5ca630a51540b1260264637ac13388e4fdf0e",
+    "results\\main\\conditions\\resolution__wiki_vote__p1102__w320__step.json": "656ada693705907eb4a12fa12b1bd2d875dae7cf0f4ebf6704b547dafa3cc766",
+    "results\\main\\conditions\\resolution__wiki_vote__p1102__w1280__step.json": "ad843443da3b1cd84d73965843b9019909a2f15348a9bc3d09ea900fee0b702c",
+    "results\\main\\conditions\\resolution__wiki_vote__p1103__w80__step.json": "61a8972ca5e399d15db1ac9d03b93452fcd6ded74a4a90cca6ac7a66c4a2762a",
+    "results\\main\\conditions\\resolution__wiki_vote__p1103__w320__step.json": "f44ff4f6547a6ed75170c23a1031924314fa57369f317f85fbd34b039037cc8e",
+    "results\\main\\conditions\\resolution__wiki_vote__p1103__w1280__step.json": "8f47c7c3d4598ee05b1150cd7e73ea03815f140c6ed345a50f41ac6f027441e6",
+    "results\\main\\conditions\\resolution__wiki_vote__p1104__w80__step.json": "f0c97a2940f2f355d9ef38a2ceffe15f6999ef5a23d86efa9339c598ee384446",
+    "results\\main\\conditions\\resolution__wiki_vote__p1104__w320__step.json": "6fef6e6365466cbaddceb0f32b488a22226409d50028a31803660d2181ddfc3d",
+    "results\\main\\conditions\\resolution__wiki_vote__p1104__w1280__step.json": "a45f6204b2e742f659cd0a47448370a32e1d0ec1bb29a7aec970d219ed8c8470",
+    "results\\main\\conditions\\resolution__wiki_vote__p1105__w80__step.json": "fc172a7c3fd22d13e076a4953b09bcfec7a9683e679deaf2b99153e404320976",
+    "results\\main\\conditions\\resolution__wiki_vote__p1105__w320__step.json": "e2c06e46befff483ed778db0432e8bc61ced9661f52c7043c2346fec21572eae",
+    "results\\main\\conditions\\resolution__wiki_vote__p1105__w1280__step.json": "75543f52d4fdec18ca90da91b88ead85db240e2b86e3f1fc51f04a524b31de88",
+    "results\\main\\conditions\\fixed_edge_control__wiki_vote__p1101__w320__edge.json": "1250e7711d8307549f455c56617249a31c34d07340baa8cbae00c95b83c9d3e2",
+    "results\\main\\conditions\\fixed_edge_control__wiki_vote__p1102__w320__edge.json": "0a30c26e01ce8246f3890e6b81f69e0d9f837b95bf1019247591936b77041434",
+    "results\\main\\conditions\\fixed_edge_control__wiki_vote__p1103__w320__edge.json": "c721e0bb945793d6d079ae8a52b9b6873dd8770d7e1222770d3585298d8ea67f",
+    "review-v2\\supplement-pr-precision\\conditions\\college_msg__p1101__w1280.json": "d07fc06f0fca47e7b3630bc9b59d3fff4f3a3deef39c0e2a1719b2540ffb145a",
+    "review-v2\\supplement-pr-precision\\conditions\\college_msg__p1102__w1280.json": "61540835f3c50a4a84aad757cb8ad405aa18e426acf0f7097b321f74666c03a5",
+    "review-v2\\supplement-pr-precision\\conditions\\college_msg__p1103__w1280.json": "804b1242a0a77ec0094279c5f9dcce7f52a402851362d29cf4d174e4d14f5953",
+    "review-v2\\supplement-pr-precision\\conditions\\college_msg__p1104__w1280.json": "5d1cb50c2976872f794d21ffdec8ed51313a73a4125f647144a5f64162125012",
+    "review-v2\\supplement-pr-precision\\conditions\\college_msg__p1105__w1280.json": "7770ce20970b46872df4bf435faccb3b9fef039e8d7bc57b1c5e5c06ed76577b",
+    "review-v2\\supplement-pr-precision\\conditions\\ca_grqc__p1101__w1280.json": "19aec550b7d706f4cddeaa8271065f3c7f97178bda87f4485371cb1756966276",
+    "review-v2\\supplement-pr-precision\\conditions\\ca_grqc__p1102__w1280.json": "a3c576b1485da14dbab12fb99a21531a525288ec4cb8255f4b17eefe6f43975e",
+    "review-v2\\supplement-pr-precision\\conditions\\ca_grqc__p1103__w1280.json": "a26ab9a6253f55fdee6d4ac854a3f6ad24b59c151bb0043ad8d8e3a3764ae07e",
+    "review-v2\\supplement-pr-precision\\conditions\\ca_grqc__p1104__w1280.json": "a616ea3cb0c9dea3beb7d5df66093f8eea51a9c271ef87a974bce1a9547c633c",
+    "review-v2\\supplement-pr-precision\\conditions\\ca_grqc__p1105__w1280.json": "d645ef46c1d38848951f81fda3014d8d309ec45f44ba97f1337baeb8fff11342",
+    "review-v2\\supplement-pr-precision\\conditions\\wiki_vote__p1101__w1280.json": "b562158791fd1eab8417f33e6d5a87a7202c7d70a5e837404860b743a5cd7de0",
+    "review-v2\\supplement-pr-precision\\conditions\\wiki_vote__p1102__w1280.json": "e280a98d6731c61922c62ee73ae3497caf7d80ee33192397340903923a9a4ed4",
+    "review-v2\\supplement-pr-precision\\conditions\\wiki_vote__p1103__w1280.json": "5c3e3aedf308fc1afc3934f18f9750a7d2c95fc72aa3c69ac315e40cf417a9cf",
+    "review-v2\\supplement-pr-precision\\conditions\\wiki_vote__p1104__w1280.json": "ec39eb318eca387f366dafeda78a0c02183369022920d240c5963ed293f6c12a",
+    "review-v2\\supplement-pr-precision\\conditions\\wiki_vote__p1105__w1280.json": "e1e5e937794b4930fd40534fbfd2e72d60e103a230304bf593585e50648eff57",
+    "review-v3-budget-precision\\supplement-pr-budget-precision\\conditions\\college_msg__p1101__w80.json": "c8493f8db3b5a12dde35c7738e8874462cb10c2122036824418e31813a31d2eb",
+    "review-v3-budget-precision\\supplement-pr-budget-precision\\conditions\\college_msg__p1101__w320.json": "2199e15d9e6565a389392f7662113c819304534e7d43548b078f91509cb090ca",
+    "review-v3-budget-precision\\supplement-pr-budget-precision\\conditions\\college_msg__p1102__w80.json": "5450d2acd640e6f850e5bbf57803a6e3a4382713d61647c18112076638fcca39",
+    "review-v3-budget-precision\\supplement-pr-budget-precision\\conditions\\college_msg__p1102__w320.json": "4607cd2face9e1e16daa4ac30106fba9abe27f4f18dcbdc5dcf3767735b6044c",
+    "review-v3-budget-precision\\supplement-pr-budget-precision\\conditions\\college_msg__p1103__w80.json": "3f3d8339d3a1aad8f67af9e370090ea39bfbf105b197a6e64e9d95fa42d2022e",
+    "review-v3-budget-precision\\supplement-pr-budget-precision\\conditions\\college_msg__p1103__w320.json": "70b8db0c4b154f15a777e418407f74891b82d7760932546e845a13a4e89a8bfa",
+    "review-v3-budget-precision\\supplement-pr-budget-precision\\conditions\\college_msg__p1104__w80.json": "2f55bf78bd02b3ae54edbea0f62096fcc79c0fcf4f6306fce8d9f71c60daf4f7",
+    "review-v3-budget-precision\\supplement-pr-budget-precision\\conditions\\college_msg__p1104__w320.json": "4e0d568822ec2336c6983dc2f227a9919144cf5d195617f7cf2c11e7af783cf9",
+    "review-v3-budget-precision\\supplement-pr-budget-precision\\conditions\\college_msg__p1105__w80.json": "adcf2c675e4fdcf3ccc6d52a0cc0dd91eb80f1953c1dba3f6640be1de9e90f88",
+    "review-v3-budget-precision\\supplement-pr-budget-precision\\conditions\\college_msg__p1105__w320.json": "4987647b37b7216079b87bc1a86c185730661fb51c874078431a4cf4bdd136cb",
+    "review-v3-budget-precision\\supplement-pr-budget-precision\\conditions\\ca_grqc__p1101__w80.json": "435672d52c7b9583c5553bcf0761a92107091d9e3d676cefcaa2e43a88b74f7e",
+    "review-v3-budget-precision\\supplement-pr-budget-precision\\conditions\\ca_grqc__p1101__w320.json": "dccc9d55b67ff16594dfde87999be69a46d7d1da61ea5d04d7f217d94d1018c2",
+    "review-v3-budget-precision\\supplement-pr-budget-precision\\conditions\\ca_grqc__p1102__w80.json": "7c044878c53af67ed494ea26db805cd91d2252d514810e864b85b4a271ec9e40",
+    "review-v3-budget-precision\\supplement-pr-budget-precision\\conditions\\ca_grqc__p1102__w320.json": "9752f2c5a83774d4a1d6d3ae0a66bbf84f84c740d4b318ab67bda351d97c5e12",
+    "review-v3-budget-precision\\supplement-pr-budget-precision\\conditions\\ca_grqc__p1103__w80.json": "70c1e56a9a2e3f97b64e7e46669989c54078546bdb328cc6988a21b39f16baf4",
+    "review-v3-budget-precision\\supplement-pr-budget-precision\\conditions\\ca_grqc__p1103__w320.json": "979c8a9e92573e2a568b374a68c27aba8960c83fa83eeadc1d08ab491d528ee6",
+    "review-v3-budget-precision\\supplement-pr-budget-precision\\conditions\\ca_grqc__p1104__w80.json": "a1c43be163697e377fbbba5e089ea0cfb84bf7b7a6d1c1cf9dce0bb9a5e10e66",
+    "review-v3-budget-precision\\supplement-pr-budget-precision\\conditions\\ca_grqc__p1104__w320.json": "a5c10d8a05d52297d69bc814488a9f90d5cd50a2e7c8c12ec304c46059a24bad",
+    "review-v3-budget-precision\\supplement-pr-budget-precision\\conditions\\ca_grqc__p1105__w80.json": "1fec43ddfe2d438fe7631c0ef995a551e960039d132f2f651302bab55dd4220e",
+    "review-v3-budget-precision\\supplement-pr-budget-precision\\conditions\\ca_grqc__p1105__w320.json": "27b5abb00ea0f258fdd2b9b4218e1422bd09d7e7bdd04b3df884f2179ebd56ac",
+    "review-v3-budget-precision\\supplement-pr-budget-precision\\conditions\\wiki_vote__p1101__w80.json": "a3dbc9d6966bbfd5e76253421a0bc038cffdc1b5115b6eb241545b0f12369051",
+    "review-v3-budget-precision\\supplement-pr-budget-precision\\conditions\\wiki_vote__p1101__w320.json": "57e8ec2ad3cb98fa1fcf1ed2980b92edc19bd63c6d2912563481937948bed453",
+    "review-v3-budget-precision\\supplement-pr-budget-precision\\conditions\\wiki_vote__p1102__w80.json": "81e050025605f79c1ceec6449273536baeba543521da877a95b7b4557c403522",
+    "review-v3-budget-precision\\supplement-pr-budget-precision\\conditions\\wiki_vote__p1102__w320.json": "eacc1eafe3886333fade56da86ef97b6a5e66e06719c6c69238a387563b24de6",
+    "review-v3-budget-precision\\supplement-pr-budget-precision\\conditions\\wiki_vote__p1103__w80.json": "bdae4d373b1e33aa3d661918d240876ca99486e9df24d8465566e718caa29d46",
+    "review-v3-budget-precision\\supplement-pr-budget-precision\\conditions\\wiki_vote__p1103__w320.json": "d4b6b9904041773b1680571cffef083c3dfc2563a5bf1c952a1416e41a69485f",
+    "review-v3-budget-precision\\supplement-pr-budget-precision\\conditions\\wiki_vote__p1104__w80.json": "b48629609b0e25a6f598a0d4a8406a01b9a29a5e22c1c57707d9a16263c04bcc",
+    "review-v3-budget-precision\\supplement-pr-budget-precision\\conditions\\wiki_vote__p1104__w320.json": "a5788090677f692e0082b6dfbd50835c502d5ad4116f3cf8af0fee344442c6f9",
+    "review-v3-budget-precision\\supplement-pr-budget-precision\\conditions\\wiki_vote__p1105__w80.json": "ad2118005b04d53b7a8784fc0aec7769f475d84891cf2792197a31dfdc805c58",
+    "review-v3-budget-precision\\supplement-pr-budget-precision\\conditions\\wiki_vote__p1105__w320.json": "43b19b1de470e75ff486861297d9e73dfc3b4d49114ccbac842004eb17a64da2"
+  },
+  "status": "PASS"
+}

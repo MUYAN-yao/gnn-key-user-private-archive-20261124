@@ -1,0 +1,241 @@
+{
+  "manuscript": {
+    "pages": 20,
+    "all_pages_rendered": true,
+    "pdf_sha256": "13ec70fcdcd9143d6c90d7b3f258723e4ab3a711ed11bb843b897190152b4e57",
+    "issues": [],
+    "unresolved_markers": false,
+    "outside_page_text_blocks": [],
+    "fonts": [
+      [
+        37,
+        "pfa",
+        "Type1",
+        "ILRHWI+NimbusRomNo9L-Medi",
+        "F87",
+        ""
+      ],
+      [
+        38,
+        "pfa",
+        "Type1",
+        "RIXGPX+NimbusRomNo9L-Regu",
+        "F88",
+        ""
+      ],
+      [
+        39,
+        "pfa",
+        "Type1",
+        "CBBALY+CMSY10",
+        "F38",
+        ""
+      ],
+      [
+        40,
+        "pfa",
+        "Type1",
+        "EZWAGR+NimbusRomNo9L-ReguItal",
+        "F93",
+        ""
+      ],
+      [
+        41,
+        "pfa",
+        "Type1",
+        "GIGFZE+CMR10",
+        "F32",
+        ""
+      ],
+      [
+        77,
+        "pfa",
+        "Type1",
+        "KRUWAW+StandardSymL-Slant_167",
+        "F92",
+        ""
+      ],
+      [
+        79,
+        "pfa",
+        "Type1",
+        "BKFRPT+CMMI10",
+        "F35",
+        ""
+      ],
+      [
+        81,
+        "pfa",
+        "Type1",
+        "TSBOKK+CMEX10",
+        "F25",
+        ""
+      ],
+      [
+        82,
+        "pfa",
+        "Type1",
+        "HKAEOH+StandardSymL",
+        "F101",
+        ""
+      ],
+      [
+        91,
+        "cid",
+        "Type0",
+        "Helvetica-Bold",
+        "F0",
+        "Identity-H"
+      ],
+      [
+        92,
+        "cid",
+        "Type0",
+        "Helvetica",
+        "F1",
+        "Identity-H"
+      ],
+      [
+        168,
+        "ttf",
+        "Type0",
+        "ELUGPM+ArialMT",
+        "F1",
+        "Identity-H"
+      ],
+      [
+        202,
+        "n/a",
+        "Type3",
+        "BMQQDV+DejaVuSans",
+        "F1",
+        ""
+      ],
+      [
+        286,
+        "ttf",
+        "Type0",
+        "ELUGPM+ArialMT",
+        "F1",
+        "Identity-H"
+      ],
+      [
+        303,
+        "ttf",
+        "Type0",
+        "ELUGPM+ArialMT",
+        "F1",
+        "Identity-H"
+      ],
+      [
+        348,
+        "pfa",
+        "Type1",
+        "ZFFATJ+SFTT1000",
+        "F120",
+        ""
+      ]
+    ]
+  },
+  "Online_Resource_1": {
+    "pages": 11,
+    "all_pages_rendered": true,
+    "pdf_sha256": "bbd089464677dfdc2a480d8be67d6643c8389c9dcc8a29be0bb7dae176fb74bb",
+    "issues": [],
+    "unresolved_markers": false,
+    "outside_page_text_blocks": [],
+    "fonts": [
+      [
+        45,
+        "pfa",
+        "Type1",
+        "ZTQZLO+NimbusRomNo9L-Medi",
+        "F79",
+        ""
+      ],
+      [
+        46,
+        "pfa",
+        "Type1",
+        "IHUHIX+NimbusRomNo9L-Regu",
+        "F80",
+        ""
+      ],
+      [
+        47,
+        "pfa",
+        "Type1",
+        "HQDYWY+CMSY10",
+        "F38",
+        ""
+      ],
+      [
+        49,
+        "pfa",
+        "Type1",
+        "QIXWPY+NimbusRomNo9L-ReguItal",
+        "F84",
+        ""
+      ],
+      [
+        63,
+        "pfa",
+        "Type1",
+        "RFLZJB+CMR10",
+        "F32",
+        ""
+      ],
+      [
+        71,
+        "pfa",
+        "Type1",
+        "UWDIBM+StandardSymL-Slant_167",
+        "F88",
+        ""
+      ],
+      [
+        86,
+        "pfa",
+        "Type1",
+        "BKFRPT+CMMI10",
+        "F35",
+        ""
+      ],
+      [
+        109,
+        "ttf",
+        "Type0",
+        "ELUGPM+ArialMT",
+        "F1",
+        "Identity-H"
+      ],
+      [
+        147,
+        "cid",
+        "Type0",
+        "Helvetica-Bold",
+        "F0",
+        "Identity-H"
+      ],
+      [
+        148,
+        "cid",
+        "Type0",
+        "Helvetica",
+        "F1",
+        "Identity-H"
+      ]
+    ]
+  },
+  "text": {
+    "abstract_words": 234,
+    "keywords": 5,
+    "citation_keys": 23,
+    "reference_entries": 23,
+    "missing_citations": [],
+    "uncited_entries": [],
+    "class_unchanged": true
+  },
+  "figures": {},
+  "status": "PASS"
+}

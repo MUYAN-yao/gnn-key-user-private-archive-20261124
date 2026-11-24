@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "new_experiments": false,
+  "csv_tex_json_files": 17,
+  "content_hashes": {
+    "analysis\\historical_arm_metrics.csv": "7382f32ac79004092ed305af9532b7c8d4d3850d4314fdef8d402316f2c0e30a",
+    "analysis\\historical_path_metrics.csv": "c092bcb96adeff2dc72781cbe91aaaab9d96780a2875cbcea5a19e32aa61d0ed",
+    "analysis\\historical_group_summary.csv": "ae189797213eef0d86a9bf045d0d00bb0f6deacb757b2d6aea0a9504b131bf0e",
+    "analysis\\historical_reference_transitions.csv": "188413b7c6bf92215b8a3532e719dd8210fca61284ba310864b864392d4b363c",
+    "analysis\\parameter_sensitivity_display.csv": "3f5f6fbd56ea53db650ed0f466475cee336a8a9ddcb3b71ea3159374658aea3a",
+    "analysis\\coupling_display.csv": "cad1fcae4b262941207c3407b4fc91a80b43235822306f65a53582f73d9c0103",
+    "analysis\\secondary_display.csv": "8518b5acab2f3e7fdf0fcb577fb3aee3e6a4a38270eb7ca9f0f8de2cbcd55388",
+    "analysis\\historical_experiment_coverage.csv": "052f4a0b0950ad70356ba5b01811bb5b64fa413595c468650120cef9ccfe3120",
+    "analysis\\historical_transition_summary.csv": "e07a49f979115aa33c78f990b45d42730a86919287237e81862306463d98ad38",
+    "analysis\\figures\\HistoryEdgeTransitions_source.csv": "65a05e568012bb97067f48cc0434080c66276b191ea668d9742f8441d32cea92",
+    "analysis\\figures\\HistoryParameters_source.csv": "3f5f6fbd56ea53db650ed0f466475cee336a8a9ddcb3b71ea3159374658aea3a",
+    "manuscript\\history_parameter_table.tex": "cc11478857f4f4b75d97b86e0b74d7069de6a414454be1413493f57de61f6e7e",
+    "manuscript\\history_coupling_table.tex": "284d0dca44e2b65574fae06ba7900d2660770016adc187006c5a581ad8c6eea9",
+    "manuscript\\history_secondary_table.tex": "d4df4b8c1f0bca84b5b126eed3e1543176d903208907d10cebc24d4e9947be9f",
+    "manuscript\\history_transition_table.tex": "d4d168e43bb0d53afb98f33390980c8625265aed5fcef945eaf90b61303546a0",
+    "manuscript\\history_coverage_table.tex": "4271e28733e27a6baadd845a5eade473cfb3ec29e72535c87dcaf4f8ba425545",
+    "analysis\\historical_key_facts.json": "87d3f964be26d7ebb242314dd675001b60dda5f0a0b68d6ecdf5323d4cd3a78f"
+  },
+  "png_pixel_hashes": {
+    "HistoryParameters.png": "76b1bbd31939399927ea25edae4718f1c87a45a443359966b62caf24f33b723f",
+    "HistoryEdgeTransitions.png": "06ecc229eaa9e1d535277de91188191f841885d900bf41a9631449a153872581"
+  },
+  "excluded_binary_equality": "PDF/SVG metadata contains export timestamps."
+}

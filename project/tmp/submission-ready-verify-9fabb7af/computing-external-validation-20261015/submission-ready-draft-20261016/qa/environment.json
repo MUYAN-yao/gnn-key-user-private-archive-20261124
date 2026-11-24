@@ -1,0 +1,20 @@
+{
+  "python": "3.13.0 | packaged by conda-forge | (main, Nov 27 2024, 19:03:49) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.3.3",
+    "pandas": "2.3.2",
+    "scipy": "1.16.1",
+    "networkx": "3.5",
+    "matplotlib": "3.10.6",
+    "psutil": "7.2.2",
+    "numba": "0.68.0",
+    "llvmlite": "0.50.0",
+    "pymupdf": "1.28.0",
+    "pillow": "12.3.0"
+  },
+  "pagerank_signature": "(G, alpha=0.85, personalization=None, max_iter=100, tol=1e-06, nstart=None, weight='weight', dangling=None, *, backend=None, **backend_kwargs)",
+  "pagerank_source_sha256": "f6da8452c414ba4efd116caa9bf5af87c6b67a04ab2f67ac45a5570053a939f7",
+  "pdf_renderer": "PyMuPDF; Poppler not found in inspected TeX binary path",
+  "threads": "frozen single worker; OMP/OPENBLAS constrained to1 in review commands"
+}

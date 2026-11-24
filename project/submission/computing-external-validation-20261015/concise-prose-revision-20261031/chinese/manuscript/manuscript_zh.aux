@@ -1,0 +1,101 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand*\HyPL@Entry[1]{}
+\citation{ref1}
+\citation{ref7,ref8,ref2}
+\HyPL@Entry{0<</S/D>>}
+\@writefile{toc}{\contentsline {section}{\numberline {1}引言}{2}{section.1}\protected@file@percent }
+\citation{ref1}
+\citation{ref7}
+\citation{ref8}
+\citation{ref2}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces 配对评价区分选择采样、候选排名与独立效用评估。（a）两实验臂均使用相同的 $W$ 个世界选择种子，排名容差 $\tau $ 与截断值 $q$ 定义受限候选池 $C(\tau ,q)$。两实验臂共享图、世界前缀、种子预算与同分规则。（b）单独且共享的 $M=10,000$ 个评估世界给出效用差 $\Delta U$，方向为受限方法减去全候选参照。集合一致性 $J$ 与选择成本比 $\rho _T$ 共同构成质量与成本比较。}}{3}{figure.1}\protected@file@percent }
+\newlabel{fig:evaluation-mechanism}{{1}{3}{配对评价区分选择采样、候选排名与独立效用评估。（a）两实验臂均使用相同的 $W$ 个世界选择种子，排名容差 $\tau $ 与截断值 $q$ 定义受限候选池 $C(\tau ,q)$。两实验臂共享图、世界前缀、种子预算与同分规则。（b）单独且共享的 $M=10,000$ 个评估世界给出效用差 $\Delta U$，方向为受限方法减去全候选参照。集合一致性 $J$ 与选择成本比 $\rho _T$ 共同构成质量与成本比较。}{figure.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}相关工作}{3}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{目标函数、采样与计算效率。}{3}{section*.1}\protected@file@percent }
+\citation{ref12}
+\citation{ref13}
+\citation{ref19}
+\citation{ref9}
+\citation{ref16}
+\citation{ref11}
+\citation{ref15}
+\@writefile{toc}{\contentsline {paragraph}{影响力估计与种子选择策略。}{4}{section*.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{评价设置与仍需回答的问题。}{4}{section*.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}研究方法}{4}{section.3}\protected@file@percent }
+\citation{networkxpr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}控制分辨率的配对选择}{5}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}世界耦合与独立评估}{5}{subsection.3.2}\protected@file@percent }
+\newlabel{sec:coupling}{{3.2}{5}{世界耦合与独立评估}{subsection.3.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}实现与成本测量}{6}{subsection.3.3}\protected@file@percent }
+\citation{snap}
+\citation{college}
+\citation{grqc}
+\citation{signed,links}
+\@writefile{toc}{\contentsline {section}{\numberline {4}实验设置}{7}{section.4}\protected@file@percent }
+\newlabel{sec:experimental-setup}{{4}{7}{实验设置}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}网络与预处理}{7}{subsection.4.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces 处理后的外部网络与候选覆盖率。弧指有向传播弧；5\% 候选池包含 $\lceil .05n\rceil $ 个节点。}}{7}{table.1}\protected@file@percent }
+\newlabel{tab:data}{{1}{7}{处理后的外部网络与候选覆盖率。弧指有向传播弧；5\% 候选池包含 $\lceil .05n\rceil $ 个节点。}{table.1}{}}
+\citation{ref3,ref4,ref5,ref6}
+\citation{ref17,ref18}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}主要实验矩阵与数值敏感性控制}{8}{subsection.4.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces 外部实验设置。路径标识各图上的计算重复。}}{9}{table.2}\protected@file@percent }
+\newlabel{tab:settings}{{2}{9}{外部实验设置。路径标识各图上的计算重复。}{table.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}随机化、执行与可复现性}{9}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}研究结果}{10}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}表面上的预算反转依赖排名精度}{10}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}参照集合变化不能决定传播量变化}{10}{subsection.5.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces 选择预算与排名精度对候选限制质量产生不同影响。每个 $W$ 下，受限方法均与该预算下选出的全候选参照比较；独立评估世界保持固定。点为五条配对路径的平均增量传播损失，误差线为路径标准差。图中的 Default 和 Strict 分别表示容差 $10^{-6}$ 和 $10^{-12}$；候选成员在 $10^{-12}$ 与 $10^{-14}$ 间保持不变。负损失表示受限集合的评估结果更高。收紧 PageRank 容差后，ca-GrQc 的默认反转消失，而有向网络上的损失仍存在。这是事后配对敏感性分析。}}{11}{figure.2}\protected@file@percent }
+\newlabel{fig:precision-budget}{{2}{11}{选择预算与排名精度对候选限制质量产生不同影响。每个 $W$ 下，受限方法均与该预算下选出的全候选参照比较；独立评估世界保持固定。点为五条配对路径的平均增量传播损失，误差线为路径标准差。图中的 Default 和 Strict 分别表示容差 $10^{-6}$ 和 $10^{-12}$；候选成员在 $10^{-12}$ 与 $10^{-14}$ 间保持不变。负损失表示受限集合的评估结果更高。收紧 PageRank 容差后，ca-GrQc 的默认反转消失，而有向网络上的损失仍存在。这是事后配对敏感性分析。}{figure.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces 参照集合变化与独立传播量变化，差值为高预算减低预算的全候选参照传播量。实心圆表示最终集合变化，空心方块表示集合未变。每个图内，路径 1101--1105 从左至右排列。误差线为根据 10,000 个配对世界计算的未经校正的 95\% 条件蒙特卡洛区间。各面板采用不同纵轴尺度，以显示较小的变化；区间以已选集合为条件，不描述网络间变异。}}{12}{figure.3}\protected@file@percent }
+\newlabel{fig:transitions}{{3}{12}{参照集合变化与独立传播量变化，差值为高预算减低预算的全候选参照传播量。实心圆表示最终集合变化，空心方块表示集合未变。每个图内，路径 1101--1105 从左至右排列。误差线为根据 10,000 个配对世界计算的未经校正的 95\% 条件蒙特卡洛区间。各面板采用不同纵轴尺度，以显示较小的变化；区间以已选集合为条件，不描述网络间变异。}{figure.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}排名一致性受覆盖率与网络背景限定}{12}{subsection.5.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces 外部网络在 $W=1280$ 下的结果（五条路径）。Degree-4k 与 PageRank-4k（PR）使用 20 节点候选池；PR 使用默认容差。全候选参照增量传播量为总传播量减去 $k=5$。PR 差值为受限选择减全候选选择的平均传播量；损失以全候选参照的增量传播量为基准。一致性计数指完全相同的有序轨迹。}}{13}{table.3}\protected@file@percent }
+\newlabel{tab:primary}{{3}{13}{外部网络在 $W=1280$ 下的结果（五条路径）。Degree-4k 与 PageRank-4k（PR）使用 20 节点候选池；PR 使用默认容差。全候选参照增量传播量为总传播量减去 $k=5$。PR 差值为受限选择减全候选选择的平均传播量；损失以全候选参照的增量传播量为基准。一致性计数指完全相同的有序轨迹。}{table.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}指定计时范围下保持参照结果的计算节省}{14}{subsection.5.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Degree-4k 在 $W=1280$ 下的成本，取五条路径平均。Full 与 Degree 列为实测选择时间。最后一列估计包含准备阶段、选择及评估世界准备、种子选择和独立评估的成本节省。这些暖进程拼接成本排除导入、JIT 编译、下载和输出写入，并非直接端到端计时。}}{14}{table.4}\protected@file@percent }
+\newlabel{tab:cost}{{4}{14}{Degree-4k 在 $W=1280$ 下的成本，取五条路径平均。Full 与 Degree 列为实测选择时间。最后一列估计包含准备阶段、选择及评估世界准备、种子选择和独立评估的成本节省。这些暖进程拼接成本排除导入、JIT 编译、下载和输出写入，并非直接端到端计时。}{table.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}参数与耦合对照限定结论范围}{14}{subsection.5.5}\protected@file@percent }
+\citation{ref8}
+\citation{ref1}
+\citation{ref16}
+\@writefile{toc}{\contentsline {section}{\numberline {6}讨论}{15}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}参照预算效应的解释边界}{15}{subsection.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}从种子一致性到质量与成本判断}{15}{subsection.6.2}\protected@file@percent }
+\citation{ref15}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}网络方向与排名结果的迁移}{16}{subsection.6.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}适用范围、局限与后续检验}{16}{subsection.6.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{后续检验。}{16}{section*.4}\protected@file@percent }
+\bibcite{ref1}{{1}{}{{}}{{}}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}结论}{17}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{补充信息。}{17}{section*.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{基金支持。}{17}{section*.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{利益冲突。}{17}{section*.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{作者贡献。}{17}{section*.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{数据可用性。}{17}{section*.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{代码可用性。}{17}{section*.11}\protected@file@percent }
+\bibcite{ref7}{{2}{}{{}}{{}}}
+\bibcite{ref8}{{3}{}{{}}{{}}}
+\bibcite{ref2}{{4}{}{{}}{{}}}
+\bibcite{ref12}{{5}{}{{}}{{}}}
+\bibcite{ref13}{{6}{}{{}}{{}}}
+\bibcite{ref19}{{7}{}{{}}{{}}}
+\bibcite{ref9}{{8}{}{{}}{{}}}
+\bibcite{ref16}{{9}{}{{}}{{}}}
+\bibcite{ref11}{{10}{}{{}}{{}}}
+\bibcite{ref15}{{11}{}{{}}{{}}}
+\bibcite{networkxpr}{{12}{}{{}}{{}}}
+\bibcite{snap}{{13}{}{{}}{{}}}
+\bibcite{college}{{14}{}{{}}{{}}}
+\bibcite{grqc}{{15}{}{{}}{{}}}
+\bibcite{signed}{{16}{}{{}}{{}}}
+\bibcite{links}{{17}{}{{}}{{}}}
+\bibcite{ref3}{{18}{}{{}}{{}}}
+\bibcite{ref4}{{19}{}{{}}{{}}}
+\bibcite{ref5}{{20}{}{{}}{{}}}
+\bibcite{ref6}{{21}{}{{}}{{}}}
+\bibcite{ref17}{{22}{}{{}}{{}}}
+\bibcite{ref18}{{23}{}{{}}{{}}}
+\providecommand\NAT@force@numbers{}\NAT@force@numbers
+\gdef \@abspage@last{20}

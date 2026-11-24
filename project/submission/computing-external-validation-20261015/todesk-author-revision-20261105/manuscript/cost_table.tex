@@ -1,0 +1,12 @@
+\begin{table}[htbp]
+\caption{Selection cost of Degree-4k at $W=1280$, averaged over five replicates. Full and Degree give the measured selection time. The last column gives the saving in an assembled warm-process cost that adds graph setup, preparation of selection and evaluation worlds, and independent evaluation (Section~\ref{sec:cost}).}\label{tab:cost}
+\begin{tabular}{lrrrr}
+\toprule
+Graph & Full (s) & Degree (s) & \shortstack{Selection\\saving (\%)} & \shortstack{Saving including\\evaluation (\%)} \\
+\midrule
+ca-GrQc & 23.53 & 0.109 & 99.54 & 92.77 \\
+CollegeMsg & 5.89 & 0.094 & 98.40 & 86.59 \\
+wiki-Vote & 158.94 & 0.520 & 99.67 & 96.26 \\
+\bottomrule
+\end{tabular}
+\end{table}

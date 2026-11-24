@@ -1,0 +1,11 @@
+{
+  "primary_table.tex": {
+    "2": "\\caption{外部网络在 $W=1280$ 下的结果（五条路径）。Degree-4k 与 PageRank-4k（PR）使用 20 节点候选池；PR 使用默认容差。全候选参照增量传播量为总传播量减去 $k=5$。PR 差值为受限选择减全候选选择的平均传播量；损失以全候选参照的增量传播量为基准。一致性计数指完全相同的有序轨迹。}\\label{tab:primary}",
+    "5": "网络 & \\shortstack{全候选增量\\\\传播量（节点）} & \\shortstack{PR 差值\\\\（节点）} & \\shortstack{PR 损失\\\\（\\%）} & \\shortstack{Degree\\\\一致性} \\\\",
+    "12": "\\par\\smallskip\\footnotesize 一致性表示五条路径中匹配的轨迹数量。"
+  },
+  "cost_table.tex": {
+    "2": "\\caption{Degree-4k 在 $W=1280$ 下的成本，取五条路径平均。Full 与 Degree 列为实测选择时间。最后一列估计包含准备阶段、选择及评估世界准备、种子选择和独立评估的成本节省。这些暖进程拼接成本排除导入、JIT 编译、下载和输出写入，并非直接端到端计时。}\\label{tab:cost}",
+    "5": "网络 & Full（s） & Degree（s） & \\shortstack{选择阶段\\\\节省（\\%）} & \\shortstack{含评估成本\\\\节省（\\%）} \\\\"
+  }
+}

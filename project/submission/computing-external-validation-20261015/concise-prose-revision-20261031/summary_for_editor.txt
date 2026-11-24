@@ -1,0 +1,20 @@
+Evaluating Candidate-Restricted Influence Maximization: Effects of Reference Budget and Ranking Precision
+
+Problem and contribution
+Candidate restriction narrows seed eligibility, but its measured quality compares two seed sets selected from finite samples. In the budget sweeps, W governs selection in both the full and restricted arms. Their relative differences reflect changes in both procedures. Ranking tolerance and pool size determine eligibility separately, while independent evaluation uses 10,000 fixed worlds. At a fixed W, the post-hoc tolerance control reuses the same-budget full reference and recomputes only restricted selection.
+
+Principal findings
+We identify how ranking precision alters an apparent budget effect. We vary the selection budget for both full and restricted arms and use a post-hoc precision control to examine the resulting relative spread differences. On ca-GrQc, tightening PageRank tolerance exchanges two of 20 candidates and removes the default mean gain-to-loss reversal. This identifies a numerical dependence that a budget scan at default tolerance alone would miss.
+
+We quantify independently estimated spread changes associated with reference-set changes. Independent paired evaluation measures their direction, magnitude and conditional Monte Carlo uncertainty. In the historical comparison from W=1280 to W=5120, 16 of 40 reference sets change, while mean spread increases by 0.01111 nodes across all 40 network–path pairs. Individual changes include negative, positive and zero differences; the measurements separate seed-set instability from changes in estimated utility.
+
+We identify which tested candidate pools preserve the reference while reducing selection cost. At W=1280, Degree-4k uses 20 candidates to reproduce all 15 external reference trajectories at lower selection cost in this implementation. Default PageRank-4k reproduces none, and losses on CollegeMsg and wiki-Vote persist under tighter tolerance. These comparisons delimit the transfer of earlier contact-graph agreement and relate computational savings to independently evaluated utility.
+
+Scope and value
+The real-network evidence is a small selected sample, with three external topologies and four small contact graphs analyzed separately. The historical study supplies budget, local propagation-parameter and coupling controls; it does not enlarge the external sample or establish a joint strict-tolerance/fixed-edge result. Two fixed synthetic graphs remain secondary controls. The paper provides evidence on how numerical settings alter an evaluation judgment and identifies what must accompany a reported quality--cost trade-off: candidate membership, coverage, the shared selection budget, ranking tolerance, independent spread and timing scope.
+
+Study identity and reproducibility
+The precision analysis is post-hoc and reuses existing paths. Computational paths and diffusion worlds are not independent network samples. Cost savings are relative to exhaustive selection in this implementation. Frozen outputs, analysis tables and protocols remain available in the accompanying project materials. The present revision changes exposition and supplies a Chinese reading translation; it adds no experiments, new statistical analysis or expanded reproduction claim.
+
+Relation to prior work
+The revised discussion relates fixed sampled realizations to prior coverage-based optimization and distinguishes that established principle from numerical changes in candidate eligibility. It also separates structural direction diagnostics from causal interventions. Joint precision--coupling controls and direction interventions are stated as future tests, not completed evidence.

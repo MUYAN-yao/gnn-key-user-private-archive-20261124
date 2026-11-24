@@ -1,0 +1,82 @@
+{
+  "status": "complete",
+  "conditions": 15,
+  "arms": 30,
+  "completed": [
+    {
+      "key": "college_msg__p1101__w1280",
+      "json_sha256": "d07fc06f0fca47e7b3630bc9b59d3fff4f3a3deef39c0e2a1719b2540ffb145a",
+      "npz_sha256": "86cb5394183e3d030070c73b90dcff765db1cc8110320f29dda82828f6efaeb7"
+    },
+    {
+      "key": "college_msg__p1102__w1280",
+      "json_sha256": "61540835f3c50a4a84aad757cb8ad405aa18e426acf0f7097b321f74666c03a5",
+      "npz_sha256": "1f872e0ca5382532e451de30410b695bcbaa3afa960462532a9307895c101128"
+    },
+    {
+      "key": "college_msg__p1103__w1280",
+      "json_sha256": "804b1242a0a77ec0094279c5f9dcce7f52a402851362d29cf4d174e4d14f5953",
+      "npz_sha256": "ba177f6ff65dbfc20e46bf0e8855f579ff9e217f8ae9f49b46e745ebc9dc9ad4"
+    },
+    {
+      "key": "college_msg__p1104__w1280",
+      "json_sha256": "5d1cb50c2976872f794d21ffdec8ed51313a73a4125f647144a5f64162125012",
+      "npz_sha256": "f121a83c3f14a323a51a2cbfa8b913e89815873e615e787587b03142a0469891"
+    },
+    {
+      "key": "college_msg__p1105__w1280",
+      "json_sha256": "7770ce20970b46872df4bf435faccb3b9fef039e8d7bc57b1c5e5c06ed76577b",
+      "npz_sha256": "2701482f144446d5d98e84b434cbf08567fdc581eda58c380890cddfcea7b3c9"
+    },
+    {
+      "key": "ca_grqc__p1101__w1280",
+      "json_sha256": "19aec550b7d706f4cddeaa8271065f3c7f97178bda87f4485371cb1756966276",
+      "npz_sha256": "05c38e0f5c72e6518689bc8c0c39ef9ea0f1d58d18543a51cfb07b8e004b842d"
+    },
+    {
+      "key": "ca_grqc__p1102__w1280",
+      "json_sha256": "a3c576b1485da14dbab12fb99a21531a525288ec4cb8255f4b17eefe6f43975e",
+      "npz_sha256": "bf0399bf7083cdc16e5938c96a40effc474c4c13ebcc439eb6971cf91fc39406"
+    },
+    {
+      "key": "ca_grqc__p1103__w1280",
+      "json_sha256": "a26ab9a6253f55fdee6d4ac854a3f6ad24b59c151bb0043ad8d8e3a3764ae07e",
+      "npz_sha256": "98a4216f530134d9a1d2cc41144049ef48cf8356569feb360a82f6423b15557d"
+    },
+    {
+      "key": "ca_grqc__p1104__w1280",
+      "json_sha256": "a616ea3cb0c9dea3beb7d5df66093f8eea51a9c271ef87a974bce1a9547c633c",
+      "npz_sha256": "767dc3705389be22bcae60bfc229dcccea944f420df176ffbff2cfa455e97901"
+    },
+    {
+      "key": "ca_grqc__p1105__w1280",
+      "json_sha256": "d645ef46c1d38848951f81fda3014d8d309ec45f44ba97f1337baeb8fff11342",
+      "npz_sha256": "13b4d6f50c6def7886383fc66e14528349fb51845efe74da892a52405f24173a"
+    },
+    {
+      "key": "wiki_vote__p1101__w1280",
+      "json_sha256": "b562158791fd1eab8417f33e6d5a87a7202c7d70a5e837404860b743a5cd7de0",
+      "npz_sha256": "6372e087f805fbd492086ef53f63e7a24dd1294d9b1381de949e62d588d699a3"
+    },
+    {
+      "key": "wiki_vote__p1102__w1280",
+      "json_sha256": "e280a98d6731c61922c62ee73ae3497caf7d80ee33192397340903923a9a4ed4",
+      "npz_sha256": "97eea1977218d7630dcd8ca98e69cb16cca3928445879eeea732d28b07af8613"
+    },
+    {
+      "key": "wiki_vote__p1103__w1280",
+      "json_sha256": "5c3e3aedf308fc1afc3934f18f9750a7d2c95fc72aa3c69ac315e40cf417a9cf",
+      "npz_sha256": "3fb33ce35fd656298564b2688c2c2090dcd151ceb9672a23067aa5124f53261a"
+    },
+    {
+      "key": "wiki_vote__p1104__w1280",
+      "json_sha256": "ec39eb318eca387f366dafeda78a0c02183369022920d240c5963ed293f6c12a",
+      "npz_sha256": "d0696b2034fa9405356a1b421da17295631aa56bc18f6f3a613c0cff51632f4f"
+    },
+    {
+      "key": "wiki_vote__p1105__w1280",
+      "json_sha256": "e1e5e937794b4930fd40534fbfd2e72d60e103a230304bf593585e50648eff57",
+      "npz_sha256": "0043557886abd80d4f93d09f93fa1a70614a1771d14563cb7c2da79220e2b53d"
+    }
+  ]
+}

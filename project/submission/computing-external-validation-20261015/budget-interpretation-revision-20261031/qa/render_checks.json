@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "method": "All 64 pages inspected as four-page rendered sheets; final English and Chinese abstract pages additionally inspected at full rendered resolution after percentage wording clarification.",
+  "documents": {
+    "english": {
+      "pages_reviewed": 17,
+      "pdf_sha256": "319cac6177e5ee2aac72e9d6323ebcda124825370516cd4395ddee97e1290d74"
+    },
+    "chinese": {
+      "pages_reviewed": 20,
+      "pdf_sha256": "0f1ad9f825cb97f05a0480ed78ca22ed5491b451e9fcbd98a15d50e62d7fed2f"
+    },
+    "supplement": {
+      "pages_reviewed": 27,
+      "pdf_sha256": "b378d4c42e3cc4f5b07fe255f4482c758eb67f47a0dd20075d15461e9d388f67"
+    }
+  },
+  "findings": [
+    "No clipped text, overlapping elements, missing glyphs, or lost longtable rows detected.",
+    "Existing mechanism and statistical figures retained unchanged.",
+    "Template spacing and normal page geometry retained.",
+    "Underfull spacing and mathptmx bold-math warnings remain; no overfull, undefined-reference or missing-character warnings."
+  ],
+  "limitations": "Visual inspection and manuscript consistency checks do not independently reproduce the experiments."
+}

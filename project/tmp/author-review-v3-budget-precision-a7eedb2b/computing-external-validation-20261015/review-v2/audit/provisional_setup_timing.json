@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "posthoc": true,
+  "repetitions": 5,
+  "python": "3.13.0 | packaged by conda-forge | (main, Nov 27 2024, 19:03:49) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "scope": "Warm process; OS cache uncontrolled, raw gzip parse and CSR plus one method rank and sorted pool; excludes imports/JIT, diagnostics, downloads, result writing. Setup measurement is assembled with frozen selection timings, not a single end-to-end benchmark."
+}

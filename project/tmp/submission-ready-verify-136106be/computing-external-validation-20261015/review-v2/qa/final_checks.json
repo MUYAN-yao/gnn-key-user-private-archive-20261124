@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "external_conditions": 54,
+  "external_arms": 468,
+  "posthoc_precision_conditions": 15,
+  "posthoc_precision_arms": 30,
+  "precision_hash_and_numeric_checks": true,
+  "external_evaluation_values": 4680000,
+  "historical_manifest_files_checked": 1191,
+  "historical_1280_to_5120": {
+    "pairs": 40,
+    "changed_sets": 16,
+    "mean_gain": 0.01111,
+    "degree_order_matches": 39,
+    "pagerank_order_matches": 40
+  },
+  "preflight_hash_match": true,
+  "external_primary_numbers_match": true,
+  "sign_test_family_match": true,
+  "transition_numbers_match": true,
+  "all_doi_metadata_retrieved": true,
+  "abstract_words": 226,
+  "main_pages": 17,
+  "supplement_pages": 9,
+  "all_pages_visually_reviewed": true,
+  "unresolved_author_declarations": true,
+  "scope": "Ready for final author scientific review, not approved for submission."
+}

@@ -1,0 +1,522 @@
+[
+  {
+    "page": "Evaluation mechanism",
+    "id": 1,
+    "text": "",
+    "x": 12,
+    "y": 12,
+    "w": 976,
+    "h": 465,
+    "font_pt": 11
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 2,
+    "text": "a",
+    "x": 28,
+    "y": 22,
+    "w": 35,
+    "h": 35,
+    "font_pt": 14
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 3,
+    "text": "Two resolutions enter the same evaluation chain",
+    "x": 68,
+    "y": 21,
+    "w": 890,
+    "h": 37,
+    "font_pt": 12
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 4,
+    "text": "Observed\ngraph G",
+    "x": 32,
+    "y": 92,
+    "w": 170,
+    "h": 70,
+    "font_pt": 11
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 17,
+    "text": "Fixed graph\np, h, node IDs",
+    "x": 27,
+    "y": 305,
+    "w": 178,
+    "h": 78,
+    "font_pt": 10.5
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 18,
+    "text": "Full eligibility\nC = V",
+    "x": 230,
+    "y": 138,
+    "w": 205,
+    "h": 82,
+    "font_pt": 11
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 19,
+    "text": "Rank + truncate\nPool C",
+    "x": 230,
+    "y": 291,
+    "w": 205,
+    "h": 82,
+    "font_pt": 11
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 20,
+    "text": "tau, m, coverage",
+    "x": 227,
+    "y": 379,
+    "w": 215,
+    "h": 44,
+    "font_pt": 10.5
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 29,
+    "text": "Full greedy\nSeeds S_V",
+    "x": 488,
+    "y": 138,
+    "w": 191,
+    "h": 82,
+    "font_pt": 11
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 30,
+    "text": "Pool greedy\nSeeds S_C",
+    "x": 488,
+    "y": 291,
+    "w": 191,
+    "h": 82,
+    "font_pt": 11
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 37,
+    "text": "Nested worlds\nW: 80 / 320 / 1280",
+    "x": 471,
+    "y": 64,
+    "w": 226,
+    "h": 59,
+    "font_pt": 10.5
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 53,
+    "text": "Paired spread\nM = 10,000",
+    "x": 738,
+    "y": 210,
+    "w": 220,
+    "h": 101,
+    "font_pt": 11
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 54,
+    "text": "Disjoint worlds eta\nShared across arms",
+    "x": 741,
+    "y": 322,
+    "w": 216,
+    "h": 70,
+    "font_pt": 10.5
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 55,
+    "text": "Only seed eligibility changes. Propagation uses the full processed graph.",
+    "x": 33,
+    "y": 424,
+    "w": 916,
+    "h": 47,
+    "font_pt": 10.5
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 56,
+    "text": "",
+    "x": 12,
+    "y": 496,
+    "w": 976,
+    "h": 331,
+    "font_pt": 11
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 57,
+    "text": "b",
+    "x": 28,
+    "y": 506,
+    "w": 35,
+    "h": 35,
+    "font_pt": 14
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 58,
+    "text": "Small ranking changes can cross the eligibility boundary",
+    "x": 68,
+    "y": 505,
+    "w": 890,
+    "h": 37,
+    "font_pt": 12
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 59,
+    "text": "ca-GrQc: PageRank-4k, m = 20 (observed control)",
+    "x": 35,
+    "y": 546,
+    "w": 902,
+    "h": 35,
+    "font_pt": 11
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 60,
+    "text": "Default",
+    "x": 35,
+    "y": 590,
+    "w": 120,
+    "h": 50,
+    "font_pt": 10.5
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 61,
+    "text": "Strict",
+    "x": 35,
+    "y": 657,
+    "w": 120,
+    "h": 50,
+    "font_pt": 10.5
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 62,
+    "text": "18 shared",
+    "x": 159,
+    "y": 590,
+    "w": 176,
+    "h": 50,
+    "font_pt": 10.5
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 63,
+    "text": "1488",
+    "x": 344,
+    "y": 590,
+    "w": 90,
+    "h": 50,
+    "font_pt": 10.5
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 64,
+    "text": "19865",
+    "x": 442,
+    "y": 590,
+    "w": 90,
+    "h": 50,
+    "font_pt": 10.5
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 65,
+    "text": "18 shared",
+    "x": 159,
+    "y": 657,
+    "w": 176,
+    "h": 50,
+    "font_pt": 10.5
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 66,
+    "text": "17655",
+    "x": 344,
+    "y": 657,
+    "w": 90,
+    "h": 50,
+    "font_pt": 10.5
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 67,
+    "text": "6610",
+    "x": 442,
+    "y": 657,
+    "w": 90,
+    "h": 50,
+    "font_pt": 10.5
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 68,
+    "text": "tau: 10^-6 vs 10^-12\nStrict pool unchanged at 10^-14",
+    "x": 35,
+    "y": 722,
+    "w": 500,
+    "h": 68,
+    "font_pt": 10.5
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 72,
+    "text": "W = 1280: 5/5 sets change\nDelta vs full\n-0.25082 -> +0.02608",
+    "x": 601,
+    "y": 587,
+    "w": 352,
+    "h": 124,
+    "font_pt": 10.5
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 73,
+    "text": "Post-hoc paired control\nPoint estimates only",
+    "x": 601,
+    "y": 724,
+    "w": 352,
+    "h": 86,
+    "font_pt": 10.5
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 74,
+    "text": "",
+    "x": 12,
+    "y": 845,
+    "w": 976,
+    "h": 273,
+    "font_pt": 11
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 75,
+    "text": "c",
+    "x": 28,
+    "y": 855,
+    "w": 35,
+    "h": 35,
+    "font_pt": 14
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 76,
+    "text": "Report three outcomes separately",
+    "x": 68,
+    "y": 854,
+    "w": 890,
+    "h": 37,
+    "font_pt": 12
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 77,
+    "text": "Agreement\nTrajectory / final set\nJaccard / divergence",
+    "x": 36,
+    "y": 906,
+    "w": 285,
+    "h": 124,
+    "font_pt": 10.5
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 78,
+    "text": "Utility\nTotal / extra spread\nPaired Delta / MC SE",
+    "x": 358,
+    "y": 906,
+    "w": 285,
+    "h": 124,
+    "font_pt": 10.5
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 79,
+    "text": "Cost\nSelection time\nSetup / verification",
+    "x": 680,
+    "y": 906,
+    "w": 285,
+    "h": 124,
+    "font_pt": 10.5
+  },
+  {
+    "page": "Evaluation mechanism",
+    "id": 80,
+    "text": "Agreement alone does not quantify utility preservation or savings.",
+    "x": 35,
+    "y": 1040,
+    "w": 930,
+    "h": 62,
+    "font_pt": 10.5
+  },
+  {
+    "page": "Coupling mechanism",
+    "id": 1,
+    "text": "",
+    "x": 12,
+    "y": 10,
+    "w": 976,
+    "h": 640,
+    "font_pt": 11
+  },
+  {
+    "page": "Coupling mechanism",
+    "id": 2,
+    "text": "a",
+    "x": 28,
+    "y": 20,
+    "w": 35,
+    "h": 35,
+    "font_pt": 14
+  },
+  {
+    "page": "Coupling mechanism",
+    "id": 3,
+    "text": "Why step-indexed worlds can change realized reach",
+    "x": 68,
+    "y": 19,
+    "w": 890,
+    "h": 37,
+    "font_pt": 12
+  },
+  {
+    "page": "Coupling mechanism",
+    "id": 4,
+    "text": "Illustrative chain s -> u -> v; h = 2. The same step-indexed world is used in both rows.",
+    "x": 38,
+    "y": 60,
+    "w": 922,
+    "h": 43,
+    "font_pt": 11
+  },
+  {
+    "page": "Coupling mechanism",
+    "id": 5,
+    "text": "Open / closed draws: s -> u at t = 0 is open; u -> v at t = 0 is closed; u -> v at t = 1 is open.",
+    "x": 38,
+    "y": 112,
+    "w": 923,
+    "h": 71,
+    "font_pt": 11
+  },
+  {
+    "page": "Coupling mechanism",
+    "id": 6,
+    "text": "Initial seeds",
+    "x": 40,
+    "y": 201,
+    "w": 190,
+    "h": 37,
+    "font_pt": 11
+  },
+  {
+    "page": "Coupling mechanism",
+    "id": 7,
+    "text": "t = 0",
+    "x": 277,
+    "y": 201,
+    "w": 220,
+    "h": 37,
+    "font_pt": 11
+  },
+  {
+    "page": "Coupling mechanism",
+    "id": 8,
+    "text": "t = 1",
+    "x": 546,
+    "y": 201,
+    "w": 220,
+    "h": 37,
+    "font_pt": 11
+  },
+  {
+    "page": "Coupling mechanism",
+    "id": 9,
+    "text": "Reach",
+    "x": 817,
+    "y": 201,
+    "w": 130,
+    "h": 37,
+    "font_pt": 11
+  },
+  {
+    "page": "Coupling mechanism",
+    "id": 10,
+    "text": "S = {s}",
+    "x": 40,
+    "y": 264,
+    "w": 169,
+    "h": 68,
+    "font_pt": 11
+  },
+  {
+    "page": "Coupling mechanism",
+    "id": 21,
+    "text": "3 nodes",
+    "x": 819,
+    "y": 264,
+    "w": 125,
+    "h": 68,
+    "font_pt": 11
+  },
+  {
+    "page": "Coupling mechanism",
+    "id": 22,
+    "text": "S' = {s, u}",
+    "x": 40,
+    "y": 386,
+    "w": 169,
+    "h": 68,
+    "font_pt": 11
+  },
+  {
+    "page": "Coupling mechanism",
+    "id": 28,
+    "text": "u has already acted;\nno retry at t = 1",
+    "x": 538,
+    "y": 385,
+    "w": 223,
+    "h": 74,
+    "font_pt": 11
+  },
+  {
+    "page": "Coupling mechanism",
+    "id": 29,
+    "text": "2 nodes",
+    "x": 819,
+    "y": 386,
+    "w": 125,
+    "h": 68,
+    "font_pt": 11
+  },
+  {
+    "page": "Coupling mechanism",
+    "id": 30,
+    "text": "Adding u as an initial seed advances its attempt from t = 1 to t = 0. A larger seed set can therefore have smaller reach in a realized step-indexed world.",
+    "x": 39,
+    "y": 477,
+    "w": 911,
+    "h": 65,
+    "font_pt": 11
+  },
+  {
+    "page": "Coupling mechanism",
+    "id": 31,
+    "text": "Fixed-edge control uses one draw per edge/world.\nThe example alone does not disprove submodularity.",
+    "x": 40,
+    "y": 554,
+    "w": 914,
+    "h": 80,
+    "font_pt": 11
+  }
+]

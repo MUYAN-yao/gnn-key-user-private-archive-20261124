@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "native_visio": {
+    "path": "figures\\im_evaluation_mechanism_v2.vsdx",
+    "shape_count": 237,
+    "embedded_media": []
+  },
+  "vector_pdf": {
+    "path": "manuscript\\FigEvaluationMechanism.pdf",
+    "raster_images": 0,
+    "width_mm": 119,
+    "height_mm": 47.6000015258789
+  },
+  "scope": "evaluation design; not a new influence-maximization algorithm"
+}

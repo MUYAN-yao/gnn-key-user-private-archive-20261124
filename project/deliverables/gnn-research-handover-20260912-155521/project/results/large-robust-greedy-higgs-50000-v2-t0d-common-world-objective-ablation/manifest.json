@@ -1,0 +1,56 @@
+{
+  "protocol": {
+    "influence_v2_t0d_common_world_objective_ablation_preregistration.md": "e7dd0d31e32031f6d095cd0f2ec700ecf3e1acc9ab378a8111df398a341bda93"
+  },
+  "inputs": {
+    "nodes.csv": "04560116149c19d1bd7f0dcdaad6b70dbbaa32cf1932cab9221c2aeebfac8e57",
+    "edges.csv": "5178d5be13faf6b0875b584e936d24d8043112dcc1b25b0b49ea95dc17f5b7f9",
+    "cascades.csv": "d503d39922201baa8dd018c187beb7500c5cf5910ce745c948478525f867b552"
+  },
+  "frozen_input_verification": {
+    "manifest": "reproducibility\\frozen-study-manifest-v1.json",
+    "verified": true
+  },
+  "reference": {
+    "directory": "results\\large-robust-greedy-higgs-50000-v2-t0b",
+    "manifest_sha256": "47b322cb46e8437ade9dc1b9c448912ff8f070ffbb4aa64973c06a9ad45a6ae6"
+  },
+  "source": {
+    "pipeline_v2_t0b.py": "54ec7169056fcef066c4840e8d1e025bbbce0730168430d09ca21635be8a814f",
+    "pipeline_v2_t0.py": "6d321005eb81fa132f54d967349eddf981ecd3921145ab24721aa3dc4c893d55",
+    "model_v2.py": "33ba30f22b47760f4960064bc90b987636fe4f530c970fa174718dbddb735316",
+    "run_v2_t0d_common_world_objective_ablation.py": "291f2ace5b43c787853c70064a3cfadedaf12e54cab808e87c54cf793eba1483"
+  },
+  "runs": {
+    "split-0.60-seed-42.json": "97640b0129f34b2b05f9061ddb7f05f8120b11628f569e05c7e97d47f809b8fb",
+    "split-0.60-seed-43.json": "9f95878fee4221526316fedf7675c39f377010bb548ce38f0cf4a1223233fe32",
+    "split-0.60-seed-44.json": "c4b1bf458a7abc57d0c1036c7859cb25ea49b4eea4bcfb61ac39ac2e4b662b8c",
+    "split-0.60-seed-45.json": "a49c43f335c442f494882e5fc24f23be005dc003c4e2e37e816d2351ad32af5a",
+    "split-0.60-seed-46.json": "bd4c793e83c4bed996f9cdc588abdca4865f60d1268d491b11fa5dd2327ec713",
+    "split-0.60-seed-47.json": "39beabb637afef0ff9fc8a9400351c54b6d3a9aef7a196411ea844b2fae2db87",
+    "split-0.60-seed-48.json": "ffd0ba62711eac64b575170ced760400d725a2120b325f57f74f06ae984d0f94",
+    "split-0.60-seed-49.json": "8963411aee684a0449cd68401e0d113f04a525a7f5e2165b70de6e736584e95b",
+    "split-0.60-seed-50.json": "02dd2b9fc5c28a49d7b218bd5ae0f04d0d20d3c6c2869d406c7256f26103cef6",
+    "split-0.60-seed-51.json": "7e537b618019dfe620a24f310b82e222bdf19c3f6cb6e0c1173ff8d121263aaa",
+    "split-0.65-seed-42.json": "d11c33bef816bb4efb56537075a2b5b1a6c53b9948a2e323411597e3419a3c5a",
+    "split-0.65-seed-43.json": "4fc39bdf554dc4fa3966b1f6afe5b0511cf2e596b90eb7b4209fad1ff9ce4429",
+    "split-0.65-seed-44.json": "9a3f5021514a2cbc4554619993763c331495eb4652c605abaf1cc6ab6bdd454a",
+    "split-0.65-seed-45.json": "bcfeca39af9dda3d9971c28483c3287dd18ad9c02ce59bf9171b0b0b9f2bfd12",
+    "split-0.65-seed-46.json": "81e34920050d3a9973c9189b6ba4e60607ff786dfb741504132f02e18687865a",
+    "split-0.65-seed-47.json": "cb6ae6ddd6119a02836542de28c017bb2c8be92a11e46ca8783245821194a233",
+    "split-0.65-seed-48.json": "681b0811b0c31bc1a56f197c3dd2c9559cee0be8cea2b279b4b5ccc811b154d6",
+    "split-0.65-seed-49.json": "ab0779c9fb19483a27ee3339f7caba2a92834c83ef9a87f06cbdd2e810d2ed36",
+    "split-0.65-seed-50.json": "62647ebd91fdb42779e87a991562e9e174e241a98bab03b66444e631f8dc86d1",
+    "split-0.65-seed-51.json": "eb32591032a8c6c469272a1625c8ea22b9e0d73dd885a2968dfd626728487792",
+    "split-0.70-seed-42.json": "e22fc6082c3a544cdf8da03ef652aae9a6884655e94fc0eac1e93bcb65ba89cf",
+    "split-0.70-seed-43.json": "c5c7f7a1a76952c21797f9851a5a0a7ac7e13e9370a2b9a87660b48166a0ec97",
+    "split-0.70-seed-44.json": "6eceac3c2fc761aac35c6dea538cb9899b65afb84f12fb9554d9d874b088866e",
+    "split-0.70-seed-45.json": "b403b8b5ee5b3720aaf5d6efd472569f09fbd8b48812a94a165f3237124c61b4",
+    "split-0.70-seed-46.json": "6451b8685bc546b487eca1fa2491745c6d11d93b76f48f9f7bdfc84e9855b574",
+    "split-0.70-seed-47.json": "1a7765925e35db6c79846885e5a20fba71ca59dbb83d37201add7df3a405ebef",
+    "split-0.70-seed-48.json": "40b15dc7503207a600595f067043b2ed7c219d1d02226ca76363e12a49921e6a",
+    "split-0.70-seed-49.json": "340139588daf0be7ffde49ee65755662a1810be193c0d0414289941faaa02b2c",
+    "split-0.70-seed-50.json": "746cbb8783f34c59f5e6ab013e1b8e1e400a57552a386d8d666d04b56ce1b7e5",
+    "split-0.70-seed-51.json": "04e72c9ba77c41369c1d85d35dfdc24f9c8cbf6bf467d76ca59ff13e3293ba70"
+  }
+}

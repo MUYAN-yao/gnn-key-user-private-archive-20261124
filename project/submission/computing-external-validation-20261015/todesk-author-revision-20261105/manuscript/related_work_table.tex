@@ -1,0 +1,15 @@
+\begin{table}[htbp]
+\caption{Source-scoped comparison of stated evaluation focus. ``Not the stated focus'' does not assert that a feature was absent from every implementation or supplement.}\label{tab:related-scope}
+\begin{tabularx}{\linewidth}{p{.19\linewidth}p{.31\linewidth}X}
+\toprule
+Study & Stated object and role of eligibility & Evaluation dimensions relevant here \\
+\midrule
+Kempe et al. (2003); CELF/IMM & Expected-spread objective and faster seed selection; fixed full eligibility in the standard formulation & Candidate restriction, held-out utility, cross-budget reference changes, ranking precision and coverage are not the stated comparative object. \\
+StaticGreedy (2013) & Reused static realizations for scalable influence maximization & Fixed-world construction is central; this paper does not treat its solver result as evidence about the present restricted-pool evaluation chain. \\
+Arora et al. (2017) & Comparative benchmarking of influence-maximization methods & Quality and running-time comparability are relevant; the stated benchmark focus differs from cross-budget evaluation of a fixed truncated ranking. \\
+Rui et al. (2020) & Influence estimation from multiple neighbourhood levels & The publisher abstract describes influence scoring and seed selection; it does not establish a matched test of ranking tolerance and reference budget. \\
+Ko et al. (2025) & Learned inductive influence estimation/maximization & It changes the estimator and evaluates held-out networks; this differs from preserving a simulator while diagnosing a fixed ranking truncation. \\
+This study & Fixed candidate restrictions against finite-world full references & Reports coverage, budget, ranking tolerance, sequence/set agreement, spread estimated on independent evaluation worlds, coupling and scoped costs jointly. \\
+\bottomrule
+\end{tabularx}
+\end{table}

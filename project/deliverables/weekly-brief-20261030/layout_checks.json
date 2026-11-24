@@ -1,0 +1,362 @@
+[
+  {
+    "Slide": 6,
+    "Name": "Rectangle 12",
+    "Text": "关键用户识别｜实验复现核验",
+    "Width": 852.0,
+    "Height": 54.0,
+    "TextWidth": 418.87503,
+    "TextHeight": 37.8,
+    "FontSize": 31.5
+  },
+  {
+    "Slide": 6,
+    "Name": "Rectangle 1",
+    "Text": "6 / 8",
+    "Width": 52.5,
+    "Height": 19.5,
+    "TextWidth": 33.5,
+    "TextHeight": 16.2,
+    "FontSize": 13.5
+  },
+  {
+    "Slide": 6,
+    "Name": "Rectangle 2",
+    "Text": "结果核验",
+    "Width": 225.0,
+    "Height": 36.0,
+    "TextWidth": 106.37504,
+    "TextHeight": 29.7,
+    "FontSize": 24.75
+  },
+  {
+    "Slide": 6,
+    "Name": "Rectangle 3",
+    "Text": "54 个条件、468 个实验臂完成核对",
+    "Width": 617.25,
+    "Height": 36.0,
+    "TextWidth": 347.37503,
+    "TextHeight": 26.1,
+    "FontSize": 21.75
+  },
+  {
+    "Slide": 6,
+    "Name": "Rectangle 4",
+    "Text": "核对源码、数据与结果记录，补齐复现说明",
+    "Width": 617.25,
+    "Height": 34.5,
+    "TextWidth": 376.25,
+    "TextHeight": 23.4,
+    "FontSize": 19.5
+  },
+  {
+    "Slide": 6,
+    "Name": "Rectangle 5",
+    "Text": "复现重跑",
+    "Width": 225.0,
+    "Height": 36.0,
+    "TextWidth": 106.37504,
+    "TextHeight": 29.7,
+    "FontSize": 24.75
+  },
+  {
+    "Slide": 6,
+    "Name": "Rectangle 6",
+    "Text": "12 个代表性条件重跑，64 个实验臂一致",
+    "Width": 617.25,
+    "Height": 36.0,
+    "TextWidth": 399.25,
+    "TextHeight": 26.1,
+    "FontSize": 21.75
+  },
+  {
+    "Slide": 6,
+    "Name": "Rectangle 7",
+    "Text": "选中节点、整数得分及传播评估数组均一致",
+    "Width": 617.25,
+    "Height": 34.5,
+    "TextWidth": 376.25,
+    "TextHeight": 23.4,
+    "FontSize": 19.5
+  },
+  {
+    "Slide": 6,
+    "Name": "Rectangle 8",
+    "Text": "图表复核",
+    "Width": 225.0,
+    "Height": 36.0,
+    "TextWidth": 106.37504,
+    "TextHeight": 29.7,
+    "FontSize": 24.75
+  },
+  {
+    "Slide": 6,
+    "Name": "Rectangle 9",
+    "Text": "重新生成并核对 30 份统计与图像文件",
+    "Width": 617.25,
+    "Height": 36.0,
+    "TextWidth": 372.5,
+    "TextHeight": 26.1,
+    "FontSize": 21.75
+  },
+  {
+    "Slide": 6,
+    "Name": "Rectangle 10",
+    "Text": "数值表一致，图像解码像素一致",
+    "Width": 617.25,
+    "Height": 34.5,
+    "TextWidth": 278.75,
+    "TextHeight": 23.4,
+    "FontSize": 19.5
+  },
+  {
+    "Slide": 6,
+    "Name": "Rectangle 11",
+    "Text": "2026.10.26—10.30｜同机复现检查，不增加独立实验样本量",
+    "Width": 825.0,
+    "Height": 27.0,
+    "TextWidth": 468.12503,
+    "TextHeight": 20.7,
+    "FontSize": 17.25
+  },
+  {
+    "Slide": 7,
+    "Name": "Rectangle 12",
+    "Text": "关键用户识别｜整理历史证据",
+    "Width": 852.0,
+    "Height": 54.0,
+    "TextWidth": 418.87503,
+    "TextHeight": 37.8,
+    "FontSize": 31.5
+  },
+  {
+    "Slide": 7,
+    "Name": "Rectangle 1",
+    "Text": "7 / 8",
+    "Width": 52.5,
+    "Height": 19.5,
+    "TextWidth": 33.5,
+    "TextHeight": 16.2,
+    "FontSize": 13.5
+  },
+  {
+    "Slide": 7,
+    "Name": "Rectangle 2",
+    "Text": "历史复核",
+    "Width": 225.0,
+    "Height": 36.0,
+    "TextWidth": 106.37504,
+    "TextHeight": 29.7,
+    "FontSize": 24.75
+  },
+  {
+    "Slide": 7,
+    "Name": "Rectangle 3",
+    "Text": "复核 4680 份已保存传播评估向量",
+    "Width": 617.25,
+    "Height": 36.0,
+    "TextWidth": 334.0,
+    "TextHeight": 26.1,
+    "FontSize": 21.75
+  },
+  {
+    "Slide": 7,
+    "Name": "Rectangle 4",
+    "Text": "补齐参数、采样方式与候选池覆盖率说明",
+    "Width": 617.25,
+    "Height": 34.5,
+    "TextWidth": 356.75,
+    "TextHeight": 23.4,
+    "FontSize": 19.5
+  },
+  {
+    "Slide": 7,
+    "Name": "Rectangle 5",
+    "Text": "补充材料",
+    "Width": 225.0,
+    "Height": 36.0,
+    "TextWidth": 106.37504,
+    "TextHeight": 29.7,
+    "FontSize": 24.75
+  },
+  {
+    "Slide": 7,
+    "Name": "Rectangle 6",
+    "Text": "新增 5 张表、2 幅图",
+    "Width": 617.25,
+    "Height": 36.0,
+    "TextWidth": 205.0,
+    "TextHeight": 26.1,
+    "FontSize": 21.75
+  },
+  {
+    "Slide": 7,
+    "Name": "Rectangle 7",
+    "Text": "整合历史结果，明确证据来源与适用范围",
+    "Width": 617.25,
+    "Height": 34.5,
+    "TextWidth": 356.75,
+    "TextHeight": 23.4,
+    "FontSize": 19.5
+  },
+  {
+    "Slide": 7,
+    "Name": "Rectangle 8",
+    "Text": "核心认识",
+    "Width": 225.0,
+    "Height": 36.0,
+    "TextWidth": 106.37504,
+    "TextHeight": 29.7,
+    "FontSize": 24.75
+  },
+  {
+    "Slide": 7,
+    "Name": "Rectangle 9",
+    "Text": "预算效应需结合排名精度解释",
+    "Width": 617.25,
+    "Height": 36.0,
+    "TextWidth": 289.25,
+    "TextHeight": 26.1,
+    "FontSize": 21.75
+  },
+  {
+    "Slide": 7,
+    "Name": "Rectangle 10",
+    "Text": "集合改变不等于传播收益同步提高",
+    "Width": 617.25,
+    "Height": 34.5,
+    "TextWidth": 298.25,
+    "TextHeight": 23.4,
+    "FontSize": 19.5
+  },
+  {
+    "Slide": 7,
+    "Name": "Rectangle 11",
+    "Text": "本周基于已有数据整理；相关结论限于已测试网络与设置",
+    "Width": 825.0,
+    "Height": 27.0,
+    "TextWidth": 436.37503,
+    "TextHeight": 20.7,
+    "FontSize": 17.25
+  },
+  {
+    "Slide": 8,
+    "Name": "Rectangle 12",
+    "Text": "关键用户识别｜论文修订与下周重点",
+    "Width": 852.0,
+    "Height": 54.0,
+    "TextWidth": 513.37506,
+    "TextHeight": 37.8,
+    "FontSize": 31.5
+  },
+  {
+    "Slide": 8,
+    "Name": "Rectangle 1",
+    "Text": "8 / 8",
+    "Width": 52.5,
+    "Height": 19.5,
+    "TextWidth": 33.5,
+    "TextHeight": 16.2,
+    "FontSize": 13.5
+  },
+  {
+    "Slide": 8,
+    "Name": "Rectangle 2",
+    "Text": "论文修订",
+    "Width": 225.0,
+    "Height": 36.0,
+    "TextWidth": 106.37504,
+    "TextHeight": 29.7,
+    "FontSize": 24.75
+  },
+  {
+    "Slide": 8,
+    "Name": "Rectangle 3",
+    "Text": "围绕参照预算与排名精度重写研究主线",
+    "Width": 617.25,
+    "Height": 36.0,
+    "TextWidth": 376.25,
+    "TextHeight": 26.1,
+    "FontSize": 21.75
+  },
+  {
+    "Slide": 8,
+    "Name": "Rectangle 4",
+    "Text": "明确贡献，区分集合变化与传播收益",
+    "Width": 617.25,
+    "Height": 34.5,
+    "TextWidth": 317.75,
+    "TextHeight": 23.4,
+    "FontSize": 19.5
+  },
+  {
+    "Slide": 8,
+    "Name": "Rectangle 5",
+    "Text": "稿件交付",
+    "Width": 225.0,
+    "Height": 36.0,
+    "TextWidth": 106.37504,
+    "TextHeight": 29.7,
+    "FontSize": 24.75
+  },
+  {
+    "Slide": 8,
+    "Name": "Rectangle 6",
+    "Text": "完成中英文正文及英文补充材料",
+    "Width": 617.25,
+    "Height": 36.0,
+    "TextWidth": 311.0,
+    "TextHeight": 26.1,
+    "FontSize": 21.75
+  },
+  {
+    "Slide": 8,
+    "Name": "Rectangle 7",
+    "Text": "同步题名与投稿附信，完成编译和版面核查",
+    "Width": 617.25,
+    "Height": 34.5,
+    "TextWidth": 376.25,
+    "TextHeight": 23.4,
+    "FontSize": 19.5
+  },
+  {
+    "Slide": 8,
+    "Name": "Rectangle 8",
+    "Text": "下周重点",
+    "Width": 225.0,
+    "Height": 36.0,
+    "TextWidth": 106.37504,
+    "TextHeight": 29.7,
+    "FontSize": 24.75
+  },
+  {
+    "Slide": 8,
+    "Name": "Rectangle 9",
+    "Text": "统一投稿版本，整理投稿材料",
+    "Width": 617.25,
+    "Height": 36.0,
+    "TextWidth": 289.25,
+    "TextHeight": 26.1,
+    "FontSize": 21.75
+  },
+  {
+    "Slide": 8,
+    "Name": "Rectangle 10",
+    "Text": "评估传播参数与固定边采样对照的补充范围",
+    "Width": 617.25,
+    "Height": 34.5,
+    "TextWidth": 376.25,
+    "TextHeight": 23.4,
+    "FontSize": 19.5
+  },
+  {
+    "Slide": 8,
+    "Name": "Rectangle 11",
+    "Text": "论文题目：候选受限影响力最大化的评价：参照预算与排名精度的影响",
+    "Width": 825.0,
+    "Height": 27.0,
+    "TextWidth": 539.87506,
+    "TextHeight": 20.7,
+    "FontSize": 17.25
+  }
+]

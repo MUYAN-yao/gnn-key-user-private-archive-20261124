@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "baseline_unchanged": true,
+  "input_hashes_match": true,
+  "generated_assets_regenerate_identically": true,
+  "mechanism_and_existing_figures_unchanged": true,
+  "equations_references_declarations_unchanged": true,
+  "bilingual_numeric_tokens_match": true,
+  "abstract_word_count_approx": 173,
+  "documents": {
+    "english": {
+      "pages": 18,
+      "sha256": "20b12afae2ce529928838bca35029b6ed06dce41a61d1c97739595447e9c79bc",
+      "compile_errors": [],
+      "rendered_pages": 18
+    },
+    "chinese": {
+      "pages": 21,
+      "sha256": "6e00d26247b35827aee7d473b901eda35fbcbf523f7a20a96249c1481b813f31",
+      "compile_errors": [],
+      "rendered_pages": 21
+    },
+    "supplement": {
+      "pages": 29,
+      "sha256": "d7ffafa4f7fbf408c1aa2b0f260830139b045cce31ef2d20b61bca9087933fb0",
+      "compile_errors": [],
+      "rendered_pages": 29
+    }
+  },
+  "no_new_experiments": true,
+  "visual_review": "See render_checks.json"
+}

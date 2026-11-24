@@ -1,0 +1,9 @@
+--- D:\校创\基于GNN的关键用户识别\submission\computing-external-validation-20261015\contribution-action-revision-20261028\manuscript\history_parameter_table.tex
++++ D:\校创\基于GNN的关键用户识别\submission\computing-external-validation-20261015\budget-interpretation-revision-20261031\manuscript\history_parameter_table.tex
+@@ -1,5 +1,5 @@
+ \begin{longtable}{llrrrrr}
+-\caption{Historical propagation-parameter sensitivity at $k=5$, $W=320$, step coupling. D, P and W denote Degree-4k, PageRank-4k and Weighted-4k. $\Delta$ is restricted minus full spread (nodes); SD is across paths; loss is the mean pathwise incremental loss (\%), negative when restriction gains. Match counts refer to the entire ordered sequence. Coverage is the fraction of eligible vertices (\%). The default $(.01,3)$ rows reuse the budget scan; they are not additional conditions.}\label{tab:hist-parameters}\\
++\caption{Historical propagation-parameter sensitivity at $k=5$, $W=320$, step coupling. D, P and W denote Degree-4k, PageRank-4k and Weighted-4k. $\Delta$ is restricted minus full spread (nodes); SD is across paths; loss is the mean pathwise incremental loss (\%), negative when restricted spread exceeds full-reference spread. Match counts refer to the entire ordered sequence. Coverage is the fraction of eligible vertices (\%). The default $(.01,3)$ rows reuse the budget scan; they are not additional conditions.}\label{tab:hist-parameters}\\
+ \toprule
+ $(p,h)$ & Rank & $\overline\Delta$ & SD & Loss & Match & Cov. \\
+ \midrule

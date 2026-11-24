@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "conditions": 520,
+  "arm_executions": 4680,
+  "evaluation_values": 46800000,
+  "source_manifest_sha256": "d2ece59609e65a342881390c61f6873a6ba7831c53c6143907ee0b17edb5dd99",
+  "primary_test_count": 24,
+  "transitions": 240,
+  "timing_observations": 180,
+  "unique_used_or_reserved_world_ids": 907200,
+  "checks": [
+    "complete frozen matrix",
+    "source, pre-freeze audit and result SHA256",
+    "independently reconstructed world IDs, nested prefixes and disjoint families/paths",
+    "consistent input and graph hashes",
+    "per-round greedy argmax, margin and tie policy",
+    "per-world range/paired statistics",
+    "full-pool consistency",
+    "same-set evaluation identity"
+  ],
+  "scope": "structural/numeric audit; independent semantic oracle checks in audit-and-preflight.json"
+}

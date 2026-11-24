@@ -1,0 +1,188 @@
+{
+  "status": "complete",
+  "conditions": 30,
+  "arms": 60,
+  "completed": [
+    {
+      "key": "college_msg__p1101__w80",
+      "json_sha256": "c8493f8db3b5a12dde35c7738e8874462cb10c2122036824418e31813a31d2eb",
+      "npz_sha256": "a2776046d882b5a7f7591a6869591ca0114ec57b23ab7683562c8b978364d8f3",
+      "elapsed_seconds": 2.1024035000009462
+    },
+    {
+      "key": "college_msg__p1101__w320",
+      "json_sha256": "2199e15d9e6565a389392f7662113c819304534e7d43548b078f91509cb090ca",
+      "npz_sha256": "9e63eb83214116a20f85004106614fe7c8280a9d709f6491556360ddd6223e85",
+      "elapsed_seconds": 3.6023079000005964
+    },
+    {
+      "key": "college_msg__p1102__w80",
+      "json_sha256": "5450d2acd640e6f850e5bbf57803a6e3a4382713d61647c18112076638fcca39",
+      "npz_sha256": "4f6f7aaa22c38b1ceb9eeaae84578bbcce5fa8f5ade41f85e4437df528fc7388",
+      "elapsed_seconds": 3.403728500008583
+    },
+    {
+      "key": "college_msg__p1102__w320",
+      "json_sha256": "4607cd2face9e1e16daa4ac30106fba9abe27f4f18dcbdc5dcf3767735b6044c",
+      "npz_sha256": "d8d1ddfb3de52161a42a7667d0a05c3c875f27f7c49cd06d1ba0122104e92909",
+      "elapsed_seconds": 3.5856802000052994
+    },
+    {
+      "key": "college_msg__p1103__w80",
+      "json_sha256": "3f3d8339d3a1aad8f67af9e370090ea39bfbf105b197a6e64e9d95fa42d2022e",
+      "npz_sha256": "4c5b162d7ea8414100ae98895570603f61444100f9a58de402a93249d247033f",
+      "elapsed_seconds": 3.349293499995838
+    },
+    {
+      "key": "college_msg__p1103__w320",
+      "json_sha256": "70b8db0c4b154f15a777e418407f74891b82d7760932546e845a13a4e89a8bfa",
+      "npz_sha256": "176f58c072551911a7d34ff5b66e59f60f4e3dcfab86dcb65f7a07c20740f913",
+      "elapsed_seconds": 3.6057051999960095
+    },
+    {
+      "key": "college_msg__p1104__w80",
+      "json_sha256": "2f55bf78bd02b3ae54edbea0f62096fcc79c0fcf4f6306fce8d9f71c60daf4f7",
+      "npz_sha256": "fd56913880d80fbaf264da704a9ea006b7458066066cc1609bf63048a7939b60",
+      "elapsed_seconds": 3.4591119999968214
+    },
+    {
+      "key": "college_msg__p1104__w320",
+      "json_sha256": "4e0d568822ec2336c6983dc2f227a9919144cf5d195617f7cf2c11e7af783cf9",
+      "npz_sha256": "922a73473351f9dda17486595021f0f1925a0891ded12fd2fbd92d3e344fcf36",
+      "elapsed_seconds": 3.5499873000080697
+    },
+    {
+      "key": "college_msg__p1105__w80",
+      "json_sha256": "adcf2c675e4fdcf3ccc6d52a0cc0dd91eb80f1953c1dba3f6640be1de9e90f88",
+      "npz_sha256": "57c9f6feb091e35d985b9cb2b3921fe21ac18580a7d57de0de4c0ee7f79273a5",
+      "elapsed_seconds": 3.422647200000938
+    },
+    {
+      "key": "college_msg__p1105__w320",
+      "json_sha256": "4987647b37b7216079b87bc1a86c185730661fb51c874078431a4cf4bdd136cb",
+      "npz_sha256": "94d544a5a94f59061120ca685dfc0747d2e8cbd3141e0574a30b5d3e87318b6e",
+      "elapsed_seconds": 3.5170887999993283
+    },
+    {
+      "key": "ca_grqc__p1101__w80",
+      "json_sha256": "435672d52c7b9583c5553bcf0761a92107091d9e3d676cefcaa2e43a88b74f7e",
+      "npz_sha256": "29c48b5a64ba22a9bd9feab7c7a8b9fd41c1edc8a8ba7875a9823591c4158304",
+      "elapsed_seconds": 7.297573100004229
+    },
+    {
+      "key": "ca_grqc__p1101__w320",
+      "json_sha256": "dccc9d55b67ff16594dfde87999be69a46d7d1da61ea5d04d7f217d94d1018c2",
+      "npz_sha256": "e3b69503dbe463c482d52833dd7f2ceec46060d7eadd88872a86821395144711",
+      "elapsed_seconds": 7.930434200010495
+    },
+    {
+      "key": "ca_grqc__p1102__w80",
+      "json_sha256": "7c044878c53af67ed494ea26db805cd91d2252d514810e864b85b4a271ec9e40",
+      "npz_sha256": "ce6d0f0f0efcd2f806c4457bd02514ad085785d30427dfde6b98896d8fe86453",
+      "elapsed_seconds": 7.311339300009422
+    },
+    {
+      "key": "ca_grqc__p1102__w320",
+      "json_sha256": "9752f2c5a83774d4a1d6d3ae0a66bbf84f84c740d4b318ab67bda351d97c5e12",
+      "npz_sha256": "de0b150cea3c47008aaf2199072feb0de0bc98d87c66ca5eb6daad58abbc29f4",
+      "elapsed_seconds": 7.915129200002411
+    },
+    {
+      "key": "ca_grqc__p1103__w80",
+      "json_sha256": "70c1e56a9a2e3f97b64e7e46669989c54078546bdb328cc6988a21b39f16baf4",
+      "npz_sha256": "af1729dd21e42f56824b7a7050ed1eb281bb2123001b95d06df7957c6dbf9eff",
+      "elapsed_seconds": 7.310610799991991
+    },
+    {
+      "key": "ca_grqc__p1103__w320",
+      "json_sha256": "979c8a9e92573e2a568b374a68c27aba8960c83fa83eeadc1d08ab491d528ee6",
+      "npz_sha256": "8c9ea95588af00abda94bef2912e14ccb2fa7cc4825b1922d6f456a9c820c9a3",
+      "elapsed_seconds": 7.942375400001765
+    },
+    {
+      "key": "ca_grqc__p1104__w80",
+      "json_sha256": "a1c43be163697e377fbbba5e089ea0cfb84bf7b7a6d1c1cf9dce0bb9a5e10e66",
+      "npz_sha256": "abe3ff3a194e16b878b242514c4329f65a5e6bbc2c5e7dd6b3b22199a9d016cb",
+      "elapsed_seconds": 7.540958400000818
+    },
+    {
+      "key": "ca_grqc__p1104__w320",
+      "json_sha256": "a5c10d8a05d52297d69bc814488a9f90d5cd50a2e7c8c12ec304c46059a24bad",
+      "npz_sha256": "4206d9510be4f0a6819b9e7207c304cea8ba69a011128514faa6f5b225c1cd84",
+      "elapsed_seconds": 8.141242500001681
+    },
+    {
+      "key": "ca_grqc__p1105__w80",
+      "json_sha256": "1fec43ddfe2d438fe7631c0ef995a551e960039d132f2f651302bab55dd4220e",
+      "npz_sha256": "27685c91a2ad3dc24ef48bd73d68ca883aa51cbd27c5b3c0f42749886ebb93a3",
+      "elapsed_seconds": 7.393754800010356
+    },
+    {
+      "key": "ca_grqc__p1105__w320",
+      "json_sha256": "27b5abb00ea0f258fdd2b9b4218e1422bd09d7e7bdd04b3df884f2179ebd56ac",
+      "npz_sha256": "e533dcee4d240f457dd27ba7cce263de80c45d75a63095cc4008cf9981de0d0f",
+      "elapsed_seconds": 8.210325499996543
+    },
+    {
+      "key": "wiki_vote__p1101__w80",
+      "json_sha256": "a3dbc9d6966bbfd5e76253421a0bc038cffdc1b5115b6eb241545b0f12369051",
+      "npz_sha256": "774ca12d1f65c5caf5174c842058cd3cb410b319c2e4163bb9853d5182be96f7",
+      "elapsed_seconds": 27.855953699996462
+    },
+    {
+      "key": "wiki_vote__p1101__w320",
+      "json_sha256": "57e8ec2ad3cb98fa1fcf1ed2980b92edc19bd63c6d2912563481937948bed453",
+      "npz_sha256": "cb8d3604e4007ae9a92cbb8257ceffc6e080ba3cc002d4b1393753107f8d2d28",
+      "elapsed_seconds": 30.23016490000009
+    },
+    {
+      "key": "wiki_vote__p1102__w80",
+      "json_sha256": "81e050025605f79c1ceec6449273536baeba543521da877a95b7b4557c403522",
+      "npz_sha256": "9d67f3b9dc65356f6685580b3a826e1dbf9099d2acf9987cef929c99e60ff003",
+      "elapsed_seconds": 27.27416919999814
+    },
+    {
+      "key": "wiki_vote__p1102__w320",
+      "json_sha256": "eacc1eafe3886333fade56da86ef97b6a5e66e06719c6c69238a387563b24de6",
+      "npz_sha256": "8538fe57c7371f6272eeaee4bc9fce877e18d64b8ddd84af2fb4b58d281ccfc9",
+      "elapsed_seconds": 29.75039359999937
+    },
+    {
+      "key": "wiki_vote__p1103__w80",
+      "json_sha256": "bdae4d373b1e33aa3d661918d240876ca99486e9df24d8465566e718caa29d46",
+      "npz_sha256": "4f9bea2616604cde2f5ba432c91074e576f85a0379ffeaecdff64e55868001e7",
+      "elapsed_seconds": 26.34655310001108
+    },
+    {
+      "key": "wiki_vote__p1103__w320",
+      "json_sha256": "d4b6b9904041773b1680571cffef083c3dfc2563a5bf1c952a1416e41a69485f",
+      "npz_sha256": "91a8352d3bccc07f58891e9932d96b3ffb18637416cec77119b5bdf9c39f8105",
+      "elapsed_seconds": 29.221744999988005
+    },
+    {
+      "key": "wiki_vote__p1104__w80",
+      "json_sha256": "b48629609b0e25a6f598a0d4a8406a01b9a29a5e22c1c57707d9a16263c04bcc",
+      "npz_sha256": "b06fea8e5485788cf08ad0568b4a228cfb7e07d0653ed65d38e73381b7e775bc",
+      "elapsed_seconds": 26.445876700003282
+    },
+    {
+      "key": "wiki_vote__p1104__w320",
+      "json_sha256": "a5788090677f692e0082b6dfbd50835c502d5ad4116f3cf8af0fee344442c6f9",
+      "npz_sha256": "28ac65e651c1c382d29574279889bfc182954ebd44098eaee3f42947e41fa40d",
+      "elapsed_seconds": 28.817765800005873
+    },
+    {
+      "key": "wiki_vote__p1105__w80",
+      "json_sha256": "ad2118005b04d53b7a8784fc0aec7769f475d84891cf2792197a31dfdc805c58",
+      "npz_sha256": "25ee283bc73dc12e4447f0d7a10651f6bec3f901497f8c9fb3d6a40a3fcb3f22",
+      "elapsed_seconds": 26.477573399999528
+    },
+    {
+      "key": "wiki_vote__p1105__w320",
+      "json_sha256": "43b19b1de470e75ff486861297d9e73dfc3b4d49114ccbac842004eb17a64da2",
+      "npz_sha256": "933ed321cfd63d9ae9c8eb4b519b40bdeb6ecec5267e03f932af6dd76eea60cf",
+      "elapsed_seconds": 28.81940950000717
+    }
+  ],
+  "source_manifest_sha256": "90dacf1742ae2db321514f5092758bfa82d75ffbeaa9cacbd3e82c33378defad"
+}

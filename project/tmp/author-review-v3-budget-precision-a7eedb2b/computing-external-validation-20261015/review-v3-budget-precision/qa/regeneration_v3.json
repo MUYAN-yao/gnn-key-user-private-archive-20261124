@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "files_checked": 14,
+  "different_files": [],
+  "hashes": {
+    "analysis\\precision_budget\\budget_tolerance_interaction_by_path.csv": "053d36519a11568710944ef0c34313e89c6c54dcf9f4a92fe112112d63ca08ff",
+    "analysis\\precision_budget\\budget_tolerance_interaction_summary.csv": "6ff9f8423ada642586d30f5270d844a05f03a33cb1b3744ff03c3c323b92a7e4",
+    "analysis\\precision_budget\\budget_transitions_by_path.csv": "057c491eb024ea829f3cf43880a9cf67ed19aa4ad4b573e52ebd77c453dcf9b8",
+    "analysis\\precision_budget\\budget_transitions_summary.csv": "111516dbaf7e51139c2f5f001da21324764670786ae3756b6377d3e95ebd693f",
+    "analysis\\precision_budget\\candidate_pool_precision_diagnostics.csv": "f2be3c2080c6fc9cb62220bf647863559a487fa76bb01e9606cb51e9026316d5",
+    "analysis\\precision_budget\\path_metrics.csv": "47a4916ca571853f8c6bd7b464d8fb7ce25e3cf5111d2460e7adcb7f0d6b2cd3",
+    "analysis\\precision_budget\\precision_budget_loss_figure_source.csv": "737da240b12c1d93f9bd9b05947d68c1cb6af83214fae4fa4eff42b87c76789a",
+    "analysis\\precision_budget\\summary_by_budget_precision.csv": "a1ab49b89f2764d10d3817152981983fadf8c57b63dddb6fc6fb2961ac6fa3e9",
+    "analysis\\precision_budget\\tolerance_effects_by_path.csv": "d714880c47b7ac2eb8f3f150b027de95ae9c406d77538a502d93cfdcd6604742",
+    "analysis\\precision_budget\\tolerance_effects_summary.csv": "c3c5c14aa92e60e0aff517702a0b6d3555a9689d150276368cb49230bfeaa5e9",
+    "analysis\\precision_budget\\figures\\precision_budget_loss.png": "0d488a9dd717b4406db6bc70677e63f9232ccf96fcc105e63b301a023c2619e9",
+    "manuscript\\precision_budget_table.tex": "d41a7e75b4c63d0b99e23299dcb6e3a50d4ecae2f11c615252e448f7a54468aa",
+    "manuscript\\related_work_table.tex": "2b52f29884dafe45b5ccb3b90410a041e315e05bc706eeebf4a5d4ad5d9bf14d",
+    "manuscript\\precision_budget_figure_source.csv": "737da240b12c1d93f9bd9b05947d68c1cb6af83214fae4fa4eff42b87c76789a"
+  },
+  "scope": "Regenerated raw-result-derived precision-budget CSVs, PNG pixels, SVG, LaTeX tables and figure source. The SVG is regenerated but excluded from byte comparison because Matplotlib embeds volatile XML metadata; its source CSV and PNG pixels are checked. The inherited frozen-default regeneration record remains in qa/regeneration.json."
+}

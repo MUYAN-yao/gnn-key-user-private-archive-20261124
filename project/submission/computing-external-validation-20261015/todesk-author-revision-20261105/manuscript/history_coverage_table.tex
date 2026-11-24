@@ -1,0 +1,21 @@
+\begin{longtable}{p{.23\linewidth}p{.51\linewidth}p{.14\linewidth}}
+\caption{Evidence layers and experiment coverage. A configuration fixes graph, replicate, $k,p,h,W$ and coupling; a method changes eligibility. Replicates are repeated seed-selection runs. Counts are not independent network sample sizes.}\label{tab:hist-coverage}\\
+\toprule Batch / graphs & Selection design and evaluation & Configs. / runs\\\midrule\endfirsthead
+\multicolumn{3}{l}{\tablename~\thetable{} (continued)}\\\toprule
+Batch / graphs & Selection design and evaluation & Configs. / runs\\\midrule\endhead\bottomrule\endfoot
+Initial study / C4, C3 & C4: $k=5$; C3: $k=20$. $p=.01$, $h=3$, $W=20,80,320$, step; two replicates (301--302); $M=2000$. Initial weighted-pool/reference comparisons. & 42 / 168\\
+Contact-graph study budget / C4 & $k=5$, $p=.01$, $h=3$, $W=20,80,320,1280,5120$, step; ten replicates (1001--1010); $M=10{,}000$. Reference-budget sensitivity. & 200 / 1800\\
+Contact-graph study parameters / C4 & $k=5$, $W=320$, step; $(p,h)=(.005,3),(.05,3),(.01,1),(.01,5)$; ten replicates; $M=10{,}000$. Local parameter changes. Default $(.01,3)$ reuses 40 budget configurations. & 160 / 1440\\
+Contact-graph study coupling / C4 & $k=5$, $p=.01$, $h=3$, $W=320,1280$, fixed edge; ten replicates; $M=10{,}000$. Coupling-specific comparisons and budget transitions. & 80 / 720\\
+Contact-graph study larger seeds / C3 & $k=20$, $p=.01$, $h=3$, $W=320,1280$, step; ten replicates; $M=10{,}000$. Seed-budget and coverage control. & 60 / 540\\
+Synthetic controls / S2 & $k=5$, $p=.01$, $h=3$, $W=80,320$, step; five replicates (1001--1005) per fixed instance; $M=10{,}000$. Topology controls. & 20 / 180\\
+SNAP primary / E3 & $k=5$, $p=.01$, $h=3$, $W=80,320,1280$, step; five replicates (1101--1105); $M=10{,}000$. SNAP transfer, budget and pool coverage. & 45 / 390\\
+SNAP coupling / E3 & $k=5$, $p=.01$, $h=3$, $W=320$, fixed edge; three replicates (1101--1103); $M=10{,}000$. Coupling control. & 9 / 78\\
+Post-hoc precision / E3 & PageRank-4k/5\% at the tighter tolerance, $W=80,320,1280$, step; other settings, five replicates and $M=10{,}000$ reused from primary study. Existing full references reused. Numerical sensitivity, not new independent replication. & 45 / 90\\
+\end{longtable}
+\noindent C4: invs2013 ($n=91$), invs2015 (212), kenya2012 (75), sfhh2009 (402).
+C3 excludes sfhh2009. S2: one BA and one SBM instance, each $n=2000$.
+E3: CollegeMsg (1438), ca-GrQc (5241), wiki-Vote (7115).
+Contact-graph study extension totals are $200+160+80+60+20=520$ configurations and 4680 methods.
+Its nine methods are full selection, Weighted-2k/4k/8k, Degree-4k, PageRank-4k and three random-4k pools.
+The SNAP matrix totals 54 configurations and 468 methods. Resource-only preflight is outside all outcome totals.

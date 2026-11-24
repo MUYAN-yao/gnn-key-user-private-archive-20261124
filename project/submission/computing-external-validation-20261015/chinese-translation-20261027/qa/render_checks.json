@@ -1,0 +1,11 @@
+{
+  "document": "manuscript/manuscript_zh.pdf",
+  "pdf_sha256": "bf730b32eb764e30113a8b8e0aa91684e41fba44107fe1458850a473ec0e0a03",
+  "rendered_pages": 18,
+  "visually_reviewed_pages": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+  "review_method": "All pages reviewed in rendered contact sheets; four original table crop assets inspected separately.",
+  "checks": {"page_content_visible": true, "no_observed_clipping_or_overlap": true, "figures_and_captions_present": true, "table_assets_complete": true, "chinese_glyphs_rendered": true, "original_mechanism_preserved": true},
+  "limitations": ["Figure-internal labels and original reference entries remain in English.", "Online Resource 1 full text is outside this translation scope."],
+  "new_experiments": false,
+  "status": "PASS"
+}

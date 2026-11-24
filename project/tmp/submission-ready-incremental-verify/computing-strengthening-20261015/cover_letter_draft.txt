@@ -1,0 +1,19 @@
+DRAFT FOR AUTHOR REVIEW — not submitted
+
+Dear Editors of Computing,
+
+Please consider our manuscript, "Selection Resolution, Random-World Coupling, and Utility in Candidate-Restricted Influence Maximization," for publication in Computing.
+
+Candidate restriction reduces the search cost of influence maximization, but its apparent quality depends on how the full greedy reference is simulated and evaluated. We study this issue by separating selection resolution, random-world coupling, independently evaluated utility and attributable cost. The contribution is an auditable evaluation of these interacting choices rather than a new influence-maximization algorithm.
+
+The paper reports a preserved historical experiment and a 520-condition prospective extension on four contact-derived graphs and two larger synthetic instances. The extension contains 4,680 arm executions, independent evaluation streams, alternative candidate rankings, propagation/coupling controls and repeated timing. It finds 16/40 changed full-reference final sets between 1,280 and 5,120 selection worlds, while reporting utility differences separately. Complete effects and unfavorable outcomes are retained rather than judging restriction solely by sequence agreement.
+
+The corresponding average utility increase was 0.0111 activated nodes. At the highest budget, topology-degree and PageRank restrictions reproduced 39/40 and 40/40 full traces, respectively. This limits the interpretation of weighted-degree losses and makes the ranking-specific cost-quality findings central to the paper.
+
+The manuscript is relevant to Computing's scope in network science, social networks and computational methodology. It provides explicit simulation semantics, validated implementation continuity, condition-level results and reusable analysis scripts. Its limitations concerning contact-derived topology, synthetic diffusion and external validity are stated directly.
+
+The main manuscript, supplementary methods/results, novelty-and-evaluation summary, editable sources and figures are prepared. Before sending this letter, the authors must confirm originality/exclusive consideration, all-author approval, competing interests and the final data/code access statement. These confirmations are intentionally not asserted in this draft.
+
+Sincerely,
+Binbin Yong, corresponding author (identity and submission authorization to be confirmed)
+yongbb14@lzu.edu.cn

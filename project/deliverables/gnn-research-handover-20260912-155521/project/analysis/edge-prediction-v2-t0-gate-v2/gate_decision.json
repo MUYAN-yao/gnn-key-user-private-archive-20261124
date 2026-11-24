@@ -1,0 +1,103 @@
+{
+  "per_fraction": {
+    "0.60": {
+      "run_count": 10,
+      "auc": {
+        "mean": 0.8228093941157543,
+        "sd": 0.027485198740829893,
+        "ci95": [
+          0.8031476673840395,
+          0.842471120847469
+        ],
+        "minimum": 0.7614161559736535
+      },
+      "brier": {
+        "mean": 0.16228605457505033,
+        "sd": 0.011386694174234057
+      },
+      "ece": {
+        "mean": 0.015996411528724712,
+        "sd": 0.002562914867615077
+      },
+      "inverse_auc": {
+        "maximum": 0.23858384402634653
+      },
+      "gates": {
+        "all_auc_gt_0_5": true,
+        "auc_ci_lower_gt_0_55": true,
+        "auc_sd_le_0_05": true,
+        "mean_brier_lt_0_25": true,
+        "mean_ece_le_0_10": true,
+        "all_inverse_auc_lt_0_5": true
+      },
+      "all_gates_pass": true
+    },
+    "0.65": {
+      "run_count": 10,
+      "auc": {
+        "mean": 0.8332856877971434,
+        "sd": 0.032002515995166195,
+        "ci95": [
+          0.810392466970999,
+          0.8561789086232878
+        ],
+        "minimum": 0.763946883118918
+      },
+      "brier": {
+        "mean": 0.1563813310101523,
+        "sd": 0.01294412955801388
+      },
+      "ece": {
+        "mean": 0.01722505256792663,
+        "sd": 0.004642160710914317
+      },
+      "inverse_auc": {
+        "maximum": 0.23605311688108194
+      },
+      "gates": {
+        "all_auc_gt_0_5": true,
+        "auc_ci_lower_gt_0_55": true,
+        "auc_sd_le_0_05": true,
+        "mean_brier_lt_0_25": true,
+        "mean_ece_le_0_10": true,
+        "all_inverse_auc_lt_0_5": true
+      },
+      "all_gates_pass": true
+    },
+    "0.70": {
+      "run_count": 10,
+      "auc": {
+        "mean": 0.8416863963504779,
+        "sd": 0.03251421040902095,
+        "ci95": [
+          0.8184271313916268,
+          0.864945661309329
+        ],
+        "minimum": 0.7680279927334371
+      },
+      "brier": {
+        "mean": 0.15163225163727065,
+        "sd": 0.014492732220812448
+      },
+      "ece": {
+        "mean": 0.013921564929222025,
+        "sd": 0.002107420186322906
+      },
+      "inverse_auc": {
+        "maximum": 0.23197200726656292
+      },
+      "gates": {
+        "all_auc_gt_0_5": true,
+        "auc_ci_lower_gt_0_55": true,
+        "auc_sd_le_0_05": true,
+        "mean_brier_lt_0_25": true,
+        "mean_ece_le_0_10": true,
+        "all_inverse_auc_lt_0_5": true
+      },
+      "all_gates_pass": true
+    }
+  },
+  "all_numerical_gates_pass": true,
+  "selection_grid_complete": false,
+  "decision": "advance_t0_conditionally"
+}

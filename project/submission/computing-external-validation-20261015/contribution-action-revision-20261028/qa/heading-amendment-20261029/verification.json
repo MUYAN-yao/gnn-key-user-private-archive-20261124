@@ -1,0 +1,22 @@
+{
+  "english": {
+    "only_heading_changed": true,
+    "pages": 17,
+    "changed_heading_page": 13,
+    "pdf_sha256": "c428f5264b6ff2ef7b7e01530c46853f0811acbca3af7af7e883b8e3606d9cc3",
+    "compile_issues": []
+  },
+  "chinese": {
+    "only_heading_changed": true,
+    "pages": 20,
+    "changed_heading_page": 14,
+    "pdf_sha256": "8154733bb460aca00bfc85dbbc4de921928d7f66fa7894c05754030bea857445",
+    "compile_issues": []
+  },
+  "new_experiments": false,
+  "visual_review": {
+    "english_page": 13,
+    "chinese_page": 14,
+    "status": "PASS"
+  }
+}

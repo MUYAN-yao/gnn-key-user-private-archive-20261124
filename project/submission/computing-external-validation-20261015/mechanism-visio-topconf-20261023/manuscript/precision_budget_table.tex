@@ -1,0 +1,15 @@
+\begin{table}[htbp]
+\caption{Post-hoc PageRank loss across budgets. Each entry is the mean incremental-loss percentage across five original paths at $W=80/320/1280$. Default uses NetworkX tolerance $10^{-6}$; strict uses $10^{-12}$, whose pool is unchanged at $10^{-14}$. Pool Jaccard compares default and strict candidates. This is a numerical sensitivity analysis, not a new primary test family.}\label{tab:precision-budget}
+\begin{tabular}{llrrr}
+\toprule
+Graph & Pool & Default loss (\%) & Strict loss (\%) & Pool Jaccard \\
+\midrule
+ca-GrQc & 4k & -5.61 / 2.53 / 5.07 & -11.25 / -2.96 / -0.54 & 0.818 \\
+ca-GrQc & 5\% & -2.62 / 0.00 / 0.00 & -2.62 / 0.00 / 0.00 & 0.977 \\
+CollegeMsg & 4k & 9.33 / 8.52 / 9.01 & 9.33 / 8.52 / 9.01 & 1.000 \\
+CollegeMsg & 5\% & 4.57 / 3.72 / 4.28 & 4.57 / 3.72 / 4.28 & 1.000 \\
+wiki-Vote & 4k & 73.01 / 73.06 / 73.01 & 74.05 / 74.05 / 73.96 & 0.905 \\
+wiki-Vote & 5\% & 24.91 / 24.67 / 24.28 & 24.83 / 24.67 / 24.47 & 0.994 \\
+\bottomrule
+\end{tabular}
+\end{table}

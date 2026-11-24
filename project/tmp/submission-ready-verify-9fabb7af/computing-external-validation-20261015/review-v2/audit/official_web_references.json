@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://networkx.org/documentation/3.5/reference/algorithms/generated/networkx.algorithms.link_analysis.pagerank_alg.pagerank.html",
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "url": "https://snap.stanford.edu/data/index.html",
+    "status": 200,
+    "resolved_url": "https://snap.stanford.edu/data/index.html",
+    "bytes": 108581,
+    "pagerank_default_alpha_present": false,
+    "dataset_citation_present": true
+  }
+]

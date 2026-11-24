@@ -1,0 +1,66 @@
+{
+  "status": "pass",
+  "review_method": "All pages rendered and visually inspected using four-page contact sheets",
+  "documents": [
+    {
+      "language": "english",
+      "file": "manuscript/manuscript.pdf",
+      "pages": 17,
+      "pages_visually_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "sha256": "d19bc27ee7964aec057f94dba7a73fcf57011d0d324d990b05be402541a1a18d"
+    },
+    {
+      "language": "chinese",
+      "file": "chinese/manuscript/manuscript_zh.pdf",
+      "pages": 20,
+      "pages_visually_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "sha256": "2b82e337aaad4e6477feb62d386541727140c3956cc4a5dac9342f26f3602bc6"
+    }
+  ],
+  "checks": {
+    "clipped_text": false,
+    "overlap": false,
+    "missing_glyphs": false,
+    "cropped_figures": false
+  },
+  "notes": "Normal template retained. Underfull spacing warnings reviewed; no visible clipping or overlap. No new experiments executed."
+}

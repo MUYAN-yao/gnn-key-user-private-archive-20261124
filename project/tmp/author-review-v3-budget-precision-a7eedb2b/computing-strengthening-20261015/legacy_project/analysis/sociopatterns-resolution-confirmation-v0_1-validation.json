@@ -1,0 +1,179 @@
+{
+  "schema": "sociopatterns-resolution-confirmation-validation-0.1",
+  "status": "PASS",
+  "condition_count": 42,
+  "source_snapshot": {
+    "id": "a6e65e7f3ff55494c0bb",
+    "manifest_sha256": "5127d67558ce971ef6378a30c59b1c63e63c94559cd81efd82c4892c37ca2ff3"
+  },
+  "condition_file_hashes": [
+    {
+      "path": "invs2013/k5/path-301-w20.json",
+      "sha256": "583b15a4195646b78b82a9ee54d5f8bf83519f0de5919b6cf9c6b64300b6675e"
+    },
+    {
+      "path": "invs2013/k5/path-301-w80.json",
+      "sha256": "7f61ee5e885e320e8a43afd26c9f53307b6557b8be5765dbc771b86d84c51bcd"
+    },
+    {
+      "path": "invs2013/k5/path-301-w320.json",
+      "sha256": "bac8ec0f3257a79c198ff41823b2ab92c35a8882cfdb2e5beebdccc0a82c936f"
+    },
+    {
+      "path": "invs2013/k20/path-301-w20.json",
+      "sha256": "afaca3c43cec2af98180a782c35307b3b107e4073bcfd7171f3745bd19fc7382"
+    },
+    {
+      "path": "invs2013/k20/path-301-w80.json",
+      "sha256": "e6a66db21521104e7033fdc6e82eb667b62520a719e8582927848abdbf62614c"
+    },
+    {
+      "path": "invs2013/k20/path-301-w320.json",
+      "sha256": "838d767a5cb783bc0f8f9697126ff10ffd19bf772dd85539e91475b2f10b7f02"
+    },
+    {
+      "path": "invs2013/k5/path-302-w20.json",
+      "sha256": "e8f26c9cc6df7462912632288c761e4a58a9ce3691af89381c9957f119b0fc78"
+    },
+    {
+      "path": "invs2013/k5/path-302-w80.json",
+      "sha256": "8ad3ff34749dd150866a2a92ce6daf55893c70517409847fa8332ec163d6849e"
+    },
+    {
+      "path": "invs2013/k5/path-302-w320.json",
+      "sha256": "dddb13a61efb366e7aa42dde3a0fb5851b369735abe02b7c84b7e79da9d7cfa4"
+    },
+    {
+      "path": "invs2013/k20/path-302-w20.json",
+      "sha256": "88cc3d931ede7fd67ac1302e0c277934fb2f3011435934d148ffdbe6170fc426"
+    },
+    {
+      "path": "invs2013/k20/path-302-w80.json",
+      "sha256": "5383565e85a50c18e42f152a74ee113f7fedd4a3eb2c73e62187bcd115fe9309"
+    },
+    {
+      "path": "invs2013/k20/path-302-w320.json",
+      "sha256": "e7d8ab9f6b84bd85ff2505313cacde84038fe39918bd8551b3d45d7cd9cd1167"
+    },
+    {
+      "path": "invs2015/k5/path-301-w20.json",
+      "sha256": "adca0e5b2cff1004925599a4071aa9822347f61a612be5d0014c0f610e95cab9"
+    },
+    {
+      "path": "invs2015/k5/path-301-w80.json",
+      "sha256": "fd369aedb047cab455b7d385ee210b5312990edc1b96b20d9f6ff91deb9e650e"
+    },
+    {
+      "path": "invs2015/k5/path-301-w320.json",
+      "sha256": "1367b0aa08da170b4255e41230a0e31075532b246e251972d356c1233bf67b92"
+    },
+    {
+      "path": "invs2015/k20/path-301-w20.json",
+      "sha256": "1a31059d12ff9f277656e3d1befd7e1eed06d2d1d124818af9d3f863d3004640"
+    },
+    {
+      "path": "invs2015/k20/path-301-w80.json",
+      "sha256": "61a0e6a5480da5fe0c898d1ebed4950d895f166ca8d0939ecd61022c0a816b95"
+    },
+    {
+      "path": "invs2015/k20/path-301-w320.json",
+      "sha256": "c8a9c9c100a715257f4e44d3a534c262fc35ca6f279d0ddd030a0f405f589a11"
+    },
+    {
+      "path": "invs2015/k5/path-302-w20.json",
+      "sha256": "492f2ef383fbc2048f1151c4c3bbf2e8690bb27d191f3311599f8565f3633231"
+    },
+    {
+      "path": "invs2015/k5/path-302-w80.json",
+      "sha256": "eaf33ebdfc4407d1aa23feafebda904e005542d26ed9789c81878a3bbc62d50a"
+    },
+    {
+      "path": "invs2015/k5/path-302-w320.json",
+      "sha256": "5a8c85890ea18d94c150a5da64f174ce4d668dc677a5e23d043fcdf6cdaa7308"
+    },
+    {
+      "path": "invs2015/k20/path-302-w20.json",
+      "sha256": "93a5bea9558a8bb828c4d1cc7e386d91e7bee9a291439b89d2688077f0bf7548"
+    },
+    {
+      "path": "invs2015/k20/path-302-w80.json",
+      "sha256": "bfa058b68ccb575a98ac0d0b04a04e025d8fdcde489301694332f3a19df6b0cf"
+    },
+    {
+      "path": "invs2015/k20/path-302-w320.json",
+      "sha256": "f952971865c5ae25bfe3ba3202e0fe24fcfdbaa38c64374e8d98819e7f8136de"
+    },
+    {
+      "path": "sfhh2009/k5/path-301-w20.json",
+      "sha256": "1732fa559145fce4903323770d4c707018cdede758c70959c999b72cecb6ee8b"
+    },
+    {
+      "path": "sfhh2009/k5/path-301-w80.json",
+      "sha256": "1644e41c23521d9afe4151f15f1d378dfed665b768234ca6bfaea8ac0e11e29d"
+    },
+    {
+      "path": "sfhh2009/k5/path-301-w320.json",
+      "sha256": "4f7ea5d84fbe77f4b0ef0a046c992e660f2f25bd0fad2324837521ca2df2894e"
+    },
+    {
+      "path": "sfhh2009/k5/path-302-w20.json",
+      "sha256": "efc526b863276fc1b800d8df660a8410965ea6f75462c34336e1b4b8ff10350f"
+    },
+    {
+      "path": "sfhh2009/k5/path-302-w80.json",
+      "sha256": "158c3efe6c0377a8a4963897c7089890b141736b0ca09107ed01052f8d91417f"
+    },
+    {
+      "path": "sfhh2009/k5/path-302-w320.json",
+      "sha256": "edd7fa65883d0e4625e0bd68e027248c51f2f97e3e4312e3d0982840ecad248f"
+    },
+    {
+      "path": "kenya2012/k5/path-301-w20.json",
+      "sha256": "de63ea1419916af40ed82846f835bd6e4497985d695d71e391578c8bdff47eb9"
+    },
+    {
+      "path": "kenya2012/k5/path-301-w80.json",
+      "sha256": "689ed5334a320c03543e5dfa787813c267c715d95bd7d9257868a5f0e8008845"
+    },
+    {
+      "path": "kenya2012/k5/path-301-w320.json",
+      "sha256": "89bcd04c7ec24dffe452b5b477da9530c1e9da93dd3947bc45ab0cf265709c65"
+    },
+    {
+      "path": "kenya2012/k20/path-301-w20.json",
+      "sha256": "ebea1b0aad59339f50a5e0dd9276e83d77066d20fe1716a616f2116ce587bd35"
+    },
+    {
+      "path": "kenya2012/k20/path-301-w80.json",
+      "sha256": "6c257472c41320c7f3bfe464d489c3fe033ca4cdfbfd2618cc40c218bf312b34"
+    },
+    {
+      "path": "kenya2012/k20/path-301-w320.json",
+      "sha256": "403ea2905520c882600e5f7c959e40cc30584d63f9bdea2fd310a3d494960145"
+    },
+    {
+      "path": "kenya2012/k5/path-302-w20.json",
+      "sha256": "fcd75c3734baa4524e36be865535a62b6c373b08f69478eb692b33e4d518e5d2"
+    },
+    {
+      "path": "kenya2012/k5/path-302-w80.json",
+      "sha256": "ddc83db7dfb6a0840f0cf8c9b15d4fa74df11c2dce147585902e21c866d3e92e"
+    },
+    {
+      "path": "kenya2012/k5/path-302-w320.json",
+      "sha256": "4b53fde36825af64c3b1a7c36cb3412b5fe71e9a67f21e94e9032d2b8b85b41e"
+    },
+    {
+      "path": "kenya2012/k20/path-302-w20.json",
+      "sha256": "a00d9ad2ce2f6f0de2388caaecbd208f35946ccacb84c8bbd095a3ff68edb226"
+    },
+    {
+      "path": "kenya2012/k20/path-302-w80.json",
+      "sha256": "d69c25a187158c35b478035730d011bcba91aa9651b1d03e258a2ae6e3cb6bb1"
+    },
+    {
+      "path": "kenya2012/k20/path-302-w320.json",
+      "sha256": "3b6a3bfbc2e56e35d34bcae093f89d85441e5e8ca1909f4bb69276268169c5d6"
+    }
+  ]
+}

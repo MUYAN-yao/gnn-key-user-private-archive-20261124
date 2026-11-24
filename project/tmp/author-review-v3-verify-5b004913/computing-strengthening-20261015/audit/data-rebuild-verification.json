@@ -1,0 +1,66 @@
+[
+  {
+    "File": "invs2013\\cascades.csv",
+    "Match": true
+  },
+  {
+    "File": "invs2013\\data_card.json",
+    "Match": true
+  },
+  {
+    "File": "invs2013\\edges.csv",
+    "Match": true
+  },
+  {
+    "File": "invs2013\\nodes.csv",
+    "Match": true
+  },
+  {
+    "File": "invs2015\\cascades.csv",
+    "Match": true
+  },
+  {
+    "File": "invs2015\\data_card.json",
+    "Match": true
+  },
+  {
+    "File": "invs2015\\edges.csv",
+    "Match": true
+  },
+  {
+    "File": "invs2015\\nodes.csv",
+    "Match": true
+  },
+  {
+    "File": "kenya2012\\cascades.csv",
+    "Match": true
+  },
+  {
+    "File": "kenya2012\\data_card.json",
+    "Match": true
+  },
+  {
+    "File": "kenya2012\\edges.csv",
+    "Match": true
+  },
+  {
+    "File": "kenya2012\\nodes.csv",
+    "Match": true
+  },
+  {
+    "File": "sfhh2009\\cascades.csv",
+    "Match": true
+  },
+  {
+    "File": "sfhh2009\\data_card.json",
+    "Match": true
+  },
+  {
+    "File": "sfhh2009\\edges.csv",
+    "Match": true
+  },
+  {
+    "File": "sfhh2009\\nodes.csv",
+    "Match": true
+  }
+]

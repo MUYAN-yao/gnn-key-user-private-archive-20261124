@@ -1,0 +1,6 @@
+__pycache__/
+.pytest_cache/
+runtime-data/
+web/node_modules/
+web/dist/
+web/tsconfig.tsbuildinfo

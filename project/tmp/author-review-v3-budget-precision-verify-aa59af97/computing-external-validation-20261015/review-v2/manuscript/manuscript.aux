@@ -1,0 +1,89 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{ref1}
+\citation{ref2,ref8,ref9,ref16}
+\citation{ref1}
+\citation{ref7}
+\citation{ref8}
+\citation{ref2}
+\citation{ref12}
+\citation{ref13}
+\citation{ref19}
+\@writefile{toc}{\contentsline {paragraph}{Author-review status.}{2}{section*.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{2}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related work and positioning}{2}{section.2}\protected@file@percent }
+\citation{ref16}
+\citation{ref11}
+\citation{ref15}
+\citation{networkxpr}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Methods}{3}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Diffusion, eligibility and finite-world greedy selection}{3}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Random-world coupling and its scope}{4}{subsection.3.2}\protected@file@percent }
+\newlabel{sec:coupling}{{3.2}{4}{Random-world coupling and its scope}{subsection.3.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Metrics and statistical units}{4}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Implementation audit and timing}{5}{subsection.3.4}\protected@file@percent }
+\citation{ref3,ref4,ref5,ref6}
+\citation{ref17,ref18}
+\citation{snap}
+\citation{college}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}AI assistance and human review}{6}{subsection.3.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Evidence layers and data}{6}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Historical studies}{6}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}External topologies and preprocessing}{6}{subsection.4.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Frozen external topologies. Arcs are directed propagation arcs after preprocessing. The coverage pools use $\lceil .05n\rceil $. The raw ca-GrQc page counts 5,242 nodes; see the endpoint rule in the text.}}{6}{table.1}\protected@file@percent }
+\newlabel{tab:data}{{1}{6}{Frozen external topologies. Arcs are directed propagation arcs after preprocessing. The coverage pools use $\lceil .05n\rceil $. The raw ca-GrQc page counts 5,242 nodes; see the endpoint rule in the text}{table.1}{}}
+\citation{grqc}
+\citation{signed,links}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Frozen external matrix}{7}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Results}{8}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}External validation limits transfer of ranking results}{8}{subsection.5.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Frozen external results at $W=1280$, five paths per graph. PageRank uses a 20-node pool and default solver tolerance. Loss is normalized by full-reference spread beyond the five seeds. Degree agreement is ordered-trajectory agreement.}}{8}{table.2}\protected@file@percent }
+\newlabel{tab:primary}{{2}{8}{Frozen external results at $W=1280$, five paths per graph. PageRank uses a 20-node pool and default solver tolerance. Loss is normalized by full-reference spread beyond the five seeds. Degree agreement is ordered-trajectory agreement}{table.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Coverage and orientation qualify the PageRank interpretation}{8}{subsection.5.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Frozen main-matrix incremental loss relative to each budget's full reference; PageRank uses default tolerance. Points are means of five computational paths; bars are path standard deviations. Random-pool repeats are averaged within each path first. Negative loss denotes independently measured gain against the finite reference. Graph panels retain a common percentage scale. Complete method summaries and source data accompany Online Resource 1}}{9}{figure.1}\protected@file@percent }
+\newlabel{fig:loss}{{1}{9}{Frozen main-matrix incremental loss relative to each budget's full reference; PageRank uses default tolerance. Points are means of five computational paths; bars are path standard deviations. Random-pool repeats are averaged within each path first. Negative loss denotes independently measured gain against the finite reference. Graph panels retain a common percentage scale. Complete method summaries and source data accompany Online Resource 1}{figure.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Reference-set changes are not interchangeable with utility changes}{10}{subsection.5.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Full-reference transitions under step coupling. Gain is the paired independent change in total spread; seed counts are constant. The range is across paths, not a confidence interval.}}{10}{table.3}\protected@file@percent }
+\newlabel{tab:transitions}{{3}{10}{Full-reference transitions under step coupling. Gain is the paired independent change in total spread; seed counts are constant. The range is across paths, not a confidence interval}{table.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Coupling and computational cost}{11}{subsection.5.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Degree-4k cost at $W=1280$. Seconds are frozen selection measurements averaged over five paths. Verification savings use the separately measured setup plus frozen world, selection and evaluation times; they are hybrid estimates, not direct end-to-end trials.}}{11}{table.4}\protected@file@percent }
+\newlabel{tab:cost}{{4}{11}{Degree-4k cost at $W=1280$. Seconds are frozen selection measurements averaged over five paths. Verification savings use the separately measured setup plus frozen world, selection and evaluation times; they are hybrid estimates, not direct end-to-end trials}{table.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Full-reference paired spread changes for adjacent budgets. Each graph contributes paths 1101--1105 from left to right. Filled circles mark changed final sets; hollow squares mark unchanged sets. Bars are unadjusted 95\% normal conditional Monte Carlo intervals from 10,000 paired worlds. Panels use different vertical ranges to display the measured changes; these are not across-network confidence intervals}}{12}{figure.2}\protected@file@percent }
+\newlabel{fig:transitions}{{2}{12}{Full-reference paired spread changes for adjacent budgets. Each graph contributes paths 1101--1105 from left to right. Filled circles mark changed final sets; hollow squares mark unchanged sets. Bars are unadjusted 95\% normal conditional Monte Carlo intervals from 10,000 paired worlds. Panels use different vertical ranges to display the measured changes; these are not across-network confidence intervals}{figure.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Descriptive loss--cost decisions for the frozen default-tolerance matrix at $W=1280$. Cells count paths whose point-estimate incremental loss is at or below the column tolerance. Row labels report mean hybrid verification-inclusive saving across all five paths, whether or not they pass. Random rows first average three pools within each path and use the mean cost of one random-pool deployment. The tolerances are illustrative, not justified application thresholds or noninferiority tests}}{13}{figure.3}\protected@file@percent }
+\newlabel{fig:cost}{{3}{13}{Descriptive loss--cost decisions for the frozen default-tolerance matrix at $W=1280$. Cells count paths whose point-estimate incremental loss is at or below the column tolerance. Row labels report mean hybrid verification-inclusive saving across all five paths, whether or not they pass. Random rows first average three pools within each path and use the mean cost of one random-pool deployment. The tolerances are illustrative, not justified application thresholds or noninferiority tests}{figure.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Discussion and limitations}{14}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion}{14}{section.7}\protected@file@percent }
+\bibcite{ref1}{{1}{}{{}}{{}}}
+\bibcite{ref2}{{2}{}{{}}{{}}}
+\bibcite{ref8}{{3}{}{{}}{{}}}
+\@writefile{toc}{\contentsline {paragraph}{Supplementary information.}{15}{section*.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Funding.}{15}{section*.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Competing interests.}{15}{section*.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Author contributions and approval.}{15}{section*.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Data availability.}{15}{section*.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Code availability.}{15}{section*.8}\protected@file@percent }
+\bibcite{ref9}{{4}{}{{}}{{}}}
+\bibcite{ref16}{{5}{}{{}}{{}}}
+\bibcite{ref7}{{6}{}{{}}{{}}}
+\bibcite{ref12}{{7}{}{{}}{{}}}
+\bibcite{ref13}{{8}{}{{}}{{}}}
+\bibcite{ref19}{{9}{}{{}}{{}}}
+\bibcite{ref11}{{10}{}{{}}{{}}}
+\bibcite{ref15}{{11}{}{{}}{{}}}
+\bibcite{networkxpr}{{12}{}{{}}{{}}}
+\bibcite{ref3}{{13}{}{{}}{{}}}
+\bibcite{ref4}{{14}{}{{}}{{}}}
+\bibcite{ref5}{{15}{}{{}}{{}}}
+\bibcite{ref6}{{16}{}{{}}{{}}}
+\bibcite{ref17}{{17}{}{{}}{{}}}
+\bibcite{ref18}{{18}{}{{}}{{}}}
+\bibcite{snap}{{19}{}{{}}{{}}}
+\bibcite{college}{{20}{}{{}}{{}}}
+\bibcite{grqc}{{21}{}{{}}{{}}}
+\bibcite{signed}{{22}{}{{}}{{}}}
+\bibcite{links}{{23}{}{{}}{{}}}
+\providecommand\NAT@force@numbers{}\NAT@force@numbers
+\gdef \@abspage@last{17}

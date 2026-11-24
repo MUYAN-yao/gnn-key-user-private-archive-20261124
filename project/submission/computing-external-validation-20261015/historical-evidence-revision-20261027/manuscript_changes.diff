@@ -1,0 +1,135 @@
+--- narrative-revision-20261027/manuscript/manuscript.tex
++++ historical-evidence-revision-20261027/manuscript/manuscript.tex
+@@ -104,7 +104,7 @@
+ 
+ ca-GrQc links coauthors \cite{grqc}; we remove self-loops, deduplicate pairs and create reciprocal arcs. Vertices are collected after loop removal, excluding the self-loop-only vertex 12295 and giving 5,241 rather than the source page's 5,242 vertices. wiki-Vote arcs run from voter to votee \cite{signed,links}; self-loops and duplicate arcs are removed without reversing the remaining arcs. Outgoing diffusion on these arcs is a simulation assumption. The two static datasets supply neither event counts nor observed cascades and receive no historical-weighted ranking. We retain all weak components: 2 in CollegeMsg, 354 in ca-GrQc and 24 in wiki-Vote. No largest-component extraction or node subsampling is applied. Original IDs are stored as strings and sorted lexicographically for graph indexing, ranking ties and greedy ties. Raw-file and processed-graph hashes are supplied in the data manifest.
+ 
+-Historical context comes from four contact-derived graphs with 75--402 vertices, constructed from workplace, conference and rural Kenya data \cite{ref3,ref4,ref5,ref6}. The initial 42-condition study is distinct from a later 520-condition extension with ten paths per real graph, selection budgets up to 5120 and two 2,000-node synthetic controls based on preferential attachment and stochastic blocks \cite{ref17,ref18}. Their complete configurations and results remain separate from the external study.
++Historical context comes from four contact-derived graphs with 75--402 vertices, constructed from workplace, conference and rural Kenya data \cite{ref3,ref4,ref5,ref6}. We distinguish four evidence layers: the initial 42-condition study; a 520-condition historical extension; the external matrix below; and its post-hoc PageRank precision control. The extension uses ten paths per contact graph and adds a budget scan up to $W=5120$, four local changes to $(p,h)$, fixed-edge sampling, a larger seed budget, and two fixed 2,000-node synthetic instances \cite{ref17,ref18}. The parameter controls reuse the default budget-scan conditions rather than counting them again. Online Resource 1 reports the complete coverage and descriptive results separately; these small-graph controls do not enlarge the external network sample.
+ 
+ \subsection{Primary matrix and numerical sensitivity control}
+ Table~\ref{tab:settings} specifies the external design. A condition fixes graph, path, selection budget and coupling; an arm changes only seed eligibility. Three graphs, five paths and three selection budgets define 45 primary conditions. Nine fixed-edge conditions provide a matched coupling control. Every condition includes full selection, degree-4k, PageRank-4k, degree-5\%, PageRank-5\% and three random-4k pools; CollegeMsg also includes historical-weighted 4k and 5\% pools. This gives 18 conditions per graph, with 10 arms for CollegeMsg and 8 for each static graph: $18(10+8+8)=468$ arms. All 54 conditions were completed and retained.
+@@ -153,7 +153,7 @@
+ \subsection{Reference-set changes have different utility consequences}
+ Figure~\ref{fig:transitions} compares reference-set changes with independent utility changes. From $W=320$ to 1280, all five ca-GrQc sets change, but their mean gain is 0.12720 nodes; individual differences range from $-0.0266$ to $+0.2411$. CollegeMsg changes one set and gains 0.05336 nodes averaged across all five paths. wiki-Vote changes no final sets and has exactly zero paired gain, although some ordered sequences change.
+ 
+-Of the six changed sets, four have positive pointwise 95\% conditional Monte Carlo intervals; two ca-GrQc intervals include zero. The nine unchanged sets have identical evaluation vectors. These comparisons separate the occurrence of a selection change from its size and direction in utility. The historical 1280-to-5120 comparison reinforces this distinction: 16/40 sets changed while mean gain was 0.01111 nodes, without establishing convergence on the external networks.
++Of the six changed sets, four have positive pointwise 95\% conditional Monte Carlo intervals; two ca-GrQc intervals include zero. The nine unchanged sets have identical evaluation vectors. These comparisons separate the occurrence of a selection change from its size and direction in utility. In the historical step-coupled comparison from $W=1280$ to 5120, 16/40 sets changed while mean gain was 0.01111 nodes (range $-0.0383$ to $+0.1180$). Historical fixed-edge references also change: from $W=320$ to 1280, 29/40 sets changed, with mean gain 0.061845 nodes (range $-0.0110$ to $+0.2572$). Each transition uses a shared evaluation family within its own coupling; the two budget intervals are different and do not estimate a coupling effect. These controls support separate reporting of set and utility changes, without establishing convergence on the external networks.
+ \begin{figure}[t]
+ \centering\includegraphics[width=\linewidth]{Fig2.pdf}
+ \caption{Reference-set changes and independent spread changes. Filled circles denote changed final sets; hollow squares denote unchanged sets. Paths 1101--1105 run from left to right within each graph. Bars are unadjusted 95\% conditional Monte Carlo intervals from 10,000 paired worlds. Panel-specific vertical scales reveal small changes; the intervals condition on selected sets and do not describe variation across networks.}\label{fig:transitions}
+@@ -176,6 +176,8 @@
+ Descriptive loss thresholds further separate speed from utility preservation. At $W=1280$, degree-4k meets the zero point-estimate loss threshold on every path. Default PageRank-4k meets 10\% on ca-GrQc and CollegeMsg, but fails 20\% on every wiki-Vote path. None of the random-pool path means meets 20\%. Online Resource 1 reports all six frozen thresholds (0, 1, 2.5, 5, 10 and 20\%) and their cost estimates; these are descriptive criteria rather than application-validated tolerances.
+ 
+ The fixed-edge control retains the main PageRank loss pattern at $W=320$, with mean differences of $-0.16240$, $-0.93417$ and $-40.57597$ nodes on ca-GrQc, CollegeMsg and wiki-Vote. Degree-4k reproduces 1/3, 3/3 and 3/3 corresponding trajectories. Thus coupling changes some reference-agreement outcomes even when the prominent utility losses persist. Complete control paths and repeated timings are supplied in Online Resource 1.
++
++Historical parameter controls qualify the contact-graph evidence. Across the 160 nondefault conditions at $W=320$, Degree-4k and PageRank-4k reproduce 117 and 132 full-reference trajectories, respectively; Weighted-4k has 117 negative and 43 positive paired spread differences. These are descriptive counts of repeated computations, not independent success trials. Under fixed-edge sampling at $W=1280$, Degree-4k and PageRank-4k match 38/40 and 40/40 trajectories, while Weighted-4k matches 5/40. The supplementary parameter and coupling tables retain every graph and setting, including losses. They support a broader description of the historical behavior, but do not test the joint effect of strict PageRank precision and fixed-edge sampling on the external graphs.
+ \FloatBarrier
+ 
+ \section{Discussion}
+@@ -185,12 +187,12 @@
+ 
+ For evaluations using truncated rankings and sampled references, the evidence motivates three reporting choices: give the actual candidate fraction, ranking tolerance and reference budget; report ordered agreement, final-set agreement and independent utility with their appropriate uncertainty; and state which stages the cost comparison includes. These quantities allow readers to distinguish preservation of a reference computation from a measured utility difference and to interpret the accompanying savings.
+ 
+-The evidence covers three selected external networks under $k=5$, $p=.01$, $h=3$ and selection budgets up to 1280. The five paths are computational replicates; the graphs do not form a probability sample of social systems. Observed messages, coauthorships and votes provide topology, not calibrated causal diffusion. Other seed budgets, propagation laws, edge probabilities and orientations may change the results. Reference agreement does not establish expected-optimality or convergence, and the paired numerical control remains post-hoc. Finally, cost savings are relative to exhaustive selection in this implementation; assembled verification costs exclude cold-start overhead. These boundaries define where further validation is needed.
++The external evidence covers three selected networks under $k=5$, $p=.01$, $h=3$ and selection budgets up to 1280. Historical contact graphs additionally probe $p$, $h$, coupling and $k$, but their local parameter changes are not a full factorial design and cannot establish sensitivity on the larger directed graphs. Coverage also limits interpretation of the historical $k=20$ control: the 4k pool contains all 75 Kenya vertices and 80/91 invs2013 vertices. Kenya agreement is therefore a full-pool identity check. The two synthetic controls are single fixed instances, not samples from their graph families. Paths are computational replicates; the networks are not a probability sample of social systems. Observed messages, coauthorships and votes provide topology, not calibrated causal diffusion. Reference agreement does not establish expected-optimality or convergence, and the numerical control remains post-hoc. Cost savings are relative to exhaustive selection in this implementation; assembled verification costs exclude cold-start overhead.
+ 
+ \section{Conclusion}
+ The evaluation of a candidate restriction can change through either the sampled full reference or the numerical ranking that defines eligibility. In the studied ca-GrQc comparison, stricter PageRank removes the default mean quality reversal across budgets without eliminating seed changes. Independent evaluation separates those changes from their spread consequences. Across the three external graphs, degree-based pools reproduce the tested $W=1280$ references at lower measured selection cost, while PageRank's results depend on precision, coverage and topology. Reporting these factors separately makes the basis and limits of the observed quality--cost comparisons explicit.
+ 
+-\paragraph{Supplementary information.} Online Resource 1 contains the complete result matrix, coverage and direction diagnostics, precision and transition tables, loss--cost curves, coupling controls and reproducibility details.
++\paragraph{Supplementary information.} Online Resource 1 contains the external result matrix, precision and direction diagnostics, loss--cost curves, and separate historical coverage, parameter, coupling and secondary-control tables with reproducibility details.
+ \section*{Statements and Declarations}
+ \paragraph{Funding.} This work was supported by a provincial undergraduate innovation and entrepreneurship training project.
+ \paragraph{Competing interests.} The authors declare that they have no competing interests.
+--- narrative-revision-20261027/manuscript/Online_Resource_1.tex
++++ historical-evidence-revision-20261027/manuscript/Online_Resource_1.tex
+@@ -2,7 +2,7 @@
+ \usepackage[T1]{fontenc}
+ \usepackage[utf8]{inputenc}
+ \usepackage{mathptmx}
+-\usepackage{amsmath,graphicx,booktabs,tabularx,url,placeins}
++\usepackage{amsmath,graphicx,booktabs,tabularx,longtable,url,placeins}
+ \usepackage[hidelinks]{hyperref}
+ \journalname{Computing}
+ \setlength{\emergencystretch}{2em}
+@@ -17,7 +17,7 @@
+ \email{yongbb14@lzu.edu.cn}
+ \and Junjie An, Tianyu Bo and Shuai Li \at Lanzhou University, Lanzhou, China}
+ \date{}\maketitle
+-\paragraph{Scope.} This online resource accompanies the revised manuscript. Tables and figures derive from frozen external outputs. The historical 42-condition study and 520-condition extension are separate evidence layers; the outcome-blind preflight supplies resource measurements only.
++\paragraph{Scope.} This online resource accompanies the revised manuscript. External results and the 520-condition historical extension are presented as separate evidence layers. The initial 42-condition study supplies earlier context; outcome-blind preflight supplies resource measurements only. The historical tables and figures added in this revision are descriptive recomputations of saved outputs, with no new experimental executions.
+ 
+ \section{Source-scoped related-work comparison}
+ Table~\ref{tab:related-scope} compares the stated focus of accessible primary
+@@ -277,8 +277,10 @@
+ Its environment record reports the actual installed versions for each run.
+ 
+ \subsection{Commands and acceptance criteria}
+-The accompanying \texttt{REPRODUCE.md} gives copyable PowerShell commands for
+-an isolated environment, input acquisition and the two replay modes. Run
++The retained external reproduction guide, \path{EXTERNAL_REPRODUCE_INHERITED.md},
++gives PowerShell commands for an isolated environment, input acquisition and
++the two replay modes. The current \texttt{REPRODUCE.md} separately describes
++regeneration of historical summaries without simulation. For external replay, run
+ \texttt{src/reproduce.py} from the revised package with explicit
+ \texttt{--base} and a fresh \texttt{--output}. The base is the external package
+ root; the output must not exist. The script checks original source, raw-file,
+@@ -306,23 +308,21 @@
+ tables agree; such a difference requires inspection rather than silent acceptance.
+ 
+ The reproduction revision of 26 October 2026 executed the representative mode and complete analysis regeneration.
+-The present narrative revision retains that verification record; it introduces
+-no new experimental executions. The earlier reproduction check did not repeat
++The present historical-evidence revision retains that verification record;
++it reads saved arrays without new experimental executions or simulator replay.
++The earlier reproduction check did not repeat
+ every historical experiment or every external condition.
+ Historical evidence retains its separate frozen package and reproduction guide.
+ The saved setup-timing table is an input to the assembled cost analysis; regenerating
+ that analysis does not remeasure all setup costs on the current machine.
+ 
++\clearpage
++\input{history_evidence.tex}
+ \section{File map and availability}
+-The reproducibility package supplied with the submission contains frozen configuration, source and data manifests;
+-all 54 result pairs; the strict audit; per-path and summary statistics; plotting
+-scripts and source CSVs; manuscript sources and PDFs; the novelty/evaluation
+-summary; a cover-letter draft; an author checklist; and environment/reproduction
+-instructions. A separate historical-evidence directory preserves the previous
+-extension and its analysis rather than merging the evidence layers.
+-
+-The guarded download script obtains public sources only after checking their
+-expected hashes. Raw third-party archives are not redistributed. No public
+-archive URL is asserted. The package is supplied for editorial and peer-review
+-access with the manuscript.
++The full reproducibility materials comprise frozen sources and protocols,
++manifests, external and historical results, per-path analyses and manuscript
++assets. This revision adds historical aggregation scripts, source CSVs and
++verification records; frozen experiment packages remain separate. Raw
++third-party inputs are obtained through the guarded download instructions and
++are not redistributed. No public archive URL is asserted.
+ \end{document}
+--- narrative-revision-20261027/summary_for_editor.txt
++++ historical-evidence-revision-20261027/summary_for_editor.txt
+@@ -7,7 +7,7 @@
+ On ca-GrQc, default PageRank-4k changes from a mean incremental-spread gain of 5.61% at W=80 to a loss of 5.07% at W=1280. A paired post-hoc tolerance control removes this reversal while leaving budget-dependent seed changes. CollegeMsg and wiki-Vote retain losses under stricter ranking. Between W=320 and W=1280, all five ca-GrQc full-reference sets change, with a mean independent spread gain of 0.12720 nodes. At W=1280, 20-node degree-based pools reproduce all 15 external full-reference trajectories; measured selection savings are 98.40–99.67% relative to exhaustive full-candidate selection in the same implementation.
+ 
+ Evaluation
+-The frozen external matrix comprises three observed topologies, five computational paths, selection budgets 80/320/1280, shared selection-world prefixes and 10,000 disjoint evaluation worlds. The setting fixes k=5, p=.01 and horizon 3. Fixed-edge controls, candidate coverage and explicit timing scopes qualify the main comparisons. The 45 post-hoc precision conditions reuse the original paths and do not enlarge the independent sample. Historical contact-graph findings remain a separate evidence layer.
++The frozen external matrix comprises three observed topologies, five computational paths, selection budgets 80/320/1280, shared selection-world prefixes and 10,000 disjoint evaluation worlds. The setting fixes k=5, p=.01 and horizon 3. Fixed-edge controls, candidate coverage and explicit timing scopes qualify the main comparisons. The 45 post-hoc precision conditions reuse the original paths and do not enlarge the independent sample. Separate historical contact-graph evidence covers local probability/horizon changes, fixed-edge sampling and larger seed pools. In the historical fixed-edge comparison, 29/40 reference sets change between W=320 and 1280, with a mean independent spread gain of 0.061845 nodes. These controls complement the external findings; they do not establish broader external parameter coverage or a joint strict-PageRank/fixed-edge result.
+ 
+ Interpretation and reproducibility
+-The study contributes evidence about how to interpret restriction quality, with separate reporting of trajectory agreement, set agreement, conditional Monte Carlo uncertainty, path variation and computational cost. The direction diagnostic is observational; reference agreement does not establish expected-optimality or equivalence. Frozen sources, input hashes, per-world outputs and analysis scripts support inspection. The 26 October reproduction check regenerated the external analyses and replayed 12 representative conditions (64 arms); this narrative revision preserves that record without claiming a full rerun or cross-platform replication. Raw third-party datasets are obtained from their cited providers and are not redistributed.
++The study contributes evidence about how to interpret restriction quality, with separate reporting of trajectory agreement, set agreement, conditional Monte Carlo uncertainty, path variation and computational cost. The direction diagnostic is observational; reference agreement does not establish expected-optimality or equivalence. Frozen sources, input hashes, per-world outputs and analysis scripts support inspection. The 26 October reproduction check regenerated the external analyses and replayed 12 representative conditions (64 arms). The current revision recomputes historical descriptive summaries from all 520 saved condition pairs and performs no new experiment or simulator replay; it does not claim a full rerun or cross-platform replication. Raw third-party datasets are obtained from their cited providers and are not redistributed.
+--- narrative-revision-20261027/cover_letter_draft.txt
++++ historical-evidence-revision-20261027/cover_letter_draft.txt
+@@ -8,6 +8,8 @@
+ 
+ We consider Computing an appropriate venue for this computational evaluation of network algorithms: the results address how numerical settings affect the interpretation of algorithm comparisons and provide explicit procedures for checking those conclusions. The accompanying summary explains the empirical contribution and evaluation design. The manuscript retains the default and strict results, distinguishes the post-hoc control from the frozen main study, and supplies condition-level outputs and reproducibility instructions.
+ 
++Separate supplementary evidence from the completed contact-graph study covers reference budgets, local propagation-parameter changes, fixed-edge sampling and candidate coverage. These saved results have been reaggregated without new experimental runs. Their network and parameter scopes are explicit, including full-pool identity at the larger Kenya seed budget and the use of only two fixed synthetic instances; they do not replace the external-network evidence.
++
+ All authors have read and approved the manuscript and agreed to its submission to Computing. The authors declare no competing interests. This work was supported by a provincial undergraduate innovation and entrepreneurship training project. Third-party raw datasets are not redistributed; source records, expected hashes and download/preprocessing instructions are provided. The reproducibility materials accompany the submission for editorial and peer-review access.
+ 
+ Sincerely,

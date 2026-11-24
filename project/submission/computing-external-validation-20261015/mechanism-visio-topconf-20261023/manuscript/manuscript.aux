@@ -1,0 +1,97 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{ref1}
+\citation{ref2,ref8,ref9,ref16}
+\citation{ref1}
+\citation{ref7}
+\citation{ref8}
+\citation{ref2}
+\citation{ref12}
+\citation{ref13}
+\citation{ref19}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{2}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related work and positioning}{2}{section.2}\protected@file@percent }
+\citation{ref16}
+\citation{ref11}
+\citation{ref15}
+\citation{networkxpr}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Methods}{3}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Evaluation chain and sources of sensitivity}{3}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Diffusion, eligibility and finite-world greedy selection}{3}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Random-world coupling and its scope}{4}{subsection.3.3}\protected@file@percent }
+\newlabel{sec:coupling}{{3.3}{4}{Random-world coupling and its scope}{subsection.3.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Metrics and statistical units}{4}{subsection.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Implementation audit and timing}{5}{subsection.3.5}\protected@file@percent }
+\citation{ref3,ref4,ref5,ref6}
+\citation{ref17,ref18}
+\citation{snap}
+\citation{college}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}AI assistance and human review}{6}{subsection.3.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Evidence layers and data}{6}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Historical studies}{6}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}External topologies and preprocessing}{6}{subsection.4.2}\protected@file@percent }
+\citation{grqc}
+\citation{signed,links}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Frozen external topologies. Arcs are directed propagation arcs after preprocessing. The coverage pools use $\lceil .05n\rceil $. The raw ca-GrQc page counts 5,242 nodes; see the endpoint rule in the text.}}{7}{table.1}\protected@file@percent }
+\newlabel{tab:data}{{1}{7}{Frozen external topologies. Arcs are directed propagation arcs after preprocessing. The coverage pools use $\lceil .05n\rceil $. The raw ca-GrQc page counts 5,242 nodes; see the endpoint rule in the text}{table.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Frozen external matrix}{7}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Results}{8}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}External validation limits transfer of ranking results}{8}{subsection.5.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Frozen external results at $W=1280$, five paths per graph. PageRank uses a 20-node pool and default solver tolerance. Loss is normalized by full-reference spread beyond the five seeds. Degree agreement is ordered-trajectory agreement.}}{8}{table.2}\protected@file@percent }
+\newlabel{tab:primary}{{2}{8}{Frozen external results at $W=1280$, five paths per graph. PageRank uses a 20-node pool and default solver tolerance. Loss is normalized by full-reference spread beyond the five seeds. Degree agreement is ordered-trajectory agreement}{table.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Ranking precision changes one apparent budget reversal}{9}{subsection.5.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Post-hoc PageRank loss across budgets. Each entry is the mean incremental-loss percentage across five original paths at $W=80/320/1280$. Default uses NetworkX tolerance $10^{-6}$; strict uses $10^{-12}$, whose pool is unchanged at $10^{-14}$. Pool Jaccard compares default and strict candidates. This is a numerical sensitivity analysis, not a new primary test family.}}{9}{table.3}\protected@file@percent }
+\newlabel{tab:precision-budget}{{3}{9}{Post-hoc PageRank loss across budgets. Each entry is the mean incremental-loss percentage across five original paths at $W=80/320/1280$. Default uses NetworkX tolerance $10^{-6}$; strict uses $10^{-12}$, whose pool is unchanged at $10^{-14}$. Pool Jaccard compares default and strict candidates. This is a numerical sensitivity analysis, not a new primary test family}{table.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Coverage and orientation qualify the PageRank interpretation}{9}{subsection.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Reference-set changes are not interchangeable with utility changes}{10}{subsection.5.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Full-reference transitions under step coupling. Gain is the paired independent change in total spread; seed counts are constant. The range is across paths, not a confidence interval.}}{10}{table.4}\protected@file@percent }
+\newlabel{tab:transitions}{{4}{10}{Full-reference transitions under step coupling. Gain is the paired independent change in total spread; seed counts are constant. The range is across paths, not a confidence interval}{table.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Coupling and computational cost}{11}{subsection.5.5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Degree-4k cost at $W=1280$. Seconds are frozen selection measurements averaged over five paths. Verification savings use the separately measured setup plus frozen world, selection and evaluation times; they are hybrid estimates, not direct end-to-end trials.}}{11}{table.5}\protected@file@percent }
+\newlabel{tab:cost}{{5}{11}{Degree-4k cost at $W=1280$. Seconds are frozen selection measurements averaged over five paths. Verification savings use the separately measured setup plus frozen world, selection and evaluation times; they are hybrid estimates, not direct end-to-end trials}{table.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Computational mechanism of candidate-restriction evaluation. A ranking cutoff produces the eligible pool $C(\tau )$ while propagation remains on the complete processed graph. The two colored paths identify distinct resolution choices: finite selection budget $W$ can change the full reference $S_{\mathrm  {full}}(W)$, whereas the PageRank tolerance $\tau $ can exchange near-cutoff candidates before restricted-pool greedy selection. The resulting sets are selected with the same graph and paired selection worlds, then compared by spread on a disjoint evaluation family. The ca-GrQc anchor reports the observed exchange of two members of the 20-node PageRank pool and a changed selected set on all five paths at $W=1280$; its numerical differences are reported in Fig.~\ref {fig:precision-budget}. The diagram is a computational dependency map, not a causal model of real diffusion. Agreement, independent utility and scoped cost are deliberately kept distinct.}}{13}{figure.1}\protected@file@percent }
+\newlabel{fig:mechanism}{{1}{13}{Computational mechanism of candidate-restriction evaluation. A ranking cutoff produces the eligible pool $C(\tau )$ while propagation remains on the complete processed graph. The two colored paths identify distinct resolution choices: finite selection budget $W$ can change the full reference $S_{\mathrm {full}}(W)$, whereas the PageRank tolerance $\tau $ can exchange near-cutoff candidates before restricted-pool greedy selection. The resulting sets are selected with the same graph and paired selection worlds, then compared by spread on a disjoint evaluation family. The ca-GrQc anchor reports the observed exchange of two members of the 20-node PageRank pool and a changed selected set on all five paths at $W=1280$; its numerical differences are reported in Fig.~\ref {fig:precision-budget}. The diagram is a computational dependency map, not a causal model of real diffusion. Agreement, independent utility and scoped cost are deliberately kept distinct}{figure.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Frozen main-matrix incremental loss relative to each budget's full reference; PageRank uses default tolerance. Points are means of five computational paths; bars are path standard deviations. Random-pool repeats are averaged within each path first. Negative loss denotes independently measured gain against the finite reference. Graph panels retain a common percentage scale. Complete method summaries and source data accompany Online Resource 1}}{14}{figure.2}\protected@file@percent }
+\newlabel{fig:loss}{{2}{14}{Frozen main-matrix incremental loss relative to each budget's full reference; PageRank uses default tolerance. Points are means of five computational paths; bars are path standard deviations. Random-pool repeats are averaged within each path first. Negative loss denotes independently measured gain against the finite reference. Graph panels retain a common percentage scale. Complete method summaries and source data accompany Online Resource 1}{figure.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Post-hoc PageRank budget--precision sensitivity. Each point is the mean incremental loss over the original five paths; bars are path standard deviations. Default and strict refer to tolerances $10^{-6}$ and $10^{-12}$; strict pools agree at $10^{-14}$. Negative loss favors the restricted set. The panels show why the ca-GrQc default direction reversal cannot be generalized to the strict ranking, while CollegeMsg and wiki-Vote retain their named patterns. This is a diagnostic comparison, not a new primary test family.}}{15}{figure.3}\protected@file@percent }
+\newlabel{fig:precision-budget}{{3}{15}{Post-hoc PageRank budget--precision sensitivity. Each point is the mean incremental loss over the original five paths; bars are path standard deviations. Default and strict refer to tolerances $10^{-6}$ and $10^{-12}$; strict pools agree at $10^{-14}$. Negative loss favors the restricted set. The panels show why the ca-GrQc default direction reversal cannot be generalized to the strict ranking, while CollegeMsg and wiki-Vote retain their named patterns. This is a diagnostic comparison, not a new primary test family}{figure.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Full-reference paired spread changes for adjacent budgets. Each graph contributes paths 1101--1105 from left to right. Filled circles mark changed final sets; hollow squares mark unchanged sets. Bars are unadjusted 95\% normal conditional Monte Carlo intervals from 10,000 paired worlds. Panels use different vertical ranges to display the measured changes; these are not across-network confidence intervals}}{16}{figure.4}\protected@file@percent }
+\newlabel{fig:transitions}{{4}{16}{Full-reference paired spread changes for adjacent budgets. Each graph contributes paths 1101--1105 from left to right. Filled circles mark changed final sets; hollow squares mark unchanged sets. Bars are unadjusted 95\% normal conditional Monte Carlo intervals from 10,000 paired worlds. Panels use different vertical ranges to display the measured changes; these are not across-network confidence intervals}{figure.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Descriptive loss--cost decisions for the frozen default-tolerance matrix at $W=1280$. Cells count paths whose point-estimate incremental loss is at or below the column tolerance. Row labels report mean hybrid verification-inclusive saving across all five paths, whether or not they pass. Random rows first average three pools within each path and use the mean cost of one random-pool deployment. The tolerances are illustrative, not justified application thresholds or noninferiority tests}}{17}{figure.5}\protected@file@percent }
+\newlabel{fig:cost}{{5}{17}{Descriptive loss--cost decisions for the frozen default-tolerance matrix at $W=1280$. Cells count paths whose point-estimate incremental loss is at or below the column tolerance. Row labels report mean hybrid verification-inclusive saving across all five paths, whether or not they pass. Random rows first average three pools within each path and use the mean cost of one random-pool deployment. The tolerances are illustrative, not justified application thresholds or noninferiority tests}{figure.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Discussion and limitations}{18}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion}{19}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Supplementary information.}{19}{section*.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Funding.}{19}{section*.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Competing interests.}{19}{section*.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Author contributions.}{19}{section*.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Data availability.}{19}{section*.6}\protected@file@percent }
+\bibcite{ref1}{{1}{}{{}}{{}}}
+\bibcite{ref2}{{2}{}{{}}{{}}}
+\bibcite{ref8}{{3}{}{{}}{{}}}
+\bibcite{ref9}{{4}{}{{}}{{}}}
+\bibcite{ref16}{{5}{}{{}}{{}}}
+\bibcite{ref7}{{6}{}{{}}{{}}}
+\bibcite{ref12}{{7}{}{{}}{{}}}
+\bibcite{ref13}{{8}{}{{}}{{}}}
+\bibcite{ref19}{{9}{}{{}}{{}}}
+\bibcite{ref11}{{10}{}{{}}{{}}}
+\bibcite{ref15}{{11}{}{{}}{{}}}
+\@writefile{toc}{\contentsline {paragraph}{Code availability.}{20}{section*.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Use of AI-assisted technologies.}{20}{section*.8}\protected@file@percent }
+\bibcite{networkxpr}{{12}{}{{}}{{}}}
+\bibcite{ref3}{{13}{}{{}}{{}}}
+\bibcite{ref4}{{14}{}{{}}{{}}}
+\bibcite{ref5}{{15}{}{{}}{{}}}
+\bibcite{ref6}{{16}{}{{}}{{}}}
+\bibcite{ref17}{{17}{}{{}}{{}}}
+\bibcite{ref18}{{18}{}{{}}{{}}}
+\bibcite{snap}{{19}{}{{}}{{}}}
+\bibcite{college}{{20}{}{{}}{{}}}
+\bibcite{grqc}{{21}{}{{}}{{}}}
+\bibcite{signed}{{22}{}{{}}{{}}}
+\bibcite{links}{{23}{}{{}}{{}}}
+\providecommand\NAT@force@numbers{}\NAT@force@numbers
+\gdef \@abspage@last{21}

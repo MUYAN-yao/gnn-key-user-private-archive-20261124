@@ -1,0 +1,1 @@
+2026-11-06: Complete. Original 26-page PDF downloaded from arXiv. User scope: main paper only. 103 translated main-text blocks; 8 figures, 3 tables, 6 numbered equations, 2 model displays, and algorithm retained. Chinese PDF 17 pages including original references. Bilingual Markdown and ZIP delivered.

@@ -1,0 +1,15 @@
+{
+  "schema": "sociopatterns-confirmation-data-card-0.1",
+  "dataset": "invs2013",
+  "source_file": "workplace_InVS_tij.dat.zip",
+  "source_sha256": "bf818f7e819864e134c90ed82f2cda6ca9d9548d43fe4d05002ac068c91258c0",
+  "source_page": "https://sociopatterns.org/datasets/contacts-in-a-workplace/",
+  "license": "CC0",
+  "downloaded_on": "2026-09-20",
+  "raw_contact_semantics": "undirected, timestamped proximity contact",
+  "edge_transformation": "each undirected contact emitted as two directed events at the original timestamp",
+  "cascade_semantics": "not observed; cascades.csv is schema-only and must not be used for propagation claims",
+  "node_count": 92,
+  "directed_event_count": 19654,
+  "timestamp_group_count": 7104
+}

@@ -1,0 +1,266 @@
+{
+  "manuscript": {
+    "pages": 19,
+    "all_pages_rendered": true,
+    "pdf_sha256": "a278c0ce2060653801edaa4bfb09808335f287cc3c7b02eee96e0b41c0ff62bb",
+    "issues": [],
+    "unresolved_markers": false,
+    "outside_page_text_blocks": [],
+    "fonts": [
+      [
+        37,
+        "pfa",
+        "Type1",
+        "ILRHWI+NimbusRomNo9L-Medi",
+        "F87",
+        ""
+      ],
+      [
+        38,
+        "pfa",
+        "Type1",
+        "RIXGPX+NimbusRomNo9L-Regu",
+        "F88",
+        ""
+      ],
+      [
+        39,
+        "pfa",
+        "Type1",
+        "CBBALY+CMSY10",
+        "F38",
+        ""
+      ],
+      [
+        40,
+        "pfa",
+        "Type1",
+        "EZWAGR+NimbusRomNo9L-ReguItal",
+        "F93",
+        ""
+      ],
+      [
+        41,
+        "pfa",
+        "Type1",
+        "GIGFZE+CMR10",
+        "F32",
+        ""
+      ],
+      [
+        72,
+        "pfa",
+        "Type1",
+        "BKFRPT+CMMI10",
+        "F35",
+        ""
+      ],
+      [
+        73,
+        "pfa",
+        "Type1",
+        "LNCDWA+StandardSymL-Slant_167",
+        "F92",
+        ""
+      ],
+      [
+        75,
+        "pfa",
+        "Type1",
+        "TSBOKK+CMEX10",
+        "F25",
+        ""
+      ],
+      [
+        76,
+        "pfa",
+        "Type1",
+        "HKAEOH+StandardSymL",
+        "F100",
+        ""
+      ],
+      [
+        145,
+        "ttf",
+        "Type0",
+        "ELUGPM+ArialMT",
+        "F1",
+        "Identity-H"
+      ],
+      [
+        180,
+        "n/a",
+        "Type3",
+        "BMQQDV+DejaVuSans",
+        "F1",
+        ""
+      ],
+      [
+        263,
+        "ttf",
+        "Type0",
+        "ELUGPM+ArialMT",
+        "F1",
+        "Identity-H"
+      ],
+      [
+        281,
+        "ttf",
+        "Type0",
+        "ELUGPM+ArialMT",
+        "F1",
+        "Identity-H"
+      ],
+      [
+        326,
+        "pfa",
+        "Type1",
+        "ZFFATJ+SFTT1000",
+        "F120",
+        ""
+      ]
+    ]
+  },
+  "Online_Resource_1": {
+    "pages": 11,
+    "all_pages_rendered": true,
+    "pdf_sha256": "fa11a4f61b1e21fe9ccf3a92c1b5a2664e7938eab205d7b8e5855d99fd7c3dec",
+    "issues": [],
+    "unresolved_markers": false,
+    "outside_page_text_blocks": [],
+    "fonts": [
+      [
+        45,
+        "pfa",
+        "Type1",
+        "ZTQZLO+NimbusRomNo9L-Medi",
+        "F79",
+        ""
+      ],
+      [
+        46,
+        "pfa",
+        "Type1",
+        "IHUHIX+NimbusRomNo9L-Regu",
+        "F80",
+        ""
+      ],
+      [
+        47,
+        "pfa",
+        "Type1",
+        "BDXMTO+CMSY10",
+        "F38",
+        ""
+      ],
+      [
+        49,
+        "pfa",
+        "Type1",
+        "JIODLC+NimbusRomNo9L-ReguItal",
+        "F84",
+        ""
+      ],
+      [
+        63,
+        "pfa",
+        "Type1",
+        "RFLZJB+CMR10",
+        "F32",
+        ""
+      ],
+      [
+        71,
+        "pfa",
+        "Type1",
+        "UWDIBM+StandardSymL-Slant_167",
+        "F88",
+        ""
+      ],
+      [
+        86,
+        "pfa",
+        "Type1",
+        "BKFRPT+CMMI10",
+        "F35",
+        ""
+      ],
+      [
+        106,
+        "ttf",
+        "Type0",
+        "ELUGPM+ArialMT",
+        "F1",
+        "Identity-H"
+      ]
+    ]
+  },
+  "text": {
+    "abstract_words": 234,
+    "keywords": 5,
+    "citation_keys": 23,
+    "reference_entries": 23,
+    "missing_citations": [],
+    "uncited_entries": [],
+    "class_unchanged": true
+  },
+  "figures": {
+    "Fig1.pdf": {
+      "width_mm": 119.00000381469727,
+      "height_mm": 165.99999889797633,
+      "fonts": [
+        [
+          27,
+          "ttf",
+          "Type0",
+          "ELUGPM+ArialMT",
+          "F1",
+          "Identity-H"
+        ]
+      ]
+    },
+    "Fig2.pdf": {
+      "width_mm": 119.00000381469727,
+      "height_mm": 122.99999652438694,
+      "fonts": [
+        [
+          15,
+          "ttf",
+          "Type0",
+          "ELUGPM+ArialMT",
+          "F1",
+          "Identity-H"
+        ]
+      ]
+    },
+    "Fig3.pdf": {
+      "width_mm": 119.00000381469727,
+      "height_mm": 155.00000279744464,
+      "fonts": [
+        [
+          18,
+          "ttf",
+          "Type0",
+          "ELUGPM+ArialMT",
+          "F1",
+          "Identity-H"
+        ]
+      ]
+    },
+    "FigS1.pdf": {
+      "width_mm": 119.00000381469727,
+      "height_mm": 144.99999949137367,
+      "fonts": [
+        [
+          39,
+          "ttf",
+          "Type0",
+          "ELUGPM+ArialMT",
+          "F1",
+          "Identity-H"
+        ]
+      ]
+    }
+  },
+  "status": "PASS"
+}

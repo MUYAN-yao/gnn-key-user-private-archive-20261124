@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "baseline_unchanged": true,
+  "protected_asset_count": 52,
+  "table_and_figure_files_unchanged": true,
+  "supplement_unchanged": true,
+  "numeric_tokens_bilingual_match": true,
+  "citations_equations_author_declarations_unchanged": true,
+  "requested_AI_footnote_present": true,
+  "specified_defensive_phrases_removed": true,
+  "documents": {
+    "english": {
+      "pages": 17,
+      "sha256": "d19bc27ee7964aec057f94dba7a73fcf57011d0d324d990b05be402541a1a18d",
+      "compile_errors": [],
+      "underfull_warnings": 13,
+      "rendered_pages": 17
+    },
+    "chinese": {
+      "pages": 20,
+      "sha256": "2b82e337aaad4e6477feb62d386541727140c3956cc4a5dac9342f26f3602bc6",
+      "compile_errors": [],
+      "underfull_warnings": 19,
+      "rendered_pages": 20
+    }
+  },
+  "no_experiments_executed": true,
+  "visual_inspection": "Recorded separately in render_checks.json"
+}

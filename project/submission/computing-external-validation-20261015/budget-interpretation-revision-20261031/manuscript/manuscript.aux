@@ -1,0 +1,101 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{ref1}
+\citation{ref7,ref8,ref2}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\citation{ref1}
+\citation{ref7}
+\citation{ref8}
+\citation{ref2}
+\citation{ref12}
+\citation{ref13}
+\citation{ref19}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Paired evaluation separates selection sampling, candidate ranking and independent utility assessment. (a) Both arms select seeds using the same $W$ worlds. Ranking tolerance $\tau $ and cutoff $q$ define the restricted pool $C(\tau ,q)$. Both arms share the graph, world prefix, seed budget and tie rule. (b) A separate, shared family of $M=10,000$ evaluation worlds yields $\Delta U$, restricted minus full-reference spread. Set agreement $J$ and selection-cost ratio $\rho _T$ complete the quality--cost comparison.}}{3}{figure.1}\protected@file@percent }
+\newlabel{fig:evaluation-mechanism}{{1}{3}{Paired evaluation separates selection sampling, candidate ranking and independent utility assessment. (a) Both arms select seeds using the same $W$ worlds. Ranking tolerance $\tau $ and cutoff $q$ define the restricted pool $C(\tau ,q)$. Both arms share the graph, world prefix, seed budget and tie rule. (b) A separate, shared family of $M=10,000$ evaluation worlds yields $\Delta U$, restricted minus full-reference spread. Set agreement $J$ and selection-cost ratio $\rho _T$ complete the quality--cost comparison}{figure.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related work}{3}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Objectives, sampling and computational efficiency.}{3}{section*.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Influence estimation and seed-selection strategies.}{3}{section*.2}\protected@file@percent }
+\citation{ref9}
+\citation{ref16}
+\citation{ref11}
+\citation{ref15}
+\@writefile{toc}{\contentsline {paragraph}{Evaluation settings and the remaining question.}{4}{section*.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Methods}{4}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Paired selection at controlled resolutions}{4}{subsection.3.1}\protected@file@percent }
+\citation{networkxpr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}World coupling and independent evaluation}{5}{subsection.3.2}\protected@file@percent }
+\newlabel{sec:coupling}{{3.2}{5}{World coupling and independent evaluation}{subsection.3.2}{}}
+\citation{snap}
+\citation{college}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Implementation and cost measurement}{6}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experimental setup}{6}{section.4}\protected@file@percent }
+\newlabel{sec:experimental-setup}{{4}{6}{Experimental setup}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Networks and preprocessing}{6}{subsection.4.1}\protected@file@percent }
+\citation{grqc}
+\citation{signed,links}
+\citation{ref3,ref4,ref5,ref6}
+\citation{ref17,ref18}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Processed external networks and candidate coverage. Arcs are directed propagation arcs; the 5\% pool contains $\lceil .05n\rceil $ vertices.}}{7}{table.1}\protected@file@percent }
+\newlabel{tab:data}{{1}{7}{Processed external networks and candidate coverage. Arcs are directed propagation arcs; the 5\% pool contains $\lceil .05n\rceil $ vertices}{table.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Primary matrix and numerical sensitivity control}{7}{subsection.4.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces External experiment settings. Paths identify computational repetitions, not additional networks.}}{8}{table.2}\protected@file@percent }
+\newlabel{tab:settings}{{2}{8}{External experiment settings. Paths identify computational repetitions, not additional networks}{table.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Randomization, execution and reproducibility}{8}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Results}{9}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}An apparent budget reversal depends on ranking precision}{9}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Changing the reference set does not determine the spread change}{9}{subsection.5.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Selection budget and ranking precision have distinct effects on candidate-restriction quality. At each $W$, restricted methods are compared with the full reference selected at that same $W$; evaluation uses fixed independent worlds. Points are mean incremental losses over five paired paths; bars are path standard deviations. The plotted labels Default and Strict denote tolerances $10^{-6}$ and $10^{-12}$; candidate membership is unchanged between $10^{-12}$ and $10^{-14}$. Negative loss favors the restricted set. The ca-GrQc default reversal disappears with the tighter PageRank tolerance, while the directed-network losses persist. This is a post-hoc paired sensitivity analysis.}}{10}{figure.2}\protected@file@percent }
+\newlabel{fig:precision-budget}{{2}{10}{Selection budget and ranking precision have distinct effects on candidate-restriction quality. At each $W$, restricted methods are compared with the full reference selected at that same $W$; evaluation uses fixed independent worlds. Points are mean incremental losses over five paired paths; bars are path standard deviations. The plotted labels Default and Strict denote tolerances $10^{-6}$ and $10^{-12}$; candidate membership is unchanged between $10^{-12}$ and $10^{-14}$. Negative loss favors the restricted set. The ca-GrQc default reversal disappears with the tighter PageRank tolerance, while the directed-network losses persist. This is a post-hoc paired sensitivity analysis}{figure.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Ranking agreement depends on coverage and network context}{10}{subsection.5.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Reference-set changes and independent spread changes, defined as higher-budget minus lower-budget full-reference spread. Filled circles denote changed final sets; hollow squares denote unchanged sets. Paths 1101--1105 run from left to right within each graph. Bars are unadjusted 95\% conditional Monte Carlo intervals from 10,000 paired worlds. Panel-specific vertical scales reveal small changes; the intervals condition on selected sets and do not describe variation across networks.}}{11}{figure.3}\protected@file@percent }
+\newlabel{fig:transitions}{{3}{11}{Reference-set changes and independent spread changes, defined as higher-budget minus lower-budget full-reference spread. Filled circles denote changed final sets; hollow squares denote unchanged sets. Paths 1101--1105 run from left to right within each graph. Bars are unadjusted 95\% conditional Monte Carlo intervals from 10,000 paired worlds. Panel-specific vertical scales reveal small changes; the intervals condition on selected sets and do not describe variation across networks}{figure.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces External results at $W=1280$ (five paths). Degree-4k and PageRank-4k (PR) use 20-node pools; PR uses default tolerance. Full incremental spread is total spread minus $k=5$. PR gap is restricted minus full mean spread; loss is relative to full incremental spread. Degree agreement counts identical ordered trajectories.}}{12}{table.3}\protected@file@percent }
+\newlabel{tab:primary}{{3}{12}{External results at $W=1280$ (five paths). Degree-4k and PageRank-4k (PR) use 20-node pools; PR uses default tolerance. Full incremental spread is total spread minus $k=5$. PR gap is restricted minus full mean spread; loss is relative to full incremental spread. Degree agreement counts identical ordered trajectories}{table.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Reference-preserving savings under specified timing scopes}{12}{subsection.5.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Degree-4k cost at $W=1280$, averaged over five paths. Full and Degree columns give measured selection time. The final column estimates savings including setup, preparation of selection and evaluation worlds, selection and independent evaluation. These assembled warm-process costs exclude imports, JIT compilation, downloads and output writing; they are not direct end-to-end timings.}}{12}{table.4}\protected@file@percent }
+\newlabel{tab:cost}{{4}{12}{Degree-4k cost at $W=1280$, averaged over five paths. Full and Degree columns give measured selection time. The final column estimates savings including setup, preparation of selection and evaluation worlds, selection and independent evaluation. These assembled warm-process costs exclude imports, JIT compilation, downloads and output writing; they are not direct end-to-end timings}{table.4}{}}
+\citation{ref8}
+\citation{ref1}
+\citation{ref16}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Parameter and coupling controls delimit the findings}{13}{subsection.5.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Discussion}{13}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Interpretation and limits of reference-budget effects}{13}{subsection.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}From seed agreement to a quality--cost judgment}{13}{subsection.6.2}\protected@file@percent }
+\citation{ref15}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Network direction and transfer of ranking results}{14}{subsection.6.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}Scope, limitations and next tests}{14}{subsection.6.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Next tests.}{15}{section*.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion}{15}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Supplementary information.}{15}{section*.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Funding.}{15}{section*.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Competing interests.}{15}{section*.8}\protected@file@percent }
+\bibcite{ref1}{{1}{}{{}}{{}}}
+\bibcite{ref7}{{2}{}{{}}{{}}}
+\bibcite{ref8}{{3}{}{{}}{{}}}
+\bibcite{ref2}{{4}{}{{}}{{}}}
+\bibcite{ref12}{{5}{}{{}}{{}}}
+\bibcite{ref13}{{6}{}{{}}{{}}}
+\bibcite{ref19}{{7}{}{{}}{{}}}
+\bibcite{ref9}{{8}{}{{}}{{}}}
+\bibcite{ref16}{{9}{}{{}}{{}}}
+\bibcite{ref11}{{10}{}{{}}{{}}}
+\@writefile{toc}{\contentsline {paragraph}{Author contributions.}{16}{section*.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Data availability.}{16}{section*.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Code availability.}{16}{section*.11}\protected@file@percent }
+\bibcite{ref15}{{11}{}{{}}{{}}}
+\bibcite{networkxpr}{{12}{}{{}}{{}}}
+\bibcite{snap}{{13}{}{{}}{{}}}
+\bibcite{college}{{14}{}{{}}{{}}}
+\bibcite{grqc}{{15}{}{{}}{{}}}
+\bibcite{signed}{{16}{}{{}}{{}}}
+\bibcite{links}{{17}{}{{}}{{}}}
+\bibcite{ref3}{{18}{}{{}}{{}}}
+\bibcite{ref4}{{19}{}{{}}{{}}}
+\bibcite{ref5}{{20}{}{{}}{{}}}
+\bibcite{ref6}{{21}{}{{}}{{}}}
+\bibcite{ref17}{{22}{}{{}}{{}}}
+\bibcite{ref18}{{23}{}{{}}{{}}}
+\providecommand\NAT@force@numbers{}\NAT@force@numbers
+\gdef \@abspage@last{17}

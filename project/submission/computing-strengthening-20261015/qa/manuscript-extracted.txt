@@ -1,0 +1,702 @@
+Computing manuscript No.
+(will be inserted by the editor)
+Selection Resolution, Random-World Coupling, and Utility
+in Candidate-Restricted Influence Maximization
+Jiayue Sun·Binbin Yong·Junjie An·
+Tianyu Bo·Shuai Li
+AbstractCandidate restriction can accelerate greedy influence maximization, but its
+evaluation depends on the finite simulation reference. We examine selection resolu-
+tion, random-world coupling, independently evaluated utility and attributable com-
+putation cost in a common protocol. An archived experiment on four contact-derived
+networks is extended by 520 conditions and 4,680 arm executions, using ten random
+paths per real network, selection budgets up to 5,120 worlds and 10,000 disjoint eval-
+uation worlds. Controls include alternative candidate rankings, propagation parame-
+ters, fixed-edge coupling and two synthetic 2,000-node instances. Between 1,280 and
+5,120 selection worlds, 16 of 40 full-greedy final sets changed, while average inde-
+pendent spread increased by 0.011 nodes. At the highest budget, weighted-degree 4k
+pools had network-specific mean spread differences ranging from -0.610 to -0.005
+activated nodes relative to full greedy. Topology-degree and PageRank 4k pools re-
+produced 39/40 and 40/40 ordered references, respectively, showing that weighted-
+degree losses do not characterize all restrictions. A three-node counterexample shows
+that step-indexed shared randomness need not produce a monotone finite-world ob-
+jective, motivating an explicit coupling control. The results separate decision repro-
+duction from utility and expose the dependence of cost-quality interpretations on
+coverage, ranking and timing scope. The supplied tolerance curves are descriptive;
+they do not establish practical equivalence, convergence to expected-influence greedy
+selection or generality beyond the tested simulated settings.
+Keywordsinfluence maximization·Monte Carlo simulation·candidate restriction·
+reproducibility·network optimization
+Jiayue Sun
+School of Artificial Intelligence, Lanzhou University, Lanzhou 730000, China
+Binbin Yong (corresponding author)
+School of Information Science and Engineering, Lanzhou University, Lanzhou 730000, China
+E-mail: yongbb14@lzu.edu.cn
+Junjie An, Tianyu Bo and Shuai Li
+Lanzhou University, Lanzhou, China
+2 Jiayue Sun et al.
+1 Introduction
+Influence maximization selects a small seed set to increase the expected reach of a
+stochastic diffusion process [1]. On a fixed graph, practical implementations must
+decide both which nodes to consider and how accurately to evaluate them. Candi-
+date restriction reduces the search space, while Monte Carlo sampling approximates
+spread. These choices interact: a restricted method is often compared with a full-
+candidate greedy run whose own decisions depend on a finite simulation sample.
+An identical seed sequence can establish reproduction of a named computational
+reference, but cannot by itself establish preservation of expected spread. Conversely,
+two different sequences can have similar independent utility. This distinction be-
+comes consequential when changing the simulation budget changes the full reference,
+or when a nominally restricted candidate pool already contains every vertex. A cost
+comparison is also incomplete unless it specifies whether ranking, world preparation,
+optimization and evaluation are included.
+The broader influence-maximization literature already addresses sampling accu-
+racy, computational efficiency and benchmarking [2, 8–10, 16]. We therefore do not
+present sample sensitivity as a new general discovery. Our question is narrower: how
+should candidate restriction be evaluated when the reference, shared random worlds
+and practical loss criterion are all implementation choices? We examine member-
+ship, independent utility and measured cost together, rather than treating any one as
+a surrogate for the others.
+An initial four-network experiment motivated this study. We preserve that ex-
+periment and distinguish it from a prospectively specified extension with additional
+paths, higher budgets, alternative rankings, propagation parameters and a random-
+world coupling control. The extension reuses the four observed contact topologies
+and adds two explicitly synthetic structural instances. It does not supply new ob-
+served information cascades or a random sample of real-world networks.
+The contribution is an auditable evaluation of this joint decision problem. First,
+we separate seed-set instability from independently measured utility under nested
+selection budgets. Second, we examine whether the findings depend on historical
+contact weights, candidate coverage or random-world coupling. Third, we provide
+loss-tolerance and cost descriptions with path variability and reproducible records.
+The implementation is exhaustive per-round greedy enumeration, accelerated without
+pruning. No new approximation guarantee, universal candidate threshold or learned
+ranking advantage is claimed.
+2 Related work
+Optimization and sampling.The classical formulation relates seed selection to ex-
+pected diffusion and establishes approximation results under appropriate model as-
+sumptions [1]. CELF avoids redundant marginal evaluations by exploiting objective
+structure [7]. StaticGreedy reuses sampled realizations to retain the structure of a
+finite sampled objective [8]. IMM uses a different sampling design and algorithm-
+specific statistical guarantees [2]. These methods address computational efficiency
+Selection resolution, coupling and utility 3
+Table 1Positioning by the question addressed, rather than by a claim that earlier work omitted every
+diagnostic.
+Work or approach Principal role relative to this study
+Classical greedy [1] Expected-spread formulation and objective-dependent approximation frame-
+work
+CELF [7] Avoiding redundant evaluations when the required objective structure holds
+StaticGreedy [8] Consistent sampled realizations and scalable optimization
+IMM [2] A different sampling and guarantee framework
+Benchmarking [16] Comparative implementation and performance evaluation
+Present study Candidate eligibility, reference resolution, coupling, independent utility and
+attributable costs on a specified matrix
+and accuracy; their guarantees must not be transferred to a different finite-world im-
+plementation without checking its assumptions.
+Our reference enumerates every eligible node at every greedy round. It does not
+enumerate all size-ksets and is not an exact expected-influence optimum. In addition,
+the original simulator shares random draws by edge and propagation step. This cou-
+pling can differ from fixing one live-edge graph per world, even when the marginal
+diffusion law for a fixed seed set is the intended independent-cascade law. Section 3.2
+makes this implementation distinction explicit and supplies a fixed-edge control.
+Candidate selection and learning.Candidate sets can be selected using local struc-
+ture. Published approaches include the neighbour scale fixed method and discrete
+Harris hawks optimization [12, 13]. Learning-based approaches add training, repre-
+sentation and tuning choices [10, 14]. We compare simple rankings with matched
+candidate counts to isolate the role of candidate eligibility. This does not rank those
+published algorithms against each other, and it does not validate a graph neural net-
+work selector.
+Recent inductive influence estimation, exemplified by MONSTOR+, replaces re-
+peated simulation with learned predictions on unseen graphs under IC and LT models
+[19]. That approach changes the spread estimator. Our controls retain the simulator
+and vary seed eligibility and reference resolution, addressing a complementary eval-
+uation question without claiming superiority over a trained estimator.
+Diffusion and evaluation.Temporal influence maximization explicitly models evolv-
+ing interactions [11]; aggregating a historical contact window does not do so. Like-
+wise, observed proximity does not identify an empirical information-influence model
+[15]. Our contact records supply topology only. Benchmarking studies have high-
+lighted the importance of comparable implementations and evaluation settings [16].
+The associated methodological debate further motivates explicit cost and quality def-
+initions, but we do not adopt disputed algorithm rankings. Table 1 states the narrower
+role of the present study.
+4 Jiayue Sun et al.
+3 Methods
+3.1 Task and finite-world reference
+LetG= (V,E)be a directed graph,kthe seed budget andhthe propagation horizon.
+A seed is active initially. Each newly activated node has one opportunity to activate
+each inactive outgoing neighbour with probabilityp, and activation is propagated for
+at mosthrounds. The total spreadf h(S;ω)includes the seeds. The selection objective
+for a fixed list ofWworlds is
+bσW,h(S) = 1
+W
+W
+∑
+i=1
+fh(S;ω i).(1)
+Full greedy scansV\Sat every round. Restricted greedy scansC\S, with a fixed pool
+C⊆V. Both choose the largest empirical objective after adding a node and break ties
+by lexicographic node ID. Nodes outsideCremain in the propagation graph.
+We denote the ordered trace byTW (C)and its final set byS W (C). Ordered agree-
+ment, unordered agreement and set Jaccard overlap are reported separately. A pool
+with|C|=|V|is a full-search consistency control. Its agreement does not demonstrate
+effective restriction.
+3.2 Random-world coupling and its boundary
+The original implementation maps a world ID, step and directed endpoint codes to a
+reproducible 53-bit uniform variate using fixed 64-bit mixing operations. We call this
+step coupling. The same key always supplies the same value, regardless of candidate
+pool or execution order. Smaller selection budgets are prefixes of larger budgets. This
+construction is a reproducible pseudorandom scheme, not a proof of independence of
+all hash outputs.
+Step coupling does not imply that each fixed-world objective is monotone. Con-
+sider the directed chaina→b→cwith two propagation rounds. Supposea→bis
+open at step zero,b→cis closed at step zero and open at step one. Starting from{a}
+reaches all three nodes, whereas starting from{a,b}reaches only two:battempts
+transmission earlier. Thus, for this world,
+{a} ⊂ {a,b},f 2({a};ω) =3>2=f 2({a,b};ω).(2)
+The archived hash realizes this example at world ID 5,p=0.5 and endpoint codes
+0,1,2. This is a finite-objective counterexample, not evidence that the intended IC
+marginal distribution is incorrect. It prevents importing a monotonicity or submodu-
+larity guarantee into this sampled objective without further work.
+Ourfixed-edge couplingcontrol uses the step-zero variate for each edge through-
+out a world. Spread then equals the union of nodes reachable withinhlive-edge hops
+from each seed, a coverage objective. With independent edge draws, both couplings
+implement the same finite-horizon IC marginal law for a fixedS, but couple differ-
+ent seed sets differently. The empirical comparison keeps the coupling label explicit.
+Both implementations use full enumeration; no lazy-forward assumption is needed.
+Selection resolution, coupling and utility 5
+3.3 Independent utility and path uncertainty
+For selected sets, a separate evaluation streamEgives the paired difference
+b∆W (C) = 1
+M
+M
+∑
+i=1
+[f h(SW (C);ηi)−f h(SW (V);η i)].(3)
+The same evaluation worlds are shared across arms and selection budgets within each
+network/path. We retain all per-world counts. The paired Monte Carlo standard er-
+ror iss d/
+√
+M, conditional on the chosen sets, graph and simulator. Identical sets
+have identically zero paired differences. These conditional intervals do not measure
+selection-path variability.
+We also report incremental spreadbσ−k. Relative incremental loss is− b∆/( bσfull −
+k)when the denominator is positive. Total-spread normalization alone can obscure
+a loss relative to the additional activations generated beyond the seeds. We do not
+assign an acceptable loss for a real application. We describe paths at six illustrative
+loss thresholds: 0, 1, 2.5, 5, 10 and 20 percent. These descriptions do not constitute
+equivalence or noninferiority tests.
+For each fixed network and setting, the extension reports means, sample standard
+deviations and percentile bootstrap intervals from 10,000 resamples of the path-level
+observations. The ten paths are computational replicates, not independent networks.
+The three random pools are averaged within each path before these summaries. Con-
+ditional MC intervals and across-path bootstrap intervals are labelled separately; ten
+paths give limited precision for tail behaviour.
+The prespecified primary testing family contains six candidate types versus full
+greedy on four real networks atk=5,W=5120,p=0.01,h=3 under step cou-
+pling. We use two-sided exact sign tests for positive/negative balance across paths,
+drop and report exact zeros, and apply Holm correction over all 24 contrasts. These
+tests concern the direction of conditional path differences, not a test of a mean effect
+or a population of networks. All contrasts and effect sizes are provided, including
+nonsignificant ones.
+3.4 Implementation and timing
+The new engine compiles exhaustive simulations on compressed sparse row graphs
+with Numba. It preserves the archived hash and tie policy. Integer total spread de-
+termines candidate order; at the testedW≤5120, the smallest nonzero mean differ-
+ence exceeds 10−6, so this agrees with the archived micro-unit rounding. Audit tests
+compare the original Python simulator with the new implementation and compare
+fixed-edge outcomes with an independent shortest-path oracle.
+World states are materialized once per condition and shared by all arms. We
+separately record graph preparation, ranking, shared world preparation, selection
+and evaluation. Selection-time savings describe an online scenario with prepared
+graph and worlds. The attributed full-pipeline cost charges each arm the common
+6 Jiayue Sun et al.
+graph/world preparation plus its own ranking, selection and evaluation. This attribu-
+tion describes a standalone use of an arm; it is not the elapsed time of executing all
+arms together.
+Arms execute serially in a deterministic randomized order. Five additional ran-
+domized timing repetitions per real graph usek=5,W=320, path 1001 and the pri-
+mary propagation setting. Compilation is warmed and excluded from these timings,
+with compilation overhead recorded separately. The original Python timings and new
+compiled timings are not pooled or used as an algorithmic speed comparison.
+4 Experimental design
+4.1 Observed topologies and synthetic controls
+The observed topologies derive from the 2013 and 2015 InVS workplace contacts,
+SFHH 2009 conference contacts and 2012 Kenyan household contacts [3–6]. Each
+undirected event becomes two directed events. The first 65% of complete timestamp
+groups are retained, self-loops are removed and repeated endpoints collapse for diffu-
+sion. Historical outgoing event counts determine weighted degree; because contacts
+are bidirectional, this ranks incident contact frequency. Diffusion uses a uniform edge
+probability rather than contact-frequency probabilities.
+The resulting graphs have 91, 212, 402 and 75 vertices, respectively. Their di-
+rected edge counts are 1,238, 6,938, 11,856 and 1,044. They contain observed con-
+tacts, not observed information cascades. The unused later contacts are not a held-out
+cascade test set.
+Two synthetic graphs have 2,000 nodes each. One uses preferential attachment
+with parameter 3 and follows the model of Barabasi and Albert [17]. The other is
+a stochastic block model [18]. It has four equal blocks of 500 nodes, with edge
+probabilities of 0.012 within a block and 0.0005 across blocks. The random seed
+is 20261015 for both. We convert each undirected edge to two directed edges. These
+are fixed synthetic instances, not empirical datasets. Their event weights are unity, so
+weighted and unweighted degree coincide by construction.
+4.2 Historical evidence and prospective extension
+The original frozen experiment contained 42 conditions and 168 arm executions:
+seven network/ksettings, two paths, three nested budgets and four arms. The two
+path IDs were 301 and 302,W∈ {20,80,320},p=0.01,h=3, andM=2000. That
+experiment is retained as historical evidence. Final-set and conditional-uncertainty
+diagnostics were added after its outcomes were inspected.
+The extension protocol was frozen after reviewing the original study and running
+outcome-blind resource timings. It is therefore a prospective computational extension
+on known networks, not a preregistered replication on unseen datasets. Ten new path
+IDs, 1001–1010, are used for the real networks, and the first five for each synthetic
+instance. Evaluation usesM=10,000 disjoint worlds per path. Selection/evaluation
+Selection resolution, coupling and utility 7
+Table 2Prospectively specified extension. All arms share each condition. The rows define 520 unique
+conditions.
+Component Settings Conditions
+Resolution Four real graphs;k=5; ten paths;W=20,80,320,1280,5120 200
+Seed budget InVS 2013/2015 and Kenya;k=20; ten paths;W=320,1280 60
+Parameters Four real graphs;k=5,W=320; ten paths;(p,h) =
+(.005,3),(.05,3),(.01,1),(.01,5)
+160
+Coupling Four real graphs; fixed-edge coupling;k=5; ten paths;W=
+320,1280
+80
+Scale/structure Two synthetic graphs;k=5; five paths;W=80,320 20
+namespaces, prefixes and 907,200 distinct used or reserved world IDs were checked
+before execution for collisions.
+Unless varied in Table 2, settings arep=0.01,h=3 and step coupling. Each con-
+dition includes full greedy, weighted-degree 2k/4k/8k, unweighted topology-degree
+4k, unweighted PageRank 4k, and three random 4kpools. Pool sizes are capped
+at|V|. Random pool identities are independently generated by repeat within net-
+work/path and held fixed across budgets and propagation settings. PageRank uses the
+unweighted directed topology and the implementation’s standard damping parameter
+0.85. No selector is tuned on the evaluation outcomes.
+5 Results
+5.1 Implementation validation and evidence continuity
+All 42 archived output hashes matched the historical validation ledger. The accel-
+erated engine reproduced 32 archived arm traces and all 64,000 corresponding per-
+world evaluation values exactly. Boundary checks covered empty seed sets, zero and
+unit transmission probability, and horizons zero through three. Additional cyclic-
+graph checks matched the original simulator, while fixed-edge results matched an
+independent shortest-path reachability oracle. These checks support semantic conti-
+nuity rather than a new algorithm claim.
+The original experiment changed all 14 full-greedy final sets at each adjacent
+transition, 20 to 80 and 80 to 320 worlds. Its weighted 2k, 4kand 8kpools matched
+0/42, 12/42 and 18/42 ordered traces; after excluding full-pool controls, the respective
+counts were 0/42, 6/36 and 6/30. These historical counts are not combined with new
+paths as independent replications.
+The extension completed all 520 specified conditions and 4,680 arm executions,
+retaining 46,800,000 evaluation counts. Source and result hashes, per-round greedy
+choices, full-pool consistency and paired statistics passed the independent output val-
+idator. Total serial execution lasted 32.7 minutes; the recorded peak process working
+set was 780 MiB. The machine had 20 physical CPU cores and approximately 32 GiB
+RAM, but experiment computation used one worker. Python 3.13.0, NumPy 2.3.3 and
+Numba 0.68.0 were used.
+8 Jiayue Sun et al.
+Table 3Full-reference utility and final membership. Incremental spread averages ten paths. Last-column
+differences compare 5,120 with 1,280 worlds on paired independent evaluations; small means are not
+equivalence tests.
+Network Inc.W=20 Inc.W=5120 Same set Last∆
+invs2013 1.126 1.566 9/10 0.005
+invs2015 3.641 4.552 5/10 0.025
+kenya2012 0.942 1.146 0/10 0.015
+sfhh2009 7.789 8.888 10/10 0.000
+5.2 Membership and utility under higher selection resolution
+At the 20 to 80 transition, 40/40 final sets changed; mean Jaccard overlap was 0.276.
+At the 80 to 320 transition, 37/40 final sets changed; mean Jaccard overlap was 0.400.
+At the 320 to 1,280 transition, 34/40 final sets changed; mean Jaccard overlap was
+0.586. At the 1,280 to 5,120 transition, 16/40 final sets changed; mean Jaccard overlap
+was 0.789. These summaries describe forty network/path blocks, not forty indepen-
+dently collected networks. Figure 1 juxtaposes membership changes with indepen-
+dently evaluated incremental spread.
+The last two budgets therefore provide a direct check on the practical interpreta-
+tion of changed membership. Membership changes and small average utility changes
+do not resolve whether greedy selection has converged for the expected objective.
+Individual path differences and conditional Monte Carlo intervals are retained in the
+source tables described in Online Resource 1. Across these forty blocks, the last tran-
+sition increased independent spread by 0.0111 nodes on average. Kenya changed all
+ten final sets whereas SFHH changed none. Thus the remaining membership insta-
+bility was strongly network-dependent and did not imply a comparably large mean
+utility change.
+5.3 Candidate rankings and practical loss
+AtW=5120, weighted-degree 4kpools had the following mean paired spread differ-
+ences (candidate minus full): invs2013: -0.064, invs2015: -0.202, kenya2012: -0.005,
+sfhh2009: -0.610. Figure 2 reports all six candidate types and the across-path inter-
+vals, rather than selecting the best pool for each graph.
+In contrast, topology-degree and PageRank 4kpools reproduced 39/40 and 40/40
+ordered full references, respectively. These were genuine restrictions: their twenty
+eligible nodes represented 5.0–26.7% of each graph. PageRank therefore had exactly
+zero paired differences at this setting; degree differed only on one Kenya path, with a
+slightly higher independently estimated spread. These observations do not establish
+a universal ranking advantage or future-path equivalence.
+Weighted 4khad positive mean differences against the low-budget full reference
+on all four graphs, but negative means against the highest-budget reference (Table 4).
+The reference quality therefore changes the apparent utility conclusion, not only the
+trace-match count. Topology degree also gained relative to the low-budget reference,
+Selection resolution, coupling and utility 9
+20 80 320 1280 5120
+Selection worlds W
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0Adjacent-budget Jaccard overlap
+a  Reference membership
+invs2013
+invs2015
+kenya2012
+sfhh2009
+20 80 320 1280 5120
+Selection worlds W
+1
+2
+3
+4
+5
+6
+7
+8
+9Full greedy: incremental spread
+b  Independent utility
+Fig. 1Reference membership and independent utility on four real networks (k=5,p=0.01,h=3, step
+coupling). (a) Thin lines show all ten path trajectories per network; thick lines show mean adjacent-budget
+Jaccard overlap. (b) Mean full-greedy incremental spread with 95% percentile bootstrap intervals over ten
+paths. Evaluation uses 10,000 disjoint worlds per path. Intervals concern computational paths on fixed
+graphs; they are not population-network intervals. Colours and marker shapes identify networks
+while largely reproducing it at high resolution. This pattern is consistent with a re-
+duced candidate space limiting noisy low-budget choices, but the present contrasts
+do not isolate that causal mechanism.
+In the 24-contrast primary sign-test family, 14 contrasts survived Holm correction
+at 0.05 (14 with negative and 0 with positive mean differences). The exact tests assess
+positive/negative balance after dropping zero path differences; they do not test mean
+10 Jiayue Sun et al.
+Table 4Mean candidate-minus-full spread changes with reference resolution. W4 and D4 denote
+weighted-degree and topology-degree 4kpools. Each entry averages ten paired path comparisons; signs of
+means are descriptive, not separate significance claims.
+Network W4: 20 W4: 5120 D4: 20 D4: 5120
+invs2013 0.128 -0.064 0.215 0.000
+invs2015 0.364 -0.202 0.539 0.000
+kenya2012 0.126 -0.005 0.127 0.001
+sfhh2009 0.006 -0.610 0.222 0.000
+equivalence. All unadjusted and adjusted values, zero counts and activated-node ef-
+fect sizes are supplied in Online Resource 1.
+At matched 4kcoverage, the topology-degree and historical-weighted-degree re-
+sults can be compared without changing candidate count. Their differences concern
+the simulator’s use of distinct edges rather than event-frequency edge probabilities.
+Random-pool repetitions are averaged within path and do not triple the inferential
+sample size.
+5.4 Time savings and loss tolerance
+For weighted 4kat the primary budget, mean selection-time savings were invs2013:
+79.3%, invs2015: 91.2%, kenya2012: 74.9%, sfhh2009: 95.2%. These percentages
+exclude shared world preparation. The attributed full-pipeline savings, which include
+preparation and final evaluation, are reported separately in the source tables.
+PageRank 4k, which reproduced all forty primary references, saved 73.9–94.9%
+of selection time across network means; after charging shared preparation and evalu-
+ation, savings were 58.0–83.8%. These are observed cost advantages for this setting,
+not a guarantee at other budgets or on unseen graphs.
+At a loss tolerance of 5%, the point estimates met the threshold for 10/10 paths on
+invs2013, 7/10 paths on invs2015, 10/10 paths on kenya2012, 0/10 paths on sfhh2009.
+This is a description of point estimates at one chosen grid value, not evidence that 5%
+is an acceptable application loss or a successful noninferiority test. Figure 3 shows
+the entire prespecified tolerance grid.
+5.5 Propagation, coupling and structural sensitivity
+The predefined parameter and coupling controls extend the primary setting without
+changing the candidate rankings. Table 5 gives the weighted 4kcomparison at rep-
+resentative predefined conditions; Figure 4 shows all five propagation settings, both
+couplings and both synthetic instances for its designated panels.
+These contrasts identify sensitivity within the specified grid. They do not estab-
+lish that one coupling estimates real diffusion more accurately. The two synthetic in-
+stances contain 2,000 nodes each, but have only one generated topology of each type.
+Their five paths measure computational variability on that topology; their agreement
+Selection resolution, coupling and utility 11
+−0.40 −0.35 −0.30 −0.25 −0.20 −0.15 −0.10 −0.05 0.00
+Weighted 2k
+Weighted 4k
+Weighted 8k
+Degree 4k
+PageRank 4k
+Random 4k
+invs2013
+−1.0 −0.8 −0.6 −0.4 −0.2 0.0
+Weighted 2k
+Weighted 4k
+Weighted 8k
+Degree 4k
+PageRank 4k
+Random 4k
+invs2015
+−0.10 −0.08 −0.06 −0.04 −0.02 0.00
+Weighted 2k
+Weighted 4k
+Weighted 8k
+Degree 4k
+PageRank 4k
+Random 4k
+kenya2012
+−4 −3 −2 −1 0
+Candidate minus full spread (activated nodes)
+Weighted 2k
+Weighted 4k
+Weighted 8k
+Degree 4k
+PageRank 4k
+Random 4k
+sfhh2009
+Fig. 2Primary candidate-minus-full spread differences atW=5120,k=5,p=0.01,h=3 under step
+coupling. Points are means of ten path-level differences; horizontal segments are 95% percentile bootstrap
+intervals using 10,000 path resamples. Random 4kaverages three pools within each path. All six candidate
+types are shown. Horizontal scales differ by network to retain small effects. Zero denotes the full reference,
+not an equivalence boundary
+12 Jiayue Sun et al.
+75 80 85 90 95
+Selection time saved (%)
+0
+1
+2
+3
+4
+5
+6
+7Incremental spread loss (%)
+a  Weighted 4k: all ten paths per network
+invs2013
+invs2015
+kenya2012
+sfhh2009
+0.0 2.5 5.0 7.5 10.0 12.5 15.0 17.5 20.0
+Illustrative tolerated incremental loss (%)
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0Fraction of paths meeting tolerance
+b  Descriptive tolerance sensitivity
+Fig. 3Cost and descriptive tolerance for the prespecified weighted 4kdiagnostic atW=5120. (a) Every
+one of ten paths per real network is shown; the horizontal axis is selection-only time saving, and the vertical
+axis is loss relative to full incremental spread. Negative loss denotes a higher candidate estimate. (b)
+Fraction of paths whose point estimate meets each illustrative tolerance. These are fixed-grid descriptions
+with a point-estimate denominator, not inferential preservation decisions. All other candidate types remain
+in the source tables
+Selection resolution, coupling and utility 13
+Table 5Mean weighted 4kminus full spread differences. First two columns vary transmission probability
+atW=320,h=3; last two compare couplings atW=1280,p=0.01,h=3. Ten paths per cell.
+Networkp=.005p=.05 Step Fixed edge
+invs2013 0.004 -0.513 -0.065 -0.061
+invs2015 -0.019 -1.526 -0.205 -0.206
+kenya2012 0.016 0.079 0.001 0.002
+sfhh2009 -0.228 -4.983 -0.630 -0.616
+cannot substitute for additional real-network evidence. Thek=20 results similarly
+retain saturated pools as controls and are tabulated separately.
+5.6 Repeated timing
+The five additional repetitions per real graph and arm produced 180 timing obser-
+vations. Selected sets and all evaluated spreads were unchanged within those repe-
+titions. Figure 5 separates selection and evaluation. Repetition measures execution
+variability in the compiled implementation; it does not increase the number of in-
+dependent utility observations. Common world preparation and graph preparation
+remain outside the stacked bars and inside the separately reported full-pipeline attri-
+bution.
+14 Jiayue Sun et al.
+.005 / 3 .01 / 1 .01 / 3 .01 / 5 .05 / 3
+Transmission p / horizon h
+−2.5
+0.0
+2.5
+5.0
+Incremental loss (%)
+a  Weighted 4k, W = 320
+Step coupling Fixed-edge coupling
+0
+2
+4
+6Incremental loss (%)
+b  Weighted 4k, W = 1280
+W2k W4k W8k D4k PR4k R4k
+0
+25
+50
+75Incremental loss (%)
+c  Two synthetic 2,000-node instances, W = 320
+ba2000
+sbm2000
+invs2013
+invs2015
+kenya2012
+sfhh2009
+Fig. 4Predefined sensitivity panels. (a) Weighted 4kmean incremental loss across ten paths atW=320
+for all five(p,h)settings, including the primary setting. (b) The same candidate type under step and fixed-
+edge coupling atW=1280. (c) All six candidate types on two explicitly synthetic 2,000-node instances
+atW=320, five paths each; W/D/PR/R denote weighted degree, degree, PageRank and random. Lines
+connect tested settings without implying interpolation. These panels are descriptive means; all path values
+and uncertainty summaries are supplied as source data
+Selection resolution, coupling and utility 15
+Full W2 W4 W8 D4 PR4 R0 R1 R2
+0.00
+0.05Seconds
+invs2013
+Selection Evaluation
+Full W2 W4 W8 D4 PR4 R0 R1 R2
+0.0
+0.2
+0.4Seconds
+invs2015
+Full W2 W4 W8 D4 PR4 R0 R1 R2
+0.000
+0.025
+0.050Seconds
+kenya2012
+Full W2 W4 W8 D4 PR4 R0 R1 R2
+Candidate arm (k = 5, W = 320)
+0.0
+0.5Seconds
+sfhh2009
+Fig. 5Repeated timing atk=5,W=320, path 1001,p=0.01,h=3, step coupling. Bars stack the
+median selection and evaluation times over five additional randomized serial repetitions; dots show each
+repetition’s total of those phases. Full and all eight restricted executions are retained. W2/W4/W8 denote
+weighted pools; D4 and PR4 denote topology-degree and PageRank; R0–R2 are separate random pools.
+Shared preprocessing and JIT compilation are excluded from this figure and reported separately
+16 Jiayue Sun et al.
+6 Discussion
+The practical interpretation of candidate restriction depends on which quantity is to
+be preserved. Exact trace reproduction is a statement about a particular finite compu-
+tation. Independent spread is a property of its selected set under a specified diffusion
+model. Cost is a property of an implementation and a timing scope. A decision to
+restrict candidates requires all three to be visible, together with the application’s loss
+tolerance.
+Reference instability is therefore a diagnostic rather than a sufficient failure cri-
+terion. If selected sets change while independent utility changes little, the algorithm
+may be moving among similarly useful sets. If utility changes appreciably, a low-
+resolution reference can alter the apparent quality of a candidate pool. The path-level
+outputs permit these possibilities to be distinguished instead of interpreting any mis-
+match as a practically important loss.
+The extension narrows the interpretation of the original low-budget findings. Full-
+reference utility changes diminished at higher budgets even where membership still
+changed. Weighted-degree pools shifted from positive average differences against
+the lowest-budget reference to negative differences against the highest-budget refer-
+ence. At that highest budget, however, topology-degree and PageRank restrictions al-
+most always or always reproduced the full trace. Thus the observed weighted-degree
+loss cannot characterize candidate restriction in general. The distinction between
+repeated-contact weights and distinct-neighbour topology is consequential under the
+uniform-probability simulator.
+The coupling audit adds a separate qualification. Consistently reusing random
+numbers is not by itself a guarantee that the finite objective has the same structure as
+a fixed-live-edge coverage objective. The explicit chain counterexample isolates this
+issue without relying on a correlation between ties and changed traces. The fixed-
+edge control tests sensitivity to the choice; it does not turn the study into a comparison
+against StaticGreedy or invalidate guarantees proved for that method’s own objective.
+The ranking result depends on model assumptions. Contact frequency prioritizes
+repeated encounters. Uniform-probability diffusion on an aggregated graph instead
+depends on distinct neighbours and their connectivity. Comparing the two degree
+rankings separates this mismatch from candidate count. It remains a comparison
+within the simulator, not evidence that contact frequency is generally uninformative
+in real diffusion.
+For reuse, we recommend reporting the actual candidate fraction; the named se-
+lection budget and coupling; within-path reference transitions and across-path vari-
+ability; independent total and incremental spread; and separately attributable costs.
+A full-pool match should be identified as a control. Any practical preservation claim
+additionally needs a defensible, prospectively fixed loss criterion and a suitable un-
+certainty analysis. A large percentage saving is insufficient if the retained incremental
+spread is unacceptable.
+The remaining limitations are material. Four small contact-derived graphs do not
+represent all social networks. Two synthetic 2,000-node instances establish feasibil-
+ity at a larger tested size but not web-scale performance or empirical generalization.
+Transmission probabilities are illustrative and have not been fitted to observed cas-
+Selection resolution, coupling and utility 17
+cades. The grids do not cover all diffusion regimes or learned selectors. Even 5,120
+selection worlds do not certify expected-objective convergence. Ten paths limit dis-
+tributional precision, while the primary sign tests address direction rather than mean
+superiority. Finally, the code-level acceleration is an implementation tool; the paper’s
+contribution remains the evaluation evidence and its interpretation.
+7 Conclusion
+Evaluating candidate-restricted influence maximization requires a named finite-world
+reference and an independent utility assessment. The extended protocol separates
+selection resolution, random-world coupling, candidate ranking and actual coverage,
+while retaining path-level outcomes and attributable costs. Its findings should be used
+to characterize conditional trade-offs, not to infer a universal candidate size or to
+equate trace agreement with utility preservation. The supplied records make these
+distinctions reproducible within the tested graphs and simulated diffusion settings.
+Supplementary information.Online Resource 1 contains implementation-audit de-
+tails, the complete primary effect and sign-test tables, round diagnostics, larger-seed-
+budget summaries and a map to the accompanying reproducibility files.
+Statements and Declarations
+Funding.This work was supported by a provincial undergraduate innovation and
+entrepreneurship training project.
+Competing interests.The preceding author draft declares no competing interests.
+Author contributions.The preceding author draft records these roles. Jiayue Sun:
+conceptualization, methodology, software, validation, analysis, investigation, cura-
+tion, visualization and original drafting. Binbin Yong: supervision, methodology,
+project administration, review and editing. Junjie An: software, curation, review and
+editing. Tianyu Bo: validation, visualization, review and editing. Shuai Li: analysis,
+validation, review and editing.
+Data availability.The provider records cited above supply the contact data. The ac-
+companying package supplies source references, hashes and preprocessing code; it
+does not redistribute the provider archives. Synthetic graphs can be regenerated from
+the documented model parameters and seed. All condition-level results and figure
+source tables accompany the reproducibility package.
+Code availability.Source snapshots, configuration, validators, analysis and plotting
+scripts are included in the accompanying reproducibility package.
+18 Jiayue Sun et al.
+Use of AI tools.OpenAI Codex assisted this revision through code development,
+implementation checks, analysis scripting, figure scripting and manuscript drafting.
+Verification, scientific interpretation and final approval remain the responsibility of
+the human authors.
+References
+1. Kempe D, Kleinberg J, Tardos É (2003) Maximizing the spread of influence
+through a social network. In: ACM SIGKDD, pp 137–146.https://doi.org/
+10.1145/956750.956769
+2. Tang Y , Shi Y , Xiao X (2015) Influence maximization in near-linear time: a mar-
+tingale approach. In: ACM SIGMOD, pp 1539–1554.https://doi.org/10.
+1145/2723372.2723734
+3. Génois M, Vestergaard CL, Fournet J, Panisson A, Bonmarin I, Barrat A (2015)
+Data on face-to-face contacts in an office building suggest a low-cost vaccination
+strategy based on community linkers. Network Science 3:326–347.https://
+doi.org/10.1017/nws.2015.10
+4. Génois M, Barrat A (2018) Can co-location be used as a proxy for face-to-
+face contacts? EPJ Data Science 7:11.https://doi.org/10.1140/epjds/
+s13688-018-0140-1
+5. Cattuto C, Van den Broeck W, Barrat A, Colizza V , Pinton J-F, Vespignani A
+(2010) Dynamics of person-to-person interactions from distributed RFID sen-
+sor networks. PLoS ONE 5:e11596.https://doi.org/10.1371/journal.
+pone.0011596
+6. Kiti MC, Tizzoni M, Kinyanjui TM, et al. (2016) Quantifying social contacts in
+a household setting of rural Kenya using wearable proximity sensors. EPJ Data
+Science 5:21.https://doi.org/10.1140/epjds/s13688-016-0084-2
+7. Leskovec J, Krause A, Guestrin C, Faloutsos C, VanBriesen J, Glance N (2007)
+Cost-effective outbreak detection in networks. In: KDD, pp 420–429.https:
+//doi.org/10.1145/1281192.1281239
+8. Cheng S, Shen H, Huang J, Zhang G, Cheng X (2013) StaticGreedy: solving the
+scalability-accuracy dilemma in influence maximization. In: CIKM, pp 509–518.
+https://doi.org/10.1145/2505515.2505541
+9. Li Y , Fan J, Wang Y , Tan K-L (2018) Influence maximization on social graphs: a
+survey. IEEE Transactions on Knowledge and Data Engineering 30:1852–1872.
+https://doi.org/10.1109/TKDE.2018.2807843
+10. Li Y , Gao H, Gao Y , Guo J, Wu W (2023) A survey on influence maximization:
+from an ML-based combinatorial optimization. ACM Transactions on Knowl-
+edge Discovery from Data 17(9):1–50.https://doi.org/10.1145/3604559
+11. Yanchenko E, Murata T, Holme P (2024) Influence maximization on tempo-
+ral networks: a review. Applied Network Science 9:16.https://doi.org/10.
+1007/s41109-024-00625-3
+12. Rui X, Yang X, Fan J, Wang Z (2020) A neighbour scale fixed approach for
+influence maximization in social networks. Computing 102:427–449.https:
+//doi.org/10.1007/s00607-019-00778-5
+Selection resolution, coupling and utility 19
+13. Fan C, Wang Z, Zhang J, Zhao J, Rui X (2024) Influence maximization in so-
+cial networks based on discrete harris hawks optimization algorithm. Computing
+106:327–351.https://doi.org/10.1007/s00607-023-01207-4
+14. You K, Liu S, Bai Y (2025) Influence maximization under imbalanced het-
+erogeneous networks via lightweight reinforcement learning with prior knowl-
+edge. Complex & Intelligent Systems 11:40.https://doi.org/10.1007/
+s40747-024-01666-y
+15. Aral S, Dhillon PS (2018) Social influence maximization under empirical in-
+fluence models. Nature Human Behaviour 2:375–382.https://doi.org/10.
+1038/s41562-018-0346-z
+16. Arora A, Galhotra S, Ranu S (2017) Debunking the myths of influence maxi-
+mization: an in-depth benchmarking study. In: SIGMOD, pp 651–666.https:
+//doi.org/10.1145/3035918.3035924
+17. Barabasi A-L, Albert R (1999) Emergence of scaling in random networks. Sci-
+ence 286:509–512.https://doi.org/10.1126/science.286.5439.509
+18. Holland PW, Laskey KB, Leinhardt S (1983) Stochastic blockmodels: first steps.
+Social Networks 5:109–137.https://doi.org/10.1016/0378-8733(83)
+90021-7
+19. Ko J, Kim S, Lee K, et al. (2025) Inductive influence estimation and
+maximization over unseen social networks under two diffusion models.
+Data Mining and Knowledge Discovery 39:55.https://doi.org/10.1007/
+s10618-025-01137-z

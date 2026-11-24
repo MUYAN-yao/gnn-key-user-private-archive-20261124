@@ -1,0 +1,1271 @@
+{
+  "blocks": [
+    {
+      "i": 0,
+      "type": "p",
+      "style": [
+        "31"
+      ],
+      "text": "Selection Resolution Changes Candidate-Truncation Conclusions in Simulated Influence Maximization",
+      "images": []
+    },
+    {
+      "i": 1,
+      "type": "p",
+      "style": [
+        "3"
+      ],
+      "text": "Abstract",
+      "images": []
+    },
+    {
+      "i": 2,
+      "type": "p",
+      "style": [],
+      "text": "Candidate restriction can reduce the cost of greedy influence maximization, but its agreement with a simulated full-search reference depends on the simulation budget used to define that reference. We introduce a selection-resolution profile that jointly reports nested simulation budgets, greedy traces, actual candidate coverage, held-out spread, and computation time. On four contact-derived networks under independent-cascade simulation, every one of 14 full-greedy traces changed when the selection budget increased from 20 to 80 and again from 80 to 320 worlds. Nominally larger pools matched more traces, although some of those arms covered every node; genuinely restricted pools did not match consistently. Restricted searches saved time but yielded held-out spread differences of both signs. The results distinguish reproduction of a finite-simulation decision from preservation of diffusion utility. Candidate-restriction studies should report the named selection budget, stability of the full reference, actual candidate coverage, independent utility, and cost. The findings are limited to the tested simulation setting and do not establish convergence to exact expected influence.",
+      "images": []
+    },
+    {
+      "i": 3,
+      "type": "p",
+      "style": [],
+      "text": "Keywords: influence maximization; Monte Carlo simulation; candidate truncation; reproducibility; network optimization",
+      "images": []
+    },
+    {
+      "i": 4,
+      "type": "p",
+      "style": [
+        "3"
+      ],
+      "text": "1 Introduction",
+      "images": []
+    },
+    {
+      "i": 5,
+      "type": "p",
+      "style": [],
+      "text": "Influence maximization asks which initial nodes should be selected to maximize expected diffusion through a network [1]. In a simulation-based implementation, answering this question involves two computational choices: which nodes to consider and how accurately to estimate their influence. Restricting the candidate pool reduces the number of alternatives evaluated at each greedy step. Increasing the number of simulated diffusion worlds refines the objective estimate. An evaluation of candidate restriction therefore depends on both the search space and the simulation budget.",
+      "images": []
+    },
+    {
+      "i": 6,
+      "type": "p",
+      "style": [],
+      "text": "The difficulty is that the full-search comparator is itself an estimated decision. Consider a restricted search that returns the same ordered seed sequence as full greedy under a small set of simulation worlds. This establishes reproduction of that particular reference. If full greedy selects a different sequence when the world set is enlarged, the original agreement does not establish agreement at the new budget. Conversely, a different sequence need not have worse independently evaluated spread. Decision reproduction and diffusion utility answer different questions.",
+      "images": []
+    },
+    {
+      "i": 7,
+      "type": "p",
+      "style": [],
+      "text": "We study this distinction for degree-based candidate restriction under the independent-cascade model. Our research question is: how does the number of selection worlds affect reference stability, candidate agreement, and the observed cost–utility trade-off? We call this number the selection resolution. Nested world sets allow us to refine resolution while retaining all earlier worlds. Separate evaluation worlds measure the spread of the resulting seed sets without reusing the worlds that selected them.",
+      "images": []
+    },
+    {
+      "i": 8,
+      "type": "p",
+      "style": [],
+      "text": "The methodological context includes the influence-maximization formulation of Kempe et al. [1] and efficient sampling-based optimization represented by Tang et al. [2]. The present experiment concerns an enumerative, finite-world greedy implementation. Its comparator is the stored greedy trace at a specified simulation budget; it is not an exact expected-influence optimum. This distinction defines the scope of the evaluation.",
+      "images": []
+    },
+    {
+      "i": 9,
+      "type": "p",
+      "style": [],
+      "text": "The paper organizes reference stability, candidate reproduction, held-out spread, and cost into a common selection-resolution profile. It applies this profile to a fixed matrix of four contact-derived networks, three selection budgets, and three degree-based candidate pools. The resulting evidence identifies a concrete limitation of reference-based evaluation: every adjacent budget transition changes the ordered full-greedy trace, while candidate agreement, independent utility, and computation savings exhibit different patterns.",
+      "images": []
+    },
+    {
+      "i": 10,
+      "type": "p",
+      "style": [],
+      "text": "The contribution is a bounded empirical evaluation, not a new seed-selection algorithm. Specifically, this paper: (i) makes the finite-world full-greedy reference explicit and tests its stability under nested budget refinement; (ii) separates nominal candidate-pool size from actual coverage, so full-pool controls are not misreported as successful truncation; and (iii) combines procedural agreement, conditional held-out utility uncertainty, and measured timing in a reusable reporting profile. These claims concern the frozen protocol described below.",
+      "images": []
+    },
+    {
+      "i": 11,
+      "type": "p",
+      "style": [
+        "4"
+      ],
+      "text": "1.1 Related work and the scope of the present contribution",
+      "images": []
+    },
+    {
+      "i": 12,
+      "type": "p",
+      "style": [],
+      "text": "Influence-maximization research addresses several distinct sources of computational difficulty. The classical formulation connects seed selection to the expected reach of a stochastic diffusion process [1]. The algorithmic survey by Li et al. organizes diffusion models and optimization methods, illustrating why a result for one simulator and implementation need not describe the entire problem family [9]. Efficient optimization may reduce repeated marginal-gain calculations, change how influence is sampled, or restrict the eligible seeds. These interventions affect different parts of the computation and require different evidence of accuracy.",
+      "images": []
+    },
+    {
+      "i": 13,
+      "type": "p",
+      "style": [],
+      "text": "The cost-effective lazy-forward approach developed in outbreak detection exploits previously computed information to avoid unnecessary objective evaluations [7]. StaticGreedy emphasizes consistent reuse of sampled diffusion realizations during optimization [8]. A fixed collection of worlds defines a reproducible empirical objective; our nested-world comparison examines whether its greedy solution remains stable when that collection is enlarged. This distinction positions the study as an evaluation of reference sensitivity, building on established simulation-reuse methods.",
+      "images": []
+    },
+    {
+      "i": 14,
+      "type": "p",
+      "style": [],
+      "text": "Sampling-based methods such as IMM pursue efficient influence maximization with algorithm-specific statistical guarantees [2]. Their sampling procedures and stopping conditions differ from the small, enumerated world prefixes examined here. Consequently, the present results cannot be read as a comparison with IMM or as evidence against its guarantees. Our full-search arm exhausts eligible nodes at each greedy round, rather than exhaustively enumerating all seed sets or calculating an exact expected-influence optimum. Naming this comparator precisely is necessary when interpreting either speed improvements or agreement counts.",
+      "images": []
+    },
+    {
+      "i": 15,
+      "type": "p",
+      "style": [],
+      "text": "Candidate-selection research also includes structural heuristics and population-based optimization. Rui et al. study a fixed-neighbour-scale approach [12], while Fan et al. develop discrete Harris hawks optimization for influence maximization [13]. Here, a fixed historical weighted-degree ranking controls the construction of candidate pools. Keeping that ranking unchanged allows candidate coverage and selection resolution to vary without introducing an additional learned representation. The comparison therefore characterizes the evaluation protocol rather than ranking these different optimization methods.",
+      "images": []
+    },
+    {
+      "i": 16,
+      "type": "p",
+      "style": [],
+      "text": "Learning-based combinatorial optimization offers another route, reviewed by Li et al. [10]. A recent example combines lightweight reinforcement learning with prior knowledge for imbalanced heterogeneous networks [14]. Such methods add choices about training, representations, and tuning. Extending the present evaluation to learned selectors would require controlling these choices and matching the historical information available to simple ranking baselines. The current confirmation matrix contains degree-based pools only.",
+      "images": []
+    },
+    {
+      "i": 17,
+      "type": "p",
+      "style": [],
+      "text": "Two further distinctions concern realism and benchmarking. Temporal-network influence maximization explicitly considers evolving interactions [11], whereas our timestamp split supplies an aggregated historical topology. Empirically motivated influence models can change seed-selection conclusions [15]; contact observations alone do not identify such a model. Benchmarking itself has an established literature, including the study by Arora et al. [16]. We cite that work as evaluation context, without adopting its broader algorithm rankings. The narrower contribution here is a fully exposed comparison of reference resolution, actual candidate coverage, seed-set changes, conditional utility uncertainty, and measured cost on one frozen matrix. This contribution is descriptive and reproducible, rather than a new approximation theorem or a claim of general algorithmic superiority.",
+      "images": []
+    },
+    {
+      "i": 18,
+      "type": "p",
+      "style": [
+        "3"
+      ],
+      "text": "2 Resolution-aware evaluation",
+      "images": []
+    },
+    {
+      "i": 19,
+      "type": "p",
+      "style": [],
+      "text": "Figure 1 shows how search-space restriction and selection resolution enter the evaluation. Their effects are inspected through decision reproduction, independently evaluated utility, and measured cost.",
+      "images": []
+    },
+    {
+      "i": 20,
+      "type": "p",
+      "style": [],
+      "text": "",
+      "images": [
+        "media/image1.png"
+      ]
+    },
+    {
+      "i": 21,
+      "type": "p",
+      "style": [
+        "15"
+      ],
+      "text": "Fig. 1 Computational evaluation mechanism. A fixed contact-derived graph supplies the full and degree-restricted searches. Each search is repeated at nested selection-world budgets under common tie-breaking. Ordered traces are compared across budgets and candidate pools, while selected sets are evaluated on disjoint worlds. The network motifs, world tiles, and seed tokens are schematic, not measured data; tile counts are not proportional to simulation budgets. Muted nodes remain in the propagation graph but are ineligible as seeds. Arrows indicate computational information flow, not an experimentally established causal mechanism for trace instability. An editable native Visio master accompanies the figure.",
+      "images": []
+    },
+    {
+      "i": 22,
+      "type": "p",
+      "style": [
+        "4"
+      ],
+      "text": "2.1 Finite-world greedy selection",
+      "images": []
+    },
+    {
+      "i": 23,
+      "type": "p",
+      "style": [],
+      "text": "Let G=(V,E) denote a directed graph and k the seed budget. For a seed set S, let f(S;ω) be its simulated spread in world ω. Selection uses the finite-world objective",
+      "images": []
+    },
+    {
+      "i": 24,
+      "type": "p",
+      "style": [],
+      "text": "σW(S)=1W∑ω∈WWf(S;ω).",
+      "images": []
+    },
+    {
+      "i": 25,
+      "type": "p",
+      "style": [],
+      "text": "Starting from the empty set, greedy selection adds the available node that maximizes this objective after addition. Full greedy considers all remaining nodes. Restricted greedy considers only a fixed candidate pool C⊆V. Both use the same selection worlds and deterministic node-ID tie-breaking.",
+      "images": []
+    },
+    {
+      "i": 26,
+      "type": "p",
+      "style": [],
+      "text": "Write the resulting ordered sequence as TW(C), and its final seed set as SW(C). The full reference is TW(V). Exact ordered agreement,",
+      "images": []
+    },
+    {
+      "i": 27,
+      "type": "p",
+      "style": [],
+      "text": "AW(C)=1{TW(C)=TW(V)},",
+      "images": []
+    },
+    {
+      "i": 28,
+      "type": "p",
+      "style": [],
+      "text": "measures reproduction of the full greedy trace. It is stricter than equality of the final unordered seed sets: two sequences can differ in order while containing the same nodes. Neither sequence disagreement nor set disagreement alone quantifies a loss of expected spread.",
+      "images": []
+    },
+    {
+      "i": 29,
+      "type": "p",
+      "style": [
+        "4"
+      ],
+      "text": "2.2 Reference refinement and independent evaluation",
+      "images": []
+    },
+    {
+      "i": 30,
+      "type": "p",
+      "style": [],
+      "text": "We evaluate nested selection worlds, with W20⊂W80⊂W320. Each budget entails a fresh greedy optimization over the corresponding prefix. Comparing T20(V), T80(V), and T320(V) tests whether the reference trace survives a specified refinement. Two reproducible random-world paths provide separate realizations of this comparison.",
+      "images": []
+    },
+    {
+      "i": 31,
+      "type": "p",
+      "style": [],
+      "text": "At each greedy round, the profile records the selected node, the best-score tie count, and the gap between the best and runner-up scores. Ties describe ambiguity under the finite objective. Their reduction can accompany changes in selection, but a tie count alone cannot establish why a particular sequence changed.",
+      "images": []
+    },
+    {
+      "i": 32,
+      "type": "p",
+      "style": [],
+      "text": "Utility is measured using a disjoint set ℰ of evaluation worlds. For each pool, we report the paired difference",
+      "images": []
+    },
+    {
+      "i": 33,
+      "type": "p",
+      "style": [],
+      "text": "ΔW(C)=1|ℰ|∑ω∈ℰ[f(SW(C);ω)−f(SW(V);ω)].",
+      "images": []
+    },
+    {
+      "i": 34,
+      "type": "p",
+      "style": [],
+      "text": "Sharing ℰ across arms holds the evaluation realization fixed within a comparison. A positive estimated difference can occur even when a restricted search disagrees with full greedy: selection and evaluation use different finite samples. This estimate remains subject to evaluation uncertainty.",
+      "images": []
+    },
+    {
+      "i": 35,
+      "type": "p",
+      "style": [
+        "4"
+      ],
+      "text": "2.3 A joint interpretation of agreement, utility, and cost",
+      "images": []
+    },
+    {
+      "i": 36,
+      "type": "p",
+      "style": [],
+      "text": "Table 1 summarizes the quantities needed to interpret a candidate restriction. None substitutes for the others. Exact trace agreement describes a computational decision; independently evaluated spread describes the resulting seed set; time describes the expense of obtaining and evaluating that set.",
+      "images": []
+    },
+    {
+      "i": 37,
+      "type": "p",
+      "style": [
+        "15"
+      ],
+      "text": "Table 1. Quantities in the selection-resolution profile.",
+      "images": []
+    },
+    {
+      "i": 38,
+      "type": "tbl",
+      "style": [],
+      "text": "QuantityQuestion answeredInterpretation boundaryFull-reference agreement across nested budgetsDoes refinement preserve the ordered greedy trace?Does not certify convergence beyond the tested budgetsSame-budget candidate agreementDoes restriction reproduce the named full trace?Disagreement does not necessarily imply a different final set or lower utilityRound-level ties and score gapsHow distinct are competing choices under the finite objective?Does not establish a causal explanation for trace changesHeld-out spread differenceHow do selected sets compare on unused worlds?Finite-sample utility estimate, not population evidence across networksDecision timeWhat computation is saved in the tested implementation?Depends on timing scope, hardware, and implementation",
+      "images": [],
+      "rows": [
+        [
+          "Quantity",
+          "Question answered",
+          "Interpretation boundary"
+        ],
+        [
+          "Full-reference agreement across nested budgets",
+          "Does refinement preserve the ordered greedy trace?",
+          "Does not certify convergence beyond the tested budgets"
+        ],
+        [
+          "Same-budget candidate agreement",
+          "Does restriction reproduce the named full trace?",
+          "Disagreement does not necessarily imply a different final set or lower utility"
+        ],
+        [
+          "Round-level ties and score gaps",
+          "How distinct are competing choices under the finite objective?",
+          "Does not establish a causal explanation for trace changes"
+        ],
+        [
+          "Held-out spread difference",
+          "How do selected sets compare on unused worlds?",
+          "Finite-sample utility estimate, not population evidence across networks"
+        ],
+        [
+          "Decision time",
+          "What computation is saved in the tested implementation?",
+          "Depends on timing scope, hardware, and implementation"
+        ]
+      ]
+    },
+    {
+      "i": 39,
+      "type": "p",
+      "style": [],
+      "text": "For timing, the measured interval includes greedy enumeration and final independent evaluation. Data preparation and degree ranking occur before this interval. The saving is 1−tC/tV, reported as a percentage. Consequently, these measurements describe the timed implementation rather than end-to-end preprocessing costs.",
+      "images": []
+    },
+    {
+      "i": 40,
+      "type": "p",
+      "style": [],
+      "text": "The distinction between the eligible seed set and the propagation graph is essential. Restriction changes which node can be added at a greedy round; it does not delete ineligible nodes or their incident edges from diffusion. Otherwise, a comparison would confound search-space reduction with a different spread model. Similarly, when the nominal pool size reaches the number of vertices, the pool is the full search space. Such an arm is a useful implementation consistency check but supplies no evidence that truncation preserved a solution.",
+      "images": []
+    },
+    {
+      "i": 41,
+      "type": "p",
+      "style": [
+        "3"
+      ],
+      "text": "3 Experimental design",
+      "images": []
+    },
+    {
+      "i": 42,
+      "type": "p",
+      "style": [],
+      "text": "The experiment addresses three linked questions. First, does refinement of a fixed selection-world path preserve the full-greedy decision? Second, does a degree-restricted search reproduce the full reference at the same selection budget? Third, how do its independently evaluated spread and measured computation time compare? Figure 2 summarizes the crossed comparison structure. Table 2 describes the graph instances, while Table 3 distinguishes varied factors from shared controls.",
+      "images": []
+    },
+    {
+      "i": 43,
+      "type": "p",
+      "style": [],
+      "text": "",
+      "images": [
+        "media/image2.png"
+      ]
+    },
+    {
+      "i": 44,
+      "type": "p",
+      "style": [
+        "15"
+      ],
+      "text": "Fig. 2 Experimental design and comparison units. (a) Four contact-derived graphs provide seven admitted combinations of network and seed budget; filled circles indicate inclusion and the cross marks the SFHH setting excluded during resource preflight. (b) Each setting is crossed with two random-world paths and three nested selection budgets, giving 42 conditions. (c) Each condition runs full greedy and three degree-pool arms, giving 168 arm executions. Eligibility alone changes between arms; the diffusion topology is shared. The small networks illustrate this distinction and do not encode measured pool sizes. (d) Selected sets are evaluated on 2,000 worlds disjoint from selection and shared across arms, selection budgets and seed budgets within each pair of network and path. Seed traces and timing come from selection records and the timed execution; spread comes from evaluation. Diagram tiles are schematic. Conditions sharing data or worlds are dependent comparisons, not independent network replicates.",
+      "images": []
+    },
+    {
+      "i": 45,
+      "type": "p",
+      "style": [
+        "4"
+      ],
+      "text": "3.1 Networks and simulated diffusion",
+      "images": []
+    },
+    {
+      "i": 46,
+      "type": "p",
+      "style": [],
+      "text": "We use four SocioPatterns contact datasets: the 2013 and 2015 workplace deployments, the 2009 SFHH conference, and 2012 Kenyan households [3–6]. These records provide observed contacts from which to construct graph instances. They do not provide observed information cascades.",
+      "images": []
+    },
+    {
+      "i": 47,
+      "type": "p",
+      "style": [],
+      "text": "The first 65% of complete timestamp groups define the historical data. Each undirected contact is represented by two directed edges, and the historical contacts are aggregated into a graph. Degree ranking uses historical weighted degree. Diffusion is then simulated on this contact-derived topology using independent cascade with transmission probability p=0.01 and horizon three. The temporal records determine the historical graph; the reported outcome is simulated spread, rather than a validated model of temporal information transmission.",
+      "images": []
+    },
+    {
+      "i": 48,
+      "type": "p",
+      "style": [],
+      "text": "Historical weighted degree counts non-self contact events incident to a node in the bidirectional history; repeated contacts contribute repeatedly to the ranking. Diffusion uses the aggregated endpoint topology with a fixed transmission probability, rather than treating contact counts as edge probabilities. Spread includes the initially selected seeds. Each newly activated node has one opportunity to activate an inactive outgoing neighbour, with propagation limited to three rounds. Reproducible edge-time draws are keyed by the world identifier, propagation step, and endpoint codes in the archived simulator.",
+      "images": []
+    },
+    {
+      "i": 49,
+      "type": "p",
+      "style": [
+        "15"
+      ],
+      "text": "Table 2. Historical graph instances used by the frozen confirmation run. Edge counts include both directions of each aggregated contact link. Conditions count world-path and selection-budget combinations, not independent datasets.",
+      "images": []
+    },
+    {
+      "i": 50,
+      "type": "tbl",
+      "style": [],
+      "text": "DatasetNodesDirected edgesSeed budgetsConditionsinvs2013911,2385, 2012invs20152126,9385, 2012kenya2012751,0445, 2012sfhh200940211,85656",
+      "images": [],
+      "rows": [
+        [
+          "Dataset",
+          "Nodes",
+          "Directed edges",
+          "Seed budgets",
+          "Conditions"
+        ],
+        [
+          "invs2013",
+          "91",
+          "1,238",
+          "5, 20",
+          "12"
+        ],
+        [
+          "invs2015",
+          "212",
+          "6,938",
+          "5, 20",
+          "12"
+        ],
+        [
+          "kenya2012",
+          "75",
+          "1,044",
+          "5, 20",
+          "12"
+        ],
+        [
+          "sfhh2009",
+          "402",
+          "11,856",
+          "5",
+          "6"
+        ]
+      ]
+    },
+    {
+      "i": 51,
+      "type": "p",
+      "style": [],
+      "text": "These are sizes after historical preprocessing, rather than headline sizes of the complete provider datasets. The instances permit exhaustive per-round candidate enumeration at the chosen budgets. They do not constitute a large-scale scalability benchmark. Their different sizes also mean that a fixed multiple of the seed budget represents different fractions of the graph.",
+      "images": []
+    },
+    {
+      "i": 52,
+      "type": "p",
+      "style": [
+        "4"
+      ],
+      "text": "3.2 Candidate pools and comparison matrix",
+      "images": []
+    },
+    {
+      "i": 53,
+      "type": "p",
+      "style": [],
+      "text": "The restricted pools contain the highest-ranked min(|V|,2k), min(|V|,4k), or min(|V|,8k) nodes by historical weighted degree. Each pool is constructed before greedy selection and remains fixed throughout that selection. All arms within a condition share the graph, simulator, selection worlds, evaluation worlds, and tie-breaking rule.",
+      "images": []
+    },
+    {
+      "i": 54,
+      "type": "p",
+      "style": [],
+      "text": "The design combines selection budgets W∈{20,80,320} with two random-world paths. All four networks use k=5; the two workplace networks and Kenya also use k=20. SFHH at k=20 was excluded by a resource preflight before confirmation outcomes were examined because preflight projections indicated that including it would exceed the four-hour serial ceiling for the confirmation matrix. This yields seven network–seed-budget settings, 14 nested trajectory blocks, and 42 conditions. Each condition contains full greedy and three restricted arms, giving 168 arm executions.",
+      "images": []
+    },
+    {
+      "i": 55,
+      "type": "p",
+      "style": [],
+      "text": "Each arm is evaluated on 2,000 worlds disjoint from selection. The study configuration and execution source snapshot were fixed before reading the confirmation results. Online Resource 1 describes the execution matrix and evidence provenance.",
+      "images": []
+    },
+    {
+      "i": 56,
+      "type": "p",
+      "style": [],
+      "text": "The serial runner executes the full arm followed by the 2k, 4k and 8k pools, each with a fresh selection cache and a separate evaluation cache. Each arm is timed once per condition. The reported times therefore describe this execution order and implementation; repeated timing trials and randomized arm order were not part of the protocol.",
+      "images": []
+    },
+    {
+      "i": 57,
+      "type": "p",
+      "style": [
+        "15"
+      ],
+      "text": "Table 3. Experimental factors and controls. The matrix was fixed before confirmation results; the final row identifies diagnostics added subsequently.",
+      "images": []
+    },
+    {
+      "i": 58,
+      "type": "tbl",
+      "style": [],
+      "text": "ComponentSettingRole in the comparisonNetwork and seed budgetFour networks; k = 5 for all, k = 20 for threeSeven admitted settings (Table 2)Selection resolutionW = 20, 80, 320Refines the empirical objective on nested prefixesRandom-world path301, 302Two realizations within each combination of network and seed budgetCandidate eligibilityFull V; top min(n, 2k), min(n, 4k), min(n, 8k) by historical weighted degreeFour paired arms; the pool remains fixed during selectionHistorical graphFirst 65% of complete timestamp groups; bidirectional aggregateShared input graph and ranking informationDiffusionIndependent cascade; p = 0.01; horizon 3Fixed simulator across all comparisonsSelection controlsSame worlds and deterministic node-ID tie-breaking within a conditionMakes same-budget arm comparisons reproducibleEvaluation worlds2,000 disjoint from selection; reused within each pair of network and pathPaired utility estimates; shared worlds induce dependenceTiming scopeGreedy search plus final evaluation; excludes graph preparation and rankingDefines the reported time savingAdditional diagnosticsSet overlap, first divergence, full-pool classification, conditional Monte Carlo intervalsPost-hoc analysis of frozen outputs",
+      "images": [],
+      "rows": [
+        [
+          "Component",
+          "Setting",
+          "Role in the comparison"
+        ],
+        [
+          "Network and seed budget",
+          "Four networks; k = 5 for all, k = 20 for three",
+          "Seven admitted settings (Table 2)"
+        ],
+        [
+          "Selection resolution",
+          "W = 20, 80, 320",
+          "Refines the empirical objective on nested prefixes"
+        ],
+        [
+          "Random-world path",
+          "301, 302",
+          "Two realizations within each combination of network and seed budget"
+        ],
+        [
+          "Candidate eligibility",
+          "Full V; top min(n, 2k), min(n, 4k), min(n, 8k) by historical weighted degree",
+          "Four paired arms; the pool remains fixed during selection"
+        ],
+        [
+          "Historical graph",
+          "First 65% of complete timestamp groups; bidirectional aggregate",
+          "Shared input graph and ranking information"
+        ],
+        [
+          "Diffusion",
+          "Independent cascade; p = 0.01; horizon 3",
+          "Fixed simulator across all comparisons"
+        ],
+        [
+          "Selection controls",
+          "Same worlds and deterministic node-ID tie-breaking within a condition",
+          "Makes same-budget arm comparisons reproducible"
+        ],
+        [
+          "Evaluation worlds",
+          "2,000 disjoint from selection; reused within each pair of network and path",
+          "Paired utility estimates; shared worlds induce dependence"
+        ],
+        [
+          "Timing scope",
+          "Greedy search plus final evaluation; excludes graph preparation and ranking",
+          "Defines the reported time saving"
+        ],
+        [
+          "Additional diagnostics",
+          "Set overlap, first divergence, full-pool classification, conditional Monte Carlo intervals",
+          "Post-hoc analysis of frozen outputs"
+        ]
+      ]
+    },
+    {
+      "i": 59,
+      "type": "p",
+      "style": [],
+      "text": "Three comparison units follow from this design. A trajectory block fixes the network, seed budget and path, and contains the three nested selection budgets; there are 14 such blocks. An arm comparison additionally fixes the selection budget and contrasts one pool against full greedy; there are 126 such comparisons. A paired evaluation difference compares two selected sets on one shared evaluation world. These units answer different questions and must not be treated as interchangeable replications.",
+      "images": []
+    },
+    {
+      "i": 60,
+      "type": "p",
+      "style": [
+        "4"
+      ],
+      "text": "3.3 Analysis",
+      "images": []
+    },
+    {
+      "i": 61,
+      "type": "p",
+      "style": [],
+      "text": "We report the fraction of matching ordered traces, tie counts, held-out spread differences, and median timing savings. Comparisons across selection budgets use the same nested trajectory block; comparisons across candidate pools use the same condition.",
+      "images": []
+    },
+    {
+      "i": 62,
+      "type": "p",
+      "style": [],
+      "text": "These summaries describe the tested instances. The four networks are not a random sample of a network population, and simulation paths do not increase the number of independently collected datasets. Pooled condition counts are therefore descriptive, not estimates of a population success probability. The analysis also does not equate a small point estimate of spread loss with established utility equivalence.",
+      "images": []
+    },
+    {
+      "i": 63,
+      "type": "p",
+      "style": [
+        "5"
+      ],
+      "text": "Post-hoc diagnostics",
+      "images": []
+    },
+    {
+      "i": 64,
+      "type": "p",
+      "style": [],
+      "text": "After inspecting the confirmation summaries, we computed additional diagnostics from the stored outputs, without repeating selection or modifying outcomes. Final-set similarity is the Jaccard index J(A,B)=|A∩B|/|A∪B|. The first divergence is the one-based greedy round at which adjacent-budget sequences first differ; division by k expresses its location within a trace. These analyses distinguish changed ordering from changed membership. We also classify each arm by whether its actual candidate count equals the graph's node count, separating full-pool controls from genuine restrictions.",
+      "images": []
+    },
+    {
+      "i": 65,
+      "type": "p",
+      "style": [],
+      "text": "For conditional evaluation uncertainty, let di be candidate-minus-full spread in shared evaluation world i. We estimate the Monte Carlo standard error as sd/2000 and display the normal-approximation interval d±1.96sd/2000. This calculation preserves pairing rather than treating the two arm means as independent. It is conditional on the selected sets and simulator, and assumes the evaluation worlds are independent draws. It does not include selection-path variability, model uncertainty, or sampling of networks. The intervals are unadjusted descriptive intervals, not simultaneous tests or evidence of equivalence. Figure 8 displays the largest tested selection budget; the accompanying CSV retains all 126 comparisons.",
+      "images": []
+    },
+    {
+      "i": 66,
+      "type": "p",
+      "style": [
+        "3"
+      ],
+      "text": "4 Results",
+      "images": []
+    },
+    {
+      "i": 67,
+      "type": "p",
+      "style": [
+        "4"
+      ],
+      "text": "4.1 Does increasing selection resolution preserve the reference?",
+      "images": []
+    },
+    {
+      "i": 68,
+      "type": "p",
+      "style": [],
+      "text": "The full-greedy ordered sequence changed in every tested block at both adjacent budget transitions. No block preserved its sequence from 20 to 80 worlds (0/14), or from 80 to 320 worlds (0/14). Thus, none of these comparisons supplied an unchanged ordered reference against which candidate restriction could be assessed across resolutions.",
+      "images": []
+    },
+    {
+      "i": 69,
+      "type": "p",
+      "style": [],
+      "text": "Exact best-score ties became less frequent as the selection budget increased: 80 of 160 greedy rounds at W=20 (50.0%), 46 at W=80 (28.8%), and 21 at W=320 (13.1%). The denominator comprises eight traces of five rounds and six traces of 20 rounds. Larger budgets therefore reduced pooled ties without preserving the ordered traces. The post-hoc analysis also found changed final seed sets in all 14 blocks at each transition (Section 4.4). Neither result establishes that higher-budget sets are uniformly better or that ties cause instability.",
+      "images": []
+    },
+    {
+      "i": 70,
+      "type": "p",
+      "style": [],
+      "text": "Figure 3 pairs pooled tie proportions with final-set change counts. The 14 individual tie trajectories are shown by network and seed budget in Fig. 4; individual trajectories need not decrease monotonically.",
+      "images": []
+    },
+    {
+      "i": 71,
+      "type": "p",
+      "style": [],
+      "text": "",
+      "images": [
+        "media/image3.png"
+      ]
+    },
+    {
+      "i": 72,
+      "type": "p",
+      "style": [
+        "15"
+      ],
+      "text": "Fig. 3 Fewer pooled ties coexist with changes in final seed sets. (a) The proportion of greedy rounds with multiple best-scoring candidates at each selection budget; labels show percentages and counts. Each denominator is 160 rounds from eight traces of length five and six of length 20, so longer traces contribute more weight. (b) Counts of blocks whose final unordered full-greedy seed set changes at each adjacent budget transition, computed post-hoc from frozen outputs. These descriptive counts use dependent rounds and repeated network instances; no inferential intervals or significance tests are shown. The panels do not establish utility loss or a causal relationship between ties and set changes. Individual tie trajectories appear in Fig. 4, and final-set overlaps in Fig. 7.",
+      "images": []
+    },
+    {
+      "i": 73,
+      "type": "p",
+      "style": [
+        "4"
+      ],
+      "text": "4.2 Which pools reproduce the reference, and at what cost?",
+      "images": []
+    },
+    {
+      "i": 74,
+      "type": "p",
+      "style": [],
+      "text": "Larger pools reproduced more same-budget reference traces overall, but no pool did so throughout the matrix (Table 4). The 2k pool matched none of the 42 traces. The 4k pool matched 12, and the 8k pool matched 18. Agreement was not monotonic in selection resolution: the 8k pool matched six blocks at 20 worlds, five at 80, and seven at 320.",
+      "images": []
+    },
+    {
+      "i": 75,
+      "type": "p",
+      "style": [
+        "15"
+      ],
+      "text": "Table 4. Exact ordered agreement and median measured time saving relative to full greedy. All-arm counts and timing summarize 14 conditions per row. Full-pool controls are included in all matches but excluded from restricted-match counts.",
+      "images": []
+    },
+    {
+      "i": 76,
+      "type": "tbl",
+      "style": [],
+      "text": "PoolWorldsAll matchesFull-pool controlsRestricted matchesMedian time savingDegree 2k200/1400/1467.2%Degree 2k800/1400/1483.8%Degree 2k3200/1400/1487.4%Degree 4k204/1422/1255.9%Degree 4k804/1422/1266.2%Degree 4k3204/1422/1272.4%Degree 8k206/1442/1032.8%Degree 8k805/1441/1041.2%Degree 8k3207/1443/1045.6%",
+      "images": [],
+      "rows": [
+        [
+          "Pool",
+          "Worlds",
+          "All matches",
+          "Full-pool controls",
+          "Restricted matches",
+          "Median time saving"
+        ],
+        [
+          "Degree 2k",
+          "20",
+          "0/14",
+          "0",
+          "0/14",
+          "67.2%"
+        ],
+        [
+          "Degree 2k",
+          "80",
+          "0/14",
+          "0",
+          "0/14",
+          "83.8%"
+        ],
+        [
+          "Degree 2k",
+          "320",
+          "0/14",
+          "0",
+          "0/14",
+          "87.4%"
+        ],
+        [
+          "Degree 4k",
+          "20",
+          "4/14",
+          "2",
+          "2/12",
+          "55.9%"
+        ],
+        [
+          "Degree 4k",
+          "80",
+          "4/14",
+          "2",
+          "2/12",
+          "66.2%"
+        ],
+        [
+          "Degree 4k",
+          "320",
+          "4/14",
+          "2",
+          "2/12",
+          "72.4%"
+        ],
+        [
+          "Degree 8k",
+          "20",
+          "6/14",
+          "4",
+          "2/10",
+          "32.8%"
+        ],
+        [
+          "Degree 8k",
+          "80",
+          "5/14",
+          "4",
+          "1/10",
+          "41.2%"
+        ],
+        [
+          "Degree 8k",
+          "320",
+          "7/14",
+          "4",
+          "3/10",
+          "45.6%"
+        ]
+      ]
+    },
+    {
+      "i": 77,
+      "type": "p",
+      "style": [],
+      "text": "Actual candidate coverage qualifies these nominal-pool totals. At k=20, the 4k pool covers all 75 Kenya nodes, while the 8k pool covers all nodes in Kenya and invs2013. Thus, six of the 12 matches for 4k, and 12 of the 18 matches for 8k, arise without any restriction. Among genuinely restricted conditions, the match counts are 0/42, 6/36, and 6/30 for 2k, 4k, and 8k. These denominators differ because saturation depends on network size and seed budget; they are not paired estimates of a general success rate. All full-pool arms matched their reference, providing a consistency check on shared-world selection.",
+      "images": []
+    },
+    {
+      "i": 78,
+      "type": "p",
+      "style": [],
+      "text": "The smallest pool delivered the greatest median saving at every resolution, accompanied by no exact trace reproduction. At 320 worlds, enlarging the pool from 2k to 8k increased matches from zero to seven while reducing median savings from 87.4% to 45.6%. The nominal comparison mixes genuinely restricted and saturated pools, so the increased match count cannot be attributed entirely to successful truncation. Whether it is an acceptable utility trade-off requires independent spread evaluation.",
+      "images": []
+    },
+    {
+      "i": 79,
+      "type": "p",
+      "style": [],
+      "text": "",
+      "images": [
+        "media/image4.png"
+      ]
+    },
+    {
+      "i": 80,
+      "type": "p",
+      "style": [
+        "15"
+      ],
+      "text": "Fig. 4 Exact best-score tie proportions for all 14 full-greedy trajectories, arranged in seven panels by network and seed budget. Filled circles and solid lines identify path 301; open squares and dashed lines identify path 302. Each value divides the number of tied rounds by that panel's seed budget, five or 20. Lines connect nested-budget results from re-optimized searches, not necessarily identical intermediate seed sets; no interpolation or monotonicity is assumed. Coincident markers are retained. All 42 block-budget observations are supplied in figures/FigS1-tie-trajectories-source.csv. No uncertainty intervals or statistical tests are applied to these descriptive trajectories.",
+      "images": []
+    },
+    {
+      "i": 81,
+      "type": "p",
+      "style": [],
+      "text": "Figure 5 resolves the aggregate agreement counts into individual conditions, making the successful and failed comparisons visible for each network, seed budget, and random path.",
+      "images": []
+    },
+    {
+      "i": 82,
+      "type": "p",
+      "style": [],
+      "text": "",
+      "images": [
+        "media/image5.png"
+      ]
+    },
+    {
+      "i": 83,
+      "type": "p",
+      "style": [
+        "15"
+      ],
+      "text": "Fig. 5 Complete same-budget ordered-agreement matrix. Rows identify all 14 network–seed-budget–path blocks; columns give selection-world budgets within each candidate-pool panel. An equals sign indicates an identical ordered trace with a genuinely restricted pool, a cross indicates a different trace, and V identifies a pool containing every graph node. All V cells match by full-pool consistency; they are not successful truncations. All 126 pool-condition comparisons are shown. These are descriptive computational comparisons with shared worlds, not independent population replicates.",
+      "images": []
+    },
+    {
+      "i": 84,
+      "type": "p",
+      "style": [
+        "4"
+      ],
+      "text": "4.3 Does independent spread follow trace agreement?",
+      "images": []
+    },
+    {
+      "i": 85,
+      "type": "p",
+      "style": [],
+      "text": "Trace disagreement did not have a uniform sign in held-out utility. At 20 selection worlds, the 2k pool disagreed with every full trace, yet its estimated spread difference was positive in eight conditions and negative in six. At 320 worlds, it remained different in every condition, but the split changed to one positive and 13 negative differences. The same agreement count therefore concealed different utility profiles.",
+      "images": []
+    },
+    {
+      "i": 86,
+      "type": "p",
+      "style": [],
+      "text": "At 320 worlds, mean candidate-minus-full spread differences across the 14 conditions were −0.356, −0.158, and −0.124 activated nodes for 2k, 4k, and 8k, respectively. For 8k, seven conditions had zero difference and seven had negative differences; none was positive at this budget. Positive and negative differences occur across the wider matrix, rather than in every pool–budget combination.",
+      "images": []
+    },
+    {
+      "i": 87,
+      "type": "p",
+      "style": [],
+      "text": "These point estimates show why utility must be inspected separately from trace agreement. They do not establish practical equivalence or consistent superiority: no utility-equivalence margin is tested, and the pooled means combine different networks and seed budgets. Figure 6 pairs each held-out difference with its measured time saving, exposing variation concealed by aggregate averages.",
+      "images": []
+    },
+    {
+      "i": 88,
+      "type": "p",
+      "style": [],
+      "text": "",
+      "images": [
+        "media/image6.png"
+      ]
+    },
+    {
+      "i": 89,
+      "type": "p",
+      "style": [
+        "15"
+      ],
+      "text": "Fig. 6 Condition-level computation–utility trade-off at three selection resolutions. Each panel shows 14 conditions per candidate pool, for 126 observations overall; overlapping points are retained. The horizontal axis gives measured time saving relative to the full arm, including search and final evaluation but excluding graph preparation and degree ranking. The vertical axis gives candidate-minus-full mean activated-node counts on 2,000 disjoint evaluation worlds; the dashed line denotes zero difference. Marker shape and color identify the pools. Values are finite-sample point estimates without inferential intervals. Shared evaluation worlds and repeated network instances make observations dependent.",
+      "images": []
+    },
+    {
+      "i": 90,
+      "type": "p",
+      "style": [
+        "4"
+      ],
+      "text": "4.4 Do changed traces also change final sets?",
+      "images": []
+    },
+    {
+      "i": 91,
+      "type": "p",
+      "style": [],
+      "text": "The post-hoc set analysis shows that the reference changes are not merely reorderings. All 14 final full-greedy sets changed from 20 to 80 worlds, and all 14 changed again from 80 to 320. Jaccard overlap ranged from 0.111 to 0.481 at the first transition and from 0 to 0.667 at the second. The descriptive means were 0.267 and 0.352, respectively. The higher mean at the second transition does not establish monotonic convergence: individual blocks can become less similar, and no tested block has identical final membership across either adjacent transition.",
+      "images": []
+    },
+    {
+      "i": 92,
+      "type": "p",
+      "style": [],
+      "text": "",
+      "images": [
+        "media/image7.png"
+      ]
+    },
+    {
+      "i": 93,
+      "type": "p",
+      "style": [
+        "15"
+      ],
+      "text": "Fig. 7 Post-hoc seed-set diagnostics from frozen full-greedy outputs. (a) Final-set Jaccard similarity for both adjacent budget transitions within each of the 14 blocks. Grey segments connect the two transitions of the same block; overlapping symbols are retained. (b) The first differing greedy round divided by the seed budget. Smaller values indicate earlier divergence, not a larger utility penalty. Path identifiers 301 and 302 denote the two random-world realizations. These diagnostics were added after confirmation and are not new independent replications.",
+      "images": []
+    },
+    {
+      "i": 94,
+      "type": "p",
+      "style": [],
+      "text": "Within candidate-versus-full comparisons, unordered-set agreement equals ordered agreement for every stored condition. Thus, the discrepancy between those criteria is conceptually important but does not change the match totals in this matrix. The larger concern for interpreting the totals is pool saturation, identified in Section 4.2. Separating actual coverage from nominal pool labels prevents full-search controls from being mistaken for evidence that a reduced search space is sufficient.",
+      "images": []
+    },
+    {
+      "i": 95,
+      "type": "p",
+      "style": [],
+      "text": "",
+      "images": [
+        "media/image8.png"
+      ]
+    },
+    {
+      "i": 96,
+      "type": "p",
+      "style": [
+        "15"
+      ],
+      "text": "Fig. 8 Post-hoc conditional evaluation uncertainty at 320 selection worlds. Points show candidate-minus-full spread on 2,000 shared, disjoint evaluation worlds; horizontal segments show paired normal-approximation 95% Monte Carlo intervals. The vertical dashed line marks zero. Identical sets have zero paired differences in every world and therefore zero-width intervals. Such points include full-pool controls but are not limited to them. Intervals quantify evaluation sampling uncertainty conditional on the selected sets and fixed simulator; they do not quantify uncertainty across networks or establish practical equivalence.",
+      "images": []
+    },
+    {
+      "i": 97,
+      "type": "p",
+      "style": [],
+      "text": "Figure 8 distinguishes identical-set zeros, estimates near zero, and negative differences, adding evaluation uncertainty to the cost–utility comparison in Figure 6. A zero-width interval for an identical set follows algebraically from paired evaluation. An interval crossing zero is insufficient to establish utility preservation without a prespecified equivalence margin; no such margin was fixed for this study.",
+      "images": []
+    },
+    {
+      "i": 98,
+      "type": "p",
+      "style": [
+        "3"
+      ],
+      "text": "5 Implications and limits",
+      "images": []
+    },
+    {
+      "i": 99,
+      "type": "p",
+      "style": [],
+      "text": "The results make the evaluation target explicit. An assertion that a candidate pool preserves full greedy should specify whether preservation means the ordered trace, the final seed set, or diffusion utility. For trace reproduction, the reference also requires a named selection budget and random-world realization. For utility preservation, independent evaluation and an explicit tolerance are needed. Reporting only a matching trace or a speed reduction leaves these distinct questions unresolved.",
+      "images": []
+    },
+    {
+      "i": 100,
+      "type": "p",
+      "style": [],
+      "text": "The selection-resolution profile offers a practical way to expose this distinction. A study first refines its full reference on nested worlds, then compares candidate pools at each common budget, and finally evaluates their selected sets on unused worlds. Timing completes the comparison. This procedure makes failed reproduction visible alongside savings and utility estimates. Its role is diagnostic; it supplies neither a new pruning guarantee nor proof that a particular simulation budget is adequate.",
+      "images": []
+    },
+    {
+      "i": 101,
+      "type": "p",
+      "style": [],
+      "text": "Several limits constrain the evidence. The probability and horizon are fixed, the pools use only weighted degree, and the graph instances come from four contact datasets. The experiment does not establish that the same pattern holds for other rankings, diffusion models, parameter regimes, or larger networks. Increasing the world count to 320 does not establish convergence to expected-influence greedy selection. A systematic characterization of how ties, small score gaps, and graph structure drive trace changes would require further analysis.",
+      "images": []
+    },
+    {
+      "i": 102,
+      "type": "p",
+      "style": [],
+      "text": "The post-hoc analysis rules out pure reordering as the explanation of reference changes in this matrix: every adjacent transition also changes final membership. This does not identify the cause of the change or establish a utility penalty. Likewise, separating saturated pools reduces the apparent evidence for successful truncation: many nominal large-pool matches are full-search controls. Both qualifications strengthen interpretation while narrowing the supported claim. Similarly, the timing interval excludes preprocessing and ranking, and the excluded SFHH setting limits the larger-k comparison. These boundaries are part of the study design and should accompany reuse of its results.",
+      "images": []
+    },
+    {
+      "i": 103,
+      "type": "p",
+      "style": [],
+      "text": "For reuse, a candidate-pool claim should record the actual candidate fraction alongside its nominal multiplier. A match at full coverage verifies consistency, while a match below full coverage establishes reproduction only for the specified empirical objective. If practical utility preservation is the goal, an acceptable spread-loss margin should be chosen before confirmatory evaluation. Additional evaluation worlds can then reduce conditional Monte Carlo uncertainty, whereas additional selection paths address a different source of variation. Simply increasing one of these budgets does not substitute for the other.",
+      "images": []
+    },
+    {
+      "i": 104,
+      "type": "p",
+      "style": [],
+      "text": "This separation also guides future experiments. Testing another transmission probability or diffusion horizon would probe the scope of the observed sensitivity. Testing larger graphs would probe whether comparable actual candidate fractions remain useful. A learned selector would require a separate comparison against simple historical rankings under matched information and tuning budgets. These are distinct extensions, and the current observations do not predict their outcomes. The frozen study remains valuable as a transparent diagnostic case, but its modest network scale and lack of a new algorithmic guarantee should remain explicit in assessing its contribution.",
+      "images": []
+    },
+    {
+      "i": 105,
+      "type": "p",
+      "style": [
+        "3"
+      ],
+      "text": "6 Conclusion",
+      "images": []
+    },
+    {
+      "i": 106,
+      "type": "p",
+      "style": [],
+      "text": "Selection resolution changes the reference used to evaluate candidate-restricted greedy influence maximization. Across the tested nested budgets, every ordered full-greedy trace changed, while degree-based restrictions saved computation and reproduced only a subset of same-budget reference traces. Held-out spread differences further showed that trace agreement and utility are separate evaluation targets. Candidate-restriction studies should therefore report the selection budget, reference stability, independent utility, and computation cost together. This yields a precise, reproducible account of the observed trade-off within the tested simulation setting.",
+      "images": []
+    },
+    {
+      "i": 107,
+      "type": "p",
+      "style": [
+        "3"
+      ],
+      "text": "Statements and Declarations",
+      "images": []
+    },
+    {
+      "i": 108,
+      "type": "p",
+      "style": [],
+      "text": "Funding: This work was supported by a provincial undergraduate innovation and entrepreneurship training project. The official project title and grant number will be inserted before submission.",
+      "images": []
+    },
+    {
+      "i": 109,
+      "type": "p",
+      "style": [],
+      "text": "Competing interests: The authors declare that they have no competing interests.",
+      "images": []
+    },
+    {
+      "i": 110,
+      "type": "p",
+      "style": [],
+      "text": "Author contributions: Jiayue Sun: conceptualization, methodology, software, validation, formal analysis, investigation, data curation, visualization, and writing - original draft. Binbin Yong: supervision, methodology, project administration, and writing - review and editing. Junjie An: software, data curation, and writing - review and editing. Tianyu Bo: validation, visualization, and writing - review and editing. Shuai Li: formal analysis, validation, and writing - review and editing. All authors read and approved the final manuscript.",
+      "images": []
+    },
+    {
+      "i": 111,
+      "type": "p",
+      "style": [],
+      "text": "Data availability: The raw contact data remain available from the SocioPatterns provider pages cited below under their stated CC0 terms. This study does not redistribute those provider files. The planned reproducibility archive will contain the data-preparation code, data cards, source hashes, frozen protocol, immutable source snapshot, condition-level outputs, validator and analysis scripts.",
+      "images": []
+    },
+    {
+      "i": 112,
+      "type": "p",
+      "style": [],
+      "text": "Code availability: [Insert an archival repository DOI or persistent URL after the authors create and verify a public release.]",
+      "images": []
+    },
+    {
+      "i": 113,
+      "type": "p",
+      "style": [],
+      "text": "Use of AI tools: [Authors must provide a truthful statement consistent with the target journal's current policy and their actual use.]",
+      "images": []
+    },
+    {
+      "i": 114,
+      "type": "p",
+      "style": [
+        "3"
+      ],
+      "text": "References",
+      "images": []
+    },
+    {
+      "i": 115,
+      "type": "p",
+      "style": [],
+      "text": "1. Kempe D, Kleinberg J, Tardos É (2003) Maximizing the spread of influence through a social network. In: Proceedings of the ninth ACM SIGKDD international conference on knowledge discovery and data mining, pp 137–146. https://doi.org/10.1145/956750.956769",
+      "images": []
+    },
+    {
+      "i": 116,
+      "type": "p",
+      "style": [],
+      "text": "2. Tang Y, Shi Y, Xiao X (2015) Influence maximization in near-linear time: a martingale approach. In: Proceedings of the 2015 ACM SIGMOD international conference on management of data, pp 1539–1554. https://doi.org/10.1145/2723372.2723734",
+      "images": []
+    },
+    {
+      "i": 117,
+      "type": "p",
+      "style": [],
+      "text": "3. Génois M, Vestergaard CL, Fournet J, Panisson A, Bonmarin I, Barrat A (2015) Data on face-to-face contacts in an office building suggest a low-cost vaccination strategy based on community linkers. Network Science 3:326–347. https://doi.org/10.1017/nws.2015.10",
+      "images": []
+    },
+    {
+      "i": 118,
+      "type": "p",
+      "style": [],
+      "text": "4. Génois M, Barrat A (2018) Can co-location be used as a proxy for face-to-face contacts? EPJ Data Science 7:11. https://doi.org/10.1140/epjds/s13688-018-0140-1",
+      "images": []
+    },
+    {
+      "i": 119,
+      "type": "p",
+      "style": [],
+      "text": "5. Cattuto C, Van den Broeck W, Barrat A, Colizza V, Pinton J-F, Vespignani A (2010) Dynamics of person-to-person interactions from distributed RFID sensor networks. PLoS ONE 5:e11596. https://doi.org/10.1371/journal.pone.0011596",
+      "images": []
+    },
+    {
+      "i": 120,
+      "type": "p",
+      "style": [],
+      "text": "6. Kiti MC, Tizzoni M, Kinyanjui TM, et al. (2016) Quantifying social contacts in a household setting of rural Kenya using wearable proximity sensors. EPJ Data Science 5:21. https://doi.org/10.1140/epjds/s13688-016-0084-2",
+      "images": []
+    },
+    {
+      "i": 121,
+      "type": "p",
+      "style": [],
+      "text": "7. Leskovec J, Krause A, Guestrin C, Faloutsos C, VanBriesen J, Glance N (2007) Cost-effective outbreak detection in networks. In: KDD, pp 420–429. https://doi.org/10.1145/1281192.1281239",
+      "images": []
+    },
+    {
+      "i": 122,
+      "type": "p",
+      "style": [],
+      "text": "8. Cheng S, Shen H, Huang J, Zhang G, Cheng X (2013) StaticGreedy: solving the scalability-accuracy dilemma in influence maximization. In: CIKM, pp 509–518. https://doi.org/10.1145/2505515.2505541",
+      "images": []
+    },
+    {
+      "i": 123,
+      "type": "p",
+      "style": [],
+      "text": "9. Li Y, Fan J, Wang Y, Tan K-L (2018) Influence maximization on social graphs: a survey. IEEE Transactions on Knowledge and Data Engineering 30:1852–1872. https://doi.org/10.1109/TKDE.2018.2807843",
+      "images": []
+    },
+    {
+      "i": 124,
+      "type": "p",
+      "style": [],
+      "text": "10. Li Y, Gao H, Gao Y, Guo J, Wu W (2023) A survey on influence maximization: from an ML-based combinatorial optimization. ACM Transactions on Knowledge Discovery from Data 17(9):1–50. https://doi.org/10.1145/3604559",
+      "images": []
+    },
+    {
+      "i": 125,
+      "type": "p",
+      "style": [],
+      "text": "11. Yanchenko E, Murata T, Holme P (2024) Influence maximization on temporal networks: a review. Applied Network Science 9:16. https://doi.org/10.1007/s41109-024-00625-3",
+      "images": []
+    },
+    {
+      "i": 126,
+      "type": "p",
+      "style": [],
+      "text": "12. Rui X, Yang X, Fan J, Wang Z (2020) A neighbour scale fixed approach for influence maximization in social networks. Computing 102:427–449. https://doi.org/10.1007/s00607-019-00778-5",
+      "images": []
+    },
+    {
+      "i": 127,
+      "type": "p",
+      "style": [],
+      "text": "13. Fan C, Wang Z, Zhang J, Zhao J, Rui X (2024) Influence maximization in social networks based on discrete harris hawks optimization algorithm. Computing 106:327–351. https://doi.org/10.1007/s00607-023-01207-4",
+      "images": []
+    },
+    {
+      "i": 128,
+      "type": "p",
+      "style": [],
+      "text": "14. You K, Liu S, Bai Y (2025) Influence maximization under imbalanced heterogeneous networks via lightweight reinforcement learning with prior knowledge. Complex & Intelligent Systems 11:40. https://doi.org/10.1007/s40747-024-01666-y",
+      "images": []
+    },
+    {
+      "i": 129,
+      "type": "p",
+      "style": [],
+      "text": "15. Aral S, Dhillon PS (2018) Social influence maximization under empirical influence models. Nature Human Behaviour 2:375–382. https://doi.org/10.1038/s41562-018-0346-z",
+      "images": []
+    },
+    {
+      "i": 130,
+      "type": "p",
+      "style": [],
+      "text": "16. Arora A, Galhotra S, Ranu S (2017) Debunking the myths of influence maximization: an in-depth benchmarking study. In: SIGMOD, pp 651–666. https://doi.org/10.1145/3035918.3035924",
+      "images": []
+    },
+    {
+      "i": 131,
+      "type": "sectPr",
+      "style": [],
+      "text": "",
+      "images": []
+    }
+  ],
+  "media": [
+    {
+      "name": "word/media/",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "word/media/image1.png",
+      "size": 53564,
+      "sha256": "00cc9702ac83181cf01cbadbd98363f0c0f757e3ff6249025b831c323bbc20d9"
+    },
+    {
+      "name": "word/media/image2.png",
+      "size": 60951,
+      "sha256": "5d8a48d8dc520a7cf86ae5bf477c301b2bf610d31225337793c5a570cb3bc8f2"
+    },
+    {
+      "name": "word/media/image3.png",
+      "size": 270025,
+      "sha256": "6f60a08a6eaa6f363d2acd0fcf855da9c3cb22d88eadb7adf16087d9915ef15b"
+    },
+    {
+      "name": "word/media/image4.png",
+      "size": 339356,
+      "sha256": "c430601bd895dd903204887278f7657be3f5c21b7e48dd1df411cc05ebb444f4"
+    },
+    {
+      "name": "word/media/image5.png",
+      "size": 330385,
+      "sha256": "2928a719c0f94ee9bc89a7d58b9a3061faec9f67eb7d5cccccf335bdd0e95f31"
+    },
+    {
+      "name": "word/media/image6.png",
+      "size": 272395,
+      "sha256": "69f4be3110dc7a63cc507b43e21c1a4e5cacc02c0d11285b814b834082127894"
+    },
+    {
+      "name": "word/media/image7.png",
+      "size": 321130,
+      "sha256": "27c8c6adcc86403c9684b90f78815c9595e5596a72aaf5c7039e122453686a94"
+    },
+    {
+      "name": "word/media/image8.png",
+      "size": 325812,
+      "sha256": "9a0e2fe5f80b23152a59fe5f45a4d226afc2230e5d994e6130661b14eef98dee"
+    }
+  ],
+  "math_count": 65,
+  "insertions": 0,
+  "deletions": 0,
+  "comments": 0
+}

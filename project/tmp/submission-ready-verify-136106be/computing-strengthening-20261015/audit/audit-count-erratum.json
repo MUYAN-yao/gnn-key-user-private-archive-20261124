@@ -1,0 +1,8 @@
+{
+  "original_file": "audit-and-preflight.json",
+  "field": "tests[1]",
+  "reported_count": 324,
+  "correct_count": 108,
+  "calculation": "4 worlds * 3 steps * 3 source codes * 3 target codes",
+  "impact": "Label only; all actual checks passed. Frozen original report and manifest remain unmodified."
+}

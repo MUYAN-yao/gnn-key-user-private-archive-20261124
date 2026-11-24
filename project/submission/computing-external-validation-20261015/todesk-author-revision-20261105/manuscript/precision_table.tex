@@ -1,0 +1,15 @@
+\begin{table}[htbp]
+\caption{Post-hoc precision control at $W=1280$, tolerance $10^{-12}$. Difference is versus the archived full-candidate reference; change is versus the default PageRank implementation. Order compares with default PageRank, not full eligibility. These are the original five replicates, not new independent samples.}\label{tab:precision}
+\begin{tabular}{llrrrr}
+\toprule
+Graph & Pool & Difference & Loss (\%) & Change & Order \\
+\midrule
+ca-GrQc & PageRank-4k & 0.02608 & -0.54 & +0.27690 & 0/5 \\
+ca-GrQc & PageRank-5\% & 0.00000 & 0.00 & +0.00000 & 5/5 \\
+CollegeMsg & PageRank-4k & -0.90780 & 9.01 & +0.00000 & 5/5 \\
+CollegeMsg & PageRank-5\% & -0.43094 & 4.28 & +0.00000 & 5/5 \\
+wiki-Vote & PageRank-4k & -41.21970 & 73.96 & -0.52636 & 0/5 \\
+wiki-Vote & PageRank-5\% & -13.63982 & 24.47 & -0.10970 & 3/5 \\
+\bottomrule
+\end{tabular}
+\end{table}

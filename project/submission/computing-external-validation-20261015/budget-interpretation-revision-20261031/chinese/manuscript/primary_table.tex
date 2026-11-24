@@ -1,0 +1,13 @@
+\begin{table}[htbp]
+\caption{外部网络在 $W=1280$ 下的结果（五条路径）。Degree-4k 与 PageRank-4k（PR）使用 20 节点候选池；PR 使用默认容差。全候选参照增量传播量为总传播量减去 $k=5$。PR 差值为受限选择减全候选选择的平均传播量；损失以全候选参照的增量传播量为基准。一致性计数指完全相同的有序轨迹。}\label{tab:primary}
+\begin{tabular}{lrrrr}
+\toprule
+网络 & \shortstack{全候选增量\\传播量（节点）} & \shortstack{PR 差值\\（节点）} & \shortstack{PR 损失\\（\%）} & \shortstack{Degree\\一致性} \\
+\midrule
+ca-GrQc & 4.934 & -0.25082 & 5.07 & 5/5 \\
+CollegeMsg & 10.072 & -0.90780 & 9.01 & 5/5 \\
+wiki-Vote & 55.736 & -40.69334 & 73.01 & 5/5 \\
+\bottomrule
+\end{tabular}
+\par\smallskip\footnotesize 一致性表示五条路径中匹配的轨迹数量。
+\end{table}

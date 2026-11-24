@@ -1,0 +1,121 @@
+{
+  "arm": "risk_off",
+  "config": {
+    "seed_count": 2,
+    "horizon": 4,
+    "risk_lambda": 0.0,
+    "community_weight": 0.25,
+    "diffusion_model": "ic",
+    "random_seed": 42,
+    "epochs": 10,
+    "ants": 3,
+    "iterations": 2,
+    "simulations": 20,
+    "train_fraction": 0.6,
+    "optimizer": "robust_greedy",
+    "candidate_pool_size": 120
+  },
+  "reporting_objective": {
+    "risk_lambda": 0.35,
+    "community_weight": 0.25
+  },
+  "reproducibility": {
+    "random_seed": 42,
+    "train_fraction": 0.6,
+    "achieved_outer_train_fraction": 0.5999611466068037,
+    "window_rows": {
+      "history": 17787,
+      "supervised": 4448,
+      "calibration": 5560,
+      "outer_test": 18533
+    },
+    "encoder_history_cutoff": "2012-07-02T22:24:31+00:00",
+    "supervised_cutoff": "2012-07-03T05:11:13+00:00",
+    "calibration_cutoff": "2012-07-03T09:52:56+00:00",
+    "outer_test_start": "2012-07-03T09:53:03+00:00",
+    "evaluation_protocol": "common_random_numbers",
+    "probability_protocol": "v2_t0b_timestamp_grouped_isotonic",
+    "backend": "torch-geometric GATv2"
+  },
+  "result": {
+    "method": "gnn_guided_objective_ablation_risk_off",
+    "selection_objective": {
+      "top_k": [
+        "88",
+        "677"
+      ],
+      "mean_spread": 2427.2,
+      "spread_std": 310.651,
+      "robust_objective": 2427.7,
+      "community_coverage": 2
+    },
+    "full_objective_evaluation": {
+      "top_k": [
+        "88",
+        "677"
+      ],
+      "mean_spread": 2427.2,
+      "spread_std": 310.651,
+      "robust_objective": 2318.972,
+      "community_coverage": 2
+    },
+    "selection_seconds": 13.034
+  },
+  "objective_decomposition": {
+    "full": {
+      "top_k": [
+        "88",
+        "677"
+      ],
+      "mean_spread": 2427.2,
+      "spread_std": 310.651,
+      "robust_objective": 2318.972,
+      "community_coverage": 2
+    },
+    "risk_off": {
+      "top_k": [
+        "88",
+        "677"
+      ],
+      "mean_spread": 2427.2,
+      "spread_std": 310.651,
+      "robust_objective": 2427.7,
+      "community_coverage": 2
+    },
+    "community_off": {
+      "top_k": [
+        "88",
+        "677"
+      ],
+      "mean_spread": 2427.2,
+      "spread_std": 310.651,
+      "robust_objective": 2318.472,
+      "community_coverage": 2
+    },
+    "spread_only": {
+      "top_k": [
+        "88",
+        "677"
+      ],
+      "mean_spread": 2427.2,
+      "spread_std": 310.651,
+      "robust_objective": 2427.2,
+      "community_coverage": 2
+    }
+  },
+  "reference": {
+    "run_id": "split-0.60-seed-42",
+    "method": "gnn_guided_robust_greedy_v2_t0b",
+    "top_k": [
+      "88",
+      "677"
+    ],
+    "full_objective": {
+      "mean_spread": 2543.45,
+      "spread_std": 316.702,
+      "robust_objective": 2433.104,
+      "community_coverage": 2
+    }
+  },
+  "runtime_seconds": 148.729
+}

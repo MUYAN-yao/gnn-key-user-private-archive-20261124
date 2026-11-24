@@ -1,0 +1,19 @@
+Dear Editors of Computing,
+
+Please consider our manuscript, “Reference Budgets and Ranking Precision in Candidate-Restricted Influence Maximization,” for publication in Computing.
+
+The manuscript addresses a difficulty in evaluating candidate restriction: a measured quality gap depends on a reference solution that is itself estimated, as well as on the numerical ranking that defines seed eligibility. We examine these dependencies through paired selection, separate budget and ranking-precision controls, and independent spread evaluation.
+
+The central finding changes the interpretation of an apparent budget effect. On ca-GrQc, tightening PageRank tolerance removes the default transition from a mean gain to a loss as the reference budget increases, while budget-dependent seed changes remain. PageRank losses persist on the two directed networks. Further comparisons distinguish reference-set changes from their spread consequences and identify degree-based pools that preserve the tested highest-budget reference trajectories at lower measured selection cost. The paper explains what these findings imply for judging a reported quality--cost trade-off.
+
+We consider this study relevant to Computing because it examines the interaction between numerical computation and the evaluation of network algorithms. The evidence comes from a small selected network sample. Three external topologies form the main comparison; four small contact graphs provide separate historical sensitivity controls. The manuscript retains unfavorable outcomes, identifies the precision analysis as post-hoc, and specifies the limits of the network, parameter and timing coverage. Reproducibility materials include source snapshots, configurations, saved outputs, analysis tables and validation records.
+
+All authors have read and approved the manuscript and agreed to its submission to Computing. The authors declare no competing interests. This work was supported by a provincial undergraduate innovation and entrepreneurship training project. Third-party raw datasets are not redistributed; source records, expected hashes and download/preprocessing instructions are provided. The reproducibility materials accompany the submission for editorial and peer-review access.
+
+Sincerely,
+
+Binbin Yong
+Corresponding author
+School of Information Science and Engineering, Lanzhou University
+Lanzhou 730000, China
+yongbb14@lzu.edu.cn

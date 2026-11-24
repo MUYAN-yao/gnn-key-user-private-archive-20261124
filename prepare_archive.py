@@ -21,7 +21,10 @@ def suspect(data, name, depth=0):
                     if not i.is_dir():
                         found=suspect(z.read(i),i.filename,depth+1)
                         if found: return 'archive member: '+i.filename+'; '+found
-        except (zipfile.BadZipFile,RuntimeError): return 'archive could not be inspected'
+        except zipfile.BadZipFile:
+            if data.lstrip().lower().startswith((b'<!doctype html',b'<html')):return None
+            return 'archive could not be inspected'
+        except RuntimeError:return 'archive could not be inspected'
     return None
 
 def main():

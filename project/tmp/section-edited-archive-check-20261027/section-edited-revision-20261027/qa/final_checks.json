@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "revision": "section-edited-revision-20261027",
+  "main_pages": 15,
+  "supplement_pages": 26,
+  "main_pdf_sha256": "ad1602b7f8d284121da81b1e08e8e2ae604026b0da0a984c8e5df26b3d7649f5",
+  "supplement_pdf_sha256": "c6d4a89b38249d02c5be8b4b934df9c93673c9e3d65838c833b35ead1b7279b4",
+  "methods_settings_results_numeric_tokens": "unchanged, excluding method-name repetitions",
+  "methods_settings_math": "unchanged",
+  "protected_figures_tables_analysis": 45,
+  "author_declarations": "unchanged",
+  "bibliography": "same entries and metadata; reordered by first citation",
+  "new_experiments": false,
+  "analysis_regeneration": false,
+  "scope": "Section-specific language revision; inherited raw-result validation is stored under evidence/."
+}

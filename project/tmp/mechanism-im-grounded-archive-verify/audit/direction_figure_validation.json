@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "native_visio": {
+    "path": "figures\\wiki_vote_candidate_coverage_mechanism_v2.vsdx",
+    "shape_count": 89,
+    "embedded_media": []
+  },
+  "vector_pdf": {
+    "path": "manuscript\\FigDirectionMechanism.pdf",
+    "raster_images": 0,
+    "width_mm": 119,
+    "height_mm": 66.6399999830458
+  },
+  "numeric_sources": {
+    "full_incremental_spread_mean": 55.73602000000001,
+    "pagerank_incremental_spread_mean": 15.04268,
+    "pagerank_delta_mean": -40.69334,
+    "pagerank_loss_percent_mean": 73.01069737882713
+  }
+}

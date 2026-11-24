@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "archive": "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-historical-evidence-revision-20261027.zip",
+  "sha256": "e666d82d3975ac15a3e54106aef16e29d7b0d911978c222846c65be4a86b3b7c",
+  "bytes": 13542285,
+  "files_verified_after_actual_extraction": 150,
+  "extraction_directory": "D:\\校创\\基于GNN的关键用户识别\\tmp\\historical-evidence-archive-check-20261027",
+  "third_party_raw_data_included": false,
+  "frozen_experiment_results_duplicated": false,
+  "new_experiments_executed": false
+}

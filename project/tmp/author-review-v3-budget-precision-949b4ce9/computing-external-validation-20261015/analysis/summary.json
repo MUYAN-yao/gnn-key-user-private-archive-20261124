@@ -1,0 +1,26 @@
+{
+  "validation": {
+    "status": "pass",
+    "conditions_json": 54,
+    "conditions_npz": 54,
+    "errors": [],
+    "source_manifest_sha256": "742047348d1da77fd7a68d33ae26cb53ce3a2b08e43e22b0d621be0363f687e6"
+  },
+  "conditions": 54,
+  "arms": 468,
+  "resolution_path_rows": 390,
+  "summary_file": "analysis/summary_by_method.csv",
+  "transition_file": "analysis/full_reference_transitions.csv",
+  "methods": [
+    "degree_4k",
+    "degree_5pct",
+    "full",
+    "history_weighted_4k",
+    "history_weighted_5pct",
+    "pagerank_4k",
+    "pagerank_5pct",
+    "random0_4k",
+    "random1_4k",
+    "random2_4k"
+  ]
+}

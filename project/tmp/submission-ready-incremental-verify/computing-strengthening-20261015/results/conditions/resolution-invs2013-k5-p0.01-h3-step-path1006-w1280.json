@@ -1,0 +1,806 @@
+{
+  "config": {
+    "stage": "resolution",
+    "dataset": "invs2013",
+    "path": 1006,
+    "W": 1280,
+    "k": 5,
+    "p": 0.01,
+    "h": 3,
+    "coupling": "step"
+  },
+  "source_manifest_sha256": "d2ece59609e65a342881390c61f6873a6ba7831c53c6143907ee0b17edb5dd99",
+  "graph": {
+    "n": 91,
+    "m": 1238,
+    "dataset": "invs2013",
+    "kind": "historical contact-derived; simulated diffusion only",
+    "history_cutoff": "2000-01-09T14:04:00+00:00",
+    "timestamp_group_count": 7104,
+    "input_sha256": {
+      "nodes.csv": "2b57a4e8982eb5c048373959dddeb571713b4bae603176df50364665623dfce9",
+      "edges.csv": "20c84d59465276fe3e79bc411d156e365baa71d72020b1dffb7f82cce654ea85",
+      "cascades.csv": "0fdf9458a5ef3ae500c40f76968537b66cff8d3fc1781f2a0305e294c1436d58",
+      "data_card.json": "a092d8c3cea82bf7298da838643db2abe68c8b8e30d9a2a3c00be8e5e5ad07ff"
+    },
+    "graph_sha256": "c5ccc902ebb64eeb4a38ab83bcca98bd7a7bfdc59e4f60f9b6a4e5eed5fe54ca"
+  },
+  "selection_world_sha256": "3bc4355705404a4e8b28521b52f06e836e5736de0e0a79bc153ce94d79240229",
+  "evaluation_world_sha256": "eda77c7cc58324f018598ee836f57ee167c5da2675aa0af980af136656f41594",
+  "evaluation_world_count": 10000,
+  "preparation_seconds": 0.0687538999991375,
+  "world_preparation_seconds": 0.1805342000006931,
+  "order": [
+    "pagerank_4k",
+    "weighted_8k",
+    "degree_4k",
+    "random0_4k",
+    "weighted_4k",
+    "random1_4k",
+    "full",
+    "random2_4k",
+    "weighted_2k"
+  ],
+  "arms": {
+    "pagerank_4k": {
+      "selected": [
+        "311",
+        "804",
+        "95",
+        "134",
+        "63"
+      ],
+      "candidate_ids": [
+        "102",
+        "116",
+        "120",
+        "134",
+        "150",
+        "194",
+        "222",
+        "223",
+        "265",
+        "267",
+        "275",
+        "29",
+        "311",
+        "56",
+        "63",
+        "662",
+        "80",
+        "804",
+        "826",
+        "95"
+      ],
+      "candidate_count": 20,
+      "coverage": 0.21978021978021978,
+      "full_pool": false,
+      "mean_spread": 6.5581,
+      "incremental_spread": 1.5580999999999996,
+      "selection_seconds": 0.05026960000395775,
+      "evaluation_seconds": 0.010152599999855738,
+      "ranking_seconds": 0.00468179999734275,
+      "trace": [
+        {
+          "winner": "311",
+          "total": 1767,
+          "ties": 1,
+          "margin": 0.00859375
+        },
+        {
+          "winner": "804",
+          "total": 3513,
+          "ties": 1,
+          "margin": 0.0296875
+        },
+        {
+          "winner": "95",
+          "total": 5213,
+          "ties": 1,
+          "margin": 0.040625
+        },
+        {
+          "winner": "134",
+          "total": 6855,
+          "ties": 1,
+          "margin": 0.0421875
+        },
+        {
+          "winner": "63",
+          "total": 8439,
+          "ties": 1,
+          "margin": 0.01171875
+        }
+      ],
+      "delta": 0.0,
+      "mc_se": 0.0,
+      "same_order": true,
+      "same_set": true
+    },
+    "weighted_8k": {
+      "selected": [
+        "311",
+        "804",
+        "95",
+        "63",
+        "826"
+      ],
+      "candidate_ids": [
+        "101",
+        "105",
+        "113",
+        "119",
+        "120",
+        "122",
+        "123",
+        "131",
+        "15",
+        "150",
+        "153",
+        "179",
+        "184",
+        "194",
+        "205",
+        "222",
+        "223",
+        "253",
+        "265",
+        "267",
+        "268",
+        "271",
+        "311",
+        "39",
+        "481",
+        "492",
+        "494",
+        "496",
+        "50",
+        "533",
+        "56",
+        "601",
+        "63",
+        "709",
+        "751",
+        "765",
+        "778",
+        "804",
+        "826",
+        "95"
+      ],
+      "candidate_count": 40,
+      "coverage": 0.43956043956043955,
+      "full_pool": false,
+      "mean_spread": 6.5322,
+      "incremental_spread": 1.5321999999999996,
+      "selection_seconds": 0.12818479999987176,
+      "evaluation_seconds": 0.008387000001675915,
+      "ranking_seconds": 3.9200000173877925e-05,
+      "trace": [
+        {
+          "winner": "311",
+          "total": 1767,
+          "ties": 1,
+          "margin": 0.00859375
+        },
+        {
+          "winner": "804",
+          "total": 3513,
+          "ties": 1,
+          "margin": 0.0296875
+        },
+        {
+          "winner": "95",
+          "total": 5213,
+          "ties": 1,
+          "margin": 0.05703125
+        },
+        {
+          "winner": "63",
+          "total": 6801,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "826",
+          "total": 8374,
+          "ties": 1,
+          "margin": 0.01328125
+        }
+      ],
+      "delta": -0.0259,
+      "mc_se": 0.008548112424541588,
+      "same_order": false,
+      "same_set": false
+    },
+    "degree_4k": {
+      "selected": [
+        "311",
+        "804",
+        "95",
+        "134",
+        "63"
+      ],
+      "candidate_ids": [
+        "102",
+        "116",
+        "120",
+        "134",
+        "150",
+        "194",
+        "222",
+        "223",
+        "265",
+        "267",
+        "275",
+        "29",
+        "311",
+        "56",
+        "63",
+        "662",
+        "80",
+        "804",
+        "826",
+        "95"
+      ],
+      "candidate_count": 20,
+      "coverage": 0.21978021978021978,
+      "full_pool": false,
+      "mean_spread": 6.5581,
+      "incremental_spread": 1.5580999999999996,
+      "selection_seconds": 0.06397840000136057,
+      "evaluation_seconds": 0.00862819999747444,
+      "ranking_seconds": 4.410000110510737e-05,
+      "trace": [
+        {
+          "winner": "311",
+          "total": 1767,
+          "ties": 1,
+          "margin": 0.00859375
+        },
+        {
+          "winner": "804",
+          "total": 3513,
+          "ties": 1,
+          "margin": 0.0296875
+        },
+        {
+          "winner": "95",
+          "total": 5213,
+          "ties": 1,
+          "margin": 0.040625
+        },
+        {
+          "winner": "134",
+          "total": 6855,
+          "ties": 1,
+          "margin": 0.0421875
+        },
+        {
+          "winner": "63",
+          "total": 8439,
+          "ties": 1,
+          "margin": 0.01171875
+        }
+      ],
+      "delta": 0.0,
+      "mc_se": 0.0,
+      "same_order": true,
+      "same_set": true
+    },
+    "random0_4k": {
+      "selected": [
+        "804",
+        "826",
+        "120",
+        "56",
+        "223"
+      ],
+      "candidate_ids": [
+        "119",
+        "120",
+        "131",
+        "17",
+        "205",
+        "210",
+        "223",
+        "240",
+        "271",
+        "272",
+        "35",
+        "39",
+        "494",
+        "56",
+        "601",
+        "751",
+        "786",
+        "804",
+        "826",
+        "938"
+      ],
+      "candidate_count": 20,
+      "coverage": 0.21978021978021978,
+      "full_pool": false,
+      "mean_spread": 6.328,
+      "incremental_spread": 1.3280000000000003,
+      "selection_seconds": 0.04786030000104802,
+      "evaluation_seconds": 0.008257000001322012,
+      "ranking_seconds": 0.0001421999986632727,
+      "trace": [
+        {
+          "winner": "804",
+          "total": 1753,
+          "ties": 1,
+          "margin": 0.06640625
+        },
+        {
+          "winner": "826",
+          "total": 3371,
+          "ties": 1,
+          "margin": 0.0234375
+        },
+        {
+          "winner": "120",
+          "total": 4955,
+          "ties": 1,
+          "margin": 0.00859375
+        },
+        {
+          "winner": "56",
+          "total": 6503,
+          "ties": 1,
+          "margin": 0.00546875
+        },
+        {
+          "winner": "223",
+          "total": 8042,
+          "ties": 1,
+          "margin": 0.00703125
+        }
+      ],
+      "delta": -0.2301,
+      "mc_se": 0.016950638082772616,
+      "same_order": false,
+      "same_set": false
+    },
+    "weighted_4k": {
+      "selected": [
+        "311",
+        "804",
+        "95",
+        "63",
+        "267"
+      ],
+      "candidate_ids": [
+        "101",
+        "120",
+        "123",
+        "150",
+        "153",
+        "179",
+        "184",
+        "223",
+        "267",
+        "271",
+        "311",
+        "481",
+        "492",
+        "494",
+        "496",
+        "533",
+        "63",
+        "751",
+        "804",
+        "95"
+      ],
+      "candidate_count": 20,
+      "coverage": 0.21978021978021978,
+      "full_pool": false,
+      "mean_spread": 6.4985,
+      "incremental_spread": 1.4985,
+      "selection_seconds": 0.0531425999943167,
+      "evaluation_seconds": 0.00963979999505682,
+      "ranking_seconds": 3.9200000173877925e-05,
+      "trace": [
+        {
+          "winner": "311",
+          "total": 1767,
+          "ties": 1,
+          "margin": 0.00859375
+        },
+        {
+          "winner": "804",
+          "total": 3513,
+          "ties": 1,
+          "margin": 0.0296875
+        },
+        {
+          "winner": "95",
+          "total": 5213,
+          "ties": 1,
+          "margin": 0.05703125
+        },
+        {
+          "winner": "63",
+          "total": 6801,
+          "ties": 1,
+          "margin": 0.0015625
+        },
+        {
+          "winner": "267",
+          "total": 8357,
+          "ties": 1,
+          "margin": 0.03515625
+        }
+      ],
+      "delta": -0.0596,
+      "mc_se": 0.008599545291346617,
+      "same_order": false,
+      "same_set": false
+    },
+    "random1_4k": {
+      "selected": [
+        "134",
+        "826",
+        "120",
+        "223",
+        "335"
+      ],
+      "candidate_ids": [
+        "105",
+        "120",
+        "122",
+        "134",
+        "164",
+        "205",
+        "210",
+        "213",
+        "223",
+        "272",
+        "335",
+        "511",
+        "751",
+        "779",
+        "784",
+        "786",
+        "79",
+        "819",
+        "826",
+        "939"
+      ],
+      "candidate_count": 20,
+      "coverage": 0.21978021978021978,
+      "full_pool": false,
+      "mean_spread": 6.2373,
+      "incremental_spread": 1.2373000000000003,
+      "selection_seconds": 0.04895850000320934,
+      "evaluation_seconds": 0.00798130000475794,
+      "ranking_seconds": 4.709999484475702e-05,
+      "trace": [
+        {
+          "winner": "134",
+          "total": 1679,
+          "ties": 1,
+          "margin": 0.00859375
+        },
+        {
+          "winner": "826",
+          "total": 3341,
+          "ties": 1,
+          "margin": 0.05859375
+        },
+        {
+          "winner": "120",
+          "total": 4924,
+          "ties": 1,
+          "margin": 0.01171875
+        },
+        {
+          "winner": "223",
+          "total": 6460,
+          "ties": 1,
+          "margin": 0.021875
+        },
+        {
+          "winner": "335",
+          "total": 7964,
+          "ties": 1,
+          "margin": 0.00234375
+        }
+      ],
+      "delta": -0.3208,
+      "mc_se": 0.016968132712610873,
+      "same_order": false,
+      "same_set": false
+    },
+    "full": {
+      "selected": [
+        "311",
+        "804",
+        "95",
+        "134",
+        "63"
+      ],
+      "candidate_ids": [
+        "101",
+        "102",
+        "105",
+        "113",
+        "116",
+        "118",
+        "119",
+        "120",
+        "122",
+        "123",
+        "131",
+        "132",
+        "134",
+        "15",
+        "150",
+        "153",
+        "154",
+        "164",
+        "17",
+        "172",
+        "179",
+        "181",
+        "184",
+        "185",
+        "194",
+        "196",
+        "205",
+        "209",
+        "21",
+        "210",
+        "211",
+        "213",
+        "222",
+        "223",
+        "240",
+        "242",
+        "253",
+        "255",
+        "265",
+        "267",
+        "268",
+        "271",
+        "272",
+        "273",
+        "275",
+        "285",
+        "29",
+        "311",
+        "335",
+        "35",
+        "39",
+        "431",
+        "448",
+        "48",
+        "481",
+        "492",
+        "494",
+        "496",
+        "499",
+        "50",
+        "511",
+        "513",
+        "533",
+        "56",
+        "601",
+        "603",
+        "63",
+        "66",
+        "662",
+        "709",
+        "743",
+        "751",
+        "762",
+        "765",
+        "771",
+        "778",
+        "779",
+        "784",
+        "786",
+        "79",
+        "791",
+        "80",
+        "804",
+        "819",
+        "826",
+        "845",
+        "875",
+        "938",
+        "939",
+        "95",
+        "987"
+      ],
+      "candidate_count": 91,
+      "coverage": 1.0,
+      "full_pool": true,
+      "mean_spread": 6.5581,
+      "incremental_spread": 1.5580999999999996,
+      "selection_seconds": 0.2379471000022022,
+      "evaluation_seconds": 0.008663100001285784,
+      "ranking_seconds": 0.0,
+      "trace": [
+        {
+          "winner": "311",
+          "total": 1767,
+          "ties": 1,
+          "margin": 0.00859375
+        },
+        {
+          "winner": "804",
+          "total": 3513,
+          "ties": 1,
+          "margin": 0.0296875
+        },
+        {
+          "winner": "95",
+          "total": 5213,
+          "ties": 1,
+          "margin": 0.040625
+        },
+        {
+          "winner": "134",
+          "total": 6855,
+          "ties": 1,
+          "margin": 0.0421875
+        },
+        {
+          "winner": "63",
+          "total": 8439,
+          "ties": 1,
+          "margin": 0.01171875
+        }
+      ],
+      "delta": 0.0,
+      "mc_se": 0.0,
+      "same_order": true,
+      "same_set": true
+    },
+    "random2_4k": {
+      "selected": [
+        "804",
+        "826",
+        "194",
+        "150",
+        "431"
+      ],
+      "candidate_ids": [
+        "101",
+        "113",
+        "131",
+        "132",
+        "150",
+        "185",
+        "194",
+        "210",
+        "213",
+        "271",
+        "273",
+        "335",
+        "431",
+        "496",
+        "513",
+        "771",
+        "786",
+        "79",
+        "804",
+        "826"
+      ],
+      "candidate_count": 20,
+      "coverage": 0.21978021978021978,
+      "full_pool": false,
+      "mean_spread": 6.1991,
+      "incremental_spread": 1.1990999999999996,
+      "selection_seconds": 0.04819560000032652,
+      "evaluation_seconds": 0.008074299999861978,
+      "ranking_seconds": 4.150000313529745e-05,
+      "trace": [
+        {
+          "winner": "804",
+          "total": 1753,
+          "ties": 1,
+          "margin": 0.06640625
+        },
+        {
+          "winner": "826",
+          "total": 3371,
+          "ties": 1,
+          "margin": 0.0390625
+        },
+        {
+          "winner": "194",
+          "total": 4938,
+          "ties": 1,
+          "margin": 0.01875
+        },
+        {
+          "winner": "150",
+          "total": 6479,
+          "ties": 1,
+          "margin": 0.00625
+        },
+        {
+          "winner": "431",
+          "total": 7996,
+          "ties": 1,
+          "margin": 0.0046875
+        }
+      ],
+      "delta": -0.359,
+      "mc_se": 0.016358443075854944,
+      "same_order": false,
+      "same_set": false
+    },
+    "weighted_2k": {
+      "selected": [
+        "311",
+        "95",
+        "63",
+        "150",
+        "120"
+      ],
+      "candidate_ids": [
+        "101",
+        "120",
+        "123",
+        "150",
+        "153",
+        "271",
+        "311",
+        "481",
+        "63",
+        "95"
+      ],
+      "candidate_count": 10,
+      "coverage": 0.10989010989010989,
+      "full_pool": false,
+      "mean_spread": 6.3381,
+      "incremental_spread": 1.3380999999999998,
+      "selection_seconds": 0.019951599999330938,
+      "evaluation_seconds": 0.00787770000169985,
+      "ranking_seconds": 3.9200000173877925e-05,
+      "trace": [
+        {
+          "winner": "311",
+          "total": 1767,
+          "ties": 1,
+          "margin": 0.00859375
+        },
+        {
+          "winner": "95",
+          "total": 3475,
+          "ties": 1,
+          "margin": 0.065625
+        },
+        {
+          "winner": "63",
+          "total": 5064,
+          "ties": 1,
+          "margin": 0.00703125
+        },
+        {
+          "winner": "150",
+          "total": 6607,
+          "ties": 1,
+          "margin": 0.0234375
+        },
+        {
+          "winner": "120",
+          "total": 8120,
+          "ties": 1,
+          "margin": 0.03515625
+        }
+      ],
+      "delta": -0.22,
+      "mc_se": 0.0117027217077711,
+      "same_order": false,
+      "same_set": false
+    }
+  },
+  "timing_repeats": [],
+  "array_sha256": "31861cdf457ac25730c3df89525d7ee080f705dd4242627c39dac0bc95822c07",
+  "elapsed_seconds": 1.0503097000037087,
+  "peak_working_set_bytes": 257929216
+}

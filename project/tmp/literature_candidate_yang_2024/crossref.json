@@ -1,0 +1,651 @@
+﻿{
+    "indexed":  {
+                    "date-parts":  [
+                                       [
+                                           2026,
+                                           8,
+                                           18
+                                       ]
+                                   ],
+                    "date-time":  "2026-08-18T04:43:02Z",
+                    "timestamp":  1787028182591,
+                    "version":  "3.56.0"
+                },
+    "reference-count":  41,
+    "publisher":  "MDPI AG",
+    "issue":  "13",
+    "license":  [
+                    {
+                        "start":  {
+                                      "date-parts":  [
+                                                         [
+                                                             2024,
+                                                             6,
+                                                             27
+                                                         ]
+                                                     ],
+                                      "date-time":  "2024-06-27T00:00:00Z",
+                                      "timestamp":  1719446400000
+                                  },
+                        "content-version":  "vor",
+                        "delay-in-days":  0,
+                        "URL":  "https://creativecommons.org/licenses/by/4.0/"
+                    }
+                ],
+    "funder":  [
+                   {
+                       "name":  "Fundamental Research Funds for the Universities of Heilongjiang",
+                       "award":  [
+                                     "135509234"
+                                 ],
+                       "award-info":  [
+                                          {
+                                              "award-number":  [
+                                                                   "135509234"
+                                                               ]
+                                          }
+                                      ]
+                   },
+                   {
+                       "name":  "Fundamental Research Funds for the Universities of Heilongjiang",
+                       "award":  [
+                                     "145109217"
+                                 ],
+                       "award-info":  [
+                                          {
+                                              "award-number":  [
+                                                                   "145109217"
+                                                               ]
+                                          }
+                                      ]
+                   },
+                   {
+                       "name":  "Fundamental Research Funds for the Universities of Heilongjiang",
+                       "award":  [
+                                     "135509234"
+                                 ],
+                       "award-info":  [
+                                          {
+                                              "award-number":  [
+                                                                   "135509234"
+                                                               ]
+                                          }
+                                      ]
+                   },
+                   {
+                       "name":  "Fundamental Research Funds for the Universities of Heilongjiang",
+                       "award":  [
+                                     "145109217"
+                                 ],
+                       "award-info":  [
+                                          {
+                                              "award-number":  [
+                                                                   "145109217"
+                                                               ]
+                                          }
+                                      ]
+                   }
+               ],
+    "content-domain":  {
+                           "domain":  [
+
+                                      ],
+                           "crossmark-restriction":  false
+                       },
+    "short-container-title":  [
+                                  "Electronics"
+                              ],
+    "abstract":  "\u003cjats:p\u003eThe study of influence maximizing in temporal social networks (IMT) is an important aspect of influence maximization (IM) research. Currently, two main types of algorithms can solve the IMT problem: greedy-based algorithms and heuristic-based algorithms. However, the greedy-based algorithm is too time-consuming to be used in practice, and most existing heuristic methods do not consider the attributes of nodes, resulting in these methods being unable to solve the IMT problem. Therefore, this paper proposes a mixed k-shell (MKS) algorithm, which considers nodes’ local and global attributes to characterize their influence and select seed nodes. At the local level, we consider the degree centrality of nodes, and at the global level, we propose the temporal k-shell decomposition (TKS) algorithm. Ultimately, the influence of a node is determined by combining the influence of itself and its neighbors. Experiments on four real temporal social networks show that MKS performs better in effectiveness than other heuristic baselines and can maintain a balance between effectiveness and efficiency, providing a useful solution for solving the IMT problem.\u003c/jats:p\u003e",
+    "DOI":  "10.3390/electronics13132533",
+    "type":  "journal-article",
+    "created":  {
+                    "date-parts":  [
+                                       [
+                                           2024,
+                                           6,
+                                           27
+                                       ]
+                                   ],
+                    "date-time":  "2024-06-27T11:19:02Z",
+                    "timestamp":  1719487142000
+                },
+    "page":  "2533",
+    "update-policy":  "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source":  "Crossref",
+    "is-referenced-by-count":  6,
+    "title":  [
+                  "Influence Maximization in Temporal Social Networks with the Mixed K-Shell Method"
+              ],
+    "prefix":  "10.3390",
+    "volume":  "13",
+    "author":  [
+                   {
+                       "given":  "Shuangshuang",
+                       "family":  "Yang",
+                       "sequence":  "first",
+                       "affiliation":  [
+                                           {
+                                               "name":  "College of Teacher Education, Qiqihar University, Qiqihar 161006, China"
+                                           }
+                                       ],
+                       "role":  [
+                                    {
+                                        "vocabulary":  "crossref",
+                                        "role":  "author"
+                                    }
+                                ]
+                   },
+                   {
+                       "ORCID":  "https://orcid.org/0009-0000-4827-0497",
+                       "authenticated-orcid":  false,
+                       "given":  "Wenlong",
+                       "family":  "Zhu",
+                       "sequence":  "additional",
+                       "affiliation":  [
+                                           {
+                                               "name":  "College of Computer and Control Engineering, Qiqihar University, Qiqihar 161006, China"
+                                           },
+                                           {
+                                               "name":  "Heilongjiang Key Laboratory of Big Data Network Security Detection and Analysis, Qiqihar University, Qiqihar 161006, China"
+                                           }
+                                       ],
+                       "role":  [
+                                    {
+                                        "vocabulary":  "crossref",
+                                        "role":  "author"
+                                    }
+                                ]
+                   },
+                   {
+                       "given":  "Kaijing",
+                       "family":  "Zhang",
+                       "sequence":  "additional",
+                       "affiliation":  [
+                                           {
+                                               "name":  "College of Computer and Control Engineering, Qiqihar University, Qiqihar 161006, China"
+                                           }
+                                       ],
+                       "role":  [
+                                    {
+                                        "vocabulary":  "crossref",
+                                        "role":  "author"
+                                    }
+                                ]
+                   },
+                   {
+                       "given":  "Yingchun",
+                       "family":  "Diao",
+                       "sequence":  "additional",
+                       "affiliation":  [
+                                           {
+                                               "name":  "College of Computer and Control Engineering, Qiqihar University, Qiqihar 161006, China"
+                                           }
+                                       ],
+                       "role":  [
+                                    {
+                                        "vocabulary":  "crossref",
+                                        "role":  "author"
+                                    }
+                                ]
+                   },
+                   {
+                       "given":  "Yufan",
+                       "family":  "Bai",
+                       "sequence":  "additional",
+                       "affiliation":  [
+                                           {
+                                               "name":  "College of Computer and Control Engineering, Qiqihar University, Qiqihar 161006, China"
+                                           }
+                                       ],
+                       "role":  [
+                                    {
+                                        "vocabulary":  "crossref",
+                                        "role":  "author"
+                                    }
+                                ]
+                   }
+               ],
+    "member":  "1968",
+    "published-online":  {
+                             "date-parts":  [
+                                                [
+                                                    2024,
+                                                    6,
+                                                    27
+                                                ]
+                                            ]
+                         },
+    "reference":  [
+                      {
+                          "key":  "ref_1",
+                          "doi-asserted-by":  "crossref",
+                          "unstructured":  "Molaei, R., Rahsepar Fard, K., and Bouyer, A. (Big Data, 2023). An Improved Influence Maximization Method for Online Advertising in Social Internet of Things, Big Data, online ahead of print.",
+                          "DOI":  "10.1089/big.2023.0042"
+                      },
+                      {
+                          "key":  "ref_2",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "6",
+                          "DOI":  "10.1007/s41109-018-0062-7",
+                          "article-title":  "Modeling and Maximizing Influence Diffusion in Social Networks for Viral Marketing",
+                          "volume":  "3",
+                          "author":  "Wang",
+                          "year":  "2018",
+                          "journal-title":  "Appl. Netw. Sci."
+                      },
+                      {
+                          "key":  "ref_3",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "4578",
+                          "DOI":  "10.1109/TSMC.2021.3098630",
+                          "article-title":  "Temporal Rumor Blocking in Online Social Networks: A Sampling-Based Approach",
+                          "volume":  "52",
+                          "author":  "Manouchehri",
+                          "year":  "2022",
+                          "journal-title":  "IEEE Trans. Syst. Man Cybern. Syst."
+                      },
+                      {
+                          "key":  "ref_4",
+                          "first-page":  "2647",
+                          "article-title":  "Research on algorithms for maximizing influence of large-scale time series diagrams",
+                          "volume":  "42",
+                          "author":  "Wu",
+                          "year":  "2019",
+                          "journal-title":  "Chin. J. Comput."
+                      },
+                      {
+                          "key":  "ref_5",
+                          "doi-asserted-by":  "crossref",
+                          "unstructured":  "Chen, W., Yuan, Y., and Zhang, L. (2010, January 13–17). Scalable Influence Maximization in Social Networks under the Linear Threshold Model. Proceedings of the 2010 IEEE International Conference on Data Mining, Sydney, Australia.",
+                          "DOI":  "10.1109/ICDM.2010.118"
+                      },
+                      {
+                          "key":  "ref_6",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "113",
+                          "DOI":  "10.1080/0022250X.1972.9989806",
+                          "article-title":  "Factoring and Weighting Approaches to Status Scores and Clique Identification",
+                          "volume":  "2",
+                          "author":  "Bonacich",
+                          "year":  "1972",
+                          "journal-title":  "J. Math. Sociol."
+                      },
+                      {
+                          "key":  "ref_7",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "083152",
+                          "DOI":  "10.1063/5.0156226",
+                          "article-title":  "Can the PageRank Centrality Be Manipulated to Obtain Any Desired Ranking?",
+                          "volume":  "33",
+                          "author":  "Criado",
+                          "year":  "2023",
+                          "journal-title":  "Chaos Woodbury N. Y."
+                      },
+                      {
+                          "key":  "ref_8",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "39",
+                          "DOI":  "10.1016/j.socnet.2004.11.009",
+                          "article-title":  "A Measure of Betweenness Centrality Based on Random Walks",
+                          "volume":  "27",
+                          "author":  "Newman",
+                          "year":  "2005",
+                          "journal-title":  "Soc. Netw."
+                      },
+                      {
+                          "key":  "ref_9",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "29",
+                          "DOI":  "10.1145/3604912",
+                          "article-title":  "Closeness Centrality on Uncertain Graphs",
+                          "volume":  "17",
+                          "author":  "Liu",
+                          "year":  "2023",
+                          "journal-title":  "ACM Trans. Web"
+                      },
+                      {
+                          "key":  "ref_10",
+                          "doi-asserted-by":  "crossref",
+                          "unstructured":  "Wang, H., Li, M., and Chen, X.-B. (SSRN Electron. J., 2022). Influential Spreaders Identification in Complex Networks with Improved Hybrid K-Shell Method, SSRN Electron. J., preprint.",
+                          "DOI":  "10.2139/ssrn.4150383"
+                      },
+                      {
+                          "key":  "ref_11",
+                          "first-page":  "3111",
+                          "article-title":  "An Influence Maximization Algorithm Based on Improved K-Shell in Temporal Social Networks",
+                          "volume":  "75",
+                          "author":  "Zhu",
+                          "year":  "2023",
+                          "journal-title":  "Comput. Mater. Contin."
+                      },
+                      {
+                          "key":  "ref_12",
+                          "doi-asserted-by":  "crossref",
+                          "unstructured":  "Domingos, P., and Richardson, M. (2001, January 26). Mining the Network Value of Customers. Proceedings of the Seventh ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, San Francisco, CA, USA.",
+                          "DOI":  "10.1145/502512.502525"
+                      },
+                      {
+                          "key":  "ref_13",
+                          "doi-asserted-by":  "crossref",
+                          "unstructured":  "Kempe, D., Kleinberg, J., and Tardos, É. (2003, January 24). Maximizing the Spread of Influence through a Social Network. Proceedings of the Ninth ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, Washington, DC, USA.",
+                          "DOI":  "10.1145/956750.956769"
+                      },
+                      {
+                          "key":  "ref_14",
+                          "doi-asserted-by":  "crossref",
+                          "unstructured":  "Leskovec, J., Krause, A., Guestrin, C., Faloutsos, C., VanBriesen, J., and Glance, N. (2007, January 12). Cost-Effective Outbreak Detection in Networks. Proceedings of the 13th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, San Jose, CA, USA.",
+                          "DOI":  "10.1145/1281192.1281239"
+                      },
+                      {
+                          "key":  "ref_15",
+                          "doi-asserted-by":  "crossref",
+                          "unstructured":  "Goyal, A., Lu, W., and Lakshmanan, L.V.S. (2011, January 28). CELF++: Optimizing the Greedy Algorithm for Influence Maximization in Social Networks. Proceedings of the 20th International Conference Companion on World Wide Web, Hyderabad, India.",
+                          "DOI":  "10.1145/1963192.1963217"
+                      },
+                      {
+                          "key":  "ref_16",
+                          "doi-asserted-by":  "crossref",
+                          "unstructured":  "Borgs, C., Brautbar, M., Chayes, J., and Lucier, B. (2014, January 5). Maximizing Social Influence in Nearly Optimal Time. Proceedings of the Twenty-Fifth Annual ACM-SIAM Symposium on Discrete Algorithms, Portland, OR, USA.",
+                          "DOI":  "10.1137/1.9781611973402.70"
+                      },
+                      {
+                          "key":  "ref_17",
+                          "doi-asserted-by":  "crossref",
+                          "unstructured":  "Tang, Y., Xiao, X., and Shi, Y. (2014, January 18). Influence Maximization: Near-Optimal Time Complexity Meets Practical Efficiency. Proceedings of the 2014 ACM SIGMOD International Conference on Management of Data, Snowbird, UT, USA.",
+                          "DOI":  "10.1145/2588555.2593670"
+                      },
+                      {
+                          "key":  "ref_18",
+                          "doi-asserted-by":  "crossref",
+                          "unstructured":  "Tang, Y., Shi, Y., and Xiao, X. (2015, January 27). Influence Maximization in Near-Linear Time: A Martingale Approach. Proceedings of the 2015 ACM SIGMOD International Conference on Management of Data, Victoria, Australia.",
+                          "DOI":  "10.1145/2723372.2723734"
+                      },
+                      {
+                          "key":  "ref_19",
+                          "doi-asserted-by":  "crossref",
+                          "unstructured":  "Chen, W., Wang, C., and Wang, Y. (2010, January 25). Scalable Influence Maximization for Prevalent Viral Marketing in Large-Scale Social Networks. Proceedings of the 16th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, Washington, DC, USA.",
+                          "DOI":  "10.1145/1835804.1835934"
+                      },
+                      {
+                          "key":  "ref_20",
+                          "doi-asserted-by":  "crossref",
+                          "unstructured":  "Jung, K., Heo, W., and Chen, W. (2012, January 10–13). IRIE: Scalable and Robust Influence Maximization in Social Networks. Proceedings of the 2012 IEEE 12th International Conference on Data Mining, Brussels, Belgium.",
+                          "DOI":  "10.1109/ICDM.2012.79"
+                      },
+                      {
+                          "key":  "ref_21",
+                          "doi-asserted-by":  "crossref",
+                          "unstructured":  "Chen, W., Wang, Y., and Yang, S. (2009, January 28). Efficient Influence Maximization in Social Networks. Proceedings of the 15th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, Paris, France.",
+                          "DOI":  "10.1145/1557019.1557047"
+                      },
+                      {
+                          "key":  "ref_22",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "296",
+                          "DOI":  "10.1089/big.2022.0165",
+                          "article-title":  "Identifying Influential Nodes in Social Networks: Exploiting Self-Voting Mechanism",
+                          "volume":  "11",
+                          "author":  "Liu",
+                          "year":  "2023",
+                          "journal-title":  "Big Data"
+                      },
+                      {
+                          "key":  "ref_23",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "e16112",
+                          "DOI":  "10.1016/j.heliyon.2023.e16112",
+                          "article-title":  "Influential Nodes Identification Method Based on Adaptive Adjustment of Voting Ability",
+                          "volume":  "9",
+                          "author":  "Wang",
+                          "year":  "2023",
+                          "journal-title":  "Heliyon"
+                      },
+                      {
+                          "key":  "ref_24",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "390",
+                          "DOI":  "10.1016/j.ins.2022.11.041",
+                          "article-title":  "Targeted Influence Maximization in Competitive Social Networks",
+                          "volume":  "619",
+                          "author":  "Liang",
+                          "year":  "2023",
+                          "journal-title":  "Inf. Sci."
+                      },
+                      {
+                          "key":  "ref_25",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "27272",
+                          "DOI":  "10.1109/ACCESS.2019.2900708",
+                          "article-title":  "Location-Based Seeds Selection for Influence Blocking Maximization in Social Networks",
+                          "volume":  "7",
+                          "author":  "Zhu",
+                          "year":  "2019",
+                          "journal-title":  "IEEE Access"
+                      },
+                      {
+                          "key":  "ref_26",
+                          "first-page":  "127721",
+                          "article-title":  "Influence Maximization through Exploring Structural Information",
+                          "volume":  "442",
+                          "author":  "Li",
+                          "year":  "2023",
+                          "journal-title":  "Appl. Math. Comput."
+                      },
+                      {
+                          "key":  "ref_27",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "42052",
+                          "DOI":  "10.1109/ACCESS.2019.2894155",
+                          "article-title":  "Analysis of Influence Maximization in Temporal Social Networks",
+                          "volume":  "7",
+                          "author":  "Liqing",
+                          "year":  "2019",
+                          "journal-title":  "IEEE Access"
+                      },
+                      {
+                          "key":  "ref_28",
+                          "first-page":  "211",
+                          "article-title":  "Research on social network influence maximization algorithm based on time sequential relationship",
+                          "volume":  "41",
+                          "author":  "Chen",
+                          "year":  "2020",
+                          "journal-title":  "J. Commun."
+                      },
+                      {
+                          "key":  "ref_29",
+                          "doi-asserted-by":  "crossref",
+                          "unstructured":  "Wang, J., Fang, H., Li, S., and Jiang, J. (2023, January 14–17). Research on Influence Maximization Algorithm Based on Temporal Social Network. Proceedings of the 2023 IEEE International Conference on Dependable, Autonomic and Secure Computing, Abu Dhabi, United Arab.",
+                          "DOI":  "10.1109/DASC/PiCom/CBDCom/Cy59711.2023.10361488"
+                      },
+                      {
+                          "key":  "ref_30",
+                          "first-page":  "3095",
+                          "article-title":  "Maximizing Influence in Temporal Social Networks: A Node Feature-Aware Voting Algorithm",
+                          "volume":  "77",
+                          "author":  "Zhu",
+                          "year":  "2023",
+                          "journal-title":  "Comput. Mater. Contin."
+                      },
+                      {
+                          "key":  "ref_31",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "128",
+                          "DOI":  "10.1007/s13278-023-01136-2",
+                          "article-title":  "Dense Subgraphs in Temporal Social Networks",
+                          "volume":  "13",
+                          "author":  "Dondi",
+                          "year":  "2023",
+                          "journal-title":  "Soc. Netw. Anal. Min."
+                      },
+                      {
+                          "key":  "ref_32",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "36",
+                          "DOI":  "10.1016/j.neucom.2018.04.086",
+                          "article-title":  "Ranking Nodes in Complex Networks Based on Local Structure and Improving Closeness Centrality",
+                          "volume":  "336",
+                          "author":  "Salavati",
+                          "year":  "2019",
+                          "journal-title":  "Neurocomputing"
+                      },
+                      {
+                          "key":  "ref_33",
+                          "doi-asserted-by":  "crossref",
+                          "unstructured":  "Michalski, R., Jankowski, J., and Pazura, P. (2020, January 3–5). Entropy-Based Measure for Influence Maximization in Temporal Networks. Proceedings of the Computational Science—ICCS 2020: 20th International Conference, Amsterdam, The Netherlands. Proceedings, Part IV.",
+                          "DOI":  "10.1007/978-3-030-50423-6_21"
+                      },
+                      {
+                          "key":  "ref_34",
+                          "doi-asserted-by":  "crossref",
+                          "unstructured":  "Zhang, L., and Li, K. (2022). Influence Maximization Based on Snapshot Prediction in Dynamic Online Social Networks. Mathematics, 10.",
+                          "DOI":  "10.3390/math10081341"
+                      },
+                      {
+                          "key":  "ref_35",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "104689",
+                          "DOI":  "10.1016/j.micpro.2022.104689",
+                          "article-title":  "Dynamic Node Influence Tracking Based Influence Maximization on Dynamic Social Networks",
+                          "volume":  "95",
+                          "author":  "Chandran",
+                          "year":  "2022",
+                          "journal-title":  "Microprocess. Microsyst."
+                      },
+                      {
+                          "key":  "ref_36",
+                          "doi-asserted-by":  "crossref",
+                          "unstructured":  "Kumar, S., Hooi, B., Makhija, D., Kumar, M., Faloutsos, C., and Subrahmanian, V.S. (2018, January 2). REV2: Fraudulent User Prediction in Rating Platforms. Proceedings of the Eleventh ACM International Conference on Web Search and Data Mining, Marina Del Rey, CA, USA.",
+                          "DOI":  "10.1145/3159652.3159729"
+                      },
+                      {
+                          "key":  "ref_37",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "911",
+                          "DOI":  "10.1002/asi.21015",
+                          "article-title":  "Patterns and Dynamics of Users’ Behavior and Interaction: Network Analysis of an Online Community",
+                          "volume":  "60",
+                          "author":  "Panzarasa",
+                          "year":  "2009",
+                          "journal-title":  "J. Am. Soc. Inf. Sci. Technol."
+                      },
+                      {
+                          "key":  "ref_38",
+                          "doi-asserted-by":  "crossref",
+                          "unstructured":  "Paranjape, A., Benson, A.R., and Leskovec, J. (2017, January 2). Motifs in Temporal Networks. Proceedings of the Tenth ACM International Conference on Web Search and Data Mining, Cambridge, UK.",
+                          "DOI":  "10.1145/3018661.3018731"
+                      },
+                      {
+                          "key":  "ref_39",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "307",
+                          "DOI":  "10.1016/j.jretconser.2018.11.008",
+                          "article-title":  "Social Commerce as Social Networking",
+                          "volume":  "47",
+                          "author":  "Doha",
+                          "year":  "2019",
+                          "journal-title":  "J. Retail. Consum. Serv."
+                      },
+                      {
+                          "key":  "ref_40",
+                          "unstructured":  "Anastasiei, B., Dospinescu, N., and Dospinescu, O. (2024). Individual and Product-Related Antecedents of Electronic Word-of-Mouth. arXiv."
+                      },
+                      {
+                          "key":  "ref_41",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "131",
+                          "DOI":  "10.1016/j.ins.2017.10.031",
+                          "article-title":  "Understanding Influence Power of Opinion Leaders in E-Commerce Networks: An Opinion Dynamics Theory Perspective",
+                          "volume":  "426",
+                          "author":  "Zhao",
+                          "year":  "2018",
+                          "journal-title":  "Inf. Sci."
+                      }
+                  ],
+    "container-title":  [
+                            "Electronics"
+                        ],
+    "original-title":  [
+
+                       ],
+    "language":  "en",
+    "link":  [
+                 {
+                     "URL":  "https://www.mdpi.com/2079-9292/13/13/2533/pdf",
+                     "content-type":  "unspecified",
+                     "content-version":  "vor",
+                     "intended-application":  "similarity-checking"
+                 }
+             ],
+    "deposited":  {
+                      "date-parts":  [
+                                         [
+                                             2025,
+                                             10,
+                                             10
+                                         ]
+                                     ],
+                      "date-time":  "2025-10-10T15:06:32Z",
+                      "timestamp":  1760108792000
+                  },
+    "score":  1,
+    "resource":  {
+                     "primary":  {
+                                     "URL":  "https://www.mdpi.com/2079-9292/13/13/2533"
+                                 }
+                 },
+    "subtitle":  [
+
+                 ],
+    "short-title":  [
+
+                    ],
+    "issued":  {
+                   "date-parts":  [
+                                      [
+                                          2024,
+                                          6,
+                                          27
+                                      ]
+                                  ]
+               },
+    "references-count":  41,
+    "journal-issue":  {
+                          "issue":  "13",
+                          "published-online":  {
+                                                   "date-parts":  [
+                                                                      [
+                                                                          2024,
+                                                                          7
+                                                                      ]
+                                                                  ]
+                                               }
+                      },
+    "alternative-id":  [
+                           "electronics13132533"
+                       ],
+    "URL":  "https://doi.org/10.3390/electronics13132533",
+    "relation":  {
+
+                 },
+    "ISSN":  [
+                 "2079-9292"
+             ],
+    "issn-type":  [
+                      {
+                          "value":  "2079-9292",
+                          "type":  "electronic"
+                      }
+                  ],
+    "subject":  [
+
+                ],
+    "published":  {
+                      "date-parts":  [
+                                         [
+                                             2024,
+                                             6,
+                                             27
+                                         ]
+                                     ]
+                  }
+}

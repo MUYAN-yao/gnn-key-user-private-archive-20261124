@@ -1,0 +1,133 @@
+\section{Introduction}
+Influence maximization selects a small seed set to increase the expected reach of a stochastic diffusion process \cite{ref1}. On a fixed graph, practical implementations must decide both which nodes to consider and how accurately to evaluate them. Candidate restriction reduces the search space, while Monte Carlo sampling approximates spread. These choices interact: a restricted method is often compared with a full-candidate greedy run whose own decisions depend on a finite simulation sample.
+
+An identical seed sequence can establish reproduction of a named computational reference, but cannot by itself establish preservation of expected spread. Conversely, two different sequences can have similar independent utility. This distinction becomes consequential when changing the simulation budget changes the full reference, or when a nominally restricted candidate pool already contains every vertex. A cost comparison is also incomplete unless it specifies whether ranking, world preparation, optimization and evaluation are included.
+
+The broader influence-maximization literature already addresses sampling accuracy, computational efficiency and benchmarking \cite{ref2,ref8,ref9,ref10,ref16}. We therefore do not present sample sensitivity as a new general discovery. Our question is narrower: how should candidate restriction be evaluated when the reference, shared random worlds and practical loss criterion are all implementation choices? We examine membership, independent utility and measured cost together, rather than treating any one as a surrogate for the others.
+
+An initial four-network experiment motivated this study. We preserve that experiment and distinguish it from a prospectively specified extension with additional paths, higher budgets, alternative rankings, propagation parameters and a random-world coupling control. The extension reuses the four observed contact topologies and adds two explicitly synthetic structural instances. It does not supply new observed information cascades or a random sample of real-world networks.
+
+The contribution is an auditable evaluation of this joint decision problem. First, we separate seed-set instability from independently measured utility under nested selection budgets. Second, we examine whether the findings depend on historical contact weights, candidate coverage or random-world coupling. Third, we provide loss-tolerance and cost descriptions with path variability and reproducible records. The implementation is exhaustive per-round greedy enumeration, accelerated without pruning. No new approximation guarantee, universal candidate threshold or learned ranking advantage is claimed.
+
+\section{Related work}
+\paragraph{Optimization and sampling.}
+The classical formulation relates seed selection to expected diffusion and establishes approximation results under appropriate model assumptions \cite{ref1}. CELF avoids redundant marginal evaluations by exploiting objective structure \cite{ref7}. StaticGreedy reuses sampled realizations to retain the structure of a finite sampled objective \cite{ref8}. IMM uses a different sampling design and algorithm-specific statistical guarantees \cite{ref2}. These methods address computational efficiency and accuracy; their guarantees must not be transferred to a different finite-world implementation without checking its assumptions.
+
+Our reference enumerates every eligible node at every greedy round. It does not enumerate all size-$k$ sets and is not an exact expected-influence optimum. In addition, the original simulator shares random draws by edge and propagation step. This coupling can differ from fixing one live-edge graph per world, even when the marginal diffusion law for a fixed seed set is the intended independent-cascade law. Section~\ref{sec:coupling} makes this implementation distinction explicit and supplies a fixed-edge control.
+
+\paragraph{Candidate selection and learning.}
+Candidate sets can be selected using local structure. Published approaches include the neighbour scale fixed method and discrete Harris hawks optimization \cite{ref12,ref13}. Learning-based approaches add training, representation and tuning choices \cite{ref10,ref14}. We compare simple rankings with matched candidate counts to isolate the role of candidate eligibility. This does not rank those published algorithms against each other, and it does not validate a graph neural network selector.
+
+Recent inductive influence estimation, exemplified by MONSTOR+, replaces repeated simulation with learned predictions on unseen graphs under IC and LT models \cite{ref19}. That approach changes the spread estimator. Our controls retain the simulator and vary seed eligibility and reference resolution, addressing a complementary evaluation question without claiming superiority over a trained estimator.
+
+\paragraph{Diffusion and evaluation.}
+Temporal influence maximization explicitly models evolving interactions \cite{ref11}; aggregating a historical contact window does not do so. Likewise, observed proximity does not identify an empirical information-influence model \cite{ref15}. Our contact records supply topology only. Benchmarking studies have highlighted the importance of comparable implementations and evaluation settings \cite{ref16}. The associated methodological debate further motivates explicit cost and quality definitions, but we do not adopt disputed algorithm rankings. Table~\ref{tab:position} states the narrower role of the present study.
+
+\begin{table}[t]
+\caption{Positioning by the question addressed, rather than by a claim that earlier work omitted every diagnostic.}\label{tab:position}
+\begin{tabularx}{\linewidth}{lX}
+\toprule
+Work or approach & Principal role relative to this study \\
+\midrule
+Classical greedy \cite{ref1} & Expected-spread formulation and objective-dependent approximation framework \\
+CELF \cite{ref7} & Avoiding redundant evaluations when the required objective structure holds \\
+StaticGreedy \cite{ref8} & Consistent sampled realizations and scalable optimization \\
+IMM \cite{ref2} & A different sampling and guarantee framework \\
+Benchmarking \cite{ref16} & Comparative implementation and performance evaluation \\
+Present study & Candidate eligibility, reference resolution, coupling, independent utility and attributable costs on a specified matrix \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Methods}
+\subsection{Task and finite-world reference}
+Let $G=(V,E)$ be a directed graph, $k$ the seed budget and $h$ the propagation horizon. A seed is active initially. Each newly activated node has one opportunity to activate each inactive outgoing neighbour with probability $p$, and activation is propagated for at most $h$ rounds. The total spread $f_h(S;\omega)$ includes the seeds. The selection objective for a fixed list of $W$ worlds is
+\begin{equation}
+\widehat\sigma_{W,h}(S)=\frac{1}{W}\sum_{i=1}^{W}f_h(S;\omega_i).
+\end{equation}
+Full greedy scans $V\setminus S$ at every round. Restricted greedy scans $C\setminus S$, with a fixed pool $C\subseteq V$. Both choose the largest empirical objective after adding a node and break ties by lexicographic node ID. Nodes outside $C$ remain in the propagation graph.
+
+We denote the ordered trace by $T_W(C)$ and its final set by $S_W(C)$. Ordered agreement, unordered agreement and set Jaccard overlap are reported separately. A pool with $|C|=|V|$ is a full-search consistency control. Its agreement does not demonstrate effective restriction.
+
+\subsection{Random-world coupling and its boundary}\label{sec:coupling}
+The original implementation maps a world ID, step and directed endpoint codes to a reproducible 53-bit uniform variate using fixed 64-bit mixing operations. We call this \emph{step coupling}. The same key always supplies the same value, regardless of candidate pool or execution order. Smaller selection budgets are prefixes of larger budgets. This construction is a reproducible pseudorandom scheme, not a proof of independence of all hash outputs.
+
+Step coupling does not imply that each fixed-world objective is monotone. Consider the directed chain $a\rightarrow b\rightarrow c$ with two propagation rounds. Suppose $a\rightarrow b$ is open at step zero, $b\rightarrow c$ is closed at step zero and open at step one. Starting from $\{a\}$ reaches all three nodes, whereas starting from $\{a,b\}$ reaches only two: $b$ attempts transmission earlier. Thus, for this world,
+\begin{equation}
+\{a\}\subset\{a,b\},\qquad f_2(\{a\};\omega)=3>2=f_2(\{a,b\};\omega).
+\end{equation}
+The archived hash realizes this example at world ID 5, $p=0.5$ and endpoint codes $0,1,2$. This is a finite-objective counterexample, not evidence that the intended IC marginal distribution is incorrect. It prevents importing a monotonicity or submodularity guarantee into this sampled objective without further work.
+
+Our \emph{fixed-edge coupling} control uses the step-zero variate for each edge throughout a world. Spread then equals the union of nodes reachable within $h$ live-edge hops from each seed, a coverage objective. With independent edge draws, both couplings implement the same finite-horizon IC marginal law for a fixed $S$, but couple different seed sets differently. The empirical comparison keeps the coupling label explicit. Both implementations use full enumeration; no lazy-forward assumption is needed.
+
+\subsection{Independent utility and path uncertainty}
+For selected sets, a separate evaluation stream $\mathcal E$ gives the paired difference
+\begin{equation}
+\widehat\Delta_W(C)=\frac{1}{M}\sum_{i=1}^{M}
+\left[f_h(S_W(C);\eta_i)-f_h(S_W(V);\eta_i)\right].
+\end{equation}
+The same evaluation worlds are shared across arms and selection budgets within each network/path. We retain all per-world counts. The paired Monte Carlo standard error is $s_d/\sqrt M$, conditional on the chosen sets, graph and simulator. Identical sets have identically zero paired differences. These conditional intervals do not measure selection-path variability.
+
+We also report incremental spread $\widehat\sigma-k$. Relative incremental loss is $-\widehat\Delta/(\widehat\sigma_{\rm full}-k)$ when the denominator is positive. Total-spread normalization alone can obscure a loss relative to the additional activations generated beyond the seeds. We do not assign an acceptable loss for a real application. We describe paths at six illustrative loss thresholds: 0, 1, 2.5, 5, 10 and 20 percent. These descriptions do not constitute equivalence or noninferiority tests.
+
+For each fixed network and setting, the extension reports means, sample standard deviations and percentile bootstrap intervals from 10,000 resamples of the path-level observations. The ten paths are computational replicates, not independent networks. The three random pools are averaged within each path before these summaries. Conditional MC intervals and across-path bootstrap intervals are labelled separately; ten paths give limited precision for tail behaviour.
+
+The prespecified primary testing family contains six candidate types versus full greedy on four real networks at $k=5,W=5120,p=0.01,h=3$ under step coupling. We use two-sided exact sign tests for positive/negative balance across paths, drop and report exact zeros, and apply Holm correction over all 24 contrasts. These tests concern the direction of conditional path differences, not a test of a mean effect or a population of networks. All contrasts and effect sizes are provided, including nonsignificant ones.
+
+\subsection{Implementation and timing}
+The new engine compiles exhaustive simulations on compressed sparse row graphs with Numba. It preserves the archived hash and tie policy. Integer total spread determines candidate order; at the tested $W\leq5120$, the smallest nonzero mean difference exceeds $10^{-6}$, so this agrees with the archived micro-unit rounding. Audit tests compare the original Python simulator with the new implementation and compare fixed-edge outcomes with an independent shortest-path oracle.
+
+World states are materialized once per condition and shared by all arms. We separately record graph preparation, ranking, shared world preparation, selection and evaluation. Selection-time savings describe an online scenario with prepared graph and worlds. The attributed full-pipeline cost charges each arm the common graph/world preparation plus its own ranking, selection and evaluation. This attribution describes a standalone use of an arm; it is not the elapsed time of executing all arms together.
+
+Arms execute serially in a deterministic randomized order. Five additional randomized timing repetitions per real graph use $k=5,W=320$, path 1001 and the primary propagation setting. Compilation is warmed and excluded from these timings, with compilation overhead recorded separately. The original Python timings and new compiled timings are not pooled or used as an algorithmic speed comparison.
+
+\section{Experimental design}
+\subsection{Observed topologies and synthetic controls}
+The observed topologies derive from the 2013 and 2015 InVS workplace contacts, SFHH 2009 conference contacts and 2012 Kenyan household contacts \cite{ref3,ref4,ref5,ref6}. Each undirected event becomes two directed events. The first 65\% of complete timestamp groups are retained, self-loops are removed and repeated endpoints collapse for diffusion. Historical outgoing event counts determine weighted degree; because contacts are bidirectional, this ranks incident contact frequency. Diffusion uses a uniform edge probability rather than contact-frequency probabilities.
+
+The resulting graphs have 91, 212, 402 and 75 vertices, respectively. Their directed edge counts are 1,238, 6,938, 11,856 and 1,044. They contain observed contacts, not observed information cascades. The unused later contacts are not a held-out cascade test set.
+
+Two synthetic graphs have 2,000 nodes each. One uses preferential attachment with parameter 3 and follows the model of Barabasi and Albert \cite{ref17}. The other is a stochastic block model \cite{ref18}. It has four equal blocks of 500 nodes, with edge probabilities of 0.012 within a block and 0.0005 across blocks. The random seed is 20261015 for both. We convert each undirected edge to two directed edges. These are fixed synthetic instances, not empirical datasets. Their event weights are unity, so weighted and unweighted degree coincide by construction.
+
+\subsection{Historical evidence and prospective extension}
+The original frozen experiment contained 42 conditions and 168 arm executions: seven network/$k$ settings, two paths, three nested budgets and four arms. The two path IDs were 301 and 302, $W\in\{20,80,320\}$, $p=0.01$, $h=3$, and $M=2000$. That experiment is retained as historical evidence. Final-set and conditional-uncertainty diagnostics were added after its outcomes were inspected.
+
+The extension protocol was frozen after reviewing the original study and running outcome-blind resource timings. It is therefore a prospective computational extension on known networks, not a preregistered replication on unseen datasets. Ten new path IDs, 1001--1010, are used for the real networks, and the first five for each synthetic instance. Evaluation uses $M=10,000$ disjoint worlds per path. Selection/evaluation namespaces, prefixes and 907,200 distinct used or reserved world IDs were checked before execution for collisions.
+
+\begin{table}[t]
+\caption{Prospectively specified extension. All arms share each condition. The rows define 520 unique conditions.}\label{tab:matrix}
+\begin{tabularx}{\linewidth}{lXr}
+\toprule
+Component & Settings & Conditions \\
+\midrule
+Resolution & Four real graphs; $k=5$; ten paths; $W=20,80,320,1280,5120$ & 200 \\
+Seed budget & InVS 2013/2015 and Kenya; $k=20$; ten paths; $W=320,1280$ & 60 \\
+Parameters & Four real graphs; $k=5,W=320$; ten paths; $(p,h)=(.005,3),(.05,3),(.01,1),(.01,5)$ & 160 \\
+Coupling & Four real graphs; fixed-edge coupling; $k=5$; ten paths; $W=320,1280$ & 80 \\
+Scale/structure & Two synthetic graphs; $k=5$; five paths; $W=80,320$ & 20 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+Unless varied in Table~\ref{tab:matrix}, settings are $p=0.01,h=3$ and step coupling. Each condition includes full greedy, weighted-degree $2k/4k/8k$, unweighted topology-degree $4k$, unweighted PageRank $4k$, and three random $4k$ pools. Pool sizes are capped at $|V|$. Random pool identities are independently generated by repeat within network/path and held fixed across budgets and propagation settings. PageRank uses the unweighted directed topology and the implementation's standard damping parameter 0.85. No selector is tuned on the evaluation outcomes.
+
+\input{results_generated.tex}
+\FloatBarrier
+
+\section{Discussion}
+The practical interpretation of candidate restriction depends on which quantity is to be preserved. Exact trace reproduction is a statement about a particular finite computation. Independent spread is a property of its selected set under a specified diffusion model. Cost is a property of an implementation and a timing scope. A decision to restrict candidates requires all three to be visible, together with the application's loss tolerance.
+
+Reference instability is therefore a diagnostic rather than a sufficient failure criterion. If selected sets change while independent utility changes little, the algorithm may be moving among similarly useful sets. If utility changes appreciably, a low-resolution reference can alter the apparent quality of a candidate pool. The path-level outputs permit these possibilities to be distinguished instead of interpreting any mismatch as a practically important loss.
+
+The extension narrows the interpretation of the original low-budget findings. Full-reference utility changes diminished at higher budgets even where membership still changed. Weighted-degree pools shifted from positive average differences against the lowest-budget reference to negative differences against the highest-budget reference. At that highest budget, however, topology-degree and PageRank restrictions almost always or always reproduced the full trace. Thus the observed weighted-degree loss cannot characterize candidate restriction in general. The distinction between repeated-contact weights and distinct-neighbour topology is consequential under the uniform-probability simulator.
+
+The coupling audit adds a separate qualification. Consistently reusing random numbers is not by itself a guarantee that the finite objective has the same structure as a fixed-live-edge coverage objective. The explicit chain counterexample isolates this issue without relying on a correlation between ties and changed traces. The fixed-edge control tests sensitivity to the choice; it does not turn the study into a comparison against StaticGreedy or invalidate guarantees proved for that method's own objective.
+
+The ranking result depends on model assumptions. Contact frequency prioritizes repeated encounters. Uniform-probability diffusion on an aggregated graph instead depends on distinct neighbours and their connectivity. Comparing the two degree rankings separates this mismatch from candidate count. It remains a comparison within the simulator, not evidence that contact frequency is generally uninformative in real diffusion.
+
+For reuse, we recommend reporting the actual candidate fraction; the named selection budget and coupling; within-path reference transitions and across-path variability; independent total and incremental spread; and separately attributable costs. A full-pool match should be identified as a control. Any practical preservation claim additionally needs a defensible, prospectively fixed loss criterion and a suitable uncertainty analysis. A large percentage saving is insufficient if the retained incremental spread is unacceptable.
+
+The remaining limitations are material. Four small contact-derived graphs do not represent all social networks. Two synthetic 2,000-node instances establish feasibility at a larger tested size but not web-scale performance or empirical generalization. Transmission probabilities are illustrative and have not been fitted to observed cascades. The grids do not cover all diffusion regimes or learned selectors. Even 5,120 selection worlds do not certify expected-objective convergence. Ten paths limit distributional precision, while the primary sign tests address direction rather than mean superiority. Finally, the code-level acceleration is an implementation tool; the paper's contribution remains the evaluation evidence and its interpretation.
+
+\section{Conclusion}
+Evaluating candidate-restricted influence maximization requires a named finite-world reference and an independent utility assessment. The extended protocol separates selection resolution, random-world coupling, candidate ranking and actual coverage, while retaining path-level outcomes and attributable costs. Its findings should be used to characterize conditional trade-offs, not to infer a universal candidate size or to equate trace agreement with utility preservation. The supplied records make these distinctions reproducible within the tested graphs and simulated diffusion settings.

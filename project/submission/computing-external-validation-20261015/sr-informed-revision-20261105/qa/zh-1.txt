@@ -1,0 +1,322 @@
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./manuscript_zh.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(./svjour3.cls
+Document Class: svjour3 2007/05/08 v3.2 
+LaTeX document class for Springer journals
+(./svglov3.clo
+SVJour Class option: svglov3.clo for standardised journals
+)) (c:/texlive/2026/texmf-dist/tex/latex/base/fix-cm.sty
+(c:/texlive/2026/texmf-dist/tex/latex/base/ts1enc.def))
+(c:/texlive/2026/texmf-dist/tex/latex/ctex/ctex.sty
+(c:/texlive/2026/texmf-dist/tex/latex/l3kernel/expl3.sty
+(c:/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))
+(c:/texlive/2026/texmf-dist/tex/latex/ctex/ctexhook.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/ctex/ctexpatch.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/ctex/config/ctexopts.cfg)
+(c:/texlive/2026/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
+(c:/texlive/2026/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+(c:/texlive/2026/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec.sty
+(c:/texlive/2026/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(c:/texlive/2026/texmf-dist/tex/latex/base/fontenc.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(c:/texlive/2026/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg)))
+(c:/texlive/2026/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+(c:/texlive/2026/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg))
+(c:/texlive/2026/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese.def
+(c:/texlive/2026/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg))
+(c:/texlive/2026/texmf-dist/tex/latex/ctex/ctex-c5size.clo)
+(c:/texlive/2026/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def))
+(c:/texlive/2026/texmf-dist/tex/latex/ctex/config/ctex.cfg)
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(c:/texlive/2026/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(c:/texlive/2026/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(c:/texlive/2026/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(c:/texlive/2026/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/tools/tabularx.sty
+(c:/texlive/2026/texmf-dist/tex/latex/tools/array.sty))
+(c:/texlive/2026/texmf-dist/tex/latex/url/url.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/placeins/placeins.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/natbib/natbib.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty
+(c:/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(c:/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(c:/texlive/2026/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(c:/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(c:/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(c:/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(c:/texlive/2026/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/hyperref/nameref.sty
+(c:/texlive/2026/texmf-dist/tex/latex/refcount/refcount.sty)
+(c:/texlive/2026/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(c:/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(c:/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(c:/texlive/2026/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(c:/texlive/2026/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/hyperref/puenc.def)
+(c:/texlive/2026/texmf-dist/tex/generic/bitset/bitset.sty
+(c:/texlive/2026/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(c:/texlive/2026/texmf-dist/tex/latex/hyperref/hxetex.def
+(c:/texlive/2026/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(c:/texlive/2026/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(./numbers.tex)
+No file manuscript_zh.aux.
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+(c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd)
+
+Package natbib Warning: Citation `ref1' on page 1 undefined on input line 31.
+
+
+Package natbib Warning: Citation `ref7' on page 1 undefined on input line 31.
+
+
+Package natbib Warning: Citation `ref8' on page 1 undefined on input line 31.
+
+
+Package natbib Warning: Citation `ref2' on page 1 undefined on input line 31.
+
+
+Underfull \vbox (badness 4673) has occurred while \output is active [1]
+
+LaTeX Warning: Reference `fig:evaluation-mechanism' on page 2 undefined on inpu
+t line 37.
+
+[2]
+
+Package natbib Warning: Citation `ref1' on page 3 undefined on input line 54.
+
+
+Package natbib Warning: Citation `ref7' on page 3 undefined on input line 54.
+
+
+Package natbib Warning: Citation `ref8' on page 3 undefined on input line 54.
+
+
+Package natbib Warning: Citation `ref2' on page 3 undefined on input line 54.
+
+
+Package natbib Warning: Citation `ref12' on page 3 undefined on input line 56.
+
+
+Package natbib Warning: Citation `ref13' on page 3 undefined on input line 56.
+
+
+Package natbib Warning: Citation `ref19' on page 3 undefined on input line 56.
+
+[3]
+
+Package natbib Warning: Citation `ref9' on page 4 undefined on input line 58.
+
+
+Package natbib Warning: Citation `ref16' on page 4 undefined on input line 58.
+
+
+Package natbib Warning: Citation `ref11' on page 4 undefined on input line 58.
+
+
+Package natbib Warning: Citation `ref15' on page 4 undefined on input line 58.
+
+
+LaTeX Warning: Reference `sec:experimental-setup' on page 4 undefined on input 
+line 63.
+
+[4]
+
+Package natbib Warning: Citation `networkxpr' on page 5 undefined on input line
+ 73.
+
+
+LaTeX Warning: Reference `fig:evaluation-mechanism' on page 5 undefined on inpu
+t line 80.
+
+[5]
+
+LaTeX Warning: Reference `tab:primary' on page 6 undefined on input line 99.
+
+
+LaTeX Warning: Reference `tab:case' on page 6 undefined on input line 99.
+
+[6]
+
+Package natbib Warning: Citation `snap' on page 7 undefined on input line 102.
+
+
+LaTeX Warning: Reference `tab:data' on page 7 undefined on input line 102.
+
+
+Package natbib Warning: Citation `college' on page 7 undefined on input line 11
+6.
+
+
+Package natbib Warning: Citation `grqc' on page 7 undefined on input line 118.
+
+
+Package natbib Warning: Citation `signed' on page 7 undefined on input line 118
+.
+
+
+Package natbib Warning: Citation `links' on page 7 undefined on input line 118.
+
+
+[7]
+
+Package natbib Warning: Citation `ref3' on page 8 undefined on input line 120.
+
+
+Package natbib Warning: Citation `ref4' on page 8 undefined on input line 120.
+
+
+Package natbib Warning: Citation `ref5' on page 8 undefined on input line 120.
+
+
+Package natbib Warning: Citation `ref6' on page 8 undefined on input line 120.
+
+
+Package natbib Warning: Citation `ref17' on page 8 undefined on input line 120.
+
+
+
+Package natbib Warning: Citation `ref18' on page 8 undefined on input line 120.
+
+
+
+LaTeX Warning: Reference `tab:settings' on page 8 undefined on input line 123.
+
+[8]
+
+LaTeX Warning: Reference `fig:precision-budget' on page 9 undefined on input li
+ne 154.
+
+
+LaTeX Warning: Reference `tab:precision-output' on page 9 undefined on input li
+ne 156.
+
+[9] (./precision_output.tex)
+
+LaTeX Warning: Reference `fig:transitions' on page 10 undefined on input line 1
+68.
+
+
+LaTeX Warning: Reference `tab:primary' on page 10 undefined on input line 179.
+
+(./primary_table.tex) [10]
+
+LaTeX Warning: Reference `tab:case' on page 11 undefined on input line 182.
+
+
+LaTeX Warning: Reference `tab:primary' on page 11 undefined on input line 182.
+
+(./input_output_case.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active [11]
+Underfull \vbox (badness 10000) has occurred while \output is active [12]
+[13]
+
+LaTeX Warning: Reference `tab:cost' on page 14 undefined on input line 192.
+
+(./cost_table.tex) [14]
+
+Package natbib Warning: Citation `ref8' on page 15 undefined on input line 210.
+
+
+[15]
+
+Package natbib Warning: Citation `ref16' on page 16 undefined on input line 220
+.
+
+
+LaTeX Warning: Reference `tab:cost' on page 16 undefined on input line 220.
+
+[16] (./references.tex
+Underfull \hbox (badness 3547) in paragraph at lines 12--13
+[]\TU/TimesNewRoman(0)/m/n/10.53937 Fan C, Wang Z, Zhang J, Zhao J, Rui X (2024
+) Influence maxi-
+
+Underfull \hbox (badness 1490) in paragraph at lines 12--13
+\TU/TimesNewRoman(0)/m/n/10.53937 mization in social networks based on discrete
+ harris hawks optimiza-
+[17]
+Underfull \hbox (badness 7273) in paragraph at lines 24--25
+[]\TU/TimesNewRoman(0)/m/n/10.53937 NetworkX developers (2025) PageRank, Networ
+kX 3.5 documenta-
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+\TU/TimesNewRoman(0)/m/n/10.53937 tion. []$[][][][][] [] [] [] [][][][][][][][]
+ [] [][][] [] [][][][][][][][][][][][][] [] [][][][][][][][][][][] [] [] []
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+[][][][][][][][][] [] [][][][][][][][][][] [] [][][][][][][][][] [] [][][][][][
+][][] [] [][][][][][][][][][] [] [][][][] []
+
+Underfull \hbox (badness 1231) in paragraph at lines 26--27
+\TU/TimesNewRoman(0)/m/n/10.53937 collection. []$[][][][][] [] [] [] [][][][] [
+] [][][][][][][][] [] [][][] [] [][][][]$[]. Accessed 15 October
+
+Underfull \vbox (badness 10000) has occurred while \output is active [18]
+Underfull \hbox (badness 1648) in paragraph at lines 40--41
+\TU/TimesNewRoman(0)/m/n/10.53937 RFID sensor networks. PLoS ONE 5:e11596. []$[
+][][][][] [] [] [] [][][] [] [][][] [] [][] []
+
+Underfull \hbox (badness 1454) in paragraph at lines 42--43
+[]\TU/TimesNewRoman(0)/m/n/10.53937 Kiti MC, Tizzoni M, Kinyanjui TM, et al. (2
+016) Quantifying social
+
+Underfull \hbox (badness 1394) in paragraph at lines 44--45
+[]\TU/TimesNewRoman(0)/m/n/10.53937 Barabasi A-L, Albert R (1999) Emergence of 
+scaling in random net-
+
+Underfull \hbox (badness 5939) in paragraph at lines 44--45
+\TU/TimesNewRoman(0)/m/n/10.53937 works. Science 286:509–512. []$[][][][][] [] 
+[] [] [][][] [] [][][] [] [][] [] [][][][] [] [][][][][][][] []
+
+Underfull \hbox (badness 1264) in paragraph at lines 46--47
+[]\TU/TimesNewRoman(0)/m/n/10.53937 Holland PW, Laskey KB, Leinhardt S (1983) S
+tochastic blockmodels:
+
+Underfull \hbox (badness 2080) in paragraph at lines 46--47
+\TU/TimesNewRoman(0)/m/n/10.53937 first steps. Social Networks 5:109–137. []$[]
+[][][][] [] [] [] [][][] [] [][][] [] [][] [] [][][][] []
+)
+
+Package natbib Warning: There were undefined citations.
+
+[19] (./manuscript_zh.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `manuscript_zh.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information)
+Output written on manuscript_zh.pdf (19 pages).
+Transcript written on manuscript_zh.log.

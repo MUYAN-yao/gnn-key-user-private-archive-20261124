@@ -1,0 +1,16 @@
+{
+  "files": {
+    "config.json": "dedd228e934a2f3abeccae4ca2dc0826997ee22f83c39ee6f6990f6a89afe936",
+    "data/source_manifest.json": "9a56e80b673fb83033df97567ef54cc9490be6c156b3b5a9bfecfad807c23c43",
+    "data_selection.md": "5a45f000bcd7978419129288fd371cbc68c832d04c80ed1b5be339f7b40667ff",
+    "protocol.md": "53bbe926b15d9bbbab20480dab94f55096127ea29c1ee1a352a238a434d32fea",
+    "requirements.txt": "dd6ae76d896ff8f498889ee8679c1fbfe711b522047e1b1764e5c70c0bca6b8b",
+    "snapshot/engine.py": "dd016d2252605d2f96b7b343fc2e5d61c4f323ed3de93e3c985fb029c21a550f",
+    "snapshot/freeze.py": "45004a661812d36002851dbbac602f03b931d8d2e451ae8c78704d51d71e70a8",
+    "snapshot/legacy_engine.py": "0e3ac38942fd0e252e56a2d8009fd944a822ef22a53be0b6a1614ebe0cf4107c",
+    "snapshot/preflight.py": "d77498d5e0b02ec5195041ffbe8c6c071927fa37f1c4d26a0e66cbc514257e08",
+    "snapshot/run_experiment.py": "151cdf622a578aa133af946b8d1af020304d71e7b474e5daffe55c899121832f",
+    "snapshot/write_data_manifest.py": "3c1f3a433d0026826e04dfcd18c2d6f916e9ab120e7fe5b6d1f109a8d30930ea"
+  },
+  "version": 1
+}

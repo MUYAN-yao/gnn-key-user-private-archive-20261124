@@ -1,0 +1,13 @@
+\begin{table}[htbp]
+\caption{External results at $W=1280$ (five paths). Degree-4k and PageRank-4k (PR) use 20-node pools; PR uses default tolerance. Full incremental spread is total spread minus $k=5$. PR gap is restricted minus full mean spread; loss is relative to full incremental spread. Degree agreement counts identical ordered trajectories.}\label{tab:primary}
+\begin{tabular}{lrrrr}
+\toprule
+Graph & \shortstack{Full incremental\\spread (nodes)} & \shortstack{PR gap\\(nodes)} & \shortstack{PR loss\\(\%)} & \shortstack{Degree\\agreement} \\
+\midrule
+ca-GrQc & 4.934 & -0.25082 & 5.07 & 5/5 \\
+CollegeMsg & 10.072 & -0.90780 & 9.01 & 5/5 \\
+wiki-Vote & 55.736 & -40.69334 & 73.01 & 5/5 \\
+\bottomrule
+\end{tabular}
+\par\smallskip\footnotesize Agreement is the number of matching trajectories out of five paths.
+\end{table}

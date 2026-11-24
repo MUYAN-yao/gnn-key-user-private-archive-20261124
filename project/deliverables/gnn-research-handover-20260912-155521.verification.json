@@ -1,0 +1,17 @@
+{
+  "archive": "E:\\大学\\校创\\基于GNN的关键用户识别\\deliverables\\gnn-research-handover-20260912-155521.zip",
+  "bytes": 108833696,
+  "sha256": "538640c3732078d5844ab86e5c73a82ca94ca05652a870b8bf9a7a744ad8db93",
+  "files": 980,
+  "primary_run_counts": {
+    "large-robust-greedy-digg-20000-v1": 30,
+    "large-robust-greedy-higgs-50000-v1": 30,
+    "large-robust-greedy-higgs-50000-v2-t0b": 30,
+    "large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation": 30,
+    "large-robust-greedy-higgs-50000-v3-fairness-sensitivity": 30
+  },
+  "source_copy_hashes": "PASS",
+  "zip_crc": "PASS",
+  "zip_entry_hashes": "PASS",
+  "scope": "Integrity verification only; no claim of fresh scientific or visual QA"
+}

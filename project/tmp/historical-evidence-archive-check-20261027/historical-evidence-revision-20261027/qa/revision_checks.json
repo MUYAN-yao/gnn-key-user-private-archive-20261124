@@ -1,0 +1,161 @@
+{
+  "source_package": "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-external-validation-20261015\\mechanism-im-grounded-20261023",
+  "date": "2026-10-27",
+  "abstract_words": {
+    "old": 234,
+    "new": 164
+  },
+  "source_word_tokens": {
+    "old": 5612,
+    "new": 4620
+  },
+  "main_figures": {
+    "old": 6,
+    "new": 3
+  },
+  "template_identical": true,
+  "mechanism_pdf_sha256": "05508d3ab11718c3760b70282ca227615c6f01d8e91d7f4ba8d6a467b7d7e284",
+  "mechanism_pdf_identical": true,
+  "mechanism_vsdx_sha256": "d70408628371eae535d8074b57bd2b0798d4b1104a4e242301fb5135c69ef7b8",
+  "bibliography_content_identical": true,
+  "bibliography_first_citation_order": true,
+  "author_block_identical": true,
+  "removed_algorithm_denials": true,
+  "ai_disclosure_occurrences": 1,
+  "no_ai_subsection": true,
+  "plot_assets_identical": {
+    "Fig1.pdf": true,
+    "Fig2.pdf": true,
+    "Fig3.pdf": true,
+    "Fig4.pdf": true,
+    "FigS1.pdf": true,
+    "FigDirectionMechanism.pdf": true
+  },
+  "unchanged_numeric_tables": {
+    "primary_table.tex": true,
+    "cost_table.tex": true,
+    "precision_budget_table.tex": true,
+    "transition_table.tex": true,
+    "numbers.tex": true,
+    "supp_tables.tex": true
+  },
+  "precision_values": {
+    "ca_grqc_default": [
+      {
+        "W": 80,
+        "loss_percent": -5.61,
+        "delta_nodes": 0.23606
+      },
+      {
+        "W": 320,
+        "loss_percent": 2.53,
+        "delta_nodes": -0.12632
+      },
+      {
+        "W": 1280,
+        "loss_percent": 5.07,
+        "delta_nodes": -0.25082
+      }
+    ],
+    "ca_grqc_strict": [
+      {
+        "W": 80,
+        "loss_percent": -11.25,
+        "delta_nodes": 0.4857
+      },
+      {
+        "W": 320,
+        "loss_percent": -2.96,
+        "delta_nodes": 0.13804
+      },
+      {
+        "W": 1280,
+        "loss_percent": -0.54,
+        "delta_nodes": 0.02608
+      }
+    ],
+    "college_msg_default": [
+      {
+        "W": 80,
+        "loss_percent": 9.33,
+        "delta_nodes": -0.92828
+      },
+      {
+        "W": 320,
+        "loss_percent": 8.52,
+        "delta_nodes": -0.85444
+      },
+      {
+        "W": 1280,
+        "loss_percent": 9.01,
+        "delta_nodes": -0.9078
+      }
+    ],
+    "college_msg_strict": [
+      {
+        "W": 80,
+        "loss_percent": 9.33,
+        "delta_nodes": -0.92828
+      },
+      {
+        "W": 320,
+        "loss_percent": 8.52,
+        "delta_nodes": -0.85444
+      },
+      {
+        "W": 1280,
+        "loss_percent": 9.01,
+        "delta_nodes": -0.9078
+      }
+    ],
+    "wiki_vote_default": [
+      {
+        "W": 80,
+        "loss_percent": 73.01,
+        "delta_nodes": -40.69334
+      },
+      {
+        "W": 320,
+        "loss_percent": 73.06,
+        "delta_nodes": -40.7222
+      },
+      {
+        "W": 1280,
+        "loss_percent": 73.01,
+        "delta_nodes": -40.69334
+      }
+    ],
+    "wiki_vote_strict": [
+      {
+        "W": 80,
+        "loss_percent": 74.05,
+        "delta_nodes": -41.27506
+      },
+      {
+        "W": 320,
+        "loss_percent": 74.05,
+        "delta_nodes": -41.27522
+      },
+      {
+        "W": 1280,
+        "loss_percent": 73.96,
+        "delta_nodes": -41.2197
+      }
+    ]
+  },
+  "manuscript": {
+    "pages": 15,
+    "sha256": "f25aea29c7aa5ab55623bb0aea831cfdee1446662e73e453744123b76d0b1f51",
+    "unresolved": false,
+    "compile_issues": [],
+    "rendered_pages": 15
+  },
+  "Online_Resource_1": {
+    "pages": 26,
+    "sha256": "080a6173b4765d6384046b19085d42cda7352b362e6da73aa2161a994d06a7f3",
+    "unresolved": false,
+    "compile_issues": [],
+    "rendered_pages": 26
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,262 @@
+[
+  {
+    "source": "G=(V,E)",
+    "latex": "G=(V,E)"
+  },
+  {
+    "source": "k",
+    "latex": "k"
+  },
+  {
+    "source": "S",
+    "latex": "S"
+  },
+  {
+    "source": "f(S;ω)",
+    "latex": "f(S;\\omega )"
+  },
+  {
+    "source": "ω",
+    "latex": "\\omega "
+  },
+  {
+    "source": "σW(S)=1W∑ω∈WWf(S;ω).",
+    "latex": "\\widehat{\\sigma }_{W}(S)=\\frac{1}{W}\\sum _{\\omega \\in \\mathcal{W}_{W}}f(S;\\omega )."
+  },
+  {
+    "source": "C⊆V",
+    "latex": "C\\subseteq V"
+  },
+  {
+    "source": "TW(C)",
+    "latex": "T_{W}(C)"
+  },
+  {
+    "source": "SW(C)",
+    "latex": "S_{W}(C)"
+  },
+  {
+    "source": "TW(V)",
+    "latex": "T_{W}(V)"
+  },
+  {
+    "source": "AW(C)=1{TW(C)=TW(V)},",
+    "latex": "A_{W}(C)=1\\{T_{W}(C)=T_{W}(V)\\},"
+  },
+  {
+    "source": "W20⊂W80⊂W320",
+    "latex": "\\mathcal{W}_{20}\\subset \\mathcal{W}_{80}\\subset \\mathcal{W}_{320}"
+  },
+  {
+    "source": "T20(V)",
+    "latex": "T_{20}(V)"
+  },
+  {
+    "source": "T80(V)",
+    "latex": "T_{80}(V)"
+  },
+  {
+    "source": "T320(V)",
+    "latex": "T_{320}(V)"
+  },
+  {
+    "source": "ℰ",
+    "latex": "\\mathcal{E}"
+  },
+  {
+    "source": "ΔW(C)=1|ℰ|∑ω∈ℰ[f(SW(C);ω)−f(SW(V);ω)].",
+    "latex": "\\Delta _{W}(C)=\\frac{1}{|\\mathcal{E}|}\\sum _{\\omega \\in \\mathcal{E}}[f(S_{W}(C);\\omega )-f(S_{W}(V);\\omega )]."
+  },
+  {
+    "source": "ℰ",
+    "latex": "\\mathcal{E}"
+  },
+  {
+    "source": "1−tC/tV",
+    "latex": "1-t_{C}/t_{V}"
+  },
+  {
+    "source": "p=0.01",
+    "latex": "p=0.01"
+  },
+  {
+    "source": "min(|V|,2k)",
+    "latex": "\\min(|V|,2k)"
+  },
+  {
+    "source": "min(|V|,4k)",
+    "latex": "\\min(|V|,4k)"
+  },
+  {
+    "source": "min(|V|,8k)",
+    "latex": "\\min(|V|,8k)"
+  },
+  {
+    "source": "W∈{20,80,320}",
+    "latex": "W\\in \\{20,80,320\\}"
+  },
+  {
+    "source": "k=5",
+    "latex": "k=5"
+  },
+  {
+    "source": "k=20",
+    "latex": "k=20"
+  },
+  {
+    "source": "k=20",
+    "latex": "k=20"
+  },
+  {
+    "source": "J(A,B)=|A∩B|/|A∪B|",
+    "latex": "J(A,B)=|A\\cap B|/|A\\cup B|"
+  },
+  {
+    "source": "k",
+    "latex": "k"
+  },
+  {
+    "source": "di",
+    "latex": "d_{i}"
+  },
+  {
+    "source": "i",
+    "latex": "i"
+  },
+  {
+    "source": "sd/2000",
+    "latex": "s_{d}/\\sqrt{2000}"
+  },
+  {
+    "source": "d±1.96sd/2000",
+    "latex": "\\bar{d}\\pm 1.96s_{d}/\\sqrt{2000}"
+  },
+  {
+    "source": "W=20",
+    "latex": "W=20"
+  },
+  {
+    "source": "W=80",
+    "latex": "W=80"
+  },
+  {
+    "source": "W=320",
+    "latex": "W=320"
+  },
+  {
+    "source": "2k",
+    "latex": "2k"
+  },
+  {
+    "source": "4k",
+    "latex": "4k"
+  },
+  {
+    "source": "8k",
+    "latex": "8k"
+  },
+  {
+    "source": "8k",
+    "latex": "8k"
+  },
+  {
+    "source": "2k",
+    "latex": "2k"
+  },
+  {
+    "source": "2k",
+    "latex": "2k"
+  },
+  {
+    "source": "2k",
+    "latex": "2k"
+  },
+  {
+    "source": "4k",
+    "latex": "4k"
+  },
+  {
+    "source": "4k",
+    "latex": "4k"
+  },
+  {
+    "source": "4k",
+    "latex": "4k"
+  },
+  {
+    "source": "8k",
+    "latex": "8k"
+  },
+  {
+    "source": "8k",
+    "latex": "8k"
+  },
+  {
+    "source": "8k",
+    "latex": "8k"
+  },
+  {
+    "source": "k=20",
+    "latex": "k=20"
+  },
+  {
+    "source": "4k",
+    "latex": "4k"
+  },
+  {
+    "source": "8k",
+    "latex": "8k"
+  },
+  {
+    "source": "4k",
+    "latex": "4k"
+  },
+  {
+    "source": "8k",
+    "latex": "8k"
+  },
+  {
+    "source": "2k",
+    "latex": "2k"
+  },
+  {
+    "source": "4k",
+    "latex": "4k"
+  },
+  {
+    "source": "8k",
+    "latex": "8k"
+  },
+  {
+    "source": "2k",
+    "latex": "2k"
+  },
+  {
+    "source": "8k",
+    "latex": "8k"
+  },
+  {
+    "source": "2k",
+    "latex": "2k"
+  },
+  {
+    "source": "2k",
+    "latex": "2k"
+  },
+  {
+    "source": "4k",
+    "latex": "4k"
+  },
+  {
+    "source": "8k",
+    "latex": "8k"
+  },
+  {
+    "source": "8k",
+    "latex": "8k"
+  },
+  {
+    "source": "k",
+    "latex": "k"
+  }
+]

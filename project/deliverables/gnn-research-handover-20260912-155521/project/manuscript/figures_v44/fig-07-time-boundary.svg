@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="416.16pt" height="183.505594pt" viewBox="0 0 416.16 183.505594" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-29T19:04:28.270522</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.6, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 183.505594 
+L 416.16 183.505594 
+L 416.16 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 27.288 129.735994 
+L 212.0976 129.735994 
+L 212.0976 76.957114 
+L 27.288 76.957114 
+z
+" clip-path="url(#p827bdadff1)" style="fill: #9eb7be; opacity: 0.72"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 212.0976 129.735994 
+L 284.4144 129.735994 
+L 284.4144 76.957114 
+L 212.0976 76.957114 
+z
+" clip-path="url(#p827bdadff1)" style="fill: #b8afc6; opacity: 0.72"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 284.4144 129.735994 
+L 388.872 129.735994 
+L 388.872 76.957114 
+L 284.4144 76.957114 
+z
+" clip-path="url(#p827bdadff1)" style="fill: #c7d7d4; opacity: 0.9"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 212.0976 176.305594 
+L 212.0976 21.073594 
+" clip-path="url(#p827bdadff1)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #33424a"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 284.4144 176.305594 
+L 284.4144 21.073594 
+" clip-path="url(#p827bdadff1)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #33424a"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #33424a" transform="translate(89.435222 99.308546)">History window</text>
+    <text style="font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #33424a" transform="translate(80.173659 108.933203)">feature construction</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #33424a" transform="translate(221.865609 99.416124)">Supervised +</text>
+    <text style="font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #33424a" transform="translate(227.745844 108.935312)">calibration</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #33424a" transform="translate(316.886794 99.361281)">Outer test</text>
+    <text style="font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #33424a" transform="translate(309.124997 108.880468)">future unseen</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #33424a" x="212.0976" y="142.154554" transform="rotate(-0 212.0976 142.154554)">selection world</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #33424a" x="336.6432" y="142.154554" transform="rotate(-0 336.6432 142.154554)">evaluation world</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #33424a" x="212.0976" y="64.538554" transform="rotate(-0 212.0976 64.538554)">strict timestamp boundary</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #33424a" x="7.2" y="15.073594" transform="rotate(-0 7.2 15.073594)">Research protocol and temporal boundary</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p827bdadff1">
+   <rect x="7.2" y="21.073594" width="401.76" height="155.232"/>
+  </clipPath>
+ </defs>
+</svg>

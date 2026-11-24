@@ -1,0 +1,144 @@
+{
+  "purpose": "Read-only provenance manifest for frozen study artifacts.",
+  "code_sha256": {
+    "backend/app/model.py": "1b6e683c4afbcddcda2bb1ff31854126551e40b09ef93b5e8684ca0991796122",
+    "backend/app/pipeline.py": "545a35c5c33b9666f8bd5dbf8e431b8f39c87604fd2e28c057e8c41e2dd897c6",
+    "backend/app/graph.py": "8faef93d5ae47af21db01234da18188b3789ed2e087cd8acf8ab202e78f3b424",
+    "backend/app/optimizer.py": "4cc2c87f0092095dad67338fcd43894e87bb12a2d3fcad0d9a58fed3c9ea6773",
+    "backend/app/baselines.py": "bf04580ccc11f4f0478aa8eadf7dbbf105633e16515c5dbe105efe31b5b31cfa",
+    "backend/app/validation.py": "2d2431583d8fe4e3c35ab29959bd50f3ab096eb47a7843f36bcce16b8dc52df1",
+    "experiments/run_rolling_study.py": "95faae206ccc8399933be12c1dbb499f8272efbfb1afec070d3976d46b02c206",
+    "experiments/summarize_study.py": "e4d3fbd2e10f344f18a05301dd3075d2b166f71ecc3b16f5941c9df5460d0b2c"
+  },
+  "environment": {
+    "python": "3.13.0 | packaged by conda-forge | (main, Nov 27 2024, 19:03:49) [MSC v.1942 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.3.3",
+    "pandas": "2.3.2",
+    "scikit_learn": "1.7.2",
+    "networkx": "3.5",
+    "torch": "2.11.0+cu128",
+    "cuda_available": true,
+    "cuda_version": "12.8"
+  },
+  "studies": [
+    {
+      "study_directory": "results\\large-robust-greedy-higgs-50000-v1",
+      "run_count": 30,
+      "run_sha256": {
+        "split-0.60-seed-42.json": "d9befd3541546c216a1e75bcb4c1a0567d481a4ffac3937b0d7445d32be8d373",
+        "split-0.60-seed-43.json": "22eb4b473f75c90a07a7a8608b1df7971bd730900cb77919ff7fd07df6bd98cc",
+        "split-0.60-seed-44.json": "bc54e72505162c7a6d55cf3de911ffc300a4643ab1f8cf7d7ab95a6f52e2b870",
+        "split-0.60-seed-45.json": "cc0074f74e317b5864b944085ad7dadb6ba9340371e53da75a1a28bb64b5f2da",
+        "split-0.60-seed-46.json": "eb478b80fdfa9303f641a7444618a1af6574e5d68b31c19b426b7a193637d67b",
+        "split-0.60-seed-47.json": "f93df6870ce83bd938dc0b51014b1012963d272d39a784ee1f71833444aff867",
+        "split-0.60-seed-48.json": "ce0179b7aa1c66624a1a0f2c991c1ae45594e7878018e2235e27327986cc0ce5",
+        "split-0.60-seed-49.json": "2a6524a096e7928e3d6f502dc9a920e6c6f6eb020b98621cef18f0216d7a0a95",
+        "split-0.60-seed-50.json": "1be312ac5dc39d33f5f2b305f5c289aecd215720b7910322b912d9821f202083",
+        "split-0.60-seed-51.json": "fdb582c99c6f1965fa62686ef2dc2e8943f26afc865e065d0f784f7130beb080",
+        "split-0.65-seed-42.json": "d788971c2ab29ccec109a00853b0912552d15deb008e89e04d53014551856f0c",
+        "split-0.65-seed-43.json": "dcb462e5ad38d5834b2b09d4f9e2bd8af45831b2973a256f807b46eaab54af99",
+        "split-0.65-seed-44.json": "4c278cb1b57b2484cf374220d6e7cf8912e0e13b3f020e48effadfc2c2e4282a",
+        "split-0.65-seed-45.json": "ccae280aef541bd250c0e80a4ed4173ef51244a4a305d4a1d3c380bea6cae6dd",
+        "split-0.65-seed-46.json": "e373ebb81c389f2d2a9b7a85f91dcb9dad24df50dc3405a6092219896dea06a8",
+        "split-0.65-seed-47.json": "9f0259db04884d0b4d979a3178c07f80208a26995b5fee926be18f7ebf8cd3af",
+        "split-0.65-seed-48.json": "c4bac46a31f2de6d68226ee6cd3d6b62d7a61e62e183f96084b0f2329fd5df9f",
+        "split-0.65-seed-49.json": "5581c7c3a4cc4cbefa037f397fda4be856484440b75a33fbaef4a245d37430cc",
+        "split-0.65-seed-50.json": "971dc0594e6962ad66fd9f1b6955866072252e0c66b8a8413eb5899b1cecdacb",
+        "split-0.65-seed-51.json": "ac2bf78cc234fbea9b3d150879947a1231473840b6a9a76eb35c521933d26a8e",
+        "split-0.70-seed-42.json": "45c01119feb518af9976af534d1e0737fb6cdfc989216d2537e2ddbf2ce2c185",
+        "split-0.70-seed-43.json": "df053ad74d738a02caeeb2dfa4bc1bf3a25bb4172ce533891b66ee8a231c7260",
+        "split-0.70-seed-44.json": "37a9acf06d68d120964fd22a29e4f14a9d0c4e18582bfeef76e0bbacd3c7eb5f",
+        "split-0.70-seed-45.json": "6e56ba45f95d4121e74c98c3382dce86fd021927a7ba2522d2026b514517c926",
+        "split-0.70-seed-46.json": "d03f29d3b2b3b6c843fd6a692224476d384258c1113482518e56012a6c5745a0",
+        "split-0.70-seed-47.json": "db36ba818feff8f9c47ee9be7ad153edd61e8c917dcc4504dcddd2844304c500",
+        "split-0.70-seed-48.json": "5b771082c06ede4946c0e798bdecc3b47c9a96100bd4d18df9331b37478c8388",
+        "split-0.70-seed-49.json": "7b4fc12aa2b71c42631b1d0f205faa8af2e53fd90dad09fe663ac6e5ae562c98",
+        "split-0.70-seed-50.json": "25534883df5b7c7491b8fc5cb597174bdcea3e95f1a43bf161d6cce02302e89e",
+        "split-0.70-seed-51.json": "9caf22063a7147a01bb118eae39a328b5bdd893902e6d307dd13ec7085f27429"
+      },
+      "aggregate_statistics_sha256": "1d43b72866e46093bfb59fc2a477d59935f35e8651dba7835fe58d462636592b",
+      "unique_non_seed_configs": [
+        "{\"ants\": 3, \"candidate_pool_size\": 120, \"community_weight\": 0.25, \"diffusion_model\": \"ic\", \"epochs\": 10, \"horizon\": 4, \"iterations\": 2, \"optimizer\": \"robust_greedy\", \"risk_lambda\": 0.35, \"seed_count\": 2, \"simulations\": 20, \"train_fraction\": 0.65}",
+        "{\"ants\": 3, \"candidate_pool_size\": 120, \"community_weight\": 0.25, \"diffusion_model\": \"ic\", \"epochs\": 10, \"horizon\": 4, \"iterations\": 2, \"optimizer\": \"robust_greedy\", \"risk_lambda\": 0.35, \"seed_count\": 2, \"simulations\": 20, \"train_fraction\": 0.6}",
+        "{\"ants\": 3, \"candidate_pool_size\": 120, \"community_weight\": 0.25, \"diffusion_model\": \"ic\", \"epochs\": 10, \"horizon\": 4, \"iterations\": 2, \"optimizer\": \"robust_greedy\", \"risk_lambda\": 0.35, \"seed_count\": 2, \"simulations\": 20, \"train_fraction\": 0.7}"
+      ],
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "dataset_sha256": {
+        "E:\\大学\\校创\\基于GNN的关键用户识别\\data\\processed\\higgs-twitter\\pilot-50000\\nodes.csv": "04560116149c19d1bd7f0dcdaad6b70dbbaa32cf1932cab9221c2aeebfac8e57",
+        "E:\\大学\\校创\\基于GNN的关键用户识别\\data\\processed\\higgs-twitter\\pilot-50000\\edges.csv": "5178d5be13faf6b0875b584e936d24d8043112dcc1b25b0b49ea95dc17f5b7f9",
+        "E:\\大学\\校创\\基于GNN的关键用户识别\\data\\processed\\higgs-twitter\\pilot-50000\\cascades.csv": "d503d39922201baa8dd018c187beb7500c5cf5910ce745c948478525f867b552"
+      }
+    },
+    {
+      "study_directory": "results\\large-robust-greedy-digg-20000-v1",
+      "run_count": 30,
+      "run_sha256": {
+        "split-0.60-seed-42.json": "a0c4cb0b0cb1b9515dd68131c8e12f1265218ec055f57a889e9fc45bcbcb638f",
+        "split-0.60-seed-43.json": "655d4695a040fddf08a0933cd0f338239df0e618b347cbe24a6533437c68e82f",
+        "split-0.60-seed-44.json": "6992364b08e0a69cb133421466f384bdc63a2a657b276d692a89f24899fdc6df",
+        "split-0.60-seed-45.json": "f82a243f7443ac12d7e47346a19146f92b2228447d7f79f04a2de076838785ef",
+        "split-0.60-seed-46.json": "a23feca8533d03d7c3b375206ac615b9f2a70b42e0d21543a383505ea9db9573",
+        "split-0.60-seed-47.json": "4a6288c18f48992d6b116bcee8e3eff19f611dcb9836d4e3f23eb5618809fd0d",
+        "split-0.60-seed-48.json": "5c5c26c33b56435eb5b7eae0645d9bd3c5bd231e84c038c9d423983ca294c0b7",
+        "split-0.60-seed-49.json": "8be5f1bfb0849b96e7970cb086cef7187f0b2f6508521f4f1521a8c73a86ac5f",
+        "split-0.60-seed-50.json": "af2a33449d1af55eeec2a90ad65976497be9cf511268d1bf70226ada2688d95c",
+        "split-0.60-seed-51.json": "1bcdc20a3da577cd01089b706508185d4cb7c566716726cbb088acafe9d03af7",
+        "split-0.65-seed-42.json": "40998c6699cae13c6f25a47ee383345a01da0e49bca2e42df7e9b734f67caa45",
+        "split-0.65-seed-43.json": "81736e37a69765c759d89685bee5370a6408c6fd599c10970d10e39094219567",
+        "split-0.65-seed-44.json": "a4ac4714feafcbdcb50861dd4a828d88f6b52301bdc0bb660841d39343ec6c9d",
+        "split-0.65-seed-45.json": "13c1b3883cff3eebbfda593ff045008e7fa8dd33fe71444d0d13edb8526b7ba3",
+        "split-0.65-seed-46.json": "26fe8084d4ce13c83cd9ebf32b57989f1d731598b6abe0859a7515b4f0e8dc23",
+        "split-0.65-seed-47.json": "a6d1800e68fa4751c01df19bc2ddb14f6ec35ea59770013e91e73ac5a80734cf",
+        "split-0.65-seed-48.json": "a3a74e91a0e8e9535911a6e5f2090c62d34a180c63d7159a019dd67d950b7255",
+        "split-0.65-seed-49.json": "4a3bee4e3ed7469b2e5a12131738e17dfdc4230d9547dcd9f30d5b66cf29869f",
+        "split-0.65-seed-50.json": "da85d26cce8a3f919058bbb436993c0399b204fcad1bbb3fe29acf48bf301cc4",
+        "split-0.65-seed-51.json": "ba4cded004280dc51e0d22f11202a4a8d027bac41c55c26efdeab8d965d5f1d5",
+        "split-0.70-seed-42.json": "d41d735b5bce98221cdd199804432227f9b6141d97f9deb6b432193c2520037c",
+        "split-0.70-seed-43.json": "d3ab2cef74115815f0adaf33e0bc386c7f83f79d5aa2e1d2a1f741da5b308428",
+        "split-0.70-seed-44.json": "6b61dc0862033f92851c0c542783ed0bd38cfd61f2833f3fdcdcef9340eab1c3",
+        "split-0.70-seed-45.json": "9d607b8c8390deac2ecedc4348423bb3dd2f2f830405999bbe3ba5bccac2e934",
+        "split-0.70-seed-46.json": "0e3e3e62a2f28842e0112287d5adfcd88137f324dff1e6f946ffe3786157da87",
+        "split-0.70-seed-47.json": "81f773e63a0af8f72d775a58a6805d106b1ddbac8e36483720d73d922a653e18",
+        "split-0.70-seed-48.json": "3ac487fc35f337791136e5a2fae9a539d68fc98a2f8b62f9c88aad36009c02c6",
+        "split-0.70-seed-49.json": "83ac288dac680be4768b56221ed9ce8a3735bf4b879023266055e823bc6876d2",
+        "split-0.70-seed-50.json": "78b99e32caf16a35c9bfe5f17e0fe2071ac2b06d51d4ea001172778f8c88df54",
+        "split-0.70-seed-51.json": "c23d8fb6870c2a6c334e5e5684b1d249f360342529b915d6ab39d9079bd76a0c"
+      },
+      "aggregate_statistics_sha256": "a6828c7ea5f6373765473914c900aaad05490983499af703af1995e5e4d4edbe",
+      "unique_non_seed_configs": [
+        "{\"ants\": 3, \"candidate_pool_size\": 120, \"community_weight\": 0.25, \"diffusion_model\": \"ic\", \"epochs\": 10, \"horizon\": 4, \"iterations\": 2, \"optimizer\": \"robust_greedy\", \"risk_lambda\": 0.35, \"seed_count\": 2, \"simulations\": 20, \"train_fraction\": 0.65}",
+        "{\"ants\": 3, \"candidate_pool_size\": 120, \"community_weight\": 0.25, \"diffusion_model\": \"ic\", \"epochs\": 10, \"horizon\": 4, \"iterations\": 2, \"optimizer\": \"robust_greedy\", \"risk_lambda\": 0.35, \"seed_count\": 2, \"simulations\": 20, \"train_fraction\": 0.6}",
+        "{\"ants\": 3, \"candidate_pool_size\": 120, \"community_weight\": 0.25, \"diffusion_model\": \"ic\", \"epochs\": 10, \"horizon\": 4, \"iterations\": 2, \"optimizer\": \"robust_greedy\", \"risk_lambda\": 0.35, \"seed_count\": 2, \"simulations\": 20, \"train_fraction\": 0.7}"
+      ],
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "dataset_sha256": {
+        "E:\\大学\\校创\\基于GNN的关键用户识别\\data\\processed\\digg\\pilot-20000\\nodes.csv": "b1ee9740805a04f594c8e0f1ee102131f7ba1db661fef4992d83a9f80769cb56",
+        "E:\\大学\\校创\\基于GNN的关键用户识别\\data\\processed\\digg\\pilot-20000\\edges.csv": "95b4163488e4ae690eba7e42f839db27c0a61cda0d13f6733783694152b16d67",
+        "E:\\大学\\校创\\基于GNN的关键用户识别\\data\\processed\\digg\\pilot-20000\\cascades.csv": "18fe5afa3196de05e6757e6c1015d6dcc434f4740d28db51be44021ce778c246"
+      }
+    }
+  ]
+}

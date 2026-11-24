@@ -1,0 +1,1 @@
+本版只改英中正文。表格生成及实验回放说明以相邻 evidence-presentation-revision-20261103/REPRODUCE.md 及继承实验包为准。请在旧版副本执行该版文字转换和核验脚本，它们针对旧版文字。当前英文在 manuscript 目录用 pdflatex 编译 manuscript.tex 两遍，中文在 chinese/manuscript 目录用 xelatex 编译 manuscript_zh.tex 两遍。

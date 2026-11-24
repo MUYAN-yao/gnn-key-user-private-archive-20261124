@@ -1,2 +1,7 @@
 __pycache__/
 *.restoring
+/project/experiments/symbolic-ranking-pilot-20261101/vendor/llvmlite/binding/llvmlite.dll
+/project/data/raw/digg/unpacked/digg.edges
+/project/tmp/computing-extension-deps/llvmlite/binding/llvmlite.dll
+/project/deliverables/gnn-research-handover-20260912-155521.zip
+/project/deliverables/gnn-research-handover-20260912-155521/project/data/raw/digg/unpacked/digg.edges

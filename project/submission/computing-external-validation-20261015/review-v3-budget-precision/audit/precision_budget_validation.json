@@ -1,0 +1,9 @@
+{
+  "conditions": 30,
+  "arms": 60,
+  "evaluation_values": 600000,
+  "round_score_positions": 37550,
+  "same_default_vector_checks": 35,
+  "same_full_vector_checks": 8,
+  "status": "PASS"
+}

@@ -1,0 +1,156 @@
+{
+  "history": {
+    "pairs": 40,
+    "graphs": 4,
+    "changed_sets": 16,
+    "mean_delta_nodes": 0.011109999999999998,
+    "min_delta": -0.0383,
+    "max_delta": 0.118
+  },
+  "ca_precision": {
+    "candidate_count": 20,
+    "exchanged_members": 2,
+    "summary": [
+      {
+        "dataset": "ca_grqc",
+        "W": "80",
+        "method": "pagerank_4k",
+        "solver": "default",
+        "paths": "5",
+        "delta_nodes_mean": "0.23606",
+        "delta_nodes_path_sd": "0.27401535175971437",
+        "loss_percent_mean": "-5.61334891605824",
+        "loss_percent_path_sd": "6.6061721360198",
+        "same_order_full_count": "0",
+        "same_set_full_count": "0",
+        "candidate_count": "20",
+        "candidate_coverage": "0.003816065636328945"
+      },
+      {
+        "dataset": "ca_grqc",
+        "W": "80",
+        "method": "pagerank_4k",
+        "solver": "strict",
+        "paths": "5",
+        "delta_nodes_mean": "0.4857",
+        "delta_nodes_path_sd": "0.24998864974234333",
+        "loss_percent_mean": "-11.25077642325712",
+        "loss_percent_path_sd": "6.2425294226557515",
+        "same_order_full_count": "0",
+        "same_set_full_count": "0",
+        "candidate_count": "20",
+        "candidate_coverage": "0.003816065636328945"
+      },
+      {
+        "dataset": "ca_grqc",
+        "W": "320",
+        "method": "pagerank_4k",
+        "solver": "default",
+        "paths": "5",
+        "delta_nodes_mean": "-0.12632000000000002",
+        "delta_nodes_path_sd": "0.18076833793560199",
+        "loss_percent_mean": "2.5286640554291275",
+        "loss_percent_path_sd": "3.7076864933951246",
+        "same_order_full_count": "0",
+        "same_set_full_count": "0",
+        "candidate_count": "20",
+        "candidate_coverage": "0.003816065636328945"
+      },
+      {
+        "dataset": "ca_grqc",
+        "W": "320",
+        "method": "pagerank_4k",
+        "solver": "strict",
+        "paths": "5",
+        "delta_nodes_mean": "0.13804",
+        "delta_nodes_path_sd": "0.17387254814949943",
+        "loss_percent_mean": "-2.9629689104876133",
+        "loss_percent_path_sd": "3.769871663919894",
+        "same_order_full_count": "1",
+        "same_set_full_count": "1",
+        "candidate_count": "20",
+        "candidate_coverage": "0.003816065636328945"
+      },
+      {
+        "dataset": "ca_grqc",
+        "W": "1280",
+        "method": "pagerank_4k",
+        "solver": "default",
+        "paths": "5",
+        "delta_nodes_mean": "-0.25082",
+        "delta_nodes_path_sd": "0.07636315865651447",
+        "loss_percent_mean": "5.070376765246573",
+        "loss_percent_path_sd": "1.5055967240733117",
+        "same_order_full_count": "0",
+        "same_set_full_count": "0",
+        "candidate_count": "20",
+        "candidate_coverage": "0.003816065636328945"
+      },
+      {
+        "dataset": "ca_grqc",
+        "W": "1280",
+        "method": "pagerank_4k",
+        "solver": "strict",
+        "paths": "5",
+        "delta_nodes_mean": "0.02608",
+        "delta_nodes_path_sd": "0.09154734840507397",
+        "loss_percent_mean": "-0.544437247287677",
+        "loss_percent_path_sd": "1.8806929508404149",
+        "same_order_full_count": "0",
+        "same_set_full_count": "0",
+        "candidate_count": "20",
+        "candidate_coverage": "0.003816065636328945"
+      }
+    ]
+  },
+  "external": {
+    "matches": {
+      "degree_4k": 15,
+      "pagerank_4k": 0
+    },
+    "degree_selection_savings_percent": [
+      99.53715003721359,
+      98.40150274096732,
+      99.67315822302541
+    ],
+    "directed_strict_deltas": [
+      {
+        "dataset": "college_msg",
+        "W": 80,
+        "delta": -0.92828
+      },
+      {
+        "dataset": "college_msg",
+        "W": 320,
+        "delta": -0.85444
+      },
+      {
+        "dataset": "college_msg",
+        "W": 1280,
+        "delta": -0.9077999999999999
+      },
+      {
+        "dataset": "wiki_vote",
+        "W": 80,
+        "delta": -41.27506
+      },
+      {
+        "dataset": "wiki_vote",
+        "W": 320,
+        "delta": -41.275220000000004
+      },
+      {
+        "dataset": "wiki_vote",
+        "W": 1280,
+        "delta": -41.2197
+      }
+    ]
+  },
+  "sources": {
+    "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-external-validation-20261015\\structure-complete-revision-20261028\\analysis\\historical_reference_transitions.csv": "188413b7c6bf92215b8a3532e719dd8210fca61284ba310864b864392d4b363c",
+    "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-external-validation-20261015\\review-v3-budget-precision\\analysis\\precision_budget\\summary_by_budget_precision.csv": "a1ab49b89f2764d10d3817152981983fadf8c57b63dddb6fc6fb2961ac6fa3e9",
+    "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-external-validation-20261015\\review-v3-budget-precision\\analysis\\precision_budget\\candidate_pool_precision_diagnostics.csv": "f2be3c2080c6fc9cb62220bf647863559a487fa76bb01e9606cb51e9026316d5",
+    "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-external-validation-20261015\\review-v3-budget-precision\\analysis\\summary_by_method.csv": "5e5eb3ebfd52142876059dbedcffb3931ac8c7c0b5a947168a21de823e77c771"
+  },
+  "scope": "Recomputed descriptive summaries from saved CSVs only; no raw simulation or inference rerun."
+}

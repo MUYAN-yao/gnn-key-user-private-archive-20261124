@@ -1,0 +1,44 @@
+﻿TOCS 署名稿｜三项实验数据核对说明
+核对日期：2026-11-14。传播量与 gap 的单位均为节点。以下数字来自已有模拟记录，本次未运行新实验。
+
+一、历史接触图的实际实验设置
+k 为种子数，p 为单次激活概率，h 为传播轮数上限，W 为选种用的随机世界数；M 为独立评估世界数。
+四图为 invs2013、invs2015、kenya2012、sfhh2009。三图指前三张。
+
+初始研究（42 个条件，M=2,000；重复编号 301、302）：
+  k=5；p=0.01，h=3；W=20, 80, 320；图为 invs2013, invs2015, kenya2012, sfhh2009；共 24 个条件。
+  k=20；p=0.01，h=3；W=20, 80, 320；图为 invs2013, invs2015, kenya2012；共 18 个条件。
+
+历史扩展（接触图 500 个条件，M=10,000；每图 10 条重复，编号 1001–1010）：
+  resolution：k=5；(p,h)=(0.01, 3)；W=20, 80, 320, 1280, 5120；step 耦合；4 图、200 个条件。
+  seed_budget：k=20；(p,h)=(0.01, 3)；W=320, 1280；step 耦合；3 图、60 个条件。
+  parameters：k=5；(p,h)=(0.005, 3), (0.01, 1), (0.01, 5), (0.05, 3)；W=320；step 耦合；4 图、160 个条件。
+  coupling：k=5；(p,h)=(0.01, 3)；W=320, 1280；edge 耦合；4 图、80 个条件。
+  k=20 的扩展只覆盖上述三图。参数敏感性沿用预算扫描中 (p,h)=(0.01,3)、W=320 的默认对照。另有 20 个合成图条件，合计 520。
+
+二、W=1,280 时三个 SNAP 网络上 Random-4k 的结果
+主预算扫描，step 耦合，k=5，p=0.01，h=3。每个随机池含 20 个候选。先在每条重复内平均三个随机池，再对 1101–1105 五条重复等权平均。
+增量传播 = 独立评估的平均总传播量 − 5；gap = Random-4k 减去同预算 Full 的配对传播量。两者种子数相同，故 gap 也等于增量传播之差。
+网络          Random-4k 平均增量传播     Full 平均增量传播      gap（节点）
+ca-GrQc             0.99000                  4.93366          -3.94366
+CollegeMsg          1.84467                 10.07212          -8.22745
+wiki-Vote           4.83423                 55.73602         -50.90179
+
+三、Degree-4k 有序种子序列与 Full 完全一致的重复数
+同上主预算扫描、同图同预算逐条比较全部五个种子 ID 的顺序。W=320 的 fixed-edge 对照未混入。
+网络           W=80       W=320      W=1,280（对照）
+ca-GrQc        1/5          4/5          5/5
+CollegeMsg     5/5          5/5          5/5
+wiki-Vote      5/5          5/5          5/5
+合计           11/15         14/15         15/15
+  ca-GrQc 完全一致的重复编号：W=80 [1105]；W=320 [1101, 1102, 1104, 1105]。
+  CollegeMsg 完全一致的重复编号：W=80 [1101, 1102, 1103, 1104, 1105]；W=320 [1101, 1102, 1103, 1104, 1105]。
+  wiki-Vote 完全一致的重复编号：W=80 [1101, 1102, 1103, 1104, 1105]；W=320 [1101, 1102, 1103, 1104, 1105]。
+
+来源（路径相对于项目根目录）：
+audits\sociopatterns-resolution-confirmation-v0_1\snapshot-r3-confirmation-run-20260920/各网络/k*/path-*.json
+submission\computing-strengthening-20261015\snapshot\config.json；submission\computing-strengthening-20261015\protocol.md；submission\computing-strengthening-20261015\results\conditions
+submission\computing-external-validation-20261015\config.json
+submission\computing-external-validation-20261015\results\main\conditions/resolution__{dataset}__p{replicate}__w{W}__step.{json,npz}
+JSON 对比 arms.degree_4k.selected 与 arms.full.selected；NPZ 读取 random0_4k_evaluation 至 random2_4k_evaluation 及 full_evaluation，每个向量含 10,000 个计数。
+submission\computing-external-validation-20261015\analysis\arm_path.csv：核对 incremental_spread、delta、same_order。

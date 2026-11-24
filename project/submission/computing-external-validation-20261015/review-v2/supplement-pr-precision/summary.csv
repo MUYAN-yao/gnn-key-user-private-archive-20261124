@@ -1,0 +1,7 @@
+dataset,method,paths,delta_vs_full,mean_loss_percent,delta_vs_default,same_order_as_default,same_set_as_default
+ca_grqc,pagerank_4k,5,0.02608,-0.544437247287677,0.27690000000000003,0,0
+ca_grqc,pagerank_5pct,5,0.0,0.0,0.0,5,5
+college_msg,pagerank_4k,5,-0.9077999999999999,9.011828932333028,0.0,5,5
+college_msg,pagerank_5pct,5,-0.43094,4.277062643612725,0.0,5,5
+wiki_vote,pagerank_4k,5,-41.2197,73.95513103805385,-0.52636,0,0
+wiki_vote,pagerank_5pct,5,-13.63982,24.47204075085951,-0.10969999999999999,3,3

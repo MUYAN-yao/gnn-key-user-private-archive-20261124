@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "frozen_default_conditions": 54,
+  "frozen_default_arms": 468,
+  "new_posthoc_conditions": 30,
+  "new_posthoc_arms": 60,
+  "combined_posthoc_conditions": 45,
+  "combined_posthoc_arms": 90,
+  "new_matrix_hash_and_array_checks": true,
+  "independent_result_validator": {
+    "conditions": 30,
+    "arms": 60,
+    "evaluation_values": 600000,
+    "round_score_positions": 37550,
+    "same_default_vector_checks": 35,
+    "same_full_vector_checks": 8,
+    "status": "PASS"
+  },
+  "strict_budget_values_recomputed_from_raw_arrays": true,
+  "pool_stable_at_tighter_tolerance": true,
+  "inherited_default_regeneration": true,
+  "new_analysis_regeneration": true,
+  "main_pages": 19,
+  "supplement_pages": 11,
+  "abstract_words": 234,
+  "visual_review": "all pages inspected in qa/visual-review.md",
+  "environment": {
+    "python": "3.13.0 | packaged by conda-forge | (main, Nov 27 2024, 19:03:49) [MSC v.1942 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "scope": "Ready for author scientific and declaration review; no submission has been made."
+}

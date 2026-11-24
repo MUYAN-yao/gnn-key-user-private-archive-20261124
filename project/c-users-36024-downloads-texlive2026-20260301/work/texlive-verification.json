@@ -1,0 +1,26 @@
+[
+  {
+    "name": "pdflatex-english",
+    "exitCode": 0
+  },
+  {
+    "name": "xelatex-chinese-first",
+    "exitCode": 0
+  },
+  {
+    "name": "biber-references",
+    "exitCode": 0
+  },
+  {
+    "name": "xelatex-chinese-second",
+    "exitCode": 0
+  },
+  {
+    "name": "xelatex-chinese-final",
+    "exitCode": 0
+  },
+  {
+    "name": "lualatex-english",
+    "exitCode": 0
+  }
+]

@@ -1,0 +1,363 @@
+\documentclass[smallextended]{svjour3}
+\usepackage{fix-cm}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{mathptmx}
+\usepackage{amsmath,amssymb,graphicx,booktabs,tabularx,url}
+\usepackage{placeins}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[hidelinks]{hyperref}
+\journalname{Computing}
+\smartqed
+\setlength{\emergencystretch}{2em}
+\newcommand{\CollegePRDelta}{-0.90780}
+\newcommand{\CollegePRLoss}{9.01}
+\newcommand{\CollegePRSaving}{86.44}
+\newcommand{\CollegePRfiveDelta}{-0.43094}
+\newcommand{\CollegePRfiveLoss}{4.28}
+\newcommand{\CollegePRfiveSaving}{82.83}
+\newcommand{\CollegeDegreeDelta}{0.00000}
+\newcommand{\CollegeDegreeLoss}{0.00}
+\newcommand{\CollegeDegreeSaving}{86.59}
+\newcommand{\GrqcPRDelta}{-0.25082}
+\newcommand{\GrqcPRLoss}{5.07}
+\newcommand{\GrqcPRSaving}{92.70}
+\newcommand{\GrqcPRfiveDelta}{0.00000}
+\newcommand{\GrqcPRfiveLoss}{0.00}
+\newcommand{\GrqcPRfiveSaving}{88.14}
+\newcommand{\GrqcDegreeDelta}{0.00000}
+\newcommand{\GrqcDegreeLoss}{0.00}
+\newcommand{\GrqcDegreeSaving}{92.77}
+\newcommand{\WikiPRDelta}{-40.69334}
+\newcommand{\WikiPRLoss}{73.01}
+\newcommand{\WikiPRSaving}{96.42}
+\newcommand{\WikiPRfiveDelta}{-13.53012}
+\newcommand{\WikiPRfiveLoss}{24.28}
+\newcommand{\WikiPRfiveSaving}{91.98}
+\newcommand{\WikiDegreeDelta}{0.00000}
+\newcommand{\WikiDegreeLoss}{0.00}
+\newcommand{\WikiDegreeSaving}{96.26}
+
+\begin{document}
+\title{Evaluating Candidate-Restricted Influence Maximization: Effects of Reference Budget and Ranking Precision}
+\titlerunning{Evaluating candidate-restricted influence maximization}
+\author{\mbox{Jiayue Sun} \and \mbox{Binbin Yong} \and \mbox{Junjie An} \and \mbox{Tianyu Bo} \and \mbox{Shuai Li}}
+\authorrunning{Jiayue Sun et al.}
+\institute{Jiayue Sun \at School of Artificial Intelligence, Lanzhou University, Lanzhou 730000, China
+\and Binbin Yong (corresponding author) \at School of Information Science and Engineering, Lanzhou University, Lanzhou 730000, China \\
+\email{yongbb14@lzu.edu.cn}
+\and Junjie An, Tianyu Bo and Shuai Li \at Lanzhou University, Lanzhou, China}
+\date{}
+\maketitle
+\begin{abstract}
+Restricting seed candidates can reduce influence-maximization cost, but the resulting quality judgment depends on how both compared seed sets are computed. We separate the shared selection-world budget from candidate-ranking precision and assess selected seeds on 10,000 independent worlds. Three external networks provide the main comparison, with four small contact graphs supplying separate controls. On ca-GrQc, default PageRank-4k changes from a mean relative incremental-spread difference of $+5.61$\% to $-5.07$\% as the selection budget increases. A post-hoc tolerance control replaces two candidates and removes this mean sign reversal, while budget-dependent seed changes persist. Independent evaluation also distinguishes set instability from utility change: 16 of 40 historical reference sets change, with a mean spread increase of 0.01111 nodes across all pairs. At the highest external budget, 20-node degree pools reproduce all 15 reference trajectories at lower measured selection cost. PageRank losses remain on the directed networks. These results identify a precision-sensitive quality judgment and quantify when different seed outputs correspond to different spread, linking candidate compression to its measured utility and cost.
+\keywords{influence maximization \and Monte Carlo simulation \and candidate restriction \and evaluation methodology \and reproducibility}
+\end{abstract}
+
+\section{Introduction}
+Influence maximization selects a limited set of seed vertices to maximize expected spread under a specified diffusion model \cite{ref1}. It formalizes targeted seeding, such as choosing initial adopters in a social network. Greedy selection repeatedly estimates the spread gained by adding a vertex, making computational cost a central concern. Lazy evaluation, reuse of sampled realizations and sampling-based optimization address this cost through different computational strategies \cite{ref7,ref8,ref2}. Candidate restriction reduces the set of vertices eligible for selection. Its practical value depends on how much spread is retained for the computation saved.
+
+Establishing this trade-off is difficult when the full-candidate reference is itself selected from finitely sampled diffusion worlds. The observed gap compares two computed seed sets, and its interpretation depends on how both were obtained. Misattributing that gap can lead to an incorrect judgment about whether a cheaper candidate pool preserves the reference's utility.
+
+Selection sampling and candidate ranking enter this comparison at different stages. In the budget sweeps, increasing $W$ can change the seeds selected by both the full-candidate reference and the restricted methods. Their relative spread difference therefore reflects budget-dependent changes in both selection procedures. Ranking precision acts before selection, where small score changes can exchange vertices at the candidate-pool boundary. Seed disagreement alone cannot resolve these effects because different sets can have similar independently evaluated spread.
+
+Figure~\ref{fig:evaluation-mechanism} shows the paired comparison. Both methods use the same graph, selection worlds and greedy rule. We ask whether the ranking tolerance changes the outcome of a budget comparison, how much spread changes when the seeds change, and how much selection time each restriction saves.
+
+The evidence is drawn from a small, selected sample of real-world networks. Three external communication, collaboration and voting topologies test the transfer of earlier findings from four small contact graphs. The contact-graph results provide separate budget, propagation-parameter and coupling controls. A post-hoc PageRank analysis tests whether the external budget comparison depends on solver tolerance.
+
+The main contributions are:
+\begin{enumerate}
+\item[(1)] \textbf{We found that on ca-GrQc, the mean spread gap between PageRank-4k and the full reference changed from positive to negative as the selection budget increased at default tolerance. At tighter tolerance, the mean gap was positive at all three budgets.} In a post-hoc comparison on the original five paths, tightening the tolerance replaced two of the top 20 candidates. Table~\ref{tab:precision-output} reports the paired gaps relative to the full reference at each budget.
+\item[(2)] \textbf{We quantify the utility consequences of seed-set changes.} Independent paired evaluation measures signed spread differences alongside trajectory and set agreement. In the historical $W=1280$ to 5120 transition, 16/40 sets change, but mean spread increases by only 0.01111 nodes across all pairs, with negative, positive and zero differences. This quantifies what a set-change count alone leaves unresolved.
+\item[(3)] \textbf{We measure the utility and computational cost of candidate compression.} Degree-4k retains all 15 external reference trajectories at $W=1280$ using 20 candidates and lower measured selection time. Default PageRank-4k retains none; expanding its pool reduces the directed-network losses without eliminating them. These contrasts identify reference-preserving and lossy restrictions within the tested settings.
+\end{enumerate}
+
+\begin{figure}[t]
+\centering\includegraphics[width=\linewidth]{FigEvaluationMechanism.pdf}
+\caption{Paired evaluation separates selection sampling, candidate ranking and independent utility assessment. (a) Both arms select seeds using the same $W$ worlds. Ranking tolerance $\tau$ and cutoff $q$ define the restricted pool $C(\tau,q)$. Both arms share the graph, world prefix, seed budget and tie rule. (b) A separate, shared family of $M=10,000$ evaluation worlds yields $\Delta U$, restricted minus full-reference spread. Set agreement $J$ and selection-cost ratio $\rho_T$ complete the quality--cost comparison.}\label{fig:evaluation-mechanism}
+\end{figure}
+
+\section{Related work}
+\paragraph{Objectives, sampling and computational efficiency.} Kempe et al. establish monotonicity and submodularity of expected spread under the independent-cascade model, supporting greedy approximation \cite{ref1}. CELF exploits submodularity to avoid unnecessary marginal reevaluations \cite{ref7}. StaticGreedy reuses fixed sampled realizations throughout selection, preserving a consistent sampled coverage objective \cite{ref8}. IMM develops a sampling-based solver with approximation guarantees \cite{ref2}. These approaches address the computational difficulty of optimization under specified objectives. Their results motivate careful treatment of the sampled objective, but do not identify the utility consequence of excluding vertices through a particular truncated ranking. Our comparison holds the simulator and greedy rule fixed while changing eligibility, the shared selection budget or ranking tolerance.
+
+\paragraph{Influence estimation and seed-selection strategies.} Rui et al. estimate influence from multiple neighbourhood levels \cite{ref12}, while Fan et al. use discrete Harris hawks optimization for seed selection \cite{ref13}. Ko et al.'s MONSTOR+ predicts spread on unseen graphs \cite{ref19}. These studies offer different ways to estimate influence or search for seed sets. Their algorithmic objectives differ from assessing a fixed ranking solely as a filter on seed eligibility. In the latter setting, greedy selection still operates on the complete propagation graph, and candidate coverage becomes part of the comparison. We therefore distinguish a ranking's role in defining the pool from the simulator's role in evaluating its selected seeds.
+
+\paragraph{Evaluation settings and the remaining question.} Li et al. survey influence-maximization methods \cite{ref9}, and Arora et al. examine their quality and computational cost in a benchmarking study \cite{ref16}. Yanchenko et al. review temporal-network formulations \cite{ref11}; Aral and Dhillon study empirical influence models \cite{ref15}. Together, these research directions place algorithm comparisons within their diffusion models, network representations and evaluation settings. Our experiments use observed topologies with simulated diffusion. They assess sensitivity within that computational setting and do not estimate realized social influence.
+
+For a truncated ranking, the comparison involves two computations. The ranking determines which vertices enter the search, and the sampled objective determines which eligible vertices become seeds. We vary these computations separately and measure their consequences on independent evaluation worlds.
+
+\section{Methods}
+We compare full and restricted greedy selection on the same propagation graph. The selection objective, evaluation metric and timing procedure are defined below. Network characteristics and parameter values appear in Section~\ref{sec:experimental-setup}.
+\subsection{Paired selection at controlled resolutions}
+Let $G=(V,E)$ be a directed propagation graph and $S$ a seed set of size $k$. Under the independent-cascade model, each newly activated vertex gets one opportunity to activate each inactive outgoing neighbour with probability $p$. Propagation stops after $h$ rounds. For a random world $\omega$, let $f_h(S;\omega)$ denote total activated vertices, including seeds. Greedy selection uses the sampled objective
+\begin{equation}
+\widehat\sigma_W(S)=\frac{1}{W}\sum_{w=1}^{W}f_h(S;\omega_w).
+\end{equation}
+At each round, greedy selection enumerates every unselected eligible vertex and chooses the largest integer total $W\widehat\sigma_W$. Ties resolve by lexicographic original node ID. Full selection uses $C=V$; restricted selection uses $C\subseteq V$. All vertices remain in the propagation graph. A path identifies one computational repetition and its random-world families. A condition fixes the graph, path and experimental settings; an arm specifies a seed-eligibility rule within that condition. Full and restricted arms share $G$, the world prefix, $k$ and the tie rule.
+
+In the budget sweeps, $W$ governs seed selection for both the full-candidate reference and every restricted arm. Each arm selects its seeds anew at each $W$, using the same nested world prefix. Candidate pools remain fixed across $W$ within a given ranking setting; ranking tolerance $\tau$ and pool size $q$ are controlled separately. The resulting relative differences reflect changes in both selection procedures, rather than improvement of the reference alone.
+
+Degree ranks distinct outgoing neighbours. PageRank uses the unweighted directed topology and NetworkX 3.5 defaults: damping .85, uniform personalization and dangling-node treatment, tolerance $10^{-6}$ and at most 100 iterations \cite{networkxpr}. Its stopping criterion is successive-vector $L_1$ change below $n\tau$, where $n=|V|$. Scores are sorted decreasingly with lexical ties. A top-$q$ pool contains $q=\min(n,4k)$ or $q=\lceil .05n\rceil$ vertices. Historical weighted degree counts outgoing observed events where such counts exist. Three random pools are independently generated within each graph/path and fixed across budgets and coupling controls.
+
+\subsection{World coupling and independent evaluation}\label{sec:coupling}
+Primary selection worlds share draws indexed by world, propagation step, source and target. This coupling preserves the independent-cascade marginal law for each fixed seed set, but the realized finite-world objective can be nonmonotone. For example, initially activating an intermediate vertex can move its outgoing attempt to an earlier step with a different sampled outcome. Online Resource 1 gives the explicit counterexample. A separate fixed-edge control draws once per edge and world; its finite objective is coverage by vertices reachable within $h$ edges and is monotone and submodular. Both implementations use exhaustive enumeration.
+
+Selection-world identifiers form nested prefixes as $W$ increases. In the external study and the 520-condition historical extension, evaluation uses $M=10,000$ worlds per graph/path/coupling, disjoint from selection and fixed across arms and budgets. Keys also separate graphs, paths and candidate-pool randomization. Coupling schemes are compared within their own full references.
+
+For restricted seeds $S_C$ and full-reference seeds $S_F$, define the paired evaluation difference on world $i$ as $d_i=f_h(S_C;\eta_i)-f_h(S_F;\eta_i)$. Both sets are selected at the same $W$; positive $d_i$ favors the restricted method. The utility gap in Fig.~\ref{fig:evaluation-mechanism} is
+\begin{equation}
+\widehat\Delta=\frac{1}{M}\sum_{i=1}^{M}d_i,
+\qquad \operatorname{SE}_{\rm MC}=s(d_i)/\sqrt M.
+\end{equation}
+The interval $\widehat\Delta\pm1.96\operatorname{SE}_{\rm MC}$ describes conditional Monte Carlo uncertainty for fixed selected sets. Across-path standard deviation describes variation across computational paths, including finite evaluation noise. The three random-pool evaluation vectors are averaged within each path before either calculation.
+
+We report ordered-trajectory agreement, final-set agreement, Jaccard similarity and the first divergent round. Incremental spread subtracts $k$ from total spread; percentage incremental loss is $-100\widehat\Delta/(\widehat\sigma_{\rm full}-k)$. Negative loss favors the restricted set. All observed denominators are positive.
+
+The frozen primary tests compare Degree-4k, PageRank-4k and the within-path random mean with full selection at $W=1280$. Each comparison uses a two-sided exact sign test; Holm correction covers the three comparisons within each graph. Zero differences are excluded from the tests and reported separately. Coverage, coupling and transition analyses are descriptive; worlds and paths are not independent network samples.
+
+\subsection{Implementation and cost measurement}
+The Numba implementation stores candidate IDs, selected sequences, integer round totals and per-world evaluation values. Reproduction and verification procedures are provided in Online Resource 1.\footnote{OpenAI Codex assisted with basic code development and manuscript drafting.}
+
+Selection time includes greedy search and lexical candidate sorting, but excludes graph preparation, world generation and evaluation. We also estimate the cost of a warm-process run that includes independent evaluation. Separately measured parsing, graph construction and one method's ranking/pool generation are added to the recorded costs of selection-world preparation, seed selection, evaluation-world preparation and evaluation. Setup uses the median of five repeats. These assembled estimates exclude imports, just-in-time compilation, downloads and output writing.
+
+Five randomized repeats at path 1101 and $W=320$ assess timing variability. Cost comparisons use this implementation's exhaustive full-candidate reference. Results at the tighter PageRank tolerance are used only for quality sensitivity; the timing comparison uses default tolerance.
+
+\section{Experimental setup}\label{sec:experimental-setup}
+\paragraph{Inputs and outputs.} Each run takes the processed graph $G$, its arc directions, $k$, $p$, $h$, the shared selection budget $W$ and a candidate rule. Ranking tolerance $\tau$ and cutoff $q$ determine the restricted pool $C$; they leave the propagation graph intact. Selection returns an ordered sequence of $k$ seeds and its final set, together with selection time. Independent evaluation takes that set and $M$ held-out worlds, returning total spread, incremental spread and paired differences from the same-budget full reference. Tables~\ref{tab:primary} and~\ref{tab:case} connect these outputs to candidate counts and original node IDs.
+
+\subsection{Networks and preprocessing}
+We selected three larger SNAP topologies before inspecting seed sets or utilities \cite{snap}: CollegeMsg communication, ca-GrQc collaboration and wiki-Vote voting. Table~\ref{tab:data} reports the processed sizes and candidate coverage. All retained components are included.
+\begin{table}[htbp]
+\caption{Processed SNAP networks. Arcs are directed propagation arcs. The 4k fraction is the share of vertices in a 20-vertex pool; the 5\% pool contains $\lceil 0.05n\rceil$ vertices.}\label{tab:data}
+\begin{tabular}{lrrrr}
+\toprule
+Graph & Nodes & Arcs & 4k fraction & 5\% pool \\
+\midrule
+CollegeMsg & 1,438 & 13,397 & 1.391\% & 72 \\
+ca-GrQc & 5,241 & 28,968 & 0.382\% & 263 \\
+wiki-Vote & 7,115 & 103,689 & 0.281\% & 356 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+CollegeMsg records timestamped sender-to-receiver messages \cite{college}. We sort its 58,911 distinct timestamps, retain the first $\lfloor .65\times58,911\rfloor=38,292$ complete groups, and include events through Unix timestamp 1085640224. Removing self-messages leaves 38,939 events. Repeated sender--receiver pairs contribute to historical outgoing-message counts but form a single propagation arc. Propagation uses uniform $p$, independently of the message count.
+
+ca-GrQc links coauthors \cite{grqc}; we remove self-loops, deduplicate pairs and create reciprocal arcs. Vertices are collected after loop removal, excluding the self-loop-only vertex 12295 and giving 5,241 rather than the source page's 5,242 vertices. wiki-Vote arcs run from voter to votee \cite{signed,links}; self-loops and duplicate arcs are removed without reversing the remaining arcs. Outgoing diffusion on these arcs is a simulation assumption. The two static datasets provide topology-only inputs; historical-weighted ranking requires event counts. We retain all weak components: 2 in CollegeMsg, 354 in ca-GrQc and 24 in wiki-Vote. Original IDs are stored as strings and sorted lexicographically for graph indexing, ranking ties and greedy ties. Raw-file and processed-graph hashes are supplied in the data manifest.
+
+Historical context comes from four contact-derived graphs with 75--402 vertices, constructed from workplace, conference and rural Kenya data \cite{ref3,ref4,ref5,ref6}. We distinguish four evidence layers: the initial 42-condition study; a 520-condition historical extension; the external matrix below; and its post-hoc PageRank precision control. The extension uses ten paths per contact graph and adds a budget scan up to $W=5120$, four local changes to $(p,h)$, fixed-edge sampling, a larger seed budget, and two fixed 2,000-node synthetic instances \cite{ref17,ref18}. The parameter controls reuse the default budget-scan conditions. Online Resource 1 reports the complete coverage and descriptive results separately.
+
+\subsection{Primary matrix and numerical sensitivity control}
+Table~\ref{tab:settings} specifies the external design. Here, conditions vary graph, path, selection budget and coupling; the remaining propagation settings are fixed. Three graphs, five paths and three selection budgets define 45 primary conditions. Nine fixed-edge conditions provide a matched coupling control. Every condition includes full selection, Degree-4k, PageRank-4k, Degree-5\%, PageRank-5\% and three random-4k pools; CollegeMsg also includes Weighted-4k and Weighted-5\% pools based on outgoing message counts. This gives 18 conditions per graph, with 10 arms for CollegeMsg and 8 for each static graph: $18(10+8+8)=468$ arms. All 54 conditions were completed and retained.
+
+\begin{table}[htbp]
+\caption{Experiment settings on the SNAP networks.}\label{tab:settings}
+\begin{tabularx}{\linewidth}{lX}
+\toprule
+Quantity & Setting \\
+\midrule
+Diffusion & Independent cascade; uniform $p=0.01$; horizon $h=3$; $k=5$ seeds \\
+Primary selection & Step coupling; $W\in\{80,320,1280\}$; replicates 1101--1105 \\
+Evaluation & $M=10{,}000$ worlds per graph, replicate and coupling, shared across methods and budgets \\
+Pool sizes & $4k=20$ or $\lceil0.05n\rceil$; three random pools of size 20 per replicate \\
+Fixed-edge control & $W=320$; replicates 1101--1103 \\
+Default PageRank & Damping 0.85; $\tau=10^{-6}$; at most 100 iterations \\
+Strict PageRank (post-hoc) & $\tau=10^{-12}$; at most 1,000 iterations; pool unchanged at $10^{-14}$ \\
+Repeated timing & Five repeats per method in randomized order; replicate 1101, $W=320$ \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+The external budget sweep spans 80 to 1280 selection worlds. At each budget both arms select five seeds, with $p=.01$ and $h=3$. The historical contact-graph sweep extends to $W=5120$.
+
+The post-hoc PageRank control uses the original five paths. At each $W$, it recomputes the restricted seeds with tolerance $10^{-12}$ and at most 1,000 iterations, then compares them with the original full reference on the same evaluation worlds. The resulting candidate pools have identical membership at $10^{-12}$ and $10^{-14}$. Online Resource 1 describes the two stages of this control.
+
+\subsection{Randomization, execution and reproducibility}
+World identifiers separate graphs, paths and selection/evaluation families. Increasing $W$ appends selection worlds without resampling the prefix; the selection and evaluation identifiers are checked for overlap. Random candidate pools use a separate randomization key and remain fixed across budgets and coupling controls. Online Resource 1, ``Executable reproduction procedure'', specifies the exact hash keys, identifier construction and hash-to-draw mapping.
+
+Experiments use one serial worker on Windows with Python 3.13.0, NumPy 2.3.3, NetworkX 3.5, SciPy 1.16.1 and Numba 0.68.0. BLAS/OpenMP threads are constrained to one. JIT warm-up precedes timed conditions; randomized arm order reduces systematic order effects. The recorded host has 20 physical CPU cores and approximately 32 GiB RAM.
+
+\section{Results}
+\subsection{An apparent budget reversal depends on ranking precision}
+On ca-GrQc, does the direction of the PageRank-4k comparison depend on the tolerance used to rank candidates? At default tolerance, mean relative incremental spread was 5.61\% above the same-budget full reference at $W=80$, then 2.53\% and 5.07\% below it at $W=320$ and 1280. At tighter tolerance it was above the reference at all three budgets, by 11.25\%, 2.96\% and 0.54\%, respectively (Fig.~\ref{fig:precision-budget}).
+
+Tightening tolerance removed vertices 1488 and 19865 from the 20-node pool and admitted 17655 and 6610. At each budget, this exchange changed the final seed set on all five paths (Table~\ref{tab:precision-output}). At $W=1280$, the strict-minus-full spread difference averaged $+0.02608$ nodes, ranging from $-0.0408$ to $+0.1789$ across paths (SD 0.09155). Holding the strict pool fixed and increasing $W$ changed the selected set on 3/5 paths from 80 to 320 and 2/5 from 320 to 1280.
+
+CollegeMsg's default- and tighter-tolerance pools, seeds and evaluations are identical at every budget, retaining losses of 9.33\%, 8.52\% and 9.01\%. On wiki-Vote, one candidate changes, but losses at the tighter tolerance remain 74.05\%, 74.05\% and 73.96\%.
+
+\begin{table}[htbp]
+\caption{PageRank-4k on ca-GrQc at the default ($\tau=10^{-6}$) and strict ($\tau=10^{-12}$) tolerance. Gaps are restricted minus full-reference spread at the same $W$, in nodes, averaged over five replicates, with the standard deviation across replicates in parentheses. Changed sets counts the replicates on which the two tolerances select different final sets.}\label{tab:precision-output}
+\centering\begin{tabular}{rrrr}\toprule
+$W$ & Default gap (SD) & Strict gap (SD) & Changed sets \\ \midrule
+80 & +0.23606 (0.27402) & +0.48570 (0.24999) & 5/5 \\
+320 & -0.12632 (0.18077) & +0.13804 (0.17387) & 5/5 \\
+1280 & -0.25082 (0.07636) & +0.02608 (0.09155) & 5/5 \\
+\bottomrule\end{tabular}
+\end{table}
+
+\begin{figure}[t]
+\centering\includegraphics[width=\linewidth]{Fig4.pdf}
+\caption{Selection budget and ranking precision have distinct effects on candidate-restriction quality. At each $W$, restricted methods are compared with the full reference selected at that same $W$; evaluation uses fixed independent worlds. Points are mean incremental losses over five paired paths; bars are path standard deviations. The plotted labels Default and Strict denote tolerances $10^{-6}$ and $10^{-12}$; candidate membership is unchanged between $10^{-12}$ and $10^{-14}$. Negative loss favors the restricted set. The ca-GrQc default reversal disappears with the tighter PageRank tolerance, while the directed-network losses persist. This is a post-hoc paired sensitivity analysis.}\label{fig:precision-budget}
+\end{figure}
+
+\subsection{Changing the reference set does not determine the spread change}
+For the full reference, we compared the spread of the seeds selected at $W=1280$ with that of the seeds selected at $W=320$ on each path (Fig.~\ref{fig:transitions}). All five ca-GrQc sets changed. Their mean spread change was $+0.12720$ nodes, with individual differences from $-0.0266$ to $+0.2411$. On CollegeMsg one set changed, and spread increased by 0.05336 nodes on average across all five paths. On wiki-Vote some selection orders changed, but every final set was identical across budgets and every paired spread difference was zero.
+
+Of the six changed sets, four have positive pointwise 95\% conditional Monte Carlo intervals; two ca-GrQc intervals include zero. The nine unchanged sets have identical evaluation vectors.
+
+In the historical step-coupled comparison from $W=1280$ to 5120, 16/40 sets changed while the mean high-minus-low budget spread change was 0.01111 nodes (range $-0.0383$ to $+0.1180$). Historical fixed-edge references also change: from $W=320$ to 1280, 29/40 sets changed, with mean high-minus-low budget spread change 0.061845 nodes (range $-0.0110$ to $+0.2572$). Each transition uses a shared evaluation family within its own coupling. Because the two budget intervals differ, their mean changes do not estimate a coupling effect.
+\begin{figure}[t]
+\centering\includegraphics[width=\linewidth]{Fig2.pdf}
+\caption{Reference-set changes and independent spread changes, defined as higher-budget minus lower-budget full-reference spread. Filled circles denote changed final sets; hollow squares denote unchanged sets. Paths 1101--1105 run from left to right within each graph. Bars are unadjusted 95\% conditional Monte Carlo intervals from 10,000 paired worlds. Panel-specific vertical scales reveal small changes; the intervals condition on selected sets and do not describe variation across networks.}\label{fig:transitions}
+\end{figure}
+
+\subsection{Ranking agreement depends on coverage and network context}
+At $W=1280$, Degree-4k reproduces every full-candidate reference trajectory across the three external graphs using only 20 candidates (Table~\ref{tab:primary}). Default PageRank-4k matches none and incurs mean incremental losses of \GrqcPRLoss{}\%, \CollegePRLoss{}\% and \WikiPRLoss{}\% on ca-GrQc, CollegeMsg and wiki-Vote. The historical extension showed much broader PageRank agreement: 40/40 trajectories at $W=5120$, compared with 39/40 for degree. The external results therefore limit transfer of the contact-graph ranking result.
+\begin{table}[htbp]
+\caption{Results on the SNAP networks at $W=1280$, averaged over five replicates. PR denotes PageRank at the default tolerance. Incremental spread excludes the $k=5$ seeds; the gap is restricted minus full-reference spread, in nodes; agreement counts replicates with an identical ordered seed sequence.}\label{tab:primary}
+\centering\begin{tabular}{lrrrr}\toprule
+Graph / method & Candidates & Incremental & Gap & Agreement \\ \midrule
+\multicolumn{5}{l}{\textit{ca-GrQc}} \\
+Full & 5241 & 4.934 & --- & --- \\
+Degree-4k & 20 & 4.934 & +0.00000 & 5/5 \\
+PR-4k & 20 & 4.683 & -0.25082 & 0/5 \\
+PR-5\% & 263 & 4.934 & +0.00000 & 5/5 \\
+\addlinespace
+\multicolumn{5}{l}{\textit{CollegeMsg}} \\
+Full & 1438 & 10.072 & --- & --- \\
+Degree-4k & 20 & 10.072 & +0.00000 & 5/5 \\
+PR-4k & 20 & 9.164 & -0.90780 & 0/5 \\
+PR-5\% & 72 & 9.641 & -0.43094 & 0/5 \\
+\addlinespace
+\multicolumn{5}{l}{\textit{wiki-Vote}} \\
+Full & 7115 & 55.736 & --- & --- \\
+Degree-4k & 20 & 55.736 & +0.00000 & 5/5 \\
+PR-4k & 20 & 15.043 & -40.69334 & 0/5 \\
+PR-5\% & 356 & 42.206 & -13.53012 & 0/5 \\
+\bottomrule\end{tabular}
+\end{table}
+
+On wiki-Vote path 1101, the 20-node Degree pool returned the same five seeds, in the same order, as the full search over 7,115 vertices (Table~\ref{tab:case}). Their mean total spread was 60.8455 nodes. With the same pool size, default PageRank selected five different seeds and reached 19.9366 nodes. Expanding its pool to 356 vertices raised spread to 47.2095. Table~\ref{tab:primary} gives the corresponding five-path comparison for each network.
+\begin{table}[htbp]
+\caption{Selected seeds on wiki-Vote, replicate 1101 ($k=5$, $p=0.01$, $h=3$, $W=1280$, $M=10{,}000$, step coupling; 7,115 vertices and 103,689 arcs). PR uses the default tolerance. Arrows give the selection order; total spread includes the seeds and is estimated on the evaluation worlds.}\label{tab:case}
+\begin{tabularx}{\linewidth}{lXr}\toprule
+Method & Selected seed sequence & Total spread \\ \midrule
+Full & $2565\to 766\to 11\to 457\to 2688$ & 60.8455 \\
+Degree-4k & $2565\to 766\to 11\to 457\to 2688$ & 60.8455 \\
+PR-4k & $3352\to 2237\to 2328\to 2654\to 1297$ & 19.9366 \\
+PR-5\% & $2565\to 1166\to 1549\to 1374\to 5524$ & 47.2095 \\
+\bottomrule\end{tabularx}
+\end{table}
+
+For the primary comparisons at the highest tested external budget, every default PageRank-4k and within-path random-4k mean difference from full selection is negative, giving unadjusted sign-test $p=.0625$ and within-graph Holm $p=.1875$. Degree-4k differences from full selection are exactly zero. Five paths limit the minimum two-sided sign-test value to .0625. The paired effect sizes, sensitivity controls and complete test results are reported in Online Resource 1.
+
+Increasing the default PageRank pool to 5\% reproduces all five ca-GrQc references at $W=1280$ and reduces CollegeMsg loss from \CollegePRLoss{}\% to \CollegePRfiveLoss{}\%. On wiki-Vote, loss falls from \WikiPRLoss{}\% to \WikiPRfiveLoss{}\%, remaining above one fifth of full-reference incremental spread. At the same budget, historical-weighted CollegeMsg pools move from a negative mean difference of $-0.25224$ nodes at 4k to exact reference reproduction at 5\%. Coverage helps in these comparisons, but its effect differs across networks.
+
+On wiki-Vote, the default PageRank top 20 have mean in-degree 249.75 and out-degree 56.2; the degree top 20 have mean in-degree 70.3 and out-degree 489.25. The PageRank-4k pool contains none of the five full-reference seeds on any $W=1280$ path, and its 5\% pool contains only one. The seed-level illustration and complete coverage comparisons appear in Online Resource 1.
+
+\subsection{Reference-preserving savings under specified timing scopes}
+Degree-4k reduces measured selection time by 98.40--99.67\% relative to this implementation's full-candidate reference at $W=1280$, while reproducing all its trajectories (Table~\ref{tab:cost}). Including setup, both world families and independent evaluation gives assembled cost savings of \CollegeDegreeSaving{}--\WikiDegreeSaving{}\%.
+\begin{table}[htbp]
+\caption{Selection cost of Degree-4k at $W=1280$, averaged over five replicates. Full and Degree give the measured selection time. The last column gives the saving in an assembled warm-process cost that adds graph setup, preparation of selection and evaluation worlds, and independent evaluation (Section~\ref{sec:cost}).}\label{tab:cost}
+\begin{tabular}{lrrrr}
+\toprule
+Graph & Full (s) & Degree (s) & \shortstack{Selection\\saving (\%)} & \shortstack{Saving including\\evaluation (\%)} \\
+\midrule
+ca-GrQc & 23.53 & 0.109 & 99.54 & 92.77 \\
+CollegeMsg & 5.89 & 0.094 & 98.40 & 86.59 \\
+wiki-Vote & 158.94 & 0.520 & 99.67 & 96.26 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+At $W=1280$, Degree-4k meets the zero point-estimate loss threshold relative to full selection on every path. Default PageRank-4k meets 10\% on ca-GrQc and CollegeMsg, but fails 20\% on every wiki-Vote path. None of the random-pool path means meets 20\%. Online Resource 1 reports all six frozen thresholds (0, 1, 2.5, 5, 10 and 20\%) and their cost estimates; these are descriptive criteria rather than application-validated tolerances.
+
+\subsection{Parameter and coupling controls delimit the findings}
+
+In the external fixed-edge control at $W=320$, default PageRank-4k minus the fixed-edge full reference has mean spread differences of $-0.16240$, $-0.93417$ and $-40.57597$ nodes on ca-GrQc, CollegeMsg and wiki-Vote. Degree-4k reproduces 1/3, 3/3 and 3/3 corresponding trajectories. The PageRank losses persist under this control, while some reference-agreement outcomes change. Complete control paths and repeated timings are supplied in Online Resource 1.
+
+Across the 160 historical nondefault parameter conditions at $W=320$, Degree-4k and PageRank-4k reproduce 117 and 132 full-reference trajectories, respectively. Weighted-4k minus full selection has 117 negative and 43 positive paired spread differences.
+
+Under historical fixed-edge sampling at $W=1280$, Degree-4k and PageRank-4k match 38/40 and 40/40 trajectories of the fixed-edge full reference, while Weighted-4k matches 5/40.
+\FloatBarrier
+
+\section{Discussion}
+\subsection{Why the ca-GrQc comparison changes sign}
+At default PageRank tolerance, a budget sweep on ca-GrQc would rank the restricted method above the full reference at the lowest budget and below it at the highest. Two candidate substitutions were enough to change that judgment. At fixed $W$, the full reference, sampled objective and evaluation worlds were common to both tolerance settings. The sign reversal therefore depended on which vertices were eligible. Increasing $W$ still changed seeds within the tighter pool, and at the highest budget its spread differences lay on both sides of zero.
+
+StaticGreedy fixes sampled realizations during the search \cite{ref8}. In our comparisons the same sampling control applies to both arms, but ranking and truncation precede the search. Reporting the candidate IDs at the cutoff makes this earlier source of variation visible.
+
+\subsection{When a different sequence changes spread}
+Seed order records the decisions made by greedy search. The diffusion model instead takes the final set as its input. On wiki-Vote, a change in order therefore left every evaluation count unchanged when the two budgets returned the same set. A change in membership admits a different outcome: on ca-GrQc the higher-budget sets reached more nodes on some paths and fewer on others. The relevant quantity for seeding is the paired spread difference on each path.
+
+\subsection{Candidate coverage and the cost of exclusion}
+On wiki-Vote, the default PageRank top 20 excluded all five reference seeds. Among the top 356 candidates, one reference seed became eligible. Although the expanded pool could still reproduce at most one reference seed, its five-path mean total spread rose from 20.04268 to 47.20590 nodes, against 60.73602 for the full reference.
+
+The two 20-node pools differ in how they sample the directed graph. The PageRank candidates receive many votes, whereas the degree candidates have many distinct outgoing neighbours. Since the simulator propagates from voter to votee, the observed loss is consistent with this directional difference. Reversing the propagation direction on the same topology would directly test that interpretation.
+
+Arora et al. compare the spread and running time of influence-maximization methods \cite{ref16}. Here the timing comparison has a specific interpretation: Degree-4k eliminated most candidate evaluations while retaining the reference sequence on all 15 highest-budget paths. For default PageRank-4k on wiki-Vote, restricting the search to the same number of candidates incurred a 73.01\% mean incremental-spread loss. Table~\ref{tab:cost} separates time spent selecting seeds from costs that also include preparation and evaluation.
+
+\subsection{Scope of the comparisons}
+The external comparisons concern three observed topologies under simulated diffusion with $k=5$, $p=.01$, $h=3$ and $W\le1280$. The historical contact graphs probe other probabilities, horizons and seed counts. Their candidate coverage can be much larger: at $k=20$ the Kenya pool includes every vertex, and invs2013 retains 80/91. Agreement at these cutoffs has a different interpretation from agreement with a 20-node pool on wiki-Vote.
+
+The post-hoc tolerance comparison uses the five original paths under step coupling. A paired comparison of both tolerances under fixed-edge sampling would establish whether the ca-GrQc finding persists under that world construction.
+
+\section{Conclusion}
+On ca-GrQc, exchanging two vertices at the PageRank cutoff removed the mean sign reversal across selection budgets. On wiki-Vote, enlarging the candidate pool recovered part of the lost spread despite retaining only one reference seed. These cases motivate reporting the candidates admitted by a ranking and the spread of the seeds actually chosen. Across the three external graphs, Degree-4k reproduced the highest-budget reference sequences at lower measured selection cost.
+
+\paragraph{Supplementary information.} Online Resource 1 contains the external result matrix, precision and direction diagnostics, loss--cost curves, and separate historical coverage, parameter, coupling and secondary-control tables with reproducibility details.
+\section*{Statements and Declarations}
+\paragraph{Funding.} This work was supported by a provincial undergraduate innovation and entrepreneurship training project.
+\paragraph{Competing interests.} The authors declare that they have no competing interests.
+\paragraph{Author contributions.} Jiayue Sun: conceptualization, methodology, software, validation, formal analysis, investigation, data curation, visualization, and writing---original draft. Binbin Yong: supervision, methodology, project administration, and writing---review and editing. Junjie An: software, data curation, and writing---review and editing. Tianyu Bo: validation, visualization, and writing---review and editing. Shuai Li: formal analysis, validation, and writing---review and editing. All authors read and approved the final manuscript and agreed to its submission to \textit{Computing}.
+\paragraph{Data availability.} The third-party datasets are available from the cited providers under their access terms and are not redistributed. Source records, expected SHA-256 hashes and preprocessing instructions accompany the submission.
+\paragraph{Code availability.} Frozen source snapshots, configurations, validators, analysis scripts, condition-level outputs and figure-source tables are supplied with the submission for editorial and peer-review access.
+\begin{thebibliography}{99}
+\bibitem{ref1} Kempe D, Kleinberg J, Tardos É (2003) Maximizing the spread of influence through a social network. In: ACM SIGKDD, pp 137--146. \url{https://doi.org/10.1145/956750.956769}
+
+\bibitem{ref7} Leskovec J, Krause A, Guestrin C, Faloutsos C, VanBriesen J, Glance N (2007) Cost-effective outbreak detection in networks. In: KDD, pp 420--429. \url{https://doi.org/10.1145/1281192.1281239}
+
+\bibitem{ref8} Cheng S, Shen H, Huang J, Zhang G, Cheng X (2013) StaticGreedy: solving the scalability-accuracy dilemma in influence maximization. In: CIKM, pp 509--518. \url{https://doi.org/10.1145/2505515.2505541}
+
+\bibitem{ref2} Tang Y, Shi Y, Xiao X (2015) Influence maximization in near-linear time: a martingale approach. In: ACM SIGMOD, pp 1539--1554. \url{https://doi.org/10.1145/2723372.2723734}
+
+\bibitem{ref12} Rui X, Yang X, Fan J, Wang Z (2020) A neighbour scale fixed approach for influence maximization in social networks. Computing 102:427--449. \url{https://doi.org/10.1007/s00607-019-00778-5}
+
+\bibitem{ref13} Fan C, Wang Z, Zhang J, Zhao J, Rui X (2024) Influence maximization in social networks based on discrete harris hawks optimization algorithm. Computing 106:327--351. \url{https://doi.org/10.1007/s00607-023-01207-4}
+
+\bibitem{ref19} Ko J, Kim S, Lee K, et al. (2025) Inductive influence estimation and maximization over unseen social networks under two diffusion models. Data Mining and Knowledge Discovery 39:55. \url{https://doi.org/10.1007/s10618-025-01137-z}
+
+\bibitem{ref9} Li Y, Fan J, Wang Y, Tan K-L (2018) Influence maximization on social graphs: a survey. IEEE Transactions on Knowledge and Data Engineering 30:1852--1872. \url{https://doi.org/10.1109/TKDE.2018.2807843}
+
+\bibitem{ref16} Arora A, Galhotra S, Ranu S (2017) Debunking the myths of influence maximization: an in-depth benchmarking study. In: SIGMOD, pp 651--666. \url{https://doi.org/10.1145/3035918.3035924}
+
+\bibitem{ref11} Yanchenko E, Murata T, Holme P (2024) Influence maximization on temporal networks: a review. Applied Network Science 9:16. \url{https://doi.org/10.1007/s41109-024-00625-3}
+
+\bibitem{ref15} Aral S, Dhillon PS (2018) Social influence maximization under empirical influence models. Nature Human Behaviour 2:375--382. \url{https://doi.org/10.1038/s41562-018-0346-z}
+
+\bibitem{networkxpr} NetworkX developers (2025) PageRank, NetworkX 3.5 documentation. \url{https://networkx.org/documentation/networkx-3.5/reference/algorithms/generated/networkx.algorithms.link_analysis.pagerank_alg.pagerank.html}. Accessed 15 October 2026
+
+\bibitem{snap} Leskovec J, Krevl A (2014) SNAP datasets: Stanford large network dataset collection. \url{https://snap.stanford.edu/data}. Accessed 15 October 2026
+
+\bibitem{college} Panzarasa P, Opsahl T, Carley KM (2009) Patterns and dynamics of users' behavior and interaction: Network analysis of an online community. Journal of the American Society for Information Science and Technology 60:911--932. \url{https://doi.org/10.1002/asi.21015}
+
+\bibitem{grqc} Leskovec J, Kleinberg J, Faloutsos C (2007) Graph evolution: densification and shrinking diameters. ACM Transactions on Knowledge Discovery from Data 1(1):2. \url{https://doi.org/10.1145/1217299.1217301}
+
+\bibitem{signed} Leskovec J, Huttenlocher D, Kleinberg J (2010) Signed networks in social media. In: CHI, pp 1361--1370. \url{https://doi.org/10.1145/1753326.1753532}
+
+\bibitem{links} Leskovec J, Huttenlocher D, Kleinberg J (2010) Predicting positive and negative links in online social networks. In: WWW, pp 641--650. \url{https://doi.org/10.1145/1772690.1772756}
+
+\bibitem{ref3} Génois M, Vestergaard CL, Fournet J, Panisson A, Bonmarin I, Barrat A (2015) Data on face-to-face contacts in an office building suggest a low-cost vaccination strategy based on community linkers. Network Science 3:326--347. \url{https://doi.org/10.1017/nws.2015.10}
+
+\bibitem{ref4} Génois M, Barrat A (2018) Can co-location be used as a proxy for face-to-face contacts? EPJ Data Science 7:11. \url{https://doi.org/10.1140/epjds/s13688-018-0140-1}
+
+\bibitem{ref5} Cattuto C, Van den Broeck W, Barrat A, Colizza V, Pinton J-F, Vespignani A (2010) Dynamics of person-to-person interactions from distributed RFID sensor networks. PLoS ONE 5:e11596. \url{https://doi.org/10.1371/journal.pone.0011596}
+
+\bibitem{ref6} Kiti MC, Tizzoni M, Kinyanjui TM, et al. (2016) Quantifying social contacts in a household setting of rural Kenya using wearable proximity sensors. EPJ Data Science 5:21. \url{https://doi.org/10.1140/epjds/s13688-016-0084-2}
+
+\bibitem{ref17} Barabasi A-L, Albert R (1999) Emergence of scaling in random networks. Science 286:509--512. \url{https://doi.org/10.1126/science.286.5439.509}
+
+\bibitem{ref18} Holland PW, Laskey KB, Leinhardt S (1983) Stochastic blockmodels: first steps. Social Networks 5:109--137. \url{https://doi.org/10.1016/0378-8733(83)90021-7}
+\end{thebibliography}
+
+\end{document}

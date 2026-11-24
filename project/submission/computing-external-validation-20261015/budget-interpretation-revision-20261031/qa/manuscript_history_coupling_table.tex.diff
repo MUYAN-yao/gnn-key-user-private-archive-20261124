@@ -1,0 +1,9 @@
+--- D:\校创\基于GNN的关键用户识别\submission\computing-external-validation-20261015\contribution-action-revision-20261028\manuscript\history_coupling_table.tex
++++ D:\校创\基于GNN的关键用户识别\submission\computing-external-validation-20261015\budget-interpretation-revision-20261031\manuscript\history_coupling_table.tex
+@@ -1,5 +1,5 @@
+ \begin{longtable}{llrrrrr}
+-\caption{Historical coupling controls at $k=5$, $p=.01$, $h=3$. Each row uses its own coupling-specific full reference. D, P and W denote Degree-4k, PageRank-4k and Weighted-4k. $\Delta$ is restricted minus full spread (nodes); SD is across paths; loss is the mean pathwise incremental loss (\%), negative when restriction gains. Match counts refer to the entire ordered sequence. Coverage is the fraction of eligible vertices (\%).}\label{tab:hist-coupling}\\
++\caption{Historical coupling controls at $k=5$, $p=.01$, $h=3$. Each row uses its own coupling-specific full reference. D, P and W denote Degree-4k, PageRank-4k and Weighted-4k. $\Delta$ is restricted minus full spread (nodes); SD is across paths; loss is the mean pathwise incremental loss (\%), negative when restricted spread exceeds full-reference spread. Match counts refer to the entire ordered sequence. Coverage is the fraction of eligible vertices (\%).}\label{tab:hist-coupling}\\
+ \toprule
+ Coupling, $W$ & Rank & $\overline\Delta$ & SD & Loss & Match & Cov. \\
+ \midrule

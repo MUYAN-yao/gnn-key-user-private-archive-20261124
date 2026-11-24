@@ -1,0 +1,119 @@
+{
+  "total_rows": 46328,
+  "fractions": {
+    "0.60": {
+      "nominal_outer_fraction": 0.6,
+      "achieved_outer_fraction": 0.5999611466068037,
+      "achieved_history_fraction": 0.383936280435158,
+      "achieved_supervised_fraction": 0.09601105163184251,
+      "achieved_calibration_fraction": 0.12001381453980314,
+      "cutoffs": {
+        "history": "2012-07-02T22:24:39+00:00",
+        "supervised": "2012-07-03T05:11:14+00:00",
+        "outer": "2012-07-03T09:53:03+00:00"
+      },
+      "windows": {
+        "history": {
+          "rows": 17787,
+          "first_timestamp": "2012-07-01T00:02:52+00:00",
+          "last_timestamp": "2012-07-02T22:24:31+00:00",
+          "unique_timestamps": 13417
+        },
+        "supervised": {
+          "rows": 4448,
+          "first_timestamp": "2012-07-02T22:24:39+00:00",
+          "last_timestamp": "2012-07-03T05:11:13+00:00",
+          "unique_timestamps": 3646
+        },
+        "calibration": {
+          "rows": 5560,
+          "first_timestamp": "2012-07-03T05:11:14+00:00",
+          "last_timestamp": "2012-07-03T09:52:56+00:00",
+          "unique_timestamps": 4193
+        },
+        "outer_test": {
+          "rows": 18533,
+          "first_timestamp": "2012-07-03T09:53:03+00:00",
+          "last_timestamp": "2012-07-03T21:07:52+00:00",
+          "unique_timestamps": 12884
+        }
+      }
+    },
+    "0.65": {
+      "nominal_outer_fraction": 0.65,
+      "achieved_outer_fraction": 0.6499740977378691,
+      "achieved_history_fraction": 0.41588240372992574,
+      "achieved_supervised_fraction": 0.10404075289241928,
+      "achieved_calibration_fraction": 0.1300509411155241,
+      "cutoffs": {
+        "history": "2012-07-03T00:59:02+00:00",
+        "supervised": "2012-07-03T06:39:03+00:00",
+        "outer": "2012-07-03T11:57:45+00:00"
+      },
+      "windows": {
+        "history": {
+          "rows": 19267,
+          "first_timestamp": "2012-07-01T00:02:52+00:00",
+          "last_timestamp": "2012-07-03T00:58:35+00:00",
+          "unique_timestamps": 14663
+        },
+        "supervised": {
+          "rows": 4820,
+          "first_timestamp": "2012-07-03T00:59:02+00:00",
+          "last_timestamp": "2012-07-03T06:39:01+00:00",
+          "unique_timestamps": 3818
+        },
+        "calibration": {
+          "rows": 6025,
+          "first_timestamp": "2012-07-03T06:39:03+00:00",
+          "last_timestamp": "2012-07-03T11:57:42+00:00",
+          "unique_timestamps": 4496
+        },
+        "outer_test": {
+          "rows": 16216,
+          "first_timestamp": "2012-07-03T11:57:45+00:00",
+          "last_timestamp": "2012-07-03T21:07:52+00:00",
+          "unique_timestamps": 11163
+        }
+      }
+    },
+    "0.70": {
+      "nominal_outer_fraction": 0.7,
+      "achieved_outer_fraction": 0.6999654636504922,
+      "achieved_history_fraction": 0.44793645311690555,
+      "achieved_supervised_fraction": 0.1120056984976688,
+      "achieved_calibration_fraction": 0.1400233120359178,
+      "cutoffs": {
+        "history": "2012-07-03T03:40:32+00:00",
+        "supervised": "2012-07-03T08:15:59+00:00",
+        "outer": "2012-07-03T13:36:42+00:00"
+      },
+      "windows": {
+        "history": {
+          "rows": 20752,
+          "first_timestamp": "2012-07-01T00:02:52+00:00",
+          "last_timestamp": "2012-07-03T03:40:29+00:00",
+          "unique_timestamps": 15898
+        },
+        "supervised": {
+          "rows": 5189,
+          "first_timestamp": "2012-07-03T03:40:32+00:00",
+          "last_timestamp": "2012-07-03T08:15:56+00:00",
+          "unique_timestamps": 3942
+        },
+        "calibration": {
+          "rows": 6487,
+          "first_timestamp": "2012-07-03T08:15:59+00:00",
+          "last_timestamp": "2012-07-03T13:36:40+00:00",
+          "unique_timestamps": 4767
+        },
+        "outer_test": {
+          "rows": 13900,
+          "first_timestamp": "2012-07-03T13:36:42+00:00",
+          "last_timestamp": "2012-07-03T21:07:52+00:00",
+          "unique_timestamps": 9533
+        }
+      }
+    }
+  }
+}

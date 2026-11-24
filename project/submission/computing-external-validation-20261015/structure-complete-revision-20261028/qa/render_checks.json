@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-28",
+  "review_method": "All rendered pages inspected in contact sheets; table/figure pages checked for clipping, overlap and completeness. This is layout review, not a new scientific audit.",
+  "english_pages_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "chinese_pages_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "clipping_or_overlap_found": false,
+  "missing_figures_or_blank_pages_found": false,
+  "layout_notes": [
+    "Normal template whitespace and float placement retained.",
+    "Chinese references retain original language and span the final pages.",
+    "Figure internals retain original English; translated captions explain them."
+  ],
+  "pdf_hashes": {
+    "english": "223c8ec53d2147a830f69c65324d5453e92d7a3144425dbad34410f0c81d9d89",
+    "chinese": "21a911aabe31cfdfbee104d96a8c9701e9efe9b536eff46b1f717fc791797519"
+  }
+}

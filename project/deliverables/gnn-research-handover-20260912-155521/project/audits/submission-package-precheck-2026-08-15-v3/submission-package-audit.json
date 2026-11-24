@@ -1,0 +1,42 @@
+[
+  {
+    "gate": "citation consistency",
+    "passed": true,
+    "detail": "Citation numbering and bibliography count agree (33 entries)."
+  },
+  {
+    "gate": "claim-boundary consistency",
+    "passed": true,
+    "detail": "Manuscript, abstract, and claim ledger retain the protected-baseline, RIS, null-ablation, and paired-repeat boundaries."
+  },
+  {
+    "gate": "completed v3 evidence",
+    "passed": false,
+    "detail": "No strict v3 analysis directory was supplied."
+  },
+  {
+    "gate": "author metadata",
+    "passed": false,
+    "detail": "Author-controlled metadata has 12 pending fields."
+  },
+  {
+    "gate": "public release inventory",
+    "passed": false,
+    "detail": "No author-approved public release inventory was supplied."
+  },
+  {
+    "gate": "fresh official template",
+    "passed": false,
+    "detail": "No fresh official-template verification was supplied."
+  },
+  {
+    "gate": "official-template DOCX",
+    "passed": false,
+    "detail": "No final official-template DOCX was supplied."
+  },
+  {
+    "gate": "official-template visual QA",
+    "passed": false,
+    "detail": "No page-by-page official-template visual QA was supplied."
+  }
+]

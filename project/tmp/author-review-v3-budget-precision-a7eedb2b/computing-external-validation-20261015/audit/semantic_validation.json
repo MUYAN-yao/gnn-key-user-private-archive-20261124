@@ -1,0 +1,7 @@
+{
+  "status": "pass",
+  "core_import_identity": true,
+  "complete_pool_order_invariant": true,
+  "toy_world_count": 32,
+  "new_network_outcomes_inspected": false
+}

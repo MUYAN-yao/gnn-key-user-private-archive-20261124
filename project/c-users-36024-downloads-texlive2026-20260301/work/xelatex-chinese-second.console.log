@@ -1,0 +1,85 @@
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./verify-chinese.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(c:/texlive/2026/texmf-dist/tex/latex/ctex/ctexart.cls
+(c:/texlive/2026/texmf-dist/tex/latex/ctex/config/ctexbackend.cfg)
+(c:/texlive/2026/texmf-dist/tex/latex/l3kernel/expl3.sty
+(c:/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))
+Document Class: ctexart 2022/07/14 v2.5.10 Chinese adapter for class article (C
+TEX)
+(c:/texlive/2026/texmf-dist/tex/latex/ctex/ctexhook.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/ctex/ctexpatch.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/base/fix-cm.sty
+(c:/texlive/2026/texmf-dist/tex/latex/base/ts1enc.def))
+(c:/texlive/2026/texmf-dist/tex/latex/ctex/config/ctexopts.cfg)
+(c:/texlive/2026/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(c:/texlive/2026/texmf-dist/tex/latex/base/size10.clo))
+(c:/texlive/2026/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
+(c:/texlive/2026/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+(c:/texlive/2026/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec.sty
+(c:/texlive/2026/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(c:/texlive/2026/texmf-dist/tex/latex/base/fontenc.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(c:/texlive/2026/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg)))
+(c:/texlive/2026/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+(c:/texlive/2026/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg))
+(c:/texlive/2026/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-article.d
+ef (c:/texlive/2026/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg))
+(c:/texlive/2026/texmf-dist/tex/latex/ctex/ctex-c5size.clo)
+(c:/texlive/2026/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def))
+(c:/texlive/2026/texmf-dist/tex/latex/ctex/config/ctex.cfg)
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(c:/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.sty
+(c:/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(c:/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+(c:/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty)
+(c:/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty))
+(c:/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(c:/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty))
+(c:/texlive/2026/texmf-dist/tex/latex/logreq/logreq.sty
+(c:/texlive/2026/texmf-dist/tex/latex/logreq/logreq.def))
+(c:/texlive/2026/texmf-dist/tex/latex/base/ifthen.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/url/url.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/biblatex/blx-dm.def)
+(c:/texlive/2026/texmf-dist/tex/latex/biblatex/blx-unicode.def)
+(c:/texlive/2026/texmf-dist/tex/latex/biblatex/blx-compat.def)
+(c:/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.def)
+(c:/texlive/2026/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+(c:/texlive/2026/texmf-dist/tex/latex/biblatex/bbx/standard.bbx))
+(c:/texlive/2026/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx)
+(c:/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.cfg)
+(c:/texlive/2026/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty))
+(./verify-chinese.aux)
+(c:/texlive/2026/texmf-dist/tex/latex/biblatex/lbx/english.lbx)
+(./verify-chinese.bbl)
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
+(Font)              size <10.95> substituted on input line 11.
+
+[1] (./verify-chinese.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.41063pt have occurred.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+
+ )
+Output written on verify-chinese.pdf (1 page).
+Transcript written on verify-chinese.log.

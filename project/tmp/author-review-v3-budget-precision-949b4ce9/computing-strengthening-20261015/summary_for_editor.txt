@@ -1,0 +1,13 @@
+Title: Selection Resolution, Random-World Coupling, and Utility in Candidate-Restricted Influence Maximization
+
+Summary of uniqueness, contribution and evaluation
+
+This manuscript evaluates candidate-restricted influence maximization when the full-candidate reference is itself a finite Monte Carlo computation. Its contribution is a joint empirical analysis of selection resolution, seed-set membership, independently evaluated utility, actual candidate coverage and attributable computation cost. The study does not propose a new optimizer, approximation theorem or learned ranking model. It explicitly relates the protocol to established sampling and optimization methods, including StaticGreedy, CELF and IMM.
+
+Evaluation preserves an archived 42-condition study and adds a prospectively frozen 520-condition extension with 4,680 arm executions. Four contact-derived real topologies and two synthetic 2,000-node instances are tested. The extension includes ten paths per real graph, selection budgets up to 5,120 worlds, 10,000 disjoint evaluation worlds, alternative rankings, propagation controls, fixed-edge coupling and repeated randomized timing. All per-world outcomes and round-level scores are retained. Implementation equivalence is checked against the archived simulator and an independent reachability oracle.
+
+At the final 1,280-to-5,120 transition, 16/40 full-reference final sets changed. Weighted-degree 4k mean candidate-minus-full spread differences at the highest budget ranged from -0.610 to -0.005 activated nodes across the four real graphs. The complete ranking, tolerance and timing results distinguish decision reproduction from practical utility. A concrete step-coupling counterexample motivates the explicitly labeled fixed-edge control.
+
+The last reference transition increased independent spread by only 0.0111 nodes on average. Topology-degree and PageRank 4k pools reproduced 39/40 and 40/40 highest-budget ordered references. Thus the results also identify a successful restriction setting and limit any general claim based only on weighted-degree losses.
+
+The scope is conditional on the tested graphs and simulated diffusion settings. Synthetic instances do not establish real-network generalization, and illustrative tolerances are not confirmatory noninferiority margins. The local reproducibility package is prepared for author review; public access details and author declarations must be finalized before submission.

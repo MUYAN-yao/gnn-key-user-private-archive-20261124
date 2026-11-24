@@ -1,0 +1,179 @@
+\documentclass[smallextended]{svjour3}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{mathptmx}
+\usepackage{amsmath,graphicx,booktabs,tabularx,url,placeins}
+\usepackage[hidelinks]{hyperref}
+\journalname{Computing}
+\setlength{\emergencystretch}{2em}
+\begin{document}
+\title{Online Resource 1: Evaluating Candidate-Restricted Influence Maximization: Reference Budgets, Ranking Precision, and External Topologies}
+\titlerunning{Online Resource 1}
+\author{Jiayue Sun \and Binbin Yong \and Junjie An \and Tianyu Bo \and Shuai Li}
+\institute{Jiayue Sun \at School of Artificial Intelligence, Lanzhou University, Lanzhou 730000, China
+\and Binbin Yong (corresponding author) \at School of Information Science and Engineering, Lanzhou University, Lanzhou 730000, China \\
+\email{yongbb14@lzu.edu.cn}
+\and Junjie An, Tianyu Bo and Shuai Li \at Lanzhou University, Lanzhou, China}
+\date{}\maketitle
+\paragraph{Status.} This online resource accompanies the author-approved submission-preparation manuscript. Tables and figures are generated from frozen external outputs. The historical 42-condition study and 520-condition extension are separate evidence layers; the outcome-blind preflight is not utility evidence.
+
+\section{Source-scoped related-work comparison}
+Table~\ref{tab:related-scope} compares the stated focus of accessible primary
+sources, rather than asserting that an item was absent from every implementation
+or supplement. ``Not the stated focus'' is not shorthand for ``not done''.
+Classical objective/solver work, benchmarking, candidate restriction and learned
+inductive estimation address different parts of the influence-maximization
+pipeline. This study's contribution is the joint evaluation of reference budget,
+ranking precision, coverage, independent utility and cost---not a claim that each
+component is individually novel. Complete citations are in the main manuscript.
+\input{related_work_table.tex}
+\FloatBarrier
+
+\section{Audit and reproducibility}
+There are 54 configuration-defined external conditions and 468 executed arms.
+The archive retains one JSON and NPZ pair per condition, source and data manifests,
+world-ID hashes, candidate IDs, selected sequences, all round/candidate integer
+totals and 10,000 evaluation values per arm. Reproduction checks the raw gzip
+hashes before using the frozen runner. The independent audit
+parses topology, checks all recorded hashes and world IDs, reconstructs all
+argmax/tie decisions, replays every full-candidate score matrix and all evaluation
+arrays, and checks a scalar Python oracle on the first 16 worlds for each
+distinct ordered selection within a graph/path/coupling. Complete replay and the
+independent sampled oracle are different validation layers.
+
+Frozen source files are unchanged. The original runner's entry checks did not
+enforce actual raw hashes against the data manifest; the retrospective comparison
+and new guarded wrapper address that enforcement gap without rewriting history.
+ca-GrQc removes loops before collecting endpoints: raw vertex 12295 appears only
+in a loop, explaining 5,241 rather than 5,242 vertices. The original prose was
+ambiguous about endpoint collection order, while the processed size/hash were
+already frozen before outcomes. Results refer to that processed graph.
+
+Direction is part of the simulation definition. CollegeMsg goes from sender to
+receiver; wiki-Vote from voter to votee; ca-GrQc uses reciprocal arcs. The first
+two are directed observed relations, not measured causal diffusion. PageRank uses
+standard incoming importance, while the objective follows outgoing propagation.
+Direction diagnostics are post-hoc and do not isolate a causal mechanism.
+
+\section{Statistical interpretation}
+For a fixed selected pair, conditional Monte Carlo standard error is the sample
+standard deviation of 10,000 paired per-world differences divided by 100.
+Normal intervals are pointwise and conditional. Across-path SD describes five
+computational paths, or three control paths, and includes finite evaluation noise.
+The optional $t$ intervals in CSVs are post-hoc descriptive intervals, not
+population-of-network inference. Random pools are averaged within each path
+before cross-path analysis; their shared-world covariance is retained.
+
+Incremental spread subtracts five seeds from total spread. Percentage loss is
+minus the paired mean difference divided by full incremental spread, times 100.
+The plug-in percentage does not have a guaranteed loss-bound interpretation.
+The primary sign-test family is three methods within each graph at $W=1280$.
+All nonzero PageRank and random-mean differences are negative, but five paths
+limit the minimum two-sided exact sign-test value to .0625. Nonsignificance is
+not equivalence. Table~\ref{tab:tests} reports all nine tests without exclusions.
+
+\section{Cost and repeated measurements}
+The archived preparation timer contains parsing, all rankings, hashes and graph
+diagnostics. Its ranking subtimers are not added to it again. A separate
+post-hoc setup study measures five repetitions of raw parsing/CSR and one
+method's ranking plus pool generation. The frozen selection timer already includes
+lexical candidate sorting; it is not charged again. Hybrid deployment cost adds that
+median setup to frozen selection-world preparation and selection. Hybrid
+verification cost adds independent-world preparation and independent evaluation.
+These are assembled warm-process, cached-file estimates, not direct end-to-end
+trials. Imports, JIT compilation, downloads and output writing are excluded.
+
+Frozen repeated timing uses path 1101 and $W=320$, five randomized repetitions
+per arm, yielding 130 observations. Selected sequences and per-world evaluations
+were required to remain identical. The CSVs report every repetition and its
+selection/evaluation time, plus medians and ranges. The maximum positive psutil
+process-lifetime peak is 3.448822 GiB; it must not be confused with an unverified
+PowerShell display or with preflight measurements using one tenth the evaluation
+world count. Timings are machine- and implementation-specific.
+
+\section{Complete aggregate results}
+Tables~\ref{tab:s-ca_grqc}--\ref{tab:s-wiki_vote} retain every method at all external
+budgets/couplings. Total spread, paired difference, between-path SD, percentage
+incremental loss and ordered agreement are shown. CSVs additionally retain
+candidate fractions, set agreement, Jaccard, first divergence, conditional
+uncertainty, costs and every path. This avoids treating an averaged random seed
+set as if it existed. There were no failed or excluded main conditions.
+\input{supp_tables.tex}
+\FloatBarrier
+\section{Post-hoc PageRank precision control}
+The frozen default tolerance is $10^{-6}$, and NetworkX stops on a successive
+vector $L_1$ change below $n$ times that value. A candidate-only diagnostic at
+$10^{-12}$ changed some pool members on ca-GrQc and wiki-Vote; pools agreed
+between $10^{-12}$ and $10^{-14}$. Before inspecting new utility outputs, a
+separate protocol froze two PageRank arms on every graph and all five original
+$W=1280$ paths. Its 15 conditions and 30 arms are a numerical sensitivity control,
+not independent confirmation and not additional paths in the primary tests.
+
+Table~\ref{tab:precision} shows that tightening tolerance changes ca-GrQc's 4k
+mean difference from $-0.25082$ to $+0.02608$, replacing all five selected sets.
+Its original small loss is therefore not precision-robust. CollegeMsg outcomes
+are unchanged. wiki-Vote's 4k loss remains large ($-41.21970$, or 73.96\% of
+incremental spread), and its 5\% loss is 24.47\%. This diagnostic qualifies the
+ranking interpretation without replacing any original observation or retroactively
+redefining the frozen sign-test family. Tightened-solver timing is not substituted
+into the default-solver cost curves.
+\input{precision_table.tex}
+\FloatBarrier
+\section{Post-hoc precision--budget control}
+The initial precision control left a material question open because it covered
+only $W=1280$. A new protocol was frozen before new utility outputs were inspected
+and added strict PageRank-4k and PageRank-5\% arms at $W=80,320$ for all three
+graphs and five original paths. It contributes 30 conditions and 60 restricted
+arms, reusing the frozen full references and disjoint evaluation-world IDs. Together
+with the prior strict $W=1280$ layer, this is a 45-condition, 90-arm post-hoc
+sensitivity study; it adds no independent paths or primary tests.
+
+Strict $10^{-12}$ pools agree with $10^{-14}$ pools for every graph/pool size.
+CollegeMsg's strict and default pools are identical. ca-GrQc changes two of 20
+4k candidates (pool Jaccard .818), while wiki-Vote changes one (Jaccard .905).
+The lower-budget results show that ca-GrQc's default PageRank-4k direction reversal
+does not survive the stable strict pool: strict losses are -11.25\%, -2.96\% and
+-0.54\% at $W=80,320,1280$. Its selected sets and paired utility magnitude still
+change with budget. CollegeMsg retains 9.33\%, 8.52\% and 9.01\% strict 4k losses;
+wiki-Vote retains 74.05\%, 74.05\% and 73.96\%. These are graph-specific,
+post-hoc sensitivity findings, not an equivalence, superiority or significance claim.
+\input{precision_budget_table.tex}
+\FloatBarrier
+\section{Coupling control}
+Figure~\ref{fig:coupling} shows all preselected W320 control paths for the main
+ranking comparisons. Mean PageRank-4k differences under edge coupling are
+$-0.16240$, $-0.93417$ and $-40.57597$ on ca-GrQc, CollegeMsg and wiki-Vote.
+Degree-4k ordered agreement is 1/3, 3/3 and 3/3, respectively. This control
+preserves the prominent PageRank losses while showing that coupling can change
+reference reproduction. It does not estimate a general coupling-invariance law.
+\begin{figure}[htbp]
+\centering\includegraphics[width=\linewidth]{FigS1.pdf}
+\caption{Coupling control at $W=320$. Each symbol is one of three preselected
+computational paths, with three random-pool repetitions first averaged within
+path. Circles denote step-indexed worlds and squares fixed-edge worlds. Loss is
+relative to the full reference using the same coupling. No inferential intervals
+are implied by these point displays}\label{fig:coupling}
+\end{figure}
+\FloatBarrier
+Figure~\ref{fig:step-mechanism} isolates the timing difference behind the
+step-indexed counterexample described in the main text. It is an analytical
+illustration, separate from the observed-network control in Fig.~\ref{fig:coupling}.
+\begin{figure}[htbp]
+\centering\includegraphics[width=\linewidth]{FigS2_mechanism.pdf}
+\caption{A timing mechanism for the step-indexed finite-world objective. The three-node chain is illustrative and uses horizon two. The draw for $s\to u$ is open at step zero; the draw for $u\to v$ is closed at step zero and open at step one. Starting with $\{s\}$ activates $u$ at the next step, allowing all three vertices to be reached. Starting with $\{s,u\}$ makes $u$ attempt too early; it cannot retry, so only two vertices are reached. This disproves monotonicity for this realized step-indexed world. It does not itself disprove submodularity or invalidate the independent-cascade marginal law for a fixed seed set. In the fixed-edge control, each edge has one draw per world, so this step-switching mechanism is absent}\label{fig:step-mechanism}
+\end{figure}
+\FloatBarrier
+\section{File map and availability}
+The reproducibility package supplied with the submission contains frozen configuration, source and data manifests;
+all 54 result pairs; the strict audit; per-path and summary statistics; plotting
+scripts and source CSVs; manuscript sources and PDFs; the novelty/evaluation
+summary; a cover-letter draft; an author checklist; and environment/reproduction
+instructions. A separate historical-evidence directory preserves the previous
+extension and its analysis rather than merging the evidence layers.
+
+The guarded download script obtains public sources only after checking their
+expected hashes. Raw third-party archives are not redistributed. No public
+archive URL is asserted. The package is supplied for editorial and peer-review
+access with the manuscript. Neither compilation success nor this audit implies
+editorial acceptance.
+\end{document}

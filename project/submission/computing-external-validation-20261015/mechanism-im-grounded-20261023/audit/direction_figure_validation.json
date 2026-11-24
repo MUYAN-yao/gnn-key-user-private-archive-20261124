@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "native_visio": {
+    "path": "figures\\wiki_vote_publication_figure_v1.vsdx",
+    "shape_count": 126,
+    "embedded_media": []
+  },
+  "vector_pdf": {
+    "path": "manuscript\\FigDirectionMechanism.pdf",
+    "raster_images": 0,
+    "width_mm": 119,
+    "height_mm": 75.3666690826416
+  },
+  "numeric_sources": {
+    "full_incremental_spread_mean": 55.73602000000001,
+    "pagerank_incremental_spread_mean": 15.04268,
+    "pagerank_delta_mean": -40.69334,
+    "pagerank_loss_percent_mean": 73.01069737882713,
+    "path_1101_full_seeds": [
+      "2565",
+      "766",
+      "11",
+      "457",
+      "2688"
+    ],
+    "path_1101_pagerank_seeds": [
+      "3352",
+      "2237",
+      "2328",
+      "2654",
+      "1297"
+    ]
+  }
+}

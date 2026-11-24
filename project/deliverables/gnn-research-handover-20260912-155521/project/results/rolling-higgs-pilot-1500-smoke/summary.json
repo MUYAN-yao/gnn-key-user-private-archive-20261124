@@ -1,0 +1,41 @@
+[
+  {
+    "run_id": "split-0.60-seed-42",
+    "train_fraction": 0.6,
+    "random_seed": 42,
+    "aco_mean_spread": 55.4,
+    "aco_std_spread": 2.871,
+    "aco_objective": 54.895,
+    "aco_community_coverage": 2,
+    "gnn_mean_spread": 57.4,
+    "greedy_mean_spread": 55.8,
+    "ris_mean_spread": 55.8,
+    "runtime_seconds": 3.283
+  },
+  {
+    "run_id": "split-0.65-seed-42",
+    "train_fraction": 0.65,
+    "random_seed": 42,
+    "aco_mean_spread": 56.0,
+    "aco_std_spread": 1.095,
+    "aco_objective": 55.867,
+    "aco_community_coverage": 1,
+    "gnn_mean_spread": 57.2,
+    "greedy_mean_spread": 86.2,
+    "ris_mean_spread": 87.4,
+    "runtime_seconds": 3.523
+  },
+  {
+    "run_id": "split-0.70-seed-42",
+    "train_fraction": 0.7,
+    "random_seed": 42,
+    "aco_mean_spread": 85.6,
+    "aco_std_spread": 2.577,
+    "aco_objective": 84.948,
+    "aco_community_coverage": 1,
+    "gnn_mean_spread": 86.8,
+    "greedy_mean_spread": 117.6,
+    "ris_mean_spread": 117.0,
+    "runtime_seconds": 3.507
+  }
+]

@@ -1,0 +1,13 @@
+Reference Budgets and Ranking Precision in Candidate-Restricted Influence Maximization
+
+Problem and contribution
+Candidate restriction saves computation by narrowing seed eligibility, but its measured quality depends on a full-candidate reference that is itself estimated. Numerical ranking precision can also change the eligible pool before selection begins. The paper studies how to interpret a quality gap when both sides of the comparison depend on these numerical choices. Paired selection, budget and tolerance controls, and independent spread evaluation separate their observed consequences.
+
+Principal findings
+On ca-GrQc, default PageRank-4k changes from a mean incremental-spread gain of 5.61% at W=80 to a loss of 5.07% at W=1280. Tightening PageRank tolerance removes this mean sign reversal in a post-hoc control, while budget-dependent seed changes persist. Losses remain on the two directed networks. Reference-set changes have differing utility consequences: all five ca-GrQc reference sets change from W=320 to W=1280, with a mean gain of 0.12720 nodes. Degree-4k reproduces all 15 external reference trajectories at W=1280 with lower measured selection cost. These results distinguish agreement with a sampled reference from retention of independently evaluated utility.
+
+Scope and value
+The real-network evidence is a small selected sample, with three external topologies and four small contact graphs analyzed separately. The historical study supplies budget, local propagation-parameter and coupling controls; it does not enlarge the external sample or establish a joint strict-tolerance/fixed-edge result. Two fixed synthetic graphs remain secondary controls. The paper provides evidence on how numerical settings alter an evaluation judgment and identifies what must accompany a reported quality--cost trade-off: candidate membership, coverage, reference budget, ranking tolerance, independent spread and timing scope.
+
+Study identity and reproducibility
+The precision analysis is post-hoc and reuses existing paths. Computational paths and diffusion worlds are not independent network samples. Cost savings are relative to exhaustive selection in this implementation. Frozen outputs, analysis tables and protocols remain available in the accompanying project materials. The present revision changes exposition and supplies a Chinese reading translation; it adds no experiments, new statistical analysis or expanded reproduction claim.

@@ -1,0 +1,156 @@
+Online Resource 1: Supplementary methods and results
+Selection Resolution, Random-World Coupling, and Utility in Candidate-Restricted Influence Maxi-
+mization
+Computing; Jiayue Sun, Binbin Yong, Junjie An, Tianyu Bo and Shuai Li.
+Correspondence: Binbin Yong, School of Information Science and Engineering, Lanzhou University,
+Lanzhou 730000, China; yongbb14@lzu.edu.cn
+1 Evidence layers and protocol
+The original 42-condition experiment remains an archived layer. Its post-hoc set and uncertainty diag-
+nostics are identified as such. The new 520-condition protocol was frozen before its outcomes, after the
+original findings and resource timings were known. It is a prospective extension using known datasets.
+All conditions, random paths, source hashes and outcome files are retained. No outcome-based ex-
+clusions were made. The five components contain 200 resolution, 60 seed-budget, 160 parameter, 80
+coupling and 20 synthetic-scale conditions. Each has nine arm executions and 10,000 evaluation worlds.
+Random-pool repetitions are averaged within path for primary statistical summaries. Selection IDs are
+nested prefixes, and evaluation uses a separate family. The frozen protocol, configuration and source
+manifests are included in the reproducibility package.
+2 Implementation audit
+All 42 archived hashes were checked. Thirty-two arm traces and 64,000 evaluation values were exactly
+reproduced. The small-graph suite contains 108 edge-time uniform comparisons, 9,600 chain outcomes,
+720 cyclic-graph outcomes, 720 fixed-edge reachability checks and 15 restricted-greedy comparisons.
+An initial audit report mislabeled the 108 hash checks as 324; the original record is preserved with a
+count erratum. This affects the label only, not the computations. For the chaina→b→cunder step
+coupling,p=.5,h=2, world 5 and lexicographic endpoint codes,f({a}) =3 butf({a,b}) =2. The
+first seed set activatesbone round later, changing the random key for its outgoing edge. This supplies
+a concrete finite-world nonmonotonicity example. Fixed-edge coupling instead uses the step-zero edge
+key in every round. Its spread is exactly the union of horizon-limited reachability sets.
+3 Statistical interpretation
+Paired Monte Carlo intervals use the sample standard deviation of the per-world difference divided by√
+10000. The displayed normal-approximation intervals are conditional and pointwise. Across-path
+intervals resample ten independent pseudorandom paths on each fixed real graph, or five on a fixed
+synthetic graph, 10,000 times with analysis seed 20261015. These percentile intervals have limited
+precision and are not simultaneous confidence regions. The primary family has 24 two-sided exact sign
+tests: six candidate types against full on four real graphs atk=5,W=5120,p=.01,h=3, step coupling.
+Exact zero path differences are omitted from the binomial sign count and reported; all-zero contrasts
+receivep=1. Holm adjustment is applied to the entire family. This tests sign balance conditional on a
+fixed network and algorithmic protocol, not mean equivalence. No significance tests are used to select
+which sensitivity results to report.
+4 Primary numerical effects
+All entries are candidate-minus-full activated nodes. Intervals are percentile bootstrap intervals over ten
+paths; random pools are averaged within a path. SD denotes sample standard deviation across paths.
+1
+Network Pool Mean SD Lower Upper
+invs2013 Weighted 2k-0.229 0.018 -0.239 -0.218
+invs2013 Weighted 4k-0.064 0.011 -0.070 -0.057
+invs2013 Weighted 8k-0.032 0.012 -0.038 -0.024
+invs2013 Degree 4k0.000 0.000 0.000 0.000
+invs2013 PageRank 4k0.000 0.000 0.000 0.000
+invs2013 Random 4k-0.374 0.047 -0.402 -0.348
+invs2015 Weighted 2k-0.762 0.046 -0.789 -0.734
+invs2015 Weighted 4k-0.202 0.039 -0.224 -0.178
+invs2015 Weighted 8k-0.201 0.039 -0.223 -0.178
+invs2015 Degree 4k0.000 0.000 0.000 0.000
+invs2015 PageRank 4k0.000 0.000 0.000 0.000
+invs2015 Random 4k-0.962 0.210 -1.092 -0.845
+kenya2012 Weighted 2k-0.092 0.015 -0.101 -0.083
+kenya2012 Weighted 4k-0.005 0.009 -0.011 -0.000
+kenya2012 Weighted 8k-0.006 0.009 -0.011 -0.001
+kenya2012 Degree 4k0.001 0.002 0.000 0.002
+kenya2012 PageRank 4k0.000 0.000 0.000 0.000
+kenya2012 Random 4k-0.079 0.015 -0.087 -0.070
+sfhh2009 Weighted 2k-0.609 0.026 -0.625 -0.595
+sfhh2009 Weighted 4k-0.610 0.027 -0.627 -0.595
+sfhh2009 Weighted 8k-0.558 0.030 -0.575 -0.541
+sfhh2009 Degree 4k0.000 0.000 0.000 0.000
+sfhh2009 PageRank 4k0.000 0.000 0.000 0.000
+sfhh2009 Random 4k-4.203 0.563 -4.511 -3.854
+5 Complete primary sign-test family
+Network Pool+−ZeropHolmp
+invs2013 Degree 4k0 0 10 1.0000 1.0000
+invs2013 PageRank 4k0 0 10 1.0000 1.0000
+invs2013 Random 4k0 10 0 0.0020 0.0469
+invs2013 Weighted 2k0 10 0 0.0020 0.0469
+invs2013 Weighted 4k0 10 0 0.0020 0.0469
+invs2013 Weighted 8k0 10 0 0.0020 0.0469
+invs2015 Degree 4k0 0 10 1.0000 1.0000
+invs2015 PageRank 4k0 0 10 1.0000 1.0000
+invs2015 Random 4k0 10 0 0.0020 0.0469
+invs2015 Weighted 2k0 10 0 0.0020 0.0469
+invs2015 Weighted 4k0 10 0 0.0020 0.0469
+invs2015 Weighted 8k0 10 0 0.0020 0.0469
+kenya2012 Degree 4k1 0 9 1.0000 1.0000
+kenya2012 PageRank 4k0 0 10 1.0000 1.0000
+kenya2012 Random 4k0 10 0 0.0020 0.0469
+kenya2012 Weighted 2k0 10 0 0.0020 0.0469
+kenya2012 Weighted 4k0 4 6 0.1250 1.0000
+kenya2012 Weighted 8k0 4 6 0.1250 1.0000
+sfhh2009 Degree 4k0 0 10 1.0000 1.0000
+2
+Network Pool+−ZeropHolmp
+sfhh2009 PageRank 4k0 0 10 1.0000 1.0000
+sfhh2009 Random 4k0 10 0 0.0020 0.0469
+sfhh2009 Weighted 2k0 10 0 0.0020 0.0469
+sfhh2009 Weighted 4k0 10 0 0.0020 0.0469
+sfhh2009 Weighted 8k0 10 0 0.0020 0.0469
+6 Round-level resolution diagnostics
+The table describes the full reference at the lowest and highest primary budgets. Tie rates count rounds
+with more than one maximizer, out of 50 rounds per network/budget (ten paths, five rounds). Gaps are
+mean differences between the winning and runner-up empirical spread. These descriptive diagnostics do
+not establish that ties cause the observed membership changes. The complete file round_diagnostics.csv
+additionally retains each chosen marginal gain and every method’s round diagnostics.
+Network Ties 20 Ties 5120 Gap 20 Gap 5120
+invs2013 22/50 1/50 0.0440 0.0233
+invs2015 13/50 0/50 0.0880 0.0278
+kenya2012 24/50 0/50 0.0360 0.0058
+sfhh2009 4/50 0/50 0.1830 0.1874
+7 Larger seed budgets and full-pool controls
+The followingk=20,W=1280 summaries use ten paths. Coverage is actual candidate count divided
+by graph size. Full coverage is a consistency control, not successful truncation. All lower-budget and
+individual-path values are retained in the source tables.
+Network Pool Coverage Mean∆SD
+invs2013 Degree 4k0.879 0.000 0.000
+invs2013 PageRank 4k0.879 0.000 0.000
+invs2013 Random 4k0.879 -0.045 0.032
+invs2013 Weighted 2k0.440 -0.203 0.036
+invs2013 Weighted 4k0.879 0.000 0.000
+invs2013 Weighted 8k1.000 0.000 0.000
+invs2015 Degree 4k0.377 0.008 0.025
+invs2015 PageRank 4k0.377 0.000 0.000
+invs2015 Random 4k0.377 -0.997 0.163
+invs2015 Weighted 2k0.189 -0.804 0.079
+invs2015 Weighted 4k0.377 -0.116 0.056
+invs2015 Weighted 8k0.755 0.008 0.025
+kenya2012 Degree 4k1.000 0.000 0.000
+kenya2012 PageRank 4k1.000 0.000 0.000
+kenya2012 Random 4k1.000 0.000 0.000
+kenya2012 Weighted 2k0.533 -0.012 0.017
+kenya2012 Weighted 4k1.000 0.000 0.000
+kenya2012 Weighted 8k1.000 0.000 0.000
+3
+8 Random pools, tolerances and timing
+Three pool permutations are generated per network/path independently of the selection worlds and are
+held fixed across budgets and propagation parameters. Their individual results remain available. Averag-
+ing the three per-world evaluations before calculating a paired MC standard error preserves their shared
+evaluation-world dependence. Averaging their path-level effects avoids treating the random repeats as
+independent paths. The tolerance grid is 0, 1, 2.5, 5, 10 and 20 percent of full incremental spread. The
+file tolerance_sensitivity.csv includes both the fraction meeting a point-estimate threshold and a more
+conservative descriptive conditional-loss-bound readout. The latter divides a pointwise upper loss bound
+by a point-estimate denominator; it is not a ratio confidence interval or a confirmatory noninferiority
+test. Warm compiled selection and independent evaluation are timed separately. A full-pipeline attribu-
+tion adds graph preparation, common world materialization and the relevant ranking cost. It does not
+count every other ranking’s cost against a single method. Five additional randomized repetitions per real
+graph and nine arms yield 180 observations; these repeats do not increase utility sample size. Initial
+compilation, environment and peak working set are recorded separately.
+9 Source-data map and reproduction
+all_arm_metrics.csv retains all 4,680 arm rows. path_level_metrics.csv additionally expresses random
+pools as within-path averages. group_summary.csv contains the complete setting-specific summaries;
+reference_transitions.csv contains adjacent-budget reference diagnostics; primary_sign_tests_holm.csv
+contains the complete primary family; timing_repeats.csv and tolerance_sensitivity.csv support their
+named analyses. Every condition JSON has a companion compressed NumPy archive containing all
+evaluation outcomes and round-level total scores. The local package contains the frozen engine and
+runner, configuration and protocol hashes, independent analysis and plotting scripts, a minimal semantic
+smoke test, data cards, the original preprocessing script, and command-line reproduction instructions.
+Provider archives are obtained separately and checked against their recorded hashes. No public archival
+DOI has yet been assigned. This document is for author review; administrative declarations must be
+finalized before submission.
+4

@@ -1,0 +1,4882 @@
+[
+  {
+    "path": "project/.dockerignore",
+    "bytes": 95,
+    "sha256": "06249808592e520864824bc0925738b62a2205a77695e00461ca049ced793da3"
+  },
+  {
+    "path": "project/analysis/edge-prediction-v2-t0-gate-v2/analysis-report.md",
+    "bytes": 1776,
+    "sha256": "9a53b0c1cee870368ae54edae10b15795816071eb1f439131f9e2dd06f737afd"
+  },
+  {
+    "path": "project/analysis/edge-prediction-v2-t0-gate-v2/figure-catalog.md",
+    "bytes": 812,
+    "sha256": "18f04398e55b4de089066fe5e39dabe22fa32136e125764ce44527726ec17c25"
+  },
+  {
+    "path": "project/analysis/edge-prediction-v2-t0-gate-v2/figures/figure-01-t0-outer-auc.pdf",
+    "bytes": 15345,
+    "sha256": "547fad0d705bbd415d3408cbfac286533b1f4c593b4d3071c05f826240beefbc"
+  },
+  {
+    "path": "project/analysis/edge-prediction-v2-t0-gate-v2/figures/figure-01-t0-outer-auc.png",
+    "bytes": 68551,
+    "sha256": "eba97a8715042e7a192eb75ee84b7ac60717b8c1f3eb8bb1337ec5e3af81b7fd"
+  },
+  {
+    "path": "project/analysis/edge-prediction-v2-t0-gate-v2/figures/figure-02-t0-calibration.pdf",
+    "bytes": 13796,
+    "sha256": "4278773ca9c6b91f2c3380641021edd053e64bb6da2b68747653e899e7d6f7ba"
+  },
+  {
+    "path": "project/analysis/edge-prediction-v2-t0-gate-v2/figures/figure-02-t0-calibration.png",
+    "bytes": 51543,
+    "sha256": "867d9d7458c7ce11117a6f241c088ad24453eac3a30cffcbdc691289ffe0d208"
+  },
+  {
+    "path": "project/analysis/edge-prediction-v2-t0-gate-v2/gate_decision.json",
+    "bytes": 2628,
+    "sha256": "602d83f4b9814f5a34f047b3f0e2eb9d479623b0eea2adb0aeb4bd8e426591b6"
+  },
+  {
+    "path": "project/analysis/edge-prediction-v2-t0-gate-v2/manifest.json",
+    "bytes": 1177,
+    "sha256": "4a2cf1398a8f5795e1ff1c567470c1109375908581a3a5368a7f3ca16d087cbe"
+  },
+  {
+    "path": "project/analysis/edge-prediction-v2-t0-gate-v2/stats-appendix.md",
+    "bytes": 722,
+    "sha256": "5334c711759991dd3a8691e7aa9886294564ccea6cbc23f8b389f1aafd654313"
+  },
+  {
+    "path": "project/analysis/frozen-main-comparison-v1/analysis-report.md",
+    "bytes": 5363,
+    "sha256": "6f38ab455937bd15359b84b689eaca833d4cdf21162d21b78236c6b499d9dc5a"
+  },
+  {
+    "path": "project/analysis/frozen-main-comparison-v1/figure-catalog.md",
+    "bytes": 1173,
+    "sha256": "a7f41ea0cb12f8f222b3a4d32ea16fcb6c04d219069bb673bcb2001ceb9c8394"
+  },
+  {
+    "path": "project/analysis/frozen-main-comparison-v1/figures/figure-01-paired-objective-improvement.pdf",
+    "bytes": 18898,
+    "sha256": "7bc6023ce68fd0d601d8458bf6869a4087563c6d8cc1904e03403a63f8c7cf53"
+  },
+  {
+    "path": "project/analysis/frozen-main-comparison-v1/figures/figure-01-paired-objective-improvement.png",
+    "bytes": 88049,
+    "sha256": "c8c40cd3904ca5d42b89fd817a9311be7bcb74fdb58ce15498ff4e5a462e1c88"
+  },
+  {
+    "path": "project/analysis/frozen-main-comparison-v1/figures/figure-02-ris-paired-differences.pdf",
+    "bytes": 17418,
+    "sha256": "d268a1ffefa15991b61bf62b48d46dec66c1dcb94571688fcc30256d85455e82"
+  },
+  {
+    "path": "project/analysis/frozen-main-comparison-v1/figures/figure-02-ris-paired-differences.png",
+    "bytes": 92471,
+    "sha256": "e646c6d5aaa79a3ab4d26dcffdb73c3d663a156b88249296116f9e8f53e045e4"
+  },
+  {
+    "path": "project/analysis/frozen-main-comparison-v1/paired_comparisons.json",
+    "bytes": 25052,
+    "sha256": "51b01d64a03d5644986b2890b0223d052992b858f440de99f352d70ea0063231"
+  },
+  {
+    "path": "project/analysis/frozen-main-comparison-v1/stats-appendix.md",
+    "bytes": 1486,
+    "sha256": "c949946499b7f13181d9c320494a331934e2613a48d5ec68d98a89fc478014ee"
+  },
+  {
+    "path": "project/analysis/higgs-edge-prediction-audit-v1/analysis-report.md",
+    "bytes": 2904,
+    "sha256": "28642c834fbaea903975e16673debb15ed8804b02b12c4a9e1de8143b66e8b20"
+  },
+  {
+    "path": "project/analysis/higgs-edge-prediction-audit-v1/figure-catalog.md",
+    "bytes": 1333,
+    "sha256": "6aa8566a8f7baf417e5034d21bc0e2f08a8f9005b247d1137daf14de3272bb11"
+  },
+  {
+    "path": "project/analysis/higgs-edge-prediction-audit-v1/figures/figure-01-future-auc-by-seed.pdf",
+    "bytes": 15772,
+    "sha256": "1574008ff5dfb73785d812908e202b05e6807f79022a71e5e7fe193042da7c38"
+  },
+  {
+    "path": "project/analysis/higgs-edge-prediction-audit-v1/figures/figure-01-future-auc-by-seed.png",
+    "bytes": 63111,
+    "sha256": "7eccf1573724554042cf8ea35824b1320047559196745a64239c0d2c6b9f3467"
+  },
+  {
+    "path": "project/analysis/higgs-edge-prediction-audit-v1/figures/figure-02-train-to-future-gap.pdf",
+    "bytes": 26083,
+    "sha256": "b063766930a157a7352f8686e5f62759d2aa500992ac06d17b1a7ecdc68e2ece"
+  },
+  {
+    "path": "project/analysis/higgs-edge-prediction-audit-v1/figures/figure-02-train-to-future-gap.png",
+    "bytes": 229130,
+    "sha256": "09b355f57dccafee2fdb7d04785cfb7b220695389257d92efc34046aa71ba3e4"
+  },
+  {
+    "path": "project/analysis/higgs-edge-prediction-audit-v1/stats-appendix.md",
+    "bytes": 2712,
+    "sha256": "f90e6736a1c46914a9766d6602ed5e9a49d3c5900a3f827c18c821e6305ca3c9"
+  },
+  {
+    "path": "project/analysis/higgs-edge-prediction-audit-v2/analysis-report.md",
+    "bytes": 2904,
+    "sha256": "28642c834fbaea903975e16673debb15ed8804b02b12c4a9e1de8143b66e8b20"
+  },
+  {
+    "path": "project/analysis/higgs-edge-prediction-audit-v2/figure-catalog.md",
+    "bytes": 1422,
+    "sha256": "045ebdf3d5d0104ea2b2f69632b5335e98cd47ded5c540f5f15a766da1964b74"
+  },
+  {
+    "path": "project/analysis/higgs-edge-prediction-audit-v2/figures/figure-01-future-auc-by-seed.pdf",
+    "bytes": 15547,
+    "sha256": "7f62865b9758ff6a29f07d0c70ca0c2bdb64ac5dd3dc00a45986fdebcde7fa94"
+  },
+  {
+    "path": "project/analysis/higgs-edge-prediction-audit-v2/figures/figure-01-future-auc-by-seed.png",
+    "bytes": 62277,
+    "sha256": "159c65332054f35e4b76e368b0c8a1892bd031e054b85070255ae885b5cfc510"
+  },
+  {
+    "path": "project/analysis/higgs-edge-prediction-audit-v2/figures/figure-02-train-to-future-gap.pdf",
+    "bytes": 25728,
+    "sha256": "1f6800e7e1af8539a5a123d45d1c6f50d19b4d737b72a59082f25b083534bbe1"
+  },
+  {
+    "path": "project/analysis/higgs-edge-prediction-audit-v2/figures/figure-02-train-to-future-gap.png",
+    "bytes": 217873,
+    "sha256": "b60d753096e2432cd94e7dbb4d1e3f4ffa621fe5d8a319b8cae18e1198bee0d2"
+  },
+  {
+    "path": "project/analysis/higgs-edge-prediction-audit-v2/stats-appendix.md",
+    "bytes": 2712,
+    "sha256": "f90e6736a1c46914a9766d6602ed5e9a49d3c5900a3f827c18c821e6305ca3c9"
+  },
+  {
+    "path": "project/analysis/v2-t0b-strict-paired-v1/analysis-report.md",
+    "bytes": 3703,
+    "sha256": "3abee8258218950dbe2dcd998556c0623b292d418cac64ff633441289d648099"
+  },
+  {
+    "path": "project/analysis/v2-t0b-strict-paired-v1/figure-catalog.md",
+    "bytes": 1102,
+    "sha256": "c01c5b15cee939a9c4a435eb06ef065bf3f9d58d8b2851b88b27e35ac1f98e6f"
+  },
+  {
+    "path": "project/analysis/v2-t0b-strict-paired-v1/figures/figure-01-paired-objective-improvement.pdf",
+    "bytes": 18421,
+    "sha256": "57248a3902862fb99fb6c218d70881f3769b8c8797ea15c8af2c1d707ca0b0e6"
+  },
+  {
+    "path": "project/analysis/v2-t0b-strict-paired-v1/figures/figure-01-paired-objective-improvement.png",
+    "bytes": 77925,
+    "sha256": "272ba1e505abbe38e0a65cfea126792f62369a3f3c6750a9c5975498a1d5d84e"
+  },
+  {
+    "path": "project/analysis/v2-t0b-strict-paired-v1/figures/figure-02-seed-level-paired-differences.pdf",
+    "bytes": 25582,
+    "sha256": "9ad539c928f1c6a8a4e91a83286338c9893c0721a802b18ec34f132dfa6bbf3d"
+  },
+  {
+    "path": "project/analysis/v2-t0b-strict-paired-v1/figures/figure-02-seed-level-paired-differences.png",
+    "bytes": 213490,
+    "sha256": "83efc17be56abe39cedb0ce035b8b9bc5e045f551427fe6ca7b7ec050645d960"
+  },
+  {
+    "path": "project/analysis/v2-t0b-strict-paired-v1/paired_comparisons.json",
+    "bytes": 17597,
+    "sha256": "c1eddd1ce086f5ae84c1fded944f12bf887753f806adff7787ee6238f7068a73"
+  },
+  {
+    "path": "project/analysis/v2-t0b-strict-paired-v1/stats-appendix.md",
+    "bytes": 1181,
+    "sha256": "9a2542db1b16695059211339757cd10ea83972129cc8cf41afea11af8c1cf0fb"
+  },
+  {
+    "path": "project/analysis/v2-t0d-common-world-objective-ablation-v1/analysis-report.md",
+    "bytes": 2009,
+    "sha256": "4712bbee1c297ff3e5e09229abb6d120e22b520d92be2a5abbbca807834aaed2"
+  },
+  {
+    "path": "project/analysis/v2-t0d-common-world-objective-ablation-v1/figure-catalog.md",
+    "bytes": 446,
+    "sha256": "e531c24038ee23a47a9fc433937f24be7d6b13dcc130f67de45125bb8bc43ee1"
+  },
+  {
+    "path": "project/analysis/v2-t0d-common-world-objective-ablation-v1/figures/figure-01-common-world-objective-ablation.pdf",
+    "bytes": 14549,
+    "sha256": "c8f0cb6a014ea800ebbef6dc2bf768bbf7a9397e42aba87d303e31307e7e3e67"
+  },
+  {
+    "path": "project/analysis/v2-t0d-common-world-objective-ablation-v1/figures/figure-01-common-world-objective-ablation.png",
+    "bytes": 71110,
+    "sha256": "a129cf9e5fa71e7fa26cf7d296499943a3b49dd24dbcea9ca13e5bac72878d63"
+  },
+  {
+    "path": "project/analysis/v2-t0d-common-world-objective-ablation-v1/paired_comparisons.json",
+    "bytes": 6834,
+    "sha256": "4fe4be6119be8839d8be539c3623abdd42e19e3a8013c680abb4f5a7a3354b6a"
+  },
+  {
+    "path": "project/analysis/v2-t0d-common-world-objective-ablation-v1/stats-appendix.md",
+    "bytes": 537,
+    "sha256": "9f5fb1f8531300d826f5856cbd2390d05a73f9e63113b5436f3ec7e2f0bd2d08"
+  },
+  {
+    "path": "project/analysis/v2-t0d-common-world-objective-ablation-v2-null-matrix/analysis-report.md",
+    "bytes": 816,
+    "sha256": "cdb2021d358e653d85244392e7bdb28c03866a7bc2890029c8b1c92fbae76df0"
+  },
+  {
+    "path": "project/analysis/v2-t0d-common-world-objective-ablation-v2-null-matrix/figure-catalog.md",
+    "bytes": 141,
+    "sha256": "6e3594f1a92fe4ef16f0f61fe8d959bc2f8b8ed143b7243a8d1416640a80fcba"
+  },
+  {
+    "path": "project/analysis/v2-t0d-common-world-objective-ablation-v2-null-matrix/figures/figure-01-exact-null-matrix.pdf",
+    "bytes": 18031,
+    "sha256": "0f2fc4760a23d8df4c61129861b85821f1f378bdf1cd96c8d531255ea8a8d758"
+  },
+  {
+    "path": "project/analysis/v2-t0d-common-world-objective-ablation-v2-null-matrix/figures/figure-01-exact-null-matrix.png",
+    "bytes": 105395,
+    "sha256": "ff1ec119afc0eaf24b1f1c2419756200d33ddc59c2184c2177f642aaa7531434"
+  },
+  {
+    "path": "project/analysis/v2-t0d-common-world-objective-ablation-v2-null-matrix/stats-appendix.md",
+    "bytes": 203,
+    "sha256": "ce3add1c6d2f4238a4708641556b705fecb5624b55e886ab620801cf4be14804"
+  },
+  {
+    "path": "project/analysis/v3-fairness-sensitivity-strict-paired-v1/analysis-report.md",
+    "bytes": 8379,
+    "sha256": "a4fc528a1f2655b52a489fb51c2874ee7604ceb4510923d4a896e5e1edbe1f80"
+  },
+  {
+    "path": "project/analysis/v3-fairness-sensitivity-strict-paired-v1/figure-catalog.md",
+    "bytes": 729,
+    "sha256": "11b74bf8bb46f16db32eec94064a450b161242f66e396885aada918bab4963bd"
+  },
+  {
+    "path": "project/analysis/v3-fairness-sensitivity-strict-paired-v1/figures/figure-01-screened-vs-full.pdf",
+    "bytes": 12581,
+    "sha256": "8e0171b4dbb792c4364856cddbeca7d293a23984e8e55910ec8c7f5c08759af4"
+  },
+  {
+    "path": "project/analysis/v3-fairness-sensitivity-strict-paired-v1/figures/figure-01-screened-vs-full.png",
+    "bytes": 48809,
+    "sha256": "8e3bb4843312701cf05d0a5adb39fc103d88ccc5ec789824b3e0a0872b919aa1"
+  },
+  {
+    "path": "project/analysis/v3-fairness-sensitivity-strict-paired-v1/figures/figure-02-candidate-pool-sensitivity.pdf",
+    "bytes": 13482,
+    "sha256": "597df132501b7eed010c78cee1e68764053fe286e37da62717bd2578e99c08ef"
+  },
+  {
+    "path": "project/analysis/v3-fairness-sensitivity-strict-paired-v1/figures/figure-02-candidate-pool-sensitivity.png",
+    "bytes": 62152,
+    "sha256": "4a91673ee5d1436ed0be86d47457937290af3ae3f73e48af6b553423120e41b8"
+  },
+  {
+    "path": "project/analysis/v3-fairness-sensitivity-strict-paired-v1/figures/figure-03-objective-weight-sensitivity.pdf",
+    "bytes": 18304,
+    "sha256": "3d138123880c936fc133c04250f2a5b54ac2f55a8e513e9e3a9f4de7afd5ec66"
+  },
+  {
+    "path": "project/analysis/v3-fairness-sensitivity-strict-paired-v1/figures/figure-03-objective-weight-sensitivity.png",
+    "bytes": 84863,
+    "sha256": "ebfd113b72edc56285658f0977a4ad37137ae432c8117a709b74e6e5e440e7dc"
+  },
+  {
+    "path": "project/analysis/v3-fairness-sensitivity-strict-paired-v1/paired_comparisons.json",
+    "bytes": 31977,
+    "sha256": "328a78fb9e72a3abb043579d1a36f17fd92c09144a4c86c3dbd7655ee949067a"
+  },
+  {
+    "path": "project/analysis/v3-fairness-sensitivity-strict-paired-v1/sensitivity-descriptives.md",
+    "bytes": 7366,
+    "sha256": "70622141dce490abbb2958850442571b3bab2c94a9a2cbfd31740d6806eaf87e"
+  },
+  {
+    "path": "project/analysis/v3-fairness-sensitivity-strict-paired-v1/sensitivity_descriptives.csv",
+    "bytes": 7495,
+    "sha256": "05ec707aa2483267dcfa4a10648fe5079dc3a73597625daa07945bd61259be46"
+  },
+  {
+    "path": "project/analysis/v3-fairness-sensitivity-strict-paired-v1/stats-appendix.md",
+    "bytes": 718,
+    "sha256": "a27cf3a368d52485db0d13a5d4b9b51152a1a79084def0a01de7b371fbcce9c2"
+  },
+  {
+    "path": "project/assets/architecture_comparison_v2.png",
+    "bytes": 1314630,
+    "sha256": "cce809547be863f0f1a3f04024e0f528dacaffc7f51c20665f3465e8da4b92d3"
+  },
+  {
+    "path": "project/assets/project_gantt_chart_academic.png",
+    "bytes": 1283407,
+    "sha256": "d06d1be58f6523014022d02f4a69290659956f8b9764e48820e78301cc3df591"
+  },
+  {
+    "path": "project/assets/technical_route_final_masterpiece.png",
+    "bytes": 2656641,
+    "sha256": "25003d7e864dd1173b67c2c53fe990e94499bfe688c1d47b336fcf84590902c8"
+  },
+  {
+    "path": "project/audits/bilingual_abstract_consistency_audit_2026-07-29.md",
+    "bytes": 2298,
+    "sha256": "e1898641ec6264794cf63d133c4f67f36a7d85bfde0acec511f735bd8da4b634"
+  },
+  {
+    "path": "project/audits/core_journal_manuscript_quality_audit_2026-07-29.md",
+    "bytes": 5631,
+    "sha256": "24b29c30dc52aa2b197d51c184f3a6401a36a943bd0d5f85853ba63dd073451a"
+  },
+  {
+    "path": "project/audits/core_journal_submission_readiness_2026-07-31.md",
+    "bytes": 3573,
+    "sha256": "122745f7dd7d79eb591113fe933d5162d9cd77812d21296c8eaeb45bb238f1cb"
+  },
+  {
+    "path": "project/audits/core_journal_submission_readiness_r37_2026-07-31.md",
+    "bytes": 3829,
+    "sha256": "0913549141b09a9d2d871e41454ea7d232f62f57c4984205de069610ece2654c"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-pilot-smoke/report.json",
+    "bytes": 729,
+    "sha256": "f1efbab89c7cea83f23df720927d0899fc03016ed4349bf425416a9f1a8652ac"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-pilot-smoke/split-0.60-seed-42.json",
+    "bytes": 458,
+    "sha256": "719ef3ee5a63f04ce334ad2e27afe42c59132f001f6e3fe386ded3f2bf4780a9"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-preflight-gpu/determinism_preflight.json",
+    "bytes": 251,
+    "sha256": "cba0db29f66cd06625886ed95e20b35793eac384dcf5b478ed5ea207ae7e0d07"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-preflight-gpu/edge_prediction_v2_preregistration.md",
+    "bytes": 5136,
+    "sha256": "961cd008956f50176df8de0896e420ab30a0da0f9f7f62125269ed01b7a52ca6"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-preflight/report.json",
+    "bytes": 730,
+    "sha256": "cf96253476474fa2bbfe0dd2a0cf3f40b53e79016f74b96719a43331af3a776f"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-preflight/split-0.60-seed-42.json",
+    "bytes": 459,
+    "sha256": "bbf8f92e81f434b3506c223f7a60e71f9da9a28fc028c59c0c4e55957531df6b"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-v1/report.json",
+    "bytes": 16479,
+    "sha256": "8ec9e185bb2c36b76cf87c1a952f2350157c573cc3ffdf5e4ff18301b6f7ca51"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-v1/split-0.60-seed-42.json",
+    "bytes": 459,
+    "sha256": "bbf8f92e81f434b3506c223f7a60e71f9da9a28fc028c59c0c4e55957531df6b"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-v1/split-0.60-seed-43.json",
+    "bytes": 461,
+    "sha256": "8827a67b681ae9f4fe28a54e9169c94bc01ca14cff4831249cc9697844d82fba"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-v1/split-0.60-seed-44.json",
+    "bytes": 459,
+    "sha256": "42d2626a167d9059c4ac02127f79467a99bec27def61fad34a96064b6aa9b24a"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-v1/split-0.60-seed-45.json",
+    "bytes": 460,
+    "sha256": "dd8e5c74ba94b58df5da404c940a47f6974a334f61ddbdb7f36e132e4f15a8d1"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-v1/split-0.60-seed-46.json",
+    "bytes": 461,
+    "sha256": "2176049ba8aa18e6afcac3cc445303d6635c8acda5792e970027091cbcbb383b"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-v1/split-0.60-seed-47.json",
+    "bytes": 460,
+    "sha256": "f07642b888a0b2cf143e07ee24d7095ee51b54bac7bffe705158627d4af0e201"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-v1/split-0.60-seed-48.json",
+    "bytes": 459,
+    "sha256": "13cc3393b63f190746686ba333a92a98a8eb7ce39120870755babd7687f68a09"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-v1/split-0.60-seed-49.json",
+    "bytes": 458,
+    "sha256": "8d38489492f67ef03a0d19dbddcd305009f354c866221d9167651dbf92a13560"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-v1/split-0.60-seed-50.json",
+    "bytes": 460,
+    "sha256": "b205d7295676e083dae02d8d999949974e6ff1edb2ddf28f35cf8766a5f6c264"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-v1/split-0.60-seed-51.json",
+    "bytes": 459,
+    "sha256": "2cb7c19bca52857bb1b0e62ffc75cb4be0d753212e38440c12436bb8d8dbd62d"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-v1/split-0.65-seed-42.json",
+    "bytes": 460,
+    "sha256": "3aced89dbba5f021bb196bf031278f958b89e668b6d1d0c437802c5120535494"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-v1/split-0.65-seed-43.json",
+    "bytes": 462,
+    "sha256": "f79c7bd8c2bb341650efa999e0ab726aa6743af30d2ae67d494de41d78c02d25"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-v1/split-0.65-seed-44.json",
+    "bytes": 462,
+    "sha256": "093ab08fd98b6751996d25d6372f8bc5744198f4fa420e29f78bce0cf0c62251"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-v1/split-0.65-seed-45.json",
+    "bytes": 460,
+    "sha256": "d80f825c0313ec39ae8bc6c32eeb596c6c2bf6ae59169822c114556545caf4d0"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-v1/split-0.65-seed-46.json",
+    "bytes": 462,
+    "sha256": "af5c61afd47cbfcb74d8a8668d7167781f8bbf0b905b0e580eb2dab0f883ee99"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-v1/split-0.65-seed-47.json",
+    "bytes": 461,
+    "sha256": "a7d2333b6f423285a013e6da34bfbfa7c5b6960c412b9d8c64d63f21747ba665"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-v1/split-0.65-seed-48.json",
+    "bytes": 461,
+    "sha256": "282d8e7fd8b3000282666dbb9b13b6e489587d4bb4dfecf9f3bbe46e2dd5f7d6"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-v1/split-0.65-seed-49.json",
+    "bytes": 460,
+    "sha256": "8be35ddfb757be74650a27e8f2a913f5c4eabe76b1bbbfea439bcaffc72e9c50"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-v1/split-0.65-seed-50.json",
+    "bytes": 458,
+    "sha256": "5ce0462718958487793a953e45349f61f020435b328dff32b21aa98df2750935"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-v1/split-0.65-seed-51.json",
+    "bytes": 462,
+    "sha256": "6179f5899f7c644838be21ac81dba0239d73e692f8bcda411950511eb66c3ee7"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-v1/split-0.70-seed-42.json",
+    "bytes": 461,
+    "sha256": "c6b550a127b9f21c4e7e4e6f2eabcfff489f879639c1079b9df5bc72433ae296"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-v1/split-0.70-seed-43.json",
+    "bytes": 460,
+    "sha256": "d4c1f56eb3ff05e06395e4d6d36cde820a049e48d234fd59105137a1b1878efe"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-v1/split-0.70-seed-44.json",
+    "bytes": 459,
+    "sha256": "cefdbccb75fd1e0a115e5d319689a8bdaa1a542150bb30e1e19d10e03171c5da"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-v1/split-0.70-seed-45.json",
+    "bytes": 459,
+    "sha256": "17d63a241d9caf2c7e3300b01fda7e6a92da979347b037c70f8ded5fcc786613"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-v1/split-0.70-seed-46.json",
+    "bytes": 461,
+    "sha256": "2c055f931c99623203fd0bb72c41d63d2784dc3f1a1a3c9c3287afc476a483f3"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-v1/split-0.70-seed-47.json",
+    "bytes": 458,
+    "sha256": "bdb8f85e03b89ba07f96e73f43b433af8fe5d2380993ce3e329c3887c7acfbb7"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-v1/split-0.70-seed-48.json",
+    "bytes": 459,
+    "sha256": "d442ce771e21b8bb8281bce1ccd17d8354159cd89e762be4e078d565dd6dcd33"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-v1/split-0.70-seed-49.json",
+    "bytes": 460,
+    "sha256": "bdbab124ca3d80f4f930bfdf12f6dec2d784530692025e56fd4957c017423df1"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-v1/split-0.70-seed-50.json",
+    "bytes": 461,
+    "sha256": "181e3b213019875fab32f2fda68ba06725138817b372fb055a5d061eb888b9d2"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-selection-baseline-v1/split-0.70-seed-51.json",
+    "bytes": 459,
+    "sha256": "6826d102f97bf7c73bc80b289ed879c40844eaeeb01de86c880ec6b178eac383"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-t0-outer-test-v1/report.json",
+    "bytes": 25803,
+    "sha256": "a85654a395114f18ef23cdf8996d387f7d80174ee3a6a24e9d90bc6438f17e10"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-t0-outer-test-v1/split-0.60-seed-42.json",
+    "bytes": 741,
+    "sha256": "d571bc1e7a9c4ddd8b785c7ed11599bd40b564be9478b3571282e3bcee154427"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-t0-outer-test-v1/split-0.60-seed-43.json",
+    "bytes": 737,
+    "sha256": "5f479268496c9c08bf7d5ac4224a0e5c12bdb715a05ca26b7c80bbce8b8d1320"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-t0-outer-test-v1/split-0.60-seed-44.json",
+    "bytes": 739,
+    "sha256": "9c3e3df00f2e5a0587eb1c499f2e33b2819a71f687a10899efd4fe5bbc40c846"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-t0-outer-test-v1/split-0.60-seed-45.json",
+    "bytes": 739,
+    "sha256": "1081f6e3f344ad4fe8eae4b99171d1d9bcaab7811e394d942f6bce13f608d6bd"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-t0-outer-test-v1/split-0.60-seed-46.json",
+    "bytes": 739,
+    "sha256": "e9bd191495729db02610f938b6d69e7ef0af2a69e118deeea08db88aac2e5868"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-t0-outer-test-v1/split-0.60-seed-47.json",
+    "bytes": 740,
+    "sha256": "0a912376ae5b0b8b9649775032ce51230f8800b352d607de86023a4a8348b62c"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-t0-outer-test-v1/split-0.60-seed-48.json",
+    "bytes": 739,
+    "sha256": "11df313c9af31ab0a98e59530eb3f4559d796896524c673c09442f163405ac8a"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-t0-outer-test-v1/split-0.60-seed-49.json",
+    "bytes": 740,
+    "sha256": "94a8b1849d9abd5455961a84fdf2ec9976c61cd440b7f3099fb4cbd0cbe99bbe"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-t0-outer-test-v1/split-0.60-seed-50.json",
+    "bytes": 739,
+    "sha256": "26cb83225412fee37e3ce0cdc2bfb5644456b876ff957c99ae68f0e56d7a0148"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-t0-outer-test-v1/split-0.60-seed-51.json",
+    "bytes": 738,
+    "sha256": "b9ece397ff6e32e2b361982ed2e9268f93835f211a98bd453f7ad35bf34c1782"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-t0-outer-test-v1/split-0.65-seed-42.json",
+    "bytes": 740,
+    "sha256": "ef101d59f56b4515e613d55b3786e216a93d5177ebb49592f3ea2abc818af620"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-t0-outer-test-v1/split-0.65-seed-43.json",
+    "bytes": 741,
+    "sha256": "4415af39e90840c297bb9c006494393384b4cc09ee47d937434691394363d224"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-t0-outer-test-v1/split-0.65-seed-44.json",
+    "bytes": 738,
+    "sha256": "cbff356a77a6a00a72bc194c46ad5690320e36448365ad587a74a16f6da0c705"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-t0-outer-test-v1/split-0.65-seed-45.json",
+    "bytes": 738,
+    "sha256": "04611b91efa8e2883a088c3d12fe5eaeb509bff0810d9bfdd8179213f459bbe4"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-t0-outer-test-v1/split-0.65-seed-46.json",
+    "bytes": 739,
+    "sha256": "8154de01badeaa2d57de447b4fb021765b074c7425c3030675ea7f26ec342c68"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-t0-outer-test-v1/split-0.65-seed-47.json",
+    "bytes": 740,
+    "sha256": "0444232abc78af479f7cf819df3d6c77d1ac71cb4fda39acdd50357b6b75aa3b"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-t0-outer-test-v1/split-0.65-seed-48.json",
+    "bytes": 736,
+    "sha256": "ae4587845eef68b55a5dc9e54cd74f661139f44357d3be5f37a7fd6d04fa8109"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-t0-outer-test-v1/split-0.65-seed-49.json",
+    "bytes": 739,
+    "sha256": "b363fed17d02c39f37e10e746f3ca1e14dd7f174390f1b1040bc30546d93691c"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-t0-outer-test-v1/split-0.65-seed-50.json",
+    "bytes": 738,
+    "sha256": "80890e37fd8b19c77cbbc38822a0814d3a0caed42be5e1536e437110e3b84fe8"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-t0-outer-test-v1/split-0.65-seed-51.json",
+    "bytes": 740,
+    "sha256": "173ff8ad01ec1f1f0ce77753c46fc0ce278c5a5687c078c51ddd6f5901663553"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-t0-outer-test-v1/split-0.70-seed-42.json",
+    "bytes": 739,
+    "sha256": "70902e86c83ca1d4dea7cb614d445991dbcee158e2a4ba2b63eab0b2ecf1faf5"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-t0-outer-test-v1/split-0.70-seed-43.json",
+    "bytes": 741,
+    "sha256": "5d6e59f206bab0da72a1f1511dd5b5c9ff5004434172f1e6823b98daf1656912"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-t0-outer-test-v1/split-0.70-seed-44.json",
+    "bytes": 739,
+    "sha256": "033ffa41ab73d4b9dec5a413a62412455ed1c1d676d24b1003ad81e994d03de2"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-t0-outer-test-v1/split-0.70-seed-45.json",
+    "bytes": 736,
+    "sha256": "f11ee13104ca7cf9e788451638d210e129502a9e0ee48c894d52564f4b79e40c"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-t0-outer-test-v1/split-0.70-seed-46.json",
+    "bytes": 736,
+    "sha256": "7d64e97a0de278cade428fc1711f36b242096af934d51b37cc4e93294e434acb"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-t0-outer-test-v1/split-0.70-seed-47.json",
+    "bytes": 738,
+    "sha256": "0d4bd2b95e0f7ef37eda2b8c388d7eabcbb9909adb3ca3fbfd6b3637470ff399"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-t0-outer-test-v1/split-0.70-seed-48.json",
+    "bytes": 739,
+    "sha256": "64f1f426eb1db5735446a4f3d63f67005d91428db614f87d19fa75117eecc9ae"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-t0-outer-test-v1/split-0.70-seed-49.json",
+    "bytes": 741,
+    "sha256": "2b764daf61943a72ecd673902c38364fdfa857f3c75278d05dd25e17d2327e43"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-t0-outer-test-v1/split-0.70-seed-50.json",
+    "bytes": 735,
+    "sha256": "da35a0971a4af903d7650487fb87c241ffe2a5c2d0e7f91614d56303f5107847"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-t0-outer-test-v1/split-0.70-seed-51.json",
+    "bytes": 740,
+    "sha256": "8157c3c05b2c9f114b8f4017e010003b2bdbdf9cfb62c5598d56a753a209cb33"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-preflight/report.json",
+    "bytes": 730,
+    "sha256": "f58a3b01099521a3ff5287de051df739a137079596ef227e09f1c9acb7171fab"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-preflight/split-0.60-seed-42.json",
+    "bytes": 459,
+    "sha256": "2e171487298a4d5d29390176a3d42f77ea1c10d2e16788a10d6ebd769c092ec5"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-selection-v1/report.json",
+    "bytes": 16483,
+    "sha256": "121a70e2be80a5b8d50402d24116f866e36004136c7028316103054e86d3e6cf"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-selection-v1/split-0.60-seed-42.json",
+    "bytes": 459,
+    "sha256": "2e171487298a4d5d29390176a3d42f77ea1c10d2e16788a10d6ebd769c092ec5"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-selection-v1/split-0.60-seed-43.json",
+    "bytes": 459,
+    "sha256": "4a710990a9675135108aeaaaec7394e88f32aa18f07463ba831cb6475c4358a4"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-selection-v1/split-0.60-seed-44.json",
+    "bytes": 461,
+    "sha256": "2cc1e3180ca6878e28c5acf0ac8986ff9f91739bbf9773914eb94f82f8749729"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-selection-v1/split-0.60-seed-45.json",
+    "bytes": 460,
+    "sha256": "039c8ee5182647a12ef1bf3607160f54ab1030c144534c8dad514d323008b070"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-selection-v1/split-0.60-seed-46.json",
+    "bytes": 458,
+    "sha256": "7c6c3f7ab7428828388727b60a0517ecd26496405ba591e6e1622965651257cc"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-selection-v1/split-0.60-seed-47.json",
+    "bytes": 461,
+    "sha256": "8b0ad1cb9ebf0efb3234bb887237b4d28886db95bdc5125f95ff23932994763c"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-selection-v1/split-0.60-seed-48.json",
+    "bytes": 461,
+    "sha256": "cb2dfd6cd1f8711a1ff2c2dcc5afa211881e9e77cf32904a43c7ca10106d9587"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-selection-v1/split-0.60-seed-49.json",
+    "bytes": 459,
+    "sha256": "3682ed0d3417bf5e55c3b52c481d4cc24deb11a46448bca7ab7c86eaa8f8ea68"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-selection-v1/split-0.60-seed-50.json",
+    "bytes": 459,
+    "sha256": "4a78cc49e6cef62a6a52ebcc31769054be2849bd09dae8b826c64fb7f4e5e205"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-selection-v1/split-0.60-seed-51.json",
+    "bytes": 461,
+    "sha256": "07ed24a7d78c567418f2af2eca2e30738e667642cfeaad6fd7320bf1434d10ff"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-selection-v1/split-0.65-seed-42.json",
+    "bytes": 461,
+    "sha256": "b3a6e2ae486e35f619b8d84572c6a8974a7e5f4857b5d389340b75754560b996"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-selection-v1/split-0.65-seed-43.json",
+    "bytes": 460,
+    "sha256": "19101afebdf94762a7faec04d49fb709083bb3b7e8f90291037d80448ed022c1"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-selection-v1/split-0.65-seed-44.json",
+    "bytes": 461,
+    "sha256": "378d5e63e79537c0f7bb68d2679cb01c025972000250bf0d6026d5883c322c96"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-selection-v1/split-0.65-seed-45.json",
+    "bytes": 462,
+    "sha256": "320237c92b28dba2c329d70dd58550b132b8a1ef6bf815ccc6190c4f01efcf35"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-selection-v1/split-0.65-seed-46.json",
+    "bytes": 461,
+    "sha256": "5cea6b593edf1aa5a4fadcb4210198e460eb4c8b81744254aef386d1d243ad63"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-selection-v1/split-0.65-seed-47.json",
+    "bytes": 461,
+    "sha256": "474c7954bde234c4b2091825fea618a604f6744770553470fde9b9276b7ff7ba"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-selection-v1/split-0.65-seed-48.json",
+    "bytes": 459,
+    "sha256": "bcad968be8d57fda14eb5b433350a5e537a345ef149a87c130226d861d4ab43e"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-selection-v1/split-0.65-seed-49.json",
+    "bytes": 462,
+    "sha256": "7a7bb4d4cad7a84e659688106302902d9f2d6013af833b0a9df0db2cd8814df7"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-selection-v1/split-0.65-seed-50.json",
+    "bytes": 459,
+    "sha256": "508fb32ddaef35b14ace75cb96160cd500918d6881b4853b99a078c169903826"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-selection-v1/split-0.65-seed-51.json",
+    "bytes": 460,
+    "sha256": "9da47953c7288983d95b1a67639b78ad1dfb714c9b0b89a2ce601ff63a0f063e"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-selection-v1/split-0.70-seed-42.json",
+    "bytes": 460,
+    "sha256": "5c2f3fae32f2dd916a49f749ba7c2d7e03e53e2f4ea5070b39d0ef50daa31f9d"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-selection-v1/split-0.70-seed-43.json",
+    "bytes": 459,
+    "sha256": "a129b4be3c9ee867aa1cc9b162e9105ec4a3b3459540339a7616faa6f1c1458a"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-selection-v1/split-0.70-seed-44.json",
+    "bytes": 460,
+    "sha256": "f0c6c7ddf8fed1d50a1c7451751bdaea2322410ee8acf7f70f6220e5910d7e83"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-selection-v1/split-0.70-seed-45.json",
+    "bytes": 461,
+    "sha256": "177628ea77774d56fb74cd87799b49d88d0b4ba4f4ea1331d0b1592d5efdb0f2"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-selection-v1/split-0.70-seed-46.json",
+    "bytes": 460,
+    "sha256": "5fdc2bfceaaf4dcc7be52f15da2f2ba623f2ad33427ab40776a32bde5a329e28"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-selection-v1/split-0.70-seed-47.json",
+    "bytes": 460,
+    "sha256": "9a8d81180575bf22256909dffc3206eb049eac26fc8f89608684735747d8c85f"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-selection-v1/split-0.70-seed-48.json",
+    "bytes": 460,
+    "sha256": "20744172cfdd730320042e04cd9f393823373908972d889b7a1afa478b833210"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-selection-v1/split-0.70-seed-49.json",
+    "bytes": 460,
+    "sha256": "44080db2a7a18f0d98a61870cf733320e30334ca9b3bb568ed8149a25b5c9d36"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-selection-v1/split-0.70-seed-50.json",
+    "bytes": 459,
+    "sha256": "40e9c0a8b2ff533bbde5bcf348bd488277396ca51db64b85911430ad10309bdd"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-selection-v1/split-0.70-seed-51.json",
+    "bytes": 462,
+    "sha256": "83f21b6e7c7d58ed4caba7c220ef57b2f38bc472623d8fd264b7e39defbefc19"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-smoke/report.json",
+    "bytes": 729,
+    "sha256": "b848c1b26d7433e87c95e71ce87779a1a8465e9b21bd4cf2d1b4523ddecc83f8"
+  },
+  {
+    "path": "project/audits/edge-prediction-v2-temporal-smoke/split-0.60-seed-42.json",
+    "bytes": 458,
+    "sha256": "21b0eb834f70fcb31e8f5a490efa07b38154ab1c1c42c608746ca1c773c7e73f"
+  },
+  {
+    "path": "project/audits/figure_visual_qa_2026-07-29.md",
+    "bytes": 1782,
+    "sha256": "ea6b773955da2260a44e33f024115ea7cad8345fb1be5ef47d4dbe650a89a60c"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1/audit_report.json",
+    "bytes": 42798,
+    "sha256": "de57e5591abf2e2b23664a8788c69421b79370969ca131fcf52b4a55647d5fdb"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1/split-0.60-seed-42.json",
+    "bytes": 1150,
+    "sha256": "47c681981cfced185895e83f70e939a82af0eccda8efce47e24a378774dfdad3"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1/split-0.60-seed-43.json",
+    "bytes": 1157,
+    "sha256": "50eca78c5038dc6f918871ebd8c1b9f80d6518846ccc80f7a4a030b4d9772d43"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1/split-0.60-seed-44.json",
+    "bytes": 1155,
+    "sha256": "ae1c56f13afcaeac9b21cbfb3934424876767755b0cff8046fbb7675ca0e74a0"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1/split-0.60-seed-45.json",
+    "bytes": 1151,
+    "sha256": "82bfce0d51c8d3515d8eb6d90889e9df697130bf81c45bc3558d8571ee54c923"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1/split-0.60-seed-46.json",
+    "bytes": 1153,
+    "sha256": "cf4daee00acbba07f2ade726b5920e0c21938a828c383c1b7fe25ccfd9e61528"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1/split-0.60-seed-47.json",
+    "bytes": 1152,
+    "sha256": "8958d892bb1b5d0d7cace03ad0b311e42263a4436a55dd3417cf9a34dc17951f"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1/split-0.60-seed-48.json",
+    "bytes": 1151,
+    "sha256": "eb886171f11b7b4dd911d97a344deba853c5dc0bf0760500af19bd0fe3eed644"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1/split-0.60-seed-49.json",
+    "bytes": 1150,
+    "sha256": "269c2eb8ddb372c72eee33ed0e9b074694befffc195a6019c4d310ef4eacb404"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1/split-0.60-seed-50.json",
+    "bytes": 1154,
+    "sha256": "584890d319c98ed3caf27cf9c86cedeb9552d9f2f8532bebea5db334760b1bae"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1/split-0.60-seed-51.json",
+    "bytes": 1154,
+    "sha256": "b586f823db8f91db45338ad368761fd8db7c269964efaa788e854ef0d097194d"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1/split-0.65-seed-42.json",
+    "bytes": 1152,
+    "sha256": "e420fe891d7ef5f24caf972ec3e1e4455b1cf9e90ca23611b4525c2f27d30fbe"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1/split-0.65-seed-43.json",
+    "bytes": 1156,
+    "sha256": "efbdd311debc41ddd9860ceeb6657638063759e61b434b7347246ce32ca50feb"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1/split-0.65-seed-44.json",
+    "bytes": 1153,
+    "sha256": "e811393c24f14abd8d54e19991efb495d1526406977011426c7195a35f325495"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1/split-0.65-seed-45.json",
+    "bytes": 1155,
+    "sha256": "e27f98c740aae6a7390f988220edc49c789b06c4d70941162cfb0568dcd792ed"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1/split-0.65-seed-46.json",
+    "bytes": 1154,
+    "sha256": "cdbdaf2f3057d0eb692db3f3c4b3f173b87ece441da1271279bcb55ba7976267"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1/split-0.65-seed-47.json",
+    "bytes": 1153,
+    "sha256": "102e5e9ffbce64de65a0ac743c867998bd88ce4bdcf23c202b1f949c7149775b"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1/split-0.65-seed-48.json",
+    "bytes": 1155,
+    "sha256": "19548969c56238bf1a848a5becb1a6a7296befc9b60740a421f7baf1906093b8"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1/split-0.65-seed-49.json",
+    "bytes": 1155,
+    "sha256": "ec0407094fe468740863e50c688ff8d21e59388d2405756199e0fe11edb22bd4"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1/split-0.65-seed-50.json",
+    "bytes": 1157,
+    "sha256": "53cff0629b08f5e782e5627efbfaf7ae3e341867603e5ebb2029935c59c84f43"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1/split-0.65-seed-51.json",
+    "bytes": 1153,
+    "sha256": "c3b1d19e49968138884c4fa41b6a129b8f01e655da5ea645234550273919da84"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1/split-0.70-seed-42.json",
+    "bytes": 1155,
+    "sha256": "3770c32d7ba9024d6aaaf2bccb718c3a5fb29ee352e9831d624de772d421cb82"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1/split-0.70-seed-43.json",
+    "bytes": 1154,
+    "sha256": "2cec0e327be87b56eb066720e45ed12d99078bfd94719d3d7dd22e344a4b2d38"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1/split-0.70-seed-44.json",
+    "bytes": 1155,
+    "sha256": "d063dd8d4c5c164ebe716b58005d868cb8ff80b0c6014e548efab4b19d39ca70"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1/split-0.70-seed-45.json",
+    "bytes": 1154,
+    "sha256": "f13508f11809e0cd91cf14217a59b925ac1f57c3e3dacf1585b752aa0d60a2ec"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1/split-0.70-seed-46.json",
+    "bytes": 1152,
+    "sha256": "47dc410f0bcd979d185933e74c5a56577b5e6f9a34dc3c6700e180c843cf9a1b"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1/split-0.70-seed-47.json",
+    "bytes": 1155,
+    "sha256": "4065177522d772744b9ee5a256baf9c93c77902d7c534a2afa9780692fb55005"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1/split-0.70-seed-48.json",
+    "bytes": 1153,
+    "sha256": "06f59ec9ad68285eaafc4da5626c501246ab47ce55908db4682433436d4ad1f4"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1/split-0.70-seed-49.json",
+    "bytes": 1155,
+    "sha256": "1498238850f79b2f9d34f24859923d6e8a8265f7aa5d003276471a88ff3c9c4e"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1/split-0.70-seed-50.json",
+    "bytes": 1150,
+    "sha256": "9cec50112ac33ded8e6c91c96d5fa348786ccb6e9b7e3fb2302d94754b37f409"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1/split-0.70-seed-51.json",
+    "bytes": 1154,
+    "sha256": "23bc8e8f1cd691ad92955d1f458cda87946f39e5692572cf805555692d039219"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1-smoke/audit_report.json",
+    "bytes": 3469,
+    "sha256": "4605d4039a4bdbe79ab8634210a45c2e91fd1f53eb67e799a5bac4bce62f61d3"
+  },
+  {
+    "path": "project/audits/higgs-edge-prediction-v1-smoke/split-0.60-seed-42.json",
+    "bytes": 1155,
+    "sha256": "70b91a8556311e9638c2969d6b98a685c773f959bf29de5a5c3de98e9dc71071"
+  },
+  {
+    "path": "project/audits/influence-v2-t0-higgs-50000-smoke-v1/influence_v2_t0_preregistration.md",
+    "bytes": 5503,
+    "sha256": "e81bdf10f309f80784092ab6416c7a6dcc14c3329ae513e588a17ac5b8723686"
+  },
+  {
+    "path": "project/audits/influence-v2-t0-higgs-50000-smoke-v2/aggregate_statistics.json",
+    "bytes": 4444,
+    "sha256": "98469716cd8eb19aa9001bec24b2fcad3b1da0d825dfdd0f9ea8b659a62239e1"
+  },
+  {
+    "path": "project/audits/influence-v2-t0-higgs-50000-smoke-v2/influence_v2_t0_preregistration.md",
+    "bytes": 5503,
+    "sha256": "e81bdf10f309f80784092ab6416c7a6dcc14c3329ae513e588a17ac5b8723686"
+  },
+  {
+    "path": "project/audits/influence-v2-t0-higgs-50000-smoke-v2/manifest.json",
+    "bytes": 969,
+    "sha256": "e7b87ebec34b4e4ff603c48262d67a5b41b58251ee6274467987f75ee1b4c796"
+  },
+  {
+    "path": "project/audits/influence-v2-t0-higgs-50000-smoke-v2/method_metrics.csv",
+    "bytes": 621,
+    "sha256": "2ac36ce8ac5261b1f79ce97e58b26fda5acec27a3ba1fd69d2e0a309147dfe8e"
+  },
+  {
+    "path": "project/audits/influence-v2-t0-higgs-50000-smoke-v2/split-0.60-seed-42.json",
+    "bytes": 2579,
+    "sha256": "c7c487aa813c7f3fbea4778fca2b12aadcd48ac5de9526ce136a486d9ff723b9"
+  },
+  {
+    "path": "project/audits/influence-v2-t0b-higgs-50000-smoke-v1/aggregate_statistics.json",
+    "bytes": 4432,
+    "sha256": "6cbc70d77f9c39174c06bdea17fa5ecb4fc55eaf681abd17439cc825281da431"
+  },
+  {
+    "path": "project/audits/influence-v2-t0b-higgs-50000-smoke-v1/influence_v2_t0b_timestamp_preregistration.md",
+    "bytes": 2157,
+    "sha256": "d9a98fd9bdd10c39fac9d709927c2face9f0a1f0deb11adf7d93bde2b517e364"
+  },
+  {
+    "path": "project/audits/influence-v2-t0b-higgs-50000-smoke-v1/manifest.json",
+    "bytes": 982,
+    "sha256": "99f3c9f3b4788dd0a0a96facf5062bd81e0cc51999492f83b8c3b8bcd2baee51"
+  },
+  {
+    "path": "project/audits/influence-v2-t0b-higgs-50000-smoke-v1/method_metrics.csv",
+    "bytes": 609,
+    "sha256": "be9763868a77596e23538eb431af6107c18ebc1682b4b2714df0f524790da14e"
+  },
+  {
+    "path": "project/audits/influence-v2-t0b-higgs-50000-smoke-v1/split-0.60-seed-42.json",
+    "bytes": 2718,
+    "sha256": "bf153135a5b1853fb610c5b7774a04168302d5201599125aebefa794b0f3f06c"
+  },
+  {
+    "path": "project/audits/internal_docx_a11y_audit_2026-07-29.json",
+    "bytes": 172,
+    "sha256": "8c3380600e40b01b1adabf5fd89cd39bbe92f15a2ba4d3a8a3f286e1c69a6640"
+  },
+  {
+    "path": "project/audits/internal_docx_a11y_audit_post_editorial_2026-07-29.json",
+    "bytes": 172,
+    "sha256": "8c3380600e40b01b1adabf5fd89cd39bbe92f15a2ba4d3a8a3f286e1c69a6640"
+  },
+  {
+    "path": "project/audits/internal_docx_a11y_audit_post_literature_2026-07-29.json",
+    "bytes": 172,
+    "sha256": "8c3380600e40b01b1adabf5fd89cd39bbe92f15a2ba4d3a8a3f286e1c69a6640"
+  },
+  {
+    "path": "project/audits/internal_docx_a11y_audit_post_path_cleanup_2026-07-29.json",
+    "bytes": 172,
+    "sha256": "8c3380600e40b01b1adabf5fd89cd39bbe92f15a2ba4d3a8a3f286e1c69a6640"
+  },
+  {
+    "path": "project/audits/internal_docx_a11y_audit_post_table_2026-07-29.json",
+    "bytes": 172,
+    "sha256": "8c3380600e40b01b1adabf5fd89cd39bbe92f15a2ba4d3a8a3f286e1c69a6640"
+  },
+  {
+    "path": "project/audits/internal_docx_a11y_audit_r29_2026-07-31.json",
+    "bytes": 182,
+    "sha256": "87c87601b6e94ada469efbd75397551c17ee0b1273e3a2ce5cc6a7322140820d"
+  },
+  {
+    "path": "project/audits/internal_docx_a11y_audit_r30_2026-07-31.json",
+    "bytes": 182,
+    "sha256": "0295cc4f45fbcd6b79056b0d5845032da262a45dee4e26df69aa66473931583a"
+  },
+  {
+    "path": "project/audits/internal_docx_a11y_audit_r31_2026-07-31.json",
+    "bytes": 182,
+    "sha256": "dc1c07ba4731553ccf174d35b16dfbf3035d1712d8a2160bbef7e748b9e7af67"
+  },
+  {
+    "path": "project/audits/internal_docx_a11y_audit_r35_v2t0d_2026-07-31.json",
+    "bytes": 182,
+    "sha256": "bfcc6a0abc74a28a05edf8c1b6ad940477df3f45a7995a1f4bd82871c08154a9"
+  },
+  {
+    "path": "project/audits/internal_docx_a11y_audit_r36_literature_update_2026-07-31.json",
+    "bytes": 194,
+    "sha256": "8f2691730545bbbe77013a233629a94693149bc0b1c4a2410fd0fa0291754718"
+  },
+  {
+    "path": "project/audits/internal_docx_a11y_audit_r37_literature_fulltext_update_2026-07-31.json",
+    "bytes": 203,
+    "sha256": "e5d3b5bca3820b78272ef3b82a74c05ba462623ed9e66a836005ed4b35a8e5b2"
+  },
+  {
+    "path": "project/audits/internal_docx_a11y_audit_tgat_rebuild_2026-07-29.json",
+    "bytes": 185,
+    "sha256": "a02cce87abc30576c533c3b90116a8d0600b2c03b97648b9a343b66b2dd5b621"
+  },
+  {
+    "path": "project/audits/internal_docx_a11y_audit_tgn_rebuild_2026-07-29.json",
+    "bytes": 184,
+    "sha256": "04e6848a2c5791fa147bf7e9033fc8f386c9eaf3c79ae3624d8c09b1385e2afe"
+  },
+  {
+    "path": "project/audits/internal_docx_r42_accessibility_audit_2026-08-24.md",
+    "bytes": 1234,
+    "sha256": "6d2f1fc453401c4287b6f3c96fc14a78486adcbbba0df6ba12c461d094ee040a"
+  },
+  {
+    "path": "project/audits/internal_docx_r43_literature_update_audit_2026-08-24.md",
+    "bytes": 1389,
+    "sha256": "cc3459549eba5e8ac8296f1c213a45404f4f578470c1125070aad1e0f253d7d6"
+  },
+  {
+    "path": "project/audits/internal_docx_rebuild_audit_2026-07-29.md",
+    "bytes": 1876,
+    "sha256": "12ce64ff6be1c1fabd0fcf1a349eb1bc4873499d1ef959706a6258ea0549cc19"
+  },
+  {
+    "path": "project/audits/internal_docx_wps_visual_preflight_2026-07-29.md",
+    "bytes": 2235,
+    "sha256": "64bbf72c675f5ae223d6b46510064e33f7a0e8c3cbeda424b82194c557667310"
+  },
+  {
+    "path": "project/audits/literature_search_expansion_2026-07-31.md",
+    "bytes": 6410,
+    "sha256": "d78956ef63b91cd926a7f9ee0b43c358269a9f2c9510e11b454e5811913f99ee"
+  },
+  {
+    "path": "project/audits/literature_search_expansion_2026-08-24.md",
+    "bytes": 1696,
+    "sha256": "daee41fb31033d0d3fe6ac1cc28dd50b5063d723ccf1913d6a031bff14224f0b"
+  },
+  {
+    "path": "project/audits/manuscript_code_consistency_audit_v1.md",
+    "bytes": 2807,
+    "sha256": "c7d84e9c1732ed5690f4096572ce16aea95b6c9db18c5e87134b43bcb134dd54"
+  },
+  {
+    "path": "project/audits/manuscript_evidence_consistency_audit_r31_2026-07-31.md",
+    "bytes": 2794,
+    "sha256": "e323d53399ca7bfbed3a7f1ce917ef96b6333d2db3954994f180322da62618cd"
+  },
+  {
+    "path": "project/audits/manuscript_qa_and_evidence_audit_r35_v2t0d_2026-07-31.md",
+    "bytes": 2779,
+    "sha256": "4347ed6c1141a3452a3da859ed5566bf01d2e823a627b270f1192b3fda21b625"
+  },
+  {
+    "path": "project/audits/manuscript_qa_and_evidence_audit_r36_literature_update_2026-07-31.md",
+    "bytes": 2320,
+    "sha256": "6fd47a31803dcf0df269f2123b37e28bcbb94a399ad413bfb4f0f146f3c2d5a6"
+  },
+  {
+    "path": "project/audits/manuscript_qa_and_evidence_audit_r37_literature_fulltext_update_2026-07-31.md",
+    "bytes": 2739,
+    "sha256": "b0e2a644899de23e38bebf3edbbd960d02baa12040e94d5b7f4eecc2509932bb"
+  },
+  {
+    "path": "project/audits/manuscript_qa_r39_ml_survey_update_2026-08-15.md",
+    "bytes": 1779,
+    "sha256": "9796d620ff6d92050b8ddb4e8e22a73a7061041c259f3dab54d2878f787be1ac"
+  },
+  {
+    "path": "project/audits/manuscript_qa_r40_temporal_fairness_literature_update_2026-08-15.md",
+    "bytes": 1955,
+    "sha256": "05ce5d044227d2dffd5ab82ce3d423526a944591f3c35515e953aba298bb8e6c"
+  },
+  {
+    "path": "project/audits/manuscript_qa_r41_temporal_activity_literature_update_2026-08-15.md",
+    "bytes": 2197,
+    "sha256": "b14eaba719678fdd8ed75841cef5cf4a311f1f6cc8c33434d708faa839a80ac1"
+  },
+  {
+    "path": "project/audits/manuscript_qa_r42_v3_null_result_2026-08-23.md",
+    "bytes": 1374,
+    "sha256": "58ab998879b36cd4c911df32b0ac8cbfd35557d7299d7728825e38f0eeee2fe9"
+  },
+  {
+    "path": "project/audits/manuscript_readiness_audit_2026-07-29.md",
+    "bytes": 3758,
+    "sha256": "ceb01f93f574b250cc7428ddf84c96b95720926b541a6c541cf4edad73972104"
+  },
+  {
+    "path": "project/audits/official_template_verification_2026-08-23.md",
+    "bytes": 1427,
+    "sha256": "e2c6843be808cca603df88c2ce73fd5db1d7708006f80648839fb1e40da09a9c"
+  },
+  {
+    "path": "project/audits/r38_docx_a11y.json",
+    "bytes": 188,
+    "sha256": "2ca6483f46f08a6c5f16e5dc8a20951637b9692cc9faaff63c3a406adefcc1c9"
+  },
+  {
+    "path": "project/audits/r39_docx_a11y.json",
+    "bytes": 192,
+    "sha256": "8fcd4a5119eb0eae2946c320476b6d3cfe371f0ef11755a06089aeae0279d717"
+  },
+  {
+    "path": "project/audits/r40_docx_a11y.json",
+    "bytes": 212,
+    "sha256": "048d5b1be34ccdec8426e7935e1fe2c0e2314799e4e67b42fdd08116ecbe243e"
+  },
+  {
+    "path": "project/audits/r41_docx_a11y.json",
+    "bytes": 211,
+    "sha256": "b4898113a1d55362b155cab0b356956e97c6caef103bef3caa6c0d19bfcc522a"
+  },
+  {
+    "path": "project/audits/reviewer_style_method_fairness_audit_2026-07-31.md",
+    "bytes": 4098,
+    "sha256": "36568dc7f05e4deb7e69df17511c74247d84a3efd383d5590617d1c3aca21dfe"
+  },
+  {
+    "path": "project/audits/source_data_archive_license_access_audit_2026-07-29.md",
+    "bytes": 2140,
+    "sha256": "820e988175c3e26075631d63024fafb764e0e1ad3ea8105ee1781071c3fc55cc"
+  },
+  {
+    "path": "project/audits/submission-package-precheck-2026-08-15/submission-package-audit.json",
+    "bytes": 1158,
+    "sha256": "ecf516a9f73a9c6d9a00d08fa99afc5cd7d60ce3d70abe9c6bf11075742b891c"
+  },
+  {
+    "path": "project/audits/submission-package-precheck-2026-08-15/submission-package-audit.md",
+    "bytes": 1167,
+    "sha256": "f6161cebf78cde6a938b8a2d191f42cbe4225b950428bb20d9523c6bac268b4e"
+  },
+  {
+    "path": "project/audits/submission-package-precheck-2026-08-15-v2/submission-package-audit.json",
+    "bytes": 1209,
+    "sha256": "133cac780051e6e95d1524b1628eb8cc491984d21062908debe5819324bc86ab"
+  },
+  {
+    "path": "project/audits/submission-package-precheck-2026-08-15-v2/submission-package-audit.md",
+    "bytes": 1191,
+    "sha256": "d238c0f3c83b51cdbfb75279681cae301246e46fc6e210a11aab62d1a2e648fb"
+  },
+  {
+    "path": "project/audits/submission-package-precheck-2026-08-15-v3/submission-package-audit.json",
+    "bytes": 1209,
+    "sha256": "351fc7cc02f6639596d95d286b20c3d43362087801251421f488627f993b440e"
+  },
+  {
+    "path": "project/audits/submission-package-precheck-2026-08-15-v3/submission-package-audit.md",
+    "bytes": 1191,
+    "sha256": "b4c954cd1603dc24c998f5a2ff890284c62c54be7f60434b5078f52e9b39f3d6"
+  },
+  {
+    "path": "project/audits/submission-package-precheck-2026-08-15-v4/submission-package-audit.json",
+    "bytes": 1209,
+    "sha256": "351fc7cc02f6639596d95d286b20c3d43362087801251421f488627f993b440e"
+  },
+  {
+    "path": "project/audits/submission-package-precheck-2026-08-15-v4/submission-package-audit.md",
+    "bytes": 1191,
+    "sha256": "b4c954cd1603dc24c998f5a2ff890284c62c54be7f60434b5078f52e9b39f3d6"
+  },
+  {
+    "path": "project/audits/submission-package-precheck-2026-08-15-v5/submission-package-audit.json",
+    "bytes": 1430,
+    "sha256": "87458dfc0aa3622752de7bd6ca11562bfb433ca14cf0d5bfdfc7bc60b09de42f"
+  },
+  {
+    "path": "project/audits/submission-package-precheck-2026-08-15-v5/submission-package-audit.md",
+    "bytes": 1391,
+    "sha256": "1d508f12fbde24e0d6ae9943b3f629832a068bc8263d6338d02ec5d227cf669e"
+  },
+  {
+    "path": "project/audits/submission-package-precheck-2026-08-23-v10/submission-package-audit.json",
+    "bytes": 1630,
+    "sha256": "a6d5a1418710d608a44cf8e34b1080135203265960590ad72d50e6dfc85136dc"
+  },
+  {
+    "path": "project/audits/submission-package-precheck-2026-08-23-v10/submission-package-audit.md",
+    "bytes": 1464,
+    "sha256": "cf37c17b2280c7b1f65aa2bf377f5a62b447eaf8100bdb613f489a6726223819"
+  },
+  {
+    "path": "project/audits/submission-package-precheck-2026-08-23-v6/submission-package-audit.json",
+    "bytes": 1428,
+    "sha256": "41b02ecf468574091f1d643dbb945d1cab58d49ac256cd2dd291c6cbffd39b7a"
+  },
+  {
+    "path": "project/audits/submission-package-precheck-2026-08-23-v6/submission-package-audit.md",
+    "bytes": 1337,
+    "sha256": "7f1b4638a73182e4418829270874e8fc94666e979153d355a9cc0d53304ad8df"
+  },
+  {
+    "path": "project/audits/submission-package-precheck-2026-08-23-v7/submission-package-audit.json",
+    "bytes": 1428,
+    "sha256": "41b02ecf468574091f1d643dbb945d1cab58d49ac256cd2dd291c6cbffd39b7a"
+  },
+  {
+    "path": "project/audits/submission-package-precheck-2026-08-23-v7/submission-package-audit.md",
+    "bytes": 1337,
+    "sha256": "7f1b4638a73182e4418829270874e8fc94666e979153d355a9cc0d53304ad8df"
+  },
+  {
+    "path": "project/audits/submission-package-precheck-2026-08-23-v8/submission-package-audit.json",
+    "bytes": 1434,
+    "sha256": "d222af7002beeb8c451242e11692469e526535a1f6a76576f1d0a446292fab4d"
+  },
+  {
+    "path": "project/audits/submission-package-precheck-2026-08-23-v8/submission-package-audit.md",
+    "bytes": 1319,
+    "sha256": "973b08a5045baeed04cdeb4d7a5b3b338478def2c1c430cc305f8fe274ba8ae2"
+  },
+  {
+    "path": "project/audits/submission-package-precheck-2026-08-23-v9/submission-package-audit.json",
+    "bytes": 1630,
+    "sha256": "a6d5a1418710d608a44cf8e34b1080135203265960590ad72d50e6dfc85136dc"
+  },
+  {
+    "path": "project/audits/submission-package-precheck-2026-08-23-v9/submission-package-audit.md",
+    "bytes": 1464,
+    "sha256": "cf37c17b2280c7b1f65aa2bf377f5a62b447eaf8100bdb613f489a6726223819"
+  },
+  {
+    "path": "project/audits/submission-package-precheck-2026-08-24-v11/submission-package-audit.json",
+    "bytes": 1630,
+    "sha256": "f395e9168b6dfb506575d748baf02b800c0db6c6a4982a2403f317832c4f9cce"
+  },
+  {
+    "path": "project/audits/submission-package-precheck-2026-08-24-v11/submission-package-audit.md",
+    "bytes": 1464,
+    "sha256": "d09315b8ff01430a8994eda30385ee38120776087d41ffb5fee0c068f3215d25"
+  },
+  {
+    "path": "project/audits/submission-package-precheck-2026-08-24-v12/submission-package-audit.json",
+    "bytes": 1630,
+    "sha256": "f395e9168b6dfb506575d748baf02b800c0db6c6a4982a2403f317832c4f9cce"
+  },
+  {
+    "path": "project/audits/submission-package-precheck-2026-08-24-v12/submission-package-audit.md",
+    "bytes": 1464,
+    "sha256": "d09315b8ff01430a8994eda30385ee38120776087d41ffb5fee0c068f3215d25"
+  },
+  {
+    "path": "project/audits/submission-package-precheck-2026-08-24-v13/submission-package-audit.json",
+    "bytes": 1630,
+    "sha256": "f395e9168b6dfb506575d748baf02b800c0db6c6a4982a2403f317832c4f9cce"
+  },
+  {
+    "path": "project/audits/submission-package-precheck-2026-08-24-v13/submission-package-audit.md",
+    "bytes": 1464,
+    "sha256": "d09315b8ff01430a8994eda30385ee38120776087d41ffb5fee0c068f3215d25"
+  },
+  {
+    "path": "project/audits/timestamp-grouped-v2-t0b-window-audit-v1.json",
+    "bytes": 4137,
+    "sha256": "c535fb0845f9b8305e4ae4936e123bec79397b80e6c71f8d5994ad23b3644514"
+  },
+  {
+    "path": "project/audits/v2_t0b_completion_monitor_2026-07-30.log",
+    "bytes": 9997,
+    "sha256": "e741a7d6a953637860714192d0cb05c048daddaf141d08f59bb1f7221bfbf64c"
+  },
+  {
+    "path": "project/audits/v2_t0b_completion_monitor_2026-07-30.stderr.log",
+    "bytes": 596,
+    "sha256": "a03db210e76f1d6497b00218bc8d5147c786332dc3bc42a2befc72c1d8ba5a5a"
+  },
+  {
+    "path": "project/audits/v2_t0b_completion_monitor_2026-07-30.stdout.log",
+    "bytes": 147,
+    "sha256": "611d3a955901367af6c8aa9f6e8e1f6f3a160d9f3cba00fbc73658a5cde9183d"
+  },
+  {
+    "path": "project/audits/v2_t0b_final_statistics_audit_2026-07-31.md",
+    "bytes": 2527,
+    "sha256": "5fd02b5c2b1cd304e898c1b2497dd7a0641742a0fd1cfd82d417ec2cc9928f40"
+  },
+  {
+    "path": "project/audits/v2_t0b_inflight_protocol_audit_2026-07-29.md",
+    "bytes": 1405,
+    "sha256": "44b8a20adab950aa595bfdb98a372fbdd5cf1376a3423b82aa08cafbb8a5eab7"
+  },
+  {
+    "path": "project/audits/v2_t0b_inflight_protocol_audit_2026-07-30.md",
+    "bytes": 1489,
+    "sha256": "ab85e8c1b89064e0896cc0ec5d1d007a46404fd9fe47c5df16cdbb334e9a5484"
+  },
+  {
+    "path": "project/audits/v2_t0c_cross_process_reproducibility_failure_2026-07-31.md",
+    "bytes": 2667,
+    "sha256": "da6d3408ad37863fe438b952d950744c12585b8054871ae2a239981b1ff4aa44"
+  },
+  {
+    "path": "project/audits/v3-fairness-sensitivity-smoke-2026-08-15/influence_v3_fairness_sensitivity_preregistration.md",
+    "bytes": 3956,
+    "sha256": "4ee2c0f4c062ee374771b9ec859f66221bc20e02ae278a762b707b5b583a1985"
+  },
+  {
+    "path": "project/audits/v3-fairness-sensitivity-smoke-2026-08-15/manifest.json",
+    "bytes": 1388,
+    "sha256": "5acdd14f085746058b87b83d0a0621bf9d1d060a8a345a207be9df2ff11390cb"
+  },
+  {
+    "path": "project/audits/v3-fairness-sensitivity-smoke-2026-08-15/method_metrics.csv",
+    "bytes": 1890,
+    "sha256": "4826e6398465410f349ae62c50726781da81124dd76b4e751e1bb242a295d84c"
+  },
+  {
+    "path": "project/audits/v3-fairness-sensitivity-smoke-2026-08-15/split-0.60-seed-42.json",
+    "bytes": 13932,
+    "sha256": "c2152952e54ca6d63d0c7cc1d49ef48634d367f1630ac09747eb24e69ec20329"
+  },
+  {
+    "path": "project/audits/v3-fairness-sensitivity-smoke-2026-08-15/stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/audits/v3-fairness-sensitivity-smoke-2026-08-15/stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/audits/v3-full-candidate-cost-preflight-2026-08-15/cost_preflight.json",
+    "bytes": 837,
+    "sha256": "243c6b2215b0666bf3cce035cafb75f350c502528bacffea624a898f37da320d"
+  },
+  {
+    "path": "project/audits/v3-full-candidate-cost-preflight-2026-08-15/cost_preflight.md",
+    "bytes": 495,
+    "sha256": "7e8a2661ca1921f8bd36c28e35d67cef48776cc8eaa20815902fe12e76219a4b"
+  },
+  {
+    "path": "project/audits/v3_fairness_sensitivity_final_statistics_audit_2026-08-23.md",
+    "bytes": 2475,
+    "sha256": "6de9ed09e3e43b75955530aaaf6f3c2fb5945a025d6c959b29a0a94e8d1e82f4"
+  },
+  {
+    "path": "project/audits/v3_manuscript_consistency_audit_2026-08-23.md",
+    "bytes": 102,
+    "sha256": "ac5c5319f2c1be1c16b6c792a64d365a45ed973488fc191fc91ba9d4eb12a07b"
+  },
+  {
+    "path": "project/backend/app/__init__.py",
+    "bytes": 40,
+    "sha256": "5cf11b2e5ad944e7da2dbfb602671c75c3d8bcdb94b851fcdb0f8e4252c9685a"
+  },
+  {
+    "path": "project/backend/app/baselines.py",
+    "bytes": 2868,
+    "sha256": "bf04580ccc11f4f0478aa8eadf7dbbf105633e16515c5dbe105efe31b5b31cfa"
+  },
+  {
+    "path": "project/backend/app/contracts.py",
+    "bytes": 622,
+    "sha256": "4af89977f7b0d557fb7c8ef8457504f2e91fde01a41a2d698791be33be62e9ae"
+  },
+  {
+    "path": "project/backend/app/diffusion.py",
+    "bytes": 1572,
+    "sha256": "156e7418b85cae39fe7599ce36dc7c4f51e6fa08616da559d26c8bd3ee11c79f"
+  },
+  {
+    "path": "project/backend/app/graph.py",
+    "bytes": 2543,
+    "sha256": "8faef93d5ae47af21db01234da18188b3789ed2e087cd8acf8ab202e78f3b424"
+  },
+  {
+    "path": "project/backend/app/main.py",
+    "bytes": 4189,
+    "sha256": "ca6e99a3fd77d67b37e8aa990a81ba16e35455ebb55eea33f999ac977e6b030c"
+  },
+  {
+    "path": "project/backend/app/model.py",
+    "bytes": 4415,
+    "sha256": "1b6e683c4afbcddcda2bb1ff31854126551e40b09ef93b5e8684ca0991796122"
+  },
+  {
+    "path": "project/backend/app/model_v2.py",
+    "bytes": 6130,
+    "sha256": "33ba30f22b47760f4960064bc90b987636fe4f530c970fa174718dbddb735316"
+  },
+  {
+    "path": "project/backend/app/optimizer.py",
+    "bytes": 5952,
+    "sha256": "4cc2c87f0092095dad67338fcd43894e87bb12a2d3fcad0d9a58fed3c9ea6773"
+  },
+  {
+    "path": "project/backend/app/pipeline.py",
+    "bytes": 7628,
+    "sha256": "545a35c5c33b9666f8bd5dbf8e431b8f39c87604fd2e28c057e8c41e2dd897c6"
+  },
+  {
+    "path": "project/backend/app/pipeline_v2_t0.py",
+    "bytes": 11125,
+    "sha256": "6d321005eb81fa132f54d967349eddf981ecd3921145ab24721aa3dc4c893d55"
+  },
+  {
+    "path": "project/backend/app/pipeline_v2_t0b.py",
+    "bytes": 6097,
+    "sha256": "54ec7169056fcef066c4840e8d1e025bbbce0730168430d09ca21635be8a814f"
+  },
+  {
+    "path": "project/backend/app/schemas.py",
+    "bytes": 1234,
+    "sha256": "f445149c85461df06c34f4b8b7ee2bfe9e039a6fc912bf5bc612131486be481d"
+  },
+  {
+    "path": "project/backend/app/validation.py",
+    "bytes": 3924,
+    "sha256": "2d2431583d8fe4e3c35ab29959bd50f3ab096eb47a7843f36bcce16b8dc52df1"
+  },
+  {
+    "path": "project/data/processed/digg/pilot-20000/cascades.csv",
+    "bytes": 935072,
+    "sha256": "18fe5afa3196de05e6757e6c1015d6dcc434f4740d28db51be44021ce778c246"
+  },
+  {
+    "path": "project/data/processed/digg/pilot-20000/data-card.json",
+    "bytes": 772,
+    "sha256": "d8765fb09bdecf99e1f7a9d47c2a560baeddafe12ed7e5935366c5165a972299"
+  },
+  {
+    "path": "project/data/processed/digg/pilot-20000/digg-platform.zip",
+    "bytes": 176590,
+    "sha256": "f73421ffb40cae6466912476f29e05cddc2fde864d399d9d6113c708c5b9c7a7"
+  },
+  {
+    "path": "project/data/processed/digg/pilot-20000/edges.csv",
+    "bytes": 123391,
+    "sha256": "95b4163488e4ae690eba7e42f839db27c0a61cda0d13f6733783694152b16d67"
+  },
+  {
+    "path": "project/data/processed/digg/pilot-20000/nodes.csv",
+    "bytes": 49896,
+    "sha256": "b1ee9740805a04f594c8e0f1ee102131f7ba1db661fef4992d83a9f80769cb56"
+  },
+  {
+    "path": "project/data/processed/digg/pilot-5000/cascades.csv",
+    "bytes": 232002,
+    "sha256": "1d1bad9b66fb56b7b819daa1e772a4ba238e277c5c2ef4a80f697276d73cf619"
+  },
+  {
+    "path": "project/data/processed/digg/pilot-5000/data-card.json",
+    "bytes": 769,
+    "sha256": "d0a2f011644664fda56728f352174237e7deb52ff5e28f6ff632b3042ce8343a"
+  },
+  {
+    "path": "project/data/processed/digg/pilot-5000/digg-platform.zip",
+    "bytes": 45067,
+    "sha256": "46d9eaa65c6a242b672b24644c8f6a8f5c75af888f9005943e6dc7e8e11577cb"
+  },
+  {
+    "path": "project/data/processed/digg/pilot-5000/edges.csv",
+    "bytes": 30351,
+    "sha256": "59d43df5f58ef5999d49ba2abab9f0a5fa25f42af39ffac68359dc52dff67fce"
+  },
+  {
+    "path": "project/data/processed/digg/pilot-5000/nodes.csv",
+    "bytes": 10540,
+    "sha256": "e459f9f7d88f67e3b8170314b1048870ab799d1b2ffe0ece686e773e74e8a1ec"
+  },
+  {
+    "path": "project/data/processed/higgs-twitter/pilot-1500/cascades.csv",
+    "bytes": 84537,
+    "sha256": "337cb498f0ba985bb39c8b3006db35cd479a1098218899ee9b935a4d7e239918"
+  },
+  {
+    "path": "project/data/processed/higgs-twitter/pilot-1500/edges.csv",
+    "bytes": 61428,
+    "sha256": "d70356f279584df09beec26cbec23c379cb2f75cfecef875cd09461de118ed91"
+  },
+  {
+    "path": "project/data/processed/higgs-twitter/pilot-1500/higgs-twitter-platform.zip",
+    "bytes": 31654,
+    "sha256": "db0f085f49e2976d5616b4a4308c3f028e39c2d369e3258e3e7f04181c4ed2ba"
+  },
+  {
+    "path": "project/data/processed/higgs-twitter/pilot-1500/nodes.csv",
+    "bytes": 9467,
+    "sha256": "0cecf44e905c99e293aa55a4dcee2ff39ab38658bd6d8097d655c6e31aa2df57"
+  },
+  {
+    "path": "project/data/processed/higgs-twitter/pilot-5000/cascades.csv",
+    "bytes": 283820,
+    "sha256": "e6b516cf395c8a16226bf8f99bdc246d57718276ed843bf8e2ff8066feb3d696"
+  },
+  {
+    "path": "project/data/processed/higgs-twitter/pilot-5000/edges.csv",
+    "bytes": 205930,
+    "sha256": "d80512d6e9f89a86cb1e7a744f479b5f9c9d9218f879ba0cd0cd74c66babe6f7"
+  },
+  {
+    "path": "project/data/processed/higgs-twitter/pilot-5000/higgs-twitter-platform.zip",
+    "bytes": 98197,
+    "sha256": "1b94da6c1a2e265b14c8079488ab5f0cc6ed26b30c6d95215f8245a91683a7b5"
+  },
+  {
+    "path": "project/data/processed/higgs-twitter/pilot-5000/nodes.csv",
+    "bytes": 28725,
+    "sha256": "b03a70235f707aa7c36172678c3ef0281e0275cf2f761f4a5ac709233ae038e7"
+  },
+  {
+    "path": "project/data/processed/higgs-twitter/pilot-50000/cascades.csv",
+    "bytes": 2815448,
+    "sha256": "d503d39922201baa8dd018c187beb7500c5cf5910ce745c948478525f867b552"
+  },
+  {
+    "path": "project/data/processed/higgs-twitter/pilot-50000/edges.csv",
+    "bytes": 2047942,
+    "sha256": "5178d5be13faf6b0875b584e936d24d8043112dcc1b25b0b49ea95dc17f5b7f9"
+  },
+  {
+    "path": "project/data/processed/higgs-twitter/pilot-50000/higgs-twitter-platform.zip",
+    "bytes": 975069,
+    "sha256": "6115e1117847181c5139ef9855e91dd3a1cf9865cfeb82af6fd047959ed7df9a"
+  },
+  {
+    "path": "project/data/processed/higgs-twitter/pilot-50000/nodes.csv",
+    "bytes": 255480,
+    "sha256": "04560116149c19d1bd7f0dcdaad6b70dbbaa32cf1932cab9221c2aeebfac8e57"
+  },
+  {
+    "path": "project/data/raw/digg/digg.zip",
+    "bytes": 33353043,
+    "sha256": "c0702cc5780b7838fcaf1f376e83eaac9f1a4c1bde1f217dc3bc48f882740fa9"
+  },
+  {
+    "path": "project/data/raw/digg/unpacked/digg.edges",
+    "bytes": 109178812,
+    "sha256": "3b80b255e54a5d89fe67f53557ce202ff5740b2566cfffba6a1f25dafe4c1f76"
+  },
+  {
+    "path": "project/data/raw/digg/unpacked/digg.types",
+    "bytes": 2437542,
+    "sha256": "6d1089f66810c832f2150255baf9d51b6c392b31f4987d8eb4a86a298ec37c74"
+  },
+  {
+    "path": "project/data/raw/digg/unpacked/readme.html",
+    "bytes": 1838,
+    "sha256": "af9103163b2c63a9f0f134b642e44540851b3569ffb704a9af7482befe428ad4"
+  },
+  {
+    "path": "project/data/raw/higgs-twitter/higgs-activity_time.txt.gz",
+    "bytes": 4169461,
+    "sha256": "901b199716a23b0fc0371705e3ae9941b5c9493277aec65456abc4988674ad79"
+  },
+  {
+    "path": "project/data/README.md",
+    "bytes": 780,
+    "sha256": "f13d7aba4db062bff98f395c68d76a25982d24a4fa7db5c178a19bc6ec97a70b"
+  },
+  {
+    "path": "project/data_cards/third_dataset_admission.md",
+    "bytes": 4018,
+    "sha256": "57c2a895f7a6a16aa48032ff8c112d230de41f9f4df7492da92b5e98224f929d"
+  },
+  {
+    "path": "project/data_cards/third_dataset_v3_screening_protocol.md",
+    "bytes": 1598,
+    "sha256": "2ebd05ccf903aceaf87ddaad54fac066d3af79da62a78300705b15e61f86eb04"
+  },
+  {
+    "path": "project/docker-compose.yml",
+    "bytes": 266,
+    "sha256": "efb48ae3733359e0f1e7dc29561634633ea55a43f3ee67743bd8f17ca5d12177"
+  },
+  {
+    "path": "project/Dockerfile",
+    "bytes": 271,
+    "sha256": "50f6ba6e8b39a66fceea878db4ef686f9cab24dbe9ba396c2425af0f5d13caf4"
+  },
+  {
+    "path": "project/docs/RESEARCH_PROTOCOL.md",
+    "bytes": 1980,
+    "sha256": "87dc55873e377dd64b1defc8f661bb2f74f276e2949f682fcba1cd4ccf9b07a9"
+  },
+  {
+    "path": "project/experiments/audit_edge_prediction.py",
+    "bytes": 10003,
+    "sha256": "0609b5f4c8a276db54ee5e216ef438ac78f9942f7c5bd6ee454cc3c764c611e5"
+  },
+  {
+    "path": "project/experiments/audit_submission_package.py",
+    "bytes": 14650,
+    "sha256": "75db107d89d6546669581d03423ada72640af18c6e391333f007f2d3d3e85d85"
+  },
+  {
+    "path": "project/experiments/audit_timestamp_grouped_windows.py",
+    "bytes": 3380,
+    "sha256": "7a1286ea5f36fc6c45b2cdbe31662ff7468d71e7df6e7be7a57011d51064b2c7"
+  },
+  {
+    "path": "project/experiments/audit_v3_manuscript_consistency.py",
+    "bytes": 3636,
+    "sha256": "6fa0165a207342043acd0fe75df36ea0d858ff8d62a2a00bda8553cfd3a3798f"
+  },
+  {
+    "path": "project/experiments/build_edge_prediction_analysis.py",
+    "bytes": 12142,
+    "sha256": "50606227c4f20af6b7c80a6840896e5365356135d4c5d6522810cee6874ff139"
+  },
+  {
+    "path": "project/experiments/build_main_comparison_analysis.py",
+    "bytes": 13955,
+    "sha256": "766f4b2e8f0d2c544c4cd325a05021a2a421f589d35091f4b718dc2f3032aeab"
+  },
+  {
+    "path": "project/experiments/build_public_release_inventory.py",
+    "bytes": 4592,
+    "sha256": "2412bbeec2d4bdadc6ddabcfdf4af73cb763e2e4275cc11162c9284f33c3678d"
+  },
+  {
+    "path": "project/experiments/build_reproducibility_manifest.py",
+    "bytes": 3794,
+    "sha256": "1827793cec078094a763148ccbb430841e0c636e598748846fcdbc2701f37584"
+  },
+  {
+    "path": "project/experiments/build_v2_t0b_paired_analysis.py",
+    "bytes": 18539,
+    "sha256": "b1f3cb32d0b3abb8ccd7b84306231b53cbc23231ef15b2cd496c29a40932fbaa"
+  },
+  {
+    "path": "project/experiments/build_v2_t0c_objective_ablation_analysis.py",
+    "bytes": 14314,
+    "sha256": "e81fd21b04ab3e66f82654015a76df5ed758626dae525ddf417fe63e9792bcb6"
+  },
+  {
+    "path": "project/experiments/build_v2_t0d_common_world_objective_ablation_analysis.py",
+    "bytes": 11622,
+    "sha256": "a308c68f57baa5e047e80bb85cc6f36d3a7296985263ae73fc68784719dda2de"
+  },
+  {
+    "path": "project/experiments/build_v2_t0d_null_matrix.py",
+    "bytes": 4199,
+    "sha256": "d713ae1810157b207c53e63b66d0934ee0072ad7d8b7bc4ee122bd0a81bb1458"
+  },
+  {
+    "path": "project/experiments/build_v3_fairness_sensitivity_analysis.py",
+    "bytes": 22166,
+    "sha256": "3f1cac5705017bb4cf2ffe1979c2c00cbc16ef4a734250b71517816df6810dd1"
+  },
+  {
+    "path": "project/experiments/monitor_v3_fairness_sensitivity.py",
+    "bytes": 3478,
+    "sha256": "e96077596936d6166e33fb7bdbff731b1d07779155e457a2069fbda362c2875d"
+  },
+  {
+    "path": "project/experiments/run_edge_prediction_v2_pilot.py",
+    "bytes": 8560,
+    "sha256": "09940e780b028951852835e0a03cf709a71db1e1146d92040b6a33a3db783d21"
+  },
+  {
+    "path": "project/experiments/run_rolling_study.py",
+    "bytes": 5751,
+    "sha256": "95faae206ccc8399933be12c1dbb499f8272efbfb1afec070d3976d46b02c206"
+  },
+  {
+    "path": "project/experiments/run_rolling_study_v2_t0.py",
+    "bytes": 5550,
+    "sha256": "7d2dc79baa86e6695a6c958dc44d8d0f61270cd489d3d6a062a1c57be402935b"
+  },
+  {
+    "path": "project/experiments/run_rolling_study_v2_t0b.py",
+    "bytes": 3626,
+    "sha256": "2362dde95528346bb94fe636ccf4c679dfebc8bb657a5355591975cef3025d51"
+  },
+  {
+    "path": "project/experiments/run_study.py",
+    "bytes": 1960,
+    "sha256": "0381d55df8ceedc4f2705620cf5aadd13b40b7ecefb09f32ad6b3d1b0c7072dd"
+  },
+  {
+    "path": "project/experiments/run_v2_t0c_objective_ablation.py",
+    "bytes": 13054,
+    "sha256": "04d207350f4fd158256f13fcccaeddd4bb8ddc7a85df52569cdfd2537efcaa52"
+  },
+  {
+    "path": "project/experiments/run_v2_t0d_common_world_objective_ablation.py",
+    "bytes": 12355,
+    "sha256": "291f2ace5b43c787853c70064a3cfadedaf12e54cab808e87c54cf793eba1483"
+  },
+  {
+    "path": "project/experiments/run_v3_fairness_sensitivity.py",
+    "bytes": 17592,
+    "sha256": "942d1c5f7393be17170502192e8faf3ee83461fa42d5ef38f9eaa9cf1574979e"
+  },
+  {
+    "path": "project/experiments/summarize_study.py",
+    "bytes": 4017,
+    "sha256": "e4d3fbd2e10f344f18a05301dd3075d2b166f71ecc3b16f5941c9df5460d0b2c"
+  },
+  {
+    "path": "project/experiments/summarize_v2_t0_gate.py",
+    "bytes": 9901,
+    "sha256": "4dda864d26501a7b6d561d1f9553084beab1e5a91b0a4891c9b7d064b95c24a4"
+  },
+  {
+    "path": "project/experiments/v2_protocol_preflight.py",
+    "bytes": 4093,
+    "sha256": "6a1e0c0095b6518cba642f095b3228b46a2c5fd0ddb2dded5165be97af3f4c2c"
+  },
+  {
+    "path": "project/experiments/v3_full_candidate_cost_preflight.py",
+    "bytes": 3648,
+    "sha256": "1aa4d637af19ca9c8dc64adf155e055900087decb8a6c858e8446ee72a037057"
+  },
+  {
+    "path": "project/logs/higgs-v2-t0b-formal.stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/logs/higgs-v2-t0b-formal.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/logs/v2-t0c-objective-ablation.stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/logs/v2-t0c-objective-ablation.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/logs/v2-t0d-common-world-objective-ablation.stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/logs/v2-t0d-common-world-objective-ablation.stdout.log",
+    "bytes": 600,
+    "sha256": "952ae236641113c6f735091cd8ec5ecb75c8d0ed9ab51fd291d05cc1a86422b2"
+  },
+  {
+    "path": "project/logs/v3-fairness-sensitivity.stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/logs/v3-fairness-sensitivity.stdout.log",
+    "bytes": 600,
+    "sha256": "952ae236641113c6f735091cd8ec5ecb75c8d0ed9ab51fd291d05cc1a86422b2"
+  },
+  {
+    "path": "project/manuscript/abstract_en_v0_1.md",
+    "bytes": 2591,
+    "sha256": "7963ea41a649f1cc74bb424907ff4ef085a97442d2bac52fd8d52cc7792db4e7"
+  },
+  {
+    "path": "project/manuscript/algorithm_appendix.md",
+    "bytes": 1997,
+    "sha256": "58a5aa2963e12288bfd8c3137b69a9ae1ce566a51028d9428526a970c02cbd07"
+  },
+  {
+    "path": "project/manuscript/audit_r44/submission-package-audit.json",
+    "bytes": 1663,
+    "sha256": "17166801ce6868e62963aa26338b0c2dc7742db5277b5226047a9f5f18c40202"
+  },
+  {
+    "path": "project/manuscript/audit_r44/submission-package-audit.md",
+    "bytes": 1519,
+    "sha256": "ac0ae8cbbb172c5db4ad6f3b7723c676f585147cecae01ee3e2e4e32c2d8aec7"
+  },
+  {
+    "path": "project/manuscript/audit_r44_correct/submission-package-audit.json",
+    "bytes": 1665,
+    "sha256": "268d94d75a8bf9d93ad81eb24b6e9dccab0b4f21eb87937d679aefc8b3463252"
+  },
+  {
+    "path": "project/manuscript/audit_r44_correct/submission-package-audit.md",
+    "bytes": 1500,
+    "sha256": "f754c39a546fcf4a34c164d02bdb138829d9f4e27a3a00a2205d8809ca73a90a"
+  },
+  {
+    "path": "project/manuscript/audit_r44_final/submission-package-audit.json",
+    "bytes": 1665,
+    "sha256": "268d94d75a8bf9d93ad81eb24b6e9dccab0b4f21eb87937d679aefc8b3463252"
+  },
+  {
+    "path": "project/manuscript/audit_r44_final/submission-package-audit.md",
+    "bytes": 1500,
+    "sha256": "f754c39a546fcf4a34c164d02bdb138829d9f4e27a3a00a2205d8809ca73a90a"
+  },
+  {
+    "path": "project/manuscript/audit_r44_layoutfix/submission-package-audit.json",
+    "bytes": 1665,
+    "sha256": "268d94d75a8bf9d93ad81eb24b6e9dccab0b4f21eb87937d679aefc8b3463252"
+  },
+  {
+    "path": "project/manuscript/audit_r44_layoutfix/submission-package-audit.md",
+    "bytes": 1500,
+    "sha256": "f754c39a546fcf4a34c164d02bdb138829d9f4e27a3a00a2205d8809ca73a90a"
+  },
+  {
+    "path": "project/manuscript/audit_r44_relatedwork_compact/submission-package-audit.json",
+    "bytes": 1665,
+    "sha256": "268d94d75a8bf9d93ad81eb24b6e9dccab0b4f21eb87937d679aefc8b3463252"
+  },
+  {
+    "path": "project/manuscript/audit_r44_relatedwork_compact/submission-package-audit.md",
+    "bytes": 1500,
+    "sha256": "f754c39a546fcf4a34c164d02bdb138829d9f4e27a3a00a2205d8809ca73a90a"
+  },
+  {
+    "path": "project/manuscript/audit_r44_zero_explanation/submission-package-audit.json",
+    "bytes": 1665,
+    "sha256": "268d94d75a8bf9d93ad81eb24b6e9dccab0b4f21eb87937d679aefc8b3463252"
+  },
+  {
+    "path": "project/manuscript/audit_r44_zero_explanation/submission-package-audit.md",
+    "bytes": 1500,
+    "sha256": "f754c39a546fcf4a34c164d02bdb138829d9f4e27a3a00a2205d8809ca73a90a"
+  },
+  {
+    "path": "project/manuscript/build_internal_word_draft.py",
+    "bytes": 14001,
+    "sha256": "cf0a2fc173733effca7cbe437e9510793839971818faefeba40a45f59558d5ab"
+  },
+  {
+    "path": "project/manuscript/citation_audit.md",
+    "bytes": 35074,
+    "sha256": "3f21232504c310ef7c0eee7aa6ae0ed70216d2f765ce14f687e81bc64da65959"
+  },
+  {
+    "path": "project/manuscript/claim_ledger.md",
+    "bytes": 6665,
+    "sha256": "9df5e83c6388fe0e7ead4b4a1a67d975be96b87e4c8b63a024694263922004f9"
+  },
+  {
+    "path": "project/manuscript/draft_zh_v0_1.md",
+    "bytes": 34566,
+    "sha256": "17d8b9cb6a60f3c2ef21e487f5eaf7dc8d14432015009a32ae4f4679c9e96ca8"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-01-frozen-comparison-cmyk.tif",
+    "bytes": 296066,
+    "sha256": "eb5badcbf66e29fb569e55d065dd7ad6f1ccad2c64a5f3f82fbb6b05ded634e6"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-01-frozen-comparison.png",
+    "bytes": 86638,
+    "sha256": "021ebd7ff06a61c58bc421a87f0799a286bb4ea5ca1f6a296137eb4b924235cc"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-01-frozen-comparison.tif",
+    "bytes": 231846,
+    "sha256": "8329361840ecc7c70f7102c934d587126ae204a6131833c46d1c1f404183701f"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-02-v1-future-auc-cmyk.tif",
+    "bytes": 109608,
+    "sha256": "da340801adfc657007190d0223fbff59343c96d68caf7fb4b67a67119cb68660"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-02-v1-future-auc.png",
+    "bytes": 59554,
+    "sha256": "8f0240a387d9a079efad01c38f1aecd0130fda3d9aea9f2ec93d001a627d6423"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-02-v1-future-auc.tif",
+    "bytes": 84062,
+    "sha256": "54d3cdc0d03a7e566d36efcb7b0c945c64e22d9c2f3aca92f367570984ead64c"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-03-t0-outer-auc-cmyk.tif",
+    "bytes": 114504,
+    "sha256": "ebfa0efdccb141a16eaedd4a2f9f810fefc7126d9692c56aad0753242ecf79b9"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-03-t0-outer-auc.png",
+    "bytes": 66231,
+    "sha256": "28f3fa3615061eff3743d0502ab6da651ef8659a914bfd281b17c490871d5130"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-03-t0-outer-auc.tif",
+    "bytes": 87142,
+    "sha256": "bb3a059a27c8e1dfd0717d82bc6c930655bad8626533478ba34b84dbeb1fbaab"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-04-t0b-comparison-cmyk.tif",
+    "bytes": 500340,
+    "sha256": "630b9843a61d36f2076fddce0a87a333bb9d6e947b5f6a0278659651819ac918"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-04-t0b-comparison.png",
+    "bytes": 70236,
+    "sha256": "957ffb4527acd88d0dd0ef8fe5bdf3c44e8f7b856b65168b55fbdc742ba8fab7"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-04-t0b-comparison.tif",
+    "bytes": 376326,
+    "sha256": "2ff204b734279c712aac5149a2a70802f0545e729731ab9573bfd7912cf8c1af"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-05-t0b-seed-differences-cmyk.tif",
+    "bytes": 406672,
+    "sha256": "94e87544fb205aaf49763e51a3294e502967e9c110718e24c814d0dfa74e16af"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-05-t0b-seed-differences.png",
+    "bytes": 172140,
+    "sha256": "b35495c2f1487a021502f582bdf245d095ecd4563ccba3b2789511f85420d6d8"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-05-t0b-seed-differences.tif",
+    "bytes": 310060,
+    "sha256": "e330775475c219975e274fd729934d01326f853e1e33220fca8a5884684982d9"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-06-t0d-null-matrix-cmyk.tif",
+    "bytes": 223774,
+    "sha256": "6d9f3b12a56bfe0fae5395f97019f8a20cd9b5db9356cba0841e8b155f0f65e1"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-06-t0d-null-matrix.png",
+    "bytes": 106060,
+    "sha256": "c6e74f0d19e8bb995afa1577923253ec4b4265b8152b12f4368164251994ed43"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-06-t0d-null-matrix.tif",
+    "bytes": 170080,
+    "sha256": "27de7a3626574f1c1d5e493d66144c00331f87794a102b966c7d92c0561d72b6"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-07-time-boundary.pdf",
+    "bytes": 34973,
+    "sha256": "2f05e80e11951edfde90c9c5847b5402839a96116957f25d459070733cae50d2"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-07-time-boundary.png",
+    "bytes": 159527,
+    "sha256": "105360d77dbbb18d37b7e10372e2c8aa779fd7ecff5fc0d1b35a3089d438b381"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-07-time-boundary.svg",
+    "bytes": 4411,
+    "sha256": "b32c2d742f65ece6dff0af0b6918a6424700983accf7718068ead55380d2f1e8"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-07-time-boundary.tif",
+    "bytes": 433796,
+    "sha256": "5f5f941663d5a39a1de88f1fa5b98c94185de2ba9e82b65f08d2715b018fdca8"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-08-method-mechanism.pdf",
+    "bytes": 40954,
+    "sha256": "e13972929bd326251b38cd57a3a97db405bdffd51ff1ebbca94d51dbce3c341a"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-08-method-mechanism.png",
+    "bytes": 224366,
+    "sha256": "0b526faee2adbf81232bed53ac9f27cf3d15d8d2d523d8f173a36da849bbbd66"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-08-method-mechanism.svg",
+    "bytes": 7577,
+    "sha256": "1b107b8c0706de44c834c50cfa0390a131195e94ffeebfd640e41570cded2cfb"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-08-method-mechanism.tif",
+    "bytes": 516180,
+    "sha256": "34d923d0d4be509600f5602fb3739057f518947540402730435cae632db373a8"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-08-t0d-null-matrix.pdf",
+    "bytes": 34977,
+    "sha256": "3087fe9b511f1497a8b51ddc12271a2f31022aee11cd02e6f418c94bca85df03"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-08-t0d-null-matrix.png",
+    "bytes": 290223,
+    "sha256": "dc3e503f7ed6747d77cad2697ed58c3b5b815bcbf6daf4df0deb79ff656f6e38"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-08-t0d-null-matrix.svg",
+    "bytes": 13379,
+    "sha256": "de96adbf24e19cad51381c4ae77e45a47f816335673256a487f148d313b4fdcf"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-08-t0d-null-matrix.tif",
+    "bytes": 802746,
+    "sha256": "3388776de485c7ae9b51da03e1e4094a334f032848bbc0407de8a963c7da0103"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-09-objective-structure.pdf",
+    "bytes": 40688,
+    "sha256": "a6eff792c299b81e64d92ddb23007d0e23db44c4cda19563f742813977bbfbc8"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-09-objective-structure.png",
+    "bytes": 194989,
+    "sha256": "eca6f802e967cf736deba1355bcba13bd8cbd68f7f5f1f7baa862c4b3e1ff11f"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-09-objective-structure.svg",
+    "bytes": 4516,
+    "sha256": "ce107c5c5add30fb35bde1ed00a69243f50a8f89a87358b951e97cd95bed3c6c"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-09-objective-structure.tif",
+    "bytes": 443204,
+    "sha256": "e655595c5e58d05e0956b244fc8e06aba6a1a44d6b7a541d38a907b22d42f216"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-10-fairness-paths.pdf",
+    "bytes": 39484,
+    "sha256": "8087084f333b3f7702ae425fff0e7ee7a979905e77f089d830408ae04d7919e0"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-10-fairness-paths.png",
+    "bytes": 234923,
+    "sha256": "dc28d6cf018ec3cbae8e26da406892b031f1b0082129dd7250e41851ae1fdd15"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-10-fairness-paths.svg",
+    "bytes": 6417,
+    "sha256": "ac56a82055748cbddd8b3913a0c91cdb2de22b479b3973c97b061cf327bb0051"
+  },
+  {
+    "path": "project/manuscript/figures_v44/fig-10-fairness-paths.tif",
+    "bytes": 536662,
+    "sha256": "e0851aaddbe84c949dfec1aa1fea076f72f185fa6b79e28fa55bdb13484d50fc"
+  },
+  {
+    "path": "project/manuscript/generate_mechanism_figures.py",
+    "bytes": 6087,
+    "sha256": "85c7539b7fb5fd1635c28890823bbcba4aa92a6178bd1d6f89379d8ce17a5a0f"
+  },
+  {
+    "path": "project/manuscript/generate_null_matrix_figure.py",
+    "bytes": 2410,
+    "sha256": "2c44627fbb3441a0ef111a713a314cc644cf39ef8b9efb103be812ad1ff945e5"
+  },
+  {
+    "path": "project/manuscript/innovation_evidence_matrix.md",
+    "bytes": 4682,
+    "sha256": "131c41835ff3935c5566cc11b7070adbb6ed4558c660a32fe77b2b9522fbb99b"
+  },
+  {
+    "path": "project/manuscript/recolor_frozen_figures.py",
+    "bytes": 2053,
+    "sha256": "4c1fe151c974f976fc2a413de9002500b3c74279b66bf59931d9fce1dce0d495"
+  },
+  {
+    "path": "project/manuscript/references.bib",
+    "bytes": 15980,
+    "sha256": "7ac915741aa495db82eab95f368be7c1f07bce6d135f76234815aed91d6f112a"
+  },
+  {
+    "path": "project/manuscript/related_work_matrix.md",
+    "bytes": 15402,
+    "sha256": "7a3d6443e743a7356481b87731321ffcc60da3a86efce2f80175bb023e94dcce"
+  },
+  {
+    "path": "project/manuscript/reproducibility_appendix.md",
+    "bytes": 5191,
+    "sha256": "b6e73eed234469ff3c4a8c3de4f92f3219110f8ee97402dc21652eebfa2853ed"
+  },
+  {
+    "path": "project/manuscript/software_journal_template_mapping_2026-07-31.md",
+    "bytes": 3503,
+    "sha256": "8c55c7a6e14b7b7ea1e02136d5603e59b9db535ea8081ae5b3e5080089aeeb2a"
+  },
+  {
+    "path": "project/manuscript/statistical_appendix.md",
+    "bytes": 9180,
+    "sha256": "3f30bdecc95a0e8c4a820e0bcf8848d1881e30b32bdbf27115205f6c17e4113c"
+  },
+  {
+    "path": "project/manuscript/submission_metadata_intake.md",
+    "bytes": 1972,
+    "sha256": "710cfe890866b9f1fb452100d9b10e7564acd6df48884bbf01ec9f767a7f4594"
+  },
+  {
+    "path": "project/manuscript/submission_readiness.md",
+    "bytes": 10805,
+    "sha256": "9397ae4af86b9f864ed68918816ce07d3598d058740e35a303f5f5c89ebaee88"
+  },
+  {
+    "path": "project/manuscript/temporal_key_user_identification_internal_draft_r44_mechanisms.docx",
+    "bytes": 1406931,
+    "sha256": "f14595b544c545a77785d66e5b555d116a03f325258a13162cd9bcc743535d07"
+  },
+  {
+    "path": "project/manuscript/terminology_ledger.md",
+    "bytes": 1908,
+    "sha256": "742b5e48869a9835f297968ab01ba8643b40250240c76cde726b38f432682e02"
+  },
+  {
+    "path": "project/manuscript/v3_evidence_integration.md",
+    "bytes": 1674,
+    "sha256": "f13b7804cc3c292fd60a0222fb86bd21d77a8d18eb7ca7383a578f331b719476"
+  },
+  {
+    "path": "project/manuscript/venue_selection.md",
+    "bytes": 4067,
+    "sha256": "95b8f375bbf96a28c62f4efc9a64edd500736a89a4f62a1b696653156db85be7"
+  },
+  {
+    "path": "project/protocols/edge_prediction_v2_preregistration.md",
+    "bytes": 6136,
+    "sha256": "0797bab6198fe08971dc66c8eff8b4de5bcd6925a704fde6efa7e0ccfc4ef86d"
+  },
+  {
+    "path": "project/protocols/influence_v2_t0_preregistration.md",
+    "bytes": 5503,
+    "sha256": "e81bdf10f309f80784092ab6416c7a6dcc14c3329ae513e588a17ac5b8723686"
+  },
+  {
+    "path": "project/protocols/influence_v2_t0b_timestamp_preregistration.md",
+    "bytes": 2157,
+    "sha256": "d9a98fd9bdd10c39fac9d709927c2face9f0a1f0deb11adf7d93bde2b517e364"
+  },
+  {
+    "path": "project/protocols/influence_v2_t0c_objective_ablation_preregistration.md",
+    "bytes": 3248,
+    "sha256": "e141319b75bbd2dd55449ffcf51239ea4b65be19fbe669bd837b7d7a04de5564"
+  },
+  {
+    "path": "project/protocols/influence_v2_t0d_common_world_objective_ablation_preregistration.md",
+    "bytes": 3252,
+    "sha256": "e7dd0d31e32031f6d095cd0f2ec700ecf3e1acc9ab378a8111df398a341bda93"
+  },
+  {
+    "path": "project/protocols/influence_v3_fairness_sensitivity_preregistration.md",
+    "bytes": 3956,
+    "sha256": "4ee2c0f4c062ee374771b9ec859f66221bc20e02ae278a762b707b5b583a1985"
+  },
+  {
+    "path": "project/pyproject.toml",
+    "bytes": 242,
+    "sha256": "091d90437b70a8d8edfe8fc59f11076c16371e01c63f5c7ab0cdf9eb240d3cd5"
+  },
+  {
+    "path": "project/README.md",
+    "bytes": 1546,
+    "sha256": "4819675bbf07f8187f70f65ed7a8fce9cbd3e726fa5b11053514552dee589b90"
+  },
+  {
+    "path": "project/reproducibility/code_metadata_archive_scope.md",
+    "bytes": 2319,
+    "sha256": "71a7cbcc9cff3b1958f4c4a7da19576bcb250ab2bad5a723839f7547d138bed7"
+  },
+  {
+    "path": "project/reproducibility/environment-record-v2-t0b-2026-07-29.md",
+    "bytes": 2117,
+    "sha256": "9f28c180914d7fb61a7f6c2d2e60d94858343b05073de1b6d70300be9e9ac59b"
+  },
+  {
+    "path": "project/reproducibility/environment-record-v3-fairness-sensitivity-2026-08-15.md",
+    "bytes": 2755,
+    "sha256": "04f4edbf5628c4ac254607ccebfc441181d08206e36dc726ddae3844ff35fe04"
+  },
+  {
+    "path": "project/reproducibility/frozen-study-manifest-v1.json",
+    "bytes": 11341,
+    "sha256": "eea2dc166c7fc0affe09447e809224cb185f6ddea3a393da35b487ff7d246e99"
+  },
+  {
+    "path": "project/reproducibility/README.md",
+    "bytes": 4604,
+    "sha256": "0c1ebb7aa42753fa4838b78eaa55ac2adc57fbecb4f137f33fa06ed739f750a4"
+  },
+  {
+    "path": "project/requirements.txt",
+    "bytes": 258,
+    "sha256": "0cd554e6872d08e1d7742e2e15f59ccb411dc9fd65a4503848cc802440f12d45"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/aggregate_statistics.json",
+    "bytes": 13071,
+    "sha256": "c2c132abcb4d0e68f4f11c6c1c16f6eceec55d56f7e14db5c0e4fcb1d2c2dcbe"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/method_metrics.csv",
+    "bytes": 6839,
+    "sha256": "53e0740bcf613c821ea8fa185efef5134beebb9a3bf9167f9335dd62fc54a756"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.60-seed-42.json",
+    "bytes": 768567,
+    "sha256": "5c91c59bbfcfafca042fc12de6096c0928ac336898fb1bf55461b61b46cd8876"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.60-seed-43.json",
+    "bytes": 764181,
+    "sha256": "5a4f69d17fa27229309c977249f1bd6a4bdf56b5f07242516eb65da502958224"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.60-seed-44.json",
+    "bytes": 766729,
+    "sha256": "934a249550156159b56291ff9f002fcb1af32cd124f21732277563da2e658311"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.60-seed-45.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.60-seed-45.json",
+    "bytes": 764079,
+    "sha256": "d282e5e49ccff8db68ad5c317926bba8e8c8d4fadb873ffa9528786512f6286c"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.60-seed-45.log",
+    "bytes": 66,
+    "sha256": "de0c343a8c002bb46bf99b1a33877c5db9898d1e88b72fbed33b5561194976cc"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.60-seed-46.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.60-seed-46.json",
+    "bytes": 764101,
+    "sha256": "2dabeca9c6a27c526fcfb5bba4634ab807fce7c1dad85d69a28ddfe230c0975e"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.60-seed-46.log",
+    "bytes": 66,
+    "sha256": "08cb9be185d0f7a0214476b663cd8afdf20298a1feac70f454869f0bc3b97869"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.65-seed-42.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.65-seed-42.json",
+    "bytes": 792677,
+    "sha256": "b759d686f6177c25b971f55c6661b23f6d09af916046e640ab1caf820e3e8967"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.65-seed-42.log",
+    "bytes": 66,
+    "sha256": "c0ec047bf0c50f47a6b6186f796570de14c030c31d8f56ada08db40ecf852623"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.65-seed-43.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.65-seed-43.json",
+    "bytes": 787818,
+    "sha256": "6335e1f99ddc364941d463c864b01574828d2f7c5c99a037716a4b5bfb506986"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.65-seed-43.log",
+    "bytes": 66,
+    "sha256": "5a6352660d4151b819f408efee95f73bfb69d93c1983c82a5f2dedc9ee6a2707"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.65-seed-44.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.65-seed-44.json",
+    "bytes": 790667,
+    "sha256": "e7dec6b4a2b25da4f50dc07f899e360640951fdbea00d623dba33ad6424da197"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.65-seed-44.log",
+    "bytes": 66,
+    "sha256": "b4b08ad50bed4840faa6da4bd0790e0c122f7eb0bd46add8cad6a35fb2199d5e"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.65-seed-45.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.65-seed-45.json",
+    "bytes": 787716,
+    "sha256": "b3bfa92a0707aaaa43d0b7c21958c6f4a2709b5bb07aa4c897686f2a93ae572f"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.65-seed-45.log",
+    "bytes": 66,
+    "sha256": "a2cc8453786d7872853a592b2e9f251e0e8fa4f90d9cba7308ba8be64e1f622f"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.65-seed-46.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.65-seed-46.json",
+    "bytes": 787709,
+    "sha256": "9f85e3b224fc06ec9dac4609ec197ffa016d30c566289b37835e02ab997ef60f"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.65-seed-46.log",
+    "bytes": 66,
+    "sha256": "eb2edd8890dd8f963367ca451696b30b596fac5eb0c52a2e93c195bbb3fda28e"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.70-seed-42.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.70-seed-42.json",
+    "bytes": 816000,
+    "sha256": "2ae43e72dcab239fb24598a0cb46c1a65c2a2154c12001b593c447b94efaa71e"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.70-seed-42.log",
+    "bytes": 66,
+    "sha256": "a6efa3693c84603027a4bd04530b41083882dc85a9068558145fdf11cee4295d"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.70-seed-43.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.70-seed-43.json",
+    "bytes": 810686,
+    "sha256": "417967d4859a0efbd3ed092608f375a3bd96bab834eec9faf8ca1e88620d8677"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.70-seed-43.log",
+    "bytes": 66,
+    "sha256": "af48463782f5e779a2637115971ea71ccb57f50a5ef4f801eec31e44be2f8841"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.70-seed-44.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.70-seed-44.json",
+    "bytes": 813108,
+    "sha256": "b71d13b080fa621eaa6de4bec0982a87cc26425bf303674cc48b67dec5491d8c"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.70-seed-44.log",
+    "bytes": 66,
+    "sha256": "318dd501f711b8077f18e181b43620be2a401f377159a6d70c0bff447bae9c11"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.70-seed-45.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.70-seed-45.json",
+    "bytes": 810664,
+    "sha256": "91adaf6e967fd8584daa08088a3311d65c949635d213d7cca263b18adaacd8ff"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.70-seed-45.log",
+    "bytes": 66,
+    "sha256": "288b1ba6651af797fdd7496b52a049846b2b18ce2b093cd48f332ee1779aa14d"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.70-seed-46.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.70-seed-46.json",
+    "bytes": 810518,
+    "sha256": "c55e55200ff59817516e86e55729e172059133c873e052546422d64eadb11ddd"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/split-0.70-seed-46.log",
+    "bytes": 66,
+    "sha256": "147f730edf05b7c5edf63be6c897bff0f213f3691647306c14ddbb840ee1bfac"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/summary.csv",
+    "bytes": 1895,
+    "sha256": "1056702ee148f5771ddca81ad73cb6f2244b566058665e760df981125d32489d"
+  },
+  {
+    "path": "project/results/fair-rolling-higgs-pilot-5000-v2/summary.json",
+    "bytes": 8655,
+    "sha256": "80342fd37136c4c5a9e7f4d4aa71cdd3f18455754970194f92e05773b8d9bd59"
+  },
+  {
+    "path": "project/results/higgs-pilot-1500.json",
+    "bytes": 259187,
+    "sha256": "68a95efa9243c1ed206f9251028d927633e23773fc8ce6fd79164b2d3a2323fb"
+  },
+  {
+    "path": "project/results/large-digg-smoke.json",
+    "bytes": 1023311,
+    "sha256": "360d8e4f20b0eee2b9e8e23cdc7b4c963ce0c3c27453d956e2a474e9e23da37f"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/aggregate_statistics.json",
+    "bytes": 13794,
+    "sha256": "a6828c7ea5f6373765473914c900aaad05490983499af703af1995e5e4d4edbe"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/batch.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/batch.log",
+    "bytes": 600,
+    "sha256": "952ae236641113c6f735091cd8ec5ecb75c8d0ed9ab51fd291d05cc1a86422b2"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/method_metrics.csv",
+    "bytes": 14382,
+    "sha256": "c11e40c6ded612e07722231a97269fe1ddd69e0c05e21c82077ee75e7fd6d205"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/split-0.60-seed-42.json",
+    "bytes": 1008359,
+    "sha256": "a0c4cb0b0cb1b9515dd68131c8e12f1265218ec055f57a889e9fc45bcbcb638f"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/split-0.60-seed-43.json",
+    "bytes": 1008595,
+    "sha256": "655d4695a040fddf08a0933cd0f338239df0e618b347cbe24a6533437c68e82f"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/split-0.60-seed-44.json",
+    "bytes": 1008329,
+    "sha256": "6992364b08e0a69cb133421466f384bdc63a2a657b276d692a89f24899fdc6df"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/split-0.60-seed-45.json",
+    "bytes": 1009228,
+    "sha256": "f82a243f7443ac12d7e47346a19146f92b2228447d7f79f04a2de076838785ef"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/split-0.60-seed-46.json",
+    "bytes": 1009355,
+    "sha256": "a23feca8533d03d7c3b375206ac615b9f2a70b42e0d21543a383505ea9db9573"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/split-0.60-seed-47.json",
+    "bytes": 1008242,
+    "sha256": "4a6288c18f48992d6b116bcee8e3eff19f611dcb9836d4e3f23eb5618809fd0d"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/split-0.60-seed-48.json",
+    "bytes": 1008982,
+    "sha256": "5c5c26c33b56435eb5b7eae0645d9bd3c5bd231e84c038c9d423983ca294c0b7"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/split-0.60-seed-49.json",
+    "bytes": 1008602,
+    "sha256": "8be5f1bfb0849b96e7970cb086cef7187f0b2f6508521f4f1521a8c73a86ac5f"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/split-0.60-seed-50.json",
+    "bytes": 1008261,
+    "sha256": "af2a33449d1af55eeec2a90ad65976497be9cf511268d1bf70226ada2688d95c"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/split-0.60-seed-51.json",
+    "bytes": 1008385,
+    "sha256": "1bcdc20a3da577cd01089b706508185d4cb7c566716726cbb088acafe9d03af7"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/split-0.65-seed-42.json",
+    "bytes": 1014894,
+    "sha256": "40998c6699cae13c6f25a47ee383345a01da0e49bca2e42df7e9b734f67caa45"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/split-0.65-seed-43.json",
+    "bytes": 1015293,
+    "sha256": "81736e37a69765c759d89685bee5370a6408c6fd599c10970d10e39094219567"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/split-0.65-seed-44.json",
+    "bytes": 1014903,
+    "sha256": "a4ac4714feafcbdcb50861dd4a828d88f6b52301bdc0bb660841d39343ec6c9d"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/split-0.65-seed-45.json",
+    "bytes": 1015886,
+    "sha256": "13c1b3883cff3eebbfda593ff045008e7fa8dd33fe71444d0d13edb8526b7ba3"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/split-0.65-seed-46.json",
+    "bytes": 1015995,
+    "sha256": "26fe8084d4ce13c83cd9ebf32b57989f1d731598b6abe0859a7515b4f0e8dc23"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/split-0.65-seed-47.json",
+    "bytes": 1014810,
+    "sha256": "a6d1800e68fa4751c01df19bc2ddb14f6ec35ea59770013e91e73ac5a80734cf"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/split-0.65-seed-48.json",
+    "bytes": 1015757,
+    "sha256": "a3a74e91a0e8e9535911a6e5f2090c62d34a180c63d7159a019dd67d950b7255"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/split-0.65-seed-49.json",
+    "bytes": 1015234,
+    "sha256": "4a3bee4e3ed7469b2e5a12131738e17dfdc4230d9547dcd9f30d5b66cf29869f"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/split-0.65-seed-50.json",
+    "bytes": 1014859,
+    "sha256": "da85d26cce8a3f919058bbb436993c0399b204fcad1bbb3fe29acf48bf301cc4"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/split-0.65-seed-51.json",
+    "bytes": 1015004,
+    "sha256": "ba4cded004280dc51e0d22f11202a4a8d027bac41c55c26efdeab8d965d5f1d5"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/split-0.70-seed-42.json",
+    "bytes": 1023316,
+    "sha256": "d41d735b5bce98221cdd199804432227f9b6141d97f9deb6b432193c2520037c"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/split-0.70-seed-43.json",
+    "bytes": 1023823,
+    "sha256": "d3ab2cef74115815f0adaf33e0bc386c7f83f79d5aa2e1d2a1f741da5b308428"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/split-0.70-seed-44.json",
+    "bytes": 1023227,
+    "sha256": "6b61dc0862033f92851c0c542783ed0bd38cfd61f2833f3fdcdcef9340eab1c3"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/split-0.70-seed-45.json",
+    "bytes": 1024561,
+    "sha256": "9d607b8c8390deac2ecedc4348423bb3dd2f2f830405999bbe3ba5bccac2e934"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/split-0.70-seed-46.json",
+    "bytes": 1024151,
+    "sha256": "0e3e3e62a2f28842e0112287d5adfcd88137f324dff1e6f946ffe3786157da87"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/split-0.70-seed-47.json",
+    "bytes": 1023184,
+    "sha256": "81f773e63a0af8f72d775a58a6805d106b1ddbac8e36483720d73d922a653e18"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/split-0.70-seed-48.json",
+    "bytes": 1024251,
+    "sha256": "3ac487fc35f337791136e5a2fae9a539d68fc98a2f8b62f9c88aad36009c02c6"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/split-0.70-seed-49.json",
+    "bytes": 1023731,
+    "sha256": "83ac288dac680be4768b56221ed9ce8a3735bf4b879023266055e823bc6876d2"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/split-0.70-seed-50.json",
+    "bytes": 1023345,
+    "sha256": "78b99e32caf16a35c9bfe5f17e0fe2071ac2b06d51d4ea001172778f8c88df54"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/split-0.70-seed-51.json",
+    "bytes": 1023537,
+    "sha256": "c23d8fb6870c2a6c334e5e5684b1d249f360342529b915d6ab39d9079bd76a0c"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/summary.csv",
+    "bytes": 4447,
+    "sha256": "319d23d8a4e7504a618deaad476c3a9c8ceaef5841c15cbb81ed0a47106276d2"
+  },
+  {
+    "path": "project/results/large-robust-greedy-digg-20000-v1/summary.json",
+    "bytes": 20206,
+    "sha256": "99a55e2add94234f8dd696ba216782c0014d5653a72ddc39638aa2d25c7f7f9d"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/aggregate_statistics.json",
+    "bytes": 13896,
+    "sha256": "1d43b72866e46093bfb59fc2a477d59935f35e8651dba7835fe58d462636592b"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/batch.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/batch.log",
+    "bytes": 600,
+    "sha256": "952ae236641113c6f735091cd8ec5ecb75c8d0ed9ab51fd291d05cc1a86422b2"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/method_metrics.csv",
+    "bytes": 15233,
+    "sha256": "7f2961af7a61bbd61508c8c27b57522420521452418ab5e59f4c12c668e1c2b5"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/split-0.60-seed-42.json",
+    "bytes": 6988416,
+    "sha256": "d9befd3541546c216a1e75bcb4c1a0567d481a4ffac3937b0d7445d32be8d373"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/split-0.60-seed-43.json",
+    "bytes": 6940332,
+    "sha256": "22eb4b473f75c90a07a7a8608b1df7971bd730900cb77919ff7fd07df6bd98cc"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/split-0.60-seed-44.json",
+    "bytes": 6971064,
+    "sha256": "bc54e72505162c7a6d55cf3de911ffc300a4643ab1f8cf7d7ab95a6f52e2b870"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/split-0.60-seed-45.json",
+    "bytes": 6950003,
+    "sha256": "cc0074f74e317b5864b944085ad7dadb6ba9340371e53da75a1a28bb64b5f2da"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/split-0.60-seed-46.json",
+    "bytes": 6948771,
+    "sha256": "eb478b80fdfa9303f641a7444618a1af6574e5d68b31c19b426b7a193637d67b"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/split-0.60-seed-47.json",
+    "bytes": 6985555,
+    "sha256": "f93df6870ce83bd938dc0b51014b1012963d272d39a784ee1f71833444aff867"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/split-0.60-seed-48.json",
+    "bytes": 6988771,
+    "sha256": "ce0179b7aa1c66624a1a0f2c991c1ae45594e7878018e2235e27327986cc0ce5"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/split-0.60-seed-49.json",
+    "bytes": 6966967,
+    "sha256": "2a6524a096e7928e3d6f502dc9a920e6c6f6eb020b98621cef18f0216d7a0a95"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/split-0.60-seed-50.json",
+    "bytes": 6963141,
+    "sha256": "1be312ac5dc39d33f5f2b305f5c289aecd215720b7910322b912d9821f202083"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/split-0.60-seed-51.json",
+    "bytes": 6966376,
+    "sha256": "fdb582c99c6f1965fa62686ef2dc2e8943f26afc865e065d0f784f7130beb080"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/split-0.65-seed-42.json",
+    "bytes": 7212695,
+    "sha256": "d788971c2ab29ccec109a00853b0912552d15deb008e89e04d53014551856f0c"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/split-0.65-seed-43.json",
+    "bytes": 7161534,
+    "sha256": "dcb462e5ad38d5834b2b09d4f9e2bd8af45831b2973a256f807b46eaab54af99"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/split-0.65-seed-44.json",
+    "bytes": 7192462,
+    "sha256": "4c278cb1b57b2484cf374220d6e7cf8912e0e13b3f020e48effadfc2c2e4282a"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/split-0.65-seed-45.json",
+    "bytes": 7170715,
+    "sha256": "ccae280aef541bd250c0e80a4ed4173ef51244a4a305d4a1d3c380bea6cae6dd"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/split-0.65-seed-46.json",
+    "bytes": 7170372,
+    "sha256": "e373ebb81c389f2d2a9b7a85f91dcb9dad24df50dc3405a6092219896dea06a8"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/split-0.65-seed-47.json",
+    "bytes": 7208278,
+    "sha256": "9f0259db04884d0b4d979a3178c07f80208a26995b5fee926be18f7ebf8cd3af"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/split-0.65-seed-48.json",
+    "bytes": 7212563,
+    "sha256": "c4bac46a31f2de6d68226ee6cd3d6b62d7a61e62e183f96084b0f2329fd5df9f"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/split-0.65-seed-49.json",
+    "bytes": 7188415,
+    "sha256": "5581c7c3a4cc4cbefa037f397fda4be856484440b75a33fbaef4a245d37430cc"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/split-0.65-seed-50.json",
+    "bytes": 7186348,
+    "sha256": "971dc0594e6962ad66fd9f1b6955866072252e0c66b8a8413eb5899b1cecdacb"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/split-0.65-seed-51.json",
+    "bytes": 7190562,
+    "sha256": "ac2bf78cc234fbea9b3d150879947a1231473840b6a9a76eb35c521933d26a8e"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/split-0.70-seed-42.json",
+    "bytes": 7434226,
+    "sha256": "45c01119feb518af9976af534d1e0737fb6cdfc989216d2537e2ddbf2ce2c185"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/split-0.70-seed-43.json",
+    "bytes": 7381059,
+    "sha256": "df053ad74d738a02caeeb2dfa4bc1bf3a25bb4172ce533891b66ee8a231c7260"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/split-0.70-seed-44.json",
+    "bytes": 7415587,
+    "sha256": "37a9acf06d68d120964fd22a29e4f14a9d0c4e18582bfeef76e0bbacd3c7eb5f"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/split-0.70-seed-45.json",
+    "bytes": 7389028,
+    "sha256": "6e56ba45f95d4121e74c98c3382dce86fd021927a7ba2522d2026b514517c926"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/split-0.70-seed-46.json",
+    "bytes": 7389331,
+    "sha256": "d03f29d3b2b3b6c843fd6a692224476d384258c1113482518e56012a6c5745a0"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/split-0.70-seed-47.json",
+    "bytes": 7429547,
+    "sha256": "db36ba818feff8f9c47ee9be7ad153edd61e8c917dcc4504dcddd2844304c500"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/split-0.70-seed-48.json",
+    "bytes": 7434678,
+    "sha256": "5b771082c06ede4946c0e798bdecc3b47c9a96100bd4d18df9331b37478c8388"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/split-0.70-seed-49.json",
+    "bytes": 7409265,
+    "sha256": "7b4fc12aa2b71c42631b1d0f205faa8af2e53fd90dad09fe663ac6e5ae562c98"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/split-0.70-seed-50.json",
+    "bytes": 7406719,
+    "sha256": "25534883df5b7c7491b8fc5cb597174bdcea3e95f1a43bf161d6cce02302e89e"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/split-0.70-seed-51.json",
+    "bytes": 7412134,
+    "sha256": "9caf22063a7147a01bb118eae39a328b5bdd893902e6d307dd13ec7085f27429"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/summary.csv",
+    "bytes": 4828,
+    "sha256": "c5707825228fcb9357a42f2340f00ea83a6d1d09e464a03428856648b5904dd8"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v1/summary.json",
+    "bytes": 20587,
+    "sha256": "d7073625f68152e87683ee44b0b33f4c1b27f466e3568f65a9317c0b12fde7fe"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/aggregate_statistics.json",
+    "bytes": 14066,
+    "sha256": "141d09294b1948aaf07de02ac6964e8c697bc0f2fbea1d992cc9105d80b361fd"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/influence_v2_t0b_timestamp_preregistration.md",
+    "bytes": 2157,
+    "sha256": "d9a98fd9bdd10c39fac9d709927c2face9f0a1f0deb11adf7d93bde2b517e364"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/manifest.json",
+    "bytes": 3882,
+    "sha256": "47b322cb46e8437ade9dc1b9c448912ff8f070ffbb4aa64973c06a9ad45a6ae6"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/method_metrics.csv",
+    "bytes": 15375,
+    "sha256": "2eca0df24ea5592d2be64b57ca57b1cd6ab46d06d2de7e2f29215d33baea1e2c"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/split-0.60-seed-42.json",
+    "bytes": 2732,
+    "sha256": "05b6f4c3d9244d16db909e332b0956b9ff772d3d5eb5b4f826ed68e66e38e0ec"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/split-0.60-seed-43.json",
+    "bytes": 2739,
+    "sha256": "294f296e5e4fb66f18ccc429f0ac9f4703df4431577c0c79a66fe22da889b6a2"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/split-0.60-seed-44.json",
+    "bytes": 2733,
+    "sha256": "785760fdd0fdba0434a24361960361116d073a80c1d3eb0a68caf6a57fce201f"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/split-0.60-seed-45.json",
+    "bytes": 2736,
+    "sha256": "8640973b42bc0242bfb8def27740b5a1a91176cc80c57cf31d9ae1c95eb8f235"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/split-0.60-seed-46.json",
+    "bytes": 2736,
+    "sha256": "397dd7fc7f01a93fbdcc53095aac0d32d0577cffa19a70f8c95c01e14dfd5046"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/split-0.60-seed-47.json",
+    "bytes": 2730,
+    "sha256": "c4e8a1186c69b7eda5b8ea528307317153f66ffd08fecee8a36f99584ec9c730"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/split-0.60-seed-48.json",
+    "bytes": 2729,
+    "sha256": "742f57bc3a15cc830cd81a1585a6162b7fb5a118d80ea30fd0d7c5d11d97774a"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/split-0.60-seed-49.json",
+    "bytes": 2738,
+    "sha256": "a8bbf4791872220d99306605c537720615dfca8f8769bc4189910aefb16a45dd"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/split-0.60-seed-50.json",
+    "bytes": 2735,
+    "sha256": "2c689c5263293bfb62811147084de8bffcd0962d07e1b31b84ea6bb804776225"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/split-0.60-seed-51.json",
+    "bytes": 2740,
+    "sha256": "a6f65b19b08d3ce8fa863c6119fe35fb7f8b8c434bf77d056f481a1ea04876cf"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/split-0.65-seed-42.json",
+    "bytes": 2732,
+    "sha256": "9ca2f1d495ab005e5285383904be8526eff93900a9c2be2527d2a59293f9cfe4"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/split-0.65-seed-43.json",
+    "bytes": 2737,
+    "sha256": "451a67e4d2efa61b46e1636814cb849843533c6feb74f24d66efeb5f91de9721"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/split-0.65-seed-44.json",
+    "bytes": 2733,
+    "sha256": "fa706e8fa5c3d72c91e0ce40aaff467b78ff12f0eea606c8084948e49b4f606a"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/split-0.65-seed-45.json",
+    "bytes": 2743,
+    "sha256": "3b4bcf0b3a2186acd11ffcacb72bf49da626e04a88215f6b20412d36d0a2fd5b"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/split-0.65-seed-46.json",
+    "bytes": 2738,
+    "sha256": "8e2b2f60b5e2aafd1229dd835a9d2ca77577461418639f14ccc0ceee8efeef8b"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/split-0.65-seed-47.json",
+    "bytes": 2738,
+    "sha256": "80d0329daa698415254344e3b8858bbcdc87fe224893e2529e5bbe44aff8be93"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/split-0.65-seed-48.json",
+    "bytes": 2733,
+    "sha256": "2425b8dbadc338317a0c56bc65a9d65042c7dae3fee00f3073f3a708cb8545f3"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/split-0.65-seed-49.json",
+    "bytes": 2738,
+    "sha256": "f395c871981079e8a4173d43a8c6f3ef561a2e4c67e83cafa334136356d3b81f"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/split-0.65-seed-50.json",
+    "bytes": 2735,
+    "sha256": "6601a4c33daa394a9f518a86985e1b7cbfe0c6df07af6693ae36bf92254b77d2"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/split-0.65-seed-51.json",
+    "bytes": 2743,
+    "sha256": "1569bff4c07ff067d83595bdc1f040f30b2dd3f0bbbb90b1b8e1163cc8538940"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/split-0.70-seed-42.json",
+    "bytes": 2729,
+    "sha256": "d99a4829a103fb3c34ec503692401236b89d84f7b41d7fa1be150373205ceccc"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/split-0.70-seed-43.json",
+    "bytes": 2738,
+    "sha256": "db7aeb385b565befae56230ca34002f1890c51aab8adeee44e6fa73ab6e5fd4c"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/split-0.70-seed-44.json",
+    "bytes": 2734,
+    "sha256": "846de39239078fe6abf3562b626b993a8242b8f4029cb35cf036ce0a822e0933"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/split-0.70-seed-45.json",
+    "bytes": 2738,
+    "sha256": "f0e55a95a7188da0137f4439959ddc0a9b7cf1c0abee9b4e0061cb77d5064e3a"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/split-0.70-seed-46.json",
+    "bytes": 2738,
+    "sha256": "6c23994a09d96a1e7d2579bdf1ab1fcc1681866878313cdddd26553d1f9a197a"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/split-0.70-seed-47.json",
+    "bytes": 2736,
+    "sha256": "83e24db06896e29689155185b75245f6b33dc4f0d404d50a2895ba7901f6cf0b"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/split-0.70-seed-48.json",
+    "bytes": 2733,
+    "sha256": "5fb094bfa1e1d3d360b77121c5cb22dcf3094ffc47404807e306adb364959c7c"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/split-0.70-seed-49.json",
+    "bytes": 2735,
+    "sha256": "278ab9d6f8d6f45a8644e07c964a9dedb3836703988112027b6de88839e4e403"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/split-0.70-seed-50.json",
+    "bytes": 2729,
+    "sha256": "4a0a0e5fc4fd85daa23df4d95a65f9b60178ff3ab5165232852126c942bcca05"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0b/split-0.70-seed-51.json",
+    "bytes": 2737,
+    "sha256": "111483f0f8088b9bac45b41de8b02483aa49642922b105302815f5d4f4b645dd"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0c-objective-ablation/influence_v2_t0c_objective_ablation_preregistration.md",
+    "bytes": 3248,
+    "sha256": "e141319b75bbd2dd55449ffcf51239ea4b65be19fbe669bd837b7d7a04de5564"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0c-objective-ablation/risk_off/split-0.60-seed-42.json",
+    "bytes": 2929,
+    "sha256": "21ec31e26e406774e484150f390818022ed3bb9edefee0dbf6402834077c8d95"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0c-objective-ablation/risk_off/split-0.60-seed-43.json",
+    "bytes": 2930,
+    "sha256": "4a74fc19593cd74cf21ddee8eace599bc4879818a02510a4802b15f3e7f4cd2a"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/influence_v2_t0d_common_world_objective_ablation_preregistration.md",
+    "bytes": 3252,
+    "sha256": "e7dd0d31e32031f6d095cd0f2ec700ecf3e1acc9ab378a8111df398a341bda93"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/manifest.json",
+    "bytes": 4200,
+    "sha256": "fc8915ae540d452f0329e968995c099d8b7f0dfdec05f11309c6d051b1a8b524"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/method_metrics.csv",
+    "bytes": 13497,
+    "sha256": "818f37070b2095f299a20bd8b8454887d8e9876ad8978d9aa56b7deb53b2875a"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/split-0.60-seed-42.json",
+    "bytes": 3586,
+    "sha256": "97640b0129f34b2b05f9061ddb7f05f8120b11628f569e05c7e97d47f809b8fb"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/split-0.60-seed-43.json",
+    "bytes": 3606,
+    "sha256": "9f95878fee4221526316fedf7675c39f377010bb548ce38f0cf4a1223233fe32"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/split-0.60-seed-44.json",
+    "bytes": 3607,
+    "sha256": "c4b1bf458a7abc57d0c1036c7859cb25ea49b4eea4bcfb61ac39ac2e4b662b8c"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/split-0.60-seed-45.json",
+    "bytes": 3606,
+    "sha256": "a49c43f335c442f494882e5fc24f23be005dc003c4e2e37e816d2351ad32af5a"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/split-0.60-seed-46.json",
+    "bytes": 3597,
+    "sha256": "bd4c793e83c4bed996f9cdc588abdca4865f60d1268d491b11fa5dd2327ec713"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/split-0.60-seed-47.json",
+    "bytes": 3606,
+    "sha256": "39beabb637afef0ff9fc8a9400351c54b6d3a9aef7a196411ea844b2fae2db87"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/split-0.60-seed-48.json",
+    "bytes": 3597,
+    "sha256": "ffd0ba62711eac64b575170ced760400d725a2120b325f57f74f06ae984d0f94"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/split-0.60-seed-49.json",
+    "bytes": 3605,
+    "sha256": "8963411aee684a0449cd68401e0d113f04a525a7f5e2165b70de6e736584e95b"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/split-0.60-seed-50.json",
+    "bytes": 3597,
+    "sha256": "02dd2b9fc5c28a49d7b218bd5ae0f04d0d20d3c6c2869d406c7256f26103cef6"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/split-0.60-seed-51.json",
+    "bytes": 3597,
+    "sha256": "7e537b618019dfe620a24f310b82e222bdf19c3f6cb6e0c1173ff8d121263aaa"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/split-0.65-seed-42.json",
+    "bytes": 3607,
+    "sha256": "d11c33bef816bb4efb56537075a2b5b1a6c53b9948a2e323411597e3419a3c5a"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/split-0.65-seed-43.json",
+    "bytes": 3589,
+    "sha256": "4fc39bdf554dc4fa3966b1f6afe5b0511cf2e596b90eb7b4209fad1ff9ce4429"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/split-0.65-seed-44.json",
+    "bytes": 3601,
+    "sha256": "9a3f5021514a2cbc4554619993763c331495eb4652c605abaf1cc6ab6bdd454a"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/split-0.65-seed-45.json",
+    "bytes": 3607,
+    "sha256": "bcfeca39af9dda3d9971c28483c3287dd18ad9c02ce59bf9171b0b0b9f2bfd12"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/split-0.65-seed-46.json",
+    "bytes": 3599,
+    "sha256": "81e34920050d3a9973c9189b6ba4e60607ff786dfb741504132f02e18687865a"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/split-0.65-seed-47.json",
+    "bytes": 3608,
+    "sha256": "cb6ae6ddd6119a02836542de28c017bb2c8be92a11e46ca8783245821194a233"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/split-0.65-seed-48.json",
+    "bytes": 3609,
+    "sha256": "681b0811b0c31bc1a56f197c3dd2c9559cee0be8cea2b279b4b5ccc811b154d6"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/split-0.65-seed-49.json",
+    "bytes": 3606,
+    "sha256": "ab0779c9fb19483a27ee3339f7caba2a92834c83ef9a87f06cbdd2e810d2ed36"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/split-0.65-seed-50.json",
+    "bytes": 3599,
+    "sha256": "62647ebd91fdb42779e87a991562e9e174e241a98bab03b66444e631f8dc86d1"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/split-0.65-seed-51.json",
+    "bytes": 3599,
+    "sha256": "eb32591032a8c6c469272a1625c8ea22b9e0d73dd885a2968dfd626728487792"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/split-0.70-seed-42.json",
+    "bytes": 3597,
+    "sha256": "e22fc6082c3a544cdf8da03ef652aae9a6884655e94fc0eac1e93bcb65ba89cf"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/split-0.70-seed-43.json",
+    "bytes": 3597,
+    "sha256": "c5c7f7a1a76952c21797f9851a5a0a7ac7e13e9370a2b9a87660b48166a0ec97"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/split-0.70-seed-44.json",
+    "bytes": 3607,
+    "sha256": "6eceac3c2fc761aac35c6dea538cb9899b65afb84f12fb9554d9d874b088866e"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/split-0.70-seed-45.json",
+    "bytes": 3586,
+    "sha256": "b403b8b5ee5b3720aaf5d6efd472569f09fbd8b48812a94a165f3237124c61b4"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/split-0.70-seed-46.json",
+    "bytes": 3607,
+    "sha256": "6451b8685bc546b487eca1fa2491745c6d11d93b76f48f9f7bdfc84e9855b574"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/split-0.70-seed-47.json",
+    "bytes": 3607,
+    "sha256": "1a7765925e35db6c79846885e5a20fba71ca59dbb83d37201add7df3a405ebef"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/split-0.70-seed-48.json",
+    "bytes": 3597,
+    "sha256": "40b15dc7503207a600595f067043b2ed7c219d1d02226ca76363e12a49921e6a"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/split-0.70-seed-49.json",
+    "bytes": 3606,
+    "sha256": "340139588daf0be7ffde49ee65755662a1810be193c0d0414289941faaa02b2c"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/split-0.70-seed-50.json",
+    "bytes": 3589,
+    "sha256": "746cbb8783f34c59f5e6ab013e1b8e1e400a57552a386d8d666d04b56ce1b7e5"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v2-t0d-common-world-objective-ablation/split-0.70-seed-51.json",
+    "bytes": 3607,
+    "sha256": "04e72c9ba77c41369c1d85d35dfdc24f9c8cbf6bf467d76ca59ff13e3293ba70"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/influence_v3_fairness_sensitivity_preregistration.md",
+    "bytes": 3956,
+    "sha256": "4ee2c0f4c062ee374771b9ec859f66221bc20e02ae278a762b707b5b583a1985"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/manifest.json",
+    "bytes": 4430,
+    "sha256": "4aa0b33e39d99707815a0c27c20a71958a1aa3e464a696905a0425758cd7142b"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/method_metrics.csv",
+    "bytes": 57606,
+    "sha256": "678014a584fc5726c861eda9d47a9f62c06f8ce6ee33723ebf44780d2293a93e"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/split-0.60-seed-42.json",
+    "bytes": 14709,
+    "sha256": "7ab8e2062d29ecd294c2d8131c7ee1f93cf6e6724917536b4544eb8cdf8bff1f"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/split-0.60-seed-43.json",
+    "bytes": 14756,
+    "sha256": "c6e89f44fb0ce142bd2077daad018d72d7329df4f5f695381a59e2c1df7cb1cd"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/split-0.60-seed-44.json",
+    "bytes": 14745,
+    "sha256": "812f54cf5b07b96aa3cb7a83134e54f7d30b46182a2d13802ccc103be4d951c3"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/split-0.60-seed-45.json",
+    "bytes": 14771,
+    "sha256": "e4b4948ae3ddce2d68b96076fd302236927ae33fd14ee85df291269cac7a23c5"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/split-0.60-seed-46.json",
+    "bytes": 14767,
+    "sha256": "a32273ab158e95b529da0d30d46b50737baafbc700576cf752c509328675d62b"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/split-0.60-seed-47.json",
+    "bytes": 14717,
+    "sha256": "c7e0170f864e037f3833a2e210b73721a63ef58ec1358271a95df8dd51b4ffa9"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/split-0.60-seed-48.json",
+    "bytes": 14739,
+    "sha256": "c4a2ff5f8e105f69256279c39be878d971d1794890d4b4230348e8f0d200db4d"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/split-0.60-seed-49.json",
+    "bytes": 14738,
+    "sha256": "ce2dc9f2c9b1745230c9b42ee362d10e76f69807a9c81efde0648cb4be119a50"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/split-0.60-seed-50.json",
+    "bytes": 14744,
+    "sha256": "0c037be4ebf89c9a51581b5a2bf5887049fccd7488ea08e09ca30730a9fb5ad3"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/split-0.60-seed-51.json",
+    "bytes": 14749,
+    "sha256": "a6307ba00ecef197ecea4ee2816c2e747722fb3d47a08e70279ce81f0c08265a"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/split-0.65-seed-42.json",
+    "bytes": 14739,
+    "sha256": "985a92cdd5b8b6a2168ae68d17e6c6cd750bf14e8b777d1135f1f17988163581"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/split-0.65-seed-43.json",
+    "bytes": 14756,
+    "sha256": "a52f70617ef8cbabdcc725d50d0ce8cd69e96759450eeff279c320cfcb21569f"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/split-0.65-seed-44.json",
+    "bytes": 14744,
+    "sha256": "122816120bf9268e618a970976a7a63561b58e16f94866cba848ed05549cf5e5"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/split-0.65-seed-45.json",
+    "bytes": 14749,
+    "sha256": "7ab28ccc36601a890b0c9d076bd58dbbb944b4ec356895fee43d4f41e05fbd26"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/split-0.65-seed-46.json",
+    "bytes": 14774,
+    "sha256": "f40ca37509d274263cfdcf3aefc8ec9a34604e3c952c743136b6436a061b822a"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/split-0.65-seed-47.json",
+    "bytes": 14738,
+    "sha256": "ef7597ae14bf2df585325c43305893f7e7dfb1fc2cc9699b26b3acbd25927aaf"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/split-0.65-seed-48.json",
+    "bytes": 14773,
+    "sha256": "98f588e2122b7489c5efea419aa9f826eb83770a0e679e8d990414ded80b6142"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/split-0.65-seed-49.json",
+    "bytes": 14697,
+    "sha256": "ea243f7b2bb69431f4ad8a718874efcefe4e4b8857dc586863a51f261bb3f136"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/split-0.65-seed-50.json",
+    "bytes": 14756,
+    "sha256": "b5d7984099f6a1cea84766df68413e8fcc1d293ad901c419f250cece40674e31"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/split-0.65-seed-51.json",
+    "bytes": 14772,
+    "sha256": "ffc23247ab0206900918299752f9b98416a1b0ad1cd47683936196ad09505ea1"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/split-0.70-seed-42.json",
+    "bytes": 14740,
+    "sha256": "3c2ff6d3c261f0db262311a48831974777a398bf9f556ff14087c9d975c3172d"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/split-0.70-seed-43.json",
+    "bytes": 14726,
+    "sha256": "d098d6ecc106dbca9835d17d12ace42a9d80a7deeceb1c164483971a9f288f4a"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/split-0.70-seed-44.json",
+    "bytes": 14740,
+    "sha256": "b72262d030215bed3f7bed1103c98df6c7e23867cb94f45e1259d6f8ade5e33a"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/split-0.70-seed-45.json",
+    "bytes": 14756,
+    "sha256": "a03193db8ed7e7a698ed2733ece0fd8c32ab7be1840d3327569ed81688d78d7d"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/split-0.70-seed-46.json",
+    "bytes": 14773,
+    "sha256": "0be83ff8f018ebaeb9e6f17e47410dd9a5abe051050d533c994f464980a64f29"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/split-0.70-seed-47.json",
+    "bytes": 14772,
+    "sha256": "8445b7e2c3b57cde223207f4d9f27790430db19da9d446fbb297c743e291abb2"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/split-0.70-seed-48.json",
+    "bytes": 14774,
+    "sha256": "a50fc9c4e375fefd702da9b11462cde85bf0d20ab84d78f90ef7ffcd4ceee452"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/split-0.70-seed-49.json",
+    "bytes": 14730,
+    "sha256": "0110d48cb13aa7987a9a262b5788b582eaef008c81f38774315c024a9820a1ed"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/split-0.70-seed-50.json",
+    "bytes": 14754,
+    "sha256": "d8e9c9d8492c8cec2186f0e0a23fdf9f56edf77c9a0541d5bee4cde50a37664b"
+  },
+  {
+    "path": "project/results/large-robust-greedy-higgs-50000-v3-fairness-sensitivity/split-0.70-seed-51.json",
+    "bytes": 14755,
+    "sha256": "9755ab50a094e27c270446819cfc056d1dbeffb50c489b9635ab5f59c25f8c20"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/aggregate_statistics.json",
+    "bytes": 13582,
+    "sha256": "478e21c4920ab082b09473fc4acedd120b03f9758ed499c718d30c2f912b06a8"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/method_metrics.csv",
+    "bytes": 13964,
+    "sha256": "232350408dc92774d70409e42a7acc9aea8e544f6ac4eee43e7ff2ec3daafb16"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.60-seed-42.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.60-seed-42.json",
+    "bytes": 222815,
+    "sha256": "0f8cfcb18c0ba27275d187f5b072849cfdd63abfe084070390628e7c03d59841"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.60-seed-42.log",
+    "bytes": 66,
+    "sha256": "3ef3fd7e7440953b3c5dc8f69932c61d9b35c0984f63f22202a8643e2e238f75"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.60-seed-43.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.60-seed-43.json",
+    "bytes": 222945,
+    "sha256": "e37b394ebf0014b6ee70137832986b4b297b995727045b1921778799d32a48af"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.60-seed-43.log",
+    "bytes": 66,
+    "sha256": "2f23b09b3792278a0b87b905536ce247991a1d518d5bbfdd9ef91b8fe6e31ad1"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.60-seed-44.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.60-seed-44.json",
+    "bytes": 222900,
+    "sha256": "1cf1af318d707e3c00be4c66b98457e137cb4d6b2617795c341fd3e4b65bd612"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.60-seed-44.log",
+    "bytes": 66,
+    "sha256": "8b4fe5b3113bce646f597ab587bcd7864ed7f89f6acac6e2fccd19495c62862c"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.60-seed-45.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.60-seed-45.json",
+    "bytes": 223143,
+    "sha256": "67b98e85e05e741213a399ad5e2548bdb8a0d47f44a69d1065fbdcd79f0abe0a"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.60-seed-45.log",
+    "bytes": 66,
+    "sha256": "ad77c8b51cac8d573ec645cefdb77d8b74768606293cc15432ce4dda68f1672f"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.60-seed-46.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.60-seed-46.json",
+    "bytes": 223000,
+    "sha256": "49c65de5223250bd391943cc43e7147dd7c6a797acffd8f6e843c87347baa581"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.60-seed-46.log",
+    "bytes": 66,
+    "sha256": "a6f2b42056683df8e137a128145bd9859856931205eb833b3ff1a94655bf2f77"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.60-seed-47.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.60-seed-47.json",
+    "bytes": 222740,
+    "sha256": "17e6651022bdf8e54de41e2a4ac1f098f2a57c2708b30e82349ebdc093299b1d"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.60-seed-47.log",
+    "bytes": 66,
+    "sha256": "7703986f05aa5f0deee6bd4e395fc8396d2f6b27561166d6a26a7242579fd6a0"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.60-seed-48.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.60-seed-48.json",
+    "bytes": 223041,
+    "sha256": "1f1ed9c754413aa22d6bebe130edec1eed619cd696d74e5c29173f4916f2a673"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.60-seed-48.log",
+    "bytes": 66,
+    "sha256": "98f2fa10336259730c8b4c5d4274dc7eebf79f80613ee0a4f5c0bc5ea0c9d0c4"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.60-seed-49.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.60-seed-49.json",
+    "bytes": 222816,
+    "sha256": "780b13932fc716aa9c1600652cd855f3aab40445bb48ee55a286fbddcb649ba8"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.60-seed-49.log",
+    "bytes": 66,
+    "sha256": "6867bfbf246383b398fbf12eaed5f46da565944c8ef4cd3cc48d2513500a7531"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.60-seed-50.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.60-seed-50.json",
+    "bytes": 222850,
+    "sha256": "349a9811de85cbac28614168b4dee2d051fe89bae7a73d678e5cdec7a947a802"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.60-seed-50.log",
+    "bytes": 66,
+    "sha256": "5ab01d0ca8a6e27712a66e0427eba2da72feab78549d3cca81bfd5d45d27841e"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.60-seed-51.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.60-seed-51.json",
+    "bytes": 222782,
+    "sha256": "2637be6f06d16e29d58a6f1259e9ab16f50487d5168b84b46c0c7d3debbfcf1a"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.60-seed-51.log",
+    "bytes": 66,
+    "sha256": "82c084a2890c28c26eb69887215b4d392316b8ddfeda626a5aea846fd8dc7bb5"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.65-seed-42.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.65-seed-42.json",
+    "bytes": 224351,
+    "sha256": "b726ed58e246004bc1abe24b577834ca860a86ac0979d822f3669ff660f722c6"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.65-seed-42.log",
+    "bytes": 66,
+    "sha256": "8d1fee7b7a288b6167910731f153768581692389cde5aefaadf6090eb991d868"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.65-seed-43.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.65-seed-43.json",
+    "bytes": 224474,
+    "sha256": "d223bf262374a8cac201d1af3f88e10293d127268b623d5a294fed751860330f"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.65-seed-43.log",
+    "bytes": 66,
+    "sha256": "8d93583bcd56b48be238fb3f04f84979adbc6c00101cdee30ee9ccbc9e8d3c75"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.65-seed-44.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.65-seed-44.json",
+    "bytes": 224441,
+    "sha256": "27cec379d207bd5e72c7d89eb0f4140bf57a21ee607dc2c1e964b1468e6a6d14"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.65-seed-44.log",
+    "bytes": 66,
+    "sha256": "7258eb49663a3373f5e1dfd2b6baf762234af04691499e4cebdcb915e6f6931f"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.65-seed-45.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.65-seed-45.json",
+    "bytes": 224707,
+    "sha256": "99b0741dfcb7852c10184e297564d7268cd502cf319816c7e39b16e37ed5c6d6"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.65-seed-45.log",
+    "bytes": 66,
+    "sha256": "94d493241ab6d3103b9421773f4a39a06dfad47ade73b6040199261427ecc020"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.65-seed-46.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.65-seed-46.json",
+    "bytes": 224533,
+    "sha256": "69d249d6fd1b8ad1fe631e5d38b6dc1bcaed748c8f0e72efb57f466ce0510bd7"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.65-seed-46.log",
+    "bytes": 66,
+    "sha256": "cace5817352ef23f25fc5a2f8d07aa59158945e17e86bf98b29e6a6c74006090"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.65-seed-47.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.65-seed-47.json",
+    "bytes": 224287,
+    "sha256": "3e064bf608618fe345cf748fd7563db249e4702fcdbbd1afe27cd07a6dab8013"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.65-seed-47.log",
+    "bytes": 66,
+    "sha256": "27533b9517d843a30b33dac578abf17bb7b8faa413240b5d7ed7a7fdce72ba6d"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.65-seed-48.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.65-seed-48.json",
+    "bytes": 224509,
+    "sha256": "0835aa7e261fb161ca63bb65169c6fe2c29c6d19d2d6542cd3f062b2e336e18b"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.65-seed-48.log",
+    "bytes": 66,
+    "sha256": "e89615765edb90d2c6701d6a1be7110e48f1ba3ec8a4929e648f4eedb761080d"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.65-seed-49.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.65-seed-49.json",
+    "bytes": 224423,
+    "sha256": "b7f650690f79378f384b46c7ce50f9641ebc031485fface3cbca20abba2ccdac"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.65-seed-49.log",
+    "bytes": 66,
+    "sha256": "a53a1913a38c5ed72c94d6d7fb5f3c45e2e3a9ee977a9b68608c3a97986c03f4"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.65-seed-50.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.65-seed-50.json",
+    "bytes": 224461,
+    "sha256": "6b5dec27486218b3cbb3494f3ed9c9b420927876a0c338a9c2e541aa66cd562b"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.65-seed-50.log",
+    "bytes": 66,
+    "sha256": "b1a53fb484e1c9ab6a0d9ff690ef0f9c248905ad1fb0300c717a79fa19be7be2"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.65-seed-51.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.65-seed-51.json",
+    "bytes": 224310,
+    "sha256": "38e80b591a1702a4b33112313bd2129002d89a03794cbcd8fb5504be1b215e94"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.65-seed-51.log",
+    "bytes": 66,
+    "sha256": "f7bfb740830f69d563e24d1fa88239bd57ac2e0af9f5013e10f5255ec2b7c1cd"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.70-seed-42.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.70-seed-42.json",
+    "bytes": 225717,
+    "sha256": "be71436aa49b3d42133d671d08d9cda26c352eead2d8e0b55b75871c5a3acfe4"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.70-seed-42.log",
+    "bytes": 66,
+    "sha256": "be10da4a5aba7b70ebafa3fc345d17a8975afd031ff422e5816a493a22ff7594"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.70-seed-43.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.70-seed-43.json",
+    "bytes": 225792,
+    "sha256": "f9f7d665dbaac16395627c436771bcf0c6a294667d9758e4cf74b3dc2c7cce8a"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.70-seed-43.log",
+    "bytes": 66,
+    "sha256": "ed5a2f7c9d0bd90bec1adbb95939532302d2bc5fc66e182cb10e2f6127328c03"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.70-seed-44.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.70-seed-44.json",
+    "bytes": 225804,
+    "sha256": "b1c84749ab59ba2169905aeb49a91d5138638137dd94ba11f7e3643948e7f5c0"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.70-seed-44.log",
+    "bytes": 66,
+    "sha256": "cfb983b4126ab04478fdeaa22682c4a2d4d594616d43169fb7be9a9212600273"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.70-seed-45.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.70-seed-45.json",
+    "bytes": 225991,
+    "sha256": "938d0bdf1d1c41c6a81f1b499d60d7ba5fb391c08c37223bab51de7ba56ef65e"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.70-seed-45.log",
+    "bytes": 66,
+    "sha256": "488b2cd63565aa8233649d743a32a59f6c23e78fb13a3afe971c0a67d9583b61"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.70-seed-46.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.70-seed-46.json",
+    "bytes": 225869,
+    "sha256": "554af763773603248a2688e5aa074d323ffd96a1721baa4c0d94c03682ffe9f6"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.70-seed-46.log",
+    "bytes": 66,
+    "sha256": "e00597cd96cfe88afab7eab7aed21a537a2ffade6d4a086d9874f3aaae7fe71f"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.70-seed-47.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.70-seed-47.json",
+    "bytes": 225614,
+    "sha256": "faf15ec105f52aee7fcddc51fd332c575d21439ebd250ffacd314f9568f4529f"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.70-seed-47.log",
+    "bytes": 66,
+    "sha256": "7f18ae4dc27f5fda82f51483d07a44509032302693f3c87c8780b2c43f9ac157"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.70-seed-48.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.70-seed-48.json",
+    "bytes": 225877,
+    "sha256": "d29229b3ba6ca6763ed352c5f3b2e466cd6d6303b4041855a6d031d1128e9cec"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.70-seed-48.log",
+    "bytes": 66,
+    "sha256": "82e0f270e80aae25d31008c4f0b29a9c727c25948871f218ba35384eff100906"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.70-seed-49.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.70-seed-49.json",
+    "bytes": 225883,
+    "sha256": "2bcfec69c2a9c6c7923196a3a497cc65a6b1e0b4567acbcdefb025f6978b1af2"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.70-seed-49.log",
+    "bytes": 66,
+    "sha256": "06a71178d7ecdf00da72b8a3848cbcdc765550cb9e2a86b29be5b1afc633a99e"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.70-seed-50.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.70-seed-50.json",
+    "bytes": 225805,
+    "sha256": "14b5553eabcbd24b13c000c3abae29195fa794bfa908d85e496253a41ce99477"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.70-seed-50.log",
+    "bytes": 66,
+    "sha256": "27822bfc8c9ad59d179f73c60ee1b2c31a4e59d17cc9735522d7c55add9764f1"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.70-seed-51.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.70-seed-51.json",
+    "bytes": 225642,
+    "sha256": "52eec9c5ca5ca080137403915b1d6dc9f4923e95d0e5a4d60a133d64f45da000"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/split-0.70-seed-51.log",
+    "bytes": 66,
+    "sha256": "aedca3d1073ae1ae930a11fdb7239ebca54fad08e662b96d7d05e6cae4d18836"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/summary.csv",
+    "bytes": 4219,
+    "sha256": "659e4a47e2cc4704e4984fcbd2610fccc4c5ab4e83d0201db914e39bd201500e"
+  },
+  {
+    "path": "project/results/robust-greedy-digg-pilot-5000-v1/summary.json",
+    "bytes": 19978,
+    "sha256": "e3b8021629a30cd8b133f410336c70006d623e9745439d792e10f76ec3cda746"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/aggregate_statistics.json",
+    "bytes": 13677,
+    "sha256": "e6a52edaf4f3418cdea2c4a70a05e1bf4a86d975932238b752b9d2ce014ba464"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/method_metrics.csv",
+    "bytes": 14132,
+    "sha256": "b2ac29545cfa9412ffb64cfa40e5b6c1008ad0273acfebb9a358ce8d2471a0ab"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.60-seed-42.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.60-seed-42.json",
+    "bytes": 768708,
+    "sha256": "a1d5236b46adff974516962126f857d6cc7f134a1bb2f2d3120b2819485904b1"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.60-seed-42.log",
+    "bytes": 67,
+    "sha256": "852ffe210b529eb22d350635641f50aa67c8f74c4ed64d43d9260d5a41e42649"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.60-seed-43.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.60-seed-43.json",
+    "bytes": 764323,
+    "sha256": "ea82bd689b41e5e8b1dd38bab6c6a76a15932ac7cb9c49495830f5fb7efc43a6"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.60-seed-43.log",
+    "bytes": 67,
+    "sha256": "2f7d329c9671ea9e2338978bc4745e00b71036ac7d8aa1f1e81b959316901f03"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.60-seed-44.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.60-seed-44.json",
+    "bytes": 766872,
+    "sha256": "074e6ffa1eb0fcf42732f19d3329226dc0bb31c499cac12e96ad42606900b6a4"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.60-seed-44.log",
+    "bytes": 67,
+    "sha256": "5cd57be1ce785a91ee5af04b0e8997242391a3ae58dab185768b9e14e3e04279"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.60-seed-45.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.60-seed-45.json",
+    "bytes": 764216,
+    "sha256": "9b3f0bd81ae9a9e31aeedd7f38b6df3beac85308538039b407278ecad42e0004"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.60-seed-45.log",
+    "bytes": 67,
+    "sha256": "e1e05aacb11dbc4158520be469966deadfa4f509f51b1f2cf19e6e5b05ad0887"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.60-seed-46.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.60-seed-46.json",
+    "bytes": 764239,
+    "sha256": "29965292b384c94304e7542d059bb77975a5ae7e68b8eb60d2cb9efbd93e0801"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.60-seed-46.log",
+    "bytes": 67,
+    "sha256": "b13947d8d372a881ac0f82e6f238dce23418fcf8987a1c496e39c0f60f56ed36"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.60-seed-47.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.60-seed-47.json",
+    "bytes": 768773,
+    "sha256": "195a5087b8f8a887485421f779dc210989c6b75d8f74b0462fe46e133c88bebe"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.60-seed-47.log",
+    "bytes": 67,
+    "sha256": "536654e4884fce3ef532cfb5d244c6ac52f5c527759639c0b794a6236e103e29"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.60-seed-48.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.60-seed-48.json",
+    "bytes": 768510,
+    "sha256": "bfbf60944c59e60080d00526200ba99c2fa76e8a05fa08f8c21fcae5cab2f5a8"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.60-seed-48.log",
+    "bytes": 67,
+    "sha256": "48a23f650ae576cc1dce7cb1a49abcd74dd2e3b671f469c4445bd503dbe8d3f0"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.60-seed-49.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.60-seed-49.json",
+    "bytes": 765477,
+    "sha256": "97e7280d1770ee56be2b2e452d177f9324b402b9aa0243c087bb66ccc3db70bc"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.60-seed-49.log",
+    "bytes": 67,
+    "sha256": "f97914a3fc5ccd91a6f214fc7ac64ba8e30201795af065bd3c946ffb710bbc48"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.60-seed-50.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.60-seed-50.json",
+    "bytes": 764679,
+    "sha256": "c268084296bf18a1b161b2bbbf57dc3f25398b591b9d0555ca53409a438c8dcd"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.60-seed-50.log",
+    "bytes": 67,
+    "sha256": "5be1e24db0cbd414b942c7a1bffaeff3f3a1a7f73ae649e3e00de5e610dc5b81"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.60-seed-51.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.60-seed-51.json",
+    "bytes": 767870,
+    "sha256": "5a80fb62fafe1d7ce0d5c70a3daa38ef2243c7921486ea38026b6a49980e5a7e"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.60-seed-51.log",
+    "bytes": 67,
+    "sha256": "43b12d5268e7fbc129bdf29f93ee018ca0f0fda704364a7e7f0101b9f4c20390"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.65-seed-42.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.65-seed-42.json",
+    "bytes": 792821,
+    "sha256": "83b62ccbf75cb5f90e36f60e34ec8afa72c93b4a932ea803190a27153c7ceb9d"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.65-seed-42.log",
+    "bytes": 67,
+    "sha256": "37fe40aad6f66be1e4676246f1081eb42b8a53d68838f663d896fe874a5e4966"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.65-seed-43.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.65-seed-43.json",
+    "bytes": 787960,
+    "sha256": "6a06a0740083cdf9f3094fdcf8269e25650b13c6dc711b70cfef79e87829376f"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.65-seed-43.log",
+    "bytes": 67,
+    "sha256": "1a25da88965590971853b4bf99700581961ae63f79a364a13b77fe43cd5128c6"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.65-seed-44.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.65-seed-44.json",
+    "bytes": 790813,
+    "sha256": "e3b79b05e0e6651189dfaab9cff8935c71d0cdcf25184269d605fd4b03230f34"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.65-seed-44.log",
+    "bytes": 67,
+    "sha256": "0d29eb0de5f899463be2a72d9bc934c668f0a89a5fc3419ff9fe0a123bfd2ee3"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.65-seed-45.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.65-seed-45.json",
+    "bytes": 787853,
+    "sha256": "241ac30eae239b54563834c64cdf1242a82655d40d5394943c87eee13db7f1e4"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.65-seed-45.log",
+    "bytes": 67,
+    "sha256": "e5a9094bf1ea032bcd3395f5d8e79e0794a4b9e29b90e493a342054684f36969"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.65-seed-46.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.65-seed-46.json",
+    "bytes": 787856,
+    "sha256": "96bcb5ed011cce2f384166b1344e07bf59123d99dc69d4c566804b459376ec45"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.65-seed-46.log",
+    "bytes": 67,
+    "sha256": "9ed633b84542852d0206e8f028f6a43621c00ca095b38d753b3758723e36d01c"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.65-seed-47.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.65-seed-47.json",
+    "bytes": 792555,
+    "sha256": "185bc8ed619e22aa4f39ef19940def985b15ca325953e7d55f0b9e03169a1243"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.65-seed-47.log",
+    "bytes": 67,
+    "sha256": "70e2940ad36a06365ca05bd3f4b5074c7895a2f90e6d1aded84344f9dcf98e87"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.65-seed-48.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.65-seed-48.json",
+    "bytes": 792820,
+    "sha256": "6c03288c0b5626cfffaac906fd8c2e01b4a82f9ce57e3e6246cb49cef506c9f5"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.65-seed-48.log",
+    "bytes": 67,
+    "sha256": "ab72c85237475d3dac29f742379d859753b5403c4c72935ac00556cf5b19e1dd"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.65-seed-49.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.65-seed-49.json",
+    "bytes": 789421,
+    "sha256": "ce7ce099cf12b21ade45769290cbd7e6911b974b9deaaa233a62c30f5819ed2d"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.65-seed-49.log",
+    "bytes": 67,
+    "sha256": "79b2ae61ee880fec86283b71ff606fcbf7f87c4c9a9a90f82253ca09e3aebb28"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.65-seed-50.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.65-seed-50.json",
+    "bytes": 788553,
+    "sha256": "bcfb5db6997ecc205180d0b87f2b59e699922da747f099d6b2c92f71c0715506"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.65-seed-50.log",
+    "bytes": 67,
+    "sha256": "998d6f08e40fcf707460100ef380b8a77cb4599a3be4ac114c29397efbb520e6"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.65-seed-51.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.65-seed-51.json",
+    "bytes": 789424,
+    "sha256": "5fa8b683d64b9bc6167499e3583f933782d018c2da46f730cb9393636b1fd948"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.65-seed-51.log",
+    "bytes": 67,
+    "sha256": "3db443da74ec2cb84df4b6f2ab9d62a40e2fedaa2fe6a174ec27479210e7ea54"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.70-seed-42.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.70-seed-42.json",
+    "bytes": 816143,
+    "sha256": "e5e25c733d6cb6d09067529f4665b127b02264e01d63a14637443833f7922d9f"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.70-seed-42.log",
+    "bytes": 67,
+    "sha256": "1c7dd20b91c73c40c8e9f1ff7d98f3d3b4be0540dd5e7273298fcda2d8f20a72"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.70-seed-43.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.70-seed-43.json",
+    "bytes": 810829,
+    "sha256": "edd2b4e9043dcbf850badf15c1b36394e59d6fcd8df588eec130150b94df8547"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.70-seed-43.log",
+    "bytes": 67,
+    "sha256": "08e697c3875dc55f3547a73593673b28f0c15b75edf5c2ea943f41ee121e8c88"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.70-seed-44.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.70-seed-44.json",
+    "bytes": 813252,
+    "sha256": "80d37820ae0195a9cb02dfb92479211991316b0cc4e23795f2a00e983d93e896"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.70-seed-44.log",
+    "bytes": 67,
+    "sha256": "0a2095ab0df97418db950a5b0555a42d55989b07c2e77f358071dde0c89d722e"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.70-seed-45.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.70-seed-45.json",
+    "bytes": 810804,
+    "sha256": "75fe6ff44fa4e0a9566ae21691bc6a520dbca3e12ac151108490671f5c6ecad2"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.70-seed-45.log",
+    "bytes": 67,
+    "sha256": "0f85f18f0e7afe404899f6f748e35e44d3457edfe9dcd37d25001049edd352f3"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.70-seed-46.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.70-seed-46.json",
+    "bytes": 810647,
+    "sha256": "1d8638cb7bd200a4e77af8bc7eaabd66fe9a47c165d8bd9ee9ac2d6039f683be"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.70-seed-46.log",
+    "bytes": 67,
+    "sha256": "1f3062ce7c9ed832970ab0d754812e897ccf2856f06e95f44cb71fb963f8c27a"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.70-seed-47.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.70-seed-47.json",
+    "bytes": 816182,
+    "sha256": "754207c8b49e072a6924e68c098796d820229e6708c8be609a0b89b50f09cd0e"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.70-seed-47.log",
+    "bytes": 67,
+    "sha256": "ca2a72794ec0c41f89ad2e3b9774f418fd14f9c328a33ccc8f92a9e327ea67dd"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.70-seed-48.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.70-seed-48.json",
+    "bytes": 816041,
+    "sha256": "3d954890c3a4ae0ee959a1c0b0285b86122feb428bf950773c3759ddfacbe366"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.70-seed-48.log",
+    "bytes": 67,
+    "sha256": "32bc2650aee1ae0c344da44e1d97a4b95e45ade56c92b87463e267102df1f69d"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.70-seed-49.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.70-seed-49.json",
+    "bytes": 812080,
+    "sha256": "b9f04473b64bed8ace418cb7fad7aa367f8cb144185c273c96bd448930e050a0"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.70-seed-49.log",
+    "bytes": 67,
+    "sha256": "2cd500c56fd141ef2ca71da4cb87a41e2e3885e6fe9e25dca50c87df2407dd51"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.70-seed-50.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.70-seed-50.json",
+    "bytes": 811288,
+    "sha256": "bba787c300f34bdba0cd8f277ef20e5abfffb0ba86a2319dbb4865caef513ed5"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.70-seed-50.log",
+    "bytes": 67,
+    "sha256": "47ba48d338f225337804045c894ce8f631bd2da8df244ff5e243a6452146c3a4"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.70-seed-51.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.70-seed-51.json",
+    "bytes": 812536,
+    "sha256": "33cc2300bde65ea4d4eb83b973e31fa2c896561713cff1e8a6b4834873dbe40f"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/split-0.70-seed-51.log",
+    "bytes": 67,
+    "sha256": "f37cc892e5e3bd45fa60ee88b1baeef1d3faa33661cc180f67fdaf45ddda1770"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/summary.csv",
+    "bytes": 4455,
+    "sha256": "df827892fcb82a63b80e0e36004dcaaf67ca03dde75e17e48ef039ed9f359d25"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-pilot-5000-v1/summary.json",
+    "bytes": 20214,
+    "sha256": "47c8624f3757f04c220dda6d9c3c1d2cd785f30635bb8908c87829852fe8fab0"
+  },
+  {
+    "path": "project/results/robust-greedy-higgs-smoke.json",
+    "bytes": 816143,
+    "sha256": "df392b086fa58a1205c406fb83111ec54493f2507338b927c3677b3dec2f5029"
+  },
+  {
+    "path": "project/results/rolling-digg-pilot-5000-v1/split-0.60-seed-42.json",
+    "bytes": 222207,
+    "sha256": "4c0644151724be8f4c685eeeb3b728620bbbcc9c98f255a23da7c76c6d331b15"
+  },
+  {
+    "path": "project/results/rolling-digg-pilot-5000-v1/split-0.60-seed-43.json",
+    "bytes": 222332,
+    "sha256": "d28e2e1606e7ccb1a6d226a642f46ef4aca50157dacf35786e23a556d26ee5bc"
+  },
+  {
+    "path": "project/results/rolling-digg-pilot-5000-v1/split-0.60-seed-44.json",
+    "bytes": 222295,
+    "sha256": "99c08c20406f65c212798446878c0a297ad328e6d0e01689d50f5ee474c94574"
+  },
+  {
+    "path": "project/results/rolling-digg-pilot-5000-v1/split-0.60-seed-45.json",
+    "bytes": 222534,
+    "sha256": "8d1a11da01e0fdcb155cd3c509357936b25bc4e26a7feb8407a9d55672a5f875"
+  },
+  {
+    "path": "project/results/rolling-digg-pilot-5000-v1/split-0.60-seed-46.json",
+    "bytes": 222400,
+    "sha256": "8dc05e113e31638e34fbd9ef34bd5048802cf6adc30b80e9482c2c14a66955f6"
+  },
+  {
+    "path": "project/results/rolling-digg-pilot-5000-v1/split-0.65-seed-42.json",
+    "bytes": 223752,
+    "sha256": "b7e4c1e1c64b04fc8335f9a1ac1dc4f9dce6ab83389688873f4032ed13b684df"
+  },
+  {
+    "path": "project/results/rolling-digg-pilot-5000-v1/split-0.65-seed-43.json",
+    "bytes": 223871,
+    "sha256": "3b868f1d6ee5d6cde261dea8107065baf819aac99f8e7e425286caf475a720ba"
+  },
+  {
+    "path": "project/results/rolling-digg-pilot-5000-v1/split-0.65-seed-44.json",
+    "bytes": 223840,
+    "sha256": "f73d352e7448a116c5ed5760396224d0819832a94207ceb8bce184a5545c90d0"
+  },
+  {
+    "path": "project/results/rolling-digg-pilot-5000-v1/split-0.65-seed-45.json",
+    "bytes": 224095,
+    "sha256": "6c286f676c11d18540bb29c3936e8615282ce130efd0c3ed90d5230243c42bee"
+  },
+  {
+    "path": "project/results/rolling-digg-pilot-5000-v1/split-0.65-seed-46.json",
+    "bytes": 223932,
+    "sha256": "1bb1138fd1f1f99cb481e63320ec6a3d9f4dc6cace4e3bf87bc277ae824066b1"
+  },
+  {
+    "path": "project/results/rolling-digg-pilot-5000-v1/split-0.70-seed-42.json",
+    "bytes": 225107,
+    "sha256": "6d617d5b42e3f75950a8c4acdbc4d559a8d488e2f74be3109b6a048cf6fbb309"
+  },
+  {
+    "path": "project/results/rolling-digg-pilot-5000-v1/split-0.70-seed-43.json",
+    "bytes": 225191,
+    "sha256": "103f1a997c878fc24e9c9feceb9e58c3b416e22a17c1a1a88db2ad1289e117fd"
+  },
+  {
+    "path": "project/results/rolling-digg-pilot-5000-v1/split-0.70-seed-44.json",
+    "bytes": 225196,
+    "sha256": "0180315f7532bd289d11d8a4de54bedd3f78f3fad376a05673ca2dd8e35ad6dd"
+  },
+  {
+    "path": "project/results/rolling-digg-pilot-5000-v1/split-0.70-seed-45.json",
+    "bytes": 225391,
+    "sha256": "cf67c02ebd5a02923990f89a1e75063a1542c46dd1a64d55b18e32149e475668"
+  },
+  {
+    "path": "project/results/rolling-digg-pilot-5000-v1/split-0.70-seed-46.json",
+    "bytes": 225268,
+    "sha256": "25ac3c0ad4dae7e52b001d159d9bec06bc4511c5fe495c6ae015e90ba74c5d9c"
+  },
+  {
+    "path": "project/results/rolling-digg-pilot-5000-v1/summary.csv",
+    "bytes": 1185,
+    "sha256": "db02cfb0e01116b3b9e322532deb00c5f79bce585ececd2555dbc138e6ec8531"
+  },
+  {
+    "path": "project/results/rolling-digg-pilot-5000-v1/summary.json",
+    "bytes": 5203,
+    "sha256": "d7c7f4460b11168ac99a91f1df2ee9b009f51b845bcf8018a3bf790e75dc0a15"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-1500-smoke/split-0.60-seed-42.json",
+    "bytes": 244892,
+    "sha256": "23cd40fb85f012c3f2a869ffee44f3add45545a254859cd7be61d59d4bb4de11"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-1500-smoke/split-0.65-seed-42.json",
+    "bytes": 252146,
+    "sha256": "0de210535ba9a9f508e04ecc19ad6fc794ca88bce5aefd7e3fd9d0c3fd862dac"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-1500-smoke/split-0.70-seed-42.json",
+    "bytes": 259243,
+    "sha256": "7fcea1e2f043ae2f170a141775383b44fca250f7f82ad72e74fa4956d522afca"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-1500-smoke/summary.csv",
+    "bytes": 377,
+    "sha256": "017de417078a05966c736fc296dee3a412e9c6924362a1e0180c53539060e8c4"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-1500-smoke/summary.json",
+    "bytes": 1047,
+    "sha256": "814462fbb56452842d05ebcbcbc5875acdcb9d50c7667993f908c9f02bec1479"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-1500-v1/split-0.60-seed-42.json",
+    "bytes": 245001,
+    "sha256": "604b8fa15e47ceb54799e9e5d1fab51ff77da1229dd23fec223041fd98cede79"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-1500-v1/split-0.60-seed-43.json",
+    "bytes": 244750,
+    "sha256": "26cd1e46340f2d8a0de3f411a0f96eb050547bfc433a2b66ee82ca19c5a05434"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-1500-v1/split-0.60-seed-44.json",
+    "bytes": 245011,
+    "sha256": "26f296ac6fb9acd4724996a300ae40e5b9819c9631a180d12b51102068d1c8a7"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-1500-v1/split-0.60-seed-45.json",
+    "bytes": 244694,
+    "sha256": "ebc2741291daed701c8deb4fd8a97e078988e3f0428379de6033b1501b2c33db"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-1500-v1/split-0.60-seed-46.json",
+    "bytes": 244564,
+    "sha256": "7e84ed7deb7f076ea4cb64bb37611c26055484c56dc11dcdeea155ce70b19096"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-1500-v1/split-0.65-seed-42.json",
+    "bytes": 252254,
+    "sha256": "80814295106a854d0dd3ed6b7c3d8ff22493c2d37b8c6d6ce30a2970f77f69f8"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-1500-v1/split-0.65-seed-43.json",
+    "bytes": 251747,
+    "sha256": "0474dad5a2a879bd819db58c175fa3744bfe0aac9ea017bfdc3a3cc64bd01237"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-1500-v1/split-0.65-seed-44.json",
+    "bytes": 252236,
+    "sha256": "a45486ebf712f2d9e1109d2c8b9d30e8c24ec0d90bb7d407b8d6a7bc874d3487"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-1500-v1/split-0.65-seed-45.json",
+    "bytes": 251821,
+    "sha256": "1ba10e1d287945b069daa5eaaeaffe5ebb1fbe0c0a75cf44a9105556fbbb7af6"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-1500-v1/split-0.65-seed-46.json",
+    "bytes": 251671,
+    "sha256": "1c565bf264ed741dc9191abf5672ea4cf8b1e004abf5bce9d41ce5817f47fa7a"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-1500-v1/split-0.70-seed-42.json",
+    "bytes": 259342,
+    "sha256": "e4702fcf7a422b8dcc45daaf066196319209959af9d768dace1671a07495b105"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-1500-v1/split-0.70-seed-43.json",
+    "bytes": 258914,
+    "sha256": "7d7fca552e73562718262bf0ed794fd2ffeac28b1e7e137d91b59ea9edc5fce8"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-1500-v1/split-0.70-seed-44.json",
+    "bytes": 259349,
+    "sha256": "ac1e20c0c387aa73033ef1a0e36f759fe9551494b795315ec05ac1e297959715"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-1500-v1/split-0.70-seed-45.json",
+    "bytes": 258743,
+    "sha256": "32ab391630e87a0d12d308fd18a42dd8cb9134a9cbd9ec36cd66e283dc4780fb"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-1500-v1/split-0.70-seed-46.json",
+    "bytes": 258660,
+    "sha256": "90720940c215fa7be5eee7aea9fba98d24449e943e872181e9441359e3139b12"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-1500-v1/summary.csv",
+    "bytes": 1184,
+    "sha256": "3ecc37e53dab08b2e73c44b30bb0e76d6b44a61175333c510a8212ac9ea82065"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-1500-v1/summary.json",
+    "bytes": 5202,
+    "sha256": "15908344cea066ef593fc5fa1feb69d54bdbf7bd84d691560427d11e7677aa5b"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.60-seed-42.json",
+    "bytes": 768104,
+    "sha256": "658f693ac113b3265a1b90f89ed5a21933aef6501dfb8f67930ea5fef5a4903a"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.60-seed-43.json",
+    "bytes": 763715,
+    "sha256": "b331dfe1ac1c5d570c0146be1c1462af273c4dde9ef29821bcbd415a882dd614"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.60-seed-44.json",
+    "bytes": 766261,
+    "sha256": "b24cd95c57240842ecab6baf2a34cebc567d3d2230a56a201e00cfc2c4ac5548"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.60-seed-45.json",
+    "bytes": 763609,
+    "sha256": "5316336cac6341b76cd36b37171f7d4f26d47133f3a42b7739a412aaccab8017"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.60-seed-46.json",
+    "bytes": 763632,
+    "sha256": "2d132ee8580e999167218156093d260a09c57babc1452215475f622f641f2288"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.65-seed-42.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.65-seed-42.json",
+    "bytes": 792215,
+    "sha256": "93eb5188712925d87a14f8a149017e8fdc0e25182793ddc670f9a9f715341148"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.65-seed-42.log",
+    "bytes": 61,
+    "sha256": "a732a1941cfaecf3982e6f68c4dcebae2bfe401dfe4efe4f13755a056d7d8aa9"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.65-seed-43.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.65-seed-43.json",
+    "bytes": 787358,
+    "sha256": "d12bbe2463eb2c819735a4e4e24fb499485b2875d296c6b5948c620e58248754"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.65-seed-43.log",
+    "bytes": 61,
+    "sha256": "f4f8ae05758f64324f484901f5bda5f0ecc54b20f74ac2fe493a4b791fc99b61"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.65-seed-44.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.65-seed-44.json",
+    "bytes": 790202,
+    "sha256": "1a123984c0385e118c86d2ac3755948efed3c78883d9b023a368e0e293c1c921"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.65-seed-44.log",
+    "bytes": 61,
+    "sha256": "461fff58448989e50b398675adbf680b210932ffc29d427513cd9baa6ed0fc00"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.65-seed-45.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.65-seed-45.json",
+    "bytes": 787244,
+    "sha256": "342bb7a0d5d77b267dae0d38064c244b6083aba184997dc3bbad26e403397c1d"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.65-seed-45.log",
+    "bytes": 61,
+    "sha256": "1c6dfab10ec5ea7022032041a0efe96187baaf0e0a4ae6a4e7b629ef9e938339"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.65-seed-46.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.65-seed-46.json",
+    "bytes": 787247,
+    "sha256": "c142e29bfde27bcf86b7e4c0b53236c41d20fbd7570c48ab1635de5c734931bc"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.65-seed-46.log",
+    "bytes": 61,
+    "sha256": "550a47a412c42ce0285070ddf3fe597c551b20bfd61b761f05cfef6760d3f7e9"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.70-seed-42.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.70-seed-42.json",
+    "bytes": 815538,
+    "sha256": "1ca7a3b6b162f7b763cab0e5759c9615f255590c19b8d762c6cd05d6b1c87f95"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.70-seed-42.log",
+    "bytes": 61,
+    "sha256": "841b3bd144c48eac30666e713dfd9687063ea2c959f423e0c014183a85f95754"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.70-seed-43.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.70-seed-43.json",
+    "bytes": 810221,
+    "sha256": "0c3a1e40ed22a6d06795fface3ab2af18d9875bc7cf4931c999951791be89c01"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.70-seed-43.log",
+    "bytes": 61,
+    "sha256": "a2a08d6f683686ab280c423c4fc2a84d5f1e8ea3702fd4fad87decafab4a1f7d"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.70-seed-44.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.70-seed-44.json",
+    "bytes": 812645,
+    "sha256": "3de30b611a907013cf563148fbabb1d4854f21cd7e6137517082aacd4e122280"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.70-seed-44.log",
+    "bytes": 61,
+    "sha256": "580a3109a9a6a4e862878f212da6e4c6dd5d3337e5a91db280ba42ce72c24f59"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.70-seed-45.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.70-seed-45.json",
+    "bytes": 810192,
+    "sha256": "705ad9812324d85e23f7cb3f0fa1920ed546a7011f837d2102b17d0e57202719"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.70-seed-45.log",
+    "bytes": 61,
+    "sha256": "a6b136fa1608318fa04cd54071c6eb2c905e02e4c5c7c1a502846bc955b46cc7"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.70-seed-46.err",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.70-seed-46.json",
+    "bytes": 810056,
+    "sha256": "1ba4176c64a9ecbf82e30e083af4e15895ac493e315f35b2fe0d2df2ec22447c"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/split-0.70-seed-46.log",
+    "bytes": 61,
+    "sha256": "1ec7a76d6b47dfdeca50f35f12a55d94d6ec677e6aa8fb6b039cddeebf76f3a6"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/summary.csv",
+    "bytes": 1272,
+    "sha256": "f8704bba5dd7788ce95d9b79fc28b9a6d298e5c32f04b7f7e82881df7c33462a"
+  },
+  {
+    "path": "project/results/rolling-higgs-pilot-5000-v1/summary.json",
+    "bytes": 5290,
+    "sha256": "e802508b5a2ee441f20afdf31c6c46881703eb4701a2732d6d555ad07eb03efc"
+  },
+  {
+    "path": "project/results/sample.json",
+    "bytes": 3430,
+    "sha256": "1af1ebc317718c8deeb01059da2682d75b854936f79238e10185f1a38dd9a682"
+  },
+  {
+    "path": "project/sample_data/cascades.csv",
+    "bytes": 221,
+    "sha256": "f813739f9f103c24ceebe3413a4247e031dd9c7070a02dcfbd996dad9c67c618"
+  },
+  {
+    "path": "project/sample_data/edges.csv",
+    "bytes": 474,
+    "sha256": "0a0caa7c41a174c0e741e24fbb10c850bd6790b4d7e79f27b1c278d48deafc83"
+  },
+  {
+    "path": "project/sample_data/nodes.csv",
+    "bytes": 67,
+    "sha256": "a085c0c8234076f9ecd703817cc18d1d6cc067cd9925d12d5a8f0e83c827e168"
+  },
+  {
+    "path": "project/scripts/build_local_delivery.py",
+    "bytes": 9832,
+    "sha256": "6414aca94e6cefa1f8907003640aeec50bb5c5df7ababaaf513355df1a48ecba"
+  },
+  {
+    "path": "project/scripts/prepare_digg.py",
+    "bytes": 6447,
+    "sha256": "b1edf11f6ed20d7f42e9f697590e5794e567d8b46ab96a2f50cdf8fa27426e5c"
+  },
+  {
+    "path": "project/scripts/prepare_higgs_twitter.py",
+    "bytes": 3173,
+    "sha256": "bd5e117a39bbec7e302dbe072a76856b577a26d040a59aaea41a542b3dd5112c"
+  },
+  {
+    "path": "project/submission/author_confirmation_form.md",
+    "bytes": 1023,
+    "sha256": "a90afb16484dcdbd60a8d114e6a30f2fd62ec54f71cf9cfcf90e4ffc5e11d4c7"
+  },
+  {
+    "path": "project/submission/release_inventory_approval_form.md",
+    "bytes": 1199,
+    "sha256": "8c27f6272b01b4bdd3384d0e388725c267fc8c637827e7b03f36adb4772f7448"
+  },
+  {
+    "path": "project/submission/software-journal-official-template-2026-08-23.doc",
+    "bytes": 3027456,
+    "sha256": "6dd6d9f75609d4e6dc270fcc459a40fd14d46789c16c7a85a9c230eba815ffd0"
+  },
+  {
+    "path": "project/tests/test_api.py",
+    "bytes": 1149,
+    "sha256": "4b8164ed0e41516a01d83157d436c8453140695889f53ec967590563409725d6"
+  },
+  {
+    "path": "project/tests/test_pipeline.py",
+    "bytes": 3658,
+    "sha256": "0f31a55fdfddb8f53ea5a1a6581e7020424d35d20e41f5ce6e5d667a9bbeaef3"
+  },
+  {
+    "path": "project/tests/test_submission_package_audit.py",
+    "bytes": 4163,
+    "sha256": "562d3197eed63904e93999f416146ab235a67427dee845974910258471ee2a90"
+  },
+  {
+    "path": "project/tests/test_v3_analysis.py",
+    "bytes": 1322,
+    "sha256": "517876c5b423565da7fc832d587e472275a2ead5b998cb8867aafc58b46a6a5d"
+  },
+  {
+    "path": "project/tests/test_v3_manuscript_consistency.py",
+    "bytes": 1356,
+    "sha256": "d01eaeb54b08bddc50586409e2dda9c31453ba8b919ea405f910deb8a08db66a"
+  },
+  {
+    "path": "project/tests/test_validation.py",
+    "bytes": 512,
+    "sha256": "ce944a8b4476ef4a789a46f9ffd1ff2678881d08fe2cb1c0723e2dac4eb12bbd"
+  },
+  {
+    "path": "project/web/.dockerignore",
+    "bytes": 35,
+    "sha256": "f77d6b4bf302527acf6871af696afea470a18459d3c4973a6adfb7b6409f1faf"
+  },
+  {
+    "path": "project/web/.npmrc",
+    "bytes": 20,
+    "sha256": "a28c9d86a8981049d203ad164cff1e753ed61dc0460ee8765316cbb3d0007d00"
+  },
+  {
+    "path": "project/web/Dockerfile",
+    "bytes": 223,
+    "sha256": "7a2ddbd57b448829e188e66b20662e26767a2e5b5418f14b953c044a7f4f40c2"
+  },
+  {
+    "path": "project/web/index.html",
+    "bytes": 275,
+    "sha256": "212d1294044688f0bf392e88513405f306ad8287173d59e9b52d3f3dee9a1b18"
+  },
+  {
+    "path": "project/web/package.json",
+    "bytes": 475,
+    "sha256": "9f04a2c9d33c381c07d1ea8208524b4c492a08a3fdf44129c6185839b50bd29d"
+  },
+  {
+    "path": "project/web/pnpm-lock.yaml",
+    "bytes": 43198,
+    "sha256": "96f5f0006358399cac61f0659ef9ddd6fa969e2cd02e98d190ef330b5dad24f4"
+  },
+  {
+    "path": "project/web/src/main.tsx",
+    "bytes": 7945,
+    "sha256": "fbbf6df2ac8cce227d2867c787a0141d33c60d19cffac3848366d6cc80259013"
+  },
+  {
+    "path": "project/web/src/styles.css",
+    "bytes": 3370,
+    "sha256": "063dd80f4dca07779f5ec877a5babcf04c0ca58c6f9659ac4c8729f7c88a5ae2"
+  },
+  {
+    "path": "project/web/src/vite-env.d.ts",
+    "bytes": 38,
+    "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+  },
+  {
+    "path": "project/web/tsconfig.json",
+    "bytes": 232,
+    "sha256": "e62295c9c04780c9e3b44f7074120273135898ad2375141603664e4471a3af7a"
+  },
+  {
+    "path": "project/web/tsconfig.tsbuildinfo",
+    "bytes": 4074,
+    "sha256": "3c688cf292b26aefb818c000bc76b3ca0f60cad32b4da233ffb1e45631d940a0"
+  }
+]

@@ -1,0 +1,1820 @@
+{
+  "ref1": {
+    "entry": "Kempe D, Kleinberg J, Tardos É (2003) Maximizing the spread of influence through a social network. In: ACM SIGKDD, pp 137--146. \\url{https://doi.org/10.1145/956750.956769}",
+    "doi": "10.1145/956750.956769",
+    "status": "metadata-retrieved",
+    "metadata": {
+      "title": [
+        "Maximizing the spread of influence through a social network"
+      ],
+      "author": [
+        {
+          "given": "David",
+          "family": "Kempe",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Cornell University, Ithaca NY"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jon",
+          "family": "Kleinberg",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Cornell University, Ithaca NY"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Éva",
+          "family": "Tardos",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Cornell University, Ithaca NY"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2003,
+            8,
+            24
+          ]
+        ]
+      },
+      "container-title": [
+        "Proceedings of the ninth ACM SIGKDD international conference on Knowledge discovery and data mining"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "137-146",
+      "article-number": null,
+      "DOI": "10.1145/956750.956769",
+      "URL": "https://doi.org/10.1145/956750.956769"
+    }
+  },
+  "ref2": {
+    "entry": "Tang Y, Shi Y, Xiao X (2015) Influence maximization in near-linear time: a martingale approach. In: ACM SIGMOD, pp 1539--1554. \\url{https://doi.org/10.1145/2723372.2723734}",
+    "doi": "10.1145/2723372.2723734",
+    "status": "metadata-retrieved",
+    "metadata": {
+      "title": [
+        "Influence Maximization in Near-Linear Time"
+      ],
+      "author": [
+        {
+          "given": "Youze",
+          "family": "Tang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Nanyang Technological University, Singapore, Singapore"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yanchen",
+          "family": "Shi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Nanyang Technological University, Singapore, Singapore"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xiaokui",
+          "family": "Xiao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Nanyang Technological University, Singapore, Singapore"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2015,
+            5,
+            27
+          ]
+        ]
+      },
+      "container-title": [
+        "Proceedings of the 2015 ACM SIGMOD International Conference on Management of Data"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "1539-1554",
+      "article-number": null,
+      "DOI": "10.1145/2723372.2723734",
+      "URL": "https://doi.org/10.1145/2723372.2723734"
+    }
+  },
+  "ref8": {
+    "entry": "Cheng S, Shen H, Huang J, Zhang G, Cheng X (2013) StaticGreedy: solving the scalability-accuracy dilemma in influence maximization. In: CIKM, pp 509--518. \\url{https://doi.org/10.1145/2505515.2505541}",
+    "doi": "10.1145/2505515.2505541",
+    "status": "metadata-retrieved",
+    "metadata": {
+      "title": [
+        "StaticGreedy"
+      ],
+      "author": [
+        {
+          "given": "Suqi",
+          "family": "Cheng",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Chinese Academy of Sciences, Beijing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Huawei",
+          "family": "Shen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Chinese Academy of Sciences, Beijing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Junming",
+          "family": "Huang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Chinese Academy of Sciences, Beijing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Guoqing",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Chinese Academy of Sciences, Beijing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xueqi",
+          "family": "Cheng",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Chinese Academy of Sciences, Beijing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2013,
+            10,
+            27
+          ]
+        ]
+      },
+      "container-title": [
+        "Proceedings of the 22nd ACM international conference on Information &amp; Knowledge Management"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "509-518",
+      "article-number": null,
+      "DOI": "10.1145/2505515.2505541",
+      "URL": "https://doi.org/10.1145/2505515.2505541"
+    }
+  },
+  "ref9": {
+    "entry": "Li Y, Fan J, Wang Y, Tan K-L (2018) Influence maximization on social graphs: a survey. IEEE Transactions on Knowledge and Data Engineering 30:1852--1872. \\url{https://doi.org/10.1109/TKDE.2018.2807843}",
+    "doi": "10.1109/TKDE.2018.2807843",
+    "status": "metadata-retrieved",
+    "metadata": {
+      "title": [
+        "Influence Maximization on Social Graphs: A Survey"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-9646-291X",
+          "authenticated-orcid": false,
+          "given": "Yuchen",
+          "family": "Li",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4729-9903",
+          "authenticated-orcid": false,
+          "given": "Ju",
+          "family": "Fan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7661-3917",
+          "authenticated-orcid": false,
+          "given": "Yanhao",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kian-Lee",
+          "family": "Tan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            10,
+            1
+          ]
+        ]
+      },
+      "container-title": [
+        "IEEE Transactions on Knowledge and Data Engineering"
+      ],
+      "volume": "30",
+      "issue": "10",
+      "page": "1852-1872",
+      "article-number": null,
+      "DOI": "10.1109/tkde.2018.2807843",
+      "URL": "https://doi.org/10.1109/tkde.2018.2807843"
+    }
+  },
+  "ref16": {
+    "entry": "Arora A, Galhotra S, Ranu S (2017) Debunking the myths of influence maximization: an in-depth benchmarking study. In: SIGMOD, pp 651--666. \\url{https://doi.org/10.1145/3035918.3035924}",
+    "doi": "10.1145/3035918.3035924",
+    "status": "metadata-retrieved",
+    "metadata": {
+      "title": [
+        "Debunking the Myths of Influence Maximization"
+      ],
+      "author": [
+        {
+          "given": "Akhil",
+          "family": "Arora",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Xerox Research Centre India, Bangalore, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sainyam",
+          "family": "Galhotra",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Massachusetts, Amherst, MA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sayan",
+          "family": "Ranu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Indian Institute of Technology, Delhi, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            5,
+            9
+          ]
+        ]
+      },
+      "container-title": [
+        "Proceedings of the 2017 ACM International Conference on Management of Data"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "651-666",
+      "article-number": null,
+      "DOI": "10.1145/3035918.3035924",
+      "URL": "https://doi.org/10.1145/3035918.3035924"
+    }
+  },
+  "ref7": {
+    "entry": "Leskovec J, Krause A, Guestrin C, Faloutsos C, VanBriesen J, Glance N (2007) Cost-effective outbreak detection in networks. In: KDD, pp 420--429. \\url{https://doi.org/10.1145/1281192.1281239}",
+    "doi": "10.1145/1281192.1281239",
+    "status": "metadata-retrieved",
+    "metadata": {
+      "title": [
+        "Cost-effective outbreak detection in networks"
+      ],
+      "author": [
+        {
+          "given": "Jure",
+          "family": "Leskovec",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Carnegie Mellon University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andreas",
+          "family": "Krause",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Carnegie Mellon University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Carlos",
+          "family": "Guestrin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Carnegie Mellon University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Christos",
+          "family": "Faloutsos",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Carnegie Mellon University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jeanne",
+          "family": "VanBriesen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Carnegie Mellon University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Natalie",
+          "family": "Glance",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Nielsen BuzzMetrics"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2007,
+            8,
+            12
+          ]
+        ]
+      },
+      "container-title": [
+        "Proceedings of the 13th ACM SIGKDD international conference on Knowledge discovery and data mining"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "420-429",
+      "article-number": null,
+      "DOI": "10.1145/1281192.1281239",
+      "URL": "https://doi.org/10.1145/1281192.1281239"
+    }
+  },
+  "ref12": {
+    "entry": "Rui X, Yang X, Fan J, Wang Z (2020) A neighbour scale fixed approach for influence maximization in social networks. Computing 102:427--449. \\url{https://doi.org/10.1007/s00607-019-00778-5}",
+    "doi": "10.1007/s00607-019-00778-5",
+    "status": "metadata-retrieved",
+    "metadata": {
+      "title": [
+        "A neighbour scale fixed approach for influence maximization in social networks"
+      ],
+      "author": [
+        {
+          "given": "Xiaobin",
+          "family": "Rui",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xiaodong",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jianping",
+          "family": "Fan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhixiao",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            1,
+            6
+          ]
+        ]
+      },
+      "container-title": [
+        "Computing"
+      ],
+      "volume": "102",
+      "issue": "2",
+      "page": "427-449",
+      "article-number": null,
+      "DOI": "10.1007/s00607-019-00778-5",
+      "URL": "https://doi.org/10.1007/s00607-019-00778-5"
+    }
+  },
+  "ref13": {
+    "entry": "Fan C, Wang Z, Zhang J, Zhao J, Rui X (2024) Influence maximization in social networks based on discrete harris hawks optimization algorithm. Computing 106:327--351. \\url{https://doi.org/10.1007/s00607-023-01207-4}",
+    "doi": "10.1007/s00607-023-01207-4",
+    "status": "metadata-retrieved",
+    "metadata": {
+      "title": [
+        "Influence maximization in social networks based on discrete harris hawks optimization algorithm"
+      ],
+      "author": [
+        {
+          "given": "Chencheng",
+          "family": "Fan",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhixiao",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jian",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jiayu",
+          "family": "Zhao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xiaobin",
+          "family": "Rui",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            21
+          ]
+        ]
+      },
+      "container-title": [
+        "Computing"
+      ],
+      "volume": "106",
+      "issue": "2",
+      "page": "327-351",
+      "article-number": null,
+      "DOI": "10.1007/s00607-023-01207-4",
+      "URL": "https://doi.org/10.1007/s00607-023-01207-4"
+    }
+  },
+  "ref19": {
+    "entry": "Ko J, Kim S, Lee K, et al. (2025) Inductive influence estimation and maximization over unseen social networks under two diffusion models. Data Mining and Knowledge Discovery 39:55. \\url{https://doi.org/10.1007/s10618-025-01137-z}",
+    "doi": "10.1007/s10618-025-01137-z",
+    "status": "metadata-retrieved",
+    "metadata": {
+      "title": [
+        "Inductive influence estimation and maximization over unseen social networks under two diffusion models"
+      ],
+      "author": [
+        {
+          "given": "Jihoon",
+          "family": "Ko",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sojeong",
+          "family": "Kim",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kyuhan",
+          "family": "Lee",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shinhwan",
+          "family": "Kang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dongyeong",
+          "family": "Hwang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kijung",
+          "family": "Shin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Noseong",
+          "family": "Park",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            28
+          ]
+        ]
+      },
+      "container-title": [
+        "Data Mining and Knowledge Discovery"
+      ],
+      "volume": "39",
+      "issue": "5",
+      "page": null,
+      "article-number": "55",
+      "DOI": "10.1007/s10618-025-01137-z",
+      "URL": "https://doi.org/10.1007/s10618-025-01137-z"
+    }
+  },
+  "ref11": {
+    "entry": "Yanchenko E, Murata T, Holme P (2024) Influence maximization on temporal networks: a review. Applied Network Science 9:16. \\url{https://doi.org/10.1007/s41109-024-00625-3}",
+    "doi": "10.1007/s41109-024-00625-3",
+    "status": "metadata-retrieved",
+    "metadata": {
+      "title": [
+        "Influence maximization on temporal networks: a review"
+      ],
+      "author": [
+        {
+          "given": "Eric",
+          "family": "Yanchenko",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tsuyoshi",
+          "family": "Murata",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Petter",
+          "family": "Holme",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            21
+          ]
+        ]
+      },
+      "container-title": [
+        "Applied Network Science"
+      ],
+      "volume": "9",
+      "issue": "1",
+      "page": null,
+      "article-number": "16",
+      "DOI": "10.1007/s41109-024-00625-3",
+      "URL": "https://doi.org/10.1007/s41109-024-00625-3"
+    }
+  },
+  "ref15": {
+    "entry": "Aral S, Dhillon PS (2018) Social influence maximization under empirical influence models. Nature Human Behaviour 2:375--382. \\url{https://doi.org/10.1038/s41562-018-0346-z}",
+    "doi": "10.1038/s41562-018-0346-z",
+    "status": "metadata-retrieved",
+    "metadata": {
+      "title": [
+        "Social influence maximization under empirical influence models"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-2762-058X",
+          "authenticated-orcid": false,
+          "given": "Sinan",
+          "family": "Aral",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Paramveer S.",
+          "family": "Dhillon",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            5,
+            21
+          ]
+        ]
+      },
+      "container-title": [
+        "Nature Human Behaviour"
+      ],
+      "volume": "2",
+      "issue": "6",
+      "page": "375-382",
+      "article-number": null,
+      "DOI": "10.1038/s41562-018-0346-z",
+      "URL": "https://doi.org/10.1038/s41562-018-0346-z"
+    }
+  },
+  "networkxpr": {
+    "entry": "NetworkX developers (2025) PageRank, NetworkX 3.5 documentation. \\url{https://networkx.org/documentation/networkx-3.5/reference/algorithms/generated/networkx.algorithms.link_analysis.pagerank_alg.pagerank.html}. Accessed 15 October 2026",
+    "status": "official-web-reference",
+    "url": "https://networkx.org/documentation/networkx-3.5/reference/algorithms/generated/networkx.algorithms.link_analysis.pagerank_alg.pagerank.html"
+  },
+  "ref3": {
+    "entry": "Génois M, Vestergaard CL, Fournet J, Panisson A, Bonmarin I, Barrat A (2015) Data on face-to-face contacts in an office building suggest a low-cost vaccination strategy based on community linkers. Network Science 3:326--347. \\url{https://doi.org/10.1017/nws.2015.10}",
+    "doi": "10.1017/nws.2015.10",
+    "status": "metadata-retrieved",
+    "metadata": {
+      "title": [
+        "Data on face-to-face contacts in an office building suggest a low-cost vaccination strategy based on community linkers"
+      ],
+      "author": [
+        {
+          "given": "MATHIEU",
+          "family": "GÉNOIS",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "CHRISTIAN L.",
+          "family": "VESTERGAARD",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "JULIE",
+          "family": "FOURNET",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "ANDRÉ",
+          "family": "PANISSON",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "ISABELLE",
+          "family": "BONMARIN",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "ALAIN",
+          "family": "BARRAT",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2015,
+            3,
+            16
+          ]
+        ]
+      },
+      "container-title": [
+        "Network Science"
+      ],
+      "volume": "3",
+      "issue": "3",
+      "page": "326-347",
+      "article-number": null,
+      "DOI": "10.1017/nws.2015.10",
+      "URL": "https://doi.org/10.1017/nws.2015.10"
+    }
+  },
+  "ref4": {
+    "entry": "Génois M, Barrat A (2018) Can co-location be used as a proxy for face-to-face contacts? EPJ Data Science 7:11. \\url{https://doi.org/10.1140/epjds/s13688-018-0140-1}",
+    "doi": "10.1140/epjds/s13688-018-0140-1",
+    "status": "metadata-retrieved",
+    "metadata": {
+      "title": [
+        "Can co-location be used as a proxy for face-to-face contacts?"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-5492-8750",
+          "authenticated-orcid": false,
+          "given": "Mathieu",
+          "family": "Génois",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alain",
+          "family": "Barrat",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            5,
+            8
+          ]
+        ]
+      },
+      "container-title": [
+        "EPJ Data Science"
+      ],
+      "volume": "7",
+      "issue": "1",
+      "page": null,
+      "article-number": "11",
+      "DOI": "10.1140/epjds/s13688-018-0140-1",
+      "URL": "https://doi.org/10.1140/epjds/s13688-018-0140-1"
+    }
+  },
+  "ref5": {
+    "entry": "Cattuto C, Van den Broeck W, Barrat A, Colizza V, Pinton J-F, Vespignani A (2010) Dynamics of person-to-person interactions from distributed RFID sensor networks. PLoS ONE 5:e11596. \\url{https://doi.org/10.1371/journal.pone.0011596}",
+    "doi": "10.1371/journal.pone.0011596",
+    "status": "metadata-retrieved",
+    "metadata": {
+      "title": [
+        "Dynamics of Person-to-Person Interactions from Distributed RFID Sensor Networks"
+      ],
+      "author": [
+        {
+          "given": "Ciro",
+          "family": "Cattuto",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wouter",
+          "family": "Van den Broeck",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alain",
+          "family": "Barrat",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Vittoria",
+          "family": "Colizza",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jean-François",
+          "family": "Pinton",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alessandro",
+          "family": "Vespignani",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2010,
+            7,
+            15
+          ]
+        ]
+      },
+      "container-title": [
+        "PLoS ONE"
+      ],
+      "volume": "5",
+      "issue": "7",
+      "page": "e11596",
+      "article-number": null,
+      "DOI": "10.1371/journal.pone.0011596",
+      "URL": "https://doi.org/10.1371/journal.pone.0011596"
+    }
+  },
+  "ref6": {
+    "entry": "Kiti MC, Tizzoni M, Kinyanjui TM, et al. (2016) Quantifying social contacts in a household setting of rural Kenya using wearable proximity sensors. EPJ Data Science 5:21. \\url{https://doi.org/10.1140/epjds/s13688-016-0084-2}",
+    "doi": "10.1140/epjds/s13688-016-0084-2",
+    "status": "metadata-retrieved",
+    "metadata": {
+      "title": [
+        "Quantifying social contacts in a household setting of rural Kenya using wearable proximity sensors"
+      ],
+      "author": [
+        {
+          "given": "Moses C",
+          "family": "Kiti",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michele",
+          "family": "Tizzoni",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Timothy M",
+          "family": "Kinyanjui",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dorothy C",
+          "family": "Koech",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Patrick K",
+          "family": "Munywoki",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Milosch",
+          "family": "Meriac",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Luca",
+          "family": "Cappa",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "André",
+          "family": "Panisson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alain",
+          "family": "Barrat",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9526-4364",
+          "authenticated-orcid": false,
+          "given": "Ciro",
+          "family": "Cattuto",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "D James",
+          "family": "Nokes",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            14
+          ]
+        ]
+      },
+      "container-title": [
+        "EPJ Data Science"
+      ],
+      "volume": "5",
+      "issue": "1",
+      "page": null,
+      "article-number": "21",
+      "DOI": "10.1140/epjds/s13688-016-0084-2",
+      "URL": "https://doi.org/10.1140/epjds/s13688-016-0084-2"
+    }
+  },
+  "ref17": {
+    "entry": "Barabasi A-L, Albert R (1999) Emergence of scaling in random networks. Science 286:509--512. \\url{https://doi.org/10.1126/science.286.5439.509}",
+    "doi": "10.1126/science.286.5439.509",
+    "status": "metadata-retrieved",
+    "metadata": {
+      "title": [
+        "Emergence of Scaling in Random Networks"
+      ],
+      "author": [
+        {
+          "given": "Albert-László",
+          "family": "Barabási",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Physics, University of Notre Dame, Notre Dame, IN 46556, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Réka",
+          "family": "Albert",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Physics, University of Notre Dame, Notre Dame, IN 46556, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1999,
+            10,
+            15
+          ]
+        ]
+      },
+      "container-title": [
+        "Science"
+      ],
+      "volume": "286",
+      "issue": "5439",
+      "page": "509-512",
+      "article-number": null,
+      "DOI": "10.1126/science.286.5439.509",
+      "URL": "https://doi.org/10.1126/science.286.5439.509"
+    }
+  },
+  "ref18": {
+    "entry": "Holland PW, Laskey KB, Leinhardt S (1983) Stochastic blockmodels: first steps. Social Networks 5:109--137. \\url{https://doi.org/10.1016/0378-8733(83)90021-7}",
+    "doi": "10.1016/0378-8733(83)90021-7",
+    "status": "metadata-retrieved",
+    "metadata": {
+      "title": [
+        "Stochastic blockmodels: First steps"
+      ],
+      "author": [
+        {
+          "given": "Paul W.",
+          "family": "Holland",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kathryn Blackmond",
+          "family": "Laskey",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Samuel",
+          "family": "Leinhardt",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1983,
+            6
+          ]
+        ]
+      },
+      "container-title": [
+        "Social Networks"
+      ],
+      "volume": "5",
+      "issue": "2",
+      "page": "109-137",
+      "article-number": null,
+      "DOI": "10.1016/0378-8733(83)90021-7",
+      "URL": "https://doi.org/10.1016/0378-8733(83)90021-7"
+    }
+  },
+  "snap": {
+    "entry": "Leskovec J, Krevl A (2014) SNAP datasets: Stanford large network dataset collection. \\url{https://snap.stanford.edu/data}. Accessed 15 October 2026",
+    "status": "official-web-reference",
+    "url": "https://snap.stanford.edu/data"
+  },
+  "college": {
+    "entry": "Panzarasa P, Opsahl T, Carley KM (2009) Patterns and dynamics of users' behavior and interaction: Network analysis of an online community. Journal of the American Society for Information Science and Technology 60:911--932. \\url{https://doi.org/10.1002/asi.21015}",
+    "doi": "10.1002/asi.21015",
+    "status": "metadata-retrieved",
+    "metadata": {
+      "title": [
+        "Patterns and dynamics of users' behavior and interaction: Network analysis of an online community"
+      ],
+      "author": [
+        {
+          "given": "Pietro",
+          "family": "Panzarasa",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tore",
+          "family": "Opsahl",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kathleen M.",
+          "family": "Carley",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2009,
+            2,
+            2
+          ]
+        ]
+      },
+      "container-title": [
+        "Journal of the American Society for Information Science and Technology"
+      ],
+      "volume": "60",
+      "issue": "5",
+      "page": "911-932",
+      "article-number": null,
+      "DOI": "10.1002/asi.21015",
+      "URL": "https://doi.org/10.1002/asi.21015"
+    }
+  },
+  "grqc": {
+    "entry": "Leskovec J, Kleinberg J, Faloutsos C (2007) Graph evolution: densification and shrinking diameters. ACM Transactions on Knowledge Discovery from Data 1(1):2. \\url{https://doi.org/10.1145/1217299.1217301}",
+    "doi": "10.1145/1217299.1217301",
+    "status": "metadata-retrieved",
+    "metadata": {
+      "title": [
+        "Graph evolution"
+      ],
+      "author": [
+        {
+          "given": "Jure",
+          "family": "Leskovec",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Carnegie Mellon University, Pittsburgh, PA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jon",
+          "family": "Kleinberg",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Cornell University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Christos",
+          "family": "Faloutsos",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Carnegie Mellon University, Pittsburgh, PA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2007,
+            3
+          ]
+        ]
+      },
+      "container-title": [
+        "ACM Transactions on Knowledge Discovery from Data"
+      ],
+      "volume": "1",
+      "issue": "1",
+      "page": "2",
+      "article-number": null,
+      "DOI": "10.1145/1217299.1217301",
+      "URL": "https://doi.org/10.1145/1217299.1217301"
+    }
+  },
+  "signed": {
+    "entry": "Leskovec J, Huttenlocher D, Kleinberg J (2010) Signed networks in social media. In: CHI, pp 1361--1370. \\url{https://doi.org/10.1145/1753326.1753532}",
+    "doi": "10.1145/1753326.1753532",
+    "status": "metadata-retrieved",
+    "metadata": {
+      "title": [
+        "Signed networks in social media"
+      ],
+      "author": [
+        {
+          "given": "Jure",
+          "family": "Leskovec",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Stanford University, Stanford, CA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Daniel",
+          "family": "Huttenlocher",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Cornell University, Ithaca, NY, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jon",
+          "family": "Kleinberg",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Cornell University, Ithaca, NY, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2010,
+            4,
+            10
+          ]
+        ]
+      },
+      "container-title": [
+        "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "1361-1370",
+      "article-number": null,
+      "DOI": "10.1145/1753326.1753532",
+      "URL": "https://doi.org/10.1145/1753326.1753532"
+    }
+  },
+  "links": {
+    "entry": "Leskovec J, Huttenlocher D, Kleinberg J (2010) Predicting positive and negative links in online social networks. In: WWW, pp 641--650. \\url{https://doi.org/10.1145/1772690.1772756}",
+    "doi": "10.1145/1772690.1772756",
+    "status": "metadata-retrieved",
+    "metadata": {
+      "title": [
+        "Predicting positive and negative links in online social networks"
+      ],
+      "author": [
+        {
+          "given": "Jure",
+          "family": "Leskovec",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Stanford University, Stanford, CA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Daniel",
+          "family": "Huttenlocher",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Cornell University, Ithaca, NY, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jon",
+          "family": "Kleinberg",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Cornell University, Ithaca, NY, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2010,
+            4,
+            26
+          ]
+        ]
+      },
+      "container-title": [
+        "Proceedings of the 19th international conference on World wide web"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "641-650",
+      "article-number": null,
+      "DOI": "10.1145/1772690.1772756",
+      "URL": "https://doi.org/10.1145/1772690.1772756"
+    }
+  }
+}

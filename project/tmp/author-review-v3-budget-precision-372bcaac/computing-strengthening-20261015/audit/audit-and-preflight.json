@@ -1,0 +1,266 @@
+{
+  "status": "PASS",
+  "tests": [
+    "archived snapshot hashes verified",
+    "324 edge-time uniforms bit-identical to archived Python",
+    "9600 chain outcomes match Python; empty seeds, p=0/1, horizons 0..3",
+    "finite step-coupled objective has an explicit monotonicity counterexample",
+    "720 live-edge reachability checks, 720 cyclic step-oracle checks and 15 restricted greedy checks passed",
+    "all 42 archived output hashes match historical validation ledger",
+    "32 archived arm traces and all 64000 evaluation outcomes exactly reproduced"
+  ],
+  "counterexample": {
+    "world": 5,
+    "A": [
+      "a"
+    ],
+    "B": [
+      "a",
+      "b"
+    ],
+    "f_A": 3,
+    "f_B": 2,
+    "p": 0.5,
+    "h": 2
+  },
+  "recreated_arms": [
+    [
+      "kenya2012",
+      20,
+      "full"
+    ],
+    [
+      "kenya2012",
+      20,
+      "degree_2k"
+    ],
+    [
+      "kenya2012",
+      20,
+      "degree_4k"
+    ],
+    [
+      "kenya2012",
+      20,
+      "degree_8k"
+    ],
+    [
+      "kenya2012",
+      80,
+      "full"
+    ],
+    [
+      "kenya2012",
+      80,
+      "degree_2k"
+    ],
+    [
+      "kenya2012",
+      80,
+      "degree_4k"
+    ],
+    [
+      "kenya2012",
+      80,
+      "degree_8k"
+    ],
+    [
+      "invs2013",
+      20,
+      "full"
+    ],
+    [
+      "invs2013",
+      20,
+      "degree_2k"
+    ],
+    [
+      "invs2013",
+      20,
+      "degree_4k"
+    ],
+    [
+      "invs2013",
+      20,
+      "degree_8k"
+    ],
+    [
+      "invs2013",
+      80,
+      "full"
+    ],
+    [
+      "invs2013",
+      80,
+      "degree_2k"
+    ],
+    [
+      "invs2013",
+      80,
+      "degree_4k"
+    ],
+    [
+      "invs2013",
+      80,
+      "degree_8k"
+    ],
+    [
+      "invs2015",
+      20,
+      "full"
+    ],
+    [
+      "invs2015",
+      20,
+      "degree_2k"
+    ],
+    [
+      "invs2015",
+      20,
+      "degree_4k"
+    ],
+    [
+      "invs2015",
+      20,
+      "degree_8k"
+    ],
+    [
+      "invs2015",
+      80,
+      "full"
+    ],
+    [
+      "invs2015",
+      80,
+      "degree_2k"
+    ],
+    [
+      "invs2015",
+      80,
+      "degree_4k"
+    ],
+    [
+      "invs2015",
+      80,
+      "degree_8k"
+    ],
+    [
+      "sfhh2009",
+      20,
+      "full"
+    ],
+    [
+      "sfhh2009",
+      20,
+      "degree_2k"
+    ],
+    [
+      "sfhh2009",
+      20,
+      "degree_4k"
+    ],
+    [
+      "sfhh2009",
+      20,
+      "degree_8k"
+    ],
+    [
+      "sfhh2009",
+      80,
+      "full"
+    ],
+    [
+      "sfhh2009",
+      80,
+      "degree_2k"
+    ],
+    [
+      "sfhh2009",
+      80,
+      "degree_4k"
+    ],
+    [
+      "sfhh2009",
+      80,
+      "degree_8k"
+    ]
+  ],
+  "preflight": [
+    {
+      "dataset": "sfhh2009",
+      "k": 5,
+      "W": 1280,
+      "p": 0.01,
+      "h": 3,
+      "n": 402,
+      "m": 11856,
+      "world_seconds": 0.18316139999660663,
+      "selection_seconds": 3.2618318000022555,
+      "outcome_recorded": false
+    },
+    {
+      "dataset": "invs2015",
+      "k": 20,
+      "W": 320,
+      "p": 0.01,
+      "h": 3,
+      "n": 212,
+      "m": 6938,
+      "world_seconds": 0.02985420000186423,
+      "selection_seconds": 3.005993499995384,
+      "outcome_recorded": false
+    },
+    {
+      "dataset": "synthetic_ba2000",
+      "k": 5,
+      "W": 80,
+      "p": 0.01,
+      "h": 3,
+      "n": 2000,
+      "m": 11982,
+      "world_seconds": 0.009037899995746557,
+      "selection_seconds": 0.5422725999960676,
+      "outcome_recorded": false
+    },
+    {
+      "dataset": "synthetic_sbm2000",
+      "k": 5,
+      "W": 80,
+      "p": 0.01,
+      "h": 3,
+      "n": 2000,
+      "m": 13058,
+      "world_seconds": 0.012328400000114925,
+      "selection_seconds": 0.30885439999838127,
+      "outcome_recorded": false
+    },
+    {
+      "dataset": "sfhh2009",
+      "k": 5,
+      "W": 320,
+      "p": 0.05,
+      "h": 5,
+      "n": 402,
+      "m": 11856,
+      "world_seconds": 0.07542700000340119,
+      "selection_seconds": 16.439704100004747,
+      "outcome_recorded": false
+    }
+  ],
+  "jit_seconds": 6.061785199999576,
+  "environment": {
+    "python": "3.13.0 | packaged by conda-forge | (main, Nov 27 2024, 19:03:49) [MSC v.1942 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "cpu": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "logical_cpus": 28,
+    "physical_cpus": 20,
+    "ram_bytes": 34072264704,
+    "numpy": "2.3.3",
+    "numba": "0.68.0",
+    "llvmlite": "0.50.0",
+    "pandas": "2.3.2",
+    "scipy": "1.16.1",
+    "threads": 1
+  },
+  "engine_sha256": "0e3ac38942fd0e252e56a2d8009fd944a822ef22a53be0b6a1614ebe0cf4107c"
+}

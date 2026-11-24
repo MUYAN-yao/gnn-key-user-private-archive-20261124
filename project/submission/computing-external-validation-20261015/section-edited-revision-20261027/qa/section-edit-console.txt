@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "base_revision": "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-external-validation-20261015\\historical-evidence-revision-20261027",
+  "new_experiments": false,
+  "new_analysis_or_simulation_replay": false,
+  "Methods": {
+    "numeric_token_multiset_identical": true,
+    "old_whitespace_tokens": 694,
+    "new_whitespace_tokens": 718,
+    "math_expressions_identical": true
+  },
+  "Experimental setup": {
+    "numeric_token_multiset_identical": true,
+    "old_whitespace_tokens": 1070,
+    "new_whitespace_tokens": 1073,
+    "math_expressions_identical": true
+  },
+  "Results": {
+    "numeric_token_multiset_identical": true,
+    "old_whitespace_tokens": 1109,
+    "new_whitespace_tokens": 1085
+  },
+  "Introduction": {
+    "old_whitespace_tokens": 458,
+    "new_whitespace_tokens": 385
+  },
+  "Related work": {
+    "old_whitespace_tokens": 184,
+    "new_whitespace_tokens": 176
+  },
+  "Discussion": {
+    "old_whitespace_tokens": 343,
+    "new_whitespace_tokens": 232
+  },
+  "abstract_authors_and_declarations_unchanged": true,
+  "bibliography_metadata_identical": true,
+  "result_comparator_and_boundary_checks": [
+    "same-budget full reference",
+    "mean high-minus-low budget gain",
+    "within-graph Holm $p=.1875$",
+    "neither statistical equivalence nor absence of loss",
+    "conditional Monte Carlo",
+    "does not isolate a causal mechanism",
+    "repeated computations, not independent success trials",
+    "do not test the joint effect",
+    "Strict-tolerance results are used only for quality sensitivity",
+    "neither expected-optimality nor convergence"
+  ],
+  "supplement_source_identical": true,
+  "supplement_render_pixels_identical_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+  ]
+}

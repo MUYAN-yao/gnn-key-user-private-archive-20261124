@@ -1,0 +1,15 @@
+--- structure-complete-revision-20261028
++++ contribution-focused-revision-20261028
+@@ -40,9 +40,9 @@
+ 
+ The main contributions are:
+ \begin{enumerate}
+-\item[(1)] \textbf{An apparent budget reversal can depend on ranking precision.} On ca-GrQc, a tighter PageRank tolerance removes the mean gain-to-loss reversal across budgets while seed changes persist. The comparison identifies a numerical dependence that would be missed by interpreting the default budget scan alone.
+-\item[(2)] \textbf{Reference-set changes need a separate utility assessment.} The external and historical budget comparisons produce set changes with differing spread consequences. Paired independent evaluation quantifies those differences and their conditional uncertainty, so seed disagreement is not used as a proxy for utility loss.
+-\item[(3)] \textbf{Reference-preserving savings have a defined scope.} Degree-based pools reproduce all 15 highest-budget external trajectories at lower measured selection cost, whereas earlier PageRank agreement does not transfer uniformly. Coverage and direction diagnostics help interpret these differences; the savings apply to the tested exhaustive-selection implementation.
++\item[(1)] \textbf{Ranking precision changes the interpretation of an apparent budget effect.} On ca-GrQc, tightening PageRank tolerance exchanges two of 20 candidates. The default mean gain-to-loss reversal then disappears, although budget-dependent seed changes remain. This post-hoc control shows that the reversal cannot be interpreted as a reference-budget effect independent of ranking precision.
++\item[(2)] \textbf{Reference-set instability can accompany a small average spread improvement.} Increasing $W$ from 1280 to 5120 changes 16 of 40 contact-graph reference sets. The mean independently evaluated spread increase is 0.01111 nodes across all 40 network--path pairs. These measurements distinguish the frequency of seed-set changes from the magnitude of the resulting utility changes.
++\item[(3)] \textbf{Degree and PageRank agreement diverge on the external networks.} At $W=1280$, Degree-4k reproduces all 15 full-reference trajectories using 20 candidates and less selection time in this implementation. Default PageRank-4k reproduces none; losses on CollegeMsg and wiki-Vote persist under tighter tolerance. The comparison identifies limits to the earlier contact-graph agreement and ties the observed cost savings to preservation of the tested reference.
+ \end{enumerate}
+ 
+ \begin{figure}[t]

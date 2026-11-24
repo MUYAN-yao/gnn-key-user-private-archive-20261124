@@ -1,0 +1,328 @@
+\documentclass[smallextended]{svjour3}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{mathptmx}
+\usepackage{amsmath,graphicx,booktabs,tabularx,longtable,url,placeins}
+\usepackage[hidelinks]{hyperref}
+\journalname{Computing}
+\setlength{\emergencystretch}{2em}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\thetable}{S\arabic{table}}
+\begin{document}
+\title{Online Resource 1: Reference Budgets and Ranking Precision in Candidate-Restricted Influence Maximization}
+\titlerunning{Online Resource 1}
+\author{Jiayue Sun \and Binbin Yong \and Junjie An \and Tianyu Bo \and Shuai Li}
+\institute{Jiayue Sun \at School of Artificial Intelligence, Lanzhou University, Lanzhou 730000, China
+\and Binbin Yong (corresponding author) \at School of Information Science and Engineering, Lanzhou University, Lanzhou 730000, China \\
+\email{yongbb14@lzu.edu.cn}
+\and Junjie An, Tianyu Bo and Shuai Li \at Lanzhou University, Lanzhou, China}
+\date{}\maketitle
+\paragraph{Scope.} External results and the 520-condition historical extension form separate evidence layers. The initial 42-condition study supplies earlier context; outcome-blind preflight supplies resource measurements only. Historical tables and figures report descriptive recomputations of saved outputs, separately from the external main experiments and post-hoc PageRank sensitivity controls.
+
+\section{Source-scoped related-work comparison}
+Table~\ref{tab:related-scope} compares the stated focus of accessible primary
+sources, rather than asserting that an item was absent from every implementation
+or supplement. ``Not the stated focus'' is not shorthand for ``not done''.
+Classical objective/solver work, benchmarking, candidate restriction and learned
+inductive estimation address different parts of the influence-maximization
+pipeline. This study provides paired evidence on the precision dependence of a
+budget comparison, the utility consequences of reference-set changes, and the
+external scope of candidate-restriction results. Complete citations are in the
+main manuscript.
+\input{related_work_table.tex}
+
+\section{Audit and reproducibility}
+Figures~\ref{fig:matrix}--\ref{fig:loss-cost} provide the full default-budget
+comparison, the direction diagnostic and the descriptive loss--cost analysis,
+complementing the main-text evaluation framework, budget--precision comparison
+and independent reference-transition plot.
+
+There are 54 configuration-defined external conditions and 468 executed arms.
+The archive retains one JSON and NPZ pair per condition, source and data manifests,
+world-ID hashes, candidate IDs, selected sequences, all round/candidate integer
+totals and 10,000 evaluation values per arm. Reproduction checks the raw gzip
+hashes before using the frozen runner. The independent audit
+parses topology, checks all recorded hashes and world IDs, reconstructs all
+argmax/tie decisions, replays every full-candidate score matrix and all evaluation
+arrays, and checks a scalar Python oracle on the first 16 worlds for each
+distinct ordered selection within a graph/path/coupling. Complete replay and the
+independent sampled oracle are different validation layers.
+
+Frozen source files are unchanged. The original runner's entry checks did not
+enforce actual raw hashes against the data manifest; the retrospective comparison
+and new guarded wrapper address that enforcement gap without rewriting history.
+ca-GrQc removes loops before collecting endpoints: raw vertex 12295 appears only
+in a loop, explaining 5,241 rather than 5,242 vertices. The original prose was
+ambiguous about endpoint collection order, while the processed size/hash were
+already frozen before outcomes. Results refer to that processed graph.
+
+Direction is part of the simulation definition. CollegeMsg goes from sender to
+receiver; wiki-Vote from voter to votee; ca-GrQc uses reciprocal arcs. The first
+two are directed observed relations, not measured causal diffusion. PageRank uses
+standard incoming importance, while the objective follows outgoing propagation.
+Direction diagnostics are post-hoc and do not isolate a causal mechanism.
+
+\subsection{Preprocessing and evidence provenance}
+CollegeMsg retains the first $\lfloor .65T\rfloor$ complete timestamp groups,
+where $T=58,911$, through Unix timestamp 1085640224, yielding 38,939 non-self
+messages. The processed CollegeMsg, ca-GrQc and wiki-Vote graphs have 2, 354 and
+24 weak components. Every retained component is included. The later CollegeMsg
+events are not held-out influence cascades. The ca-GrQc size and hash were
+recorded before outcomes; reinserting its self-loop-only vertex would change
+lexical indices and hashed draws, so the 5,241-node representation defines the
+reported experiment.
+
+The initial historical study contains 42 conditions and 168 arms, two paths,
+$W=20,80,320$ and $M=2000$. Its separate extension contains 520 conditions and
+4,680 arms, ten paths on four real contact graphs, selection budgets up to 5120
+and $M=10,000$. The four contact graphs contain 91, 212, 402 and 75 vertices;
+two synthetic controls contain 2,000 vertices each. Synthetic topology weights
+are not independent historical-event evidence. Local protocol freezes are not
+public preregistrations. External resource preflight used $W=80,320$ and
+$M=1000$ without examining selected seeds or utilities; it supplies resource
+measurements only.
+
+\subsection{Finite-world coupling counterexample}
+Consider the chain $s\to u\to v$ with horizon two. In one step-indexed world,
+$s\to u$ is open at step zero, while $u\to v$ is closed at step zero and open
+at step one. Starting with $\{s\}$ reaches all three vertices. Starting with
+$\{s,u\}$ activates $u$ earlier and reaches only two. Thus the finite-world
+objective is not necessarily monotone, even though the marginal law for each
+fixed seed set remains the intended independent-cascade law. This example alone
+does not establish a violation of submodularity. The fixed-edge control instead
+uses horizon-limited reachability in each sampled graph, giving a monotone,
+submodular coverage objective. Both implementations enumerate all eligible
+vertices at every round. The external world-ID audit checks 169,200 distinct
+identifiers across graph, path and selection/evaluation families for collisions.
+
+\section{Statistical interpretation}
+For a fixed selected pair, conditional Monte Carlo standard error is the sample
+standard deviation of 10,000 paired per-world differences divided by 100.
+Normal intervals are pointwise and conditional. Across-path SD describes five
+computational paths, or three control paths, and includes finite evaluation noise.
+The optional $t$ intervals in CSVs are post-hoc descriptive intervals, not
+population-of-network inference. Random pools are averaged within each path
+before cross-path analysis; their shared-world covariance is retained.
+
+For a seed set of size $k$, incremental spread is total spread minus $k$.
+The external experiments use $k=5$; the historical extension also includes $k=20$.
+Percentage loss is
+minus the paired mean difference divided by full incremental spread, times 100.
+The plug-in percentage does not have a guaranteed loss-bound interpretation.
+The primary sign-test family is three methods within each graph at $W=1280$.
+All nonzero PageRank and random-mean differences are negative, but five paths
+limit the minimum two-sided exact sign-test value to .0625. Nonsignificance is
+not equivalence. Table~\ref{tab:tests} reports all nine tests without exclusions.
+
+\section{Cost and repeated measurements}
+The archived preparation timer contains parsing, all rankings, hashes and graph
+diagnostics. Its ranking subtimers are not added to it again. A separate
+post-hoc setup study measures five repetitions of raw parsing/CSR and one
+method's ranking plus pool generation. The frozen selection timer already includes
+lexical candidate sorting; it is not charged again. The assembled selection-use cost adds that
+median setup to frozen selection-world preparation and selection. The assembled cost including independent evaluation adds independent-world preparation and independent evaluation.
+These are assembled warm-process, cached-file estimates, not direct end-to-end
+trials. Imports, JIT compilation, downloads and output writing are excluded.
+
+Frozen repeated timing uses path 1101 and $W=320$, five randomized repetitions
+per arm, yielding 130 observations. Selected sequences and per-world evaluations
+were required to remain identical. The CSVs report every repetition and its
+selection/evaluation time, plus medians and ranges. The maximum positive psutil process-lifetime peak is 3.448822 GiB. Preflight
+used one tenth of the evaluation-world count and therefore has a different
+resource scope; the recorded peak is not a condition-specific allocation maximum. Timings are machine- and implementation-specific.
+
+\section{Complete aggregate results}
+Tables~\ref{tab:s-ca_grqc}--\ref{tab:s-wiki_vote} retain every method at all external
+budgets/couplings. Total spread, paired difference, between-path SD, percentage
+incremental loss and ordered agreement are shown. CSVs additionally retain
+candidate fractions, set agreement, Jaccard, first divergence, conditional
+uncertainty, costs and every path. This avoids treating an averaged random seed
+set as if it existed. There were no failed or excluded main conditions.
+\input{supp_tables.tex}
+\begin{figure}[htbp]
+\centering\includegraphics[width=\linewidth]{Fig1.pdf}
+\caption{Complete default-tolerance budget comparison. Points are mean incremental
+losses over five paths; bars are path standard deviations. Random-pool repeats
+are averaged within each path. Negative loss denotes independently evaluated
+gain against the finite reference; all graph panels use a common percentage
+scale.}\label{fig:matrix}
+\end{figure}
+\section{Post-hoc PageRank precision control}
+The frozen default tolerance is $10^{-6}$, and NetworkX stops on a successive
+vector $L_1$ change below $n$ times that value. A candidate-only diagnostic at
+$10^{-12}$ changed some pool members on ca-GrQc and wiki-Vote; pools agreed
+between $10^{-12}$ and $10^{-14}$. Before inspecting new utility outputs, a
+separate protocol froze two PageRank arms on every graph and all five original
+$W=1280$ paths. Its 15 conditions and 30 arms are a numerical sensitivity control,
+not independent confirmation and not additional paths in the primary tests.
+
+Table~\ref{tab:precision} shows that tightening tolerance changes ca-GrQc's 4k
+mean difference from $-0.25082$ to $+0.02608$, replacing all five selected sets.
+Its original small loss is therefore not precision-robust. CollegeMsg outcomes
+are unchanged. wiki-Vote's 4k loss remains large ($-41.21970$, or 73.96\% of
+incremental spread), and its 5\% loss is 24.47\%. This diagnostic qualifies the
+ranking interpretation without replacing any original observation or retroactively
+redefining the frozen sign-test family. Tightened-solver timing is not substituted
+into the default-solver cost curves.
+\input{precision_table.tex}
+\section{Post-hoc precision--budget control}
+The initial precision control left a material question open because it covered
+only $W=1280$. A new protocol was frozen before new utility outputs were inspected
+and added PageRank-4k and PageRank-5\% arms at the tighter tolerance at $W=80,320$ for all three
+graphs and five original paths. It contributes 30 conditions and 60 restricted
+arms, reusing the frozen full references and disjoint evaluation-world IDs. Together
+with the prior tighter-tolerance $W=1280$ layer, this is a 45-condition, 90-arm post-hoc
+sensitivity study; it adds no independent paths or primary tests.
+
+Candidate membership agrees between $10^{-12}$ and $10^{-14}$ for every graph/pool size. This checks membership stability at the tested cutoffs, not exact PageRank-vector convergence.
+CollegeMsg's tighter- and default-tolerance pools are identical. ca-GrQc changes two of 20
+4k candidates (pool Jaccard .818), while wiki-Vote changes one (Jaccard .905).
+The lower-budget results show that ca-GrQc's default PageRank-4k direction reversal
+disappears with the tighter-tolerance pool: incremental losses are -11.25\%, -2.96\% and
+-0.54\% at $W=80,320,1280$. Its selected sets and paired utility magnitude still
+change with budget. CollegeMsg retains 9.33\%, 8.52\% and 9.01\% 4k losses at the tighter tolerance;
+wiki-Vote retains 74.05\%, 74.05\% and 73.96\%. These are graph-specific,
+post-hoc sensitivity findings, not an equivalence, superiority or significance claim.
+\input{precision_budget_table.tex}
+\section{Coverage, direction and reference transitions}
+The direction illustration in Fig.~\ref{fig:direction-detail} supports a
+graph-specific interpretation of wiki-Vote's loss. At $W=1280$, path 1101 gives
+the full seed set $\{2565,766,11,457,2688\}$.
+The PageRank-4k set is $\{3352,2237,2328,2654,1297\}$.
+The same final sets occur on all five paths.
+The PageRank pool contains none of the full-reference seeds. Its mean incremental
+spread is 15.04268 nodes, compared with 55.73602 for full selection, a paired
+difference of $-40.69334$ nodes. These coverage facts are consistent with a
+mismatch between incoming importance and outgoing propagation; without a
+direction intervention they do not establish causality.
+\begin{figure}[htbp]
+\centering\includegraphics[width=\linewidth]{FigDirectionMechanism.pdf}
+\caption{Post-hoc direction and candidate-coverage diagnostic for wiki-Vote.
+The illustrated seed sets, stored voter-to-votee orientation and independent
+spread values connect candidate eligibility to the measured loss at $W=1280$.
+The diagram describes this graph and propagation convention.}\label{fig:direction-detail}
+\end{figure}
+Table~\ref{tab:transitions} supplies the aggregate reference-transition values
+underlying the main-text paired spread plot. Identical final sets have identical
+evaluation vectors and hence exactly zero paired differences.
+\input{transition_table.tex}
+
+\section{Descriptive utility--cost thresholds}
+Figure~\ref{fig:loss-cost} retains all frozen loss thresholds. Degree-4k meets
+zero point-estimate loss on every highest-budget path. Default PageRank-4k meets
+10\% on ca-GrQc and CollegeMsg, but not 20\% on wiki-Vote. The 5\% PageRank
+pool meets zero loss on ca-GrQc and 5\% on CollegeMsg, and still fails 20\% on
+wiki-Vote. No within-path random-pool mean meets 20\%. These thresholds are
+descriptive; no application-specific acceptable loss or noninferiority margin
+is inferred. Timing at the tighter tolerance is not substituted into this analysis.
+\begin{figure}[htbp]
+\centering\includegraphics[width=\linewidth]{Fig3.pdf}
+\caption{Loss--cost decisions for default tolerance at $W=1280$. Cells count
+paths with point-estimate incremental loss at or below the column threshold.
+Row labels show mean assembled verification-inclusive savings across all five
+paths. Random rows average three pools within each path and use the mean cost
+of one random-pool deployment.}\label{fig:loss-cost}
+\end{figure}
+\section{Coupling control}
+Figure~\ref{fig:coupling} shows all preselected W320 control paths for the main
+ranking comparisons. Mean PageRank-4k differences under edge coupling are
+$-0.16240$, $-0.93417$ and $-40.57597$ on ca-GrQc, CollegeMsg and wiki-Vote.
+Degree-4k ordered agreement is 1/3, 3/3 and 3/3, respectively. This control
+preserves the prominent PageRank losses while showing that coupling can change
+reference reproduction. It does not estimate a general coupling-invariance law.
+\begin{figure}[htbp]
+\centering\includegraphics[width=\linewidth]{FigS1.pdf}
+\caption{Coupling control at $W=320$. Each symbol is one of three preselected
+computational paths, with three random-pool repetitions first averaged within
+path. Circles denote step-indexed worlds and squares fixed-edge worlds. Loss is
+relative to the full reference using the same coupling. No inferential intervals
+are implied by these point displays}\label{fig:coupling}
+\end{figure}
+\FloatBarrier
+\section{Executable reproduction procedure}
+\subsection{Inputs, identifiers and numerical environment}
+The external package root contains \texttt{config.json}, \texttt{protocol.md},
+\texttt{snapshot/}, \texttt{data/source\_manifest.json} and
+\texttt{results/main/}. The default study has 54 JSON/NPZ pairs and 468 arms.
+The two post-hoc controls remain under \texttt{review-v2/} and
+\texttt{review-v3-budget-precision/}; they contain 15 and 30 conditions,
+respectively, with two restricted arms per condition. These outputs must not be
+merged with the main-study count.
+
+The namespace is \path{computing-external-validation-20261015-v1}.
+For dataset $d$, path $r$, family $f$ and world index $i$, the exact UTF-8 key is
+\begin{center}\texttt{namespace|dataset|path|family|i}\end{center}
+using decimal integers without padding.
+The world ID is the first eight SHA-256 bytes, interpreted as an unsigned
+big-endian integer and masked to 63 bits. Families are \texttt{selection} and
+\texttt{evaluation}; indices start at zero. World-to-edge draws use the frozen
+unsigned-64-bit mixing function in \texttt{legacy\_engine.py}, with a 53-bit
+uniform output. In the step coupling the step index enters this function; the
+fixed-edge coupling uses step zero throughout. Replacing this mapping with a
+different pseudorandom generator would not reproduce the archived paths.
+
+Random-pool keys are \texttt{namespace|pool|dataset|path|repeat}, with repetition
+indices 0, 1 and 2. Their first eight SHA-256 bytes, without the 63-bit mask,
+seed NumPy's \texttt{default\_rng}; for the external $k=5$ study, the first 20 entries of a node permutation
+form the pool. Greedy evaluation sorts these candidate indices before scanning
+them. Lexicographic node indexing makes the first integer-score maximizer the
+specified tie winner. PageRank uses the graph insertion order generated by
+the frozen reader, so reproductions retain that order as well as its tolerance.
+
+Core dependencies are pinned in \texttt{requirements.txt}; the checked environment
+is Python 3.13.0 on Windows. Pillow 12.3.0 is additionally used for decoded-pixel
+comparison. TeX Live 2026 and Poppler support manuscript compilation and rendering,
+but are unnecessary for the propagation calculation. The reproduction wrapper
+sets OpenMP, OpenBLAS, MKL and Numba thread limits to one before numerical imports.
+Its environment record reports the actual installed versions for each run.
+
+\subsection{Commands and acceptance criteria}
+The retained external reproduction guide, \path{EXTERNAL_REPRODUCE_INHERITED.md},
+gives PowerShell commands for an isolated environment, input acquisition and
+the two replay modes. The current \texttt{REPRODUCE.md} separately describes
+regeneration of historical summaries without simulation. For external replay, run
+\texttt{src/reproduce.py} from the revised package with explicit
+\texttt{--base} and a fresh \texttt{--output}. The base is the external package
+root; the output must not exist. The script checks original source, raw-file,
+processed-graph and main-result hashes before computation. It preserves the
+source tree and builds a working copy for legacy analysis scripts whose output
+paths are fixed relative to their own locations.
+
+The \texttt{representative} mode reruns path 1101 for all three graphs at
+$W=80$ with step coupling and $W=320$ with fixed-edge coupling. It also reruns
+PageRank with the tighter tolerance at $W=80,1280$ on that path, covering both precision protocols.
+The \texttt{all} mode reruns all 54 main conditions and all 45 post-hoc
+precision conditions. The \texttt{none} mode checks saved results and regenerates
+analysis without rerunning seed selection or propagation; it still reconstructs
+graphs and candidate pools and checks world identifiers. Raw inputs are required in all modes
+because graph hashes and direction diagnostics are reconstructed.
+
+A replay passes only if selected IDs, every integer candidate score and every
+one of the 10,000 evaluation counts match their archived counterparts exactly.
+The analysis stage independently recomputes paired differences and Monte Carlo
+standard errors from saved arrays, applies the frozen aggregation and test rules,
+and regenerates the default and precision plots. CSV values are compared at
+absolute and relative tolerance $10^{-12}$; decoded PNG pixels must be identical.
+The machine-readable report records counts, checks and any failure. Fresh wall
+times, process memory, PDF metadata and SVG metadata are not equality targets.
+Cross-platform font rendering may fail the pixel check even when numerical
+tables agree; such a difference requires inspection rather than silent acceptance.
+
+The archived reproduction record documents representative-mode execution and
+complete external analysis regeneration, not a rerun of every historical
+experiment or every external condition. Historical summary verification reads
+saved arrays without replaying selection or propagation.
+Historical evidence retains its separate frozen package and reproduction guide.
+The saved setup-timing table is an input to the assembled cost analysis; regenerating
+that analysis does not remeasure all setup costs on the current machine.
+
+\clearpage
+\input{history_evidence.tex}
+\section{File map and availability}
+The full reproducibility materials comprise frozen sources and protocols,
+manifests, external and historical results, per-path analyses and manuscript
+assets. Historical aggregation scripts, source CSVs and verification records
+accompany the manuscript; frozen experiment packages remain separate. Raw
+third-party inputs are obtained through the guarded download instructions and
+are not redistributed. No public archive URL is asserted.
+\end{document}

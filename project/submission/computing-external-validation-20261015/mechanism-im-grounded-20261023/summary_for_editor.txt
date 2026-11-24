@@ -1,0 +1,13 @@
+Title: Evaluating Candidate-Restricted Influence Maximization: Reference Budgets, Ranking Precision, and External Topologies
+
+Scope and contribution
+This manuscript is an evaluation study of candidate eligibility in greedy influence maximization. Its contribution is not a new influence-maximization algorithm, a GNN, or an expected-optimality guarantee. It separates two evaluation resolutions that can otherwise be conflated: the finite number of sampled worlds defining a full-candidate reference, and the numerical tolerance used to truncate a ranking before selection. The analysis carries those choices through candidate coverage, seed sequences, independently evaluated spread, coupling and scoped cost.
+
+Evidence
+The primary external matrix contains 54 frozen conditions and 468 executed arms on CollegeMsg, ca-GrQc and wiki-Vote (1,438--7,115 retained vertices), using k=5, p=.01, horizon 3, selection budgets W=80/320/1280, five paired computational paths and 10,000 disjoint evaluation worlds per path. At W=1280, degree-4k reproduces 15/15 stored full-greedy trajectories. Default PageRank-4k has mean incremental-spread losses of 5.07%, 9.01% and 73.01% on ca-GrQc, CollegeMsg and wiki-Vote. A separately frozen post-hoc sensitivity study contributes 45 conditions and 90 restricted arms across the original paths. It shows that ca-GrQc’s apparent default PageRank gain-to-loss change across budgets is not robust to stricter ranking tolerance; CollegeMsg is unchanged and wiki-Vote retains a large loss.
+
+Interpretation and limits
+The paper retains adverse outcomes and reports reference agreement, set changes and independently evaluated utility separately. The post-hoc controls are not represented as independent paths or primary confirmation. Five computational paths are not treated as five network samples; nonsignificant sign tests are not interpreted as equivalence. The study does not claim real-cascade validity, a universal safe candidate fraction, convergence at W=1280, or superiority over optimized influence-maximization systems.
+
+Reproducibility
+The submission package contains source and data manifests, expected hashes, frozen source snapshots, condition-level outputs, validators, analysis/plotting scripts and figure-source tables. Third-party raw source archives are obtained from their cited providers and are not redistributed.

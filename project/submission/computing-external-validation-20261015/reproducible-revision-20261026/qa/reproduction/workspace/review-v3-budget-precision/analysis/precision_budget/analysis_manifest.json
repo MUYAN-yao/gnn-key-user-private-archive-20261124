@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "script_sha256": "2905b7cdb7baf2908341fa6d56964c95982e8c0715052d7f8c418a0e3868214d",
+  "posthoc_manifest_sha256": "90dacf1742ae2db321514f5092758bfa82d75ffbeaa9cacbd3e82c33378defad",
+  "new_conditions": 30,
+  "new_arms": 60,
+  "inputs": {
+    "main_result_directory": "D:\\\u6821\u521b\\\u57fa\u4e8eGNN\u7684\u5173\u952e\u7528\u6237\u8bc6\u522b\\submission\\computing-external-validation-20261015\\reproducible-revision-20261026\\qa\\reproduction\\workspace\\results\\main\\conditions",
+    "prior_strict_w1280": "D:\\\u6821\u521b\\\u57fa\u4e8eGNN\u7684\u5173\u952e\u7528\u6237\u8bc6\u522b\\submission\\computing-external-validation-20261015\\reproducible-revision-20261026\\qa\\reproduction\\workspace\\review-v2\\supplement-pr-precision\\conditions",
+    "new_strict_w80_w320": "D:\\\u6821\u521b\\\u57fa\u4e8eGNN\u7684\u5173\u952e\u7528\u6237\u8bc6\u522b\\submission\\computing-external-validation-20261015\\reproducible-revision-20261026\\qa\\reproduction\\workspace\\review-v3-budget-precision\\supplement-pr-budget-precision\\conditions"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "archive": "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-author-review-20261015-v3.zip",
+  "archive_sha256": "1b032de3d46d15dad47e33d08a6fbf258553346230a5467fa43e621a13b0433c",
+  "archive_bytes": 52352375,
+  "files_verified_after_extraction": 1528,
+  "extraction_directory": "D:\\校创\\基于GNN的关键用户识别\\tmp\\author-review-v3-verify-5b004913",
+  "hash_mismatches": [],
+  "zip_crc_check": true,
+  "third_party_raw_data_excluded": true
+}

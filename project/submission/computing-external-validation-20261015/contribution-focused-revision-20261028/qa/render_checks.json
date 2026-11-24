@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-28",
+  "method": "Visual inspection of contact sheets covering every rendered page; comparison with the previous manuscript layout.",
+  "english_pages_reviewed": 17,
+  "chinese_pages_reviewed": 20,
+  "clipping_or_overlap_found": false,
+  "missing_figure_or_blank_page_found": false,
+  "layout_notes": [
+    "The contribution list spans pages 2 and 3, with the existing mechanism figure floated to the top of page 3.",
+    "The normal template and existing figure scale are retained; no font or margin compression was applied.",
+    "Chinese references and figure internals retain their original language."
+  ],
+  "parser_note": "pypdf reported a duplicate /Group dictionary key while reading a PDF. Text extraction and all-page rendering succeeded; no corresponding visible defect was observed. Existing figure assets were not rewritten.",
+  "english_pdf_sha256": "0f1b78351835d347c68beb67f1ee1d2368a999e34cb954183f21b4115041a4bc",
+  "chinese_pdf_sha256": "bb1d3e0205960e6ce78738f5edb8f8db148e4bfcc340064344c74e3b09153a8f"
+}

@@ -1,0 +1,24 @@
+\begin{table}[htbp]
+\caption{各外部网络在 $W=1280$ 下的实际输出（五条路径均值）。PR 使用默认容差。增量传播量扣除 $k=5$ 个种子；差值为受限方法减全候选参照，单位均为节点。一致性为相同选择顺序的路径数。}\label{tab:primary}
+\centering\begin{tabular}{lrrrr}\toprule
+网络 / 方法 & 候选数 & 增量传播量 & 差值 & 一致性 \\ \midrule
+\multicolumn{5}{l}{\textit{ca-GrQc}} \\
+Full & 5241 & 4.934 & --- & --- \\
+Degree-4k & 20 & 4.934 & +0.00000 & 5/5 \\
+PR-4k & 20 & 4.683 & -0.25082 & 0/5 \\
+PR-5\% & 263 & 4.934 & +0.00000 & 5/5 \\
+\addlinespace
+\multicolumn{5}{l}{\textit{CollegeMsg}} \\
+Full & 1438 & 10.072 & --- & --- \\
+Degree-4k & 20 & 10.072 & +0.00000 & 5/5 \\
+PR-4k & 20 & 9.164 & -0.90780 & 0/5 \\
+PR-5\% & 72 & 9.641 & -0.43094 & 0/5 \\
+\addlinespace
+\multicolumn{5}{l}{\textit{wiki-Vote}} \\
+Full & 7115 & 55.736 & --- & --- \\
+Degree-4k & 20 & 55.736 & +0.00000 & 5/5 \\
+PR-4k & 20 & 15.043 & -40.69334 & 0/5 \\
+PR-5\% & 356 & 42.206 & -13.53012 & 0/5 \\
+\addlinespace
+\bottomrule\end{tabular}
+\end{table}

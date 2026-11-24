@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "archive": "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-submission-preparation-20261016-v1.zip",
+  "archive_sha256": "5d604ab3568ccf256a248dd689ac779947b6eb3cae2737278ef0de6019464bf4",
+  "archive_bytes": 71255494,
+  "files_verified_after_extraction": 2069,
+  "extraction_directory": "D:\\校创\\基于GNN的关键用户识别\\tmp\\submission-ready-incremental-verify",
+  "hash_mismatches": [],
+  "zip_crc_check": true,
+  "third_party_raw_data_excluded": true,
+  "verification_batches": {
+    "extract": [
+      [
+        0,
+        350
+      ],
+      [
+        350,
+        350
+      ],
+      [
+        700,
+        350
+      ],
+      [
+        1050,
+        350
+      ],
+      [
+        1400,
+        350
+      ],
+      [
+        1750,
+        320
+      ]
+    ],
+    "hash": [
+      [
+        0,
+        350
+      ],
+      [
+        350,
+        350
+      ],
+      [
+        0,
+        350
+      ],
+      [
+        350,
+        350
+      ],
+      [
+        700,
+        350
+      ],
+      [
+        1050,
+        350
+      ],
+      [
+        1400,
+        350
+      ],
+      [
+        1750,
+        319
+      ]
+    ]
+  }
+}

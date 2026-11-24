@@ -1,0 +1,5 @@
+Reference Budgets and Ranking Precision in Candidate-Restricted Influence Maximization
+
+The contribution is empirical: a paired numerical control changes the interpretation of a budget comparison on ca-GrQc, and independent evaluation identifies the spread consequences of reference-set changes. Cross-topology and coverage comparisons delimit where the observed candidate-restriction results transfer. These findings motivate reporting reference budget, ranking precision, coverage, seed agreement, independently evaluated spread and timing scope together.
+
+The study holds the simulator and greedy selection rule fixed to examine eligibility and evaluation settings. Its distinguishing evidence is the precision-sensitive budget observation and its graph-specific qualification, rather than the number of benchmark conditions or a claim that each evaluation practice is novel. The manuscript does not infer a general theorem from these experiments. Quality and cost conclusions concern the stated finite-horizon setting and exhaustive reference implementation; the paired precision study remains post-hoc.

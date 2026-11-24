@@ -1,0 +1,12 @@
+\begin{table}[htbp]
+\caption{Degree-4k 在 $W=1280$ 下的成本，取五条路径平均。Full 与 Degree 列为实测选择时间。最后一列估计包含准备阶段、选择及评估世界准备、种子选择和独立评估的成本节省。这些暖进程拼接成本排除导入、JIT 编译、下载和输出写入，并非直接端到端计时。}\label{tab:cost}
+\begin{tabular}{lrrrr}
+\toprule
+网络 & Full（s） & Degree（s） & \shortstack{选择阶段\\节省（\%）} & \shortstack{含评估成本\\节省（\%）} \\
+\midrule
+ca-GrQc & 23.53 & 0.109 & 99.54 & 92.77 \\
+CollegeMsg & 5.89 & 0.094 & 98.40 & 86.59 \\
+wiki-Vote & 158.94 & 0.520 & 99.67 & 96.26 \\
+\bottomrule
+\end{tabular}
+\end{table}

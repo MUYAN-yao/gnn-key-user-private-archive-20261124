@@ -1,0 +1,109 @@
+{
+  "status": "PASS",
+  "scope": "author-review artifacts, not author approval or editorial acceptance",
+  "pdfs": {
+    "manuscript": {
+      "pages": 19,
+      "text_characters": 41083,
+      "unresolved_markers": false,
+      "compile_warnings": [],
+      "all_pages_rendered": true
+    },
+    "Online_Resource_1": {
+      "pages": 4,
+      "text_characters": 9718,
+      "unresolved_markers": false,
+      "compile_warnings": [],
+      "all_pages_rendered": true
+    }
+  },
+  "abstract_words": 210,
+  "keywords": 5,
+  "references_defined_and_cited": 19,
+  "figures": [
+    {
+      "name": "Fig1",
+      "width_mm": 119.00000000001084,
+      "height_mm": 142.23999999999998,
+      "fonts_embedded": [
+        "/ELUGPM+ArialMT"
+      ]
+    },
+    {
+      "name": "Fig2",
+      "width_mm": 119.00000000001084,
+      "height_mm": 157.47999999999996,
+      "fonts_embedded": [
+        "/ELUGPM+ArialMT"
+      ]
+    },
+    {
+      "name": "Fig3",
+      "width_mm": 119.00000000001084,
+      "height_mm": 147.32000000000002,
+      "fonts_embedded": [
+        "/ELUGPM+ArialMT"
+      ]
+    },
+    {
+      "name": "Fig4",
+      "width_mm": 119.00000000001084,
+      "height_mm": 154.93999999999997,
+      "fonts_embedded": [
+        "/ELUGPM+ArialMT"
+      ]
+    },
+    {
+      "name": "Fig5",
+      "width_mm": 119.00000000001084,
+      "height_mm": 147.32000000000002,
+      "fonts_embedded": [
+        "/ELUGPM+ArialMT"
+      ]
+    }
+  ],
+  "template_files_unchanged": true,
+  "reconstructed_data_files_byte_identical": 16,
+  "visual_review": {
+    "status": "PASS",
+    "reviewer": "Codex visual inspection; author review remains required",
+    "main_pages_inspected": 19,
+    "supplement_pages_inspected": 4,
+    "method": "Every rendered page inspected in contact sheets; full-resolution front page, primary effect figure, sensitivity figure and supplement table page additionally inspected. All five figure previews inspected before assembly.",
+    "checked": [
+      "readable text and legends",
+      "captions aligned with figures",
+      "no clipped tables or text",
+      "no overlap",
+      "no missing panels",
+      "consistent units and uncertainty descriptions",
+      "figures within main text before discussion",
+      "reference continuation without isolated URL page"
+    ],
+    "notes": "Default Springer page dimensions and typography retained. Whitespace around figures and section breaks remains; no body-font, line-spacing or margin compression was used. Primary effect panels use explicitly labeled different x-axis scales."
+  },
+  "source_manifest_verified": true,
+  "analysis_validation": {
+    "status": "PASS",
+    "conditions": 520,
+    "arm_executions": 4680,
+    "evaluation_values": 46800000,
+    "source_manifest_sha256": "d2ece59609e65a342881390c61f6873a6ba7831c53c6143907ee0b17edb5dd99",
+    "primary_test_count": 24,
+    "transitions": 240,
+    "timing_observations": 180,
+    "unique_used_or_reserved_world_ids": 907200,
+    "checks": [
+      "complete frozen matrix",
+      "source, pre-freeze audit and result SHA256",
+      "independently reconstructed world IDs, nested prefixes and disjoint families/paths",
+      "consistent input and graph hashes",
+      "per-round greedy argmax, margin and tie policy",
+      "per-world range/paired statistics",
+      "full-pool consistency",
+      "same-set evaluation identity"
+    ],
+    "scope": "structural/numeric audit; independent semantic oracle checks in audit-and-preflight.json"
+  },
+  "remaining_author_items": "author_checklist_zh.md"
+}

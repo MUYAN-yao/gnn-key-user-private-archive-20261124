@@ -1,0 +1,141 @@
+ 1 / 5 
+兰州大学人工智能学院 高水平学术论文分级认定
+管理办法 
+  
+ 
+第一条 制定依据 
+为落实国家破除“唯论文”评价改革要求，完善学术成果分类评价体系，客观、公正、科学
+认定全校师生高水平学术论文成果，规范科研考核、职称评审、研究生毕业、人才项目申报、
+绩效奖励等成果认定工作，依据兰州大学相关政策，结合学院发展实际，特制定本办法。 
+ 
+第二条 适用范围 
+    1. 适用对象：全院师生； 
+2. 适用成果：以兰州大学为第一署名单位公开发表的原创学术论文。 
+  
+第三条 认定基本原则 
+    1. 质量优先，多元评价：不以期刊分区简单一刀切，兼顾原始创新、学术影响力、学科贡
+献； 
+2. 认定依据：依据 JCR、CCF 等权威数据库当年版本。发表论文就高认定； 
+3. 认定范围：书评、会议短讯、读者来信、广告、编辑部通讯及其他与原创科研工作无关
+的文章不纳入高水平论文认定。 
+  
+第四条 成果有效界定 
+1. 认定仅包含： Article、Review、Research 性质的 Letter(仅针对 T 类和 A 类论文)； 
+2. 会议论文按当年 CCF 会议分级版本和学院主办/承办的会议情况认定； 
+3. 预印本、未正式录用稿件无效； 
+ 
+第五条 论文成果分级细则 
+   对发表高水平论文的期刊统一分为特类（T 类·国际顶刊） 、一级（A 类） 、二级（B 类） 、三
+级（C 类） 、四级（D 类）五档。  \n\n--- PAGE BREAK ---\n\n 2 / 5 
+一、T 类期刊（全球顶尖成果，最高认定等级） 
+   满足下面任意一条： 
+1. Nature、Science、Cell、Lancet 正刊； 
+2. SCI 检索的 Nature、Science 系列子刊 (不含 Nature Communications)； 
+注：Nature、Science 系列子刊特指期刊名以 Nature、Science 开头的子刊。 
+3. 学术委员会认定的其他同级别期刊和会议。 
+二、A 类期刊和会议 
+满足下面任意一条： 
+1. JCR 一区 IEEE Transactions 系列期刊（不包含 On Hold 期刊） ； 
+2. CCF-A 类期刊和会议； 
+3. 学术委员会认定的其他同级别期刊和会议。 
+三、B 类期刊和会议 
+满足下面任意一条： 
+1. JCR 一区期刊； 
+2. CCF-B 类期刊和会议； 
+3. 其余的 IEEE Transactions 系列 SCI 期刊； 
+4. 自动化学报、 计算机学报、 电子学报、 中国科学： 信息科学、 通信学报、 软件学报； 
+5. 学术委员会认定的其他同级别期刊和会议。 
+四、C 类期刊和会议 
+满足下面任意一条： 
+1. 除 T 类、A 类、B 类以外的 SCI 期刊； 
+2. 学术委员会认定的其他同级别期刊和会议。 
+五、D 类期刊和会议 
+满足下面任意一条： 
+1. 学院主办与承办的会议论文，此类论文每年每人认定不超过 1 篇； 
+2. EI/ESCI 检索的期刊论文。 
+3. 学术委员会认定的其他同级别期刊和会议。 
+注：上述五类论文中涉及到的 CCF 论文均指 regular paper/长文，不含 workshop 等其他形
+式的论文。 
+ \n\n--- PAGE BREAK ---\n\n 3 / 5 
+第六条 不予认定情形 
+    1. 增刊、专辑、会议论文集(CCF 类推荐会议与学院主办承办会议除外)； 
+2. 对于 Hindawi、MDPI、Frontiers 出版社出版的期刊， 除学术委员会认定的期刊外， 其他
+期刊不予认定。 
+ 
+第七条 本办法的 A 类+B 类学术论文等同于学校认定的一流期刊/会议论文，其他未尽事宜由
+学术委员会讨论确定。 
+ 
+附件：兰州大学人工智能学院高水平期刊补充目录 
+T 类期刊 
+1. 《Proceedings of the National Academy of Sciences of the United States of America (PNAS)》 
+ISSN 号：0027-8424（Print）；1091-6490 (Online) 
+2. 《Cell》  
+ISSN 号：0092-8674（Print）；1097-4172 (Online) 
+3. 《The Lancet》  
+ISSN 号：0140-6736（Print）；1474-547X (Online) 
+A 类期刊 
+4. 《Nature Communications》 
+ISSN 号：2041-1723 (Online) 
+5. 《Light: Science & Applications》 
+ISSN 号：2047-7538 (Online) 
+6. 《National Science Review》 
+ISSN 号：2095-5138 (Print)；2053-714X (Online) 
+7. 《The Innovation》 
+ISSN 号：2666-6758 (Online) 
+8. 《Research》 
+ISSN 号：2096-5168 (Print)；2639-5274(Online)  
+9. 《Engineering》 
+ISSN 号：2095-8099 (Print)；2096-0026 (Online)；CN 10-1244/N 
+10. 《Nucleic Acids Research》 \n\n--- PAGE BREAK ---\n\n 4 / 5 
+ISSN 号：0305-1048 
+11. 《IEEE/CAA Journal of Automatica Sinica》 
+ISSN 号：2329-9266 
+12. 《CAAI Transactions on Intelligence Technology》 
+ISSN 号：2468-2322 
+13. 《Science China Information Sciences》 
+ISSN 号：1869-1919 
+14. 《International Journal of Robotics Research》 
+ISSN 号：0278-3649 
+15. 《Automatica》 
+ISSN 号：0005-1098 
+16. 《Progress in Aerospace Sciences》 
+ISSN 号：0376-0421 
+17. 《Reliability Engineering & System Safety》 
+ISSN 号：0951-8320 
+18. 《ISPRS Journal of Photogrammetry and Remote Sensing》 
+ISSN 号：0924-2716 
+19. 《Remote Sensing of Environment》 
+ISSN 号：0034-4257 
+20. 《Radiology》 
+ISSN 号：0033-8419 
+21. 《Medical Image Analysis (MedIA)》 
+ISSN 号：1361-8415 
+22. 《Journal of the American Chemical Society (JACS)》 
+ISSN 号：0002-7863 
+23. 《Chemical Science》 
+ISSN 号：2041-6520 
+24. 《Pattern Recognition》 
+ISSN 号：0031-3203 
+25. 《Communications Biology》 
+ISSN 号：2399-3642 
+26. 《Applied Energy》 
+ISSN 号：0306-2619 
+27. 《Energy Conversion and Management》 
+ISSN 号：0196-8904 \n\n--- PAGE BREAK ---\n\n 5 / 5 
+B 类期刊 
+28. 《指挥与控制学报》 
+ISSN 号：2096-0204 
+29. 《Designs Codes and Cryptography》 
+ISSN 号：0925-1022 
+C 类期刊 
+30. 《光学学报(Acta Optica Sinica)》 
+ISSN 号：0253-2239；CN 31-1252/O4 
+D 类期刊 
+31. 《光子学报(Acta Photonica Sinica)》 
+ISSN 号：1004-4213；CN 61-1235/O4 
+32. 《信息网络安全》 
+ISSN 号：1671-1122 
+ 
+修订日期：2026 年 8 月 
+ 
+ 

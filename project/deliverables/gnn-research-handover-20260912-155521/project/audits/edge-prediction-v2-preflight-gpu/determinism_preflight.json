@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "max_abs_prediction_difference": 0.0,
+  "threshold": 1e-07,
+  "device": "auto",
+  "cuda_available": true,
+  "outer_fraction": 0.6,
+  "inner_ratio": 0.8,
+  "seed": 42,
+  "epochs": 10,
+  "scored_held_out_pairs": 1000
+}

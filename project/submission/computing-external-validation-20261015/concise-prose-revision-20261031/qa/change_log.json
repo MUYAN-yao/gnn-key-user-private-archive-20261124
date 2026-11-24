@@ -1,0 +1,152 @@
+[
+  {
+    "file": "manuscript/manuscript.tex",
+    "before": "OpenAI Codex assisted code, verification, analysis, figure generation and drafting. The authors reviewed the outputs and take responsibility for the manuscript.",
+    "after": "OpenAI Codex assisted with basic code development and manuscript drafting."
+  },
+  {
+    "file": "chinese/manuscript/manuscript_zh.tex",
+    "before": "OpenAI Codex 协助代码、核验、分析、图形生成与文稿起草。作者审核了输出，并对稿件承担责任。",
+    "after": "OpenAI Codex 协助完成了基础代码与文稿起草。"
+  },
+  {
+    "file": "manuscript/manuscript.tex",
+    "before": "The archived audits reconstruct argmax and tie decisions, replay external full-reference scores and evaluations, and compare predetermined worlds with a separate scalar oracle. Identical seed sets must yield identical evaluation vectors. Online Resource 1 details the audit coverage, the retrospective correction to raw-file hash enforcement and the executable reproduction procedure.",
+    "after": "Reproduction and verification procedures are provided in Online Resource 1."
+  },
+  {
+    "file": "chinese/manuscript/manuscript_zh.tex",
+    "before": "归档审计重建最大值选择及同分决策，回放外部全候选参照的分数和评估，并在预先指定的世界上与独立的标量参考实现比较。相同种子集合必须产生相同的评估向量。在线补充材料 1 详细说明审计覆盖范围、对原始文件哈希强制校验缺口的回溯修正，以及可执行的复现流程。",
+    "after": "复现与核验流程见在线补充材料 1。"
+  },
+  {
+    "file": "manuscript/manuscript.tex",
+    "before": "; later events are not used for candidate construction or treated as observed influence outcomes.",
+    "after": "."
+  },
+  {
+    "file": "chinese/manuscript/manuscript_zh.tex",
+    "before": "；后续事件既不用于构建候选池，也不作为观测到的影响力传播结果。",
+    "after": "。"
+  },
+  {
+    "file": "manuscript/manuscript.tex",
+    "before": "The two static datasets supply neither event counts nor observed cascades and receive no historical-weighted ranking.",
+    "after": "The two static datasets provide topology-only inputs; historical-weighted ranking requires event counts."
+  },
+  {
+    "file": "chinese/manuscript/manuscript_zh.tex",
+    "before": "两个静态数据集既不提供事件次数，也不提供观测级联，因此不采用历史加权排名。",
+    "after": "两个静态数据集提供拓扑信息；历史加权排名仅用于具有事件计数的数据集。"
+  },
+  {
+    "file": "manuscript/manuscript.tex",
+    "before": " No largest-component extraction or node subsampling is applied.",
+    "after": ""
+  },
+  {
+    "file": "chinese/manuscript/manuscript_zh.tex",
+    "before": "不提取最大连通分量，也不对子节点集采样。",
+    "after": ""
+  },
+  {
+    "file": "manuscript/manuscript.tex",
+    "before": "The parameter controls reuse the default budget-scan conditions rather than counting them again.",
+    "after": "The parameter controls reuse the default budget-scan conditions."
+  },
+  {
+    "file": "chinese/manuscript/manuscript_zh.tex",
+    "before": "参数对照复用预算扫描中的默认条件，不重复计数。",
+    "after": "参数对照复用预算扫描中的默认条件。"
+  },
+  {
+    "file": "manuscript/manuscript.tex",
+    "before": "; these small-graph controls do not enlarge the external network sample.",
+    "after": "."
+  },
+  {
+    "file": "chinese/manuscript/manuscript_zh.tex",
+    "before": "；这些小图对照不会增加外部网络样本量。",
+    "after": "。"
+  },
+  {
+    "file": "manuscript/manuscript.tex",
+    "before": "Paths identify computational repetitions, not additional networks.",
+    "after": "Paths identify computational repetitions on each graph."
+  },
+  {
+    "file": "chinese/manuscript/manuscript_zh.tex",
+    "before": "路径标识计算重复，不代表新增网络。",
+    "after": "路径标识各图上的计算重复。"
+  },
+  {
+    "file": "manuscript/manuscript.tex",
+    "before": "This checks candidate membership stability at the tested tolerances, not exact convergence of the PageRank vector. The paired sensitivity analysis adds no independent paths and leaves the primary test family unchanged.",
+    "after": "This comparison assesses candidate membership stability at the tested tolerances."
+  },
+  {
+    "file": "chinese/manuscript/manuscript_zh.tex",
+    "before": "这检验的是所测容差下的候选成员稳定性，而不是 PageRank 向量的精确收敛。该配对敏感性分析不增加独立路径，也不改变主要检验族。",
+    "after": "这一比较检验所测容差下的候选成员稳定性。"
+  },
+  {
+    "file": "manuscript/manuscript.tex",
+    "before": "The archived reproduction record covers stored-result audits, analysis regeneration and representative external-condition reruns; it does not document a complete rerun of all historical and external conditions. Online Resource 1 and \\texttt{REPRODUCE.md} specify the input checks, replay modes, output isolation and acceptance criteria. Historical summaries are recomputed from their separate saved outputs.",
+    "after": ""
+  },
+  {
+    "file": "chinese/manuscript/manuscript_zh.tex",
+    "before": "归档复现记录覆盖保存结果审计、分析再生成，以及代表性外部条件重跑；它不代表对全部历史和外部条件的完整重跑。在线补充材料 1 和 \\texttt{REPRODUCE.md} 说明输入检查、回放模式、输出隔离及验收标准。历史汇总从各自单独保存的输出重新计算。",
+    "after": ""
+  },
+  {
+    "file": "manuscript/manuscript.tex",
+    "before": "Five paths limit the minimum two-sided sign-test value to .0625; these results establish neither statistical equivalence nor absence of loss.",
+    "after": "Five paths limit the minimum two-sided sign-test value to .0625."
+  },
+  {
+    "file": "chinese/manuscript/manuscript_zh.tex",
+    "before": "五条路径使双侧符号检验可达到的最小值限制在 .0625；这些结果既不确立统计等效，也不证明没有损失。",
+    "after": "五条路径使双侧符号检验可达到的最小值限制在 .0625。"
+  },
+  {
+    "file": "manuscript/manuscript.tex",
+    "before": " These are descriptive counts of repeated computations, not independent success trials.",
+    "after": ""
+  },
+  {
+    "file": "chinese/manuscript/manuscript_zh.tex",
+    "before": "这些是对重复计算的描述性计数，不是独立成功试验。",
+    "after": ""
+  },
+  {
+    "file": "manuscript/manuscript.tex",
+    "before": "Online Resource 1 relates this question to the cited studies' stated objectives; it does not infer that an unreported check was absent from every implementation.",
+    "after": "Online Resource 1 compares this question with the cited studies' stated objectives."
+  },
+  {
+    "file": "chinese/manuscript/manuscript_zh.tex",
+    "before": "在线补充材料 1 将这一问题与所引研究明确提出的目标对照，不把未报告某项检查推断为所有实现都没有执行该检查。",
+    "after": "在线补充材料 1 将这一问题与所引研究明确提出的目标对照。"
+  },
+  {
+    "file": "manuscript/manuscript.tex",
+    "before": "Paths repeat computations on a fixed graph, and the networks are not a probability sample of social systems. Each synthetic control uses one fixed graph, so repeated paths do not add graph instances. Conditional Monte Carlo uncertainty concerns fixed selected sets; path variation concerns the computational repetitions, not cross-network generalization. Observed relations provide topology, not calibrated causal diffusion.",
+    "after": "Paths repeat computations on a fixed graph, and each synthetic control uses one graph instance. Conditional Monte Carlo uncertainty concerns fixed selected sets, while path variation describes computational repetitions. The selected networks provide observed topologies for the specified diffusion model."
+  },
+  {
+    "file": "chinese/manuscript/manuscript_zh.tex",
+    "before": "路径是在固定图上重复计算，所用网络也不是社会系统的概率样本。每个合成对照只使用一个固定图，因此，重复路径不会增加图实例数。条件蒙特卡洛不确定性针对固定已选集合；路径变异针对计算重复，而非跨网络泛化。观测关系提供拓扑，并不等于经过校准的因果传播。",
+    "after": "路径是在固定图上的计算重复，每个合成对照使用一个图实例。条件蒙特卡洛不确定性针对固定已选集合，路径变异描述计算重复之间的变化。所选网络为指定传播模型提供观测拓扑。"
+  },
+  {
+    "file": "manuscript/manuscript.tex",
+    "before": "Reference agreement establishes neither optimality with respect to expected spread nor convergence as the world budget increases. A positive mean difference with mixed path signs is not sufficient evidence of superiority, and nonsignificance is not equivalence. The cost comparison uses this implementation's exhaustive full-candidate reference, not CELF or IMM. Measured selection costs and assembled costs including independent evaluation answer different deployment questions. The latter exclude cold-start overhead and are not direct end-to-end timings; tighter-tolerance PageRank is assessed for quality only.",
+    "after": "Reference agreement measures fidelity to the sampled greedy solution. The cost comparison uses this implementation's exhaustive full-candidate reference. Measured selection timings and assembled warm-process costs describe distinct usage scenarios; their components are specified in Methods."
+  },
+  {
+    "file": "chinese/manuscript/manuscript_zh.tex",
+    "before": "参照一致性既不证明相对于期望传播量的最优性，也不证明随世界预算增加而收敛。路径差值正负并存时，正均值不足以确立优势；未显著也不等于等效。成本比较采用本实现逐轮完整枚举的全候选参照，而非 CELF 或 IMM。实测选择成本和包含独立评估的拼接成本回答不同的部署问题。后者排除冷启动开销，并非直接端到端计时；较紧容差的 PageRank 仅用于质量评价。",
+    "after": "参照一致性衡量对采样贪心解的复现程度。成本比较采用本实现逐轮完整枚举的全候选参照。实测选择时间与暖进程拼接成本对应不同使用场景，具体组成见研究方法。"
+  }
+]

@@ -1,0 +1,13 @@
+dataset,method,low_W,high_W,paths,interaction_mean,interaction_path_sd
+ca_grqc,pagerank_4k,80,320,5,0.014720000000000002,0.0686811619004804
+ca_grqc,pagerank_4k,320,1280,5,0.012539999999999999,0.07273512219003966
+ca_grqc,pagerank_5pct,80,320,5,0.0,0.0
+ca_grqc,pagerank_5pct,320,1280,5,0.0,0.0
+college_msg,pagerank_4k,80,320,5,0.0,0.0
+college_msg,pagerank_4k,320,1280,5,0.0,0.0
+college_msg,pagerank_5pct,80,320,5,0.0,0.0
+college_msg,pagerank_5pct,320,1280,5,0.0,0.0
+wiki_vote,pagerank_4k,80,320,5,0.028700000000000003,0.10492328149652964
+wiki_vote,pagerank_4k,320,1280,5,0.026659999999999996,0.11908410053403436
+wiki_vote,pagerank_5pct,80,320,5,-0.041479999999999996,0.11340483675752107
+wiki_vote,pagerank_5pct,320,1280,5,-0.10834000000000002,0.25426808293610115

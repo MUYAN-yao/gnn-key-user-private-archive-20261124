@@ -1,0 +1,114 @@
+{
+  "config": {
+    "seed_count": 2,
+    "horizon": 4,
+    "risk_lambda": 0.35,
+    "community_weight": 0.25,
+    "diffusion_model": "ic",
+    "random_seed": 45,
+    "epochs": 10,
+    "ants": 3,
+    "iterations": 2,
+    "simulations": 20,
+    "train_fraction": 0.7,
+    "optimizer": "robust_greedy",
+    "candidate_pool_size": 120
+  },
+  "reproducibility": {
+    "random_seed": 45,
+    "train_fraction": 0.7,
+    "achieved_outer_train_fraction": 0.6999654636504922,
+    "window_rows": {
+      "history": 20752,
+      "supervised": 5189,
+      "calibration": 6487,
+      "outer_test": 13900
+    },
+    "encoder_history_cutoff": "2012-07-03T03:40:29+00:00",
+    "supervised_cutoff": "2012-07-03T08:15:56+00:00",
+    "calibration_cutoff": "2012-07-03T13:36:40+00:00",
+    "outer_test_start": "2012-07-03T13:36:42+00:00",
+    "evaluation_protocol": "common_random_numbers",
+    "probability_protocol": "v2_t0b_timestamp_grouped_isotonic",
+    "backend": "torch-geometric GATv2"
+  },
+  "result": {
+    "method": "gnn_guided_robust_greedy_v2_t0b",
+    "top_k": [
+      "88",
+      "1988"
+    ],
+    "mean_spread": 5362.5,
+    "spread_std": 122.107,
+    "robust_objective": 5320.263,
+    "community_coverage": 2,
+    "selection_seconds": 9.367
+  },
+  "optimizer_audit": {
+    "gnn_lower_bound_objective": 5186.33,
+    "greedy_improved_over_gnn": true
+  },
+  "baselines": {
+    "degree": {
+      "seeds": [
+        "88",
+        "677"
+      ],
+      "mean_spread": 5223.85,
+      "spread_std": 108.628,
+      "robust_objective": 5186.33,
+      "community_coverage": 2
+    },
+    "pagerank": {
+      "seeds": [
+        "324955",
+        "48344"
+      ],
+      "mean_spread": 2.0,
+      "spread_std": 0.0,
+      "robust_objective": 2.5,
+      "community_coverage": 2
+    },
+    "k_shell": {
+      "seeds": [
+        "100127",
+        "103447"
+      ],
+      "mean_spread": 1939.5,
+      "spread_std": 256.596,
+      "robust_objective": 1849.941,
+      "community_coverage": 1
+    },
+    "gnn_top_k": {
+      "seeds": [
+        "88",
+        "677"
+      ],
+      "mean_spread": 5223.85,
+      "spread_std": 108.628,
+      "robust_objective": 5186.33,
+      "community_coverage": 2
+    },
+    "greedy_mc": {
+      "seeds": [
+        "88",
+        "12751"
+      ],
+      "mean_spread": 4810.4,
+      "spread_std": 106.464,
+      "robust_objective": 4773.638,
+      "community_coverage": 2
+    },
+    "ris_approx": {
+      "seeds": [
+        "1988",
+        "677"
+      ],
+      "mean_spread": 5034.9,
+      "spread_std": 615.109,
+      "robust_objective": 4820.112,
+      "community_coverage": 2
+    }
+  },
+  "runtime_seconds": 2052.401
+}

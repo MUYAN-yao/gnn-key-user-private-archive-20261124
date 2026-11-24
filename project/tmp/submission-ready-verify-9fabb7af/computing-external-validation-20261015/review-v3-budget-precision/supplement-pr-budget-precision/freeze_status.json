@@ -1,0 +1,6 @@
+{
+  "status": "frozen-before-new-utility-inspection",
+  "expected_conditions": 30,
+  "expected_arms": 60,
+  "source_manifest_sha256": "90dacf1742ae2db321514f5092758bfa82d75ffbeaa9cacbd3e82c33378defad"
+}

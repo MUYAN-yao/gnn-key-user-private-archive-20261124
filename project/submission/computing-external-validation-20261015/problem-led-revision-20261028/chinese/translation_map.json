@@ -1,0 +1,422 @@
+{
+  "15": {
+    "english": "\\title{Reference Budgets and Ranking Precision in Candidate-Restricted Influence Maximization}",
+    "chinese": "\\title{候选受限影响力最大化中的参照预算与排名精度}"
+  },
+  "16": {
+    "english": "\\titlerunning{Reference budgets and ranking precision}",
+    "chinese": "\\titlerunning{参照预算与排名精度}"
+  },
+  "19": {
+    "english": "\\institute{Jiayue Sun \\at School of Artificial Intelligence, Lanzhou University, Lanzhou 730000, China",
+    "chinese": "\\institute{Jiayue Sun \\at 兰州大学人工智能学院，中国兰州，730000"
+  },
+  "20": {
+    "english": "\\and Binbin Yong (corresponding author) \\at School of Information Science and Engineering, Lanzhou University, Lanzhou 730000, China \\\\",
+    "chinese": "\\and Binbin Yong（通讯作者）\\at 兰州大学信息科学与工程学院，中国兰州，730000 \\\\"
+  },
+  "22": {
+    "english": "\\and Junjie An, Tianyu Bo and Shuai Li \\at Lanzhou University, Lanzhou, China}",
+    "chinese": "\\and Junjie An, Tianyu Bo 和 Shuai Li \\at 兰州大学，中国兰州}"
+  },
+  "26": {
+    "english": "Candidate restriction can reduce influence-maximization search costs, yet its apparent quality depends on a reference solution that is itself estimated. A measured gain or loss may reflect reference sampling, numerical changes in candidate eligibility, or both. We use paired selection and independent spread evaluation to distinguish these effects by varying reference budget and ranking precision separately. Evidence comes from a small, selected sample of real-world networks: three external topologies, with four small contact graphs providing separate controls. On ca-GrQc, increasing the reference budget changes mean incremental spread from a 5.61\\% gain to a 5.07\\% loss. This reversal disappears in a post-hoc control that tightens PageRank tolerance. Budget-dependent seed changes persist, and reference-set changes have different utility consequences. Across the external networks, degree-based pools reproduce all 15 highest-budget reference trajectories, whereas PageRank losses persist on the two directed networks. These findings identify how numerical choices can alter judgments of candidate restriction. Reporting candidate-pool stability and independently evaluated spread alongside reference agreement makes the basis of a measured quality--cost trade-off explicit.",
+    "chinese": "候选限制能够降低影响力最大化的搜索成本，但其表现需要与一个本身由估计得到的参照解比较。观测到的增益或损失，可能来自参照采样、数值计算引起的候选资格变化，或二者共同作用。本文分别改变参照预算与排名精度，通过配对选择和独立传播评估辨别这些影响。研究基于规模有限、经选择的真实网络样本：三张外部网络用于主要比较，四张小规模接触图提供单独的补充对照。在 ca-GrQc 上，随参照预算增加，平均增量传播量从高于参照 5.61\\% 转为低于参照 5.07\\%。这一反转在收紧 PageRank 容差的事后控制中消失。与预算有关的种子变化仍然存在，而参照集合变化对应的效用变化并不相同。在外部网络上，基于度的候选池复现了最高测试预算下全部 15 条参照轨迹，两个有向网络上的 PageRank 传播损失则仍然存在。这些发现指出了数值选择如何改变对候选限制的质量判断。将候选池稳定性、独立评估的传播量与参照一致性一同报告，能够明确实测质量与成本权衡的依据。"
+  },
+  "27": {
+    "english": "\\keywords{influence maximization \\and Monte Carlo simulation \\and candidate restriction \\and evaluation methodology \\and reproducibility}",
+    "chinese": "\\keywords{影响力最大化 \\and 蒙特卡洛模拟 \\and 候选限制 \\and 评价方法 \\and 可复现性}"
+  },
+  "30": {
+    "english": "\\section{Introduction}",
+    "chinese": "\\section{引言}"
+  },
+  "31": {
+    "english": "Candidate restriction offers a direct way to reduce the search cost of greedy influence maximization by excluding vertices from seed selection. Its practical value depends on the spread retained for the computation saved. Establishing that trade-off is difficult when the full-candidate reference is itself selected from finitely sampled diffusion worlds. The observed difference then compares two computed seed sets, and its interpretation depends on how both were obtained.",
+    "chinese": "候选限制通过排除部分节点的种子资格，直接缩小影响力最大化中贪心搜索的范围。它的实际价值取决于节省计算的同时保留了多少传播收益。当全候选参照本身也是从有限个随机传播世界中选出时，这种权衡便不易判断。此时，观测到的差值来自两个计算所得的种子集合，其含义取决于两个集合各自如何得到。"
+  },
+  "33": {
+    "english": "Reference sampling and candidate ranking enter this comparison at different stages. Increasing the sampling budget can change the full-reference seeds and the measured gap to a restricted method. Ranking precision acts before greedy selection, where small score changes can exchange vertices at the candidate-pool boundary. A change in the apparent quality of a restricted method may therefore depend on either numerical choice. Seed disagreement alone cannot resolve this ambiguity because different sets can have similar independently evaluated spread.",
+    "chinese": "参照采样与候选排名在比较的不同阶段发挥作用。增加采样预算可能改变全候选参照的种子，进而改变受限方法相对参照的差值。排名精度则在贪心选择之前起作用：分数的小幅变化可能使候选池边界处的节点发生替换。因此，受限方法表现的变化可能依赖这两项数值选择中的任意一项。仅凭种子不一致无法辨别这些影响，因为不同集合的独立评估传播量可能相近。"
+  },
+  "35": {
+    "english": "We address this evaluation problem by separating the construction of the reference, the construction of the candidate pool and the assessment of selected seeds. The analysis asks whether an apparent budget effect survives a ranking-precision control and how reference-set changes translate into spread differences. Full and restricted selection share the propagation graph, sampled-world prefix and tie rule (Fig.~\\ref{fig:evaluation-mechanism}). Independent evaluation then measures their paired utility difference. This design makes each comparison explicit while keeping seed eligibility as the only difference between the two selection arms.",
+    "chinese": "针对这一评价问题，本文将参照构建、候选池构建与种子效用评估分开考察。分析关注两个问题：表面上的预算效应能否在排名精度控制后保持，以及参照集合变化对应多大的传播差异。全候选选择与受限选择共享传播图、采样世界前缀和同分规则（图~\\ref{fig:evaluation-mechanism}），再通过独立评估测量二者的配对效用差。这一设计明确了每项比较的依据，并使种子候选资格成为两个选择实验臂之间唯一的差别。"
+  },
+  "37": {
+    "english": "The evidence is drawn from a small, selected sample of real-world networks. Three external communication, collaboration and voting topologies test the transfer of earlier findings from four small contact graphs. The contact-graph results provide separate budget, propagation-parameter and coupling controls. A post-hoc PageRank analysis tests whether the external budget comparison depends on solver tolerance.",
+    "chinese": "研究证据来自数量有限、经选择的真实网络样本。三张通信、合作和投票外部网络用于检验此前在四张小规模接触图上观察到的结果能否迁移。接触图结果单独提供预算、传播参数与耦合方式的对照。事后 PageRank 分析进一步检验外部网络的预算比较是否依赖求解容差。"
+  },
+  "39": {
+    "english": "The main contributions are:",
+    "chinese": "本文的主要贡献如下："
+  },
+  "41": {
+    "english": "\\item[(1)] \\textbf{An apparent budget reversal can depend on ranking precision.} On ca-GrQc, a tighter PageRank tolerance removes the mean gain-to-loss reversal across budgets while seed changes persist. The comparison identifies a numerical dependence that would be missed by interpreting the default budget scan alone.",
+    "chinese": "\\item[(1)] \\textbf{表面上的预算反转可能依赖排名精度。}在 ca-GrQc 上，收紧 PageRank 容差使跨预算的平均增益转损失现象消失，但种子变化仍然存在。这项比较识别出仅解释默认设置下的预算扫描时会遗漏的数值依赖。"
+  },
+  "42": {
+    "english": "\\item[(2)] \\textbf{Reference-set changes need a separate utility assessment.} The external and historical budget comparisons produce set changes with differing spread consequences. Paired independent evaluation quantifies those differences and their conditional uncertainty, so seed disagreement is not used as a proxy for utility loss.",
+    "chinese": "\\item[(2)] \\textbf{参照集合变化需要单独评估其效用。}外部网络与历史预算比较中，集合变化对应的传播差异并不相同。配对独立评估量化这些差异及其条件不确定性，避免用种子不一致代替传播损失的测量。"
+  },
+  "43": {
+    "english": "\\item[(3)] \\textbf{Reference-preserving savings have a defined scope.} Degree-based pools reproduce all 15 highest-budget external trajectories at lower measured selection cost, whereas earlier PageRank agreement does not transfer uniformly. Coverage and direction diagnostics help interpret these differences; the savings apply to the tested exhaustive-selection implementation.",
+    "chinese": "\\item[(3)] \\textbf{保持参照结果的计算节省具有明确范围。}基于度的候选池以更低的实测选择成本复现了最高外部预算下全部 15 条轨迹，而此前的 PageRank 一致性未在所有外部网络上保持。覆盖率与方向诊断帮助解释这些差异；计算节省仅对应所测试的逐轮全枚举选择实现。"
+  },
+  "48": {
+    "english": "\\caption{Paired evaluation separates reference resolution, ranking resolution and restriction quality. (a) The selection budget $W$ and ranking tolerance $\\tau$ determine the finite-world reference and the top-$q$ pool $C(\\tau,q)$. Both arms share the graph, world prefix, seed budget and tie rule. (b) Shared evaluation worlds, independent of selection, yield the utility difference $\\Delta U$. Set agreement $J$ and selection-cost ratio $\\rho_T$ complete the quality--cost comparison.}\\label{fig:evaluation-mechanism}",
+    "chinese": "\\caption{配对评价区分参照分辨率、排名分辨率与候选限制的质量。（a）选择预算 $W$ 与排名容差 $\\tau$ 分别决定有限世界参照和前 $q$ 名候选池 $C(\\tau,q)$。两实验臂共享图、世界前缀、种子预算与同分规则。（b）共享且独立于选择过程的评估世界给出效用差 $\\Delta U$。集合一致性 $J$ 与选择成本比 $\\rho_T$ 共同构成质量与成本比较。}\\label{fig:evaluation-mechanism}"
+  },
+  "51": {
+    "english": "\\section{Related work}",
+    "chinese": "\\section{相关工作}"
+  },
+  "52": {
+    "english": "Kempe et al. connect expected spread under the independent-cascade model to greedy seed selection \\cite{ref1}. CELF reduces repeated marginal evaluations using objective structure \\cite{ref7}; StaticGreedy reuses fixed realizations \\cite{ref8}; IMM provides a sampling-based solver with approximation guarantees \\cite{ref2}. In our comparison, full and restricted selection share one finite-world objective and use exhaustive per-round enumeration; only seed eligibility differs.",
+    "chinese": "Kempe 等将独立级联模型下的期望传播量与贪心种子选择联系起来 \\cite{ref1}。CELF 利用目标函数的结构减少重复的边际收益评价 \\cite{ref7}；StaticGreedy 复用固定的随机实现 \\cite{ref8}；IMM 提供具有近似保证的采样式求解器 \\cite{ref2}。在本文比较中，全候选选择和受限选择共享同一个有限世界目标，并在每轮进行完整枚举；二者仅在种子候选资格上不同。"
+  },
+  "54": {
+    "english": "Rui et al. estimate node influence from multiple neighbourhood levels \\cite{ref12}, while Fan et al. use discrete Harris hawks optimization \\cite{ref13}. Ko et al.'s MONSTOR+ predicts spread on unseen graphs \\cite{ref19}. These approaches change how nodes or seed sets are assessed. Here, a ranking only determines seed eligibility; the simulator and greedy rule remain the same across candidate pools.",
+    "chinese": "Rui 等利用多层邻域信息估计节点影响力 \\cite{ref12}，Fan 等采用离散哈里斯鹰优化 \\cite{ref13}。Ko 等的 MONSTOR+ 预测未见图上的传播量 \\cite{ref19}。这些方法改变了节点或种子集合的评价方式。本文的排名仅决定种子候选资格；不同候选池使用相同的模拟器和贪心规则。"
+  },
+  "56": {
+    "english": "Li et al. survey influence-maximization methods \\cite{ref9}, and Arora et al. benchmark algorithms with attention to model and implementation scope \\cite{ref16}. Yanchenko et al. review temporal-network formulations \\cite{ref11}; Aral and Dhillon study empirical influence models \\cite{ref15}. Our experiments use observed topologies with simulated diffusion. Online Resource 1 compares the cited studies' stated focus with our analysis of reference budget, ranking precision, coverage, seed agreement, independent spread and cost.",
+    "chinese": "Li 等综述了影响力最大化方法 \\cite{ref9}；Arora 等在算法基准比较中关注模型与实现的适用范围 \\cite{ref16}。Yanchenko 等综述了时间网络上的问题形式 \\cite{ref11}；Aral 和 Dhillon 研究了实证影响力模型 \\cite{ref15}。本文在观测拓扑上模拟传播。在线补充材料 1 将所引研究明确提出的研究重点，与本文对参照预算、排名精度、覆盖率、种子一致性、独立传播量和成本的分析进行比较。"
+  },
+  "58": {
+    "english": "The distinction from these studies concerns what an observed quality gap can establish. Solver research addresses the cost of seed selection under a specified objective; ranking research changes how influential vertices are identified. Benchmarking compares implemented methods under stated settings. Here, the reference and candidate pool are themselves numerical components of the comparison. A single budget--tolerance setting cannot reveal whether its quality judgment survives changes to those components. Paired budget and precision controls expose this dependence, while independent evaluation separates changes in selected seeds from changes in spread.",
+    "chinese": "本文与上述研究的区别，在于考察观测到的质量差值能够支持什么判断。求解器研究关注给定目标下的种子选择成本，排名研究改变识别高影响力节点的方式，基准研究则比较指定设置下的方法实现。本文将参照和候选池本身视为比较中的数值计算环节。仅使用一组预算与容差，无法知道改变这些环节后质量判断是否仍然成立。配对预算与精度控制揭示这种依赖，独立评估则区分种子变化与传播量变化。"
+  },
+  "60": {
+    "english": "\\section{Methods}",
+    "chinese": "\\section{研究方法}"
+  },
+  "61": {
+    "english": "\\subsection{Paired selection at controlled resolutions}",
+    "chinese": "\\subsection{控制分辨率的配对选择}"
+  },
+  "62": {
+    "english": "Let $G=(V,E)$ be a directed propagation graph and $S$ a seed set of size $k$. Under the independent-cascade model, each newly activated vertex gets one opportunity to activate each inactive outgoing neighbour with probability $p$. Propagation stops after $h$ rounds. For a random world $\\omega$, let $f_h(S;\\omega)$ denote total activated vertices, including seeds. Greedy selection uses the sampled objective",
+    "chinese": "设 $G=(V,E)$ 为有向传播图，$S$ 为大小为 $k$ 的种子集合。在独立级联模型中，每个新激活节点都有一次机会，以概率 $p$ 激活其每个尚未激活的出向邻居。传播在 $h$ 轮后停止。对随机世界 $\\omega$，用 $f_h(S;\\omega)$ 表示包括种子在内的激活节点总数。贪心选择采用以下采样目标："
+  },
+  "66": {
+    "english": "At each round, greedy selection enumerates every unselected eligible vertex and chooses the largest integer total $W\\widehat\\sigma_W$. Ties resolve by lexicographic original node ID. Full selection uses $C=V$; restricted selection uses $C\\subseteq V$. All vertices remain in the propagation graph. A path identifies one computational repetition and its random-world families. A condition fixes the graph, path and experimental settings; an arm specifies a seed-eligibility rule within that condition. Full and restricted arms share $G$, the world prefix, $k$ and the tie rule.",
+    "chinese": "每轮贪心选择枚举所有尚未选中的合资格节点，并选择整数总分 $W\\widehat\\sigma_W$ 最大的节点。同分时按原始节点 ID 的字典序处理。全候选选择采用 $C=V$，受限选择采用 $C\\subseteq V$；所有节点均保留在传播图中。一条随机路径标识一次计算重复及其随机世界族；一个实验条件固定图、路径和实验设置；一个实验臂规定该条件下的种子候选资格规则。全候选臂和受限臂共享 $G$、世界前缀、$k$ 与同分规则。"
+  },
+  "68": {
+    "english": "We vary reference resolution through $W$ and ranking resolution through the numerical tolerance $\\tau$. Degree ranks distinct outgoing neighbours. PageRank uses the unweighted directed topology and NetworkX 3.5 defaults: damping .85, uniform personalization and dangling-node treatment, tolerance $10^{-6}$ and at most 100 iterations \\cite{networkxpr}. Its stopping criterion is successive-vector $L_1$ change below $n\\tau$, where $n=|V|$. Scores are sorted decreasingly with lexical ties. A top-$q$ pool contains $q=\\min(n,4k)$ or $q=\\lceil .05n\\rceil$ vertices. Historical weighted degree counts outgoing observed events where such counts exist. Three random pools are independently generated within each graph/path and fixed across budgets and coupling controls.",
+    "chinese": "我们通过 $W$ 改变参照分辨率，通过数值容差 $\\tau$ 改变排名分辨率。Degree 按不同出向邻居的数量排名。PageRank 使用无权有向拓扑及 NetworkX 3.5 的默认设置：阻尼系数 .85、均匀的个性化分布和悬挂节点处理、容差 $10^{-6}$，最多迭代 100 次 \\cite{networkxpr}。其停止条件为相邻两次向量的 $L_1$ 变化小于 $n\\tau$，其中 $n=|V|$。分数按降序排列，同分时采用字典序。前 $q$ 名候选池包含 $q=\\min(n,4k)$ 或 $q=\\lceil .05n\\rceil$ 个节点。在存在事件计数的网络中，历史加权度统计观测到的出向事件数。每个图与路径组合独立生成三个随机候选池，并在不同预算与耦合对照之间保持不变。"
+  },
+  "70": {
+    "english": "\\subsection{World coupling and independent evaluation}\\label{sec:coupling}",
+    "chinese": "\\subsection{世界耦合与独立评估}\\label{sec:coupling}"
+  },
+  "71": {
+    "english": "Primary selection worlds share draws indexed by world, propagation step, source and target. This coupling preserves the independent-cascade marginal law for each fixed seed set, but the realized finite-world objective can be nonmonotone. For example, initially activating an intermediate vertex can move its outgoing attempt to an earlier step with a different sampled outcome. Online Resource 1 gives the explicit counterexample. A separate fixed-edge control draws once per edge and world; its finite objective is coverage by vertices reachable within $h$ edges and is monotone and submodular. Both implementations use exhaustive enumeration.",
+    "chinese": "主要选择世界共享以世界、传播步、源节点和目标节点为索引的随机抽样。对每个固定种子集合，这种耦合保留独立级联模型的边际分布，但实现后的有限世界目标可能不具单调性。例如，将某个中间节点设为初始激活节点，可能使其出向激活尝试提前到具有不同采样结果的传播步。在线补充材料 1 给出了明确反例。另设的固定边对照对每条边在每个世界中只抽样一次，其有限目标是各世界中沿至多 $h$ 条边可达的节点覆盖量，具有单调性和次模性。两种实现均使用完整枚举。"
+  },
+  "73": {
+    "english": "Selection-world identifiers form nested prefixes as $W$ increases. Evaluation uses a disjoint family of $M=10,000$ worlds per path, shared by all seed sets and held fixed across budgets. Keys also separate graphs, paths and candidate-pool randomization. Coupling schemes are compared within their own full references.",
+    "chinese": "随着 $W$ 增大，选择世界标识符形成嵌套前缀。每条路径的评估使用独立且不与选择世界重叠的 $M=10,000$ 个世界；所有种子集合共享这些评估世界，并在不同预算下保持不变。随机键也将不同图、路径以及候选池随机化彼此区分。每种耦合方式下的方法均与该耦合方式自身的全候选参照比较。"
+  },
+  "75": {
+    "english": "For restricted seeds $S_C$ and full-reference seeds $S_F$, define the paired evaluation difference on world $i$ as $d_i=f_h(S_C;\\eta_i)-f_h(S_F;\\eta_i)$. The utility gap in Fig.~\\ref{fig:evaluation-mechanism} is",
+    "chinese": "对受限种子 $S_C$ 和全候选参照种子 $S_F$，定义世界 $i$ 上的配对评估差为 $d_i=f_h(S_C;\\eta_i)-f_h(S_F;\\eta_i)$。图~\\ref{fig:evaluation-mechanism} 中的效用差为"
+  },
+  "80": {
+    "english": "The interval $\\widehat\\Delta\\pm1.96\\operatorname{SE}_{\\rm MC}$ describes conditional Monte Carlo uncertainty for fixed selected sets. Across-path standard deviation describes variation across computational paths, including finite evaluation noise. The three random-pool evaluation vectors are averaged within each path before either calculation.",
+    "chinese": "区间 $\\widehat\\Delta\\pm1.96\\operatorname{SE}_{\\rm MC}$ 描述给定已选集合时的条件蒙特卡洛不确定性。路径间标准差描述不同计算路径之间的变异，其中也包含有限评估带来的噪声。在进行上述任一种计算之前，先在每条路径内对三个随机池的评估向量取平均。"
+  },
+  "82": {
+    "english": "We report ordered-trajectory agreement, final-set agreement, Jaccard similarity and the first divergent round. Incremental spread subtracts $k$ from total spread; percentage incremental loss is $-100\\widehat\\Delta/(\\widehat\\sigma_{\\rm full}-k)$. Negative loss favors the restricted set. All observed denominators are positive.",
+    "chinese": "我们报告有序轨迹一致性、最终集合一致性、Jaccard 相似度和首次分歧轮次。增量传播量为总传播量减去 $k$；增量传播损失百分比为 $-100\\widehat\\Delta/(\\widehat\\sigma_{\\rm full}-k)$。负损失表示受限集合的评估结果更高。所有观测分母均为正。"
+  },
+  "84": {
+    "english": "The frozen primary tests compare Degree-4k, PageRank-4k and the within-path random mean with full selection at $W=1280$. Each comparison uses a two-sided exact sign test; Holm correction covers the three comparisons within each graph. Zero differences are excluded from the tests and reported separately. Coverage, coupling and transition analyses are descriptive; worlds and paths are not independent network samples.",
+    "chinese": "冻结的主要检验在 $W=1280$ 时，将 Degree-4k、PageRank-4k 和路径内随机池均值分别与全候选选择比较。每项比较采用双侧精确符号检验；Holm 校正在每个图内覆盖这三项比较。零差值不纳入检验，并单独报告。覆盖率、耦合和预算转移分析均为描述性分析；世界与路径都不是独立的网络样本。"
+  },
+  "86": {
+    "english": "\\subsection{Implementation and cost measurement}",
+    "chinese": "\\subsection{实现与成本测量}"
+  },
+  "87": {
+    "english": "The Numba implementation stores candidate IDs, selected sequences, integer round totals and per-world evaluation values. The archived audits reconstruct argmax and tie decisions, replay external full-reference scores and evaluations, and compare predetermined worlds with a separate scalar oracle. Identical seed sets must yield identical evaluation vectors. Online Resource 1 details the audit coverage, the retrospective correction to raw-file hash enforcement and the executable reproduction procedure.\\footnote{OpenAI Codex assisted code, verification, analysis, figure generation and drafting. The authors reviewed the outputs and take responsibility for the manuscript.}",
+    "chinese": "Numba 实现保存候选节点 ID、已选序列、各轮整数总分和逐世界评估值。归档审计重建最大值选择及同分决策，回放外部全候选参照的分数和评估，并在预先指定的世界上与独立的标量参考实现比较。相同种子集合必须产生相同的评估向量。在线补充材料 1 详细说明审计覆盖范围、对原始文件哈希强制校验缺口的回溯修正，以及可执行的复现流程。\\footnote{OpenAI Codex 协助代码、核验、分析、图形生成与文稿起草。作者审核了输出，并对稿件承担责任。}"
+  },
+  "89": {
+    "english": "Selection time includes greedy search and lexical candidate sorting, but excludes graph preparation, world generation and evaluation. We also estimate the cost of a warm-process run that includes independent evaluation. Separately measured parsing, graph construction and one method's ranking/pool generation are added to the recorded costs of selection-world preparation, seed selection, evaluation-world preparation and evaluation. Setup uses the median of five repeats. These assembled estimates exclude imports, just-in-time compilation, downloads and output writing.",
+    "chinese": "选择时间包括贪心搜索和候选节点的字典序排序，但不包括图准备、世界生成和评估。我们还估计包含独立评估的暖进程运行成本：将单独测量的解析、建图以及一个方法的排名和候选池生成成本，与记录的选择世界准备、种子选择、评估世界准备及评估成本相加。准备阶段采用五次重复的中位数。上述分项拼接估计不包括导入、即时编译、下载和输出写入。"
+  },
+  "91": {
+    "english": "Five randomized repeats at path 1101 and $W=320$ assess timing variability. Cost comparisons use this implementation's exhaustive full-candidate reference. Results at the tighter PageRank tolerance are used only for quality sensitivity; the timing comparison uses default tolerance.",
+    "chinese": "在路径 1101、$W=320$ 下进行五次随机顺序的重复计时，以评估时间变异。成本比较采用本实现逐轮完整枚举的全候选参照。较紧 PageRank 容差的结果仅用于质量敏感性分析；计时比较采用默认容差。"
+  },
+  "93": {
+    "english": "\\section{Experimental setup}",
+    "chinese": "\\section{实验设置}"
+  },
+  "94": {
+    "english": "\\subsection{Networks and preprocessing}",
+    "chinese": "\\subsection{网络与预处理}"
+  },
+  "95": {
+    "english": "We selected three larger SNAP topologies before inspecting seed sets or utilities \\cite{snap}: CollegeMsg communication, ca-GrQc collaboration and wiki-Vote voting. Table~\\ref{tab:data} reports the processed sizes and candidate coverage. All retained components are included.",
+    "chinese": "我们在查看种子集合或效用之前，选定三个较大的 SNAP 拓扑 \\cite{snap}：CollegeMsg 通信网络、ca-GrQc 合作网络和 wiki-Vote 投票网络。表~\\ref{tab:data} 给出处理后的规模与候选覆盖率。所有保留的连通分量均纳入实验。"
+  },
+  "97": {
+    "english": "\\caption{Processed external networks and candidate coverage. Arcs are directed propagation arcs; the 5\\% pool contains $\\lceil .05n\\rceil$ vertices.}\\label{tab:data}",
+    "chinese": "\\caption{处理后的外部网络与候选覆盖率。弧指有向传播弧；5\\% 候选池包含 $\\lceil .05n\\rceil$ 个节点。}\\label{tab:data}"
+  },
+  "100": {
+    "english": "Graph & Nodes & Arcs & 4k fraction & 5\\% pool \\\\",
+    "chinese": "网络 & 节点数 & 弧数 & 4k 占比 & 5\\% 池大小 \\\\"
+  },
+  "109": {
+    "english": "CollegeMsg records timestamped sender-to-receiver messages \\cite{college}. We sort its 58,911 distinct timestamps, retain the first $\\lfloor .65\\times58,911\\rfloor=38,292$ complete groups, and include events through Unix timestamp 1085640224. Removing self-messages leaves 38,939 events. Repeated sender--receiver pairs contribute to historical outgoing-message counts but form a single propagation arc. Propagation uses uniform $p$, independently of the message count; later events are not used for candidate construction or treated as observed influence outcomes.",
+    "chinese": "CollegeMsg 记录带时间戳的发送者至接收者消息 \\cite{college}。我们对 58,911 个不同时间戳排序，保留前 $\\lfloor .65\\times58,911\\rfloor=38,292$ 个完整时间戳组，纳入截至 Unix 时间戳 1085640224 的事件。去除发给自身的消息后，剩余 38,939 个事件。重复的发送者--接收者对计入历史出向消息数，但在传播图中仅形成一条弧。传播采用统一概率 $p$，不依赖消息次数；后续事件既不用于构建候选池，也不作为观测到的影响力传播结果。"
+  },
+  "111": {
+    "english": "ca-GrQc links coauthors \\cite{grqc}; we remove self-loops, deduplicate pairs and create reciprocal arcs. Vertices are collected after loop removal, excluding the self-loop-only vertex 12295 and giving 5,241 rather than the source page's 5,242 vertices. wiki-Vote arcs run from voter to votee \\cite{signed,links}; self-loops and duplicate arcs are removed without reversing the remaining arcs. Outgoing diffusion on these arcs is a simulation assumption. The two static datasets supply neither event counts nor observed cascades and receive no historical-weighted ranking. We retain all weak components: 2 in CollegeMsg, 354 in ca-GrQc and 24 in wiki-Vote. No largest-component extraction or node subsampling is applied. Original IDs are stored as strings and sorted lexicographically for graph indexing, ranking ties and greedy ties. Raw-file and processed-graph hashes are supplied in the data manifest.",
+    "chinese": "ca-GrQc 的边连接共同作者 \\cite{grqc}；我们去除自环、对节点对去重，并建立双向弧。在移除自环后收集节点，因此排除了仅出现在自环中的节点 12295，得到 5,241 个节点，而非数据源页面的 5,242 个。wiki-Vote 的弧从投票者指向被投票者 \\cite{signed,links}；去除自环与重复弧，不反转其余弧的方向。沿这些弧进行出向传播是模拟假设。两个静态数据集既不提供事件次数，也不提供观测级联，因此不采用历史加权排名。我们保留所有弱连通分量：CollegeMsg 为 2 个，ca-GrQc 为 354 个，wiki-Vote 为 24 个。不提取最大连通分量，也不对子节点集采样。原始 ID 以字符串保存，图索引、排名同分和贪心同分均按字典序处理。数据清单提供原始文件和预处理图的哈希。"
+  },
+  "113": {
+    "english": "Historical context comes from four contact-derived graphs with 75--402 vertices, constructed from workplace, conference and rural Kenya data \\cite{ref3,ref4,ref5,ref6}. We distinguish four evidence layers: the initial 42-condition study; a 520-condition historical extension; the external matrix below; and its post-hoc PageRank precision control. The extension uses ten paths per contact graph and adds a budget scan up to $W=5120$, four local changes to $(p,h)$, fixed-edge sampling, a larger seed budget, and two fixed 2,000-node synthetic instances \\cite{ref17,ref18}. The parameter controls reuse the default budget-scan conditions rather than counting them again. Online Resource 1 reports the complete coverage and descriptive results separately; these small-graph controls do not enlarge the external network sample.",
+    "chinese": "历史背景来自四个含 75--402 个节点的接触图，分别由工作场所、会议和肯尼亚乡村接触数据构建 \\cite{ref3,ref4,ref5,ref6}。我们区分四层证据：最初的 42 条件研究、520 条件历史扩展、下述外部实验矩阵，以及事后 PageRank 精度控制。历史扩展在每张接触图上使用十条路径，增加了最高至 $W=5120$ 的预算扫描、四种对 $(p,h)$ 的局部调整、固定边采样、更大的种子预算，以及两个固定的 2,000 节点合成实例 \\cite{ref17,ref18}。参数对照复用预算扫描中的默认条件，不重复计数。在线补充材料 1 单独报告完整实验覆盖与描述性结果；这些小图对照不会增加外部网络样本量。"
+  },
+  "115": {
+    "english": "\\subsection{Primary matrix and numerical sensitivity control}",
+    "chinese": "\\subsection{主要实验矩阵与数值敏感性控制}"
+  },
+  "116": {
+    "english": "Table~\\ref{tab:settings} specifies the external design. Here, conditions vary graph, path, selection budget and coupling; the remaining propagation settings are fixed. Three graphs, five paths and three selection budgets define 45 primary conditions. Nine fixed-edge conditions provide a matched coupling control. Every condition includes full selection, Degree-4k, PageRank-4k, Degree-5\\%, PageRank-5\\% and three random-4k pools; CollegeMsg also includes Weighted-4k and Weighted-5\\% pools based on outgoing message counts. This gives 18 conditions per graph, with 10 arms for CollegeMsg and 8 for each static graph: $18(10+8+8)=468$ arms. All 54 conditions were completed and retained.",
+    "chinese": "表~\\ref{tab:settings} 给出外部研究设计。实验条件改变图、路径、选择预算与耦合方式，其余传播设置固定。三个图、五条路径和三个选择预算构成 45 个主要条件，另有九个固定边条件作为匹配的耦合对照。每个条件均包括全候选选择、Degree-4k、PageRank-4k、Degree-5\\%、PageRank-5\\% 以及三个 random-4k 池；CollegeMsg 还包括按出向消息次数构建的 Weighted-4k 和 Weighted-5\\% 池。因此，每个图有 18 个条件，CollegeMsg 每条件有 10 个实验臂，两个静态图各有 8 个，共 $18(10+8+8)=468$ 个实验臂。全部 54 个条件均已完成并保留。"
+  },
+  "119": {
+    "english": "\\caption{External experiment settings. Paths identify computational repetitions, not additional networks.}\\label{tab:settings}",
+    "chinese": "\\caption{外部实验设置。路径标识计算重复，不代表新增网络。}\\label{tab:settings}"
+  },
+  "122": {
+    "english": "Quantity & Setting \\\\",
+    "chinese": "项目 & 设置 \\\\"
+  },
+  "124": {
+    "english": "Diffusion & Independent cascade; uniform $p=0.01$; horizon $h=3$; $k=5$ seeds \\\\",
+    "chinese": "传播 & 独立级联；统一 $p=0.01$；传播期限 $h=3$；$k=5$ 个种子 \\\\"
+  },
+  "125": {
+    "english": "Primary selection & Step coupling; $W\\in\\{80,320,1280\\}$; paths 1101--1105 \\\\",
+    "chinese": "主要选择 & 按步耦合；$W\\in\\{80,320,1280\\}$；路径 1101--1105 \\\\"
+  },
+  "126": {
+    "english": "Independent evaluation & $M=10,000$ worlds per graph/path/coupling, shared across arms and budgets \\\\",
+    "chinese": "独立评估 & 每个图/路径/耦合组合使用 $M=10,000$ 个世界；实验臂与预算之间共享 \\\\"
+  },
+  "127": {
+    "english": "Candidate sizes & $4k=20$; alternatively $\\lceil0.05n\\rceil$; three random pools of size 20 per path \\\\",
+    "chinese": "候选池大小 & $4k=20$；另一设置为 $\\lceil0.05n\\rceil$；每条路径有三个大小为 20 的随机池 \\\\"
+  },
+  "128": {
+    "english": "Coupling control & Fixed edge; $W=320$; paths 1101--1103 \\\\",
+    "chinese": "耦合对照 & 固定边；$W=320$；路径 1101--1103 \\\\"
+  },
+  "129": {
+    "english": "Default PageRank & Damping 0.85; $\\tau=10^{-6}$; at most 100 iterations \\\\",
+    "chinese": "默认 PageRank & 阻尼系数 0.85；$\\tau=10^{-6}$；最多迭代 100 次 \\\\"
+  },
+  "130": {
+    "english": "Precision control & $\\tau=10^{-12}$; at most 1,000 iterations; pool stability checked at $10^{-14}$ \\\\",
+    "chinese": "精度控制 & $\\tau=10^{-12}$；最多迭代 1,000 次；在 $10^{-14}$ 下检查池成员稳定性 \\\\"
+  },
+  "131": {
+    "english": "Repeated timing & Five repeats per arm; path 1101, $W=320$; randomized arm order \\\\",
+    "chinese": "重复计时 & 每个实验臂重复五次；路径 1101，$W=320$；实验臂顺序随机化 \\\\"
+  },
+  "136": {
+    "english": "The seed budget and propagation setting are held constant to isolate reference budget, eligibility and coupling. They define a finite-horizon simulation regime rather than parameters fitted to observed cascades. Resource-only preflight measured full selection at $W=80,320$ and evaluation at $M=1000$; it recorded no selected sets or utilities. Those measurements informed the feasible main matrix, whose evaluation budget is $M=10,000$. The protocol was locally frozen before main outcomes were inspected. No network or condition was excluded on the basis of its results. The external budget ceiling is 1280; the historical 5120-world study is reported separately.",
+    "chinese": "种子预算和传播设置保持固定，以单独考察参照预算、候选资格和耦合方式。它们定义了一个有限传播期限的模拟情境，而不是根据观测级联拟合得到的参数。仅测资源的预检测量了 $W=80,320$ 下的全候选选择和 $M=1000$ 下的评估，未记录已选集合或效用。这些测量用于确定可执行的主要矩阵，其评估预算为 $M=10,000$。协议在查看主要结果前于本地冻结。没有因结果而排除任何网络或条件。外部研究的预算上限为 1280；历史 5120 世界研究单独报告。"
+  },
+  "138": {
+    "english": "A post-hoc numerical control tightens PageRank tolerance to $10^{-12}$ with at most 1,000 iterations. Its two protocols were frozen before the corresponding new utility outputs: the first covers $W=1280$, and the second adds $W=80,320$. Together they contain 45 conditions and 90 restricted arms, reusing the original five paths, full references and evaluation worlds. All pools at the tighter tolerance agree in membership with those at $10^{-14}$. This checks candidate membership stability at the tested tolerances, not exact convergence of the PageRank vector. The paired sensitivity analysis adds no independent paths and leaves the primary test family unchanged.",
+    "chinese": "事后数值控制将 PageRank 容差收紧至 $10^{-12}$，最多迭代 1,000 次。两份协议均在查看各自新增效用输出前冻结：第一份覆盖 $W=1280$，第二份增加 $W=80,320$。合计包含 45 个条件、90 个受限实验臂，复用原五条路径、全候选参照与评估世界。所有较紧容差下的候选池都与 $10^{-14}$ 下的池成员一致。这检验的是所测容差下的候选成员稳定性，而不是 PageRank 向量的精确收敛。该配对敏感性分析不增加独立路径，也不改变主要检验族。"
+  },
+  "140": {
+    "english": "\\subsection{Randomization, execution and reproducibility}",
+    "chinese": "\\subsection{随机化、执行与可复现性}"
+  },
+  "141": {
+    "english": "World identifiers separate graphs, paths and selection/evaluation families. Increasing $W$ appends selection worlds without resampling the prefix; the selection and evaluation identifiers are checked for overlap. Random candidate pools use a separate randomization key and remain fixed across budgets and coupling controls. Online Resource 1, ``Executable reproduction procedure'', specifies the exact hash keys, identifier construction and hash-to-draw mapping.",
+    "chinese": "世界标识符区分不同图、路径以及选择/评估世界族。增大 $W$ 只追加选择世界，不重新采样已有前缀；同时检查选择与评估标识符是否重叠。随机候选池采用单独的随机化键，并在不同预算和耦合对照间保持固定。在线补充材料 1 的“可执行复现流程”给出了精确哈希键、标识符构造和哈希值到随机抽样的映射。"
+  },
+  "143": {
+    "english": "Experiments use one serial worker on Windows with Python 3.13.0, NumPy 2.3.3, NetworkX 3.5, SciPy 1.16.1 and Numba 0.68.0. BLAS/OpenMP threads are constrained to one. JIT warm-up precedes timed conditions; randomized arm order reduces systematic order effects. The recorded host has 20 physical CPU cores and approximately 32 GiB RAM, although the implementation does not use all cores. Timing and process peak-memory records accompany each condition. Exact wall times are machine-dependent.",
+    "chinese": "实验在 Windows 上使用单个串行工作进程，环境包括 Python 3.13.0、NumPy 2.3.3、NetworkX 3.5、SciPy 1.16.1 和 Numba 0.68.0。BLAS/OpenMP 线程数均限制为一。计时条件执行前完成 JIT 预热；随机化实验臂顺序以减少系统性顺序效应。记录的主机具有 20 个物理 CPU 核心和约 32 GiB 内存，但实现并未使用全部核心。每个条件都保存计时和进程峰值内存记录。实际墙钟时间取决于机器。"
+  },
+  "145": {
+    "english": "The archived reproduction record covers stored-result audits, analysis regeneration and representative external-condition reruns; it does not document a complete rerun of all historical and external conditions. Online Resource 1 and \\texttt{REPRODUCE.md} specify the input checks, replay modes, output isolation and acceptance criteria. Historical summaries are recomputed from their separate saved outputs.",
+    "chinese": "归档复现记录覆盖保存结果审计、分析再生成，以及代表性外部条件重跑；它不代表对全部历史和外部条件的完整重跑。在线补充材料 1 和 \\texttt{REPRODUCE.md} 说明输入检查、回放模式、输出隔离及验收标准。历史汇总从各自单独保存的输出重新计算。"
+  },
+  "147": {
+    "english": "\\section{Results}",
+    "chinese": "\\section{研究结果}"
+  },
+  "148": {
+    "english": "\\subsection{An apparent budget reversal depends on ranking precision}",
+    "chinese": "\\subsection{表面上的预算反转依赖排名精度}"
+  },
+  "149": {
+    "english": "Figure~\\ref{fig:precision-budget} compares PageRank at default and tighter tolerances at each selection budget, using the same full reference and independent evaluation worlds. On ca-GrQc, default PageRank-4k changes from a mean incremental-spread gain of 5.61\\% at $W=80$ to losses of 2.53\\% and 5.07\\% at 320 and 1280. Tightening tolerance exchanges two of 20 candidates and yields gains of 11.25\\%, 2.96\\% and 0.54\\%. The mean gain-to-loss reversal therefore disappears in this numerical control.",
+    "chinese": "图~\\ref{fig:precision-budget} 在每个选择预算下，使用相同全候选参照和独立评估世界，比较默认与较紧容差的 PageRank。在 ca-GrQc 上，默认 PageRank-4k 从 $W=80$ 时平均增量传播量高于参照 5.61\\%，转为在 320 和 1280 时分别低于参照 2.53\\% 和 5.07\\%。收紧容差替换了 20 个候选节点中的两个，此时三个预算下的增益分别为 11.25\\%、2.96\\% 和 0.54\\%。因此，平均增益转损失的反转在该数值控制下消失。"
+  },
+  "151": {
+    "english": "Budget still changes selections with the pool formed at the tighter tolerance, whose membership agrees at tolerances $10^{-12}$ and $10^{-14}$. Its selected sets change on 3/5 paths from 80 to 320 and 2/5 from 320 to 1280. At $W=1280$, PageRank-4k at the tighter tolerance minus the same-budget full reference has a mean paired difference of $+0.02608$ nodes, with path values from $-0.0408$ to $+0.1789$ and path standard deviation 0.09155. The positive mean includes both gains and losses across paths; it does not by itself establish a utility advantage. Conditional Monte Carlo uncertainty is reported separately in the per-path supplementary results.",
+    "chinese": "在较紧容差构建的候选池下，预算仍会改变选择结果；该池在容差 $10^{-12}$ 和 $10^{-14}$ 下的成员一致。预算从 80 增至 320 时，3/5 条路径的所选集合发生变化；从 320 增至 1280 时，2/5 条路径发生变化。在 $W=1280$ 时，较紧容差的 PageRank-4k 相对同预算全候选参照的平均配对差为 $+0.02608$ 个节点，路径值范围为 $-0.0408$ 至 $+0.1789$，路径标准差为 0.09155。正均值同时包含不同路径上的增益和损失，不能单独据此确立效用优势。补充材料的逐路径结果另行报告条件蒙特卡洛不确定性。"
+  },
+  "153": {
+    "english": "CollegeMsg's default- and tighter-tolerance pools, seeds and evaluations are identical at every budget, retaining losses of 9.33\\%, 8.52\\% and 9.01\\%. On wiki-Vote, one candidate changes, but losses at the tighter tolerance remain 74.05\\%, 74.05\\% and 73.96\\%. Precision sensitivity is therefore network-specific: it changes the ca-GrQc interpretation while preserving the two directed-network losses.",
+    "chinese": "CollegeMsg 在每个预算下的默认容差与较紧容差候选池、种子和评估结果均相同，损失仍为 9.33\\%、8.52\\% 和 9.01\\%。wiki-Vote 有一个候选节点发生变化，但较紧容差下的损失仍为 74.05\\%、74.05\\% 和 73.96\\%。因此，精度敏感性依网络而异：它改变了对 ca-GrQc 的解释，但两个有向网络上的损失仍保留。"
+  },
+  "156": {
+    "english": "\\caption{Budget and ranking precision have distinct effects on candidate-restriction quality. Points are mean incremental losses over five paired paths; bars are path standard deviations. The plotted labels Default and Strict denote tolerances $10^{-6}$ and $10^{-12}$; candidate membership is unchanged between $10^{-12}$ and $10^{-14}$. Negative loss favors the restricted set. The ca-GrQc default reversal disappears with the tighter PageRank tolerance, while the directed-network losses persist. This is a post-hoc paired sensitivity analysis.}\\label{fig:precision-budget}",
+    "chinese": "\\caption{预算与排名精度对候选限制质量产生不同影响。点为五条配对路径的平均增量传播损失，误差线为路径标准差。图中的 Default 和 Strict 分别表示容差 $10^{-6}$ 和 $10^{-12}$；候选成员在 $10^{-12}$ 与 $10^{-14}$ 间保持不变。负损失表示受限集合的评估结果更高。收紧 PageRank 容差后，ca-GrQc 的默认反转消失，而有向网络上的损失仍存在。这是事后配对敏感性分析。}\\label{fig:precision-budget}"
+  },
+  "159": {
+    "english": "\\subsection{Changing the reference set does not determine the spread change}",
+    "chinese": "\\subsection{参照集合变化不能决定传播量变化}"
+  },
+  "160": {
+    "english": "Figure~\\ref{fig:transitions} compares reference-set changes with independent utility changes. From $W=320$ to 1280, all five ca-GrQc sets change, but their mean gain is 0.12720 nodes; individual differences range from $-0.0266$ to $+0.2411$. CollegeMsg changes one set and gains 0.05336 nodes averaged across all five paths. wiki-Vote changes no final sets and has exactly zero paired gain, although some ordered sequences change.",
+    "chinese": "图~\\ref{fig:transitions} 比较参照集合变化与独立效用变化。预算从 $W=320$ 增至 1280 时，ca-GrQc 的全部五个集合均变化，平均增益为 0.12720 个节点；各路径差值为 $-0.0266$ 至 $+0.2411$。CollegeMsg 有一个集合变化，在全部五条路径上平均增加 0.05336 个节点。wiki-Vote 的最终集合均未变化，配对增益严格为零，尽管部分有序选择序列发生了变化。"
+  },
+  "162": {
+    "english": "Of the six changed sets, four have positive pointwise 95\\% conditional Monte Carlo intervals; two ca-GrQc intervals include zero. The nine unchanged sets have identical evaluation vectors.",
+    "chinese": "六个发生变化的集合中，四个的逐点 95\\% 条件蒙特卡洛区间完全位于零以上；ca-GrQc 的另两个区间包含零。九个未变化集合的评估向量完全相同。"
+  },
+  "164": {
+    "english": "In the historical step-coupled comparison from $W=1280$ to 5120, 16/40 sets changed while the mean high-minus-low budget gain was 0.01111 nodes (range $-0.0383$ to $+0.1180$). Historical fixed-edge references also change: from $W=320$ to 1280, 29/40 sets changed, with mean high-minus-low budget gain 0.061845 nodes (range $-0.0110$ to $+0.2572$). Each transition uses a shared evaluation family within its own coupling. Because the two budget intervals differ, their mean gains do not estimate a coupling effect.",
+    "chinese": "在历史按步耦合比较中，预算从 $W=1280$ 增至 5120 时，16/40 个集合发生变化，高预算减低预算的平均增益为 0.01111 个节点，范围为 $-0.0383$ 至 $+0.1180$。历史固定边参照也发生变化：从 $W=320$ 增至 1280 时，29/40 个集合变化，平均高减低预算增益为 0.061845 个节点，范围为 $-0.0110$ 至 $+0.2572$。每项预算转移均在自身耦合方式内使用共享的评估世界族。由于两项比较的预算区间不同，不能用其平均增益估计耦合效应。"
+  },
+  "167": {
+    "english": "\\caption{Reference-set changes and independent spread changes. Filled circles denote changed final sets; hollow squares denote unchanged sets. Paths 1101--1105 run from left to right within each graph. Bars are unadjusted 95\\% conditional Monte Carlo intervals from 10,000 paired worlds. Panel-specific vertical scales reveal small changes; the intervals condition on selected sets and do not describe variation across networks.}\\label{fig:transitions}",
+    "chinese": "\\caption{参照集合变化与独立传播量变化。实心圆表示最终集合变化，空心方块表示集合未变。每个图内，路径 1101--1105 从左至右排列。误差线为根据 10,000 个配对世界计算的未经校正的 95\\% 条件蒙特卡洛区间。各面板采用不同纵轴尺度，以显示较小的变化；区间以已选集合为条件，不描述网络间变异。}\\label{fig:transitions}"
+  },
+  "170": {
+    "english": "\\subsection{Ranking agreement depends on coverage and network context}",
+    "chinese": "\\subsection{排名一致性受覆盖率与网络背景限定}"
+  },
+  "171": {
+    "english": "At $W=1280$, Degree-4k reproduces every full-candidate reference trajectory across the three external graphs using only 20 candidates (Table~\\ref{tab:primary}). Default PageRank-4k matches none and incurs mean incremental losses of \\GrqcPRLoss{}\\%, \\CollegePRLoss{}\\% and \\WikiPRLoss{}\\% on ca-GrQc, CollegeMsg and wiki-Vote. The historical extension showed much broader PageRank agreement: 40/40 trajectories at $W=5120$, compared with 39/40 for degree. The external results therefore limit transfer of the contact-graph ranking result.",
+    "chinese": "在 $W=1280$ 时，Degree-4k 仅用 20 个候选节点便复现了三个外部图上的全部全候选参照轨迹（表~\\ref{tab:primary}）。默认 PageRank-4k 未匹配任何轨迹，在 ca-GrQc、CollegeMsg 和 wiki-Vote 上的平均增量传播损失分别为 \\GrqcPRLoss{}\\%、\\CollegePRLoss{}\\% 和 \\WikiPRLoss{}\\%。历史扩展中的 PageRank 一致性明显更广：在 $W=5120$ 时匹配 40/40 条轨迹，而基于度的方法为 39/40。外部结果因此限定了接触图排名结果的迁移范围。"
+  },
+  "174": {
+    "english": "For the primary comparisons at the highest tested external budget, every default PageRank-4k and within-path random-4k mean difference from full selection is negative, giving unadjusted sign-test $p=.0625$ and within-graph Holm $p=.1875$. Degree-4k differences from full selection are exactly zero. Five paths limit the minimum two-sided sign-test value to .0625; these results establish neither statistical equivalence nor absence of loss. The paired effect sizes, sensitivity controls and complete test results are reported in Online Resource 1.",
+    "chinese": "在最高测试外部预算下的主要比较中，默认 PageRank-4k 和路径内 random-4k 均值相对全候选选择的每个差值都为负，未经校正的符号检验 $p=.0625$，图内 Holm 校正后 $p=.1875$。Degree-4k 与全候选选择的差值严格为零。五条路径使双侧符号检验可达到的最小值限制在 .0625；这些结果既不确立统计等效，也不证明没有损失。在线补充材料 1 报告配对效应量、敏感性控制和完整检验结果。"
+  },
+  "176": {
+    "english": "Increasing the default PageRank pool to 5\\% reproduces all five ca-GrQc references at $W=1280$ and reduces CollegeMsg loss from \\CollegePRLoss{}\\% to \\CollegePRfiveLoss{}\\%. On wiki-Vote, loss falls from \\WikiPRLoss{}\\% to \\WikiPRfiveLoss{}\\%, remaining above one fifth of full-reference incremental spread. Historical-weighted CollegeMsg pools similarly improve from a mean difference of $-0.25224$ nodes at 4k to exact reference reproduction at 5\\%. Coverage helps in these comparisons, but its effect differs across networks.",
+    "chinese": "将默认 PageRank 池增至 5\\% 后，在 $W=1280$ 时复现了 ca-GrQc 的全部五个参照，并将 CollegeMsg 的损失从 \\CollegePRLoss{}\\% 降至 \\CollegePRfiveLoss{}\\%。wiki-Vote 的损失从 \\WikiPRLoss{}\\% 降至 \\WikiPRfiveLoss{}\\%，仍高于全候选参照增量传播量的五分之一。CollegeMsg 的历史加权池也由 4k 下平均差 $-0.25224$ 个节点，改善为 5\\% 下完全复现参照。在这些比较中，增加覆盖率有所帮助，但作用随网络而异。"
+  },
+  "178": {
+    "english": "On wiki-Vote, the default PageRank top 20 have mean in-degree 249.75 and out-degree 56.2; the degree top 20 have mean in-degree 70.3 and out-degree 489.25. The PageRank-4k pool contains none of the five full-reference seeds on any $W=1280$ path, and its 5\\% pool contains only one. These observations are consistent with a mismatch between incoming importance and outgoing propagation. Direction was not experimentally reversed, so the diagnostic does not isolate a causal mechanism. The seed-level illustration and complete coverage comparisons appear in Online Resource 1.",
+    "chinese": "在 wiki-Vote 上，默认 PageRank 前 20 个节点的平均入度为 249.75、出度为 56.2；按度排序的前 20 个节点平均入度为 70.3、出度为 489.25。在任一 $W=1280$ 路径上，PageRank-4k 池均不包含五个全候选参照种子中的任何一个，而其 5\\% 池仅包含一个。这些观察与“入链重要性和出向传播之间不匹配”的解释一致。实验未进行方向反转，因此该诊断不能单独确定因果机制。在线补充材料 1 给出种子层面的图示和完整覆盖率比较。"
+  },
+  "180": {
+    "english": "\\subsection{Reference-preserving savings under specified timing scopes}",
+    "chinese": "\\subsection{指定计时范围下保持参照结果的计算节省}"
+  },
+  "181": {
+    "english": "Degree-4k reduces measured selection time by 98.40--99.67\\% relative to this implementation's full-candidate reference at $W=1280$, while reproducing all its trajectories (Table~\\ref{tab:cost}). Including setup, both world families and independent evaluation gives assembled cost savings of \\CollegeDegreeSaving{}--\\WikiDegreeSaving{}\\%.",
+    "chinese": "在 $W=1280$ 时，相对本实现的全候选参照，Degree-4k 将实测选择时间降低 98.40--99.67\\%，同时复现全部参照轨迹（表~\\ref{tab:cost}）。计入准备阶段、两类世界准备及独立评估后，分项拼接的成本节省为 \\CollegeDegreeSaving{}--\\WikiDegreeSaving{}\\%。"
+  },
+  "184": {
+    "english": "At $W=1280$, Degree-4k meets the zero point-estimate loss threshold relative to full selection on every path. Default PageRank-4k meets 10\\% on ca-GrQc and CollegeMsg, but fails 20\\% on every wiki-Vote path. None of the random-pool path means meets 20\\%. Online Resource 1 reports all six frozen thresholds (0, 1, 2.5, 5, 10 and 20\\%) and their cost estimates; these are descriptive criteria rather than application-validated tolerances.",
+    "chinese": "在 $W=1280$ 时，Degree-4k 在每条路径上均满足相对全候选选择的零点估计损失阈值。默认 PageRank-4k 在 ca-GrQc 和 CollegeMsg 上满足 10\\% 阈值，但在 wiki-Vote 的每条路径上均未满足 20\\% 阈值。所有随机池的路径均值都未满足 20\\% 阈值。在线补充材料 1 报告全部六个冻结阈值（0、1、2.5、5、10 和 20\\%）及相应成本估计；它们是描述性标准，而非经实际应用验证的可容忍损失。"
+  },
+  "186": {
+    "english": "\\subsection{Parameter and coupling controls delimit the findings}",
+    "chinese": "\\subsection{参数与耦合对照限定结论范围}"
+  },
+  "188": {
+    "english": "In the external fixed-edge control at $W=320$, default PageRank-4k minus the fixed-edge full reference has mean spread differences of $-0.16240$, $-0.93417$ and $-40.57597$ nodes on ca-GrQc, CollegeMsg and wiki-Vote. Degree-4k reproduces 1/3, 3/3 and 3/3 corresponding trajectories. The PageRank losses persist under this control, while some reference-agreement outcomes change. Complete control paths and repeated timings are supplied in Online Resource 1.",
+    "chinese": "在 $W=320$ 的外部固定边对照中，默认 PageRank-4k 减去固定边全候选参照的平均传播差值，在 ca-GrQc、CollegeMsg 和 wiki-Vote 上分别为 $-0.16240$、$-0.93417$ 和 $-40.57597$ 个节点。Degree-4k 分别复现 1/3、3/3 和 3/3 条对应轨迹。PageRank 损失在此对照下仍存在，而部分参照一致性结果发生变化。在线补充材料 1 提供完整对照路径和重复计时。"
+  },
+  "190": {
+    "english": "Across the 160 historical nondefault parameter conditions at $W=320$, Degree-4k and PageRank-4k reproduce 117 and 132 full-reference trajectories, respectively. Weighted-4k minus full selection has 117 negative and 43 positive paired spread differences. These are descriptive counts of repeated computations, not independent success trials.",
+    "chinese": "在 $W=320$ 的 160 个历史非默认参数条件中，Degree-4k 和 PageRank-4k 分别复现 117 和 132 条全候选参照轨迹。Weighted-4k 减去全候选选择的配对传播差值中，117 个为负，43 个为正。这些是对重复计算的描述性计数，不是独立成功试验。"
+  },
+  "192": {
+    "english": "Under historical fixed-edge sampling at $W=1280$, Degree-4k and PageRank-4k match 38/40 and 40/40 trajectories of the fixed-edge full reference, while Weighted-4k matches 5/40. The supplementary tables retain every graph and setting. These contact-graph controls do not test the joint effect of the tighter PageRank tolerance and fixed-edge sampling on the external graphs.",
+    "chinese": "在 $W=1280$ 的历史固定边采样下，Degree-4k 和 PageRank-4k 分别匹配固定边全候选参照的 38/40 和 40/40 条轨迹，Weighted-4k 匹配 5/40。补充表保留每个图和设置。这些接触图对照没有检验外部图上较紧 PageRank 容差与固定边采样的联合效应。"
+  },
+  "195": {
+    "english": "\\section{Discussion}",
+    "chinese": "\\section{讨论}"
+  },
+  "196": {
+    "english": "\\subsection{What a budget comparison can establish}",
+    "chinese": "\\subsection{预算比较能够支持什么判断}"
+  },
+  "197": {
+    "english": "The ca-GrQc result changes the interpretation of an apparent budget effect. At default PageRank tolerance, increasing the reference budget changes the restricted method's mean comparison from a gain to a loss. Tightening tolerance exchanges two pool members and removes that pattern, although increasing $W$ still changes selected sets. Thus, the default reversal is not evidence for a budget effect that is independent of ranking precision. The candidate cutoff makes numerical ranking differences relevant to seed eligibility. Pool agreement at $10^{-12}$ and $10^{-14}$ checks membership stability at the tested tolerances, without certifying an exact ranking. Losses persist on CollegeMsg and wiki-Vote, so this explanation does not account for every unfavorable PageRank comparison.",
+    "chinese": "ca-GrQc 的结果改变了对表面预算效应的解释。在默认 PageRank 容差下，增加参照预算会使受限方法相对参照的平均表现由增益转为损失。收紧容差替换了两个候选节点，使这一模式消失，但增加 $W$ 仍会改变种子集合。因此，默认设置下的反转不能作为独立于排名精度的预算效应证据。候选池截断使数值排名差异影响种子候选资格。$10^{-12}$ 与 $10^{-14}$ 下的候选池一致性，检验了已测试容差下的成员稳定性，但并未证明排名精确。CollegeMsg 和 wiki-Vote 的损失仍然存在，说明这一解释不能涵盖所有 PageRank 表现不利的比较。"
+  },
+  "199": {
+    "english": "\\subsection{From seed agreement to a quality--cost judgment}",
+    "chinese": "\\subsection{从种子一致性到质量与成本判断}"
+  },
+  "200": {
+    "english": "Reference agreement is useful for describing what candidate restriction preserves, but it does not replace spread evaluation. A changed trajectory may end at the same set, which gives the same evaluation vector under shared simulation worlds. When sets differ, paired evaluation measures the sign, magnitude and conditional uncertainty of their utility difference. The external ca-GrQc mean change of 0.12720 nodes and the historical step-coupled mean change of 0.01111 nodes illustrate distinct budget transitions. Neither value defines an application-specific equivalence margin. For cost comparisons, agreement and independent spread should therefore accompany candidate coverage, reference budget and ranking tolerance. The degree-pool results identify computation saved while preserving the tested reference; the PageRank results show why similar savings cannot be interpreted without the corresponding utility loss.",
+    "chinese": "参照一致性能够描述候选限制保留了什么，但不能替代传播量评估。不同的选择轨迹可能得到相同的最终集合，在共享模拟世界下产生相同的评估向量。集合不同时，配对评估测量效用差的符号、大小与条件不确定性。外部 ca-GrQc 的平均变化 0.12720 个节点，与历史按步耦合的平均变化 0.01111 个节点，分别对应不同的预算变化区间；二者都没有定义具体应用中的等效界限。因此，比较成本时，应将一致性与独立传播量同候选覆盖率、参照预算和排名容差一同报告。基于度的候选池结果给出了保持已测试参照时节省的计算量；PageRank 结果则表明，解释相似的计算节省时，必须同时考虑对应的传播损失。"
+  },
+  "202": {
+    "english": "\\subsection{Scope and limitations}",
+    "chinese": "\\subsection{适用范围与局限}"
+  },
+  "203": {
+    "english": "The external evidence covers three selected networks under $k=5$, $p=.01$, $h=3$ and selection budgets up to 1280. Historical contact graphs also probe $p$, $h$, coupling and $k$, but their local parameter changes are not a full factorial design and do not establish sensitivity on the larger directed graphs. At historical $k=20$, the 4k pool contains all 75 Kenya vertices and 80/91 invs2013 vertices; Kenya agreement is a full-pool identity check. The historical fixed-edge controls also do not validate the external tighter-tolerance PageRank results under fixed-edge sampling.",
+    "chinese": "外部证据覆盖三个选定网络，设置为 $k=5$、$p=.01$、$h=3$，选择预算最高为 1280。历史接触图还考察了 $p$、$h$、耦合方式和 $k$，但其局部参数调整不是全因子设计，也不能据此确立较大有向图上的敏感性。在历史 $k=20$ 设置下，4k 池包含 Kenya 的全部 75 个节点和 invs2013 的 80/91 个节点；Kenya 的一致性属于全候选池恒等性检查。历史固定边对照同样没有验证外部较紧容差 PageRank 结果在固定边采样下是否成立。"
+  },
+  "205": {
+    "english": "Paths repeat computations on a fixed graph, and the networks are not a probability sample of social systems. Each synthetic control uses one fixed graph, so repeated paths do not add graph instances. Conditional Monte Carlo uncertainty concerns fixed selected sets; path variation concerns the computational repetitions, not cross-network generalization. Observed relations provide topology, not calibrated causal diffusion. The direction diagnostic is consistent with the measured wiki-Vote loss but does not establish a causal explanation.",
+    "chinese": "路径是在固定图上重复计算，所用网络也不是社会系统的概率样本。每个合成对照只使用一个固定图，因此，重复路径不会增加图实例数。条件蒙特卡洛不确定性针对固定已选集合；路径变异针对计算重复，而非跨网络泛化。观测关系提供拓扑，并不等于经过校准的因果传播。方向诊断与 wiki-Vote 的实测损失一致，但不能确立因果解释。"
+  },
+  "207": {
+    "english": "Reference agreement establishes neither optimality with respect to expected spread nor convergence as the world budget increases. The cost comparison uses this implementation's exhaustive full-candidate reference, not CELF or IMM. Measured selection costs and assembled costs including independent evaluation answer different deployment questions. The latter exclude cold-start overhead and are not direct end-to-end timings; tighter-tolerance PageRank is assessed for quality only.",
+    "chinese": "参照一致性既不证明相对于期望传播量的最优性，也不证明随世界预算增加而收敛。成本比较采用本实现逐轮完整枚举的全候选参照，而非 CELF 或 IMM。实测选择成本和包含独立评估的拼接成本回答不同的部署问题。后者排除冷启动开销，并非直接端到端计时；较紧容差的 PageRank 仅用于质量评价。"
+  },
+  "209": {
+    "english": "\\section{Conclusion}",
+    "chinese": "\\section{结论}"
+  },
+  "210": {
+    "english": "Candidate-restriction quality must be interpreted relative to both a sampled reference and a numerically constructed candidate pool. The ca-GrQc control shows why these dependencies matter: tightening PageRank tolerance removes the apparent budget-induced quality reversal, but budget-dependent seed changes remain. Independent spread evaluation determines the utility consequences of those changes. Across the external sample, Degree-4k preserves the tested $W=1280$ trajectories at lower measured selection cost, while PageRank outcomes depend on precision, coverage and network context. The practical contribution is to make these dependencies testable within a paired comparison, so reference agreement and utility retention are not conflated. The conclusions concern the studied networks and settings; matching a finite reference does not establish expected-spread optimality.",
+    "chinese": "候选限制的质量需要结合采样参照与数值构建的候选池来解释。ca-GrQc 对照说明了这些依赖为何重要：收紧 PageRank 容差使表面上由预算引起的质量反转消失，但与预算有关的种子变化仍然存在。独立传播评估用于确定这些变化对应的效用差异。在外部网络样本中，Degree-4k 以更低的实测选择成本保持了已测试的 $W=1280$ 参照轨迹，而 PageRank 结果依赖精度、覆盖率与网络背景。本文的实际贡献，是使这些依赖能够在配对比较中接受检验，避免混淆参照一致性与效用保留。结论限于所研究的网络和设置；匹配有限参照不意味着期望传播量最优。"
+  },
+  "212": {
+    "english": "\\paragraph{Supplementary information.} Online Resource 1 contains the external result matrix, precision and direction diagnostics, loss--cost curves, and separate historical coverage, parameter, coupling and secondary-control tables with reproducibility details.",
+    "chinese": "\\paragraph{补充信息。}在线补充材料 1 包含外部结果矩阵、精度与方向诊断、损失--成本曲线，以及单独列出的历史覆盖率、参数、耦合与次要对照表，并提供复现细节。"
+  },
+  "213": {
+    "english": "\\section*{Statements and Declarations}",
+    "chinese": "\\section*{声明}"
+  },
+  "214": {
+    "english": "\\paragraph{Funding.} This work was supported by a provincial undergraduate innovation and entrepreneurship training project.",
+    "chinese": "\\paragraph{基金支持。}本研究获得省级大学生创新创业训练项目支持。"
+  },
+  "215": {
+    "english": "\\paragraph{Competing interests.} The authors declare that they have no competing interests.",
+    "chinese": "\\paragraph{利益冲突。}作者声明不存在利益冲突。"
+  },
+  "216": {
+    "english": "\\paragraph{Author contributions.} Jiayue Sun: conceptualization, methodology, software, validation, formal analysis, investigation, data curation, visualization, and writing---original draft. Binbin Yong: supervision, methodology, project administration, and writing---review and editing. Junjie An: software, data curation, and writing---review and editing. Tianyu Bo: validation, visualization, and writing---review and editing. Shuai Li: formal analysis, validation, and writing---review and editing. All authors read and approved the final manuscript and agreed to its submission to \\textit{Computing}.",
+    "chinese": "\\paragraph{作者贡献。}Jiayue Sun：概念构思、方法设计、软件、验证、正式分析、研究实施、数据整理、可视化及初稿写作。Binbin Yong：指导、方法设计、项目管理及审阅与修改。Junjie An：软件、数据整理及审阅与修改。Tianyu Bo：验证、可视化及审阅与修改。Shuai Li：正式分析、验证及审阅与修改。全体作者已阅读并批准最终稿件，同意向 \\textit{Computing} 投稿。"
+  },
+  "217": {
+    "english": "\\paragraph{Data availability.} The third-party datasets are available from the cited providers under their access terms and are not redistributed. Source records, expected SHA-256 hashes and preprocessing instructions accompany the submission.",
+    "chinese": "\\paragraph{数据可用性。}第三方数据集可按照其访问条款从所引数据提供方获取，本文不再分发这些数据。投稿材料附有来源记录、预期 SHA-256 哈希和预处理说明。"
+  },
+  "218": {
+    "english": "\\paragraph{Code availability.} Frozen source snapshots, configurations, validators, analysis scripts, condition-level outputs and figure-source tables are supplied with the submission for editorial and peer-review access.",
+    "chinese": "\\paragraph{代码可用性。}冻结源码快照、配置、验证程序、分析脚本、逐条件输出和图表源数据随投稿材料提供，供编辑及同行评审查阅。"
+  }
+}

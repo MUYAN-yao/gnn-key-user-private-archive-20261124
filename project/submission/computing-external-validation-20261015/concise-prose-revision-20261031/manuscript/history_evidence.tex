@@ -1,0 +1,142 @@
+\section{Historical sensitivity evidence}\label{sec:historical-evidence}
+\subsection{Coverage, provenance and statistical units}
+Table~\ref{tab:hist-coverage} separates the evidence layers and the five batches
+within the historical extension. Contact graphs retain the first 65\% of complete
+timestamp groups. Undirected contacts become reciprocal propagation arcs;
+repeated events are collapsed for topology and counted for historical weighted
+degree. Propagation probability remains uniform, independently of these counts.
+The initial study's protocol and 42 condition records establish its coverage;
+its outputs are not pooled with the later extension or the external study.
+\input{history_coverage_table.tex}
+
+The 520-condition extension locally froze its protocol after the initial study
+and resource preflight. It is not a public preregistration. All nine arms use
+the complete propagation graph and differ only in seed eligibility, with a
+common lexical tie rule. Candidate sizes are capped at the number of vertices.
+The namespace is \texttt{computing-extension-20261015-v1}; selection and evaluation
+families have separate hash keys. Selection budgets use nested world prefixes for every arm. At each $W$, both full and restricted methods select seeds anew; the 10,000-world evaluation family stays fixed across budgets within each graph/path/coupling.
+Historical PageRank uses the frozen default numerical settings; these controls
+are distinct from the external post-hoc tolerance study.
+
+The historical summary audit covers all 520 stored JSON/NPZ pairs. Their 1,040 file
+hashes match the result manifest, and the historical engine hash matches the
+external package's legacy engine. Means, paired differences and conditional
+Monte Carlo standard errors are recomputed from all 4,680 saved arm vectors,
+each containing 10,000 counts. Seven path-level method summaries result after
+averaging the three random pools within each path. The 3,640 path rows,
+378 group rows (reported means and sample standard deviations) and 240 adjacent
+budget transitions agree with the saved analyses. This verifies file integrity
+and the specified numerical summaries, not every aspect of the study design.
+These checks reaggregate saved results; they do not replay selection or propagation.
+
+For each path, $\Delta$ is restricted minus full mean spread. The reported loss
+is $-100\Delta/(\widehat\sigma_{\rm full}-k)$, averaged across paths after forming
+each path's ratio; all denominators are positive. A negative loss denotes a
+point-estimate gain. Table SDs describe variation across paths, not confidence
+intervals for a population of networks. Conditional Monte Carlo standard errors
+come from the paired per-world differences for fixed selected sets. Random-pool
+vectors are averaged before calculating their conditional errors; the pools do
+not triple the path count. The same path used at multiple settings is a repeated
+measurement. No new hypothesis tests are introduced here, and no historical
+paths are pooled with the five external paths.
+
+\subsection{Local propagation-parameter changes}
+Table~\ref{tab:hist-parameters} and Fig.~\ref{fig:hist-parameters} include all
+four preselected nondefault settings and the reused default setting at $W=320$.
+They vary probability or horizon around the default, rather than forming a full
+factorial design. Over the 160 nondefault conditions, Degree-4k and PageRank-4k
+reproduce 117 and 132 ordered full-reference trajectories. Each has one negative
+paired spread difference; positive differences occur in 42 and 27 conditions,
+respectively. Weighted-4k reproduces none of these trajectories and has 117
+negative and 43 positive differences. These counts summarize the retained
+conditions; they are not independent Bernoulli trials.
+
+The weighted-ranking discrepancy varies with graph and setting. At $(p,h)=(.05,3)$,
+its mean differences are $-0.51309$, $-1.52602$, $+0.07939$ and $-4.98321$ nodes
+for invs2013, invs2015, kenya2012 and sfhh2009, respectively. The corresponding
+mean incremental losses are 4.12\%, 2.37\%, $-0.89$\% and 4.09\%.
+Thus neither a single sign nor the absolute difference alone summarizes the
+parameter control. Complete results for Weighted-2k/8k and the within-path
+random mean remain in the accompanying all-method CSVs.
+\begin{figure}[p]
+\centering\includegraphics[width=\linewidth]{HistoryParameters.pdf}
+\caption{Historical parameter sensitivity for three 4k rankings, with $k=5$,
+$W=320$ and step coupling. Each panel is one contact graph; each point is the mean
+paired spread difference over ten paths, and bars are one path standard deviation.
+Settings are discrete, not a continuous sweep. Vertical scales differ between
+panels. Positive differences favor the restricted set. The default $(.01,3)$
+reuses the budget scan. These are path-variation bars, not conditional Monte Carlo
+intervals or uncertainty across networks.}\label{fig:hist-parameters}
+\end{figure}
+\FloatBarrier
+\input{history_parameter_table.tex}
+
+\subsection{Fixed-edge control and reference-budget transitions}
+Table~\ref{tab:hist-coupling} compares each ranking with the full reference under
+the same sampling scheme. At $W=1280$, Degree-4k matches 38/40 trajectories and
+PageRank-4k matches 40/40 under both schemes. Weighted-4k matches 7/40 under step
+coupling and 5/40 under fixed-edge coupling. At $W=320$, Degree-4k matches 31/40
+under either scheme, while PageRank-4k matches 34/40 and 35/40, respectively.
+These agreement patterns persist on the historical contact graphs, although
+individual paths and the weighted method's utility gaps differ. Evaluation
+counts from step and fixed-edge sampling are not subtracted element by element;
+all reported method differences use their own scheme-specific reference.
+\input{history_coupling_table.tex}
+
+The reference-transition analysis pairs only budgets within the same
+graph, path and coupling, and verifies that their saved evaluation-world hashes agree.
+Under step coupling, $W=1280\to5120$ changes 16/40 final sets, with a descriptive
+mean high-minus-low spread change of 0.01111 nodes and range $[-0.0383,0.1180]$. Under fixed-edge coupling,
+$W=320\to1280$ changes 29/40 sets, with mean high-minus-low spread change 0.061845 nodes and range
+$[-0.0110,0.2572]$. Table~\ref{tab:hist-transitions} retains the network-specific
+results, and Fig.~\ref{fig:hist-edge-transitions} shows every fixed-edge path.
+The two intervals in $W$ differ: their averages cannot be interpreted as a
+controlled estimate of a coupling effect. Both distinguish reference-set changes
+from their spread consequences; neither establishes optimality with respect to expected spread or
+convergence. In particular, these historical controls do not test whether the
+external ca-GrQc result at the tighter PageRank tolerance persists under fixed-edge sampling.
+\input{history_transition_table.tex}
+\begin{figure}[p]
+\centering\includegraphics[width=\linewidth]{HistoryEdgeTransitions.pdf}
+\caption{Historical fixed-edge full-reference changes from $W=320$ to 1280.
+Each point is one computational path's paired high-minus-low spread difference;
+filled points indicate a changed final set. Bars are unadjusted pointwise
+$\Delta_F\pm1.96\,\mathrm{SE}_{\rm MC}$ intervals from 10,000 saved paired worlds,
+conditional on the selected sets. They do not represent path or network
+uncertainty. Panel-specific scales are used. All 40 paths are retained, including
+negative and zero differences.}\label{fig:hist-edge-transitions}
+\end{figure}
+\FloatBarrier
+
+\subsection{Larger seed budget and fixed synthetic instances}
+Table~\ref{tab:hist-secondary} reports the secondary controls separately. At
+$k=20$, a nominal 4k pool contains all 75 kenya2012 vertices. Its exact agreement
+is therefore a full-candidate consistency check, not evidence of useful pruning.
+The invs2013 pool retains 80/91 vertices (87.91\%), and invs2015 retains 80/212
+(37.74\%); these coverage levels differ substantially from the external 20-node
+pools. No sfhh2009 condition with $k=20$ was executed in this extension.
+
+The synthetic controls use one BA instance with attachment parameter 3 and one
+SBM instance with four 500-vertex blocks, within-block probability .012 and
+between-block probability .0005; graph-generation seed is 20261015. Both have
+2,000 vertices and reciprocal arcs. Their weights derive from topology rather
+than observed contact events, so Weighted-4k is not independent historical-event
+evidence. At $W=320$, all three displayed rankings reproduce all five BA
+trajectories. On the fixed SBM instance, Degree-4k and PageRank-4k reproduce 1/5
+and 0/5, with mean spread differences of $+0.04052$ and $+0.03756$ nodes. These
+are finite-reference comparisons on two fixed graphs; five paths per graph do
+not constitute five independently generated networks.
+\input{history_secondary_table.tex}
+
+\subsection{Traceability and scope}
+The historical tables and figures are generated from saved results and metadata
+by \texttt{src/integrate\_historical.py}. All-method CSVs retain arm metrics,
+within-path random means, group summaries, candidate coverage and reference
+transitions; figure-source CSVs contain every displayed value.
+\texttt{REPRODUCE.md} records the aggregation commands and checks.
+
+Historical controls describe sensitivity on the tested contact networks;
+parameter coverage on the external networks remains narrow. Their descriptive
+summaries neither add independent external paths nor change the post-hoc
+identity of the PageRank control. The cost comparisons retain the exhaustive
+full-candidate reference used in the experiments.

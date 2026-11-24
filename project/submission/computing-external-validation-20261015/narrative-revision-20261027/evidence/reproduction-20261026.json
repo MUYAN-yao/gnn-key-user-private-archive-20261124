@@ -1,0 +1,242 @@
+{
+  "status": "PASS",
+  "replay_scope": "representative",
+  "python": "3.13.0 | packaged by conda-forge | (main, Nov 27 2024, 19:03:49) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.3.3",
+    "pandas": "2.3.2",
+    "scipy": "1.16.1",
+    "networkx": "3.5",
+    "matplotlib": "3.10.6",
+    "numba": "0.68.0",
+    "llvmlite": "0.50.0",
+    "psutil": "7.2.2",
+    "Pillow": "12.3.0"
+  },
+  "replayed": [
+    {
+      "condition": "resolution__college_msg__p1101__w80__step",
+      "arrays_exact": true,
+      "arms": 10
+    },
+    {
+      "condition": "fixed_edge_control__college_msg__p1101__w320__edge",
+      "arrays_exact": true,
+      "arms": 10
+    },
+    {
+      "condition": "resolution__ca_grqc__p1101__w80__step",
+      "arrays_exact": true,
+      "arms": 8
+    },
+    {
+      "condition": "fixed_edge_control__ca_grqc__p1101__w320__edge",
+      "arrays_exact": true,
+      "arms": 8
+    },
+    {
+      "condition": "resolution__wiki_vote__p1101__w80__step",
+      "arrays_exact": true,
+      "arms": 8
+    },
+    {
+      "condition": "fixed_edge_control__wiki_vote__p1101__w320__edge",
+      "arrays_exact": true,
+      "arms": 8
+    }
+  ],
+  "regenerated": [
+    {
+      "file": "review-v2\\analysis\\arm_path.csv",
+      "criterion": "numeric/text table equality; numerical tolerance 1e-12",
+      "sha256": "b27fc6a3fd5de5aee3fa1fb08b8bc8730e84ad699702db75dc115b6a5fbc8875"
+    },
+    {
+      "file": "review-v2\\analysis\\coupling_transitions.csv",
+      "criterion": "numeric/text table equality; numerical tolerance 1e-12",
+      "sha256": "a1f9ef4cd35ee974fce92dcaedc69fad43dad12a8b619901e8592076279fe40a"
+    },
+    {
+      "file": "review-v2\\analysis\\direction_diagnostics.csv",
+      "criterion": "numeric/text table equality; numerical tolerance 1e-12",
+      "sha256": "bd3b627a0ed39e416f04722bc6b3713866998981916d5253c9071813dd5e6366"
+    },
+    {
+      "file": "review-v2\\analysis\\figures\\Fig1.png",
+      "criterion": "exact decoded pixels",
+      "sha256": "7e7bd5b05b9724e743fb137db242070b2a9c61897b28f477561bcae0fa984008"
+    },
+    {
+      "file": "review-v2\\analysis\\figures\\Fig1_source.csv",
+      "criterion": "numeric/text table equality; numerical tolerance 1e-12",
+      "sha256": "7cda0a96f4522558038c64b0108afdc5aae69747573587ecab60d69e3b439d53"
+    },
+    {
+      "file": "review-v2\\analysis\\figures\\Fig2.png",
+      "criterion": "exact decoded pixels",
+      "sha256": "795f0e8dde4fb8a5a2a3d17a4b122c4b4ff38ef3f83e657cebe34ff1111100eb"
+    },
+    {
+      "file": "review-v2\\analysis\\figures\\Fig2_source.csv",
+      "criterion": "numeric/text table equality; numerical tolerance 1e-12",
+      "sha256": "f7a33cce2d3bc5f25058b39901fb74baed7bf93f89542d7ce327592ea9f8ec87"
+    },
+    {
+      "file": "review-v2\\analysis\\figures\\Fig3.png",
+      "criterion": "exact decoded pixels",
+      "sha256": "cf5c6ee81176ea342382b1e2074009661c1456b487e88731dddb54872d32d207"
+    },
+    {
+      "file": "review-v2\\analysis\\figures\\Fig3_source.csv",
+      "criterion": "numeric/text table equality; numerical tolerance 1e-12",
+      "sha256": "1a9280c08c19f5474ff035f4cb31a61eec8694dd1a774faa3ff3f1d9812f5281"
+    },
+    {
+      "file": "review-v2\\analysis\\figures\\FigS1.png",
+      "criterion": "exact decoded pixels",
+      "sha256": "87cd6c7e58ccdf554b7323355788ea2f79ddb2b1d770e459c254d29343d78e9b"
+    },
+    {
+      "file": "review-v2\\analysis\\figures\\FigS1_source.csv",
+      "criterion": "numeric/text table equality; numerical tolerance 1e-12",
+      "sha256": "1dc7e1bcc6458b5fca50bd6aba7b5d5ad152e01e83758063743d9101ceaa848c"
+    },
+    {
+      "file": "review-v2\\analysis\\full_reference_transitions.csv",
+      "criterion": "numeric/text table equality; numerical tolerance 1e-12",
+      "sha256": "56fa2da6563b2f7cb8fba9adfdbbe60b7c4c1826b0a1042cb042b12b392a0776"
+    },
+    {
+      "file": "review-v2\\analysis\\primary_tests.csv",
+      "criterion": "numeric/text table equality; numerical tolerance 1e-12",
+      "sha256": "4720b5be862f75f88c9eaee6815341cc72ebcce2f54a7e4ffdb5fc6ef9417ea1"
+    },
+    {
+      "file": "review-v2\\analysis\\summary_by_method.csv",
+      "criterion": "numeric/text table equality; numerical tolerance 1e-12",
+      "sha256": "5e5eb3ebfd52142876059dbedcffb3931ac8c7c0b5a947168a21de823e77c771"
+    },
+    {
+      "file": "review-v2\\analysis\\supplement_setup_timing.csv",
+      "criterion": "numeric/text table equality; numerical tolerance 1e-12",
+      "sha256": "3ee53546d9550003c9f83f9a01df899b2e1b31446683722d7a204c0371d209d0"
+    },
+    {
+      "file": "review-v2\\analysis\\timing_repeats.csv",
+      "criterion": "numeric/text table equality; numerical tolerance 1e-12",
+      "sha256": "940b293bbad787ceed7716b62d51f52ede52cf24e07cfef46a85fd85b49f9b7d"
+    },
+    {
+      "file": "review-v2\\analysis\\timing_summary.csv",
+      "criterion": "numeric/text table equality; numerical tolerance 1e-12",
+      "sha256": "04f77d6749e21b670eb196c98ae9f06e4c5f42797c274ae53fa6de528c625a0f"
+    },
+    {
+      "file": "review-v2\\analysis\\tolerance_cost_curves.csv",
+      "criterion": "numeric/text table equality; numerical tolerance 1e-12",
+      "sha256": "d495034c352c20445a1447718aac481814e48b83a2198e3d953e46310abdaea5"
+    },
+    {
+      "file": "review-v2\\analysis\\transition_summary.csv",
+      "criterion": "numeric/text table equality; numerical tolerance 1e-12",
+      "sha256": "7ec8439ce735503ea19b67d83bcfcf26867a6acc0581c60c55cffe295522b184"
+    },
+    {
+      "file": "review-v3-budget-precision\\analysis\\precision_budget\\budget_tolerance_interaction_by_path.csv",
+      "criterion": "numeric/text table equality; numerical tolerance 1e-12",
+      "sha256": "053d36519a11568710944ef0c34313e89c6c54dcf9f4a92fe112112d63ca08ff"
+    },
+    {
+      "file": "review-v3-budget-precision\\analysis\\precision_budget\\budget_tolerance_interaction_summary.csv",
+      "criterion": "numeric/text table equality; numerical tolerance 1e-12",
+      "sha256": "6ff9f8423ada642586d30f5270d844a05f03a33cb1b3744ff03c3c323b92a7e4"
+    },
+    {
+      "file": "review-v3-budget-precision\\analysis\\precision_budget\\budget_transitions_by_path.csv",
+      "criterion": "numeric/text table equality; numerical tolerance 1e-12",
+      "sha256": "057c491eb024ea829f3cf43880a9cf67ed19aa4ad4b573e52ebd77c453dcf9b8"
+    },
+    {
+      "file": "review-v3-budget-precision\\analysis\\precision_budget\\budget_transitions_summary.csv",
+      "criterion": "numeric/text table equality; numerical tolerance 1e-12",
+      "sha256": "111516dbaf7e51139c2f5f001da21324764670786ae3756b6377d3e95ebd693f"
+    },
+    {
+      "file": "review-v3-budget-precision\\analysis\\precision_budget\\candidate_pool_precision_diagnostics.csv",
+      "criterion": "numeric/text table equality; numerical tolerance 1e-12",
+      "sha256": "f2be3c2080c6fc9cb62220bf647863559a487fa76bb01e9606cb51e9026316d5"
+    },
+    {
+      "file": "review-v3-budget-precision\\analysis\\precision_budget\\figures\\precision_budget_loss.png",
+      "criterion": "exact decoded pixels",
+      "sha256": "0d488a9dd717b4406db6bc70677e63f9232ccf96fcc105e63b301a023c2619e9"
+    },
+    {
+      "file": "review-v3-budget-precision\\analysis\\precision_budget\\path_metrics.csv",
+      "criterion": "numeric/text table equality; numerical tolerance 1e-12",
+      "sha256": "47a4916ca571853f8c6bd7b464d8fb7ce25e3cf5111d2460e7adcb7f0d6b2cd3"
+    },
+    {
+      "file": "review-v3-budget-precision\\analysis\\precision_budget\\precision_budget_loss_figure_source.csv",
+      "criterion": "numeric/text table equality; numerical tolerance 1e-12",
+      "sha256": "737da240b12c1d93f9bd9b05947d68c1cb6af83214fae4fa4eff42b87c76789a"
+    },
+    {
+      "file": "review-v3-budget-precision\\analysis\\precision_budget\\summary_by_budget_precision.csv",
+      "criterion": "numeric/text table equality; numerical tolerance 1e-12",
+      "sha256": "a1ab49b89f2764d10d3817152981983fadf8c57b63dddb6fc6fb2961ac6fa3e9"
+    },
+    {
+      "file": "review-v3-budget-precision\\analysis\\precision_budget\\tolerance_effects_by_path.csv",
+      "criterion": "numeric/text table equality; numerical tolerance 1e-12",
+      "sha256": "d714880c47b7ac2eb8f3f150b027de95ae9c406d77538a502d93cfdcd6604742"
+    },
+    {
+      "file": "review-v3-budget-precision\\analysis\\precision_budget\\tolerance_effects_summary.csv",
+      "criterion": "numeric/text table equality; numerical tolerance 1e-12",
+      "sha256": "c3c5c14aa92e60e0aff517702a0b6d3555a9689d150276368cb49230bfeaa5e9"
+    }
+  ],
+  "conditions_checked": 54,
+  "arms_checked": 468,
+  "source_manifest_sha256": "742047348d1da77fd7a68d33ae26cb53ce3a2b08e43e22b0d621be0363f687e6",
+  "graph_hashes": {
+    "ca_grqc": "2521460f3e9819a1be4e2337672c707022287c4102807115f6e949ed9aab3331",
+    "college_msg": "46fb3697de82b322e8e4672f85adb65187c5d320456bdc4c09f4e794ce953d00",
+    "wiki_vote": "1a1206d63a365ec28c5f422e90f2ac9998c8986d842d49e7b15267484ce36b55"
+  },
+  "strict_replayed": [
+    {
+      "condition": "college_msg__p1101__w1280",
+      "arms": 2,
+      "arrays_exact": true
+    },
+    {
+      "condition": "ca_grqc__p1101__w1280",
+      "arms": 2,
+      "arrays_exact": true
+    },
+    {
+      "condition": "wiki_vote__p1101__w1280",
+      "arms": 2,
+      "arrays_exact": true
+    },
+    {
+      "condition": "college_msg__p1101__w80",
+      "arms": 2,
+      "arrays_exact": true
+    },
+    {
+      "condition": "ca_grqc__p1101__w80",
+      "arms": 2,
+      "arrays_exact": true
+    },
+    {
+      "condition": "wiki_vote__p1101__w80",
+      "arms": 2,
+      "arrays_exact": true
+    }
+  ],
+  "strict_arms_checked": 90
+}

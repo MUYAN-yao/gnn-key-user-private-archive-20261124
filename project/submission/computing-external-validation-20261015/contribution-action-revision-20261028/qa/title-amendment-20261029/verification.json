@@ -1,0 +1,43 @@
+{
+  "english": {
+    "only_title_and_running_title_changed": true,
+    "pages": 17,
+    "prior_pages": 17,
+    "pdf_sha256": "bcee4e8bc2affa6bea5100b6837ef82a4acfb7488f7297b3241e7bb91a0312e7",
+    "compile_issues": []
+  },
+  "chinese": {
+    "only_title_and_running_title_changed": true,
+    "pages": 20,
+    "prior_pages": 20,
+    "pdf_sha256": "84c4e09864ee8bd272c4c5b96e9e8011787b65bdf79c5f3e65848781c62b6060",
+    "compile_issues": []
+  },
+  "supplement": {
+    "only_title_and_running_title_changed": true,
+    "pages": 26,
+    "prior_pages": 26,
+    "pdf_sha256": "3c4b54a2bbaadd2e7ba1608e8e5e37821cdd1686c168e8dd35e7ac7f1735fb9f",
+    "compile_issues": []
+  },
+  "editorial_titles_match": true,
+  "visual_review": {
+    "pages_reviewed": {
+      "english": [
+        1,
+        2
+      ],
+      "chinese": [
+        1,
+        2
+      ],
+      "supplement": [
+        1,
+        2
+      ]
+    },
+    "status": "PASS",
+    "note": "Title and subsequent page inspected; no clipping, overlap or missing title text. Scientific content unchanged."
+  },
+  "parser_note": "pypdf emitted font-map and duplicate dictionary warnings on inherited PDF assets; extraction and rendering succeeded. This amendment does not repair those inherited maps."
+}

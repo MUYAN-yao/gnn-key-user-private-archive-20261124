@@ -1,0 +1,16 @@
+AUTHOR-REVIEW DRAFT — do not submit until all author confirmations are complete.
+
+Dear Editors of Computing,
+
+We would like to submit “Candidate-Restricted Influence Maximization: Reference Resolution, Coverage, and External Validation” for consideration as a research article.
+
+The manuscript examines how candidate restrictions should be evaluated when a full-greedy reference itself uses a finite simulation budget. It connects reference reproduction, independently evaluated reach, coverage and computational cost, and tests earlier contact-network findings on communication, collaboration and voting topologies. The external results preserve outgoing-degree agreement in the tested setting while limiting the transfer of PageRank's earlier agreement. We present these boundaries explicitly rather than claiming a universal candidate threshold or a new optimization guarantee.
+
+Computing is an appropriate potential venue because the work addresses experimental evaluation of network computation and influence maximization, complementing algorithmic work already published in the journal. The central contribution is an auditable evaluation protocol and evidence about its interpretation. Frozen raw results, code snapshots, independent analyses and supplementary tables support review; the separate novelty/evaluation summary explains what was compared and how.
+
+The frozen external study includes 54 conditions and 468 executed arms on three observed topologies. A separate post-hoc numerical-precision control adds 15 diagnostic conditions and 30 restricted arms on the original paths. It removes the small collaboration-network PageRank loss but preserves the large voting-network loss; this qualification is prominent in the manuscript. We distinguish these layers from historical experiments and resource preflight, and disclose simulation, path-count, budget, directionality and timing limitations. We do not claim empirical influence causality, a learned-method advantage, or convergence at the highest external budget.
+
+[Before submission, the corresponding author must insert verified statements on originality/overlap and concurrent submission, approval by all authors, relevant conflicts and funding, the complete AI-use disclosure, and reviewer access to data/code. This draft does not assert those facts on the authors' behalf.]
+
+Sincerely,
+[Verified corresponding-author name, affiliation and institutional email]

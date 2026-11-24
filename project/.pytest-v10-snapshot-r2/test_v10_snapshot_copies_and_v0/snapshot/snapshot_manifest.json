@@ -1,0 +1,21 @@
+{
+  "schema": "v10-source-snapshot-0.1",
+  "study": "sociopatterns-resolution-confirmation-v0_1",
+  "snapshot_id": "de747423aa8f16fdfa62",
+  "created_at_utc": "2026-09-20T06:06:17.170463+00:00",
+  "files": {
+    "experiments/v10_source_snapshot.py": "1d41f7ee5164eee8c979419081f47379fa47fedab861ed9c3ce2d35406896efa",
+    "experiments/create_v10_source_snapshot.py": "151405ae53f1422a5cb04cf2c0a526e995e20b5d4012d8bc85b149046ea77e51",
+    "experiments/v10_sociopatterns_resolution_confirmation.py": "182a064a41c09850116f0ce50bf52219fe6ed11aea8ad162c8ae27734a7104e7",
+    "experiments/run_v10_sociopatterns_resolution_confirmation.py": "4095d9b24ad143a144082b164580ee0ea9fc00eff4018a544508c6da737a8035",
+    "experiments/v7_exact_search.py": "9d1eae2a2d1a0c1e78ddc3544c995d1ccdd67f75f3e6495d6ad896eb8f86a6b4",
+    "experiments/v8_candidate_truncation_development.py": "44d15a4334433b9961609ef57ae465ac97ccfb0e8e74ee2352e04c9ffe1042b8",
+    "experiments/v8_candidate_truncation_preflight.py": "200b66d2fe0309e84c7e8b3642cb00c0cab19a96fcb34c9da3415bcd54bf6350",
+    "backend/app/__init__.py": "5cf11b2e5ad944e7da2dbfb602671c75c3d8bcdb94b851fcdb0f8e4252c9685a",
+    "backend/app/validation.py": "2d2431583d8fe4e3c35ab29959bd50f3ab096eb47a7843f36bcce16b8dc52df1",
+    "protocols/sociopatterns_resolution_confirmation_protocol_v0_1.md": "b1bcd4c92a533da5b6edd636158060a1800a37f1b48b66331f3d23110abc5077",
+    "requirements.txt": "0cd554e6872d08e1d7742e2e15f59ccb411dc9fd65a4503848cc802440f12d45",
+    "pyproject.toml": "091d90437b70a8d8edfe8fc59f11076c16371e01c63f5c7ab0cdf9eb240d3cd5"
+  },
+  "data_policy": "External confirmation data are not copied; the snapshot runner records their hashes."
+}

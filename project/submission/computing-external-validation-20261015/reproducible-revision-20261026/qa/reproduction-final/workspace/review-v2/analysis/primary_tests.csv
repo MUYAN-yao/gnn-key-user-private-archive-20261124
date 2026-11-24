@@ -1,0 +1,10 @@
+dataset,method,paths,nonzero_paths,zero_paths,positive_paths,negative_paths,mean_delta,mean_loss_percent,p_raw,p_holm
+college_msg,degree_4k,5,0,5,0,0,0.0,0.0,1.0,1.0
+college_msg,pagerank_4k,5,5,0,0,5,-0.9077999999999999,9.011828932333028,0.0625,0.1875
+college_msg,random_mean_4k,5,5,0,0,5,-8.227446666666667,81.68828592814518,0.0625,0.1875
+ca_grqc,degree_4k,5,0,5,0,0,0.0,0.0,1.0,1.0
+ca_grqc,pagerank_4k,5,5,0,0,5,-0.25082,5.070376765246573,0.0625,0.1875
+ca_grqc,random_mean_4k,5,5,0,0,5,-3.94366,79.90440102485357,0.0625,0.1875
+wiki_vote,degree_4k,5,0,5,0,0,0.0,0.0,1.0,1.0
+wiki_vote,pagerank_4k,5,5,0,0,5,-40.69334,73.01069737882713,0.0625,0.1875
+wiki_vote,random_mean_4k,5,5,0,0,5,-50.90179333333334,91.32667218471987,0.0625,0.1875

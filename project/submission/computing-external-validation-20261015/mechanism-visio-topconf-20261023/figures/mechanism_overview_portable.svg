@@ -1,0 +1,765 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="6in" height="7.75in" viewBox="0 0 432 558" xml:space="preserve" color-interpolation-filters="sRGB" fill="none" fill-rule="evenodd" font-size="12.0" overflow="visible" stroke-linecap="square" stroke-miterlimit="3">
+	<ns1:documentProperties ns1:langID="2052" ns1:metric="true" ns1:viewMarkup="false" />
+
+	<ns0:style type="text/css">
+	
+		.st1 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:#1b2634;font-family:Arial;font-size:1.01667em;font-weight:bold}
+		.st3 {stroke:#dee4eb;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.7}
+		.st4 {fill:#1b2634;stroke:#1b2634;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.9}
+		.st5 {fill:#1b2634;font-family:Arial;font-size:0.883324em;font-weight:bold}
+		.st6 {fill:#1b2634;font-family:Arial;font-size:0.900009em;font-weight:bold}
+		.st7 {font-size:1em}
+		.st8 {fill:#ffffff;stroke:#667484;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.9}
+		.st9 {fill:#e5f6f2;stroke:#097e79;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.9}
+		.st10 {stroke:#667484;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.1}
+		.st11 {fill:#e5f6f2;stroke:#097e79;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.7}
+		.st12 {fill:#1b2634;font-family:Arial;font-size:0.883324em}
+		.st13 {fill:#f7f9fb;stroke:#dee4eb;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.7}
+		.st14 {stroke:#c46c24;stroke-dasharray:9.8,7;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.4}
+		.st15 {fill:#c46c24;font-family:Arial;font-size:0.883324em;font-weight:bold}
+		.st16 {fill:#2d5b9c;stroke:#2d5b9c;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.9}
+		.st17 {fill:#eaf1fc;stroke:#2d5b9c;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.7}
+		.st18 {stroke:#2d5b9c;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st19 {fill:#ffffff;stroke:#2d5b9c;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.9}
+		.st20 {fill:#2d5b9c;font-family:Arial;font-size:0.883324em;font-weight:bold}
+		.st21 {stroke:#2d5b9c;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.9}
+		.st22 {fill:#c46c24;stroke:#c46c24;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.9}
+		.st23 {fill:#fdf1e3;stroke:#c46c24;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.7}
+		.st24 {stroke:#c46c24;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.9}
+		.st25 {stroke:#097e79;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.9}
+		.st26 {stroke:#1b2634;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.9}
+		.st27 {fill:#1b2634;font-family:Arial;font-size:0.916672em;font-weight:bold}
+		.st28 {fill:#ffffff;stroke:#dee4eb;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.7}
+		.st29 {fill:#eaf1fc;stroke:#2d5b9c;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.9}
+		.st30 {fill:#fdf1e3;stroke:#c46c24;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.9}
+		.st31 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	
+	</ns0:style>
+
+	<ns0:g ns1:mID="4" ns1:index="1" ns1:groupContext="foregroundPage">
+		<ns0:title>Mechanism overview</ns0:title>
+		<ns1:pageProperties ns1:drawingScale="0.0393701" ns1:pageScale="0.0393701" ns1:drawingUnits="24" ns1:shadowOffsetX="8.50394" ns1:shadowOffsetY="-8.50394" />
+		<ns0:g id="shape1-1" ns1:mID="1" ns1:groupContext="shape" transform="translate(13.824,-538.56)">
+			<ns0:title>工作表.1</ns0:title>
+			<ns0:desc>Candidate-restriction comparison has two resolutions</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="200.88" cy="552.6" width="401.76" height="10.8" />
+			<ns0:rect x="0" y="547.2" width="401.76" height="10.8" fill="none" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75" />
+			<ns0:text x="2" y="556.26" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="12.20004" font-weight="bold"><ns1:paragraph /><ns1:tabList />Candidate-restriction comparison has two resolutions</ns0:text>		</ns0:g>
+		<ns0:g id="shape2-4" ns1:mID="2" ns1:groupContext="shape" transform="translate(12.096,-516.96)">
+			<ns0:title>工作表.2</ns0:title>
+			<ns0:path d="M0 558 L407.81 558" stroke="#dee4eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+		</ns0:g>
+		<ns0:g id="shape3-7" ns1:mID="3" ns1:groupContext="shape" transform="translate(17.28,-491.904)">
+			<ns0:title>工作表.3</ns0:title>
+			<ns0:desc>1</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(4,4,4,4)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="6.48" cy="551.52" width="12.96" height="12.96" />
+			<ns0:ellipse cx="6.48" cy="551.52" rx="6.48" ry="6.48" fill="#1b2634" stroke="#1b2634" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+			<ns0:text x="4" y="554.7" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.599888" font-weight="bold"><ns1:paragraph ns1:horizAlign="1" /><ns1:tabList />1</ns0:text>		</ns0:g>
+		<ns0:g id="shape4-10" ns1:mID="4" ns1:groupContext="shape" transform="translate(35.424,-494.928)">
+			<ns0:title>工作表.4</ns0:title>
+			<ns0:desc>One graph; restricted pool</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="55.08" cy="552.6" width="110.16" height="10.8" />
+			<ns0:rect x="0" y="547.2" width="110.16" height="10.8" fill="none" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75" />
+			<ns0:text x="2" y="549.36" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.800108" font-weight="bold"><ns1:paragraph /><ns1:tabList />One graph; <ns0:tspan x="2" dy="1.2em" font-size="10.800108">restricted pool</ns0:tspan></ns0:text>		</ns0:g>
+		<ns0:g id="shape5-14" ns1:mID="5" ns1:groupContext="shape" transform="translate(-400.9,-253.104) rotate(-49.8991)">
+			<ns0:title>工作表.5</ns0:title>
+			<ns0:path d="M0 558 L27.47 558" stroke="#dee4eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+		</ns0:g>
+		<ns0:g id="shape6-17" ns1:mID="6" ns1:groupContext="shape" transform="translate(78.0041,-449.24) rotate(5.35583)">
+			<ns0:title>工作表.6</ns0:title>
+			<ns0:path d="M0 558 L35.54 558" stroke="#dee4eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+		</ns0:g>
+		<ns0:g id="shape7-20" ns1:mID="7" ns1:groupContext="shape" transform="translate(153.048,-461.853) rotate(11.3099)">
+			<ns0:title>工作表.7</ns0:title>
+			<ns0:path d="M0 558 L33.83 558" stroke="#dee4eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+		</ns0:g>
+		<ns0:g id="shape8-23" ns1:mID="8" ns1:groupContext="shape" transform="translate(-358.628,-257.804) rotate(-48.8141)">
+			<ns0:title>工作表.8</ns0:title>
+			<ns0:path d="M0 558 L23.51 558" stroke="#dee4eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+		</ns0:g>
+		<ns0:g id="shape9-26" ns1:mID="9" ns1:groupContext="shape" transform="translate(248.985,-415.85) rotate(19.6538)">
+			<ns0:title>工作表.9</ns0:title>
+			<ns0:path d="M0 558 L32.88 558" stroke="#dee4eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+		</ns0:g>
+		<ns0:g id="shape10-29" ns1:mID="10" ns1:groupContext="shape" transform="translate(208.007,-450.406) rotate(13.6005)">
+			<ns0:title>工作表.10</ns0:title>
+			<ns0:path d="M0 558 L35.27 558" stroke="#dee4eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+		</ns0:g>
+		<ns0:g id="shape11-32" ns1:mID="11" ns1:groupContext="shape" transform="translate(-318.596,-256.856) rotate(-47.4195)">
+			<ns0:title>工作表.11</ns0:title>
+			<ns0:path d="M0 558 L27.79 558" stroke="#dee4eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+		</ns0:g>
+		<ns0:g id="shape12-35" ns1:mID="12" ns1:groupContext="shape" transform="translate(-276.508,-301.185) rotate(-43.9949)">
+			<ns0:title>工作表.12</ns0:title>
+			<ns0:path d="M0 558 L22.29 558" stroke="#dee4eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+		</ns0:g>
+		<ns0:g id="shape13-38" ns1:mID="13" ns1:groupContext="shape" transform="translate(335.804,-410.505) rotate(23.7495)">
+			<ns0:title>工作表.13</ns0:title>
+			<ns0:path d="M0 558 L30.21 558" stroke="#dee4eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+		</ns0:g>
+		<ns0:g id="shape14-41" ns1:mID="14" ns1:groupContext="shape" transform="translate(341.82,-378.39) rotate(26.5651)">
+			<ns0:title>工作表.14</ns0:title>
+			<ns0:path d="M0 558 L27.2 558" stroke="#dee4eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+		</ns0:g>
+		<ns0:g id="shape15-44" ns1:mID="15" ns1:groupContext="shape" transform="translate(-262.3,-276.762) rotate(-42.7688)">
+			<ns0:title>工作表.15</ns0:title>
+			<ns0:path d="M0 558 L30.13 558" stroke="#dee4eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+		</ns0:g>
+		<ns0:g id="shape16-47" ns1:mID="16" ns1:groupContext="shape" transform="translate(192.615,685.665) rotate(172.171)">
+			<ns0:title>工作表.16</ns0:title>
+			<ns0:path d="M0 558 L44.65 558" stroke="#dee4eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+		</ns0:g>
+		<ns0:g id="shape17-50" ns1:mID="17" ns1:groupContext="shape" transform="translate(-143.707,653.414) rotate(-157.218)">
+			<ns0:title>工作表.17</ns0:title>
+			<ns0:path d="M0 558 L29.99 558" stroke="#dee4eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+		</ns0:g>
+		<ns0:g id="shape18-53" ns1:mID="18" ns1:groupContext="shape" transform="translate(-371.124,499.408) rotate(-131.82)">
+			<ns0:title>工作表.18</ns0:title>
+			<ns0:path d="M0 558 L28.2 558" stroke="#dee4eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+		</ns0:g>
+		<ns0:g id="shape19-56" ns1:mID="19" ns1:groupContext="shape" transform="translate(-449.697,335.954) rotate(-110.674)">
+			<ns0:title>工作表.19</ns0:title>
+			<ns0:path d="M0 558 L31.32 558" stroke="#dee4eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+		</ns0:g>
+		<ns0:g id="shape20-59" ns1:mID="20" ns1:groupContext="shape" transform="translate(20.3904,-446.147)">
+			<ns0:title>工作表.20</ns0:title>
+			<ns0:ellipse cx="5.5296" cy="552.47" rx="5.5296" ry="5.5296" fill="#ffffff" stroke="#667484" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape21-61" ns1:mID="21" ns1:groupContext="shape" transform="translate(38.0851,-467.159)">
+			<ns0:title>工作表.21</ns0:title>
+			<ns0:ellipse cx="5.5296" cy="552.47" rx="5.5296" ry="5.5296" fill="#e5f6f2" stroke="#097e79" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape22-63" ns1:mID="22" ns1:groupContext="shape" transform="translate(55.7798,-442.829)">
+			<ns0:title>工作表.22</ns0:title>
+			<ns0:ellipse cx="5.5296" cy="552.47" rx="5.5296" ry="5.5296" fill="#ffffff" stroke="#667484" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape23-65" ns1:mID="23" ns1:groupContext="shape" transform="translate(71.2627,-460.524)">
+			<ns0:title>工作表.23</ns0:title>
+			<ns0:ellipse cx="5.5296" cy="552.47" rx="5.5296" ry="5.5296" fill="#e5f6f2" stroke="#097e79" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape24-67" ns1:mID="24" ns1:groupContext="shape" transform="translate(86.7456,-431.77)">
+			<ns0:title>工作表.24</ns0:title>
+			<ns0:ellipse cx="5.5296" cy="552.47" rx="5.5296" ry="5.5296" fill="#ffffff" stroke="#667484" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape25-69" ns1:mID="25" ns1:groupContext="shape" transform="translate(105.546,-452.229)">
+			<ns0:title>工作表.25</ns0:title>
+			<ns0:ellipse cx="5.5296" cy="552.47" rx="5.5296" ry="5.5296" fill="#e5f6f2" stroke="#097e79" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape26-71" ns1:mID="26" ns1:groupContext="shape" transform="translate(121.582,-467.712)">
+			<ns0:title>工作表.26</ns0:title>
+			<ns0:ellipse cx="5.5296" cy="552.47" rx="5.5296" ry="5.5296" fill="#ffffff" stroke="#667484" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape27-73" ns1:mID="27" ns1:groupContext="shape" transform="translate(133.194,-440.064)">
+			<ns0:title>工作表.27</ns0:title>
+			<ns0:ellipse cx="5.5296" cy="552.47" rx="5.5296" ry="5.5296" fill="#e5f6f2" stroke="#097e79" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape28-75" ns1:mID="28" ns1:groupContext="shape" transform="translate(111.076,-419.604)">
+			<ns0:title>工作表.28</ns0:title>
+			<ns0:ellipse cx="5.5296" cy="552.47" rx="5.5296" ry="5.5296" fill="#e5f6f2" stroke="#097e79" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape29-77" ns1:mID="29" ns1:groupContext="shape" transform="translate(66.839,-413.522)">
+			<ns0:title>工作表.29</ns0:title>
+			<ns0:ellipse cx="5.5296" cy="552.47" rx="5.5296" ry="5.5296" fill="#ffffff" stroke="#667484" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape30-79" ns1:mID="30" ns1:groupContext="shape" transform="translate(39.191,-425.134)">
+			<ns0:title>工作表.30</ns0:title>
+			<ns0:ellipse cx="5.5296" cy="552.47" rx="5.5296" ry="5.5296" fill="#ffffff" stroke="#667484" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape31-81" ns1:mID="31" ns1:groupContext="shape" transform="translate(28.512,-402.912)">
+			<ns0:title>工作表.31</ns0:title>
+			<ns0:desc>propagation graph G</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="55.08" cy="552.384" width="110.16" height="11.232" />
+			<ns0:rect x="0" y="546.768" width="110.16" height="11.232" fill="none" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75" />
+			<ns0:text x="2.67" y="555.56" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.599888" font-weight="bold"><ns1:paragraph ns1:horizAlign="1" /><ns1:tabList />propagation graph G</ns0:text>		</ns0:g>
+		<ns0:g id="shape32-84" ns1:mID="32" ns1:groupContext="shape" transform="translate(148.176,-463.824)">
+			<ns0:title>工作表.32</ns0:title>
+			<ns0:path d="M0 558 L19.01 558" stroke="#667484" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.1" />
+		</ns0:g>
+		<ns0:g id="shape33-87" ns1:mID="33" ns1:groupContext="shape" transform="translate(391.847,-416.62) rotate(24.2277)">
+			<ns0:title>工作表.33</ns0:title>
+			<ns0:path d="M0 558 L4.74 558" stroke="#667484" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.1" />
+		</ns0:g>
+		<ns0:g id="shape34-90" ns1:mID="34" ns1:groupContext="shape" transform="translate(-66.1195,-412.732) rotate(-24.2277)">
+			<ns0:title>工作表.34</ns0:title>
+			<ns0:path d="M0 558 L4.74 558" stroke="#667484" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.1" />
+		</ns0:g>
+		<ns0:g id="shape35-93" ns1:mID="35" ns1:groupContext="shape" transform="translate(169.344,-482.4)">
+			<ns0:title>工作表.35</ns0:title>
+			<ns0:desc>ranking r(v)</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="41.04" cy="552.6" width="82.08" height="10.8" />
+			<ns0:rect x="0" y="547.2" width="82.08" height="10.8" fill="none" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75" />
+			<ns0:text x="11.89" y="555.78" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.599888" font-weight="bold"><ns1:paragraph ns1:horizAlign="1" /><ns1:tabList />ranking r(v)</ns0:text>		</ns0:g>
+		<ns0:g id="shape36-96" ns1:mID="36" ns1:groupContext="shape" transform="translate(178.416,-468.576)">
+			<ns0:title>工作表.36</ns0:title>
+			<ns0:desc>1</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="23.328" cy="552.168" width="46.66" height="11.664" />
+			<ns0:rect x="0" y="546.336" width="46.656" height="11.664" rx="2.52" ry="2.52" fill="#e5f6f2" stroke="#097e79" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+			<ns0:text x="20.38" y="555.35" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.599888"><ns1:paragraph ns1:horizAlign="1" /><ns1:tabList />1</ns0:text>		</ns0:g>
+		<ns0:g id="shape37-99" ns1:mID="37" ns1:groupContext="shape" transform="translate(178.416,-455.616)">
+			<ns0:title>工作表.37</ns0:title>
+			<ns0:desc>2</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="23.328" cy="552.168" width="46.66" height="11.664" />
+			<ns0:rect x="0" y="546.336" width="46.656" height="11.664" rx="2.52" ry="2.52" fill="#e5f6f2" stroke="#097e79" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+			<ns0:text x="20.38" y="555.35" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.599888"><ns1:paragraph ns1:horizAlign="1" /><ns1:tabList />2</ns0:text>		</ns0:g>
+		<ns0:g id="shape38-102" ns1:mID="38" ns1:groupContext="shape" transform="translate(178.416,-442.656)">
+			<ns0:title>工作表.38</ns0:title>
+			<ns0:desc>3</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="23.328" cy="552.168" width="46.66" height="11.664" />
+			<ns0:rect x="0" y="546.336" width="46.656" height="11.664" rx="2.52" ry="2.52" fill="#e5f6f2" stroke="#097e79" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+			<ns0:text x="20.38" y="555.35" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.599888"><ns1:paragraph ns1:horizAlign="1" /><ns1:tabList />3</ns0:text>		</ns0:g>
+		<ns0:g id="shape39-105" ns1:mID="39" ns1:groupContext="shape" transform="translate(178.416,-429.696)">
+			<ns0:title>工作表.39</ns0:title>
+			<ns0:desc>4</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="23.328" cy="552.168" width="46.66" height="11.664" />
+			<ns0:rect x="0" y="546.336" width="46.656" height="11.664" rx="2.52" ry="2.52" fill="#e5f6f2" stroke="#097e79" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+			<ns0:text x="20.38" y="555.35" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.599888"><ns1:paragraph ns1:horizAlign="1" /><ns1:tabList />4</ns0:text>		</ns0:g>
+		<ns0:g id="shape40-108" ns1:mID="40" ns1:groupContext="shape" transform="translate(178.416,-416.736)">
+			<ns0:title>工作表.40</ns0:title>
+			<ns0:desc>5</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="23.328" cy="552.168" width="46.66" height="11.664" />
+			<ns0:rect x="0" y="546.336" width="46.656" height="11.664" rx="2.52" ry="2.52" fill="#e5f6f2" stroke="#097e79" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+			<ns0:text x="20.38" y="555.35" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.599888"><ns1:paragraph ns1:horizAlign="1" /><ns1:tabList />5</ns0:text>		</ns0:g>
+		<ns0:g id="shape41-111" ns1:mID="41" ns1:groupContext="shape" transform="translate(178.416,-403.776)">
+			<ns0:title>工作表.41</ns0:title>
+			<ns0:desc>6</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="23.328" cy="552.168" width="46.66" height="11.664" />
+			<ns0:rect x="0" y="546.336" width="46.656" height="11.664" rx="2.52" ry="2.52" fill="#f7f9fb" stroke="#dee4eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+			<ns0:text x="20.38" y="555.35" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.599888"><ns1:paragraph ns1:horizAlign="1" /><ns1:tabList />6</ns0:text>		</ns0:g>
+		<ns0:g id="shape42-114" ns1:mID="42" ns1:groupContext="shape" transform="translate(178.416,-390.816)">
+			<ns0:title>工作表.42</ns0:title>
+			<ns0:desc>7</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="23.328" cy="552.168" width="46.66" height="11.664" />
+			<ns0:rect x="0" y="546.336" width="46.656" height="11.664" rx="2.52" ry="2.52" fill="#f7f9fb" stroke="#dee4eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+			<ns0:text x="20.38" y="555.35" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.599888"><ns1:paragraph ns1:horizAlign="1" /><ns1:tabList />7</ns0:text>		</ns0:g>
+		<ns0:g id="shape43-117" ns1:mID="43" ns1:groupContext="shape" transform="translate(178.416,-377.856)">
+			<ns0:title>工作表.43</ns0:title>
+			<ns0:desc>8</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="23.328" cy="552.168" width="46.66" height="11.664" />
+			<ns0:rect x="0" y="546.336" width="46.656" height="11.664" rx="2.52" ry="2.52" fill="#f7f9fb" stroke="#dee4eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+			<ns0:text x="20.38" y="555.35" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.599888"><ns1:paragraph ns1:horizAlign="1" /><ns1:tabList />8</ns0:text>		</ns0:g>
+		<ns0:g id="shape44-120" ns1:mID="44" ns1:groupContext="shape" transform="translate(171.504,-414.576)">
+			<ns0:title>工作表.44</ns0:title>
+			<ns0:path d="M0 558 L60.91 558" stroke="#c46c24" stroke-dasharray="9.8,7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" />
+		</ns0:g>
+		<ns0:g id="shape45-123" ns1:mID="45" ns1:groupContext="shape" transform="translate(235.44,-405.936)">
+			<ns0:title>工作表.45</ns0:title>
+			<ns0:desc>top-m boundary</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="33.264" cy="550.44" width="66.53" height="15.12" />
+			<ns0:rect x="0" y="542.88" width="66.528" height="15.12" fill="none" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75" />
+			<ns0:text x="2" y="547.26" ns1:langID="2052" fill="#c46c24" font-family="Helvetica" font-size="10.599888" font-weight="bold"><ns1:paragraph /><ns1:tabList />top-m<ns1:newlineChar /><ns0:tspan x="2" dy="1.2em" font-size="10.599888">boundary</ns0:tspan></ns0:text>		</ns0:g>
+		<ns0:g id="shape46-127" ns1:mID="46" ns1:groupContext="shape" transform="translate(175.824,-353.232)">
+			<ns0:title>工作表.46</ns0:title>
+			<ns0:desc>C(tau)</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="26.136" cy="549.792" width="52.28" height="16.416" />
+			<ns0:rect x="0" y="541.584" width="52.272" height="16.416" rx="2.52" ry="2.52" fill="#e5f6f2" stroke="#097e79" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+			<ns0:text x="10.83" y="552.97" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.599888" font-weight="bold"><ns1:paragraph ns1:horizAlign="1" /><ns1:tabList />C(tau)</ns0:text>		</ns0:g>
+		<ns0:g id="shape47-130" ns1:mID="47" ns1:groupContext="shape" transform="translate(28.944,-315.648)">
+			<ns0:title>工作表.47</ns0:title>
+			<ns0:desc>2</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(4,4,4,4)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="6.48" cy="551.52" width="12.96" height="12.96" />
+			<ns0:ellipse cx="6.48" cy="551.52" rx="6.48" ry="6.48" fill="#2d5b9c" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+			<ns0:text x="4" y="554.7" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.599888" font-weight="bold"><ns1:paragraph ns1:horizAlign="1" /><ns1:tabList />2</ns0:text>		</ns0:g>
+		<ns0:g id="shape48-133" ns1:mID="48" ns1:groupContext="shape" transform="translate(47.52,-318.672)">
+			<ns0:title>工作表.48</ns0:title>
+			<ns0:desc>Finite reference W</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="64.8" cy="552.6" width="129.6" height="10.8" />
+			<ns0:rect x="0" y="547.2" width="129.6" height="10.8" fill="none" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75" />
+			<ns0:text x="2" y="555.84" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.800108" font-weight="bold"><ns1:paragraph /><ns1:tabList />Finite reference W</ns0:text>		</ns0:g>
+		<ns0:g id="shape49-136" ns1:mID="49" ns1:groupContext="shape" transform="translate(50.976,-288)">
+			<ns0:title>工作表.49</ns0:title>
+			<ns0:rect x="0" y="545.472" width="17.28" height="12.528" rx="2.52" ry="2.52" fill="#eaf1fc" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+		</ns0:g>
+		<ns0:g id="shape50-138" ns1:mID="50" ns1:groupContext="shape" transform="translate(408.211,-170.508) rotate(39.2894)">
+			<ns0:title>工作表.50</ns0:title>
+			<ns0:path d="M0 558 L6.14 558" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" />
+		</ns0:g>
+		<ns0:g id="shape51-141" ns1:mID="51" ns1:groupContext="shape" transform="translate(-293.731,-166.62) rotate(-39.2894)">
+			<ns0:title>工作表.51</ns0:title>
+			<ns0:path d="M0 558 L6.14 558" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" />
+		</ns0:g>
+		<ns0:g id="shape52-144" ns1:mID="52" ns1:groupContext="shape" transform="translate(53.784,-295.56)">
+			<ns0:title>工作表.52</ns0:title>
+			<ns0:ellipse cx="1.08" cy="556.92" rx="1.08" ry="1.08" fill="#ffffff" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape53-146" ns1:mID="53" ns1:groupContext="shape" transform="translate(58.536,-291.672)">
+			<ns0:title>工作表.53</ns0:title>
+			<ns0:ellipse cx="1.08" cy="556.92" rx="1.08" ry="1.08" fill="#ffffff" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape54-148" ns1:mID="54" ns1:groupContext="shape" transform="translate(63.288,-295.56)">
+			<ns0:title>工作表.54</ns0:title>
+			<ns0:ellipse cx="1.08" cy="556.92" rx="1.08" ry="1.08" fill="#ffffff" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape55-150" ns1:mID="55" ns1:groupContext="shape" transform="translate(73.872,-288)">
+			<ns0:title>工作表.55</ns0:title>
+			<ns0:rect x="0" y="545.472" width="17.28" height="12.528" rx="2.52" ry="2.52" fill="#eaf1fc" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+		</ns0:g>
+		<ns0:g id="shape56-152" ns1:mID="56" ns1:groupContext="shape" transform="translate(431.107,-170.508) rotate(39.2894)">
+			<ns0:title>工作表.56</ns0:title>
+			<ns0:path d="M0 558 L6.14 558" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" />
+		</ns0:g>
+		<ns0:g id="shape57-155" ns1:mID="57" ns1:groupContext="shape" transform="translate(-270.835,-166.62) rotate(-39.2894)">
+			<ns0:title>工作表.57</ns0:title>
+			<ns0:path d="M0 558 L6.14 558" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" />
+		</ns0:g>
+		<ns0:g id="shape58-158" ns1:mID="58" ns1:groupContext="shape" transform="translate(76.68,-295.56)">
+			<ns0:title>工作表.58</ns0:title>
+			<ns0:ellipse cx="1.08" cy="556.92" rx="1.08" ry="1.08" fill="#ffffff" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape59-160" ns1:mID="59" ns1:groupContext="shape" transform="translate(81.432,-291.672)">
+			<ns0:title>工作表.59</ns0:title>
+			<ns0:ellipse cx="1.08" cy="556.92" rx="1.08" ry="1.08" fill="#ffffff" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape60-162" ns1:mID="60" ns1:groupContext="shape" transform="translate(86.184,-295.56)">
+			<ns0:title>工作表.60</ns0:title>
+			<ns0:ellipse cx="1.08" cy="556.92" rx="1.08" ry="1.08" fill="#ffffff" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape61-164" ns1:mID="61" ns1:groupContext="shape" transform="translate(96.768,-288)">
+			<ns0:title>工作表.61</ns0:title>
+			<ns0:rect x="0" y="545.472" width="17.28" height="12.528" rx="2.52" ry="2.52" fill="#eaf1fc" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+		</ns0:g>
+		<ns0:g id="shape62-166" ns1:mID="62" ns1:groupContext="shape" transform="translate(454.003,-170.508) rotate(39.2894)">
+			<ns0:title>工作表.62</ns0:title>
+			<ns0:path d="M0 558 L6.14 558" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" />
+		</ns0:g>
+		<ns0:g id="shape63-169" ns1:mID="63" ns1:groupContext="shape" transform="translate(-247.939,-166.62) rotate(-39.2894)">
+			<ns0:title>工作表.63</ns0:title>
+			<ns0:path d="M0 558 L6.14 558" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" />
+		</ns0:g>
+		<ns0:g id="shape64-172" ns1:mID="64" ns1:groupContext="shape" transform="translate(99.576,-295.56)">
+			<ns0:title>工作表.64</ns0:title>
+			<ns0:ellipse cx="1.08" cy="556.92" rx="1.08" ry="1.08" fill="#ffffff" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape65-174" ns1:mID="65" ns1:groupContext="shape" transform="translate(104.328,-291.672)">
+			<ns0:title>工作表.65</ns0:title>
+			<ns0:ellipse cx="1.08" cy="556.92" rx="1.08" ry="1.08" fill="#ffffff" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape66-176" ns1:mID="66" ns1:groupContext="shape" transform="translate(109.08,-295.56)">
+			<ns0:title>工作表.66</ns0:title>
+			<ns0:ellipse cx="1.08" cy="556.92" rx="1.08" ry="1.08" fill="#ffffff" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape67-178" ns1:mID="67" ns1:groupContext="shape" transform="translate(123.552,-288.432)">
+			<ns0:title>工作表.67</ns0:title>
+			<ns0:desc>low W</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="13.824" cy="552.6" width="27.65" height="10.8" />
+			<ns0:rect x="0" y="547.2" width="27.648" height="10.8" fill="none" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75" />
+			<ns0:text x="2" y="549.42" ns1:langID="2052" fill="#2d5b9c" font-family="Helvetica" font-size="10.599888" font-weight="bold"><ns1:paragraph /><ns1:tabList />low <ns0:tspan x="2" dy="1.2em" font-size="10.599888">W</ns0:tspan></ns0:text>		</ns0:g>
+		<ns0:g id="shape68-182" ns1:mID="68" ns1:groupContext="shape" transform="translate(50.976,-268.992)">
+			<ns0:title>工作表.68</ns0:title>
+			<ns0:rect x="0" y="545.472" width="17.28" height="12.528" rx="2.52" ry="2.52" fill="#eaf1fc" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+		</ns0:g>
+		<ns0:g id="shape69-184" ns1:mID="69" ns1:groupContext="shape" transform="translate(408.211,-151.5) rotate(39.2894)">
+			<ns0:title>工作表.69</ns0:title>
+			<ns0:path d="M0 558 L6.14 558" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" />
+		</ns0:g>
+		<ns0:g id="shape70-187" ns1:mID="70" ns1:groupContext="shape" transform="translate(-293.731,-147.612) rotate(-39.2894)">
+			<ns0:title>工作表.70</ns0:title>
+			<ns0:path d="M0 558 L6.14 558" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" />
+		</ns0:g>
+		<ns0:g id="shape71-190" ns1:mID="71" ns1:groupContext="shape" transform="translate(53.784,-276.552)">
+			<ns0:title>工作表.71</ns0:title>
+			<ns0:ellipse cx="1.08" cy="556.92" rx="1.08" ry="1.08" fill="#ffffff" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape72-192" ns1:mID="72" ns1:groupContext="shape" transform="translate(58.536,-272.664)">
+			<ns0:title>工作表.72</ns0:title>
+			<ns0:ellipse cx="1.08" cy="556.92" rx="1.08" ry="1.08" fill="#ffffff" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape73-194" ns1:mID="73" ns1:groupContext="shape" transform="translate(63.288,-276.552)">
+			<ns0:title>工作表.73</ns0:title>
+			<ns0:ellipse cx="1.08" cy="556.92" rx="1.08" ry="1.08" fill="#ffffff" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape74-196" ns1:mID="74" ns1:groupContext="shape" transform="translate(66.096,-268.992)">
+			<ns0:title>工作表.74</ns0:title>
+			<ns0:rect x="0" y="545.472" width="17.28" height="12.528" rx="2.52" ry="2.52" fill="#eaf1fc" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+		</ns0:g>
+		<ns0:g id="shape75-198" ns1:mID="75" ns1:groupContext="shape" transform="translate(423.331,-151.5) rotate(39.2894)">
+			<ns0:title>工作表.75</ns0:title>
+			<ns0:path d="M0 558 L6.14 558" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" />
+		</ns0:g>
+		<ns0:g id="shape76-201" ns1:mID="76" ns1:groupContext="shape" transform="translate(-278.611,-147.612) rotate(-39.2894)">
+			<ns0:title>工作表.76</ns0:title>
+			<ns0:path d="M0 558 L6.14 558" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" />
+		</ns0:g>
+		<ns0:g id="shape77-204" ns1:mID="77" ns1:groupContext="shape" transform="translate(68.904,-276.552)">
+			<ns0:title>工作表.77</ns0:title>
+			<ns0:ellipse cx="1.08" cy="556.92" rx="1.08" ry="1.08" fill="#ffffff" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape78-206" ns1:mID="78" ns1:groupContext="shape" transform="translate(73.656,-272.664)">
+			<ns0:title>工作表.78</ns0:title>
+			<ns0:ellipse cx="1.08" cy="556.92" rx="1.08" ry="1.08" fill="#ffffff" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape79-208" ns1:mID="79" ns1:groupContext="shape" transform="translate(78.408,-276.552)">
+			<ns0:title>工作表.79</ns0:title>
+			<ns0:ellipse cx="1.08" cy="556.92" rx="1.08" ry="1.08" fill="#ffffff" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape80-210" ns1:mID="80" ns1:groupContext="shape" transform="translate(81.216,-268.992)">
+			<ns0:title>工作表.80</ns0:title>
+			<ns0:rect x="0" y="545.472" width="17.28" height="12.528" rx="2.52" ry="2.52" fill="#eaf1fc" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+		</ns0:g>
+		<ns0:g id="shape81-212" ns1:mID="81" ns1:groupContext="shape" transform="translate(438.451,-151.5) rotate(39.2894)">
+			<ns0:title>工作表.81</ns0:title>
+			<ns0:path d="M0 558 L6.14 558" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" />
+		</ns0:g>
+		<ns0:g id="shape82-215" ns1:mID="82" ns1:groupContext="shape" transform="translate(-263.491,-147.612) rotate(-39.2894)">
+			<ns0:title>工作表.82</ns0:title>
+			<ns0:path d="M0 558 L6.14 558" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" />
+		</ns0:g>
+		<ns0:g id="shape83-218" ns1:mID="83" ns1:groupContext="shape" transform="translate(84.024,-276.552)">
+			<ns0:title>工作表.83</ns0:title>
+			<ns0:ellipse cx="1.08" cy="556.92" rx="1.08" ry="1.08" fill="#ffffff" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape84-220" ns1:mID="84" ns1:groupContext="shape" transform="translate(88.776,-272.664)">
+			<ns0:title>工作表.84</ns0:title>
+			<ns0:ellipse cx="1.08" cy="556.92" rx="1.08" ry="1.08" fill="#ffffff" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape85-222" ns1:mID="85" ns1:groupContext="shape" transform="translate(93.528,-276.552)">
+			<ns0:title>工作表.85</ns0:title>
+			<ns0:ellipse cx="1.08" cy="556.92" rx="1.08" ry="1.08" fill="#ffffff" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape86-224" ns1:mID="86" ns1:groupContext="shape" transform="translate(96.336,-268.992)">
+			<ns0:title>工作表.86</ns0:title>
+			<ns0:rect x="0" y="545.472" width="17.28" height="12.528" rx="2.52" ry="2.52" fill="#eaf1fc" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+		</ns0:g>
+		<ns0:g id="shape87-226" ns1:mID="87" ns1:groupContext="shape" transform="translate(453.571,-151.5) rotate(39.2894)">
+			<ns0:title>工作表.87</ns0:title>
+			<ns0:path d="M0 558 L6.14 558" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" />
+		</ns0:g>
+		<ns0:g id="shape88-229" ns1:mID="88" ns1:groupContext="shape" transform="translate(-248.371,-147.612) rotate(-39.2894)">
+			<ns0:title>工作表.88</ns0:title>
+			<ns0:path d="M0 558 L6.14 558" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" />
+		</ns0:g>
+		<ns0:g id="shape89-232" ns1:mID="89" ns1:groupContext="shape" transform="translate(99.144,-276.552)">
+			<ns0:title>工作表.89</ns0:title>
+			<ns0:ellipse cx="1.08" cy="556.92" rx="1.08" ry="1.08" fill="#ffffff" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape90-234" ns1:mID="90" ns1:groupContext="shape" transform="translate(103.896,-272.664)">
+			<ns0:title>工作表.90</ns0:title>
+			<ns0:ellipse cx="1.08" cy="556.92" rx="1.08" ry="1.08" fill="#ffffff" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape91-236" ns1:mID="91" ns1:groupContext="shape" transform="translate(108.648,-276.552)">
+			<ns0:title>工作表.91</ns0:title>
+			<ns0:ellipse cx="1.08" cy="556.92" rx="1.08" ry="1.08" fill="#ffffff" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape92-238" ns1:mID="92" ns1:groupContext="shape" transform="translate(111.456,-268.992)">
+			<ns0:title>工作表.92</ns0:title>
+			<ns0:rect x="0" y="545.472" width="17.28" height="12.528" rx="2.52" ry="2.52" fill="#eaf1fc" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+		</ns0:g>
+		<ns0:g id="shape93-240" ns1:mID="93" ns1:groupContext="shape" transform="translate(468.691,-151.5) rotate(39.2894)">
+			<ns0:title>工作表.93</ns0:title>
+			<ns0:path d="M0 558 L6.14 558" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" />
+		</ns0:g>
+		<ns0:g id="shape94-243" ns1:mID="94" ns1:groupContext="shape" transform="translate(-233.251,-147.612) rotate(-39.2894)">
+			<ns0:title>工作表.94</ns0:title>
+			<ns0:path d="M0 558 L6.14 558" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" />
+		</ns0:g>
+		<ns0:g id="shape95-246" ns1:mID="95" ns1:groupContext="shape" transform="translate(114.264,-276.552)">
+			<ns0:title>工作表.95</ns0:title>
+			<ns0:ellipse cx="1.08" cy="556.92" rx="1.08" ry="1.08" fill="#ffffff" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape96-248" ns1:mID="96" ns1:groupContext="shape" transform="translate(119.016,-272.664)">
+			<ns0:title>工作表.96</ns0:title>
+			<ns0:ellipse cx="1.08" cy="556.92" rx="1.08" ry="1.08" fill="#ffffff" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape97-250" ns1:mID="97" ns1:groupContext="shape" transform="translate(123.768,-276.552)">
+			<ns0:title>工作表.97</ns0:title>
+			<ns0:ellipse cx="1.08" cy="556.92" rx="1.08" ry="1.08" fill="#ffffff" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape98-252" ns1:mID="98" ns1:groupContext="shape" transform="translate(126.576,-268.992)">
+			<ns0:title>工作表.98</ns0:title>
+			<ns0:rect x="0" y="545.472" width="17.28" height="12.528" rx="2.52" ry="2.52" fill="#eaf1fc" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+		</ns0:g>
+		<ns0:g id="shape99-254" ns1:mID="99" ns1:groupContext="shape" transform="translate(483.811,-151.5) rotate(39.2894)">
+			<ns0:title>工作表.99</ns0:title>
+			<ns0:path d="M0 558 L6.14 558" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" />
+		</ns0:g>
+		<ns0:g id="shape100-257" ns1:mID="100" ns1:groupContext="shape" transform="translate(-218.131,-147.612) rotate(-39.2894)">
+			<ns0:title>工作表.100</ns0:title>
+			<ns0:path d="M0 558 L6.14 558" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" />
+		</ns0:g>
+		<ns0:g id="shape101-260" ns1:mID="101" ns1:groupContext="shape" transform="translate(129.384,-276.552)">
+			<ns0:title>工作表.101</ns0:title>
+			<ns0:ellipse cx="1.08" cy="556.92" rx="1.08" ry="1.08" fill="#ffffff" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape102-262" ns1:mID="102" ns1:groupContext="shape" transform="translate(134.136,-272.664)">
+			<ns0:title>工作表.102</ns0:title>
+			<ns0:ellipse cx="1.08" cy="556.92" rx="1.08" ry="1.08" fill="#ffffff" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape103-264" ns1:mID="103" ns1:groupContext="shape" transform="translate(138.888,-276.552)">
+			<ns0:title>工作表.103</ns0:title>
+			<ns0:ellipse cx="1.08" cy="556.92" rx="1.08" ry="1.08" fill="#ffffff" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape104-266" ns1:mID="104" ns1:groupContext="shape" transform="translate(149.904,-269.424)">
+			<ns0:title>工作表.104</ns0:title>
+			<ns0:desc>high W</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="15.12" cy="552.6" width="30.24" height="10.8" />
+			<ns0:rect x="0" y="547.2" width="30.24" height="10.8" fill="none" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75" />
+			<ns0:text x="2" y="549.42" ns1:langID="2052" fill="#2d5b9c" font-family="Helvetica" font-size="10.599888" font-weight="bold"><ns1:paragraph /><ns1:tabList />high <ns0:tspan x="2" dy="1.2em" font-size="10.599888">W</ns0:tspan></ns0:text>		</ns0:g>
+		<ns0:g id="shape105-270" ns1:mID="105" ns1:groupContext="shape" transform="translate(109.296,-294.48)">
+			<ns0:title>工作表.105</ns0:title>
+			<ns0:path d="M0 558 L7.78 558" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape106-273" ns1:mID="106" ns1:groupContext="shape" transform="translate(341.735,-247.276) rotate(24.2277)">
+			<ns0:title>工作表.106</ns0:title>
+			<ns0:path d="M0 558 L4.74 558" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape107-276" ns1:mID="107" ns1:groupContext="shape" transform="translate(-116.231,-243.388) rotate(-24.2277)">
+			<ns0:title>工作表.107</ns0:title>
+			<ns0:path d="M0 558 L4.74 558" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape108-279" ns1:mID="108" ns1:groupContext="shape" transform="translate(131.76,-275.904)">
+			<ns0:title>工作表.108</ns0:title>
+			<ns0:path d="M0 558 L7.78 558" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape109-282" ns1:mID="109" ns1:groupContext="shape" transform="translate(364.199,-228.7) rotate(24.2277)">
+			<ns0:title>工作表.109</ns0:title>
+			<ns0:path d="M0 558 L4.74 558" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape110-285" ns1:mID="110" ns1:groupContext="shape" transform="translate(-93.7675,-224.812) rotate(-24.2277)">
+			<ns0:title>工作表.110</ns0:title>
+			<ns0:path d="M0 558 L4.74 558" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape111-288" ns1:mID="111" ns1:groupContext="shape" transform="translate(50.112,-249.12)">
+			<ns0:title>工作表.111</ns0:title>
+			<ns0:desc>full seeds S_full(W)</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="53.568" cy="552.6" width="107.14" height="10.8" />
+			<ns0:rect x="0" y="547.2" width="107.136" height="10.8" fill="none" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75" />
+			<ns0:text x="4.69" y="555.78" ns1:langID="2052" fill="#2d5b9c" font-family="Helvetica" font-size="10.599888" font-weight="bold"><ns1:paragraph ns1:horizAlign="1" /><ns1:tabList />full seeds S_full(W)</ns0:text>		</ns0:g>
+		<ns0:g id="shape112-291" ns1:mID="112" ns1:groupContext="shape" transform="translate(63.936,-230.544)">
+			<ns0:title>工作表.112</ns0:title>
+			<ns0:desc>{a, c}</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="16.416" cy="549.792" width="32.84" height="16.416" />
+			<ns0:rect x="0" y="541.584" width="32.832" height="16.416" rx="2.52" ry="2.52" fill="#eaf1fc" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+			<ns0:text x="3.45" y="552.97" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.599888" font-weight="bold"><ns1:paragraph ns1:horizAlign="1" /><ns1:tabList />{a, c}</ns0:text>		</ns0:g>
+		<ns0:g id="shape113-294" ns1:mID="113" ns1:groupContext="shape" transform="translate(98.928,-239.616)">
+			<ns0:title>工作表.113</ns0:title>
+			<ns0:path d="M0 558 L12.96 558" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape114-297" ns1:mID="114" ns1:groupContext="shape" transform="translate(336.551,-192.412) rotate(24.2277)">
+			<ns0:title>工作表.114</ns0:title>
+			<ns0:path d="M0 558 L4.74 558" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape115-300" ns1:mID="115" ns1:groupContext="shape" transform="translate(-121.415,-188.524) rotate(-24.2277)">
+			<ns0:title>工作表.115</ns0:title>
+			<ns0:path d="M0 558 L4.74 558" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape116-303" ns1:mID="116" ns1:groupContext="shape" transform="translate(114.048,-230.544)">
+			<ns0:title>工作表.116</ns0:title>
+			<ns0:desc>{a, d}</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="16.416" cy="549.792" width="32.84" height="16.416" />
+			<ns0:rect x="0" y="541.584" width="32.832" height="16.416" rx="2.52" ry="2.52" fill="#eaf1fc" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+			<ns0:text x="3.16" y="552.97" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.599888" font-weight="bold"><ns1:paragraph ns1:horizAlign="1" /><ns1:tabList />{a, d}</ns0:text>		</ns0:g>
+		<ns0:g id="shape117-306" ns1:mID="117" ns1:groupContext="shape" transform="translate(227.664,-315.648)">
+			<ns0:title>工作表.117</ns0:title>
+			<ns0:desc>3</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(4,4,4,4)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="6.48" cy="551.52" width="12.96" height="12.96" />
+			<ns0:ellipse cx="6.48" cy="551.52" rx="6.48" ry="6.48" fill="#c46c24" stroke="#c46c24" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+			<ns0:text x="4" y="554.7" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.599888" font-weight="bold"><ns1:paragraph ns1:horizAlign="1" /><ns1:tabList />3</ns0:text>		</ns0:g>
+		<ns0:g id="shape118-309" ns1:mID="118" ns1:groupContext="shape" transform="translate(246.24,-318.672)">
+			<ns0:title>工作表.118</ns0:title>
+			<ns0:desc>Ranking tolerance tau</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="68.04" cy="552.6" width="136.08" height="10.8" />
+			<ns0:rect x="0" y="547.2" width="136.08" height="10.8" fill="none" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75" />
+			<ns0:text x="2" y="555.84" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.800108" font-weight="bold"><ns1:paragraph /><ns1:tabList />Ranking tolerance tau</ns0:text>		</ns0:g>
+		<ns0:g id="shape119-312" ns1:mID="119" ns1:groupContext="shape" transform="translate(253.152,-283.68)">
+			<ns0:title>工作表.119</ns0:title>
+			<ns0:desc>m</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="23.112" cy="550.224" width="46.23" height="15.552" />
+			<ns0:rect x="0" y="542.448" width="46.224" height="15.552" rx="2.52" ry="2.52" fill="#fdf1e3" stroke="#c46c24" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+			<ns0:text x="18.4" y="553.4" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.599888" font-weight="bold"><ns1:paragraph ns1:horizAlign="1" /><ns1:tabList />m</ns0:text>		</ns0:g>
+		<ns0:g id="shape120-315" ns1:mID="120" ns1:groupContext="shape" transform="translate(253.152,-264.672)">
+			<ns0:title>工作表.120</ns0:title>
+			<ns0:desc>m+1</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="23.112" cy="550.224" width="46.23" height="15.552" />
+			<ns0:rect x="0" y="542.448" width="46.224" height="15.552" rx="2.52" ry="2.52" fill="#f7f9fb" stroke="#dee4eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+			<ns0:text x="12.65" y="553.4" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.599888"><ns1:paragraph ns1:horizAlign="1" /><ns1:tabList />m+1</ns0:text>		</ns0:g>
+		<ns0:g id="shape121-318" ns1:mID="121" ns1:groupContext="shape" transform="translate(304.992,-290.592)">
+			<ns0:title>工作表.121</ns0:title>
+			<ns0:path d="M0 558 L19.01 558" stroke="#c46c24" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape122-321" ns1:mID="122" ns1:groupContext="shape" transform="translate(548.663,-243.388) rotate(24.2277)">
+			<ns0:title>工作表.122</ns0:title>
+			<ns0:path d="M0 558 L4.74 558" stroke="#c46c24" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape123-324" ns1:mID="123" ns1:groupContext="shape" transform="translate(90.6965,-239.5) rotate(-24.2277)">
+			<ns0:title>工作表.123</ns0:title>
+			<ns0:path d="M0 558 L4.74 558" stroke="#c46c24" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape124-327" ns1:mID="124" ns1:groupContext="shape" transform="translate(328.752,-283.68)">
+			<ns0:title>工作表.124</ns0:title>
+			<ns0:desc>m</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="23.112" cy="550.224" width="46.23" height="15.552" />
+			<ns0:rect x="0" y="542.448" width="46.224" height="15.552" rx="2.52" ry="2.52" fill="#e5f6f2" stroke="#097e79" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+			<ns0:text x="18.4" y="553.4" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.599888" font-weight="bold"><ns1:paragraph ns1:horizAlign="1" /><ns1:tabList />m</ns0:text>		</ns0:g>
+		<ns0:g id="shape125-330" ns1:mID="125" ns1:groupContext="shape" transform="translate(328.752,-264.672)">
+			<ns0:title>工作表.125</ns0:title>
+			<ns0:desc>m+1</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="23.112" cy="550.224" width="46.23" height="15.552" />
+			<ns0:rect x="0" y="542.448" width="46.224" height="15.552" rx="2.52" ry="2.52" fill="#fdf1e3" stroke="#c46c24" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+			<ns0:text x="12.65" y="553.4" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.599888"><ns1:paragraph ns1:horizAlign="1" /><ns1:tabList />m+1</ns0:text>		</ns0:g>
+		<ns0:g id="shape126-333" ns1:mID="126" ns1:groupContext="shape" transform="translate(265.248,-230.544)">
+			<ns0:title>工作表.126</ns0:title>
+			<ns0:desc>{a, c}</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="21.384" cy="549.792" width="42.77" height="16.416" />
+			<ns0:rect x="0" y="541.584" width="42.768" height="16.416" rx="2.52" ry="2.52" fill="#e5f6f2" stroke="#097e79" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+			<ns0:text x="8.42" y="552.97" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.599888" font-weight="bold"><ns1:paragraph ns1:horizAlign="1" /><ns1:tabList />{a, c}</ns0:text>		</ns0:g>
+		<ns0:g id="shape127-336" ns1:mID="127" ns1:groupContext="shape" transform="translate(310.176,-239.616)">
+			<ns0:title>工作表.127</ns0:title>
+			<ns0:path d="M0 558 L12.96 558" stroke="#097e79" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape128-339" ns1:mID="128" ns1:groupContext="shape" transform="translate(547.799,-192.412) rotate(24.2277)">
+			<ns0:title>工作表.128</ns0:title>
+			<ns0:path d="M0 558 L4.74 558" stroke="#097e79" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape129-342" ns1:mID="129" ns1:groupContext="shape" transform="translate(89.8325,-188.524) rotate(-24.2277)">
+			<ns0:title>工作表.129</ns0:title>
+			<ns0:path d="M0 558 L4.74 558" stroke="#097e79" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape130-345" ns1:mID="130" ns1:groupContext="shape" transform="translate(325.296,-230.544)">
+			<ns0:title>工作表.130</ns0:title>
+			<ns0:desc>{a, e}</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="21.384" cy="549.792" width="42.77" height="16.416" />
+			<ns0:rect x="0" y="541.584" width="42.768" height="16.416" rx="2.52" ry="2.52" fill="#e5f6f2" stroke="#097e79" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+			<ns0:text x="8.42" y="552.97" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.599888" font-weight="bold"><ns1:paragraph ns1:horizAlign="1" /><ns1:tabList />{a, e}</ns0:text>		</ns0:g>
+		<ns0:g id="shape131-348" ns1:mID="131" ns1:groupContext="shape" transform="translate(687.6,346.464) rotate(90)">
+			<ns0:title>工作表.131</ns0:title>
+			<ns0:path d="M0 558 L17.28 558" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape132-351" ns1:mID="132" ns1:groupContext="shape" transform="translate(640.396,588.407) rotate(114.228)">
+			<ns0:title>工作表.132</ns0:title>
+			<ns0:path d="M0 558 L4.74 558" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape133-354" ns1:mID="133" ns1:groupContext="shape" transform="translate(636.508,130.441) rotate(65.7723)">
+			<ns0:title>工作表.133</ns0:title>
+			<ns0:path d="M0 558 L4.74 558" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape134-357" ns1:mID="134" ns1:groupContext="shape" transform="translate(904.464,346.464) rotate(90)">
+			<ns0:title>工作表.134</ns0:title>
+			<ns0:path d="M0 558 L17.28 558" stroke="#097e79" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape135-360" ns1:mID="135" ns1:groupContext="shape" transform="translate(857.26,588.407) rotate(114.228)">
+			<ns0:title>工作表.135</ns0:title>
+			<ns0:path d="M0 558 L4.74 558" stroke="#097e79" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape136-363" ns1:mID="136" ns1:groupContext="shape" transform="translate(853.372,130.441) rotate(65.7723)">
+			<ns0:title>工作表.136</ns0:title>
+			<ns0:path d="M0 558 L4.74 558" stroke="#097e79" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape137-366" ns1:mID="137" ns1:groupContext="shape" transform="translate(66.96,-163.584)">
+			<ns0:title>工作表.137</ns0:title>
+			<ns0:desc>MATCHED SELECTION: full greedy S_full(W) versus restricted-po...</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="149.04" cy="544.392" width="298.08" height="27.216" />
+			<ns0:rect x="0" y="530.784" width="298.08" height="27.216" rx="2.52" ry="2.52" fill="#f7f9fb" stroke="#dee4eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+			<ns0:text x="16.23" y="541.21" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.599888" font-weight="bold"><ns1:paragraph ns1:horizAlign="1" /><ns1:tabList />MATCHED SELECTION: full greedy S_full(W)  versus  <ns0:tspan x="54.52" dy="1.2em" font-size="10.599888">restricted</ns0:tspan>-pool greedy S_pool(W, tau)</ns0:text>		</ns0:g>
+		<ns0:g id="shape138-370" ns1:mID="138" ns1:groupContext="shape" transform="translate(774,406.08) rotate(90)">
+			<ns0:title>工作表.138</ns0:title>
+			<ns0:path d="M0 558 L16.42 558" stroke="#1b2634" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape139-373" ns1:mID="139" ns1:groupContext="shape" transform="translate(726.796,647.159) rotate(114.228)">
+			<ns0:title>工作表.139</ns0:title>
+			<ns0:path d="M0 558 L4.74 558" stroke="#1b2634" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape140-376" ns1:mID="140" ns1:groupContext="shape" transform="translate(722.908,189.193) rotate(65.7723)">
+			<ns0:title>工作表.140</ns0:title>
+			<ns0:path d="M0 558 L4.74 558" stroke="#1b2634" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+		</ns0:g>
+		<ns0:g id="shape141-379" ns1:mID="141" ns1:groupContext="shape" transform="translate(66.96,-104.4)">
+			<ns0:title>工作表.141</ns0:title>
+			<ns0:desc>INDEPENDENT UTILITY READOUT D_eval = spread_eta(S_pool) - spr...</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="149.04" cy="541.152" width="298.08" height="33.696" />
+			<ns0:rect x="0" y="524.304" width="298.08" height="33.696" rx="2.52" ry="2.52" fill="#e5f6f2" stroke="#097e79" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+			<ns0:text x="58.59" y="537.85" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="11.000064" font-weight="bold"><ns1:paragraph ns1:horizAlign="1" /><ns1:tabList />INDEPENDENT UTILITY READOUT<ns1:newlineChar /><ns0:tspan x="21.42" dy="1.2em" font-size="11.000064">D_eval = spread_eta(S_pool) </ns0:tspan>- spread_eta(S_full)</ns0:text>		</ns0:g>
+		<ns0:g id="shape142-383" ns1:mID="142" ns1:groupContext="shape" transform="translate(64.8,-70.272)">
+			<ns0:title>工作表.142</ns0:title>
+			<ns0:desc>Observed ca-GrQc: 2/20 candidates exchange; 5/5 selected sets...</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="151.2" cy="547.416" width="302.41" height="21.168" />
+			<ns0:rect x="0" y="536.832" width="302.4" height="21.168" rx="2.52" ry="2.52" fill="#ffffff" stroke="#dee4eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+			<ns0:text x="10.37" y="544.24" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.599888"><ns1:paragraph ns1:horizAlign="1" /><ns1:tabList />Observed ca-GrQc: 2/20 candidates exchange; 5/5 selected <ns0:tspan x="90.95" dy="1.2em" font-size="10.599888">sets change at W = 1280.</ns0:tspan></ns0:text>		</ns0:g>
+		<ns0:g id="shape143-387" ns1:mID="143" ns1:groupContext="shape" transform="translate(12.096,-52.56)">
+			<ns0:title>工作表.143</ns0:title>
+			<ns0:path d="M0 558 L407.81 558" stroke="#dee4eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+		</ns0:g>
+		<ns0:g id="shape144-390" ns1:mID="144" ns1:groupContext="shape" transform="translate(17.28,-33.12)">
+			<ns0:title>工作表.144</ns0:title>
+			<ns0:desc>Keep outputs distinct:</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="56.16" cy="552.6" width="112.32" height="10.8" />
+			<ns0:rect x="0" y="547.2" width="112.32" height="10.8" fill="none" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75" />
+			<ns0:text x="2" y="549.42" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.599888" font-weight="bold"><ns1:paragraph /><ns1:tabList />Keep outputs <ns0:tspan x="2" dy="1.2em" font-size="10.599888">distinct:</ns0:tspan></ns0:text>		</ns0:g>
+		<ns0:g id="shape145-394" ns1:mID="145" ns1:groupContext="shape" transform="translate(136.08,-32.688)">
+			<ns0:title>工作表.145</ns0:title>
+			<ns0:desc>A</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(4,4,4,4)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="6.048" cy="551.952" width="12.1" height="12.096" />
+			<ns0:ellipse cx="6.048" cy="551.952" rx="6.048" ry="6.048" fill="#eaf1fc" stroke="#2d5b9c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+			<ns0:text x="4" y="555.13" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.599888" font-weight="bold"><ns1:paragraph ns1:horizAlign="1" /><ns1:tabList />A</ns0:text>		</ns0:g>
+		<ns0:g id="shape146-397" ns1:mID="146" ns1:groupContext="shape" transform="translate(151.632,-32.688)">
+			<ns0:title>工作表.146</ns0:title>
+			<ns0:desc>agreement</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="38.88" cy="551.952" width="77.77" height="12.096" />
+			<ns0:rect x="0" y="545.904" width="77.76" height="12.096" fill="none" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75" />
+			<ns0:text x="2" y="555.13" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.599888"><ns1:paragraph /><ns1:tabList />agreement</ns0:text>		</ns0:g>
+		<ns0:g id="shape147-400" ns1:mID="147" ns1:groupContext="shape" transform="translate(238.896,-32.688)">
+			<ns0:title>工作表.147</ns0:title>
+			<ns0:desc>U</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(4,4,4,4)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="6.048" cy="551.952" width="12.1" height="12.096" />
+			<ns0:ellipse cx="6.048" cy="551.952" rx="6.048" ry="6.048" fill="#e5f6f2" stroke="#097e79" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+			<ns0:text x="4" y="555.13" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.599888" font-weight="bold"><ns1:paragraph ns1:horizAlign="1" /><ns1:tabList />U</ns0:text>		</ns0:g>
+		<ns0:g id="shape148-403" ns1:mID="148" ns1:groupContext="shape" transform="translate(254.448,-32.688)">
+			<ns0:title>工作表.148</ns0:title>
+			<ns0:desc>utility</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="32.4" cy="551.952" width="64.8" height="12.096" />
+			<ns0:rect x="0" y="545.904" width="64.8" height="12.096" fill="none" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75" />
+			<ns0:text x="2" y="555.13" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.599888"><ns1:paragraph /><ns1:tabList />utility</ns0:text>		</ns0:g>
+		<ns0:g id="shape149-406" ns1:mID="149" ns1:groupContext="shape" transform="translate(326.16,-32.688)">
+			<ns0:title>工作表.149</ns0:title>
+			<ns0:desc>C</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(4,4,4,4)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="6.048" cy="551.952" width="12.1" height="12.096" />
+			<ns0:ellipse cx="6.048" cy="551.952" rx="6.048" ry="6.048" fill="#fdf1e3" stroke="#c46c24" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" />
+			<ns0:text x="4" y="555.13" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.599888" font-weight="bold"><ns1:paragraph ns1:horizAlign="1" /><ns1:tabList />C</ns0:text>		</ns0:g>
+		<ns0:g id="shape150-409" ns1:mID="150" ns1:groupContext="shape" transform="translate(341.712,-32.688)">
+			<ns0:title>工作表.150</ns0:title>
+			<ns0:desc>cost</ns0:desc>
+			<ns1:textBlock ns1:margins="rect(2,2,2,2)" ns1:tabSpace="42.5197" />
+			<ns1:textRect cx="28.08" cy="551.952" width="56.16" height="12.096" />
+			<ns0:rect x="0" y="545.904" width="56.16" height="12.096" fill="none" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75" />
+			<ns0:text x="2" y="555.13" ns1:langID="2052" fill="#1b2634" font-family="Helvetica" font-size="10.599888"><ns1:paragraph /><ns1:tabList />cost</ns0:text>		</ns0:g>
+	</ns0:g>
+</ns0:svg>

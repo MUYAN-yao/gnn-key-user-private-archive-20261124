@@ -1,0 +1,193 @@
+{
+  "status": "PASS",
+  "new_experiments_executed": false,
+  "new_simulation_replays_executed": false,
+  "safe_analysis_imports": [
+    "pathlib",
+    "argparse",
+    "hashlib",
+    "json",
+    "shutil",
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "matplotlib.pyplot",
+    "matplotlib.lines"
+  ],
+  "historical_checks": {
+    "status": "PASS",
+    "new_experiments_executed": false,
+    "simulation_or_selection_replayed": false,
+    "scope": "Stored arrays, metadata and descriptive aggregation only; no new inference or timing.",
+    "conditions": 520,
+    "result_files_hashed": 1040,
+    "arms_recomputed": 4680,
+    "snapshot_hashes_match": true,
+    "legacy_engine_identical": true,
+    "historical_source_manifest_sha256": "d2ece59609e65a342881390c61f6873a6ba7831c53c6143907ee0b17edb5dd99",
+    "path_rows_recomputed_and_matched": 3640,
+    "group_rows_recomputed_and_matched": 378,
+    "group_columns_checked": [
+      "mean_spread_mean",
+      "mean_spread_sd",
+      "incremental_spread_mean",
+      "incremental_spread_sd",
+      "delta_mean",
+      "delta_sd",
+      "same_order_mean",
+      "same_order_sd",
+      "same_set_mean",
+      "same_set_sd",
+      "jaccard_mean",
+      "jaccard_sd",
+      "coverage_mean",
+      "coverage_sd",
+      "relative_incremental_loss_mean",
+      "relative_incremental_loss_sd"
+    ],
+    "reference_transition_rows_checked": 240,
+    "initial_study_metadata_records_read": 42,
+    "initial_study_arrays_recomputed": false
+  },
+  "external_precision_sources_read": {
+    "summary_by_budget_precision.csv": {
+      "rows": 36,
+      "sha256": "a1ab49b89f2764d10d3817152981983fadf8c57b63dddb6fc6fb2961ac6fa3e9",
+      "columns": [
+        "dataset",
+        "W",
+        "method",
+        "solver",
+        "paths",
+        "delta_nodes_mean",
+        "delta_nodes_path_sd",
+        "loss_percent_mean",
+        "loss_percent_path_sd",
+        "same_order_full_count",
+        "same_set_full_count",
+        "candidate_count",
+        "candidate_coverage"
+      ]
+    },
+    "path_metrics.csv": {
+      "rows": 180,
+      "sha256": "47a4916ca571853f8c6bd7b464d8fb7ce25e3cf5111d2460e7adcb7f0d6b2cd3",
+      "columns": [
+        "dataset",
+        "path",
+        "W",
+        "method",
+        "solver",
+        "source",
+        "candidate_count",
+        "candidate_coverage",
+        "total_spread",
+        "incremental_spread",
+        "full_incremental_spread",
+        "delta_vs_full",
+        "mc_se_vs_full",
+        "mc_lo_vs_full",
+        "mc_hi_vs_full",
+        "loss_percent",
+        "selected",
+        "candidate_ids",
+        "same_order_as_full",
+        "same_set_as_full",
+        "input_json_sha256"
+      ]
+    },
+    "budget_transitions_by_path.csv": {
+      "rows": 120,
+      "sha256": "057c491eb024ea829f3cf43880a9cf67ed19aa4ad4b573e52ebd77c453dcf9b8",
+      "columns": [
+        "dataset",
+        "path",
+        "method",
+        "solver",
+        "low_W",
+        "high_W",
+        "changed_order",
+        "changed_set",
+        "delta_change",
+        "mc_se",
+        "mc_lo",
+        "mc_hi"
+      ]
+    },
+    "budget_transitions_summary.csv": {
+      "rows": 24,
+      "sha256": "111516dbaf7e51139c2f5f001da21324764670786ae3756b6377d3e95ebd693f",
+      "columns": [
+        "dataset",
+        "method",
+        "solver",
+        "low_W",
+        "high_W",
+        "paths",
+        "changed_order_count",
+        "changed_set_count",
+        "delta_change_mean",
+        "delta_change_path_sd",
+        "mc_interval_excludes_zero_count"
+      ]
+    },
+    "candidate_pool_precision_diagnostics.csv": {
+      "rows": 6,
+      "sha256": "f2be3c2080c6fc9cb62220bf647863559a487fa76bb01e9606cb51e9026316d5",
+      "columns": [
+        "dataset",
+        "method",
+        "candidate_count",
+        "default_vs_strict_overlap",
+        "default_vs_strict_jaccard",
+        "strict_vs_tighter_same_pool",
+        "strict_added_ids",
+        "strict_removed_ids",
+        "strict_candidate_ids",
+        "default_candidate_ids"
+      ]
+    }
+  },
+  "protected_assets_identical": {
+    "Fig1.pdf": "c3dcc2a58ce086e8d511551385b1fd03e371e49d32bd58a12f3e6c7ac7d5cf25",
+    "Fig2.pdf": "3f0edf9af9749b7241d66e9e55fc4c2deeeb4241443c671eb28d626b123a6639",
+    "Fig3.pdf": "48e32c046c755a26a4a6213ef7ff4ac8630f3602319ed33f6dceb3266c87ca84",
+    "Fig4.pdf": "383bfff6990478aa6d355c2c082da838b151ea712c675b2429770ec8dac8441f",
+    "FigDirectionMechanism.pdf": "029043a3bdafc80205aa7ce1f1566d865f7c322ba256bdae9dc2fc8d3af1c40b",
+    "FigEvaluationMechanism.pdf": "05508d3ab11718c3760b70282ca227615c6f01d8e91d7f4ba8d6a467b7d7e284",
+    "FigS1.pdf": "2e45e4e96277f9bcc3fc6e413e5294240d8b825fef0b7f46094af173365394ac",
+    "svglov3.clo": "7524d6ec8fc3fe6216e6ce97db64caff366e76312b2caf65b3a8437ef4c0c032",
+    "svjour3.cls": "e9840b9fdd767d9ecf92e2c79319084b4764810ed27c792872ac8be8ceae0a07"
+  },
+  "abstract_unchanged": true,
+  "declarations_unchanged": true,
+  "external_numeric_tables_unchanged": true,
+  "figures": {
+    "HistoryParameters": {
+      "width_mm": 119.00000000001084,
+      "pdf_sha256": "460796bd2f8dc3bc6e0bb2c4f7bbcd8acf5b81ec90668b9b57c3a9f59d64f585",
+      "png_pixel_sha256": "76b1bbd31939399927ea25edae4718f1c87a45a443359966b62caf24f33b723f"
+    },
+    "HistoryEdgeTransitions": {
+      "width_mm": 119.00000000001084,
+      "pdf_sha256": "27c793221ece1aaf40130b5203e38df3e3c70a053397f3708ea87efddcc76248",
+      "png_pixel_sha256": "06ecc229eaa9e1d535277de91188191f841885d900bf41a9631449a153872581"
+    }
+  },
+  "environment": {
+    "python": "3.13.0",
+    "numpy": "2.3.3",
+    "pandas": "2.3.2",
+    "matplotlib": "3.10.6"
+  },
+  "not_executed": [
+    "experiment runners",
+    "training",
+    "seed search",
+    "diffusion simulation",
+    "timing experiment",
+    "new bootstrap or significance tests",
+    "external full rerun",
+    "cross-platform replication"
+  ]
+}

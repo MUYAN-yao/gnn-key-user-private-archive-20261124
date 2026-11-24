@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "namespace": "computing-external-validation-20261015-v1",
+  "datasets": ["college_msg", "ca_grqc", "wiki_vote"],
+  "propagation": {"probability": 0.01, "horizon": 3, "primary_coupling": "step"},
+  "seed_budget": 5,
+  "resolution": {
+    "paths": [1101, 1102, 1103, 1104, 1105],
+    "selection_worlds": [80, 320, 1280]
+  },
+  "fixed_edge_control": {
+    "paths": [1101, 1102, 1103],
+    "selection_worlds": 320
+  },
+  "evaluation_worlds": 10000,
+  "candidate_pools": {
+    "fixed_multiplier": 4,
+    "coverage_fraction": 0.05,
+    "random_repeats": 3,
+    "history_weighted_only_when_authentic": true
+  },
+  "timing": {
+    "dataset_paths": [1101],
+    "selection_worlds": 320,
+    "repeats": 5,
+    "execution": "serial_single_worker"
+  },
+  "analysis": {
+    "primary_worlds": 1280,
+    "primary_methods": ["degree_4k", "pagerank_4k", "random_mean_4k"],
+    "descriptive_loss_tolerances_percent": [0, 1, 2.5, 5, 10, 20],
+    "path_inference": "path-level descriptive summaries and exact two-sided sign tests, Holm correction over the fixed primary contrasts; no real-network pooling"
+  },
+  "stopping_rules": {
+    "no_outcome_based_exclusion": true,
+    "condition_failure": "preserve immutable completed files, record failure, and block completion claims",
+    "raw_source_change": "block execution",
+    "source_snapshot_change": "block execution"
+  },
+  "preflight": {
+    "file": "results/preflight/resource_preflight.json",
+    "sha256": "6e3be316664e803e72ee0a4830f477479b1bd2a129d2000105b9a28636388f23"
+  }
+}

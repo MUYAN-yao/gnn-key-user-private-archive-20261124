@@ -1,0 +1,1243 @@
+{
+  "config": {
+    "stage": "resolution",
+    "dataset": "invs2015",
+    "path": 1001,
+    "W": 320,
+    "k": 5,
+    "p": 0.01,
+    "h": 3,
+    "coupling": "step"
+  },
+  "source_manifest_sha256": "d2ece59609e65a342881390c61f6873a6ba7831c53c6143907ee0b17edb5dd99",
+  "graph": {
+    "n": 212,
+    "m": 6938,
+    "dataset": "invs2015",
+    "kind": "historical contact-derived; simulated diffusion only",
+    "history_cutoff": "2000-01-09T11:51:20+00:00",
+    "timestamp_group_count": 18488,
+    "input_sha256": {
+      "nodes.csv": "9a6dc3b84b60648b7bc5914114361c59ca92ad700f60365c456541415ce3e7d2",
+      "edges.csv": "e8298744dd35d76003ddca0d94fe8a74f07a5a2f0532b817ca438b422d6475ce",
+      "cascades.csv": "0fdf9458a5ef3ae500c40f76968537b66cff8d3fc1781f2a0305e294c1436d58",
+      "data_card.json": "d7a1021bef78a92cb2204b04a2c0c7ddd6a8bb6672adfbfaf9f67dc594d405f6"
+    },
+    "graph_sha256": "285fc16a3549bfaec4316ce6ba0f5559b1f9d9caeebf0edcadaa004a8e3f9431"
+  },
+  "selection_world_sha256": "f62d67a79c6adeecae2901544d2b6a57f285258f424ffd0139a3b56f9cdd95a2",
+  "evaluation_world_sha256": "abf7213876030a334a44a3cb93d24bc7cdaa564ead372837d4777bc98dcd8ea4",
+  "evaluation_world_count": 10000,
+  "preparation_seconds": 0.24127160000352887,
+  "world_preparation_seconds": 0.9147129999983008,
+  "order": [
+    "weighted_8k",
+    "pagerank_4k",
+    "random1_4k",
+    "random0_4k",
+    "full",
+    "random2_4k",
+    "weighted_4k",
+    "weighted_2k",
+    "degree_4k"
+  ],
+  "arms": {
+    "weighted_8k": {
+      "selected": [
+        "215",
+        "884",
+        "267",
+        "603",
+        "882"
+      ],
+      "candidate_ids": [
+        "1067",
+        "1164",
+        "119",
+        "122",
+        "1245",
+        "147",
+        "1485",
+        "162",
+        "183",
+        "198",
+        "215",
+        "248",
+        "259",
+        "267",
+        "272",
+        "275",
+        "285",
+        "322",
+        "366",
+        "372",
+        "387",
+        "39",
+        "407",
+        "468",
+        "478",
+        "488",
+        "525",
+        "603",
+        "615",
+        "634",
+        "649",
+        "656",
+        "71",
+        "836",
+        "845",
+        "866",
+        "882",
+        "884",
+        "97",
+        "99"
+      ],
+      "candidate_count": 40,
+      "coverage": 0.18867924528301888,
+      "full_pool": false,
+      "mean_spread": 9.3583,
+      "incremental_spread": 4.3583,
+      "selection_seconds": 0.05150870000215946,
+      "evaluation_seconds": 0.01883280000038212,
+      "ranking_seconds": 0.00019439999596215785,
+      "trace": [
+        {
+          "winner": "215",
+          "total": 696,
+          "ties": 1,
+          "margin": 0.2
+        },
+        {
+          "winner": "884",
+          "total": 1326,
+          "ties": 1,
+          "margin": 0.103125
+        },
+        {
+          "winner": "267",
+          "total": 1919,
+          "ties": 1,
+          "margin": 0.003125
+        },
+        {
+          "winner": "603",
+          "total": 2484,
+          "ties": 1,
+          "margin": 0.053125
+        },
+        {
+          "winner": "882",
+          "total": 3029,
+          "ties": 1,
+          "margin": 0.003125
+        }
+      ],
+      "delta": -0.0941,
+      "mc_se": 0.025769573649802768,
+      "same_order": false,
+      "same_set": false
+    },
+    "pagerank_4k": {
+      "selected": [
+        "215",
+        "884",
+        "77",
+        "267",
+        "1362"
+      ],
+      "candidate_ids": [
+        "1090",
+        "117",
+        "1362",
+        "147",
+        "160",
+        "215",
+        "267",
+        "3",
+        "322",
+        "343",
+        "366",
+        "378",
+        "525",
+        "603",
+        "706",
+        "74",
+        "753",
+        "77",
+        "882",
+        "884"
+      ],
+      "candidate_count": 20,
+      "coverage": 0.09433962264150944,
+      "full_pool": false,
+      "mean_spread": 9.4524,
+      "incremental_spread": 4.452400000000001,
+      "selection_seconds": 0.023251500002515968,
+      "evaluation_seconds": 0.020403199996508192,
+      "ranking_seconds": 0.013342000005650334,
+      "trace": [
+        {
+          "winner": "215",
+          "total": 696,
+          "ties": 1,
+          "margin": 0.146875
+        },
+        {
+          "winner": "884",
+          "total": 1326,
+          "ties": 1,
+          "margin": 0.0375
+        },
+        {
+          "winner": "77",
+          "total": 1931,
+          "ties": 1,
+          "margin": 0.021875
+        },
+        {
+          "winner": "267",
+          "total": 2522,
+          "ties": 1,
+          "margin": 0.01875
+        },
+        {
+          "winner": "1362",
+          "total": 3100,
+          "ties": 1,
+          "margin": 0.003125
+        }
+      ],
+      "delta": 0.0,
+      "mc_se": 0.0,
+      "same_order": true,
+      "same_set": true
+    },
+    "random1_4k": {
+      "selected": [
+        "603",
+        "160",
+        "525",
+        "401",
+        "531"
+      ],
+      "candidate_ids": [
+        "1209",
+        "14",
+        "1485",
+        "160",
+        "198",
+        "261",
+        "27",
+        "401",
+        "425",
+        "435",
+        "504",
+        "525",
+        "531",
+        "59",
+        "603",
+        "63",
+        "650",
+        "71",
+        "790",
+        "998"
+      ],
+      "candidate_count": 20,
+      "coverage": 0.09433962264150944,
+      "full_pool": false,
+      "mean_spread": 8.5424,
+      "incremental_spread": 3.5424000000000007,
+      "selection_seconds": 0.023924999994051177,
+      "evaluation_seconds": 0.019982900004833937,
+      "ranking_seconds": 5.909999890718609e-05,
+      "trace": [
+        {
+          "winner": "603",
+          "total": 623,
+          "ties": 1,
+          "margin": 0.175
+        },
+        {
+          "winner": "160",
+          "total": 1185,
+          "ties": 1,
+          "margin": 0.04375
+        },
+        {
+          "winner": "525",
+          "total": 1730,
+          "ties": 1,
+          "margin": 0.025
+        },
+        {
+          "winner": "401",
+          "total": 2264,
+          "ties": 1,
+          "margin": 0.065625
+        },
+        {
+          "winner": "531",
+          "total": 2775,
+          "ties": 1,
+          "margin": 0.065625
+        }
+      ],
+      "delta": -0.91,
+      "mc_se": 0.03930934395855832,
+      "same_order": false,
+      "same_set": false
+    },
+    "random0_4k": {
+      "selected": [
+        "751",
+        "366",
+        "99",
+        "741",
+        "1492"
+      ],
+      "candidate_ids": [
+        "120",
+        "1492",
+        "18",
+        "193",
+        "197",
+        "236",
+        "270",
+        "285",
+        "343",
+        "366",
+        "413",
+        "477",
+        "628",
+        "653",
+        "720",
+        "741",
+        "751",
+        "79",
+        "797",
+        "99"
+      ],
+      "candidate_count": 20,
+      "coverage": 0.09433962264150944,
+      "full_pool": false,
+      "mean_spread": 8.5898,
+      "incremental_spread": 3.5898000000000003,
+      "selection_seconds": 0.02077379999536788,
+      "evaluation_seconds": 0.02263200000015786,
+      "ranking_seconds": 0.00015039999561849982,
+      "trace": [
+        {
+          "winner": "751",
+          "total": 592,
+          "ties": 1,
+          "margin": 0.071875
+        },
+        {
+          "winner": "366",
+          "total": 1155,
+          "ties": 1,
+          "margin": 0.05625
+        },
+        {
+          "winner": "99",
+          "total": 1697,
+          "ties": 1,
+          "margin": 0.0125
+        },
+        {
+          "winner": "741",
+          "total": 2235,
+          "ties": 1,
+          "margin": 0.05
+        },
+        {
+          "winner": "1492",
+          "total": 2745,
+          "ties": 2,
+          "margin": 0.0
+        }
+      ],
+      "delta": -0.8626,
+      "mc_se": 0.039785303958133886,
+      "same_order": false,
+      "same_set": false
+    },
+    "full": {
+      "selected": [
+        "215",
+        "884",
+        "77",
+        "267",
+        "1362"
+      ],
+      "candidate_ids": [
+        "1",
+        "106",
+        "1067",
+        "1090",
+        "110",
+        "1164",
+        "117",
+        "118",
+        "119",
+        "120",
+        "1204",
+        "1209",
+        "122",
+        "1245",
+        "1260",
+        "131",
+        "1323",
+        "134",
+        "1342",
+        "1362",
+        "1392",
+        "14",
+        "141",
+        "1414",
+        "147",
+        "1485",
+        "1492",
+        "15",
+        "156",
+        "158",
+        "159",
+        "160",
+        "162",
+        "164",
+        "165",
+        "172",
+        "173",
+        "178",
+        "18",
+        "181",
+        "183",
+        "184",
+        "193",
+        "197",
+        "198",
+        "20",
+        "200",
+        "205",
+        "210",
+        "211",
+        "215",
+        "219",
+        "220",
+        "222",
+        "232",
+        "236",
+        "242",
+        "245",
+        "246",
+        "248",
+        "250",
+        "252",
+        "253",
+        "259",
+        "261",
+        "267",
+        "269",
+        "27",
+        "270",
+        "272",
+        "275",
+        "285",
+        "290",
+        "295",
+        "3",
+        "322",
+        "333",
+        "339",
+        "34",
+        "343",
+        "346",
+        "353",
+        "366",
+        "372",
+        "374",
+        "378",
+        "38",
+        "387",
+        "39",
+        "401",
+        "407",
+        "413",
+        "420",
+        "424",
+        "425",
+        "426",
+        "428",
+        "429",
+        "43",
+        "432",
+        "434",
+        "435",
+        "440",
+        "441",
+        "445",
+        "447",
+        "453",
+        "460",
+        "461",
+        "464",
+        "465",
+        "466",
+        "468",
+        "47",
+        "475",
+        "477",
+        "478",
+        "486",
+        "487",
+        "488",
+        "489",
+        "491",
+        "496",
+        "498",
+        "502",
+        "504",
+        "510",
+        "513",
+        "520",
+        "525",
+        "527",
+        "531",
+        "54",
+        "544",
+        "55",
+        "574",
+        "577",
+        "580",
+        "582",
+        "59",
+        "603",
+        "615",
+        "62",
+        "621",
+        "626",
+        "628",
+        "63",
+        "634",
+        "638",
+        "642",
+        "649",
+        "650",
+        "653",
+        "656",
+        "660",
+        "674",
+        "677",
+        "691",
+        "694",
+        "702",
+        "706",
+        "71",
+        "72",
+        "720",
+        "725",
+        "74",
+        "741",
+        "743",
+        "744",
+        "751",
+        "753",
+        "763",
+        "77",
+        "771",
+        "778",
+        "779",
+        "784",
+        "79",
+        "790",
+        "793",
+        "797",
+        "80",
+        "809",
+        "836",
+        "845",
+        "854",
+        "859",
+        "866",
+        "867",
+        "871",
+        "874",
+        "880",
+        "882",
+        "884",
+        "886",
+        "889",
+        "89",
+        "893",
+        "894",
+        "908",
+        "909",
+        "921",
+        "923",
+        "939",
+        "954",
+        "959",
+        "97",
+        "970",
+        "977",
+        "985",
+        "99",
+        "998"
+      ],
+      "candidate_count": 212,
+      "coverage": 1.0,
+      "full_pool": true,
+      "mean_spread": 9.4524,
+      "incremental_spread": 4.452400000000001,
+      "selection_seconds": 0.40396419999888167,
+      "evaluation_seconds": 0.03514910000376403,
+      "ranking_seconds": 0.0,
+      "trace": [
+        {
+          "winner": "215",
+          "total": 696,
+          "ties": 1,
+          "margin": 0.146875
+        },
+        {
+          "winner": "884",
+          "total": 1326,
+          "ties": 1,
+          "margin": 0.0375
+        },
+        {
+          "winner": "77",
+          "total": 1931,
+          "ties": 1,
+          "margin": 0.021875
+        },
+        {
+          "winner": "267",
+          "total": 2522,
+          "ties": 1,
+          "margin": 0.01875
+        },
+        {
+          "winner": "1362",
+          "total": 3100,
+          "ties": 1,
+          "margin": 0.003125
+        }
+      ],
+      "delta": 0.0,
+      "mc_se": 0.0,
+      "same_order": true,
+      "same_set": true
+    },
+    "random2_4k": {
+      "selected": [
+        "215",
+        "428",
+        "525",
+        "1204",
+        "445"
+      ],
+      "candidate_ids": [
+        "1",
+        "1204",
+        "215",
+        "270",
+        "428",
+        "445",
+        "466",
+        "525",
+        "544",
+        "580",
+        "649",
+        "660",
+        "677",
+        "694",
+        "790",
+        "874",
+        "880",
+        "889",
+        "921",
+        "959"
+      ],
+      "candidate_count": 20,
+      "coverage": 0.09433962264150944,
+      "full_pool": false,
+      "mean_spread": 8.7702,
+      "incremental_spread": 3.770200000000001,
+      "selection_seconds": 0.02812100000301143,
+      "evaluation_seconds": 0.02352429999882588,
+      "ranking_seconds": 6.450000364566222e-05,
+      "trace": [
+        {
+          "winner": "215",
+          "total": 696,
+          "ties": 1,
+          "margin": 0.4
+        },
+        {
+          "winner": "428",
+          "total": 1262,
+          "ties": 1,
+          "margin": 0.053125
+        },
+        {
+          "winner": "525",
+          "total": 1804,
+          "ties": 1,
+          "margin": 0.009375
+        },
+        {
+          "winner": "1204",
+          "total": 2343,
+          "ties": 1,
+          "margin": 0.09375
+        },
+        {
+          "winner": "445",
+          "total": 2851,
+          "ties": 1,
+          "margin": 0.065625
+        }
+      ],
+      "delta": -0.6822,
+      "mc_se": 0.03463813355291539,
+      "same_order": false,
+      "same_set": false
+    },
+    "weighted_4k": {
+      "selected": [
+        "215",
+        "884",
+        "267",
+        "603",
+        "882"
+      ],
+      "candidate_ids": [
+        "1164",
+        "119",
+        "147",
+        "1485",
+        "198",
+        "215",
+        "267",
+        "285",
+        "322",
+        "366",
+        "39",
+        "407",
+        "468",
+        "488",
+        "525",
+        "603",
+        "882",
+        "884",
+        "97",
+        "99"
+      ],
+      "candidate_count": 20,
+      "coverage": 0.09433962264150944,
+      "full_pool": false,
+      "mean_spread": 9.3583,
+      "incremental_spread": 4.3583,
+      "selection_seconds": 0.0429366000025766,
+      "evaluation_seconds": 0.034396700000797864,
+      "ranking_seconds": 0.00019439999596215785,
+      "trace": [
+        {
+          "winner": "215",
+          "total": 696,
+          "ties": 1,
+          "margin": 0.2
+        },
+        {
+          "winner": "884",
+          "total": 1326,
+          "ties": 1,
+          "margin": 0.103125
+        },
+        {
+          "winner": "267",
+          "total": 1919,
+          "ties": 1,
+          "margin": 0.003125
+        },
+        {
+          "winner": "603",
+          "total": 2484,
+          "ties": 1,
+          "margin": 0.053125
+        },
+        {
+          "winner": "882",
+          "total": 3029,
+          "ties": 1,
+          "margin": 0.03125
+        }
+      ],
+      "delta": -0.0941,
+      "mc_se": 0.025769573649802768,
+      "same_order": false,
+      "same_set": false
+    },
+    "weighted_2k": {
+      "selected": [
+        "603",
+        "267",
+        "882",
+        "366",
+        "99"
+      ],
+      "candidate_ids": [
+        "1164",
+        "119",
+        "267",
+        "322",
+        "366",
+        "39",
+        "407",
+        "603",
+        "882",
+        "99"
+      ],
+      "candidate_count": 10,
+      "coverage": 0.04716981132075472,
+      "full_pool": false,
+      "mean_spread": 8.7776,
+      "incremental_spread": 3.7775999999999996,
+      "selection_seconds": 0.01321530000132043,
+      "evaluation_seconds": 0.02117789999465458,
+      "ranking_seconds": 0.00019439999596215785,
+      "trace": [
+        {
+          "winner": "603",
+          "total": 623,
+          "ties": 1,
+          "margin": 0.075
+        },
+        {
+          "winner": "267",
+          "total": 1195,
+          "ties": 1,
+          "margin": 0.003125
+        },
+        {
+          "winner": "882",
+          "total": 1754,
+          "ties": 1,
+          "margin": 0.009375
+        },
+        {
+          "winner": "366",
+          "total": 2301,
+          "ties": 1,
+          "margin": 0.0375
+        },
+        {
+          "winner": "99",
+          "total": 2834,
+          "ties": 1,
+          "margin": 0.121875
+        }
+      ],
+      "delta": -0.6748,
+      "mc_se": 0.03603906737746891,
+      "same_order": false,
+      "same_set": false
+    },
+    "degree_4k": {
+      "selected": [
+        "215",
+        "884",
+        "77",
+        "267",
+        "1362"
+      ],
+      "candidate_ids": [
+        "1090",
+        "122",
+        "1362",
+        "147",
+        "160",
+        "215",
+        "267",
+        "3",
+        "343",
+        "366",
+        "378",
+        "428",
+        "429",
+        "461",
+        "603",
+        "706",
+        "74",
+        "77",
+        "882",
+        "884"
+      ],
+      "candidate_count": 20,
+      "coverage": 0.09433962264150944,
+      "full_pool": false,
+      "mean_spread": 9.4524,
+      "incremental_spread": 4.452400000000001,
+      "selection_seconds": 0.03385139999591047,
+      "evaluation_seconds": 0.025665000001026783,
+      "ranking_seconds": 0.0001033000007737428,
+      "trace": [
+        {
+          "winner": "215",
+          "total": 696,
+          "ties": 1,
+          "margin": 0.146875
+        },
+        {
+          "winner": "884",
+          "total": 1326,
+          "ties": 1,
+          "margin": 0.0375
+        },
+        {
+          "winner": "77",
+          "total": 1931,
+          "ties": 1,
+          "margin": 0.021875
+        },
+        {
+          "winner": "267",
+          "total": 2522,
+          "ties": 1,
+          "margin": 0.01875
+        },
+        {
+          "winner": "1362",
+          "total": 3100,
+          "ties": 1,
+          "margin": 0.003125
+        }
+      ],
+      "delta": 0.0,
+      "mc_se": 0.0,
+      "same_order": true,
+      "same_set": true
+    }
+  },
+  "timing_repeats": [
+    {
+      "repeat": 0,
+      "method": "random2_4k",
+      "selection_seconds": 0.029400899999018293,
+      "evaluation_seconds": 0.020822899998165667,
+      "order": 0
+    },
+    {
+      "repeat": 0,
+      "method": "degree_4k",
+      "selection_seconds": 0.03615169999829959,
+      "evaluation_seconds": 0.02314529999421211,
+      "order": 1
+    },
+    {
+      "repeat": 0,
+      "method": "weighted_4k",
+      "selection_seconds": 0.03490580000652699,
+      "evaluation_seconds": 0.02562190000026021,
+      "order": 2
+    },
+    {
+      "repeat": 0,
+      "method": "random1_4k",
+      "selection_seconds": 0.026786400005221367,
+      "evaluation_seconds": 0.024099199996271636,
+      "order": 3
+    },
+    {
+      "repeat": 0,
+      "method": "weighted_2k",
+      "selection_seconds": 0.012775399998645298,
+      "evaluation_seconds": 0.022466300004452933,
+      "order": 4
+    },
+    {
+      "repeat": 0,
+      "method": "pagerank_4k",
+      "selection_seconds": 0.03189199999906123,
+      "evaluation_seconds": 0.022292199995717965,
+      "order": 5
+    },
+    {
+      "repeat": 0,
+      "method": "weighted_8k",
+      "selection_seconds": 0.062483900001097936,
+      "evaluation_seconds": 0.0218892999982927,
+      "order": 6
+    },
+    {
+      "repeat": 0,
+      "method": "random0_4k",
+      "selection_seconds": 0.039859700002125464,
+      "evaluation_seconds": 0.024363199998333585,
+      "order": 7
+    },
+    {
+      "repeat": 0,
+      "method": "full",
+      "selection_seconds": 0.38121569999930216,
+      "evaluation_seconds": 0.023460299998987466,
+      "order": 8
+    },
+    {
+      "repeat": 1,
+      "method": "full",
+      "selection_seconds": 0.33693399999901885,
+      "evaluation_seconds": 0.027243800002906937,
+      "order": 0
+    },
+    {
+      "repeat": 1,
+      "method": "degree_4k",
+      "selection_seconds": 0.031260600000678096,
+      "evaluation_seconds": 0.024062100004812237,
+      "order": 1
+    },
+    {
+      "repeat": 1,
+      "method": "weighted_8k",
+      "selection_seconds": 0.06655850000242935,
+      "evaluation_seconds": 0.02358999999705702,
+      "order": 2
+    },
+    {
+      "repeat": 1,
+      "method": "random0_4k",
+      "selection_seconds": 0.041679200003272854,
+      "evaluation_seconds": 0.020328399994468782,
+      "order": 3
+    },
+    {
+      "repeat": 1,
+      "method": "pagerank_4k",
+      "selection_seconds": 0.042545500000414904,
+      "evaluation_seconds": 0.03466189999744529,
+      "order": 4
+    },
+    {
+      "repeat": 1,
+      "method": "random2_4k",
+      "selection_seconds": 0.03611599999567261,
+      "evaluation_seconds": 0.02049099999567261,
+      "order": 5
+    },
+    {
+      "repeat": 1,
+      "method": "random1_4k",
+      "selection_seconds": 0.027183799997146707,
+      "evaluation_seconds": 0.018574900001112837,
+      "order": 6
+    },
+    {
+      "repeat": 1,
+      "method": "weighted_4k",
+      "selection_seconds": 0.030591499998990912,
+      "evaluation_seconds": 0.022030200001609046,
+      "order": 7
+    },
+    {
+      "repeat": 1,
+      "method": "weighted_2k",
+      "selection_seconds": 0.012630900004296564,
+      "evaluation_seconds": 0.020041900002979673,
+      "order": 8
+    },
+    {
+      "repeat": 2,
+      "method": "degree_4k",
+      "selection_seconds": 0.03394040000421228,
+      "evaluation_seconds": 0.02303639999445295,
+      "order": 0
+    },
+    {
+      "repeat": 2,
+      "method": "weighted_4k",
+      "selection_seconds": 0.03464479999820469,
+      "evaluation_seconds": 0.02513829999952577,
+      "order": 1
+    },
+    {
+      "repeat": 2,
+      "method": "full",
+      "selection_seconds": 0.3486669000049005,
+      "evaluation_seconds": 0.022628300001088064,
+      "order": 2
+    },
+    {
+      "repeat": 2,
+      "method": "weighted_8k",
+      "selection_seconds": 0.06290989999979502,
+      "evaluation_seconds": 0.021660099999280646,
+      "order": 3
+    },
+    {
+      "repeat": 2,
+      "method": "pagerank_4k",
+      "selection_seconds": 0.031168599998636637,
+      "evaluation_seconds": 0.025221999996574596,
+      "order": 4
+    },
+    {
+      "repeat": 2,
+      "method": "random2_4k",
+      "selection_seconds": 0.028507700000773184,
+      "evaluation_seconds": 0.01992729999619769,
+      "order": 5
+    },
+    {
+      "repeat": 2,
+      "method": "random0_4k",
+      "selection_seconds": 0.0302914000058081,
+      "evaluation_seconds": 0.029895799998485018,
+      "order": 6
+    },
+    {
+      "repeat": 2,
+      "method": "random1_4k",
+      "selection_seconds": 0.03879479999886826,
+      "evaluation_seconds": 0.03454749999946216,
+      "order": 7
+    },
+    {
+      "repeat": 2,
+      "method": "weighted_2k",
+      "selection_seconds": 0.014550499996403232,
+      "evaluation_seconds": 0.038402800004405435,
+      "order": 8
+    },
+    {
+      "repeat": 3,
+      "method": "degree_4k",
+      "selection_seconds": 0.055879200001072604,
+      "evaluation_seconds": 0.027403400003095157,
+      "order": 0
+    },
+    {
+      "repeat": 3,
+      "method": "weighted_2k",
+      "selection_seconds": 0.01481489999423502,
+      "evaluation_seconds": 0.02001620000373805,
+      "order": 1
+    },
+    {
+      "repeat": 3,
+      "method": "random0_4k",
+      "selection_seconds": 0.03584520000003977,
+      "evaluation_seconds": 0.022190399999090005,
+      "order": 2
+    },
+    {
+      "repeat": 3,
+      "method": "full",
+      "selection_seconds": 0.3544105000037234,
+      "evaluation_seconds": 0.025061000000278,
+      "order": 3
+    },
+    {
+      "repeat": 3,
+      "method": "weighted_4k",
+      "selection_seconds": 0.031572899999446236,
+      "evaluation_seconds": 0.023101999999198597,
+      "order": 4
+    },
+    {
+      "repeat": 3,
+      "method": "random1_4k",
+      "selection_seconds": 0.02954459999455139,
+      "evaluation_seconds": 0.019809699995676056,
+      "order": 5
+    },
+    {
+      "repeat": 3,
+      "method": "pagerank_4k",
+      "selection_seconds": 0.033418899998650886,
+      "evaluation_seconds": 0.023654600001464132,
+      "order": 6
+    },
+    {
+      "repeat": 3,
+      "method": "weighted_8k",
+      "selection_seconds": 0.06483460000163177,
+      "evaluation_seconds": 0.024112999999488238,
+      "order": 7
+    },
+    {
+      "repeat": 3,
+      "method": "random2_4k",
+      "selection_seconds": 0.041643299999122974,
+      "evaluation_seconds": 0.027638400002615526,
+      "order": 8
+    },
+    {
+      "repeat": 4,
+      "method": "pagerank_4k",
+      "selection_seconds": 0.03834810000262223,
+      "evaluation_seconds": 0.02282809999451274,
+      "order": 0
+    },
+    {
+      "repeat": 4,
+      "method": "weighted_8k",
+      "selection_seconds": 0.06999599999835482,
+      "evaluation_seconds": 0.021841300003870856,
+      "order": 1
+    },
+    {
+      "repeat": 4,
+      "method": "degree_4k",
+      "selection_seconds": 0.051575199999206234,
+      "evaluation_seconds": 0.02228369999647839,
+      "order": 2
+    },
+    {
+      "repeat": 4,
+      "method": "weighted_2k",
+      "selection_seconds": 0.01621549999981653,
+      "evaluation_seconds": 0.02407120000134455,
+      "order": 3
+    },
+    {
+      "repeat": 4,
+      "method": "full",
+      "selection_seconds": 0.38770730000396725,
+      "evaluation_seconds": 0.022441599998273887,
+      "order": 4
+    },
+    {
+      "repeat": 4,
+      "method": "random2_4k",
+      "selection_seconds": 0.03215530000306899,
+      "evaluation_seconds": 0.023264499999640975,
+      "order": 5
+    },
+    {
+      "repeat": 4,
+      "method": "weighted_4k",
+      "selection_seconds": 0.03346550000424031,
+      "evaluation_seconds": 0.02253799999743933,
+      "order": 6
+    },
+    {
+      "repeat": 4,
+      "method": "random1_4k",
+      "selection_seconds": 0.06174440000177128,
+      "evaluation_seconds": 0.032850700001290534,
+      "order": 7
+    },
+    {
+      "repeat": 4,
+      "method": "random0_4k",
+      "selection_seconds": 0.033905600001162384,
+      "evaluation_seconds": 0.02859040000475943,
+      "order": 8
+    }
+  ],
+  "array_sha256": "bb2c6e6e2ce5b76484cef290aa8a35e10797dd47f15bab0fddc1345d7eaed4b3",
+  "elapsed_seconds": 6.284035500000755,
+  "peak_working_set_bytes": 418824192
+}

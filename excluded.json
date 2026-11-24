@@ -1,0 +1,574 @@
+[
+  {
+    "path": "backend\\app\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tests\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "web\\node_modules",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\llvmlite\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\llvmlite\\binding\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\llvmlite\\ir\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\llvmlite\\tests\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\cext\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\cloudpickle\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\core\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\core\\annotations\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\core\\datamodel\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\core\\rewrites\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\core\\runtime\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\core\\typeconv\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\core\\types\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\core\\typing\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\core\\unsafe\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\cpython\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\cpython\\unsafe\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\cuda\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\cuda\\cudadrv\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\cuda\\kernels\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\cuda\\simulator\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\cuda\\simulator\\cudadrv\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\cuda\\tests\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\cuda\\tests\\cudadrv\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\cuda\\tests\\cudapy\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\cuda\\tests\\cudasim\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\cuda\\tests\\data\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\cuda\\tests\\doc_examples\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\cuda\\tests\\doc_examples\\ffi\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\cuda\\tests\\nocuda\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\experimental\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\experimental\\jitclass\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\misc\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\misc\\help\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\np\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\np\\math\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\np\\polynomial\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\np\\random\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\np\\types\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\np\\ufunc\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\np\\unsafe\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\parfors\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\pycc\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\scripts\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\stencils\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\testing\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\tests\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\tests\\doc_examples\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\tests\\gdb\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\tests\\npyufunc\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\tests\\pycc_distutils_usecase\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\tests\\pycc_distutils_usecase\\nested\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\typed\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "experiments\\symbolic-ranking-pilot-20261101\\vendor\\numba\\types\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "analysis\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "reproducibility\\v5-source-snapshots\\candidate-reduction-v5-20260917\\backend\\app\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "reproducibility\\v5-source-snapshots\\candidate-reduction-v5-20260917-r2\\experiments\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "reproducibility\\v5-source-snapshots\\candidate-reduction-v5-20260917-r2\\backend\\app\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "reproducibility\\v6-source-snapshots\\digg-k5-v6-20260918-r1\\experiments\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "reproducibility\\v6-source-snapshots\\digg-k5-v6-20260918-r1\\backend\\app\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "reproducibility\\v10-source-snapshots\\sociopatterns-resolution-confirmation-v0_1-20260920\\experiments\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "reproducibility\\v10-source-snapshots\\sociopatterns-resolution-confirmation-v0_1-20260920\\backend\\app\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "reproducibility\\v10-source-snapshots\\sociopatterns-resolution-confirmation-v0_1-20260920-r2\\experiments\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "reproducibility\\v10-source-snapshots\\sociopatterns-resolution-confirmation-v0_1-20260920-r2\\backend\\app\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "reproducibility\\v10-source-snapshots\\sociopatterns-resolution-confirmation-v0_1-20260920-r3\\experiments\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "reproducibility\\v10-source-snapshots\\sociopatterns-resolution-confirmation-v0_1-20260920-r3\\backend\\app\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "manuscript\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\qa_python_deps\\fitz\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\qa_python_deps\\pymupdf\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\llvmlite\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\llvmlite\\binding\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\llvmlite\\ir\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\llvmlite\\tests\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\cext\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\cloudpickle\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\core\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\core\\annotations\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\core\\datamodel\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\core\\rewrites\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\core\\runtime\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\core\\typeconv\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\core\\types\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\core\\typing\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\core\\unsafe\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\cpython\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\cpython\\unsafe\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\cuda\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\cuda\\cudadrv\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\cuda\\kernels\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\cuda\\simulator\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\cuda\\simulator\\cudadrv\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\cuda\\tests\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\cuda\\tests\\cudadrv\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\cuda\\tests\\cudapy\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\cuda\\tests\\cudasim\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\cuda\\tests\\data\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\cuda\\tests\\doc_examples\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\cuda\\tests\\doc_examples\\ffi\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\cuda\\tests\\nocuda\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\experimental\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\experimental\\jitclass\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\misc\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\misc\\help\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\np\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\np\\math\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\np\\polynomial\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\np\\random\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\np\\types\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\np\\ufunc\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\np\\unsafe\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\parfors\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\pycc\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\scripts\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\stencils\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\testing\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\tests\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\tests\\doc_examples\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\tests\\gdb\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\tests\\npyufunc\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\tests\\pycc_distutils_usecase\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\tests\\pycc_distutils_usecase\\nested\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\typed\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "tmp\\computing-extension-deps\\numba\\types\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "submission\\computing-strengthening-20261015\\src\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "submission\\computing-strengthening-20261015\\snapshot\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "submission\\computing-external-validation-20261015\\snapshot\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "submission\\computing-external-validation-20261015\\review-v2\\src\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "submission\\computing-external-validation-20261015\\review-v3-budget-precision\\src\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "submission\\computing-external-validation-20261015\\submission-ready-draft-20261016\\src\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "submission\\computing-external-validation-20261015\\mechanism-im-grounded-20261023\\src\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "submission\\computing-external-validation-20261015\\reproducible-revision-20261026\\qa\\reproduction\\engine\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "submission\\computing-external-validation-20261015\\reproducible-revision-20261026\\qa\\reproduction\\workspace\\snapshot\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "submission\\computing-external-validation-20261015\\reproducible-revision-20261026\\qa\\reproduction-final\\engine\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "submission\\computing-external-validation-20261015\\reproducible-revision-20261026\\qa\\reproduction-final\\workspace\\snapshot\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "submission\\computing-external-validation-20261015\\chinese-translation-20261027\\src\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "submission\\computing-external-validation-20261015\\problem-led-revision-20261028\\src\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  },
+  {
+    "path": "submission\\computing-external-validation-20261015\\structure-complete-revision-20261028\\src\\__pycache__",
+    "reason": "reinstallable dependencies or generated cache / Git metadata"
+  }
+]

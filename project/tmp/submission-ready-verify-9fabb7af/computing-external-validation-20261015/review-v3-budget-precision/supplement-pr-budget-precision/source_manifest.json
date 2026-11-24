@@ -1,0 +1,9 @@
+{
+  "external_config.json": "dedd228e934a2f3abeccae4ca2dc0826997ee22f83c39ee6f6990f6a89afe936",
+  "external_data_manifest.json": "9a56e80b673fb83033df97567ef54cc9490be6c156b3b5a9bfecfad807c23c43",
+  "external_snapshot_manifest": "742047348d1da77fd7a68d33ae26cb53ce3a2b08e43e22b0d621be0363f687e6",
+  "main_audit.json": "264ba266c0099327bf32d727bf7b7e991a85b971c4be57e164f88ad1ff28db7a",
+  "protocol.md": "2b8974367894f8f82c414ba80159ecc9397b210a9ac5c38b5527362edd089667",
+  "src/run_precision_budget_control.py": "fc1394e76871b264846080679e3c70cc807571bdc9d10b5fc0592bd59e599360",
+  "v2_precision_manifest.json": "8bc978e488dce493599468cd7d1fedc7268b4aa68bca40c5640b649644fa44c8"
+}

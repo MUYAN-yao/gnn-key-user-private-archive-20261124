@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "main_pages_visually_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "method": "Rendered page-labelled contact sheets; checked text, figure, table and reference layout across all main pages.",
+  "supplement": "26 pages rendered; exact decoded-pixel equality to the previously visually reviewed revision. No new manual visual review claimed for unchanged supplement.",
+  "observed_unresolved_layout_issues": []
+}

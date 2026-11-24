@@ -1,0 +1,19 @@
+Dear Editors of Computing,
+
+Please consider our manuscript, “Evaluating Candidate-Restricted Influence Maximization: Effects of Reference Budget and Ranking Precision,” for publication in Computing.
+
+Candidate restriction can make seed selection cheaper, but its measured quality depends on both finite-budget selection and the ranking that defines eligibility. This evaluation study distinguishes those effects with same-budget precision controls, shared-budget sweeps and independent spread assessment.
+
+On ca-GrQc, tightening PageRank tolerance changes two candidates and removes the default mean gain-to-loss reversal. The control is post-hoc and reuses the original paths. Separate reference transitions quantify the spread consequences of changed seeds: 16 of 40 historical sets change, with a mean increase of 0.01111 nodes across all pairs and both positive and negative changes. On three external networks, 20-node degree pools reproduce all 15 highest-budget reference trajectories at lower measured selection cost; PageRank losses persist on directed networks.
+
+The revised presentation connects candidate inputs to selected node IDs, independently estimated spread and computational cost. Complete-path summaries accompany a single-path illustration. The contribution is empirical evidence on how numerical choices affect candidate-restriction judgments, situated alongside prior work on sampled objectives and influence-maximization benchmarking. It addresses Computing's readership interested in numerical computation and network-algorithm evaluation. Costs refer to the implemented exhaustive reference, and the observations concern the tested simulation settings.
+
+All authors have read and approved the manuscript and agreed to its submission to Computing. The authors declare no competing interests. This work was supported by a provincial undergraduate innovation and entrepreneurship training project. Third-party raw datasets are not redistributed; source records, expected hashes and download/preprocessing instructions are provided. The reproducibility materials accompany the submission for editorial and peer-review access.
+
+Sincerely,
+
+Binbin Yong
+Corresponding author
+School of Information Science and Engineering, Lanzhou University
+Lanzhou 730000, China
+yongbb14@lzu.edu.cn

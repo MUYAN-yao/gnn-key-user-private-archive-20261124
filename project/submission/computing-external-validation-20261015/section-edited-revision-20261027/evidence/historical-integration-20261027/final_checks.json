@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "revision": "historical-evidence-revision-20261027",
+  "new_experiments_executed": false,
+  "new_simulation_replays_executed": false,
+  "main_pages": 15,
+  "supplement_pages": 26,
+  "abstract_words": 164,
+  "historical_integrity_and_descriptive_statistics": "PASS",
+  "generated_csv_tex_and_pixel_regeneration": "PASS",
+  "compilation_citations_crossrefs": "PASS",
+  "visual_page_review": "PASS",
+  "mechanism_and_existing_assets": "UNCHANGED",
+  "external_numeric_tables": "UNCHANGED",
+  "author_declarations": "UNCHANGED; author-supplied facts, not numerically verified",
+  "figure_static_preflight": {
+    "failures": 0,
+    "warnings": 3,
+    "disposition": "Vector PDF is the publication asset. 119 mm matches the current template; PNG at 300 dpi is preview only. The generic checker misreads 119/25.4 as 119 inches."
+  },
+  "new_tables": [
+    "S9",
+    "S10",
+    "S11",
+    "S12",
+    "S13"
+  ],
+  "new_figures": [
+    "S5",
+    "S6"
+  ],
+  "pdfs": {
+    "manuscript.pdf": "f25aea29c7aa5ab55623bb0aea831cfdee1446662e73e453744123b76d0b1f51",
+    "Online_Resource_1.pdf": "080a6173b4765d6384046b19085d42cda7352b362e6da73aa2161a994d06a7f3"
+  },
+  "inherited_only": [
+    "2026-10-26 external representative replay",
+    "external complete analysis regeneration",
+    "previous semantic audits"
+  ],
+  "not_executed": [
+    "experiment runners",
+    "training",
+    "seed search",
+    "diffusion simulation",
+    "timing experiment",
+    "new bootstrap or significance tests",
+    "external full rerun",
+    "cross-platform replication"
+  ],
+  "artifact_scope": "Manuscript revision package; stored experimental inputs remain in the preserved sibling packages."
+}

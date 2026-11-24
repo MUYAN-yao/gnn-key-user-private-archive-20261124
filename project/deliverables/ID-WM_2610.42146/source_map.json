@@ -1,0 +1,3865 @@
+{
+  "title": "Hierarchical World Models with Implicit Dynamics",
+  "arxiv": "2610.42146v1",
+  "source_url": "https://arxiv.org/pdf/2610.42146v1",
+  "license": "CC BY 4.0",
+  "translated_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "references_original_pages": [
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "excluded_appendix_pages": [
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+  ],
+  "glossary": [
+    {
+      "en": "world model (WM)",
+      "zh": "世界模型"
+    },
+    {
+      "en": "implicit dynamics",
+      "zh": "隐式动力学"
+    },
+    {
+      "en": "hierarchical planning",
+      "zh": "层次化规划"
+    },
+    {
+      "en": "reachability",
+      "zh": "可达性"
+    },
+    {
+      "en": "subgoal",
+      "zh": "子目标"
+    },
+    {
+      "en": "long-horizon",
+      "zh": "长时域"
+    },
+    {
+      "en": "inverse dynamics solver",
+      "zh": "逆动力学求解器"
+    },
+    {
+      "en": "latent space",
+      "zh": "潜在空间"
+    },
+    {
+      "en": "Cross-Entropy Method (CEM)",
+      "zh": "交叉熵方法"
+    },
+    {
+      "en": "Model Predictive Control (MPC)",
+      "zh": "模型预测控制"
+    },
+    {
+      "en": "frameskip",
+      "zh": "跳帧间隔"
+    },
+    {
+      "en": "DDPM",
+      "zh": "去噪扩散概率模型"
+    },
+    {
+      "en": "DDIM",
+      "zh": "去噪扩散隐式模型"
+    },
+    {
+      "en": "out-of-distribution (OOD)",
+      "zh": "分布外"
+    },
+    {
+      "en": "coverage (Cov)",
+      "zh": "覆盖率"
+    },
+    {
+      "en": "success rate (SR)",
+      "zh": "成功率"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "P01B00",
+      "page": 1,
+      "bbox": [
+        117.19999694824219,
+        99.8338394165039,
+        494.80279541015625,
+        117.04924011230469
+      ],
+      "original": "Hierarchical World Models with Implicit Dynamics",
+      "source_boxes": [
+        {
+          "page": 1,
+          "bbox": [
+            117.19999694824219,
+            99.8338394165039,
+            494.80279541015625,
+            117.04924011230469
+          ],
+          "fragment_id": "P01B00"
+        }
+      ],
+      "pages": [
+        1
+      ],
+      "translation": "具有隐式动力学的层次化世界模型",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 1
+    },
+    {
+      "id": "P01B01",
+      "page": 1,
+      "bbox": [
+        199.38999938964844,
+        159.90316772460938,
+        414.6018981933594,
+        171.1231231689453
+      ],
+      "original": "Gaoyue Zhou1,2 Yvonne Wu1 Zichen Jeff Cui1",
+      "source_boxes": [
+        {
+          "page": 1,
+          "bbox": [
+            199.38999938964844,
+            159.90316772460938,
+            414.6018981933594,
+            171.1231231689453
+          ],
+          "fragment_id": "P01B01"
+        }
+      ],
+      "pages": [
+        1
+      ],
+      "translation": "Gaoyue Zhou¹˒²、Yvonne Wu¹、Zichen Jeff Cui¹",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 2
+    },
+    {
+      "id": "P01B02",
+      "page": 1,
+      "bbox": [
+        166.26998901367188,
+        175.50411987304688,
+        445.231201171875,
+        186.72511291503906
+      ],
+      "original": "Nicolas Ballas2 Mido Assran2 Lerrel Pinto1 Yann LeCun1,3",
+      "source_boxes": [
+        {
+          "page": 1,
+          "bbox": [
+            166.26998901367188,
+            175.50411987304688,
+            445.231201171875,
+            186.72511291503906
+          ],
+          "fragment_id": "P01B02"
+        }
+      ],
+      "pages": [
+        1
+      ],
+      "translation": "Nicolas Ballas²、Mido Assran²、Lerrel Pinto¹、Yann LeCun¹˒³",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 3
+    },
+    {
+      "id": "P01B03",
+      "page": 1,
+      "bbox": [
+        165.67694091796875,
+        193.09811401367188,
+        446.3221740722656,
+        217.55909729003906
+      ],
+      "original": "1Courant Institute, New York University 2Meta-FAIR 3AMI Labs Correspondence: gz2123@nyu.edu",
+      "source_boxes": [
+        {
+          "page": 1,
+          "bbox": [
+            165.67694091796875,
+            193.09811401367188,
+            446.3221740722656,
+            217.55909729003906
+          ],
+          "fragment_id": "P01B03"
+        }
+      ],
+      "pages": [
+        1
+      ],
+      "translation": "¹纽约大学柯朗数学科学研究所；²Meta-FAIR；³AMI Labs。通信邮箱：gz2123@nyu.edu。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 4
+    },
+    {
+      "id": "P01B04",
+      "page": 1,
+      "bbox": [
+        283.7579345703125,
+        246.91015625,
+        328.24322509765625,
+        258.8653564453125
+      ],
+      "original": "Abstract",
+      "source_boxes": [
+        {
+          "page": 1,
+          "bbox": [
+            283.7579345703125,
+            246.91015625,
+            328.24322509765625,
+            258.8653564453125
+          ],
+          "fragment_id": "P01B04"
+        }
+      ],
+      "pages": [
+        1
+      ],
+      "translation": "摘要",
+      "confidence": "high",
+      "type": "heading",
+      "reading_order": 5
+    },
+    {
+      "id": "P01B05",
+      "page": 1,
+      "bbox": [
+        143.5070037841797,
+        270.8063049316406,
+        469.8729248046875,
+        477.455078125
+      ],
+      "original": "Planning with world models enables test-time adaptation for embodied agents, offering superior generalization over direct policy learning. However, long-horizon tasks remain hindered by cumulative errors and search complexity. Existing hierarchical methods often use rigid macro-actions or latent skills, leading to brittle representations and limited fine-grained control. We introduce ID-WM (Implicit Dynamics World Models), a hierarchical world model that decouples state-space reachability from local control. Our framework utilizes a high-level model to sample feasible transitions across the state manifold and a low-level world model as an inverse dynamics solver to ground these transitions into precise actions. This allows the planner to identify reachable subgoals without being constrained by low-level execution details. By prioritizing local physical feasibility over global behavioral patterns, ID-WM synthesizes novel long-horizon plans from short segments, transcending the specific behavioral modes seen during training. We demonstrate its effectiveness across three navigation and manipulation suites, achieving a 38.5% improvement over state-of-the-art policy and diffusion-based planners. Crucially, by leveraging this hierarchical structure to mitigate compounding errors, our approach yields a 135% performance gain over single-level world model MPC, particularly in complex, unseen configurations for long-horizon tasks. Videos can be viewed at https://id-wm.github.io.",
+      "source_boxes": [
+        {
+          "page": 1,
+          "bbox": [
+            143.5070037841797,
+            270.8063049316406,
+            469.8729248046875,
+            477.455078125
+          ],
+          "fragment_id": "P01B05"
+        }
+      ],
+      "pages": [
+        1
+      ],
+      "translation": "利用世界模型进行规划，能够使具身智能体在测试时适应新任务，其泛化能力优于直接学习策略。然而，长时域任务仍受累积误差与搜索复杂度的制约。现有层次化方法通常采用固定的宏动作或潜在技能，导致表征脆弱，且难以实现精细控制。我们提出隐式动力学世界模型（Implicit Dynamics World Models，ID-WM），这一层次化世界模型将状态空间可达性与局部控制解耦。该框架利用高层模型在状态流形上采样可行转移，并将低层世界模型用作逆动力学求解器，把这些转移落实为精确动作。因此，规划器能够识别可达子目标，而不受低层执行细节的束缚。ID-WM 优先关注局部物理可行性，而非全局行为模式，从而能够利用短片段合成新的长时域计划，超越训练期间出现的特定行为模式。我们在三个导航与操作环境系列中验证了其有效性；相较于当前先进的策略方法与扩散规划器，性能提升了 38.5%。更关键的是，通过利用层次结构缓解误差累积，相较于单层世界模型的模型预测控制（MPC），我们的方法取得了 135% 的性能提升，尤其适用于复杂、未见过配置下的长时域任务。演示视频见 https://id-wm.github.io/。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 6
+    },
+    {
+      "id": "P01B06",
+      "page": 1,
+      "bbox": [
+        108.0,
+        497.2841491699219,
+        190.8136749267578,
+        509.2393493652344
+      ],
+      "original": "1 Introduction",
+      "source_boxes": [
+        {
+          "page": 1,
+          "bbox": [
+            108.0,
+            497.2841491699219,
+            190.8136749267578,
+            509.2393493652344
+          ],
+          "fragment_id": "P01B06"
+        }
+      ],
+      "pages": [
+        1
+      ],
+      "translation": "1 引言",
+      "confidence": "high",
+      "type": "heading",
+      "reading_order": 7
+    },
+    {
+      "id": "P01B07",
+      "page": 1,
+      "bbox": [
+        107.53199768066406,
+        521.4892578125,
+        505.6560974121094,
+        607.8900756835938
+      ],
+      "original": "World models (WM) [1, 2, 3] have emerged as a powerful paradigm for embodied decisionmaking [4, 5, 6, 7]. By learning predictive models of environment dynamics, they enable testtime reasoning and the synthesis of novel behaviors for unseen goals by searching in the action space [8, 9, 10, 11]. However, planning with WMs faces two fundamental challenges: 1) search complexity grows exponentially with planning horizon, and 2) prediction errors accumulate over long rollouts. Therefore, most WM-based planners are restricted to short-horizon tasks [8, 9], rely on simplified action abstractions [10], or operate in high-level spaces such as language, sacrificing fine-grained control [12].",
+      "source_boxes": [
+        {
+          "page": 1,
+          "bbox": [
+            107.53199768066406,
+            521.4892578125,
+            505.6560974121094,
+            607.8900756835938
+          ],
+          "fragment_id": "P01B07"
+        }
+      ],
+      "pages": [
+        1
+      ],
+      "translation": "世界模型（WM）[1, 2, 3] 已成为具身决策的一种强大范式 [4, 5, 6, 7]。通过学习环境动力学的预测模型，智能体可以在测试时进行推理，并通过在动作空间中搜索，为未见过的目标合成新的行为 [8, 9, 10, 11]。然而，使用世界模型进行规划面临两项根本挑战：一是搜索复杂度随规划时域呈指数增长，二是预测误差在长序列滚动预测中不断累积。因此，大多数基于世界模型的规划器只能处理短时域任务 [8, 9]，或者依赖简化的动作抽象 [10]，又或者在语言等高层空间中运行，从而牺牲精细控制能力 [12]。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 8
+    },
+    {
+      "id": "P01B08",
+      "page": 1,
+      "bbox": [
+        108.0,
+        614.3088989257812,
+        505.74127197265625,
+        689.7340698242188
+      ],
+      "original": "Hierarchical learning offers a principled solution to this scalability challenge by decomposing longhorizon problems into manageable abstractions [13, 14, 15]. It has been extensively studied in Reinforcement Learning (RL) [16, 17, 18, 19], where hierarchy mitigates the credit assignment problem in long trajectories, and in imitation learning [20, 21], where it enables reusable behaviors. More recently, hierarchical structure has been introduced into diffusion-based planners to avoid directly modeling entire trajectories [22, 23, 24], improving scalability and generalization beyond fixed-horizon training data.",
+      "source_boxes": [
+        {
+          "page": 1,
+          "bbox": [
+            108.0,
+            614.3088989257812,
+            505.74127197265625,
+            689.7340698242188
+          ],
+          "fragment_id": "P01B08"
+        }
+      ],
+      "pages": [
+        1
+      ],
+      "translation": "层次化学习通过将长时域问题分解为易于处理的抽象，为这一可扩展性难题提供了有原则的解决途径 [13, 14, 15]。这一方法已在强化学习（RL）[16, 17, 18, 19] 中得到广泛研究，层次结构能够缓解长轨迹中的信用分配问题；它也被用于模仿学习 [20, 21]，以支持可复用行为。近年来，研究者将层次结构引入基于扩散的规划器，避免直接建模完整轨迹 [22, 23, 24]，从而提升可扩展性，并实现对固定时域训练数据之外情形的泛化。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 9
+    },
+    {
+      "id": "P01B09",
+      "page": 1,
+      "bbox": [
+        108.0,
+        696.2353515625,
+        505.6515197753906,
+        717.0068969726562
+      ],
+      "original": "How can we enable the same capabilities for task-agnostic world models, enabling long-horizon zeroshot planning for unseen goals? A direct approach would be to simply increase the prediction horizon or action abstraction (e.g., frame-skipping) [25]. However, previous attempts at hierarchical world models typically depend on task-specific priors to function effectively, relying on pre-trained skills and low-level policies [19, 26] or rewards and value functions to verify subgoal feasibility [27, 28]. This dependency arises because planning is fundamentally adversarial: without these anchoring constraints, a powerful optimizer will inevitably exploit deficiencies in a learned world model, discovering \"wormholes\" or unrealistic transitions [29, 30]. To make hierarchical world models suitable for planning, we must construct a latent space that both condenses trajectory information to minimize search complexity, and remains inherently well-behaved to prevent the planner from exploiting unrealistic transitions.",
+      "source_boxes": [
+        {
+          "page": 1,
+          "bbox": [
+            108.0,
+            696.2353515625,
+            505.6515197753906,
+            717.0068969726562
+          ],
+          "fragment_id": "P01B09"
+        },
+        {
+          "page": 2,
+          "bbox": [
+            107.69100189208984,
+            294.57275390625,
+            505.74346923828125,
+            391.861083984375
+          ],
+          "fragment_id": "P02B01"
+        }
+      ],
+      "pages": [
+        1,
+        2
+      ],
+      "translation": "如何使与具体任务无关的世界模型也具备这样的能力，从而针对未见过的目标进行长时域零样本规划？一种直接做法是简单地增大预测时域，或提高动作抽象程度，例如采用跳帧 [25]。然而，以往层次化世界模型通常依赖任务特定先验才能有效运行：它们需要预训练技能与低层策略 [19, 26]，或依靠奖励和值函数验证子目标的可行性 [27, 28]。这种依赖源于规划过程本质上具有对抗性：如果缺乏这些约束，一个强大的优化器不可避免地会利用所学世界模型的缺陷，找到“虫洞”或不现实的转移 [29, 30]。要使层次化世界模型适用于规划，就必须构建一种潜在空间：既能压缩轨迹信息以降低搜索复杂度，又具有内在良好的性质，防止规划器利用不现实的转移。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 10
+    },
+    {
+      "id": "P02B00",
+      "page": 2,
+      "bbox": [
+        108.0,
+        232.33322143554688,
+        504.0039367675781,
+        281.2083740234375
+      ],
+      "original": "Figure 1: Overview of ID-WM. Our hierarchical planning framework decouples state-space reachability from local control, eliminating the reliance on task-specific value functions or pre-trained policies. Planning proceeds in two interleaved stages: (1) high-level planning, which discovers a sequence of temporally abstract subgoals spaced ∆steps apart, and (2) low-level control, which leverages a world model as an inverse dynamics solver to extract executable actions between each subgoal.",
+      "source_boxes": [
+        {
+          "page": 2,
+          "bbox": [
+            108.0,
+            232.33322143554688,
+            504.0039367675781,
+            281.2083740234375
+          ],
+          "fragment_id": "P02B00"
+        }
+      ],
+      "pages": [
+        2
+      ],
+      "translation": "图 1：ID-WM 概览。我们的层次化规划框架将状态空间可达性与局部控制解耦，消除了对任务特定值函数或预训练策略的依赖。规划过程交替进行两个阶段：（1）高层规划，寻找一系列在时间上抽象、彼此间隔 Δ 步的子目标；（2）低层控制，将世界模型用作逆动力学求解器，求得各子目标之间可执行的动作。",
+      "confidence": "high",
+      "visual": {
+        "id": "F001",
+        "page": 2,
+        "bbox": [
+          108,
+          69,
+          506,
+          226
+        ],
+        "path": "assets/fig_01.png",
+        "confidence": "high"
+      },
+      "type": "caption",
+      "reading_order": 11
+    },
+    {
+      "id": "P02B02",
+      "page": 2,
+      "bbox": [
+        107.64099884033203,
+        398.11944580078125,
+        505.2469482421875,
+        517.3400268554688
+      ],
+      "original": "To this end, we introduce ID-WM, a hierarchical world model with implicit dynamics grounded in the insight that effective planning requires decoupling topological reachability from execution details (Figure 1). ID-WM consists of a high-level diffusion-based world model that only implicitly models the dynamics by outputting states that are within a fixed distance away from the current state, functioning as a neighboring state generator, and a deterministic low-level model conditioned on both current state and action, acting as an inverse dynamics solver. Conditioned on the current state and a Gaussian noise, the high-level model leverages the generative power of diffusion to map a tractable unit Gaussian latent space to the manifold of feasible neighboring states. This formulation allows us to treat the noise as an implicit high-level action, enabling the planner to search over a well-behaved distribution instead of complex, discontinuous skill spaces to reason purely about \"where to go,\" while the low-level model recovers the precise executable actions for \"how to get there.\"",
+      "source_boxes": [
+        {
+          "page": 2,
+          "bbox": [
+            107.64099884033203,
+            398.11944580078125,
+            505.2469482421875,
+            517.3400268554688
+          ],
+          "fragment_id": "P02B02"
+        }
+      ],
+      "pages": [
+        2
+      ],
+      "translation": "为此，我们提出 ID-WM，一种具有隐式动力学的层次化世界模型，其核心认识是：有效规划需要将拓扑可达性与执行细节解耦（图 1）。ID-WM 包含一个基于扩散的高层世界模型，以及一个以当前状态和动作为条件的确定性低层模型。高层模型输出距离当前状态固定范围内的状态，仅以隐式方式建模动力学，发挥邻近状态生成器的作用；低层模型则作为逆动力学求解器。以当前状态和高斯噪声为条件，高层模型利用扩散模型的生成能力，将易于处理的标准高斯潜在空间映射至可行邻近状态的流形。这一表述允许我们把噪声视为隐式高层动作，使规划器能够在性质良好的分布中搜索，而不是在复杂、不连续的技能空间中搜索，从而专注于推理“去哪里”；低层模型则求得精确、可执行的动作，以解决“如何到达”。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 12
+    },
+    {
+      "id": "P02B03",
+      "page": 2,
+      "bbox": [
+        107.53199768066406,
+        523.7664794921875,
+        283.1028747558594,
+        533.7290649414062
+      ],
+      "original": "We summarize our contributions as follows:",
+      "source_boxes": [
+        {
+          "page": 2,
+          "bbox": [
+            107.53199768066406,
+            523.7664794921875,
+            283.1028747558594,
+            533.7290649414062
+          ],
+          "fragment_id": "P02B03"
+        }
+      ],
+      "pages": [
+        2
+      ],
+      "translation": "我们的贡献概括如下：",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 13
+    },
+    {
+      "id": "P02B04",
+      "page": 2,
+      "bbox": [
+        135.39700317382812,
+        543.5054931640625,
+        505.6568298339844,
+        637.2030639648438
+      ],
+      "original": "• We introduce ID-WM, a hierarchical world model that decouples reachability from control, eliminating the need for task-specific value functions or pre-trained policies. • We propose a corresponding hierarchical planning algorithm that bridges high-level abstraction with local dynamics, enabling robust, long-horizon decision-making. • Across three navigation and manipulation environment suites, ID-WM shows 38.5% improvement for reaching arbitrary goals against powerful hierarchical offline reinforcement learning, imitation learning, and diffusion planning methods, and crucially, a 135% improvement over single-level world model and planning regimes.",
+      "source_boxes": [
+        {
+          "page": 2,
+          "bbox": [
+            135.39700317382812,
+            543.5054931640625,
+            505.6568298339844,
+            637.2030639648438
+          ],
+          "fragment_id": "P02B04"
+        }
+      ],
+      "pages": [
+        2
+      ],
+      "translation": "• 提出 ID-WM，将可达性与控制解耦，无需任务特定值函数或预训练策略。\n• 提出与之配套的层次化规划算法，将高层抽象与局部动力学连接起来，实现稳健的长时域决策。\n• 在三个导航与操作环境系列中，针对到达任意目标的任务，相较于强大的层次化离线强化学习、模仿学习和扩散规划方法，ID-WM 的性能提升了 38.5%；相较于单层世界模型与规划方案，性能提升达 135%。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 14
+    },
+    {
+      "id": "P02B05",
+      "page": 2,
+      "bbox": [
+        108.0,
+        657.1041870117188,
+        197.09014892578125,
+        669.0593872070312
+      ],
+      "original": "2 Related Work",
+      "source_boxes": [
+        {
+          "page": 2,
+          "bbox": [
+            108.0,
+            657.1041870117188,
+            197.09014892578125,
+            669.0593872070312
+          ],
+          "fragment_id": "P02B05"
+        }
+      ],
+      "pages": [
+        2
+      ],
+      "translation": "2 相关工作",
+      "confidence": "high",
+      "type": "heading",
+      "reading_order": 15
+    },
+    {
+      "id": "P02B06",
+      "page": 2,
+      "bbox": [
+        108.0,
+        681.4695434570312,
+        225.55868530273438,
+        691.43212890625
+      ],
+      "original": "2.1 Hierarchical Learning",
+      "source_boxes": [
+        {
+          "page": 2,
+          "bbox": [
+            108.0,
+            681.4695434570312,
+            225.55868530273438,
+            691.43212890625
+          ],
+          "fragment_id": "P02B06"
+        }
+      ],
+      "pages": [
+        2
+      ],
+      "translation": "2.1 层次化学习",
+      "confidence": "high",
+      "type": "heading",
+      "reading_order": 16
+    },
+    {
+      "id": "P02B07",
+      "page": 2,
+      "bbox": [
+        108.0,
+        701.4602661132812,
+        504.3505859375,
+        722.4310302734375
+      ],
+      "original": "Hierarchical learning has long been a foundational pursuit in artificial intelligence, decomposing long-horizon problems into manageable abstractions [13, 14, 15]. This paradigm spans policy architectures [31], reinforcement learning [16, 18, 27, 32], imitation learning [20], and planning [28, 33]. Existing work focuses on both behavioral (skills/options) [14, 19, 26, 34, 35, 36, 37] and subgoal-centric approaches [17, 28, 38]. However, these methods typically rely on coupled priors, such as rewards, learned value functions or pre-trained low-level policies [28, 32] to ensure feasibility, limiting generalization beyond the training distribution. In contrast, we eliminate this dependency, enabling robust hierarchical reasoning purely through implicit dynamics even when reliable value functions and policies are absent.",
+      "source_boxes": [
+        {
+          "page": 2,
+          "bbox": [
+            108.0,
+            701.4602661132812,
+            504.3505859375,
+            722.4310302734375
+          ],
+          "fragment_id": "P02B07"
+        },
+        {
+          "page": 3,
+          "bbox": [
+            108.0,
+            74.40748596191406,
+            505.2488708496094,
+            149.82406616210938
+          ],
+          "fragment_id": "P03B00"
+        }
+      ],
+      "pages": [
+        2,
+        3
+      ],
+      "translation": "层次化学习长期以来一直是人工智能的基础研究方向，它将长时域问题分解为易于处理的抽象 [13, 14, 15]。这一范式涵盖策略架构 [31]、强化学习 [16, 18, 27, 32]、模仿学习 [20] 和规划 [28, 33]。现有工作既关注以行为为中心的方法，即技能或选项（options）[14, 19, 26, 34, 35, 36, 37]，也关注以子目标为中心的方法 [17, 28, 38]。然而，这些方法通常依赖奖励、学习得到的值函数或预训练低层策略等耦合先验来保证可行性 [28, 32]，限制了其向训练分布之外的泛化能力。我们消除了这种依赖，即使缺乏可靠的值函数和策略，也能仅凭隐式动力学进行稳健的层次化推理。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 17
+    },
+    {
+      "id": "P03B01",
+      "page": 3,
+      "bbox": [
+        108.0,
+        164.3115234375,
+        292.7165222167969,
+        174.2741241455078
+      ],
+      "original": "2.2 World Models for Embodied Planning",
+      "source_boxes": [
+        {
+          "page": 3,
+          "bbox": [
+            108.0,
+            164.3115234375,
+            292.7165222167969,
+            174.2741241455078
+          ],
+          "fragment_id": "P03B01"
+        }
+      ],
+      "pages": [
+        3
+      ],
+      "translation": "2.2 用于具身规划的世界模型",
+      "confidence": "high",
+      "type": "heading",
+      "reading_order": 18
+    },
+    {
+      "id": "P03B02",
+      "page": 3,
+      "bbox": [
+        107.53199768066406,
+        184.33529663085938,
+        505.7433776855469,
+        358.0090637207031
+      ],
+      "original": "World models [1, 2, 3] have emerged as a foundational paradigm for embodied decision-making, enabling agents to reason about the future consequences of their actions. Recently, the field has shifted towards developing general-purpose world models [5, 8, 10, 39, 40, 41] capable of capturing broad environmental dynamics, diverging from traditional model-based reinforcement learning (MBRL) where learning task-specific reward or value functions is paramount [42, 43, 44, 45, 46, 47, 48]. Once these dynamics are learned, inference-time planning algorithms like the Cross-Entropy Method (CEM) [49] or gradient descent—are employed to derive behaviors zero-shot [8, 9, 11, 50]. However, the effectiveness of these approaches is often constrained to short horizons due to the computational complexity of search and the accumulation of prediction errors over time. While various strategies have been proposed to mitigate these issues, ranging from robust gradient-based optimization [30, 51] and efficient sampling routines [52] to temporal approximations for longer action sequences [10], they remain fundamentally flat in their temporal reasoning. Consequently, they struggle with longhorizon task solving, remaining susceptible to local minima and limited in their scalability to complex behaviors. Concurrently, HWM [25] builds a hierarchical latent world model by increasing the high-level frameskip and learning macro-actions; in contrast, ID-WM searches over the diffusion noise space, which is smooth and well-conditioned by construction.",
+      "source_boxes": [
+        {
+          "page": 3,
+          "bbox": [
+            107.53199768066406,
+            184.33529663085938,
+            505.7433776855469,
+            358.0090637207031
+          ],
+          "fragment_id": "P03B02"
+        }
+      ],
+      "pages": [
+        3
+      ],
+      "translation": "世界模型 [1, 2, 3] 已成为具身决策的基础范式，使智能体能够推理自身动作未来产生的后果。近年来，该领域开始转向开发能够捕捉广泛环境动力学的通用世界模型 [5, 8, 10, 39, 40, 41]；这不同于传统的基于模型的强化学习（MBRL），后者高度重视学习任务特定的奖励或值函数 [42, 43, 44, 45, 46, 47, 48]。一旦学到动力学，就可以在推理时使用交叉熵方法（CEM）[49] 或梯度下降等规划算法，以零样本方式求得行为 [8, 9, 11, 50]。但由于搜索的计算复杂度及预测误差随时间累积，这些方法通常仅在短时域内有效。已有多种策略尝试缓解这些问题，包括稳健的基于梯度的优化 [30, 51]、高效采样程序 [52]，以及针对较长动作序列的时间近似 [10]，但它们的时间推理在本质上仍是单层的。因此，它们难以解决长时域任务，仍容易陷入局部极小值，也难以扩展至复杂行为。同期工作 HWM [25] 通过增大高层跳帧间隔并学习宏动作来构建层次化潜在世界模型；ID-WM 则在扩散噪声空间中搜索，该空间在构造上平滑且条件良好。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 19
+    },
+    {
+      "id": "P03B03",
+      "page": 3,
+      "bbox": [
+        108.0,
+        372.49652099609375,
+        262.45013427734375,
+        382.4591064453125
+      ],
+      "original": "2.3 Diffusion Models and Planning",
+      "source_boxes": [
+        {
+          "page": 3,
+          "bbox": [
+            108.0,
+            372.49652099609375,
+            262.45013427734375,
+            382.4591064453125
+          ],
+          "fragment_id": "P03B03"
+        }
+      ],
+      "pages": [
+        3
+      ],
+      "translation": "2.3 扩散模型与规划",
+      "confidence": "high",
+      "type": "heading",
+      "reading_order": 20
+    },
+    {
+      "id": "P03B04",
+      "page": 3,
+      "bbox": [
+        107.7509994506836,
+        392.5202941894531,
+        504.1739501953125,
+        500.7400817871094
+      ],
+      "original": "Diffusion probabilistic models [53, 54, 55] excel at capturing complex, multimodal distributions via iterative denoising. Their efficacy is proven across high-dimensional modalities, including pixels [40, 41, 56, 57], language [58], and robot actions [59, 60]. Recently, diffusion models have been proposed as zero-shot planners for embodied tasks [61, 62, 63, 64]. These methods model entire trajectories directly, limiting generalization to out-of-distribution initial-goal pairs and constraining planning horizons to those seen during training. While hierarchical formulations mitigate these constraints, they rely on task-specific value functions [22, 23, 32], successful task trajectories [65], or assumed access to low-level primitives [24]. In contrast, we redefine diffusion as a local generator rather than a global planner. By delegating long-horizon reasoning to search, our method composes local jumps into novel trajectories without requiring task-specific priors.",
+      "source_boxes": [
+        {
+          "page": 3,
+          "bbox": [
+            107.7509994506836,
+            392.5202941894531,
+            504.1739501953125,
+            500.7400817871094
+          ],
+          "fragment_id": "P03B04"
+        }
+      ],
+      "pages": [
+        3
+      ],
+      "translation": "扩散概率模型 [53, 54, 55] 擅长通过迭代去噪捕捉复杂的多模态分布，其有效性已在像素 [40, 41, 56, 57]、语言 [58] 和机器人动作 [59, 60] 等高维模态中得到证明。近期，扩散模型被用于具身任务的零样本规划 [61, 62, 63, 64]。这些方法直接建模完整轨迹，因而对分布外初始状态—目标状态组合的泛化能力有限，规划时域也受到训练数据时域的限制。虽然层次化表述能够缓解这些限制，但它们仍依赖任务特定值函数 [22, 23, 32]、成功完成任务的轨迹 [65]，或者假定能够使用低层动作原语 [24]。我们则将扩散重新定义为局部生成器，而非全局规划器。通过将长时域推理交由搜索完成，我们的方法可以把局部跳转组合为新轨迹，无需任务特定先验。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 21
+    },
+    {
+      "id": "P03B05",
+      "page": 3,
+      "bbox": [
+        108.0,
+        517.6331787109375,
+        388.1581726074219,
+        529.58837890625
+      ],
+      "original": "3 Hierarchical World Models with Implicit Dynamics",
+      "source_boxes": [
+        {
+          "page": 3,
+          "bbox": [
+            108.0,
+            517.6331787109375,
+            388.1581726074219,
+            529.58837890625
+          ],
+          "fragment_id": "P03B05"
+        }
+      ],
+      "pages": [
+        3
+      ],
+      "translation": "3 具有隐式动力学的层次化世界模型",
+      "confidence": "high",
+      "type": "heading",
+      "reading_order": 22
+    },
+    {
+      "id": "P03B06",
+      "page": 3,
+      "bbox": [
+        108.0,
+        542.3026123046875,
+        504.00433349609375,
+        574.8075561523438
+      ],
+      "original": "Overview and Problem Formulation. We consider a goal-conditioned planning problem within a Markov Decision Process (MDP) defined by the tuple M = (S, A, P), where S is the continuous state space, A is the action space, and P(st+1|s≤t, a≤t) represents the transition dynamics.",
+      "source_boxes": [
+        {
+          "page": 3,
+          "bbox": [
+            108.0,
+            542.3026123046875,
+            504.00433349609375,
+            574.8075561523438
+          ],
+          "fragment_id": "P03B06"
+        }
+      ],
+      "pages": [
+        3
+      ],
+      "translation": "概述与问题定义。我们考虑马尔可夫决策过程（MDP）中的目标条件规划问题，其定义为三元组 M = (S, A, P)，其中 S 为连续状态空间，A 为动作空间，P(s[t+1] | s[≤t], a[≤t]) 表示转移动力学。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 23
+    },
+    {
+      "id": "P03B07",
+      "page": 3,
+      "bbox": [
+        108.0,
+        580.551025390625,
+        505.65350341796875,
+        656.0400390625
+      ],
+      "original": "Following prior world modeling methods [8, 10, 11], we learn environment dynamics from a taskagnostic offline dataset without any reward labeling via a world model, and plan to reach arbitrary unseen goals at test time. More specifically, an agent is provided with an initial state o0 and a goal state og at test time. The objective is to execute a sequence of actions (a0, a1, . . . , aT −1) such that the distance between the agent’s final state oT and the goal og is minimized. Unlike prior work, we do not assume a fixed task horizon T [8], focusing instead on enabling the agent to perform autonomous long-horizon reasoning and planning.",
+      "source_boxes": [
+        {
+          "page": 3,
+          "bbox": [
+            108.0,
+            580.551025390625,
+            505.65350341796875,
+            656.0400390625
+          ],
+          "fragment_id": "P03B07"
+        }
+      ],
+      "pages": [
+        3
+      ],
+      "translation": "沿用既有世界模型方法 [8, 10, 11]，我们通过世界模型，从与具体任务无关、没有任何奖励标注的离线数据集中学习环境动力学，并在测试时规划到达任意未见过的目标。具体而言，测试时向智能体提供初始状态 o₀ 和目标状态 o_g，目标是执行一系列动作 (a₀, a₁, …, a[T−1])，使最终状态 o_T 与目标 o_g 之间的距离最小。与已有工作不同，我们不假设固定的任务时域 T [8]，而是着重使智能体能够自主进行长时域推理与规划。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 24
+    },
+    {
+      "id": "P03B08",
+      "page": 3,
+      "bbox": [
+        108.0,
+        670.5275268554688,
+        348.935546875,
+        680.4901123046875
+      ],
+      "original": "3.1 Hierarchical World Models with Implicit Dynamics",
+      "source_boxes": [
+        {
+          "page": 3,
+          "bbox": [
+            108.0,
+            670.5275268554688,
+            348.935546875,
+            680.4901123046875
+          ],
+          "fragment_id": "P03B08"
+        }
+      ],
+      "pages": [
+        3
+      ],
+      "translation": "3.1 具有隐式动力学的层次化世界模型",
+      "confidence": "high",
+      "type": "heading",
+      "reading_order": 25
+    },
+    {
+      "id": "P03B09",
+      "page": 3,
+      "bbox": [
+        107.69100189208984,
+        690.4594116210938,
+        504.0032653808594,
+        722.391357421875
+      ],
+      "original": "The core component of ID-WM is a hierarchical world model comprising a high-level diffusion model and a low-level inverse dynamics model. As illustrated in Figure 2, the high-level model operates as a reachable state generator, predicting a distribution of feasible future states conditioned on the current state. The low-level model acts as an inverse dynamics solver, grounding these predicted transitions into executable actions.",
+      "source_boxes": [
+        {
+          "page": 3,
+          "bbox": [
+            107.69100189208984,
+            690.4594116210938,
+            504.0032653808594,
+            722.391357421875
+          ],
+          "fragment_id": "P03B09"
+        },
+        {
+          "page": 4,
+          "bbox": [
+            108.0,
+            300.8000793457031,
+            503.9974060058594,
+            321.9250793457031
+          ],
+          "fragment_id": "P04B01"
+        }
+      ],
+      "pages": [
+        3,
+        4
+      ],
+      "translation": "ID-WM 的核心是一个层次化世界模型，由高层扩散模型和低层逆动力学模型组成。如图 2 所示，高层模型作为可达状态生成器，以当前状态为条件，预测可行未来状态的分布；低层模型作为逆动力学求解器，将这些预测转移落实为可执行动作。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 26
+    },
+    {
+      "id": "P04B00",
+      "page": 4,
+      "bbox": [
+        108.0,
+        238.36546325683594,
+        504.0039978027344,
+        277.4273681640625
+      ],
+      "original": "Figure 2: Architecture of ID-WM. Given an initial observation o0 and a goal og, we optimize for both the sequence of subgoals s0, . . . , sT ∆and the executable actions at in an interleaved fashion. Here, fhi denotes the diffusion-based high-level world model and flo denotes the deterministic, transformer-based low-level world model, both of which predict in latent space.",
+      "source_boxes": [
+        {
+          "page": 4,
+          "bbox": [
+            108.0,
+            238.36546325683594,
+            504.0039978027344,
+            277.4273681640625
+          ],
+          "fragment_id": "P04B00"
+        }
+      ],
+      "pages": [
+        4
+      ],
+      "translation": "图 2：ID-WM 的架构。给定初始观测 o₀ 和目标 o_g，我们交替优化子目标序列 s₀, …, s[TΔ] 以及可执行动作 a_t。其中，f_hi 表示基于扩散的高层世界模型，f_lo 表示基于 Transformer 的确定性低层世界模型，两者均在潜在空间中进行预测。",
+      "confidence": "high",
+      "visual": {
+        "id": "F002",
+        "page": 4,
+        "bbox": [
+          108,
+          69,
+          506,
+          234
+        ],
+        "path": "assets/fig_02.png",
+        "confidence": "high"
+      },
+      "type": "caption",
+      "reading_order": 27
+    },
+    {
+      "id": "P04B02",
+      "page": 4,
+      "bbox": [
+        218.47500610351562,
+        329.95782470703125,
+        393.5254211425781,
+        355.3124084472656
+      ],
+      "original": "High-level WM: fhi(st+∆| st, ∆) Low-level WM: flo(st+1 | st−k:t, at−k:t)",
+      "source_boxes": [
+        {
+          "page": 4,
+          "bbox": [
+            218.47500610351562,
+            329.95782470703125,
+            393.5254211425781,
+            355.3124084472656
+          ],
+          "fragment_id": "P04B02"
+        }
+      ],
+      "pages": [
+        4
+      ],
+      "translation": "高层世界模型：f_hi(s[t+Δ] | s_t, Δ)。低层世界模型：f_lo(s[t+1] | s[t−k:t], a[t−k:t])。下图保留原文数学排版。",
+      "confidence": "high",
+      "visual": {
+        "id": "M001",
+        "page": 4,
+        "bbox": [
+          216,
+          326,
+          396,
+          359
+        ],
+        "path": "assets/model_hierarchy.png",
+        "confidence": "high"
+      },
+      "type": "equation",
+      "reading_order": 28
+    },
+    {
+      "id": "P04B03",
+      "page": 4,
+      "bbox": [
+        107.1729965209961,
+        362.3399353027344,
+        504.0047302246094,
+        383.4660339355469
+      ],
+      "original": "Specifically, the high-level world model conditions on the current state st and a temporal radius ∆, generating future states that fall within a ∆-step horizon. The low-level world model adopts the formulation from Zhou et al. [8], a transformer-based world model conditioning on a historical context of k past states and actions to infer immediate next steps.",
+      "source_boxes": [
+        {
+          "page": 4,
+          "bbox": [
+            107.1729965209961,
+            362.3399353027344,
+            504.0047302246094,
+            383.4660339355469
+          ],
+          "fragment_id": "P04B03"
+        },
+        {
+          "page": 4,
+          "bbox": [
+            108.0,
+            384.3470153808594,
+            503.99542236328125,
+            405.26007080078125
+          ],
+          "fragment_id": "P04B04"
+        }
+      ],
+      "pages": [
+        4
+      ],
+      "translation": "具体而言，高层世界模型以当前状态 s_t 和时间半径 Δ 为条件，生成 Δ 步时域内的未来状态。低层世界模型采用 Zhou 等人 [8] 的表述：使用基于 Transformer 的世界模型，以过去 k 个状态与动作构成的历史上下文为条件，推断紧接着的下一步状态。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 29
+    },
+    {
+      "id": "P04B05",
+      "page": 4,
+      "bbox": [
+        108.0,
+        411.68646240234375,
+        481.4081115722656,
+        421.6490783691406
+      ],
+      "original": "Both levels of the hierarchy share a unified structure, consisting of the following components:",
+      "source_boxes": [
+        {
+          "page": 4,
+          "bbox": [
+            108.0,
+            411.68646240234375,
+            481.4081115722656,
+            421.6490783691406
+          ],
+          "fragment_id": "P04B05"
+        }
+      ],
+      "pages": [
+        4
+      ],
+      "translation": "层次结构中的两个层级采用统一结构，由以下部分组成：",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 30
+    },
+    {
+      "id": "P04B06",
+      "page": 4,
+      "bbox": [
+        212.447998046875,
+        429.68182373046875,
+        399.5616149902344,
+        468.9344177246094
+      ],
+      "original": "Observation model: st ∼encθ(st | ot) Transition model: st+1 ∼pθ(st+1 | s≤t, c) Decoder model: ˆot ∼qθ(ot | st)",
+      "source_boxes": [
+        {
+          "page": 4,
+          "bbox": [
+            212.447998046875,
+            429.68182373046875,
+            399.5616149902344,
+            468.9344177246094
+          ],
+          "fragment_id": "P04B06"
+        }
+      ],
+      "pages": [
+        4
+      ],
+      "translation": "观测模型将观测 o_t 编码为潜在状态 s_t；转移模型在历史状态与上下文 c 的条件下预测下一潜在状态；解码模型由潜在状态重建观测。其原文数学定义如下。",
+      "confidence": "high",
+      "visual": {
+        "id": "M002",
+        "page": 4,
+        "bbox": [
+          210,
+          426,
+          402,
+          474
+        ],
+        "path": "assets/model_components.png",
+        "confidence": "high"
+      },
+      "type": "equation",
+      "reading_order": 31
+    },
+    {
+      "id": "P04B07",
+      "page": 4,
+      "bbox": [
+        107.64099884033203,
+        489.8589172363281,
+        504.0021057128906,
+        522.4815673828125
+      ],
+      "original": "where c is the context that the transition model takes in to make predictions. For fhi, c is the temporal distance ∆, instructing how far away the subgoals should be. For flo, c is the sequence of executable actions the agent has taken up to time t (i.e., a≤t).",
+      "source_boxes": [
+        {
+          "page": 4,
+          "bbox": [
+            107.64099884033203,
+            489.8589172363281,
+            504.0021057128906,
+            522.4815673828125
+          ],
+          "fragment_id": "P04B07"
+        }
+      ],
+      "pages": [
+        4
+      ],
+      "translation": "其中，c 是转移模型进行预测时输入的上下文。对于 f_hi，c 是时间距离 Δ，用于指定子目标应距离当前状态多远；对于 f_lo，c 是智能体截至时刻 t 已执行的动作序列，即 a[≤t]。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 32
+    },
+    {
+      "id": "P04B08",
+      "page": 4,
+      "bbox": [
+        107.99996948242188,
+        535.4605102539062,
+        291.7800598144531,
+        545.423095703125
+      ],
+      "original": "3.1.1 High-level Implicit Dynamics Model",
+      "source_boxes": [
+        {
+          "page": 4,
+          "bbox": [
+            107.99996948242188,
+            535.4605102539062,
+            291.7800598144531,
+            545.423095703125
+          ],
+          "fragment_id": "P04B08"
+        }
+      ],
+      "pages": [
+        4
+      ],
+      "translation": "3.1.1 高层隐式动力学模型",
+      "confidence": "high",
+      "type": "heading",
+      "reading_order": 33
+    },
+    {
+      "id": "P04B09",
+      "page": 4,
+      "bbox": [
+        107.64099884033203,
+        554.4703979492188,
+        505.7430114746094,
+        608.6045532226562
+      ],
+      "original": "To model the manifold of reachable states without restricting the agent to a fixed set of discrete skills, we formulate the high-level world model as a conditional diffusion probabilistic model (DDPM) [54]. Let x0 represent the target future state st+∆(at a fixed temporal offset ∆). The forward diffusion process q(xj|xj−1) gradually adds Gaussian noise to the data according to a variance schedule β1, . . . , βK:",
+      "source_boxes": [
+        {
+          "page": 4,
+          "bbox": [
+            107.64099884033203,
+            554.4703979492188,
+            505.7430114746094,
+            608.6045532226562
+          ],
+          "fragment_id": "P04B09"
+        }
+      ],
+      "pages": [
+        4
+      ],
+      "translation": "为了建模可达状态流形，同时避免把智能体限制在一组固定的离散技能上，我们将高层世界模型表述为条件去噪扩散概率模型（DDPM）[54]。令 x₀ 表示目标未来状态 s[t+Δ]，其时间偏移 Δ 固定。前向扩散过程 q(x_j | x[j−1]) 按照方差调度 β₁, …, β_K，逐渐向数据添加高斯噪声：",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 34
+    },
+    {
+      "id": "P04B10",
+      "page": 4,
+      "bbox": [
+        223.02700805664062,
+        610.6567993164062,
+        307.7916259765625,
+        621.590576171875
+      ],
+      "original": "q(x_j|x_{j-1}) = N(x_j; sqrt(1-beta_j) x_{j-1}, beta_j I) (1)",
+      "source_boxes": [
+        {
+          "page": 4,
+          "bbox": [
+            223.02700805664062,
+            610.6567993164062,
+            307.7916259765625,
+            621.590576171875
+          ],
+          "fragment_id": "P04B10"
+        },
+        {
+          "page": 4,
+          "bbox": [
+            309.4500427246094,
+            609.40234375,
+            319.4126281738281,
+            619.364990234375
+          ],
+          "fragment_id": "P04B11"
+        },
+        {
+          "page": 4,
+          "bbox": [
+            319.4119873046875,
+            610.6567993164062,
+            504.6677551269531,
+            621.590576171875
+          ],
+          "fragment_id": "P04B12"
+        }
+      ],
+      "pages": [
+        4
+      ],
+      "translation": "式（1）：前向扩散过程。均值为 √(1−β_j) x[j−1]，协方差为 β_j I。",
+      "confidence": "high",
+      "visual": {
+        "id": "Q001",
+        "page": 4,
+        "bbox": [
+          220,
+          608,
+          506,
+          624
+        ],
+        "path": "assets/equation_01.png",
+        "confidence": "high"
+      },
+      "type": "equation",
+      "reading_order": 35
+    },
+    {
+      "id": "P04B13",
+      "page": 4,
+      "bbox": [
+        107.69100189208984,
+        626.387939453125,
+        503.9994201660156,
+        659.0105590820312
+      ],
+      "original": "This allows us to sample xj at any arbitrary diffusion step j in closed form. We learn a conditional denoising network ϵθ(xj, j, st) to reverse this process, where st is the current state to condition the generation. The training objective is to predict the noise ϵ added to the clean data x0:",
+      "source_boxes": [
+        {
+          "page": 4,
+          "bbox": [
+            107.69100189208984,
+            626.387939453125,
+            503.9994201660156,
+            659.0105590820312
+          ],
+          "fragment_id": "P04B13"
+        }
+      ],
+      "pages": [
+        4
+      ],
+      "translation": "这样，我们就可以在任意扩散步 j 以闭式形式采样 x_j。我们学习条件去噪网络 ε_θ(x_j, j, s_t) 来逆转这一过程，其中 s_t 是控制生成过程的当前状态。训练目标是预测添加到干净数据 x₀ 上的噪声 ε：",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 36
+    },
+    {
+      "id": "P04B14",
+      "page": 4,
+      "bbox": [
+        217.87799072265625,
+        664.3854370117188,
+        305.2549743652344,
+        678.2312622070312
+      ],
+      "original": "L_diff = E_{x_0,epsilon~N(0,I),j}[||epsilon-epsilon_theta(x_j,j,s_t)||^2] (2)",
+      "source_boxes": [
+        {
+          "page": 4,
+          "bbox": [
+            217.87799072265625,
+            664.3854370117188,
+            305.2549743652344,
+            678.2312622070312
+          ],
+          "fragment_id": "P04B14"
+        },
+        {
+          "page": 4,
+          "bbox": [
+            307.8229675292969,
+            665.6552734375,
+            311.9773864746094,
+            675.617919921875
+          ],
+          "fragment_id": "P04B15"
+        },
+        {
+          "page": 4,
+          "bbox": [
+            311.9739685058594,
+            664.7837524414062,
+            394.1253662109375,
+            677.3655395507812
+          ],
+          "fragment_id": "P04B16"
+        },
+        {
+          "page": 4,
+          "bbox": [
+            493.05096435546875,
+            666.7924194335938,
+            504.6673278808594,
+            676.7550048828125
+          ],
+          "fragment_id": "P04B17"
+        }
+      ],
+      "pages": [
+        4
+      ],
+      "translation": "式（2）：扩散模型的噪声预测训练目标，最小化真实噪声与网络预测噪声之间的平方误差期望。",
+      "confidence": "high",
+      "visual": {
+        "id": "Q002",
+        "page": 4,
+        "bbox": [
+          216,
+          661,
+          506,
+          682
+        ],
+        "path": "assets/equation_02.png",
+        "confidence": "high"
+      },
+      "type": "equation",
+      "reading_order": 37
+    },
+    {
+      "id": "P04B18",
+      "page": 4,
+      "bbox": [
+        108.0,
+        690.566162109375,
+        503.9999084472656,
+        722.42626953125
+      ],
+      "original": "Sampling as Implicit Dynamics (DDIM). To represent the high-level decision at environment time t, we let zt ∈Rd denote the initial noise vector xK used for sampling the next subgoal. During inference, we employ Denoising Diffusion Implicit Models (DDIM) [55] to deterministically map this noise vector zt ∼N(0, I) to a generated subgoal ˆst+∆. The deterministic reverse step from diffusion step j to j −1 is given by:",
+      "source_boxes": [
+        {
+          "page": 4,
+          "bbox": [
+            108.0,
+            690.566162109375,
+            503.9999084472656,
+            722.42626953125
+          ],
+          "fragment_id": "P04B18"
+        },
+        {
+          "page": 5,
+          "bbox": [
+            108.0,
+            74.04781341552734,
+            503.9966125488281,
+            95.27908325195312
+          ],
+          "fragment_id": "P05B00"
+        }
+      ],
+      "pages": [
+        4,
+        5
+      ],
+      "translation": "将采样作为隐式动力学（DDIM）。为表示环境时刻 t 的高层决策，令 z_t ∈ R^d 表示用于采样下一子目标的初始噪声向量 x_K。在推理时，我们使用去噪扩散隐式模型（DDIM）[55]，将噪声向量 z_t ∼ N(0, I) 确定性地映射为生成子目标 ŝ[t+Δ]。从扩散步 j 到 j−1 的确定性反向更新如下：",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 38
+    },
+    {
+      "id": "P05B01",
+      "page": 5,
+      "bbox": [
+        210.48300170898438,
+        112.16835021972656,
+        274.0977478027344,
+        130.04794311523438
+      ],
+      "original": "x_{j-1} = sqrt(alpha_bar_{j-1}) [(x_j-sqrt(1-alpha_bar_j) epsilon_theta(x_j,j,s_t))/sqrt(alpha_bar_j)] + sqrt(1-alpha_bar_{j-1}) epsilon_theta(x_j,j,s_t) (3)",
+      "source_boxes": [
+        {
+          "page": 5,
+          "bbox": [
+            210.48300170898438,
+            112.16835021972656,
+            274.0977478027344,
+            130.04794311523438
+          ],
+          "fragment_id": "P05B01"
+        },
+        {
+          "page": 5,
+          "bbox": [
+            276.24798583984375,
+            103.04933166503906,
+            284.13836669921875,
+            113.01193237304688
+          ],
+          "fragment_id": "P05B02"
+        },
+        {
+          "page": 5,
+          "bbox": [
+            285.3299865722656,
+            104.64332580566406,
+            392.4354248046875,
+            116.62039947509766
+          ],
+          "fragment_id": "P05B03"
+        },
+        {
+          "page": 5,
+          "bbox": [
+            329.4460144042969,
+            113.1927719116211,
+            347.41961669921875,
+            130.5595703125
+          ],
+          "fragment_id": "P05B04"
+        },
+        {
+          "page": 5,
+          "bbox": [
+            393.6300048828125,
+            103.04933166503906,
+            401.5203857421875,
+            113.01193237304688
+          ],
+          "fragment_id": "P05B05"
+        },
+        {
+          "page": 5,
+          "bbox": [
+            242.74900817871094,
+            136.73634338378906,
+            401.5171813964844,
+            163.656494140625
+          ],
+          "fragment_id": "P05B06"
+        },
+        {
+          "page": 5,
+          "bbox": [
+            252.71200561523438,
+            152.5583038330078,
+            262.6745910644531,
+            162.52090454101562
+          ],
+          "fragment_id": "P05B07"
+        },
+        {
+          "page": 5,
+          "bbox": [
+            262.67401123046875,
+            153.5647735595703,
+            347.9464416503906,
+            164.49755859375
+          ],
+          "fragment_id": "P05B08"
+        },
+        {
+          "page": 5,
+          "bbox": [
+            493.05096435546875,
+            128.9474639892578,
+            504.6673278808594,
+            138.91006469726562
+          ],
+          "fragment_id": "P05B09"
+        }
+      ],
+      "pages": [
+        5
+      ],
+      "translation": "式（3）：DDIM 的确定性反向更新。其中带下括号的一项为预测的 x₀。",
+      "confidence": "high",
+      "visual": {
+        "id": "Q003",
+        "page": 5,
+        "bbox": [
+          207,
+          100,
+          506,
+          168
+        ],
+        "path": "assets/equation_03.png",
+        "confidence": "high"
+      },
+      "type": "equation",
+      "reading_order": 39
+    },
+    {
+      "id": "P05B10",
+      "page": 5,
+      "bbox": [
+        107.64099884033203,
+        172.16175842285156,
+        244.3736114501953,
+        191.96090698242188
+      ],
+      "original": "where α_j = 1 − β_j and ᾱ_j = ∏_{i=1}^j α_i. This formulation effectively parameterizes the high-level transition dynamics as a deterministic function G_θ(s_t, z_t).",
+      "source_boxes": [
+        {
+          "page": 5,
+          "bbox": [
+            107.64099884033203,
+            172.16175842285156,
+            244.3736114501953,
+            191.96090698242188
+          ],
+          "fragment_id": "P05B10"
+        },
+        {
+          "page": 5,
+          "bbox": [
+            108.0,
+            174.83494567871094,
+            504.0036315917969,
+            196.547607421875
+          ],
+          "fragment_id": "P05B11"
+        }
+      ],
+      "pages": [
+        5
+      ],
+      "translation": "其中，α_j = 1−β_j，ᾱ_j 为从 i=1 到 j 的 α_i 连乘积。这一表述实际上将高层转移动力学参数化为确定性函数 G_θ(s_t, z_t)。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 40
+    },
+    {
+      "id": "P05B12",
+      "page": 5,
+      "bbox": [
+        107.7509994506836,
+        202.27919006347656,
+        504.344970703125,
+        266.8710632324219
+      ],
+      "original": "Implicit High-Level Action Space. A key insight of our approach is to treat the initial noise vector zt as an implicit high-level action. Unlike discrete skill indices or learned latent codes which may suffer from mode collapse or topological discontinuities, illustrated in Section 6.13, the noise space Z = Rd is inherently smooth and well-behaved (isotropic Gaussian). By optimizing over zt, the planner searches over the standard Gaussian latent space, where any sample z maps to a physically valid reachable state on the data manifold via the deterministic DDIM mapping.",
+      "source_boxes": [
+        {
+          "page": 5,
+          "bbox": [
+            107.7509994506836,
+            202.27919006347656,
+            504.344970703125,
+            266.8710632324219
+          ],
+          "fragment_id": "P05B12"
+        }
+      ],
+      "pages": [
+        5
+      ],
+      "translation": "隐式高层动作空间。我们方法的一个关键认识是将初始噪声向量 z_t 视为隐式高层动作。离散技能索引或学习得到的潜在编码可能出现模式坍塌或拓扑不连续（见第 6.13 节）；与之不同，噪声空间 Z = R^d 天然平滑，且具有良好性质，即各向同性高斯分布。通过优化 z_t，规划器在标准高斯潜在空间中搜索；其中任一噪声样本 z 都经由确定性 DDIM 映射，得到数据流形上物理有效的可达状态。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 41
+    },
+    {
+      "id": "P05B13",
+      "page": 5,
+      "bbox": [
+        108.0,
+        280.239501953125,
+        238.07168579101562,
+        290.20208740234375
+      ],
+      "original": "3.1.2 Low-level World Model",
+      "source_boxes": [
+        {
+          "page": 5,
+          "bbox": [
+            108.0,
+            280.239501953125,
+            238.07168579101562,
+            290.20208740234375
+          ],
+          "fragment_id": "P05B13"
+        }
+      ],
+      "pages": [
+        5
+      ],
+      "translation": "3.1.2 低层世界模型",
+      "confidence": "high",
+      "type": "heading",
+      "reading_order": 42
+    },
+    {
+      "id": "P05B14",
+      "page": 5,
+      "bbox": [
+        107.69100189208984,
+        299.075927734375,
+        504.0041198730469,
+        341.7730712890625
+      ],
+      "original": "The high-level World Model (WM) provides long-horizon guidance by identifying target states, yet it lacks the granular transition dynamics necessary to prescribe executable actions. To this end, we employ a transformer-based deterministic low-level WM following Zhou et al. [8], which functions as an inverse dynamics model through planning.",
+      "source_boxes": [
+        {
+          "page": 5,
+          "bbox": [
+            107.69100189208984,
+            299.075927734375,
+            504.0041198730469,
+            341.7730712890625
+          ],
+          "fragment_id": "P05B14"
+        }
+      ],
+      "pages": [
+        5
+      ],
+      "translation": "高层世界模型通过确定目标状态提供长时域引导，但缺乏指定可执行动作所需的细粒度转移动力学。为此，我们沿用 Zhou 等人 [8] 的方法，采用基于 Transformer 的确定性低层世界模型，并通过规划使其发挥逆动力学模型的作用。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 43
+    },
+    {
+      "id": "P05B15",
+      "page": 5,
+      "bbox": [
+        108.0,
+        347.96893310546875,
+        504.0019226074219,
+        369.6815490722656
+      ],
+      "original": "Given a history of states st−k:t and actions at−k:t, the low-level WM predicts the next state ˆst+1 = flo(st−k:t, at−k:t). The model is trained via supervised learning to minimize the prediction error:",
+      "source_boxes": [
+        {
+          "page": 5,
+          "bbox": [
+            108.0,
+            347.96893310546875,
+            504.0019226074219,
+            369.6815490722656
+          ],
+          "fragment_id": "P05B15"
+        }
+      ],
+      "pages": [
+        5
+      ],
+      "translation": "给定历史状态 s[t−k:t] 和动作 a[t−k:t]，低层世界模型预测下一状态 ŝ[t+1] = f_lo(s[t−k:t], a[t−k:t])。通过监督学习训练该模型，以最小化预测误差：",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 44
+    },
+    {
+      "id": "P05B16",
+      "page": 5,
+      "bbox": [
+        264.3529968261719,
+        376.90582275390625,
+        504.6673583984375,
+        388.3634033203125
+      ],
+      "original": "L = ∥ˆst+1 −st+1∥2 (4)",
+      "source_boxes": [
+        {
+          "page": 5,
+          "bbox": [
+            264.3529968261719,
+            376.90582275390625,
+            504.6673583984375,
+            388.3634033203125
+          ],
+          "fragment_id": "P05B16"
+        }
+      ],
+      "pages": [
+        5
+      ],
+      "translation": "式（4）：下一状态预测的平方误差损失。",
+      "confidence": "high",
+      "visual": {
+        "id": "Q004",
+        "page": 5,
+        "bbox": [
+          261,
+          373,
+          506,
+          392
+        ],
+        "path": "assets/equation_04.png",
+        "confidence": "high"
+      },
+      "type": "equation",
+      "reading_order": 45
+    },
+    {
+      "id": "P05B17",
+      "page": 5,
+      "bbox": [
+        108.0,
+        395.3707580566406,
+        504.0035705566406,
+        416.2950744628906
+      ],
+      "original": "Consistent with Zhou et al. [8], we utilize an MLP action encoder to process raw action sequences before they are input into the transformer backbone.",
+      "source_boxes": [
+        {
+          "page": 5,
+          "bbox": [
+            108.0,
+            395.3707580566406,
+            504.0035705566406,
+            416.2950744628906
+          ],
+          "fragment_id": "P05B17"
+        }
+      ],
+      "pages": [
+        5
+      ],
+      "translation": "与 Zhou 等人 [8] 一致，我们使用多层感知机（MLP）动作编码器，在原始动作序列输入 Transformer 主干网络之前对其进行处理。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 46
+    },
+    {
+      "id": "P05B18",
+      "page": 5,
+      "bbox": [
+        107.64099884033203,
+        422.6452941894531,
+        504.0043029785156,
+        465.41107177734375
+      ],
+      "original": "At inference, we leverage this model for inverse dynamics through planning. Given a target state s∗, we search for an optimal action sequence (a0, . . . , aHlo−1) over a low-level planning horizon Hlo such that the planning cost ∥ˆsHlo −s∗∥2 is minimized. We detail the full hierarchical planning procedure in Section 3.2.",
+      "source_boxes": [
+        {
+          "page": 5,
+          "bbox": [
+            107.64099884033203,
+            422.6452941894531,
+            504.0043029785156,
+            465.41107177734375
+          ],
+          "fragment_id": "P05B18"
+        }
+      ],
+      "pages": [
+        5
+      ],
+      "translation": "推理时，我们通过规划将该模型用于逆动力学求解。给定目标状态 s*，在低层规划时域 H_lo 内搜索最优动作序列 (a₀, …, a[H_lo−1])，使规划代价 ‖ŝ[H_lo]−s*‖² 最小。完整的层次化规划过程见第 3.2 节。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 47
+    },
+    {
+      "id": "P05B19",
+      "page": 5,
+      "bbox": [
+        108.0,
+        480.12451171875,
+        284.4077453613281,
+        490.08709716796875
+      ],
+      "original": "3.2 Hierarchical Planning with ID-WM",
+      "source_boxes": [
+        {
+          "page": 5,
+          "bbox": [
+            108.0,
+            480.12451171875,
+            284.4077453613281,
+            490.08709716796875
+          ],
+          "fragment_id": "P05B19"
+        }
+      ],
+      "pages": [
+        5
+      ],
+      "translation": "3.2 使用 ID-WM 进行层次化规划",
+      "confidence": "high",
+      "type": "heading",
+      "reading_order": 48
+    },
+    {
+      "id": "P05B20",
+      "page": 5,
+      "bbox": [
+        107.64099884033203,
+        500.0829162597656,
+        504.0038146972656,
+        577.2250366210938
+      ],
+      "original": "At inference, given an initial state o0 and a goal state og, we employ hierarchical planning to determine a sequence of actions that reaches og. We formulate this as a Model Predictive Control (MPC) problem, where each iteration consists of two phases: subgoal generation and subgoal realization. The overall hierarchical planning procedure is detailed in Algorithm 1. We also include a full version in Algorithm 2. Throughout, ∆denotes the temporal radius of each subgoal (the maximum number of environment steps between consecutive subgoals), Hhi the number of subgoals per high-level plan, and Hlo the low-level planning horizon used to reach each subgoal.",
+      "source_boxes": [
+        {
+          "page": 5,
+          "bbox": [
+            107.64099884033203,
+            500.0829162597656,
+            504.0038146972656,
+            577.2250366210938
+          ],
+          "fragment_id": "P05B20"
+        }
+      ],
+      "pages": [
+        5
+      ],
+      "translation": "推理时，给定初始状态 o₀ 与目标状态 o_g，我们通过层次化规划确定到达目标的动作序列。我们将其表述为模型预测控制（MPC）问题，每轮迭代包含子目标生成与子目标实现两个阶段。总体流程见算法 1，完整版本另见算法 2。全文中，Δ 表示每个子目标的时间半径，即连续子目标之间最多相隔的环境步数；H_hi 表示每个高层计划中的子目标数量；H_lo 表示到达各子目标所用的低层规划时域。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 49
+    },
+    {
+      "id": "P05B21",
+      "page": 5,
+      "bbox": [
+        108.0,
+        581.9894409179688,
+        503.99749755859375,
+        602.7974853515625
+      ],
+      "original": "Subgoal Search via High-level WM. In the first phase, we identify a sequence of latent subgoals s*_0, …, s*_{Hhi} such that s*_0 = s_0 and s*_{Hhi} = s_g. To ensure that each subgoal remains within the reachable manifold of the low-level WM given its search budget, we constrain the distance between consecutive subgoals s*_i, s*_{i+1} to be no more than Δ environment steps. We optimize the latent noise variables z_0, …, z_{Hhi−1} using the Cross-Entropy Method (CEM) to minimize the following planning cost:",
+      "source_boxes": [
+        {
+          "page": 5,
+          "bbox": [
+            108.0,
+            581.9894409179688,
+            503.99749755859375,
+            602.7974853515625
+          ],
+          "fragment_id": "P05B21"
+        },
+        {
+          "page": 5,
+          "bbox": [
+            112.66999816894531,
+            591.46533203125,
+            210.49966430664062,
+            606.85400390625
+          ],
+          "fragment_id": "P05B22"
+        },
+        {
+          "page": 5,
+          "bbox": [
+            108.0,
+            591.46533203125,
+            504.0014953613281,
+            624.8325805664062
+          ],
+          "fragment_id": "P05B23"
+        },
+        {
+          "page": 5,
+          "bbox": [
+            198.1719970703125,
+            613.2833251953125,
+            215.92967224121094,
+            627.2095336914062
+          ],
+          "fragment_id": "P05B24"
+        },
+        {
+          "page": 5,
+          "bbox": [
+            107.7509994506836,
+            614.6539306640625,
+            504.0005798339844,
+            646.6650390625
+          ],
+          "fragment_id": "P05B25"
+        }
+      ],
+      "pages": [
+        5
+      ],
+      "translation": "通过高层世界模型搜索子目标。在第一阶段，我们寻找潜在子目标序列 s*₀, …, s*[H_hi]，使 s*₀ = s₀，且 s*[H_hi] = s_g。为了保证在给定搜索预算下，每个子目标仍位于低层世界模型的可达流形内，我们约束相邻子目标 s*_i 与 s*[i+1] 之间的距离不超过 Δ 个环境步。使用交叉熵方法（CEM）优化潜在噪声变量 z₀, …, z[H_hi−1]，使下列规划代价最小：",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 50
+    },
+    {
+      "id": "P05B26",
+      "page": 5,
+      "bbox": [
+        241.95599365234375,
+        647.6627807617188,
+        504.6692810058594,
+        660.1774291992188
+      ],
+      "original": "L = ∥ˆsHhi −sg∥2 + αLreg(Z) (5)",
+      "source_boxes": [
+        {
+          "page": 5,
+          "bbox": [
+            241.95599365234375,
+            647.6627807617188,
+            504.6692810058594,
+            660.1774291992188
+          ],
+          "fragment_id": "P05B26"
+        }
+      ],
+      "pages": [
+        5
+      ],
+      "translation": "式（5）：高层规划代价，由最终预测状态与目标状态的平方距离，以及加权噪声正则项构成。",
+      "confidence": "high",
+      "visual": {
+        "id": "Q005",
+        "page": 5,
+        "bbox": [
+          239,
+          646,
+          506,
+          662
+        ],
+        "path": "assets/equation_05.png",
+        "confidence": "high"
+      },
+      "type": "equation",
+      "reading_order": 51
+    },
+    {
+      "id": "P05B27",
+      "page": 5,
+      "bbox": [
+        107.64099884033203,
+        662.9688110351562,
+        504.00250244140625,
+        695.1090698242188
+      ],
+      "original": "where Lreg is a regularization term designed to keep the sampled noise within the support of the standard Gaussian distribution. This prevents the planner from exploiting adversarial regions of the latent space that would result in out-of-distribution transitions during DDIM sampling.",
+      "source_boxes": [
+        {
+          "page": 5,
+          "bbox": [
+            107.64099884033203,
+            662.9688110351562,
+            504.00250244140625,
+            695.1090698242188
+          ],
+          "fragment_id": "P05B27"
+        }
+      ],
+      "pages": [
+        5
+      ],
+      "translation": "其中，L_reg 是一个正则项，旨在使采样噪声保持在标准高斯分布的支撑域内。这样可以防止规划器利用潜在空间中的对抗性区域，否则 DDIM 采样可能产生分布外转移。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 52
+    },
+    {
+      "id": "P05B28",
+      "page": 5,
+      "bbox": [
+        108.0,
+        701.368408203125,
+        504.3528747558594,
+        722.4310302734375
+      ],
+      "original": "Subgoal Realization via Low-level WM. We similarly employ the CEM optimizer to identify the executable action sequences required to reach each intermediate subgoal. The agent plans and executes actions to reach the immediate subgoal, proceeding sequentially through the high-level trajectory. Upon completing the sequence for all subgoals generated by the high-level WM, the agent initiates a new MPC iteration to replan the high-level trajectory from its current state.",
+      "source_boxes": [
+        {
+          "page": 5,
+          "bbox": [
+            108.0,
+            701.368408203125,
+            504.3528747558594,
+            722.4310302734375
+          ],
+          "fragment_id": "P05B28"
+        },
+        {
+          "page": 6,
+          "bbox": [
+            108.0,
+            74.33230590820312,
+            503.9973449707031,
+            106.18807983398438
+          ],
+          "fragment_id": "P06B00"
+        }
+      ],
+      "pages": [
+        5,
+        6
+      ],
+      "translation": "通过低层世界模型实现子目标。我们同样使用 CEM 优化器，寻找到达每个中间子目标所需的可执行动作序列。智能体先规划并执行动作，以到达最近的子目标，然后沿高层轨迹依次推进。当高层世界模型生成的所有子目标序列执行完毕后，智能体开启新一轮 MPC 迭代，从当前状态重新规划高层轨迹。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 53
+    },
+    {
+      "id": "P06B01",
+      "page": 6,
+      "bbox": [
+        108.0,
+        112.49198913574219,
+        505.242919921875,
+        144.39505004882812
+      ],
+      "original": "Latent Noise Regularization. While the latent space is theoretically structured as a unit Gaussian, unconstrained planning can favor adversarial latents that produce unrealistic state transitions. To mitigate this, we incorporate a regularization term in the high-level planning cost:",
+      "source_boxes": [
+        {
+          "page": 6,
+          "bbox": [
+            108.0,
+            112.49198913574219,
+            505.242919921875,
+            144.39505004882812
+          ],
+          "fragment_id": "P06B01"
+        }
+      ],
+      "pages": [
+        6
+      ],
+      "translation": "潜在噪声正则化。虽然潜在空间在理论上具有标准高斯结构，但无约束规划可能偏向会产生不现实状态转移的对抗性潜在变量。为缓解这一问题，我们在高层规划代价中引入正则项：",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 54
+    },
+    {
+      "id": "P06B02",
+      "page": 6,
+      "bbox": [
+        241.58299255371094,
+        151.05274963378906,
+        504.66558837890625,
+        165.1824951171875
+      ],
+      "original": "Lreg = Ei [(max(0, |zi| −τ))p] (6)",
+      "source_boxes": [
+        {
+          "page": 6,
+          "bbox": [
+            241.58299255371094,
+            151.05274963378906,
+            504.66558837890625,
+            165.1824951171875
+          ],
+          "fragment_id": "P06B02"
+        }
+      ],
+      "pages": [
+        6
+      ],
+      "translation": "式（6）：对潜在噪声中绝对值超过阈值 τ 的分量施加 p 次幂惩罚，并对分量 i 求平均。",
+      "confidence": "high",
+      "visual": {
+        "id": "Q006",
+        "page": 6,
+        "bbox": [
+          238,
+          148,
+          506,
+          169
+        ],
+        "path": "assets/equation_06.png",
+        "confidence": "high"
+      },
+      "type": "equation",
+      "reading_order": 55
+    },
+    {
+      "id": "P06B03",
+      "page": 6,
+      "bbox": [
+        107.69100189208984,
+        173.2499237060547,
+        505.6517028808594,
+        205.26107788085938
+      ],
+      "original": "This term penalizes latent vectors whose magnitude exceeds a threshold τ, ensuring the optimization stays within high-density regions of the prior. We examine the effect of noise regularization in Section 6.6.",
+      "source_boxes": [
+        {
+          "page": 6,
+          "bbox": [
+            107.69100189208984,
+            173.2499237060547,
+            505.6517028808594,
+            205.26107788085938
+          ],
+          "fragment_id": "P06B03"
+        }
+      ],
+      "pages": [
+        6
+      ],
+      "translation": "该项惩罚幅值超过阈值 τ 的潜在向量，确保优化保持在先验分布的高密度区域内。噪声正则化的影响见第 6.6 节。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 56
+    },
+    {
+      "id": "P06B04",
+      "page": 6,
+      "bbox": [
+        107.64099884033203,
+        218.58154296875,
+        307.7198791503906,
+        228.63510131835938
+      ],
+      "original": "Algorithm 1 Hierarchical Planning with ID-WM",
+      "source_boxes": [
+        {
+          "page": 6,
+          "bbox": [
+            107.64099884033203,
+            218.58154296875,
+            307.7198791503906,
+            228.63510131835938
+          ],
+          "fragment_id": "P06B04"
+        }
+      ],
+      "pages": [
+        6
+      ],
+      "translation": "算法 1：使用 ID-WM 进行层次化规划",
+      "confidence": "high",
+      "type": "heading",
+      "reading_order": 57
+    },
+    {
+      "id": "P06B05",
+      "page": 6,
+      "bbox": [
+        108.0,
+        233.89390563964844,
+        503.9994812011719,
+        244.69757080078125
+      ],
+      "original": "Require: Initial state s0, goal state sg, high/low models fhi, flo, planning costs Chi, Clo, planning horizons Hhi, Hlo. 1: st ←s0 2: while goal sg not reached do 3: # High-Level Plan 4: (ˆs1, . . . , ˆsHhi) ←Planner(st, sg, fhi, Chi) 5: # Low-Level Plan and Execution 6: for i = 1 to Hhi do 7: (a1, . . . , aHlo) ←Planner(st, ˆsi, flo, Clo) 8: Execute actions (a1, . . . , aHlo) in the environment 9: st ←observe new state 10: end for 11: end while",
+      "source_boxes": [
+        {
+          "page": 6,
+          "bbox": [
+            108.0,
+            233.89390563964844,
+            503.9994812011719,
+            244.69757080078125
+          ],
+          "fragment_id": "P06B05"
+        },
+        {
+          "page": 6,
+          "bbox": [
+            109.76896667480469,
+            244.8029022216797,
+            345.6709899902344,
+            374.9050598144531
+          ],
+          "fragment_id": "P06B06"
+        }
+      ],
+      "pages": [
+        6
+      ],
+      "translation": "输入：初始状态 s₀、目标状态 s_g、高层与低层模型 f_hi 和 f_lo、规划代价 C_hi 和 C_lo，以及规划时域 H_hi 和 H_lo。\n1. 初始化 s_t ← s₀。\n2. 当尚未到达目标 s_g 时，重复以下过程。\n3. 高层规划：用 Planner(s_t, s_g, f_hi, C_hi) 求得子目标序列 (ŝ₁, …, ŝ[H_hi])。\n4. 低层规划与执行：依次遍历 i = 1, …, H_hi。\n5. 用 Planner(s_t, ŝ_i, f_lo, C_lo) 求得动作序列 (a₁, …, a[H_lo])。\n6. 在环境中执行这一动作序列，并观测新状态，更新 s_t。\n7. 完成子目标遍历后，返回高层规划，直至到达目标。",
+      "confidence": "high",
+      "visual": {
+        "id": "A001",
+        "page": 6,
+        "bbox": [
+          107,
+          232,
+          506,
+          380
+        ],
+        "path": "assets/algorithm_01.png",
+        "confidence": "high"
+      },
+      "type": "algorithm",
+      "reading_order": 58
+    },
+    {
+      "id": "P06B07",
+      "page": 6,
+      "bbox": [
+        108.0,
+        406.17315673828125,
+        191.01690673828125,
+        418.12835693359375
+      ],
+      "original": "4 Experiments",
+      "source_boxes": [
+        {
+          "page": 6,
+          "bbox": [
+            108.0,
+            406.17315673828125,
+            191.01690673828125,
+            418.12835693359375
+          ],
+          "fragment_id": "P06B07"
+        }
+      ],
+      "pages": [
+        6
+      ],
+      "translation": "4 实验",
+      "confidence": "high",
+      "type": "heading",
+      "reading_order": 59
+    },
+    {
+      "id": "P06B08",
+      "page": 6,
+      "bbox": [
+        108.0,
+        432.01446533203125,
+        383.21673583984375,
+        441.9770812988281
+      ],
+      "original": "Our experiments are designed to answer the following key questions:",
+      "source_boxes": [
+        {
+          "page": 6,
+          "bbox": [
+            108.0,
+            432.01446533203125,
+            383.21673583984375,
+            441.9770812988281
+          ],
+          "fragment_id": "P06B08"
+        }
+      ],
+      "pages": [
+        6
+      ],
+      "translation": "我们的实验旨在回答以下关键问题：",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 60
+    },
+    {
+      "id": "P06B09",
+      "page": 6,
+      "bbox": [
+        135.39700317382812,
+        453.18280029296875,
+        504.3061828613281,
+        463.17108154296875
+      ],
+      "original": "• Subgoal Generation: Can ID-WM reliably generate diverse and feasible reachable states?",
+      "source_boxes": [
+        {
+          "page": 6,
+          "bbox": [
+            135.39700317382812,
+            453.18280029296875,
+            504.3061828613281,
+            463.17108154296875
+          ],
+          "fragment_id": "P06B09"
+        }
+      ],
+      "pages": [
+        6
+      ],
+      "translation": "• 子目标生成：ID-WM 能否可靠地生成多样且可行的可达状态？",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 61
+    },
+    {
+      "id": "P06B10",
+      "page": 6,
+      "bbox": [
+        135.39700317382812,
+        469.60015869140625,
+        505.6513671875,
+        490.6160888671875
+      ],
+      "original": "• Generalization: Can ID-WM solve long-horizon planning tasks to reach arbitrary, zeroshot goals at test time?",
+      "source_boxes": [
+        {
+          "page": 6,
+          "bbox": [
+            135.39700317382812,
+            469.60015869140625,
+            505.6513671875,
+            490.6160888671875
+          ],
+          "fragment_id": "P06B10"
+        }
+      ],
+      "pages": [
+        6
+      ],
+      "translation": "• 泛化能力：ID-WM 能否在测试时解决长时域规划任务，以零样本方式到达任意目标？",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 62
+    },
+    {
+      "id": "P06B11",
+      "page": 6,
+      "bbox": [
+        135.39700317382812,
+        497.03277587890625,
+        503.9964294433594,
+        518.06005859375
+      ],
+      "original": "• Scaling: How does the performance of ID-WM scale across environments of increasing complexity?",
+      "source_boxes": [
+        {
+          "page": 6,
+          "bbox": [
+            135.39700317382812,
+            497.03277587890625,
+            503.9964294433594,
+            518.06005859375
+          ],
+          "fragment_id": "P06B11"
+        }
+      ],
+      "pages": [
+        6
+      ],
+      "translation": "• 可扩展性：随着环境复杂度增加，ID-WM 的性能如何变化？",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 63
+    },
+    {
+      "id": "P06B12",
+      "page": 6,
+      "bbox": [
+        135.39700317382812,
+        524.4663696289062,
+        505.65533447265625,
+        545.5050659179688
+      ],
+      "original": "• Visual Planning: Is ID-WM effective for long-horizon planning directly from highdimensional visual observations?",
+      "source_boxes": [
+        {
+          "page": 6,
+          "bbox": [
+            135.39700317382812,
+            524.4663696289062,
+            505.65533447265625,
+            545.5050659179688
+          ],
+          "fragment_id": "P06B12"
+        }
+      ],
+      "pages": [
+        6
+      ],
+      "translation": "• 视觉规划：ID-WM 能否直接根据高维视觉观测进行有效的长时域规划？",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 64
+    },
+    {
+      "id": "P06B13",
+      "page": 6,
+      "bbox": [
+        108.0,
+        561.7554931640625,
+        190.17152404785156,
+        571.7180786132812
+      ],
+      "original": "4.1 Environments",
+      "source_boxes": [
+        {
+          "page": 6,
+          "bbox": [
+            108.0,
+            561.7554931640625,
+            190.17152404785156,
+            571.7180786132812
+          ],
+          "fragment_id": "P06B13"
+        }
+      ],
+      "pages": [
+        6
+      ],
+      "translation": "4.1 环境",
+      "confidence": "high",
+      "type": "heading",
+      "reading_order": 65
+    },
+    {
+      "id": "P06B14",
+      "page": 6,
+      "bbox": [
+        107.53199768066406,
+        582.523193359375,
+        505.7420349121094,
+        614.341064453125
+      ],
+      "original": "We evaluate ID-WM on three navigation and manipulation environment suites as shown in Figure 3. The environments are Wall, PushT, and Maze, with task horizon ranging from hundreds to thousands of environment steps. A full description of the environments is detailed in Section 6.1.",
+      "source_boxes": [
+        {
+          "page": 6,
+          "bbox": [
+            107.53199768066406,
+            582.523193359375,
+            505.7420349121094,
+            614.341064453125
+          ],
+          "fragment_id": "P06B14"
+        }
+      ],
+      "pages": [
+        6
+      ],
+      "translation": "如图 3 所示，我们在三个导航与操作环境系列中评估 ID-WM，分别是 Wall、PushT 和 Maze。任务时域从数百步到数千个环境步不等。环境的完整描述见第 6.1 节。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 66
+    },
+    {
+      "id": "P06B15",
+      "page": 6,
+      "bbox": [
+        108.0,
+        692.1192626953125,
+        505.1227722167969,
+        711.0603637695312
+      ],
+      "original": "Figure 3: We evaluate ID-WM on three environment suites (Wall, PushT, Maze); from left to right: Wall, PushT, and the four maze sizes (U-, Medium, Large, Giant).",
+      "source_boxes": [
+        {
+          "page": 6,
+          "bbox": [
+            108.0,
+            692.1192626953125,
+            505.1227722167969,
+            711.0603637695312
+          ],
+          "fragment_id": "P06B15"
+        }
+      ],
+      "pages": [
+        6
+      ],
+      "translation": "图 3：我们在三个环境系列（Wall、PushT、Maze）中评估 ID-WM。从左到右依次为 Wall、PushT，以及四种大小的迷宫（U 型、中型、大型、巨型）。",
+      "confidence": "high",
+      "visual": {
+        "id": "F003",
+        "page": 6,
+        "bbox": [
+          108,
+          624,
+          506,
+          686
+        ],
+        "path": "assets/fig_03.png",
+        "confidence": "high"
+      },
+      "type": "caption",
+      "reading_order": 67
+    },
+    {
+      "id": "P07B00",
+      "page": 7,
+      "bbox": [
+        108.0,
+        74.31652069091797,
+        169.71832275390625,
+        84.27912139892578
+      ],
+      "original": "4.2 Baselines",
+      "source_boxes": [
+        {
+          "page": 7,
+          "bbox": [
+            108.0,
+            74.31652069091797,
+            169.71832275390625,
+            84.27912139892578
+          ],
+          "fragment_id": "P07B00"
+        }
+      ],
+      "pages": [
+        7
+      ],
+      "translation": "4.2 基线方法",
+      "confidence": "high",
+      "type": "heading",
+      "reading_order": 68
+    },
+    {
+      "id": "P07B01",
+      "page": 7,
+      "bbox": [
+        107.53199768066406,
+        94.54650115966797,
+        503.99993896484375,
+        126.37307739257812
+      ],
+      "original": "We compare ID-WM with five state-of-the-art offline learning methods including imitation learning (GCBC), offline RL (HIQL), diffusion planners (Diffuser, Hierarchical Diffuser), and planning with world models (Single-level WM with MPC). See Section 6.4 for full details.",
+      "source_boxes": [
+        {
+          "page": 7,
+          "bbox": [
+            107.53199768066406,
+            94.54650115966797,
+            503.99993896484375,
+            126.37307739257812
+          ],
+          "fragment_id": "P07B01"
+        }
+      ],
+      "pages": [
+        7
+      ],
+      "translation": "我们将 ID-WM 与五种先进的离线学习方法比较，包括模仿学习（GCBC）、离线强化学习（HIQL）、扩散规划器（Diffuser、Hierarchical Diffuser），以及使用世界模型进行规划的方法，即结合 MPC 的单层世界模型。完整细节见第 6.4 节。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 69
+    },
+    {
+      "id": "P07B02",
+      "page": 7,
+      "bbox": [
+        108.0,
+        141.301513671875,
+        321.9368591308594,
+        151.2641143798828
+      ],
+      "original": "4.3 Generating Neighboring States with ID-WM",
+      "source_boxes": [
+        {
+          "page": 7,
+          "bbox": [
+            108.0,
+            141.301513671875,
+            321.9368591308594,
+            151.2641143798828
+          ],
+          "fragment_id": "P07B02"
+        }
+      ],
+      "pages": [
+        7
+      ],
+      "translation": "4.3 使用 ID-WM 生成邻近状态",
+      "confidence": "high",
+      "type": "heading",
+      "reading_order": 70
+    },
+    {
+      "id": "P07B03",
+      "page": 7,
+      "bbox": [
+        107.53199768066406,
+        161.41041564941406,
+        504.1702880859375,
+        204.26705932617188
+      ],
+      "original": "We first investigate the extent to which each level of ID-WM accurately captures the underlying data distribution and predicts future states across varying temporal granularities. Specifically, for the high-level WM, we evaluate whether sampling from the latent prior yields diverse and reachable future states.",
+      "source_boxes": [
+        {
+          "page": 7,
+          "bbox": [
+            107.53199768066406,
+            161.41041564941406,
+            504.1702880859375,
+            204.26705932617188
+          ],
+          "fragment_id": "P07B03"
+        }
+      ],
+      "pages": [
+        7
+      ],
+      "translation": "我们首先考察 ID-WM 的各个层级在多大程度上能够准确捕捉底层数据分布，并在不同时间粒度下预测未来状态。对于高层世界模型，我们具体评估从潜在先验中采样是否能够得到多样且可达的未来状态。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 71
+    },
+    {
+      "id": "P07B04",
+      "page": 7,
+      "bbox": [
+        107.64099884033203,
+        210.3338165283203,
+        504.002197265625,
+        253.38308715820312
+      ],
+      "original": "In Figure 4, we sample 100 latent noise vectors z ∼N(0, I) and visualize the resulting generated states ˆs∆= fhi(s0, z, ∆) reachable within a ∆-step horizon. For each ∆, we overlay all 100 generated samples to visualize the predicted state distribution, explicitly marking the agent’s position with a black dot for clarity.",
+      "source_boxes": [
+        {
+          "page": 7,
+          "bbox": [
+            107.64099884033203,
+            210.3338165283203,
+            504.002197265625,
+            253.38308715820312
+          ],
+          "fragment_id": "P07B04"
+        }
+      ],
+      "pages": [
+        7
+      ],
+      "translation": "在图 4 中，我们采样 100 个潜在噪声向量 z ∼ N(0, I)，并可视化由此生成、在 Δ 步时域内可达的状态 ŝ_Δ = f_hi(s₀, z, Δ)。对于每个 Δ，我们叠加全部 100 个生成样本，以展示预测状态分布；为便于辨认，用黑点明确标示智能体的位置。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 72
+    },
+    {
+      "id": "P07B05",
+      "page": 7,
+      "bbox": [
+        107.64099884033203,
+        259.7445373535156,
+        504.348876953125,
+        346.13507080078125
+      ],
+      "original": "As illustrated in Figure 4, the high-level WM generates diverse and physically reachable states for both the Wall and PushT environments. In the Wall environment, the dispersion of agent positions increases with ∆, reflecting a larger reachable radius as the temporal budget grows. Similarly, in the PushT environment, we observe an increasingly diffused distribution of both the agent and the T-block. The smooth coverage of object configurations demonstrates that the model successfully captures the complex, multi-modal interactions between the agent and the object. This high-fidelity distribution modeling serves as a necessary prerequisite for planning, enabling the system to generate diverse trajectories and generalize effectively to unseen goals in downstream tasks.",
+      "source_boxes": [
+        {
+          "page": 7,
+          "bbox": [
+            107.64099884033203,
+            259.7445373535156,
+            504.348876953125,
+            346.13507080078125
+          ],
+          "fragment_id": "P07B05"
+        }
+      ],
+      "pages": [
+        7
+      ],
+      "translation": "如图 4 所示，高层世界模型在 Wall 和 PushT 环境中都生成了多样且物理可达的状态。在 Wall 环境中，智能体位置的离散程度随 Δ 增大而增加，反映了时间预算增加时可达半径相应扩大。同样，在 PushT 环境中，智能体与 T 形块的位置分布都变得更加分散。物体配置的平滑覆盖表明，模型成功捕捉了智能体与物体之间复杂、多模态的交互。这种高保真的分布建模是规划的必要前提，使系统能够生成多样轨迹，并在下游任务中有效泛化至未见目标。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 73
+    },
+    {
+      "id": "P07B06",
+      "page": 7,
+      "bbox": [
+        154.5590057373047,
+        441.94610595703125,
+        457.4440002441406,
+        450.994384765625
+      ],
+      "original": "Figure 4: Diverse neighboring states generated with the high-level WM of ID-WM.",
+      "source_boxes": [
+        {
+          "page": 7,
+          "bbox": [
+            154.5590057373047,
+            441.94610595703125,
+            457.4440002441406,
+            450.994384765625
+          ],
+          "fragment_id": "P07B06"
+        }
+      ],
+      "pages": [
+        7
+      ],
+      "translation": "图 4：ID-WM 高层世界模型生成的多样邻近状态。",
+      "confidence": "high",
+      "visual": {
+        "id": "F004",
+        "page": 7,
+        "bbox": [
+          108,
+          355,
+          506,
+          436
+        ],
+        "path": "assets/fig_04.png",
+        "confidence": "high"
+      },
+      "type": "caption",
+      "reading_order": 74
+    },
+    {
+      "id": "P07B07",
+      "page": 7,
+      "bbox": [
+        108.00000762939453,
+        473.9375305175781,
+        284.4077453613281,
+        483.9001159667969
+      ],
+      "original": "4.4 Hierarchical Planning with ID-WM",
+      "source_boxes": [
+        {
+          "page": 7,
+          "bbox": [
+            108.00000762939453,
+            473.9375305175781,
+            284.4077453613281,
+            483.9001159667969
+          ],
+          "fragment_id": "P07B07"
+        }
+      ],
+      "pages": [
+        7
+      ],
+      "translation": "4.4 使用 ID-WM 进行层次化规划",
+      "confidence": "high",
+      "type": "heading",
+      "reading_order": 75
+    },
+    {
+      "id": "P07B08",
+      "page": 7,
+      "bbox": [
+        108.0,
+        494.07958984375,
+        503.9981994628906,
+        515.0850219726562
+      ],
+      "original": "Can ID-WM solve long-horizon planning tasks to reach arbitrary, zero-shot goals at test time? To this end, we conduct hierarchical planning on three environment suites.",
+      "source_boxes": [
+        {
+          "page": 7,
+          "bbox": [
+            108.0,
+            494.07958984375,
+            503.9981994628906,
+            515.0850219726562
+          ],
+          "fragment_id": "P07B08"
+        }
+      ],
+      "pages": [
+        7
+      ],
+      "translation": "ID-WM 能否在测试时解决长时域规划任务，以零样本方式到达任意目标？为此，我们在三个环境系列中进行层次化规划。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 76
+    },
+    {
+      "id": "P07B09",
+      "page": 7,
+      "bbox": [
+        107.1729965209961,
+        521.435302734375,
+        505.7408752441406,
+        630.9185180664062
+      ],
+      "original": "For all environments and baselines, we randomly sample 50 pairs of initial and goal states, with sampling method detailed in Section 6.2, and report the average performance across these instances. For the PushT task, we report two metrics: the success rate and the final coverage of the T-block relative to the target configuration. A trial is considered successful only if both the agent and the T-block reach their respective goal positions. In contrast, the final coverage metric provides a more granular measure of performance by focusing specifically on the object’s alignment. To further evaluate generalization capabilities, we test PushT under two settings: a standard regime and a data-augmented regime featuring random spatial transformations and rotations. All experiments are conducted with a maximum horizon of 2000 environment steps. For all experiments, ID-WM uses ∆= 5 (25 environment steps with frameskip) and Hhi = 5 subgoals per high-level plan, without per-task tuning; the planner replans after each executed plan (up to 15 replans), so no prior knowledge of the goal distance is required. We ablate ∆and the number of subgoals in Section 6.7.",
+      "source_boxes": [
+        {
+          "page": 7,
+          "bbox": [
+            107.1729965209961,
+            521.435302734375,
+            505.7408752441406,
+            630.9185180664062
+          ],
+          "fragment_id": "P07B09"
+        },
+        {
+          "page": 7,
+          "bbox": [
+            108.0,
+            630.6773681640625,
+            504.00164794921875,
+            651.4730224609375
+          ],
+          "fragment_id": "P07B10"
+        }
+      ],
+      "pages": [
+        7
+      ],
+      "translation": "对于所有环境与基线，我们随机采样 50 对初始状态和目标状态，采样方法详见第 6.2 节，并报告这些实例上的平均性能。对于 PushT 任务，报告成功率，以及 T 形块相对于目标配置的最终覆盖率两项指标。只有当智能体与 T 形块均到达各自目标位置时，才判定试验成功；最终覆盖率则专门关注物体的对齐程度，提供更细致的性能度量。为进一步评估泛化能力，我们在标准设置和经过随机空间变换与旋转的数据增强设置下测试 PushT。所有实验的最大时域均为 2000 个环境步。所有实验中，ID-WM 统一使用 Δ = 5（考虑跳帧后相当于 25 个环境步），每个高层计划含 H_hi = 5 个子目标，不针对任务单独调参；规划器在每个计划执行后重新规划，最多重规划 15 次，因此无需预先知道到目标的距离。我们在第 6.7 节对 Δ 和子目标数量进行了消融研究。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 77
+    },
+    {
+      "id": "P07B11",
+      "page": 7,
+      "bbox": [
+        107.53199768066406,
+        657.739990234375,
+        505.74517822265625,
+        722.4070434570312
+      ],
+      "original": "In Table 1, ID-WM outperforms all baselines, achieving a 38.5% overall improvement and 135% gain over single-level WM with MPC (SL-WM). The gap is most evident in PushT with random goals, where ID-WM is the only approach exceeding a 30% success rate without augmentation. While SL-WM performs well on shorter horizons (Maze, Wall), it fails on PushT’s long-horizon requirements (often > 100 steps) due to exponential search complexity and compounding prediction errors. Unlike the 25-step benchmark in Zhou et al. [8], our results show that standard WM planning cannot solve these extended tasks, a limitation our hierarchical approach effectively addresses. We visualize the resulting high-level plans in Figure 5 and examine subgoal quality and diversity in Sections 4.3 and 6.12.",
+      "source_boxes": [
+        {
+          "page": 7,
+          "bbox": [
+            107.53199768066406,
+            657.739990234375,
+            505.74517822265625,
+            722.4070434570312
+          ],
+          "fragment_id": "P07B11"
+        },
+        {
+          "page": 8,
+          "bbox": [
+            107.7509994506836,
+            505.08477783203125,
+            504.00244140625,
+            536.9030151367188
+          ],
+          "fragment_id": "P08B09"
+        }
+      ],
+      "pages": [
+        7,
+        8
+      ],
+      "translation": "表 1 中，ID-WM 优于所有基线，总体提升 38.5%，相较于结合 MPC 的单层世界模型（SL-WM）提升 135%。在随机目标 PushT 中差距最为明显：未经数据增强时，只有 ID-WM 的成功率超过 30%。虽然 SL-WM 在较短时域环境（Maze、Wall）中表现良好，但由于搜索复杂度呈指数增长及预测误差累积，它无法满足 PushT 的长时域要求，后者往往超过 100 步。不同于 Zhou 等人 [8] 中的 25 步基准，我们的结果表明，标准世界模型规划无法解决这些扩展任务，而层次化方法有效解决了这一局限。图 5 展示了得到的高层计划，第 4.3 节和第 6.12 节进一步分析子目标的质量与多样性。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 78
+    },
+    {
+      "id": "P08B00",
+      "page": 8,
+      "bbox": [
+        107.7040023803711,
+        79.08031463623047,
+        504.00103759765625,
+        108.03936767578125
+      ],
+      "original": "Table 1: Performance comparison across environments. We report success rate (SR) and, for PushT, final coverage (Cov), as mean ± std over three seeds. PushT is evaluated with a fixed goal (Fix) and random goals (Rand.). Best results per row are in bold. Environment Metric HIQL GCBC Diffuser H-Diffuser SL-WM Ours Medium Maze SR 0.83 ±0.01 0.80 ±0.00 0.80 ±0.13 0.92 ±0.03 0.97 ±0.01 0.99 ±0.01 Wall SR 0.62 ±0.12 1.00 ±0.00 0.07 ±0.08 0.10 ±0.02 0.88 ±0.02 1.00 ±0.00 PushT (Fix) SR 0.45 ±0.07 1.00 ±0.00 0.00 ±0.00 0.01 ±0.01 0.19 ±0.02 1.00 ±0.00 Cov 0.50 ±0.05 0.85 ±0.04 0.10 ±0.01 0.35 ±0.09 0.34 ±0.03 0.85 ±0.01 PushT (Rand.) SR 0.02 ±0.02 0.21 ±0.01 0.00 ±0.00 0.01 ±0.01 0.21 ±0.04 0.77 ±0.01 Cov 0.22 ±0.03 0.31 ±0.01 0.05 ±0.01 0.20 ±0.08 0.27 ±0.02 0.58 ±0.01 PushT-Aug (Fix) SR 0.87 ±0.01 1.00 ±0.00 0.01 ±0.02 0.55 ±0.14 0.10 ±0.04 1.00 ±0.00 Cov 0.81 ±0.05 0.83 ±0.01 0.31 ±0.03 0.74 ±0.16 0.43 ±0.01 0.84 ±0.01 PushT-Aug (Rand.) SR 0.32 ±0.06 0.15 ±0.01 0.01 ±0.01 0.27 ±0.03 0.10 ±0.04 1.00 ±0.01 Cov 0.59 ±0.03 0.25 ±0.01 0.14 ±0.01 0.72 ±0.19 0.17 ±0.01 0.77 ±0.01",
+      "source_boxes": [
+        {
+          "page": 8,
+          "bbox": [
+            107.7040023803711,
+            79.08031463623047,
+            504.00103759765625,
+            108.03936767578125
+          ],
+          "fragment_id": "P08B00"
+        },
+        {
+          "page": 8,
+          "bbox": [
+            109.86399841308594,
+            117.64612579345703,
+            490.80145263671875,
+            126.6125259399414
+          ],
+          "fragment_id": "P08B01"
+        },
+        {
+          "page": 8,
+          "bbox": [
+            109.86399841308594,
+            132.68846130371094,
+            502.2254333496094,
+            141.86236572265625
+          ],
+          "fragment_id": "P08B02"
+        },
+        {
+          "page": 8,
+          "bbox": [
+            109.86399841308594,
+            147.8564910888672,
+            502.2154541015625,
+            157.0303955078125
+          ],
+          "fragment_id": "P08B03"
+        },
+        {
+          "page": 8,
+          "bbox": [
+            109.86399841308594,
+            163.0244598388672,
+            502.21624755859375,
+            182.161376953125
+          ],
+          "fragment_id": "P08B04"
+        },
+        {
+          "page": 8,
+          "bbox": [
+            109.86399841308594,
+            188.1554412841797,
+            502.2262268066406,
+            207.2923583984375
+          ],
+          "fragment_id": "P08B05"
+        },
+        {
+          "page": 8,
+          "bbox": [
+            109.86399841308594,
+            213.28648376464844,
+            502.2262268066406,
+            232.42236328125
+          ],
+          "fragment_id": "P08B06"
+        },
+        {
+          "page": 8,
+          "bbox": [
+            109.86399841308594,
+            238.41648864746094,
+            502.2262268066406,
+            257.55340576171875
+          ],
+          "fragment_id": "P08B07"
+        }
+      ],
+      "pages": [
+        8
+      ],
+      "translation": "表 1：跨环境性能比较。报告成功率（SR），以及 PushT 的最终覆盖率（Cov）；结果为三个随机种子上的均值 ± 标准差。PushT 分别采用固定目标（Fix）和随机目标（Rand.）进行评估。每行最佳结果以粗体标示。",
+      "confidence": "high",
+      "visual": {
+        "id": "T001",
+        "page": 8,
+        "bbox": [
+          108,
+          113,
+          506,
+          263
+        ],
+        "path": "assets/table_01.png",
+        "confidence": "high"
+      },
+      "type": "caption",
+      "reading_order": 79
+    },
+    {
+      "id": "P08B08",
+      "page": 8,
+      "bbox": [
+        108.0,
+        456.25799560546875,
+        503.9965515136719,
+        475.26239013671875
+      ],
+      "original": "Figure 5: High-level subgoals planned by ID-WM. The planned sequence successfully guides the agent to the target goal while ensuring that consecutive subgoals satisfy local reachability constraints.",
+      "source_boxes": [
+        {
+          "page": 8,
+          "bbox": [
+            108.0,
+            456.25799560546875,
+            503.9965515136719,
+            475.26239013671875
+          ],
+          "fragment_id": "P08B08"
+        }
+      ],
+      "pages": [
+        8
+      ],
+      "translation": "图 5：ID-WM 规划的高层子目标。规划得到的序列成功引导智能体到达目标，同时保证连续子目标满足局部可达性约束。",
+      "confidence": "high",
+      "visual": {
+        "id": "F005",
+        "page": 8,
+        "bbox": [
+          108,
+          275,
+          506,
+          451
+        ],
+        "path": "assets/fig_05.png",
+        "confidence": "high"
+      },
+      "type": "caption",
+      "reading_order": 80
+    },
+    {
+      "id": "P08B10",
+      "page": 8,
+      "bbox": [
+        107.6709976196289,
+        543.2532958984375,
+        505.65362548828125,
+        640.5640258789062
+      ],
+      "original": "Furthermore, the remaining baselines exhibit distinct failure modes. GCBC performs well on indistribution goals (e.g., fixed-goal PushT) and in environments with dense data coverage (Medium Maze, Wall) but degrades significantly on out-of-distribution (OOD) goals. HIQL shows potential for OOD generalization but demands dense data coverage to accurately learn value functions, reflected in its performance gap between PushT and PushT-Aug. Diffuser-based methods struggle with dataset noise; despite adding replanning (Section 6.11.8), performance remains poor. While H-Diffuser offers marginal improvements, it still relies heavily on dense data. Even with data augmentation (Section 6.3), H-Diffuser’s success rate remains low, primarily because it struggles to jointly attend to both the object and the agent’s final position.",
+      "source_boxes": [
+        {
+          "page": 8,
+          "bbox": [
+            107.6709976196289,
+            543.2532958984375,
+            505.65362548828125,
+            640.5640258789062
+          ],
+          "fragment_id": "P08B10"
+        }
+      ],
+      "pages": [
+        8
+      ],
+      "translation": "其他基线呈现出不同的失效模式。GCBC 在分布内目标（如固定目标 PushT）和数据覆盖密集的环境（Medium Maze、Wall）中表现良好，但在分布外（OOD）目标上的性能显著下降。HIQL 具有分布外泛化潜力，但需要密集的数据覆盖才能准确学习值函数，其在 PushT 与 PushT-Aug 之间的性能差距体现了这一点。基于 Diffuser 的方法难以应对数据集噪声；即使加入重新规划（第 6.11.8 节），表现仍然不佳。H-Diffuser 虽带来小幅改进，但仍高度依赖密集数据。即便经过数据增强（第 6.3 节），H-Diffuser 的成功率仍然很低，主要原因是它难以同时兼顾物体与智能体的最终位置。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 81
+    },
+    {
+      "id": "P08B11",
+      "page": 8,
+      "bbox": [
+        108.0,
+        646.8223876953125,
+        505.2453918457031,
+        722.4070434570312
+      ],
+      "original": "Comparison with hierarchical latent world models. We additionally compare with HWM [25], a hierarchical world model that increases the frameskip of its high-level model and compresses action sequences into macro-actions with a transformer-based action encoder. We compare with the DINO-WM variant of HWM. As shown in Table 2, on PushT, which requires long-horizon object manipulation, ID-WM outperforms HWM by a large margin on all variants. This highlights the benefit of disentangling state reachability from fine-grained control using diffusion noise as an implicit latent action.",
+      "source_boxes": [
+        {
+          "page": 8,
+          "bbox": [
+            108.0,
+            646.8223876953125,
+            505.2453918457031,
+            722.4070434570312
+          ],
+          "fragment_id": "P08B11"
+        }
+      ],
+      "pages": [
+        8
+      ],
+      "translation": "与层次化潜在世界模型比较。我们还与 HWM [25] 比较。HWM 通过增大高层模型的跳帧间隔，并用基于 Transformer 的动作编码器将动作序列压缩成宏动作，构建层次化世界模型。我们采用 HWM 的 DINO-WM 变体进行比较。如表 2 所示，在需要长时域物体操作的 PushT 上，ID-WM 在所有变体中均大幅优于 HWM。这说明，将扩散噪声用作隐式潜在动作、从而将状态可达性与精细控制解耦具有优势。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 82
+    },
+    {
+      "id": "P09B00",
+      "page": 9,
+      "bbox": [
+        107.72200012207031,
+        79.1352767944336,
+        504.001220703125,
+        88.09260559082031
+      ],
+      "original": "Table 2: Success rate of ID-WM and HWM on PushT environments with fixed (Fix) and random (Rand.) goals. PushT PushT-Aug Method Fix Rand. Fix Rand. HWM 0.38 0.20 0.42 0.16 ID-WM 1.00 0.77 1.00 1.00",
+      "source_boxes": [
+        {
+          "page": 9,
+          "bbox": [
+            107.72200012207031,
+            79.1352767944336,
+            504.001220703125,
+            88.09260559082031
+          ],
+          "fragment_id": "P09B00"
+        },
+        {
+          "page": 9,
+          "bbox": [
+            285.4429931640625,
+            97.72113800048828,
+            376.97198486328125,
+            106.68753814697266
+          ],
+          "fragment_id": "P09B01"
+        },
+        {
+          "page": 9,
+          "bbox": [
+            228.91900634765625,
+            112.68909454345703,
+            383.0783386230469,
+            121.73736572265625
+          ],
+          "fragment_id": "P09B02"
+        },
+        {
+          "page": 9,
+          "bbox": [
+            228.91900634765625,
+            127.93997192382812,
+            380.3436279296875,
+            146.78648376464844
+          ],
+          "fragment_id": "P09B03"
+        }
+      ],
+      "pages": [
+        9
+      ],
+      "translation": "表 2：固定目标（Fix）与随机目标（Rand.）PushT 环境中，ID-WM 与 HWM 的成功率。",
+      "confidence": "high",
+      "visual": {
+        "id": "T002",
+        "page": 9,
+        "bbox": [
+          227,
+          94,
+          385,
+          152
+        ],
+        "path": "assets/table_02.png",
+        "confidence": "high"
+      },
+      "type": "caption",
+      "reading_order": 83
+    },
+    {
+      "id": "P09B06",
+      "page": 9,
+      "bbox": [
+        108.0,
+        469.5599060058594,
+        505.6571960449219,
+        534.0970458984375
+      ],
+      "original": "Unlike approaches that explicitly model dataset behavior, ID-WM is not constrained by the underlying training distribution. By leveraging full planning over the environment dynamics, our method is inherently capable of finding diverse solutions for a given goal. Figure 6 demonstrates this by showing two different subgoal sequences generated by ID-WM. For instance, Plan 1 (top row) rotates the T-block counterclockwise, while Plan 2 (bottom row) rotates it clockwise. Ultimately, both planned trajectories successfully achieve the final objective via our hierarchical framework.",
+      "source_boxes": [
+        {
+          "page": 9,
+          "bbox": [
+            108.0,
+            469.5599060058594,
+            505.6571960449219,
+            534.0970458984375
+          ],
+          "fragment_id": "P09B06"
+        }
+      ],
+      "pages": [
+        9
+      ],
+      "translation": "与显式建模数据集行为的方法不同，ID-WM 不受底层训练分布的束缚。通过围绕环境动力学进行完整规划，我们的方法本身能够为给定目标找到多样解。图 6 展示了 ID-WM 生成的两条不同子目标序列：计划 1（上行）逆时针旋转 T 形块，计划 2（下行）顺时针旋转 T 形块。两条规划轨迹最终都通过层次化框架成功实现目标。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 84
+    },
+    {
+      "id": "P09B04",
+      "page": 9,
+      "bbox": [
+        108.0,
+        248.58009338378906,
+        505.4908752441406,
+        267.6143798828125
+      ],
+      "original": "Figure 6: Diverse plans generated by ID-WM. The top and bottom rows illustrate distinct strategies: counterclockwise and clockwise rotations of the T-block, both resulting in successful task completion.",
+      "source_boxes": [
+        {
+          "page": 9,
+          "bbox": [
+            108.0,
+            248.58009338378906,
+            505.4908752441406,
+            267.6143798828125
+          ],
+          "fragment_id": "P09B04"
+        }
+      ],
+      "pages": [
+        9
+      ],
+      "translation": "图 6：ID-WM 生成的多样计划。上、下两行分别展示逆时针与顺时针旋转 T 形块的不同策略，两者都成功完成任务。",
+      "confidence": "high",
+      "visual": {
+        "id": "F006",
+        "page": 9,
+        "bbox": [
+          143,
+          156,
+          467,
+          243
+        ],
+        "path": "assets/fig_06.png",
+        "confidence": "high"
+      },
+      "type": "caption",
+      "reading_order": 85
+    },
+    {
+      "id": "P09B07",
+      "page": 9,
+      "bbox": [
+        108.0,
+        549.9365234375,
+        328.72137451171875,
+        559.8991088867188
+      ],
+      "original": "4.5 How does ID-WM scale with task complexity?",
+      "source_boxes": [
+        {
+          "page": 9,
+          "bbox": [
+            108.0,
+            549.9365234375,
+            328.72137451171875,
+            559.8991088867188
+          ],
+          "fragment_id": "P09B07"
+        }
+      ],
+      "pages": [
+        9
+      ],
+      "translation": "4.5 ID-WM 如何随任务复杂度扩展？",
+      "confidence": "high",
+      "type": "heading",
+      "reading_order": 86
+    },
+    {
+      "id": "P09B08",
+      "page": 9,
+      "bbox": [
+        107.53199768066406,
+        570.409423828125,
+        505.388916015625,
+        591.4480590820312
+      ],
+      "original": "We investigate whether ID-WM scales to tasks of increasing complexity across two dimensions: environment size and goal horizon.",
+      "source_boxes": [
+        {
+          "page": 9,
+          "bbox": [
+            107.53199768066406,
+            570.409423828125,
+            505.388916015625,
+            591.4480590820312
+          ],
+          "fragment_id": "P09B08"
+        }
+      ],
+      "pages": [
+        9
+      ],
+      "translation": "我们从环境大小与目标时域两个维度，研究 ID-WM 能否扩展到复杂度不断增加的任务。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 87
+    },
+    {
+      "id": "P09B09",
+      "page": 9,
+      "bbox": [
+        107.6709976196289,
+        597.7796630859375,
+        504.3529052734375,
+        640.5640258789062
+      ],
+      "original": "Scaling with Maze Size. We evaluate ID-WM across four mazes of increasing difficulty: U-Maze (3 × 3), Medium Maze (6 × 6), Large Maze (7 × 10), and Giant Maze (13 × 13) (Figure 7a). Each dataset contains 2,000 random 100-step trajectories. Given a fixed dataset size, data coverage naturally becomes sparser as maze size increases.",
+      "source_boxes": [
+        {
+          "page": 9,
+          "bbox": [
+            107.6709976196289,
+            597.7796630859375,
+            504.3529052734375,
+            640.5640258789062
+          ],
+          "fragment_id": "P09B09"
+        }
+      ],
+      "pages": [
+        9
+      ],
+      "translation": "随迷宫大小扩展。我们在四种难度递增的迷宫中评估 ID-WM：U-Maze（3 × 3）、Medium Maze（6 × 6）、Large Maze（7 × 10）和 Giant Maze（13 × 13），见图 7a。每个数据集含 2000 条随机的 100 步轨迹。在数据集大小固定时，迷宫越大，数据覆盖自然越稀疏。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 88
+    },
+    {
+      "id": "P09B10",
+      "page": 9,
+      "bbox": [
+        107.53199768066406,
+        646.9142456054688,
+        505.24371337890625,
+        722.4238891601562
+      ],
+      "original": "While all methods achieve near-perfect success on the U-Maze, baselines degrade significantly in larger environments (Figure 7a). In contrast, ID-WM maintains the highest performance on the Large Maze. We hypothesize this is because ID-WM combines local dynamics modeling with high-level planning, effectively \"stitching\" together regions of sparse data. Unlike GCBC or Diffuser (which model entire trajectories simultaneously) or HIQL (which requires dense data for global value functions), ID-WM does not rely on global trajectory coverage. Furthermore, while H-Diffuser uses abstraction, it lacks an explicit dynamics model, resulting in brittle plans requiring expensive, high-frequency replanning. By grounding its hierarchy in explicit local dynamics, ID-WM generates robust, scalable plans.",
+      "source_boxes": [
+        {
+          "page": 9,
+          "bbox": [
+            107.53199768066406,
+            646.9142456054688,
+            505.24371337890625,
+            722.4238891601562
+          ],
+          "fragment_id": "P09B10"
+        },
+        {
+          "page": 10,
+          "bbox": [
+            108.0,
+            74.39337158203125,
+            504.0013427734375,
+            95.27908325195312
+          ],
+          "fragment_id": "P10B00"
+        }
+      ],
+      "pages": [
+        9,
+        10
+      ],
+      "translation": "虽然所有方法在 U-Maze 中的成功率都接近完美，但基线在更大环境中的性能显著下降（图 7a）。相较之下，ID-WM 在 Large Maze 中保持最高性能。我们推测，这是因为 ID-WM 将局部动力学建模与高层规划结合起来，有效“拼接”数据稀疏区域。不同于同时建模完整轨迹的 GCBC 或 Diffuser，以及需要密集数据来学习全局值函数的 HIQL，ID-WM 不依赖全局轨迹覆盖。此外，H-Diffuser 虽然使用抽象，但缺乏显式动力学模型，因此生成的计划较脆弱，需要代价高昂的高频重规划。通过将层次结构建立在显式局部动力学之上，ID-WM 能够生成稳健、可扩展的计划。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 89
+    },
+    {
+      "id": "P10B01",
+      "page": 10,
+      "bbox": [
+        107.7509994506836,
+        101.58680725097656,
+        505.7420959472656,
+        133.48507690429688
+      ],
+      "original": "Scaling with Goal Horizon. Building on the PushT planning benchmark introduced by Zhou et al. [8] (which evaluates goals 25 steps away), we increase complexity by sampling goals from the validation set that are d ∈{25, 50, . . . , 150} steps away.",
+      "source_boxes": [
+        {
+          "page": 10,
+          "bbox": [
+            107.7509994506836,
+            101.58680725097656,
+            505.7420959472656,
+            133.48507690429688
+          ],
+          "fragment_id": "P10B01"
+        }
+      ],
+      "pages": [
+        10
+      ],
+      "translation": "随目标时域扩展。基于 Zhou 等人 [8] 提出的 PushT 规划基准，该基准评估距离当前状态 25 步的目标，我们从验证集中采样距离为 d ∈ {25, 50, …, 150} 步的目标，以提高任务复杂度。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 90
+    },
+    {
+      "id": "P10B02",
+      "page": 10,
+      "bbox": [
+        107.53199768066406,
+        139.7823486328125,
+        504.00384521484375,
+        193.51010131835938
+      ],
+      "original": "We compare ID-WM against a single-level world model baseline that performs full-horizon CEM search and replanning at every step. While the total number of executed actions is identical, ID-WM achieves a near-perfect success rate across all horizons as shown in Figure 7b). This confirms our main PushT results (Table 1), demonstrating that ID-WM maintains precise goal-reaching capabilities even when goals are over 150 steps away.",
+      "source_boxes": [
+        {
+          "page": 10,
+          "bbox": [
+            107.53199768066406,
+            139.7823486328125,
+            504.00384521484375,
+            193.51010131835938
+          ],
+          "fragment_id": "P10B02"
+        }
+      ],
+      "pages": [
+        10
+      ],
+      "translation": "我们将 ID-WM 与单层世界模型基线比较，后者在完整时域内进行 CEM 搜索，并在每一步重新规划。尽管执行动作总数相同，ID-WM 在所有时域下的成功率都接近完美，如图 7b 所示。这印证了 PushT 的主要结果（表 1），说明即便目标距离超过 150 步，ID-WM 仍能保持精确的目标到达能力。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 91
+    },
+    {
+      "id": "P09B05",
+      "page": 9,
+      "bbox": [
+        108.0,
+        426.1836242675781,
+        504.0003356933594,
+        445.1593933105469
+      ],
+      "original": "Figure 7: Planning performance with increasing task complexity. In a), we test ID-WM’s ability on Maze with increasing sizes. In b), we test ID-WM on increasingly longer horizon PushT tasks.",
+      "source_boxes": [
+        {
+          "page": 9,
+          "bbox": [
+            108.0,
+            426.1836242675781,
+            504.0003356933594,
+            445.1593933105469
+          ],
+          "fragment_id": "P09B05"
+        }
+      ],
+      "pages": [
+        9
+      ],
+      "translation": "图 7：任务复杂度增加时的规划性能。a）在大小逐渐增加的 Maze 环境中测试 ID-WM；b）在时域逐渐延长的 PushT 任务中测试 ID-WM。",
+      "confidence": "high",
+      "visual": {
+        "id": "F007",
+        "page": 9,
+        "bbox": [
+          108,
+          280,
+          506,
+          421
+        ],
+        "path": "assets/fig_07.png",
+        "confidence": "high"
+      },
+      "type": "caption",
+      "reading_order": 92
+    },
+    {
+      "id": "P10B03",
+      "page": 10,
+      "bbox": [
+        108.0,
+        210.57354736328125,
+        285.3442077636719,
+        220.53614807128906
+      ],
+      "original": "4.6 Vision-based Planning with ID-WM",
+      "source_boxes": [
+        {
+          "page": 10,
+          "bbox": [
+            108.0,
+            210.57354736328125,
+            285.3442077636719,
+            220.53614807128906
+          ],
+          "fragment_id": "P10B03"
+        }
+      ],
+      "pages": [
+        10
+      ],
+      "translation": "4.6 基于视觉的 ID-WM 规划",
+      "confidence": "high",
+      "type": "heading",
+      "reading_order": 93
+    },
+    {
+      "id": "P10B04",
+      "page": 10,
+      "bbox": [
+        107.69100189208984,
+        231.53541564941406,
+        505.7427978515625,
+        285.30108642578125
+      ],
+      "original": "To evaluate ID-WM in high-dimensional observation spaces, we test it on a vision-based PushT task. We use the state-based PushT dataset augmented with four 90◦rotations for spatial robustness. Observations (3 × 64 × 64 images) are encoded into 4 × 8 × 8 latents using a pretrained Stable Diffusion VAE [66]. We compare against AVDC [64], a language-conditioned video planner that generates all subgoals simultaneously (details in Section 6.4).",
+      "source_boxes": [
+        {
+          "page": 10,
+          "bbox": [
+            107.69100189208984,
+            231.53541564941406,
+            505.7427978515625,
+            285.30108642578125
+          ],
+          "fragment_id": "P10B04"
+        }
+      ],
+      "pages": [
+        10
+      ],
+      "translation": "为评估 ID-WM 在高维观测空间中的表现，我们在基于视觉的 PushT 任务中进行测试。我们对基于状态的 PushT 数据集进行四种以 90° 为间隔的旋转增强，以提高空间鲁棒性。利用预训练的 Stable Diffusion 变分自编码器（VAE）[66]，将 3 × 64 × 64 的观测图像编码为 4 × 8 × 8 的潜在表示。我们与 AVDC [64] 比较；它是一种以语言为条件、同时生成全部子目标的视频规划器，细节见第 6.4 节。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 94
+    },
+    {
+      "id": "P10B05",
+      "page": 10,
+      "bbox": [
+        107.64099884033203,
+        291.5983581542969,
+        505.7429504394531,
+        345.3260803222656
+      ],
+      "original": "As shown in Figure 8, ID-WM generates reliable, sequential subgoals that ensure steady progress. In contrast, AVDC fails to produce meaningful plans, likely because the initial-goal pairs are out-ofdistribution. This highlights the generalization advantage of iterative subgoal search over simultaneous generation—which relies heavily on trajectory-level dataset coverage—even within compressed visual spaces.",
+      "source_boxes": [
+        {
+          "page": 10,
+          "bbox": [
+            107.64099884033203,
+            291.5983581542969,
+            505.7429504394531,
+            345.3260803222656
+          ],
+          "fragment_id": "P10B05"
+        }
+      ],
+      "pages": [
+        10
+      ],
+      "translation": "如图 8 所示，ID-WM 生成可靠的顺序子目标，保证持续推进。相较之下，AVDC 未能生成有意义的计划，可能是因为初始状态—目标状态组合处于分布之外。这说明，即便在压缩后的视觉空间中，迭代子目标搜索也比高度依赖轨迹层面数据覆盖的同时生成方法具有更强的泛化优势。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 95
+    },
+    {
+      "id": "P10B06",
+      "page": 10,
+      "bbox": [
+        108.0,
+        452.71026611328125,
+        505.1167907714844,
+        481.7383728027344
+      ],
+      "original": "Figure 8: Subgoals generated by ID-WM on a visual PushT task. The first column denotes the starting state, and the last shaded column denotes the desired goal state. ID-WM generates reliable, sequential subgoals that drive steady progress toward the goal state without any degenerate states.",
+      "source_boxes": [
+        {
+          "page": 10,
+          "bbox": [
+            108.0,
+            452.71026611328125,
+            505.1167907714844,
+            481.7383728027344
+          ],
+          "fragment_id": "P10B06"
+        }
+      ],
+      "pages": [
+        10
+      ],
+      "translation": "图 8：ID-WM 在视觉 PushT 任务中生成的子目标。第一列表示初始状态，最后带阴影的一列表示期望目标状态。ID-WM 生成可靠的顺序子目标，使状态持续向目标推进，且未出现退化状态。",
+      "confidence": "high",
+      "visual": {
+        "id": "F008",
+        "page": 10,
+        "bbox": [
+          162,
+          358,
+          450,
+          448
+        ],
+        "path": "assets/fig_08.png",
+        "confidence": "high"
+      },
+      "type": "caption",
+      "reading_order": 96
+    },
+    {
+      "id": "P10B07",
+      "page": 10,
+      "bbox": [
+        107.7509994506836,
+        505.5444030761719,
+        504.0044250488281,
+        613.8560180664062
+      ],
+      "original": "Quantitative evaluation. To complement the qualitative comparison, we report success rates on vision-based PushT in Table 3. We compare against two additional baselines: DINO-WM [8], a flat single-level world model planner, and HWM [25], a concurrent hierarchical latent world model that uses a larger frameskip for its high-level model. In this setting, ID-WM uses DINO-WM as its low-level world model, so the comparison between DINO-WM and ID-WM isolates the gain provided by the hierarchy. We evaluate four settings: for d ∈{25, 50, 75}, the goal is sampled from a held-out validation set and is known to be d steps away; for Random Goal, both the initial and goal states are sampled randomly from the environment. ID-WM achieves the best performance on the most challenging long-horizon settings (d = 50, d = 75, and Random Goal), demonstrating its effectiveness for long-horizon vision-based planning.",
+      "source_boxes": [
+        {
+          "page": 10,
+          "bbox": [
+            107.7509994506836,
+            505.5444030761719,
+            504.0044250488281,
+            613.8560180664062
+          ],
+          "fragment_id": "P10B07"
+        }
+      ],
+      "pages": [
+        10
+      ],
+      "translation": "定量评估。为补充定性比较，我们在表 3 中报告视觉 PushT 的成功率，并增加两项基线：单层世界模型规划器 DINO-WM [8]，以及同期提出、在高层模型中使用更大跳帧间隔的层次化潜在世界模型 HWM [25]。在这一设置中，ID-WM 使用 DINO-WM 作为低层世界模型，因此二者的比较能够单独考察层次结构带来的收益。我们评估四种设置：对于 d ∈ {25, 50, 75}，从留出的验证集中采样目标，并已知目标距离当前状态 d 步；对于随机目标（Random Goal），初始状态和目标状态均从环境中随机采样。ID-WM 在最具挑战性的长时域设置（d = 50、d = 75，以及随机目标）中表现最佳，体现了其在长时域视觉规划中的有效性。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 97
+    },
+    {
+      "id": "P10B08",
+      "page": 10,
+      "bbox": [
+        107.72200012207031,
+        634.7472534179688,
+        504.0020446777344,
+        654.0003662109375
+      ],
+      "original": "Table 3: Success rate on vision-based PushT. For d ∈{25, 50, 75} the goal is d steps away; Random Goal samples both the initial and goal states randomly. Method d = 25 d = 50 d = 75 Random Goal DINO-WM 0.84 0.16 0.00 0.00 HWM 0.96 0.46 0.14 0.02 ID-WM 0.90 0.60 0.50 0.26",
+      "source_boxes": [
+        {
+          "page": 10,
+          "bbox": [
+            107.72200012207031,
+            634.7472534179688,
+            504.0020446777344,
+            654.0003662109375
+          ],
+          "fragment_id": "P10B08"
+        },
+        {
+          "page": 10,
+          "bbox": [
+            194.98199462890625,
+            663.4815063476562,
+            417.0259704589844,
+            672.5735473632812
+          ],
+          "fragment_id": "P10B09"
+        },
+        {
+          "page": 10,
+          "bbox": [
+            194.98199462890625,
+            678.85693359375,
+            398.08892822265625,
+            707.7483520507812
+          ],
+          "fragment_id": "P10B10"
+        }
+      ],
+      "pages": [
+        10
+      ],
+      "translation": "表 3：视觉 PushT 任务的成功率。对于 d ∈ {25, 50, 75}，目标距离为 d 步；随机目标设置对初始状态和目标状态均进行随机采样。",
+      "confidence": "high",
+      "visual": {
+        "id": "T003",
+        "page": 10,
+        "bbox": [
+          193,
+          660,
+          420,
+          713
+        ],
+        "path": "assets/table_03.png",
+        "confidence": "high"
+      },
+      "type": "caption",
+      "reading_order": 98
+    },
+    {
+      "id": "P11B00",
+      "page": 11,
+      "bbox": [
+        108.0,
+        72.78716278076172,
+        183.06671142578125,
+        84.74236297607422
+      ],
+      "original": "5 Conclusion",
+      "source_boxes": [
+        {
+          "page": 11,
+          "bbox": [
+            108.0,
+            72.78716278076172,
+            183.06671142578125,
+            84.74236297607422
+          ],
+          "fragment_id": "P11B00"
+        }
+      ],
+      "pages": [
+        11
+      ],
+      "translation": "5 结论",
+      "confidence": "high",
+      "type": "heading",
+      "reading_order": 99
+    },
+    {
+      "id": "P11B01",
+      "page": 11,
+      "bbox": [
+        107.53199768066406,
+        97.3534164428711,
+        505.657958984375,
+        162.02804565429688
+      ],
+      "original": "We present ID-WM, a hierarchical world modeling and planning framework that decouples temporally extended subgoal generation from local reachability. By treating diffusion noise as implicit actions, we constrain the planning search space to a unit Gaussian, ensuring reliable subgoal generation. ID-WM significantly outperforms state-of-the-art baselines and demonstrates high-quality vision-based subgoal generation. Ultimately, grounding hierarchical abstraction in explicit local dynamics represents a promising step toward robust, long-horizon decision-making.",
+      "source_boxes": [
+        {
+          "page": 11,
+          "bbox": [
+            107.53199768066406,
+            97.3534164428711,
+            505.657958984375,
+            162.02804565429688
+          ],
+          "fragment_id": "P11B01"
+        }
+      ],
+      "pages": [
+        11
+      ],
+      "translation": "我们提出 ID-WM，一种层次化世界建模与规划框架，将跨较长时间跨度的子目标生成与局部可达性解耦。通过把扩散噪声视为隐式动作，我们将规划搜索空间约束在标准高斯分布中，保证子目标生成的可靠性。ID-WM 显著优于先进基线，并展示了高质量的视觉子目标生成能力。将层次化抽象建立在显式局部动力学之上，是迈向稳健长时域决策的一条有前景的路径。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 100
+    },
+    {
+      "id": "P11B02",
+      "page": 11,
+      "bbox": [
+        108.0,
+        168.3711700439453,
+        504.3529357910156,
+        232.96206665039062
+      ],
+      "original": "Limitations. First, ID-WM’s reliance on search-based optimization within a diffusion latent space incurs higher inference times than reactive policies or deterministic world models. Future work will explore amortized or gradient-based planning to mitigate this bottleneck. Second, while our hierarchy prevents planning complexity from scaling with trajectory length, it still scales with state-space dimensionality. Integrating compact, structured representation learning could further streamline this planning process for highly complex environments.",
+      "source_boxes": [
+        {
+          "page": 11,
+          "bbox": [
+            108.0,
+            168.3711700439453,
+            504.3529357910156,
+            232.96206665039062
+          ],
+          "fragment_id": "P11B02"
+        }
+      ],
+      "pages": [
+        11
+      ],
+      "translation": "局限性。首先，ID-WM 依赖扩散潜在空间中的搜索优化，因此其推理耗时高于反应式策略或确定性世界模型。未来将探索摊销式或基于梯度的规划，以缓解这一瓶颈。其次，虽然层次结构避免规划复杂度随轨迹长度增长，但复杂度仍会随状态空间维数增大。结合紧凑、结构化的表示学习，有望进一步简化高度复杂环境中的规划过程。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 101
+    },
+    {
+      "id": "P11B03",
+      "page": 11,
+      "bbox": [
+        108.0,
+        249.77313232421875,
+        338.8190612792969,
+        261.72833251953125
+      ],
+      "original": "Acknowledgments and Disclosure of Funding",
+      "source_boxes": [
+        {
+          "page": 11,
+          "bbox": [
+            108.0,
+            249.77313232421875,
+            338.8190612792969,
+            261.72833251953125
+          ],
+          "fragment_id": "P11B03"
+        }
+      ],
+      "pages": [
+        11
+      ],
+      "translation": "致谢与资助披露",
+      "confidence": "high",
+      "type": "heading",
+      "reading_order": 102
+    },
+    {
+      "id": "P11B04",
+      "page": 11,
+      "bbox": [
+        107.53199768066406,
+        274.5367736816406,
+        504.35076904296875,
+        339.01507568359375
+      ],
+      "original": "We would like to thank Amir Bar, Alfredo Canziani, Yilun Kuang, Hengkai Pan, Mike Rabbat, Ying Wang, and Wancong Zhang for their valuable discussion and feedback. This work was supported by AFOSR under grant FA95502310139, the Institute of Information & Communications Technology Planning & Evaluation (IITP) with a grant funded by the Ministry of Science and ICT (MSIT) of the Republic of Korea in connection with the Global AI Frontier Lab International Collaborative Research Agreement (No. RS-2024-00469482 & RS-2024-00509279).",
+      "source_boxes": [
+        {
+          "page": 11,
+          "bbox": [
+            107.53199768066406,
+            274.5367736816406,
+            504.35076904296875,
+            339.01507568359375
+          ],
+          "fragment_id": "P11B04"
+        }
+      ],
+      "pages": [
+        11
+      ],
+      "translation": "感谢 Amir Bar、Alfredo Canziani、Yilun Kuang、Hengkai Pan、Mike Rabbat、Ying Wang 和 Wancong Zhang 提供的宝贵讨论与反馈。本工作获得美国空军科学研究办公室（AFOSR）资助，项目号 FA95502310139；同时获得韩国科学技术信息通信部（MSIT）出资、由信息通信技术规划评估院（IITP）提供的资助，属于全球人工智能前沿实验室国际合作研究协议的一部分，项目号为 RS-2024-00469482 和 RS-2024-00509279。",
+      "confidence": "high",
+      "type": "text",
+      "reading_order": 103
+    }
+  ],
+  "references": [
+    {
+      "page": 12,
+      "text": "References\n\n [1] Derrick Nguyen and Bernard Widrow. The truck backer-upper: an example of self-learning in neural\n     networks. IJCNN, 1989. 1, 3\n\n [2] David Ha and Jürgen Schmidhuber. World models. CoRR, abs/1803.10122, 2018. URL http://arxiv.\n    org/abs/1803.10122. 1, 3\n\n [3] Yann LeCun. A path towards autonomous machine intelligence. OpenReview, 2022. Version 0.9.2,\n    https://openreview.net/forum?id=BZ5a1r-kVsf. 1, 3\n\n [4] Anthony Hu, Lloyd Russell, Hudson Yeo, Zak Murez, George Fedoseev, Alex Kendall, Jamie Shotton, and\n     Gianluca Corrado. Gaia-1: A generative world model for autonomous driving. ArXiv, abs/2309.17080,\n     2023. URL https://api.semanticscholar.org/CorpusID:263310665. 1\n\n [5] Danijar Hafner, Wilson Yan, and Timothy Lillicrap. Training agents inside of scalable world models. arXiv\n     preprint arXiv:2509.24527, 2025. 1, 3\n\n [6] Nicklas Hansen, Hao Su, and Xiaolong Wang. Learning massively multitask world models for contin-\n     uous control. ArXiv, abs/2511.19584, 2025. URL https://api.semanticscholar.org/CorpusID:\n    283251537. 1\n\n [7] Lin Li, Qihang Zhang, Yiming Luo, Shuai Yang, Ruilin Wang, Fei Han, Mingrui Yu, Zelin Gao, Nan Xue,\n    Xing Zhu, et al. Causal world modeling for robot control. arXiv preprint arXiv:2601.21998, 2026. 1\n\n [8] Gaoyue Zhou, Hengkai Pan, Yann LeCun, and Lerrel Pinto. DINO-WM: world models on pre-trained\n      visual features enable zero-shot planning. In Aarti Singh, Maryam Fazel, Daniel Hsu, Simon Lacoste-Julien,\n     Felix Berkenkamp, Tegan Maharaj, Kiri Wagstaff, and Jerry Zhu, editors, Forty-second International\n     Conference on Machine Learning, ICML 2025, Vancouver, BC, Canada, July 13-19, 2025, volume\n    267 of Proceedings of Machine Learning Research. PMLR / OpenReview.net, 2025. URL https:\n    //proceedings.mlr.press/v267/zhou25t.html. 1, 3, 4, 5, 7, 10, 17, 18, 22\n\n [9] Mido Assran, Adrien Bardes, David Fan, Quentin Garrido, Russell Howes, Matthew Muckley, Ammar\n      Rizvi, Claire Roberts, Koustuv Sinha, Artem Zholus, et al. V-jepa 2: Self-supervised video models enable\n     understanding, prediction and planning. arXiv preprint arXiv:2506.09985, 2025. 1, 3\n\n[10] Amir Bar, Gaoyue Zhou, Danny Tran, Trevor Darrell, and Yann LeCun.  Navigation world models.\n     In IEEE/CVF Conference on Computer Vision and Pattern Recognition, CVPR 2025, Nashville, TN,\n    USA, June 11-15, 2025, pages 15791–15801. Computer Vision Foundation / IEEE, 2025. doi: 10.1109/\n     CVPR52734.2025.01472. URL https://openaccess.thecvf.com/content/CVPR2025/html/Bar_\n    Navigation_World_Models_CVPR_2025_paper.html. 1, 3, 21\n\n[11] Raktim Gautam Goswami, Amir Bar, David Fan, Tsung-Yen Yang, Gaoyue Zhou, Prashanth Krishnamurthy,\n     Michael Rabbat, Farshad Khorrami, and Yann LeCun. World models can leverage human videos for\n     dexterous manipulation. CoRR, abs/2512.13644, 2025. doi: 10.48550/ARXIV.2512.13644. URL https:\n    //doi.org/10.48550/arXiv.2512.13644. 1, 3\n\n[12] Delong Chen, Theo Moutakanni, Willy Chung, Yejin Bang, Ziwei Ji, Allen Bolourchi, and Pascale Fung.\n     Planning with reasoning using vision language world model. arXiv preprint arXiv:2509.02722, 2025. 1\n\n[13] Jürgen Schmidhuber. Learning to generate sub-goals for action sequences. In Artificial neural networks,\n     pages 967–972, 1991. 1, 2\n\n[14] Richard S. Sutton, Doina Precup, and Satinder Singh. Between mdps and semi-mdps: A framework\n      for temporal abstraction in reinforcement learning.  Artif. Intell., 112:181–211, 1999. URL https:\n    //api.semanticscholar.org/CorpusID:76564. 1, 2, 3\n\n[15] Andrew G. Barto and Sridhar Mahadevan. Recent advances in hierarchical reinforcement learning. Discrete\n     Event Dynamic Systems, 13:41–77, 2003. URL https://api.semanticscholar.org/CorpusID:\n     386824. 1, 2\n\n[16] Alexander Sasha Vezhnevets, Simon Osindero, Tom Schaul, Nicolas Heess, Max Jaderberg, David Silver,\n     and Koray Kavukcuoglu. Feudal networks for hierarchical reinforcement learning. In Doina Precup and\n    Yee Whye Teh, editors, Proceedings of the 34th International Conference on Machine Learning, ICML\n     2017, Sydney, NSW, Australia, 6-11 August 2017, volume 70 of Proceedings of Machine Learning Research,\n     pages 3540–3549. PMLR, 2017. URL http://proceedings.mlr.press/v70/vezhnevets17a.html.\n      1, 3"
+    },
+    {
+      "page": 13,
+      "text": "[17] Ofir Nachum, Shixiang Shane Gu, Honglak Lee, and Sergey Levine. Data-efficient hierarchical reinforce-\n     ment learning. In Neural Information Processing Systems, 2018. URL https://api.semanticscholar.\n    org/CorpusID:43920938. 1, 3\n\n[18] Seohong Park, Dibya Ghosh, Benjamin Eysenbach, and Sergey Levine. HIQL: offline goal-conditioned\n   RL with latent states as actions. In Alice Oh, Tristan Naumann, Amir Globerson, Kate Saenko, Moritz\n     Hardt, and Sergey Levine, editors, Advances in Neural Information Processing Systems 36: Annual\n     Conference on Neural Information Processing Systems 2023, NeurIPS 2023, New Orleans, LA, USA,\n    December 10 - 16, 2023, 2023. URL http://papers.nips.cc/paper_files/paper/2023/hash/\n    6d7c4a0727e089ed6cdd3151cbe8d8ba-Abstract-Conference.html. 1, 3, 18, 23\n\n[19] Karl Pertsch, Youngwoon Lee, and Joseph J. Lim. Accelerating reinforcement learning with learned\n      skill priors. In Conference on Robot Learning, 2020. URL https://api.semanticscholar.org/\n    CorpusID:225039804. 1, 2, 3\n\n[20] Abhishek Gupta, Vikash Kumar, Corey Lynch, Sergey Levine, and Karol Hausman. Relay policy learning:\n     Solving long-horizon tasks via imitation and reinforcement learning. ArXiv, abs/1910.11956, 2019. URL\n    https://api.semanticscholar.org/CorpusID:204955905. 1, 3\n\n[21] Michael Ahn, Anthony Brohan, Noah Brown, Yevgen Chebotar, Omar Cortes, Byron David, Chelsea\n     Finn, Keerthana Gopalakrishnan, Karol Hausman, Alexander Herzog, Daniel Ho, Jasmine Hsu, Julian\n      Ibarz, Brian Ichter, Alex Irpan, Eric Jang, Rosario M Jauregui Ruano, Kyle Jeffrey, Sally Jesmonth,\n     Nikhil Jayant Joshi, Ryan C. Julian, Dmitry Kalashnikov, Yuheng Kuang, Kuang-Huei Lee, Sergey\n     Levine, Yao Lu, Linda Luu, Carolina Parada, Peter Pastor, Jornell Quiambao, Kanishka Rao, Jarek\n     Rettinghouse, Diego M Reyes, Pierre Sermanet, Nicolas Sievers, Clayton Tan, Alexander Toshev, Vincent\n     Vanhoucke, F. Xia, Ted Xiao, Peng Xu, Sichun Xu, and Mengyuan Yan. Do as i can, not as i say:\n     Grounding language in robotic affordances.  In Conference on Robot Learning, 2022. URL https:\n    //api.semanticscholar.org/CorpusID:247939706. 1\n\n[22] Wenhao Li, Xiangfeng Wang, Bo Jin, and Hongyuan Zha. Hierarchical diffusion for offline decision making.\n     In International Conference on Machine Learning, 2023. URL https://api.semanticscholar.org/\n    CorpusID:260859191. 1, 3\n\n[23] Chang Chen, Fei Deng, Kenji Kawaguchi, Caglar Gulcehre, and Sungjin Ahn.  Simple hierarchical\n     planning with diffusion. In The Twelfth International Conference on Learning Representations, ICLR 2024,\n     Vienna, Austria, May 7-11, 2024. OpenReview.net, 2024. URL https://openreview.net/forum?id=\n    kXHEBK9uAY. 1, 3, 18, 24\n\n[24] Ce Hao, Anxing Xiao, Zhiwei Xue, and Harold Soh. Chd: Coupled hierarchical diffusion for long-\n     horizon tasks. ArXiv, abs/2505.07261, 2025. URL https://api.semanticscholar.org/CorpusID:\n    278502357. 1, 3\n\n[25] Wancong Zhang, Basile Terver, Artem Zholus, Soham Chitnis, Harsh Sutaria, Mido Assran, Randall\n      Balestriero, Amir Bar, Adrien Bardes, Yann LeCun, et al. Hierarchical planning with latent world models.\n     arXiv preprint arXiv:2604.03208, 2026. 2, 3, 8, 10, 18\n\n[26] Kevin Xie, Homanga Bharadhwaj, Danijar Hafner, Animesh Garg, and Florian Shkurti.  Latent skill\n     planning for exploration and transfer. In International Conference on Learning Representations, 2020.\n   URL https://api.semanticscholar.org/CorpusID:233714270. 2, 3\n\n[27] Christian Gumbsch, Noor Sajid, Georg Martius, and Martin Volker Butz. Learning hierarchical world\n     models with adaptive temporal abstractions from discrete latent dynamics. In International Conference on\n     Learning Representations, 2024. URL https://api.semanticscholar.org/CorpusID:268859646.\n      2, 3\n\n[28] Soroush Nasiriany, Vitchyr H. Pong, Steven Lin, and Sergey Levine. Planning with goal-conditioned\n      policies. In Neural Information Processing Systems, 2019. URL https://api.semanticscholar.org/\n    CorpusID:202779996. 2, 3\n\n[29] Kurtland Chua, Roberto Calandra, Rowan Thomas McAllister, and Sergey Levine. Deep reinforcement\n     learning in a handful of trials using probabilistic dynamics models. In Neural Information Processing\n     Systems, 2018. URL https://api.semanticscholar.org/CorpusID:44177328. 2\n\n[30] Michael Psenka, Michael Rabbat, Aditi Krishnapriyan, Yann LeCun, and Amir Bar. Parallel stochastic\n     gradient-based planning for world models, 2026. URL https://arxiv.org/abs/2602.00475. 2, 3\n\n[31] Junyoung Chung, Sungjin Ahn, and Yoshua Bengio. Hierarchical multiscale recurrent neural networks.\n     ArXiv, abs/1609.01704, 2016. URL https://api.semanticscholar.org/CorpusID:1463401. 3"
+    },
+    {
+      "page": 14,
+      "text": "[32] Dan Haramati, Carl Qi, Tal Daniel, Amy Zhang, Aviv Tamar, and George D Konidaris. Hierarchical\n      entity-centric reinforcement learning with factored subgoal diffusion. In International Conference on\n     Learning Representations, volume 2026, pages 137484–137510, 2026. 3\n\n[33] Suraj Nair and Chelsea Finn. Hierarchical foresight: Self-supervised learning of long-horizon tasks via\n      visual subgoal generation. ArXiv, abs/1909.05829, 2019. URL https://api.semanticscholar.org/\n    CorpusID:202565422. 3\n\n[34] Lucy Xiaoyang Shi, Joseph J. Lim, and Youngwoon Lee. Skill-based model-based reinforcement learning.\n     In Karen Liu, Dana Kulic, and Jeffrey Ichnowski, editors, Conference on Robot Learning, CoRL 2022,\n     14-18 December 2022, Auckland, New Zealand, volume 205 of Proceedings of Machine Learning Research,\n     pages 2262–2272. PMLR, 2022. URL https://proceedings.mlr.press/v205/shi23a.html. 3\n\n[35] Murtaza Dalal, Deepak Pathak, and Ruslan Salakhutdinov. Accelerating robotic reinforcement learning\n     via parameterized action primitives.  In Neural Information Processing Systems, 2021. URL https:\n    //api.semanticscholar.org/CorpusID:240070909. 3\n\n[36] Jingwei Zhang, Jost Tobias Springenberg, Arunkumar Byravan, Leonard Hasenclever, Abbas Abdolmaleki,\n     Dushyant Rao, Nicolas Manfred Otto Heess, and Martin A. Riedmiller. Leveraging jumpy models for\n     planning and fast learning in robotic domains.  ArXiv, abs/2302.12617, 2023. URL https://api.\n    semanticscholar.org/CorpusID:257206001. 3\n\n[37] Nicklas Hansen, Jyothir S. V, Vlad Sobal, Yann LeCun, Xiaolong Wang, and Hao Su.  Hierarchical\n     world models as visual whole-body humanoid controllers. In The Thirteenth International Conference\n    on Learning Representations, ICLR 2025, Singapore, April 24-28, 2025. OpenReview.net, 2025. URL\n    https://openreview.net/forum?id=7wuJMvK639. 3\n\n[38] Jinning Li, Chen Tang, Masayoshi Tomizuka, and Wei Zhan.  Hierarchical planning through goal-\n     conditioned offline reinforcement learning. IEEE Robotics Autom. Lett., 7(4):10216–10223, 2022. doi:\n     10.1109/LRA.2022.3190100. URL https://doi.org/10.1109/LRA.2022.3190100. 3\n\n[39] Jake Bruce, Michael D. Dennis, Ashley Edwards, Jack Parker-Holder, Yuge Shi, Edward Hughes, Matthew\n      Lai, Aditi Mavalankar, Richie Steigerwald, Chris Apps, Yusuf Aytar, Sarah Bechtle, Feryal M. P. Behbahani,\n     Stephanie C. Y. Chan, Nicolas Heess, Lucy Gonzalez, Simon Osindero, Sherjil Ozair, Scott E. Reed,\n     Jingwei Zhang, Konrad Zolna, Jeff Clune, Nando de Freitas, Satinder Singh, and Tim Rocktäschel. Genie:\n     Generative interactive environments. In ICML, 2024. 3\n\n[40] Xiangyu Peng, Zangwei Zheng, Chenhui Shen, Tom Young, Xinying Guo, Binluo Wang, Hang Xu,\n    Hongxin Liu, Mingyan Jiang, Wenjun Li, et al.  Open-sora 2.0: Training a commercial-level video\n     generation model in $200k. arXiv preprint arXiv:2503.09642, 2025. 3\n\n[41] Thaddäus Wiedemer, Yuxuan Li, Paul Vicol, Shixiang Shane Gu, Nick Matarese, Kevin Swersky, Been\n    Kim, Priyank Jaini, and Robert Geirhos. Video models are zero-shot learners and reasoners. arXiv preprint\n     arXiv:2509.20328, 2025. 3\n\n[42] Danijar Hafner, Timothy P. Lillicrap, Jimmy Ba, and Mohammad Norouzi. Dream to control: Learning\n     behaviors by latent imagination. In ICLR, 2020. 3\n\n[43] Danijar Hafner, Timothy P. Lillicrap, Mohammad Norouzi, and Jimmy Ba. Mastering atari with discrete\n     world models. In ICLR, 2021. 3\n\n[44] Danijar Hafner, Jurgis Pasukonis, Jimmy Ba, and Timothy Lillicrap. Mastering diverse domains through\n     world models. arXiv preprint arXiv:2301.04104, 2023. 3\n\n[45] Nicklas Hansen, Xiaolong Wang, and Hao Su. Temporal difference learning for model predictive control,\n     2022. URL https://arxiv.org/abs/2203.04955. 3\n\n[46] Nicklas Hansen, Hao Su, and Xiaolong Wang. TD-MPC2: scalable, robust world models for continuous\n      control. In ICLR, 2024. 3\n\n[47] Jan Robine, Marc Höftmann, Tobias Uelwer, and Stefan Harmeling. Transformer-based world models are\n     happy with 100k interactions. In ICLR, 2023. 3\n\n[48] Vincent Micheli, Eloi Alonso, and François Fleuret. Transformers are sample-efficient world models. In\n     ICLR, 2023. 3\n\n[49] Reuven Y Rubinstein. Optimization of computer simulation models with rare events. European Journal of\n     Operational Research, 99(1):89–112, 1997. 3"
+    },
+    {
+      "page": 15,
+      "text": "[50] Uladzislau Sobal, Wancong Zhang, Kyunghyun Cho, Randall Balestriero, Tim GJ Rudner, and Yann LeCun.\n     Learning from reward-free offline data: A case for planning with latent dynamics models. Advances in\n     Neural Information Processing Systems, 38:43905–43941, 2026. 3\n\n[51] Arjun Parthasarathy, Nimit Kalra, Rohun Agrawal, Yann LeCun, Oumayma Bounou, Pavel Izmailov,\n     and Micah Goldblum. Closing the train-test gap in world models for gradient-based planning. CoRR,\n     abs/2512.09929, 2025. doi: 10.48550/ARXIV.2512.09929. URL https://doi.org/10.48550/arXiv.\n    2512.09929. 3\n\n[52] Homanga Bharadhwaj, Kevin Xie, and Florian Shkurti. Model-predictive control via cross-entropy and\n     gradient-based optimization. ArXiv, abs/2004.08763, 2020. URL https://api.semanticscholar.\n    org/CorpusID:215827996. 3\n\n[53] Jascha Sohl-Dickstein, Eric A. Weiss, Niru Maheswaranathan, and Surya Ganguli. Deep unsupervised\n      learning using nonequilibrium thermodynamics. In Francis R. Bach and David M. Blei, editors, Proceedings\n      of the 32nd International Conference on Machine Learning, ICML 2015, Lille, France, 6-11 July 2015,\n    volume 37 of JMLR Workshop and Conference Proceedings, pages 2256–2265. JMLR.org, 2015. URL\n    http://proceedings.mlr.press/v37/sohl-dickstein15.html. 3\n\n[54] Jonathan Ho, Ajay Jain, and P. Abbeel. Denoising diffusion probabilistic models. ArXiv, abs/2006.11239,\n     2020. URL https://api.semanticscholar.org/CorpusID:219955663. 3, 4\n\n[55] Jiaming Song, Chenlin Meng, and Stefano Ermon. Denoising diffusion implicit models. In 9th Inter-\n     national Conference on Learning Representations, ICLR 2021, Virtual Event, Austria, May 3-7, 2021.\n     OpenReview.net, 2021. URL https://openreview.net/forum?id=St1giarCHLP. 3, 4\n\n[56] James Betker, Gabriel Goh, Li Jing, Tim Brooks, Jianfeng Wang, Linjie Li, Long Ouyang, Juntang\n     Zhuang, Joyce Lee, Yufei Guo, et al. Improving image generation with better captions. Computer Science.\n      https://cdn. openai. com/papers/dall-e-3. pdf, 2(3):8, 2023. 3\n\n[57] Chitwan Saharia, William Chan, Saurabh Saxena, Lala Li, Jay Whang, Emily L. Denton, Seyed\n    Kamyar Seyed Ghasemipour, Burcu Karagol Ayan, Seyedeh Sara Mahdavi, Raphael Gontijo Lopes,\n    Tim Salimans, Jonathan Ho, David J. Fleet, and Mohammad Norouzi.  Photorealistic text-to-image\n     diffusion models with deep language understanding.  ArXiv, abs/2205.11487, 2022. URL https:\n    //api.semanticscholar.org/CorpusID:248986576. 3\n\n[58] Xiang Lisa Li, John Thickstun, Ishaan Gulrajani, Percy Liang, and Tatsunori Hashimoto.  Diffusion-\n    lm improves controllable text generation.   ArXiv, abs/2205.14217, 2022.  URL https://api.\n    semanticscholar.org/CorpusID:249192356. 3\n\n[59] Cheng Chi, Siyuan Feng, Yilun Du, Zhenjia Xu, Eric Cousineau, Benjamin Burchfiel, and Shuran Song.\n     Diffusion policy: Visuomotor policy learning via action diffusion. In Kostas E. Bekris, Kris Hauser,\n     Sylvia L. Herbert, and Jingjin Yu, editors, Robotics: Science and Systems XIX, Daegu, Republic of Korea,\n     July 10-14, 2023, 2023. doi: 10.15607/RSS.2023.XIX.026. URL https://doi.org/10.15607/RSS.\n    2023.XIX.026. 3, 17, 18, 23\n\n[60] Sudeep Dasari, Oier Mees, Sebastian Zhao, Mohan Kumar Srirama, and Sergey Levine. The ingredients\n      for robotic diffusion transformers. In IEEE International Conference on Robotics and Automation, ICRA\n     2025, Atlanta, GA, USA, May 19-23, 2025, pages 15617–15625. IEEE, 2025. doi: 10.1109/ICRA55743.\n     2025.11127493. URL https://doi.org/10.1109/ICRA55743.2025.11127493. 3\n\n[61] Michael Janner, Yilun Du, Joshua B. Tenenbaum, and Sergey Levine. Planning with diffusion for flexible\n     behavior synthesis. In Kamalika Chaudhuri, Stefanie Jegelka, Le Song, Csaba Szepesvári, Gang Niu,\n     and Sivan Sabato, editors, International Conference on Machine Learning, ICML 2022, 17-23 July 2022,\n     Baltimore, Maryland, USA, volume 162 of Proceedings of Machine Learning Research, pages 9902–9915.\n    PMLR, 2022. URL https://proceedings.mlr.press/v162/janner22a.html. 3, 18, 24\n\n[62] Anurag Ajay, Yilun Du, Abhi Gupta, Joshua B. Tenenbaum, T. Jaakkola, and Pulkit Agrawal. Is conditional\n     generative modeling all you need for decision-making?  ArXiv, abs/2211.15657, 2022. URL https:\n    //api.semanticscholar.org/CorpusID:254044710. 3\n\n[63] Haofei Lu, Dongqi Han, Yifei Shen, and Dongsheng Li. What makes a good diffusion planner for deci-\n     sion making? ArXiv, abs/2503.00535, 2025. URL https://api.semanticscholar.org/CorpusID:\n    276741986. 3\n\n[64] Po-Chen Ko, Jiayuan Mao, Yilun Du, Shao-Hua Sun, and Joshua B. Tenenbaum.  Learning to act\n    from actionless videos through dense correspondences.  In The Twelfth International Conference on\n     Learning Representations, ICLR 2024, Vienna, Austria, May 7-11, 2024. OpenReview.net, 2024. URL\n    https://openreview.net/forum?id=Mhb5fpA1T0. 3, 10, 18"
+    },
+    {
+      "page": 16,
+      "text": "[65] Amelie Minji Kim, Anqi Wu, and Ye Zhao. Hierarchical diffusion motion planning with task-conditioned\n     uncertainty-aware priors, 2025. URL https://arxiv.org/abs/2509.25685. 3\n\n[66] Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, and Björn Ommer. High-resolution\n     image synthesis with latent diffusion models. In IEEE/CVF Conference on Computer Vision and Pattern\n     Recognition, CVPR 2022, New Orleans, LA, USA, June 18-24, 2022, pages 10674–10685. IEEE, 2022. doi:\n    10.1109/CVPR52688.2022.01042. URL https://doi.org/10.1109/CVPR52688.2022.01042. 10\n\n[67] Justin Fu, Aviral Kumar, Ofir Nachum, George Tucker, and Sergey Levine. D4RL: datasets for deep\n     data-driven reinforcement learning. CoRR, abs/2004.07219, 2020. URL https://arxiv.org/abs/\n    2004.07219. 17\n\n[68] Seohong Park, Kevin Frans, Benjamin Eysenbach, and Sergey Levine. Ogbench: Benchmarking offline\n     goal-conditioned rl, 2025. URL https://arxiv.org/abs/2410.20092. 23"
+    }
+  ]
+}

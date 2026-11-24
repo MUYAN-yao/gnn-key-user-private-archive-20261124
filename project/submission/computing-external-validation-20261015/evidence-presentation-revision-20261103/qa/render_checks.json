@@ -1,0 +1,97 @@
+{
+  "status": "PASS",
+  "method": "All rendered pages inspected through four-page contact sheets",
+  "documents": {
+    "english": {
+      "pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "sha256": "20b12afae2ce529928838bca35029b6ed06dce41a61d1c97739595447e9c79bc"
+    },
+    "chinese": {
+      "pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "sha256": "6e00d26247b35827aee7d473b901eda35fbcbf523f7a20a96249c1481b813f31"
+    },
+    "supplement": {
+      "pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "sha256": "d7ffafa4f7fbf408c1aa2b0f260830139b045cce31ef2d20b61bca9087933fb0"
+    }
+  },
+  "checks": {
+    "no_clipped_tables": true,
+    "no_overlapping_text": true,
+    "no_missing_glyphs": true,
+    "mechanism_figure_retained": true,
+    "new_tables_legible": true
+  },
+  "notes": "Normal svjour3 template retained; ordinary float movement and whitespace remain. All 68 pages reviewed."
+}

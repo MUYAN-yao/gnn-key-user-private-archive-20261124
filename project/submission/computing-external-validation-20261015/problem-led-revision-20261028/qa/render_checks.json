@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-28",
+  "review_method": "All rendered pages inspected in four-page contact sheets at the final PDF hashes below.",
+  "english": {
+    "pages": 16,
+    "visually_reviewed_pages": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],
+    "pdf_sha256": "3d8824f6d8c136417ce70c830794dfceffcedb28a4a55a61bf79504cc8288c94"
+  },
+  "chinese": {
+    "pages": 18,
+    "visually_reviewed_pages": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+    "pdf_sha256": "d292a830f0256fa7a76733fc51824ce11b3dceb1135581bc68bd4b48c62acaef"
+  },
+  "checks": {
+    "no_observed_clipping_or_overlap": true,
+    "figures_tables_equations_and_captions_visible": true,
+    "mechanism_figure_preserved": true,
+    "chinese_contributions_fit_together": true,
+    "normal_template_font_and_text_area": true,
+    "no_unresolved_citations_or_crossrefs_in_compile_log": true
+  },
+  "notes": [
+    "Normal page breaks split some body paragraphs and bibliography entries; no page is blank.",
+    "Figure-internal English labels and original bibliography entries are intentionally retained in the Chinese version.",
+    "Unchanged supplement was hash-checked, not recompiled or visually re-reviewed this turn."
+  ],
+  "status": "PASS"
+}

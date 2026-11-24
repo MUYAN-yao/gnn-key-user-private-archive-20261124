@@ -1,0 +1,537 @@
+{
+  "study_version": "v3-fairness-sensitivity",
+  "config": {
+    "seed_count": 2,
+    "horizon": 4,
+    "risk_lambda": 0.35,
+    "community_weight": 0.25,
+    "diffusion_model": "ic",
+    "random_seed": 51,
+    "epochs": 10,
+    "ants": 3,
+    "iterations": 2,
+    "simulations": 20,
+    "train_fraction": 0.6,
+    "optimizer": "robust_greedy",
+    "candidate_pool_size": 120
+  },
+  "reporting_objective": {
+    "risk_lambda": 0.35,
+    "community_weight": 0.25
+  },
+  "reproducibility": {
+    "random_seed": 51,
+    "train_fraction": 0.6,
+    "achieved_outer_train_fraction": 0.5999611466068037,
+    "window_rows": {
+      "history": 17787,
+      "supervised": 4448,
+      "calibration": 5560,
+      "outer_test": 18533
+    },
+    "encoder_history_cutoff": "2012-07-02T22:24:31+00:00",
+    "supervised_cutoff": "2012-07-03T05:11:13+00:00",
+    "calibration_cutoff": "2012-07-03T09:52:56+00:00",
+    "outer_test_start": "2012-07-03T09:53:03+00:00",
+    "probability_protocol": "v2_t0b_timestamp_grouped_isotonic",
+    "diffusion_protocol": "v3_canonical_edge_time_common_worlds",
+    "selection_worlds_sha256": "ace8ecab732c62ed735414f19a2e84385938885ad88938c1311630443f608497",
+    "evaluation_worlds_sha256": "10ca87f4273163bcd167a897086dd23264ba197509b10e88b955384ac8c26440",
+    "selection_evaluation_worlds_disjoint": true,
+    "backend": "torch-geometric GATv2"
+  },
+  "methods": {
+    "screened_robust_greedy": {
+      "selection_terms": {
+        "risk_lambda": 0.35,
+        "community_weight": 0.25
+      },
+      "candidate_count": 120,
+      "selection": {
+        "top_k": [
+          "88",
+          "1988"
+        ],
+        "mean_spread": 3433.3,
+        "spread_std": 250.137582,
+        "robust_objective": 3346.251846,
+        "community_coverage": 2
+      },
+      "reporting_evaluation": {
+        "top_k": [
+          "88",
+          "1988"
+        ],
+        "mean_spread": 3259.35,
+        "spread_std": 277.762538,
+        "robust_objective": 3162.633112,
+        "community_coverage": 2
+      },
+      "selection_seconds": 11.714476
+    },
+    "full_candidate_robust_greedy": {
+      "selection_terms": {
+        "risk_lambda": 0.35,
+        "community_weight": 0.25
+      },
+      "candidate_count": 33529,
+      "selection": {
+        "top_k": [
+          "88",
+          "1988"
+        ],
+        "mean_spread": 3433.3,
+        "spread_std": 250.137582,
+        "robust_objective": 3346.251846,
+        "community_coverage": 2
+      },
+      "reporting_evaluation": {
+        "top_k": [
+          "88",
+          "1988"
+        ],
+        "mean_spread": 3259.35,
+        "spread_std": 277.762538,
+        "robust_objective": 3162.633112,
+        "community_coverage": 2
+      },
+      "selection_seconds": 2816.52825,
+      "selection_scope": "full_decision_graph"
+    },
+    "gnn_top_k_protected_lower_bound_audit": {
+      "candidate_count": 2,
+      "reporting_evaluation": {
+        "top_k": [
+          "88",
+          "677"
+        ],
+        "mean_spread": 3146.9,
+        "spread_std": 255.928681,
+        "robust_objective": 3057.824961,
+        "community_coverage": 2
+      },
+      "interpretation": "protected_lower_bound_audit_not_independent_baseline"
+    },
+    "candidate_pool_sensitivity": {
+      "60": {
+        "selection_terms": {
+          "risk_lambda": 0.35,
+          "community_weight": 0.25
+        },
+        "candidate_count": 60,
+        "selection": {
+          "top_k": [
+            "88",
+            "1988"
+          ],
+          "mean_spread": 3433.3,
+          "spread_std": 250.137582,
+          "robust_objective": 3346.251846,
+          "community_coverage": 2
+        },
+        "reporting_evaluation": {
+          "top_k": [
+            "88",
+            "1988"
+          ],
+          "mean_spread": 3259.35,
+          "spread_std": 277.762538,
+          "robust_objective": 3162.633112,
+          "community_coverage": 2
+        },
+        "selection_seconds": 6.213496,
+        "overlap_with_full_candidate": {
+          "shared_seed_count": 2,
+          "jaccard": 1.0
+        }
+      },
+      "120": {
+        "selection_terms": {
+          "risk_lambda": 0.35,
+          "community_weight": 0.25
+        },
+        "candidate_count": 120,
+        "selection": {
+          "top_k": [
+            "88",
+            "1988"
+          ],
+          "mean_spread": 3433.3,
+          "spread_std": 250.137582,
+          "robust_objective": 3346.251846,
+          "community_coverage": 2
+        },
+        "reporting_evaluation": {
+          "top_k": [
+            "88",
+            "1988"
+          ],
+          "mean_spread": 3259.35,
+          "spread_std": 277.762538,
+          "robust_objective": 3162.633112,
+          "community_coverage": 2
+        },
+        "selection_seconds": 11.691405,
+        "overlap_with_full_candidate": {
+          "shared_seed_count": 2,
+          "jaccard": 1.0
+        }
+      },
+      "240": {
+        "selection_terms": {
+          "risk_lambda": 0.35,
+          "community_weight": 0.25
+        },
+        "candidate_count": 240,
+        "selection": {
+          "top_k": [
+            "88",
+            "1988"
+          ],
+          "mean_spread": 3433.3,
+          "spread_std": 250.137582,
+          "robust_objective": 3346.251846,
+          "community_coverage": 2
+        },
+        "reporting_evaluation": {
+          "top_k": [
+            "88",
+            "1988"
+          ],
+          "mean_spread": 3259.35,
+          "spread_std": 277.762538,
+          "robust_objective": 3162.633112,
+          "community_coverage": 2
+        },
+        "selection_seconds": 22.248649,
+        "overlap_with_full_candidate": {
+          "shared_seed_count": 2,
+          "jaccard": 1.0
+        }
+      },
+      "480": {
+        "selection_terms": {
+          "risk_lambda": 0.35,
+          "community_weight": 0.25
+        },
+        "candidate_count": 480,
+        "selection": {
+          "top_k": [
+            "88",
+            "1988"
+          ],
+          "mean_spread": 3433.3,
+          "spread_std": 250.137582,
+          "robust_objective": 3346.251846,
+          "community_coverage": 2
+        },
+        "reporting_evaluation": {
+          "top_k": [
+            "88",
+            "1988"
+          ],
+          "mean_spread": 3259.35,
+          "spread_std": 277.762538,
+          "robust_objective": 3162.633112,
+          "community_coverage": 2
+        },
+        "selection_seconds": 42.756336,
+        "overlap_with_full_candidate": {
+          "shared_seed_count": 2,
+          "jaccard": 1.0
+        }
+      }
+    },
+    "objective_weight_sensitivity": {
+      "risk-0.00_community-0.00": {
+        "selection_terms": {
+          "risk_lambda": 0.0,
+          "community_weight": 0.0
+        },
+        "candidate_count": 120,
+        "selection": {
+          "top_k": [
+            "88",
+            "1988"
+          ],
+          "mean_spread": 3433.3,
+          "spread_std": 250.137582,
+          "robust_objective": 3433.3,
+          "community_coverage": 2
+        },
+        "reporting_evaluation": {
+          "top_k": [
+            "88",
+            "1988"
+          ],
+          "mean_spread": 3259.35,
+          "spread_std": 277.762538,
+          "robust_objective": 3162.633112,
+          "community_coverage": 2
+        },
+        "selection_seconds": 11.83039,
+        "overlap_with_base_screened": {
+          "shared_seed_count": 2,
+          "jaccard": 1.0
+        }
+      },
+      "risk-0.00_community-0.25": {
+        "selection_terms": {
+          "risk_lambda": 0.0,
+          "community_weight": 0.25
+        },
+        "candidate_count": 120,
+        "selection": {
+          "top_k": [
+            "88",
+            "1988"
+          ],
+          "mean_spread": 3433.3,
+          "spread_std": 250.137582,
+          "robust_objective": 3433.8,
+          "community_coverage": 2
+        },
+        "reporting_evaluation": {
+          "top_k": [
+            "88",
+            "1988"
+          ],
+          "mean_spread": 3259.35,
+          "spread_std": 277.762538,
+          "robust_objective": 3162.633112,
+          "community_coverage": 2
+        },
+        "selection_seconds": 11.6088,
+        "overlap_with_base_screened": {
+          "shared_seed_count": 2,
+          "jaccard": 1.0
+        }
+      },
+      "risk-0.00_community-0.50": {
+        "selection_terms": {
+          "risk_lambda": 0.0,
+          "community_weight": 0.5
+        },
+        "candidate_count": 120,
+        "selection": {
+          "top_k": [
+            "88",
+            "1988"
+          ],
+          "mean_spread": 3433.3,
+          "spread_std": 250.137582,
+          "robust_objective": 3434.3,
+          "community_coverage": 2
+        },
+        "reporting_evaluation": {
+          "top_k": [
+            "88",
+            "1988"
+          ],
+          "mean_spread": 3259.35,
+          "spread_std": 277.762538,
+          "robust_objective": 3162.633112,
+          "community_coverage": 2
+        },
+        "selection_seconds": 11.606939,
+        "overlap_with_base_screened": {
+          "shared_seed_count": 2,
+          "jaccard": 1.0
+        }
+      },
+      "risk-0.35_community-0.00": {
+        "selection_terms": {
+          "risk_lambda": 0.35,
+          "community_weight": 0.0
+        },
+        "candidate_count": 120,
+        "selection": {
+          "top_k": [
+            "88",
+            "1988"
+          ],
+          "mean_spread": 3433.3,
+          "spread_std": 250.137582,
+          "robust_objective": 3345.751846,
+          "community_coverage": 2
+        },
+        "reporting_evaluation": {
+          "top_k": [
+            "88",
+            "1988"
+          ],
+          "mean_spread": 3259.35,
+          "spread_std": 277.762538,
+          "robust_objective": 3162.633112,
+          "community_coverage": 2
+        },
+        "selection_seconds": 11.626776,
+        "overlap_with_base_screened": {
+          "shared_seed_count": 2,
+          "jaccard": 1.0
+        }
+      },
+      "risk-0.35_community-0.25": {
+        "selection_terms": {
+          "risk_lambda": 0.35,
+          "community_weight": 0.25
+        },
+        "candidate_count": 120,
+        "selection": {
+          "top_k": [
+            "88",
+            "1988"
+          ],
+          "mean_spread": 3433.3,
+          "spread_std": 250.137582,
+          "robust_objective": 3346.251846,
+          "community_coverage": 2
+        },
+        "reporting_evaluation": {
+          "top_k": [
+            "88",
+            "1988"
+          ],
+          "mean_spread": 3259.35,
+          "spread_std": 277.762538,
+          "robust_objective": 3162.633112,
+          "community_coverage": 2
+        },
+        "selection_seconds": 11.547765,
+        "overlap_with_base_screened": {
+          "shared_seed_count": 2,
+          "jaccard": 1.0
+        }
+      },
+      "risk-0.35_community-0.50": {
+        "selection_terms": {
+          "risk_lambda": 0.35,
+          "community_weight": 0.5
+        },
+        "candidate_count": 120,
+        "selection": {
+          "top_k": [
+            "88",
+            "1988"
+          ],
+          "mean_spread": 3433.3,
+          "spread_std": 250.137582,
+          "robust_objective": 3346.751846,
+          "community_coverage": 2
+        },
+        "reporting_evaluation": {
+          "top_k": [
+            "88",
+            "1988"
+          ],
+          "mean_spread": 3259.35,
+          "spread_std": 277.762538,
+          "robust_objective": 3162.633112,
+          "community_coverage": 2
+        },
+        "selection_seconds": 11.565624,
+        "overlap_with_base_screened": {
+          "shared_seed_count": 2,
+          "jaccard": 1.0
+        }
+      },
+      "risk-0.70_community-0.00": {
+        "selection_terms": {
+          "risk_lambda": 0.7,
+          "community_weight": 0.0
+        },
+        "candidate_count": 120,
+        "selection": {
+          "top_k": [
+            "88",
+            "1988"
+          ],
+          "mean_spread": 3433.3,
+          "spread_std": 250.137582,
+          "robust_objective": 3258.203693,
+          "community_coverage": 2
+        },
+        "reporting_evaluation": {
+          "top_k": [
+            "88",
+            "1988"
+          ],
+          "mean_spread": 3259.35,
+          "spread_std": 277.762538,
+          "robust_objective": 3162.633112,
+          "community_coverage": 2
+        },
+        "selection_seconds": 11.622944,
+        "overlap_with_base_screened": {
+          "shared_seed_count": 2,
+          "jaccard": 1.0
+        }
+      },
+      "risk-0.70_community-0.25": {
+        "selection_terms": {
+          "risk_lambda": 0.7,
+          "community_weight": 0.25
+        },
+        "candidate_count": 120,
+        "selection": {
+          "top_k": [
+            "88",
+            "1988"
+          ],
+          "mean_spread": 3433.3,
+          "spread_std": 250.137582,
+          "robust_objective": 3258.703693,
+          "community_coverage": 2
+        },
+        "reporting_evaluation": {
+          "top_k": [
+            "88",
+            "1988"
+          ],
+          "mean_spread": 3259.35,
+          "spread_std": 277.762538,
+          "robust_objective": 3162.633112,
+          "community_coverage": 2
+        },
+        "selection_seconds": 11.611097,
+        "overlap_with_base_screened": {
+          "shared_seed_count": 2,
+          "jaccard": 1.0
+        }
+      },
+      "risk-0.70_community-0.50": {
+        "selection_terms": {
+          "risk_lambda": 0.7,
+          "community_weight": 0.5
+        },
+        "candidate_count": 120,
+        "selection": {
+          "top_k": [
+            "88",
+            "1988"
+          ],
+          "mean_spread": 3433.3,
+          "spread_std": 250.137582,
+          "robust_objective": 3259.203693,
+          "community_coverage": 2
+        },
+        "reporting_evaluation": {
+          "top_k": [
+            "88",
+            "1988"
+          ],
+          "mean_spread": 3259.35,
+          "spread_std": 277.762538,
+          "robust_objective": 3162.633112,
+          "community_coverage": 2
+        },
+        "selection_seconds": 11.609514,
+        "overlap_with_base_screened": {
+          "shared_seed_count": 2,
+          "jaccard": 1.0
+        }
+      }
+    }
+  },
+  "runtime_seconds": 3066.332752
+}

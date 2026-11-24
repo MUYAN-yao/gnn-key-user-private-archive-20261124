@@ -1,0 +1,52 @@
+[
+  {
+    "gate": "citation consistency",
+    "passed": true,
+    "detail": "Citation numbering and bibliography count agree (33 entries)."
+  },
+  {
+    "gate": "claim-boundary consistency",
+    "passed": true,
+    "detail": "Manuscript, abstract, and claim ledger retain the protected-baseline, RIS, null-ablation, and paired-repeat boundaries."
+  },
+  {
+    "gate": "completed v3 evidence",
+    "passed": true,
+    "detail": "Completed v3 study and strict analysis bundle passed their required artifacts check."
+  },
+  {
+    "gate": "v3 environment reconciliation",
+    "passed": true,
+    "detail": "v3 runtime environment record and final manifest agree on protocol and source hashes."
+  },
+  {
+    "gate": "v3 manuscript consistency",
+    "passed": true,
+    "detail": "Accepted v3 family counts and null-result wording agree with the manuscript, abstract, and claim ledger."
+  },
+  {
+    "gate": "author metadata",
+    "passed": false,
+    "detail": "Author-controlled metadata has 12 pending fields."
+  },
+  {
+    "gate": "public release inventory",
+    "passed": false,
+    "detail": "No author-approved public release inventory was supplied."
+  },
+  {
+    "gate": "fresh official template",
+    "passed": true,
+    "detail": "Present: audits/official_template_verification_2026-08-23.md"
+  },
+  {
+    "gate": "official-template DOCX",
+    "passed": false,
+    "detail": "No final official-template DOCX was supplied."
+  },
+  {
+    "gate": "official-template visual QA",
+    "passed": false,
+    "detail": "No page-by-page official-template visual QA was supplied."
+  }
+]

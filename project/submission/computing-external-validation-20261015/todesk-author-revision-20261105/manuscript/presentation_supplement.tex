@@ -1,0 +1,41 @@
+\section{Candidate-to-seed outputs from saved records}
+The main-text example uses wiki-Vote replicate 1101 for illustration. The primary table averages replicates 1101--1105 separately on each graph. These displays use the archived step-coupled $W=1280$ results. Machine-readable tables provide every primary method, including Degree-5\%, weighted pools where defined and all three random pools separately. Random-pool inferential summaries remain the within-replicate means specified in Methods.
+\input{precision_output.tex}
+Tightening ca-GrQc PageRank-4k tolerance removes IDs 1488 and 19865 and admits 17655 and 6610. The table compares the resulting seeds at fixed $W$. The CSV precision\_all\_paths.csv retains both pool sizes, all three networks, every budget and replicate, selected node IDs, signed gaps and conditional Monte Carlo standard errors. It separates these conditional errors from the across-replicate SD in the table.
+\subsection{Seed sequences for the complete ca-GrQc precision comparison}
+\begin{longtable}{rrll}
+\caption{ca-GrQc PageRank-4k sequences at default and strict tolerance. Node IDs are in selection order.}\label{tab:precision-seeds}\\
+\toprule $W$ & Replicate & Tolerance & Selected IDs \\ \midrule\endfirsthead
+\toprule $W$ & Replicate & Tolerance & Selected IDs \\ \midrule\endhead
+80 & 1101 & default & 21281, 21012, 22691, 12365, 13801 \\
+80 & 1101 & strict & 17655, 6610, 21281, 21012, 22691 \\
+80 & 1102 & default & 21281, 12365, 21012, 22691, 13929 \\
+80 & 1102 & strict & 21281, 12365, 21012, 6610, 17655 \\
+80 & 1103 & default & 22691, 21012, 21281, 12365, 13801 \\
+80 & 1103 & strict & 22691, 6610, 21012, 21281, 12365 \\
+80 & 1104 & default & 22691, 21281, 12365, 21012, 5052 \\
+80 & 1104 & strict & 22691, 17655, 6610, 12365, 21281 \\
+80 & 1105 & default & 12365, 21012, 21281, 22691, 13929 \\
+80 & 1105 & strict & 12365, 21012, 21281, 22691, 6610 \\
+320 & 1101 & default & 21281, 12365, 21012, 22691, 13929 \\
+320 & 1101 & strict & 21281, 17655, 6610, 12365, 22691 \\
+320 & 1102 & default & 21281, 12365, 21012, 22691, 13929 \\
+320 & 1102 & strict & 21281, 12365, 21012, 22691, 6610 \\
+320 & 1103 & default & 22691, 21281, 21012, 12365, 13801 \\
+320 & 1103 & strict & 22691, 21281, 21012, 6610, 12365 \\
+320 & 1104 & default & 22691, 21281, 12365, 21012, 13929 \\
+320 & 1104 & strict & 22691, 21281, 12365, 21012, 17655 \\
+320 & 1105 & default & 12365, 21281, 21012, 22691, 13801 \\
+320 & 1105 & strict & 12365, 21281, 21012, 6610, 22691 \\
+1280 & 1101 & default & 21012, 21281, 12365, 22691, 13801 \\
+1280 & 1101 & strict & 21012, 21281, 12365, 22691, 17655 \\
+1280 & 1102 & default & 21012, 21281, 12365, 22691, 13801 \\
+1280 & 1102 & strict & 21012, 21281, 12365, 22691, 17655 \\
+1280 & 1103 & default & 21281, 22691, 21012, 12365, 13801 \\
+1280 & 1103 & strict & 21281, 22691, 21012, 12365, 6610 \\
+1280 & 1104 & default & 21012, 21281, 12365, 22691, 13801 \\
+1280 & 1104 & strict & 21012, 21281, 12365, 22691, 17655 \\
+1280 & 1105 & default & 21012, 21281, 12365, 22691, 13801 \\
+1280 & 1105 & strict & 21012, 21281, 12365, 22691, 6610 \\
+\bottomrule\end{longtable}
+Candidate and seed identifiers and the saved round-by-round winner traces are indexed in candidate\_seed\_trace\_index.csv. Full integer candidate-score matrices remain in each original configuration NPZ under the key method\_round\_totals; these are selection-world scores, not independently assessed prefix utilities. The corresponding method\_evaluation arrays contain 10,000 total-spread counts. No activation-node replicates are reconstructed from those counts.

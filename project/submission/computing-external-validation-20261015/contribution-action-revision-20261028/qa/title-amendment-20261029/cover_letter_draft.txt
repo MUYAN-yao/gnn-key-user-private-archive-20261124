@@ -1,0 +1,23 @@
+Dear Editors of Computing,
+
+Please consider our manuscript, “Reference Budgets and Ranking Precision in Candidate-Restricted Influence Maximization,” for publication in Computing.
+
+The manuscript addresses a difficulty in evaluating candidate restriction: a measured quality gap depends on a reference solution that is itself estimated, as well as on the numerical ranking that defines seed eligibility. We examine these dependencies through paired selection, separate budget and ranking-precision controls, and independent spread evaluation.
+
+We identify how ranking precision alters an apparent budget effect. Through paired budget comparisons and a post-hoc precision control, we distinguish the observed quality reversal from persistent budget-dependent seed changes. On ca-GrQc, tightening PageRank tolerance exchanges two of 20 candidates and removes the default mean gain-to-loss reversal. This identifies a numerical dependence that a budget scan at default tolerance alone would miss.
+
+We quantify the spread gains associated with changes in the reference seed set. Independent paired evaluation measures the magnitude and conditional Monte Carlo uncertainty of these gains. In the historical comparison from W=1280 to W=5120, 16 of 40 reference sets change, while mean spread increases by 0.01111 nodes across all 40 network–path pairs. The measurements separate seed-set instability from the utility gained through additional sampling.
+
+We identify which tested candidate pools preserve the reference while reducing selection cost. At W=1280, Degree-4k uses 20 candidates to reproduce all 15 external reference trajectories at lower selection cost in this implementation. Default PageRank-4k reproduces none, and losses on CollegeMsg and wiki-Vote persist under tighter tolerance. These comparisons delimit the transfer of earlier contact-graph agreement and relate computational savings to independently evaluated utility.
+
+We consider this study relevant to Computing because it examines the interaction between numerical computation and the evaluation of network algorithms. The evidence comes from a small selected network sample. Three external topologies form the main comparison; four small contact graphs provide separate historical sensitivity controls. The manuscript retains unfavorable outcomes, identifies the precision analysis as post-hoc, and specifies the limits of the network, parameter and timing coverage. Reproducibility materials include source snapshots, configurations, saved outputs, analysis tables and validation records.
+
+All authors have read and approved the manuscript and agreed to its submission to Computing. The authors declare no competing interests. This work was supported by a provincial undergraduate innovation and entrepreneurship training project. Third-party raw datasets are not redistributed; source records, expected hashes and download/preprocessing instructions are provided. The reproducibility materials accompany the submission for editorial and peer-review access.
+
+Sincerely,
+
+Binbin Yong
+Corresponding author
+School of Information Science and Engineering, Lanzhou University
+Lanzhou 730000, China
+yongbb14@lzu.edu.cn

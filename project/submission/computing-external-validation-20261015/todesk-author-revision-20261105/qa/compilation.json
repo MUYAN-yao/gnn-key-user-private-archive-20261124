@@ -1,0 +1,17 @@
+{
+  "manuscript_revised": {
+    "pages": 18,
+    "warning_lines": [],
+    "sha256": "1b200b155d95afff250f37bc19244a100edb00fd639526f5554eba98b7924a44"
+  },
+  "Online_Resource_1": {
+    "pages": 29,
+    "warning_lines": [],
+    "sha256": "fde323a396eecb7e6c42514707ac133eb2673300be1ea206de54f8743d3f21e9"
+  },
+  "review_diff": {
+    "pages": 22,
+    "warning_lines": [],
+    "sha256": "eaf4197c8da9fed39d93a339383ab4fb0d85c1ed3129378f9931a01f69df09e1"
+  }
+}

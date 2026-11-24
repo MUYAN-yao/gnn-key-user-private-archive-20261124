@@ -1,0 +1,78 @@
+[
+  [
+    "Where the data record individual interaction events, an event-weighted degree ranks vertices by their number of outgoing events (Weighted-4k and Weighted-5\\%).",
+    "Event-weighted degree counts messages sent on CollegeMsg and retained contact records incident to each vertex on the undirected contact networks. Each contact is represented by reciprocal arcs, giving each endpoint one outgoing record per retained contact (Weighted-4k and Weighted-5\\%)."
+  ],
+  [
+    "every eligible vertex in every round, and each restricted method is compared only with the full reference under the same coupling.",
+    "every eligible vertex that has not yet been selected. We use the same exhaustive search in both couplings. CELF can reuse marginal gains as upper bounds for the fixed-edge coverage objective; using that shortcut for the step-coupled objective would require a diminishing-returns guarantee. Each restricted method is compared with the full reference under its own coupling."
+  ],
+  [
+    "The contact-graph study had pointed the other way: there,",
+    "The contact-graph study found near-complete agreement for both rankings:"
+  ],
+  [
+    "The ranking result from the small graphs therefore does not carry over to the larger networks.",
+    "The earlier PageRank agreement thus varies across the networks and budgets examined here."
+  ],
+  [
+    "because these costs are not reduced by restricting the candidates.",
+    "because both methods incur graph and world preparation costs. This estimate includes each method's own ranking or pool-construction cost and its measured evaluation time."
+  ],
+  [
+    "Reporting the candidate IDs near the cutoff, and checking whether they change at a tighter tolerance, makes this source of variation visible at little cost.",
+    "Reporting which candidate IDs enter or leave the pool when the tolerance is tightened identifies the changes in eligibility."
+  ],
+  [
+    "Coverage explains much of the PageRank loss, but not all of it.",
+    "Increasing the PageRank pool size recovers part of the spread lost on wiki-Vote."
+  ],
+  [
+    ", which shows that greedy search can recover much of the spread through substitute seeds once the pool contains enough well-connected vertices.",
+    ". Thus, at least four of the five seeds in each expanded-pool result differ from the corresponding reference seeds."
+  ],
+  [
+    "Because the simulator propagates from voter to votee, the latter are better placed to start cascades, which is consistent with the observed loss.",
+    "Diffusion follows voter-to-votee arcs, so a vertex with more distinct out-neighbours has more opportunities for first-round activation. This directional difference is consistent with the observed spread gap."
+  ],
+  [
+    "In this setting cascades stay local, which may favour a simple degree ranking; stronger diffusion, larger seed budgets and larger networks may change the relative standing of the rankings.",
+    "The three-round horizon limits propagation to vertices within three directed steps of a seed. How the degree ranking performs under stronger or longer-range diffusion remains open."
+  ],
+  [
+    "Lazy evaluation or a sampling-based solver would make the full reference cheaper and the relative saving smaller.",
+    "The relative time saving under a lazy or sampling-based solver requires a separate timing comparison."
+  ],
+  [
+    ", and throughout the study a change in the selected set was a poor guide to a change in spread.",
+    ". In the SNAP and contact-graph budget comparisons, changes in seed membership were accompanied by both positive and negative differences in independently estimated spread."
+  ],
+  [
+    "All messages in this window are used both to construct the directed graph and to rank vertices by outgoing message count; removing self-messages leaves 38,939 events.",
+    "After removing self-messages, we use the 38,939 retained events both to construct the directed graph and to rank vertices by outgoing message count."
+  ],
+  [
+    "The other two networks are insensitive to the tolerance.",
+    "On the two directed networks, the PageRank-4k losses persist at the tighter tolerance."
+  ],
+  [
+    "the restricted method exceeds the reference at all three budgets",
+    "mean spread for the restricted method exceeds the reference at all three budgets"
+  ],
+  [
+    "A change in the selected set says little about the change in spread: on four contact graphs,",
+    "On four contact graphs,"
+  ],
+  [
+    "The reversal traces to two vertices at the pool boundary.",
+    "Two vertices change at the pool boundary."
+  ],
+  [
+    "The authors reviewed and edited all generated content and take full responsibility for the work.",
+    "The authors take responsibility for the final manuscript."
+  ],
+  [
+    "\\subsection{Ranking precision can reverse a budget comparison}",
+    "\\subsection{Post-hoc sensitivity of the budget comparison to PageRank tolerance}"
+  ]
+]

@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "native_pages": {
+    "visio/pages/page1.xml": {
+      "shapes": 80,
+      "editable_text_shapes": 36
+    },
+    "visio/pages/page2.xml": {
+      "shapes": 31,
+      "editable_text_shapes": 21
+    }
+  },
+  "media_files": [],
+  "vector_conversion": {
+    "mechanism_overview": {
+      "width_mm": 119,
+      "height_mm": 134.4700005425347,
+      "raster_images": 0,
+      "fonts": [
+        [
+          5,
+          "cid",
+          "Type0",
+          "Helvetica-Bold",
+          "F0",
+          "Identity-H",
+          16
+        ],
+        [
+          11,
+          "cid",
+          "Type0",
+          "Helvetica",
+          "F1",
+          "Identity-H",
+          16
+        ]
+      ]
+    },
+    "coupling_counterexample": {
+      "width_mm": 119,
+      "height_mm": 78.5400003645155,
+      "raster_images": 0,
+      "fonts": [
+        [
+          5,
+          "cid",
+          "Type0",
+          "Helvetica-Bold",
+          "F0",
+          "Identity-H",
+          16
+        ],
+        [
+          11,
+          "cid",
+          "Type0",
+          "Helvetica",
+          "F1",
+          "Identity-H",
+          16
+        ]
+      ]
+    }
+  },
+  "observed_ca_grqc": {
+    "default_mean_delta": -0.25082,
+    "strict_mean_delta": 0.02608,
+    "changed_sets": 5,
+    "pool_shared": 18
+  },
+  "pdf_route": "Visio native SVG -> MuPDF vector PDF, resized to 119 mm; native Visio fixed-format exporter unavailable"
+}

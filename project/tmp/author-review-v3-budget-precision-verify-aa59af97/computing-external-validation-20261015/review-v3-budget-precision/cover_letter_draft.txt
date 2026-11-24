@@ -1,0 +1,16 @@
+AUTHOR-REVIEW DRAFT — do not submit until all author confirmations are complete.
+
+Dear Editors of Computing,
+
+We would like to submit “Evaluating Candidate-Restricted Influence Maximization: Reference Budgets, Ranking Precision, and External Topologies” for consideration as a research article.
+
+The manuscript examines how candidate restrictions should be evaluated when a full-greedy reference itself uses a finite simulation budget and the ranking is numerically truncated before selection. It connects reference reproduction, independently evaluated reach, coverage, ranking tolerance and computational cost, then tests earlier contact-network findings on communication, collaboration and voting topologies. A post-hoc strict-tolerance control shows that a default ca-GrQc PageRank budget-direction reversal is not precision-robust, while CollegeMsg and wiki-Vote retain their graph-specific losses. We present these boundaries explicitly rather than claiming a universal candidate threshold or a new optimization guarantee.
+
+Computing is an appropriate potential venue because the work addresses experimental evaluation of network computation and influence maximization, complementing algorithmic work already published in the journal. The central contribution is an auditable evaluation protocol and evidence about its interpretation. Frozen raw results, code snapshots, independent analyses and supplementary tables support review; the separate novelty/evaluation summary explains what was compared and how.
+
+The frozen external study includes 54 conditions and 468 executed arms on three observed topologies. Separate post-hoc controls add 45 diagnostic conditions and 90 restricted arms on the original paths: 15 W1280 precision conditions, then 30 W80/W320 precision--budget conditions under a separately frozen protocol. These controls retain the large voting-network loss but qualify the collaboration interpretation; they are prominent and are not presented as new independent samples. We distinguish these layers from historical experiments and resource preflight, and disclose simulation, path-count, budget, directionality and timing limitations. We do not claim empirical influence causality, a learned-method advantage, or convergence at the highest external budget.
+
+[Before submission, the corresponding author must insert verified statements on originality/overlap and concurrent submission, approval by all authors, relevant conflicts and funding, the complete AI-use disclosure, and reviewer access to data/code. This draft does not assert those facts on the authors' behalf.]
+
+Sincerely,
+[Verified corresponding-author name, affiliation and institutional email]

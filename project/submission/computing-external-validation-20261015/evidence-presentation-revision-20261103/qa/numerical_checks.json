@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "primary_arm_paths": 130,
+  "precision_arm_paths": 180,
+  "precision_summaries_matched": 36,
+  "evaluations_per_arm": 10000,
+  "new_experiments": false
+}

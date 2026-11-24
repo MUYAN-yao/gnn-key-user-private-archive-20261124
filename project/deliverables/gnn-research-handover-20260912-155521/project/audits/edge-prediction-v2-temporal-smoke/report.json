@@ -1,0 +1,32 @@
+{
+  "mode": "selection",
+  "config": {
+    "epochs": 10,
+    "hidden_channels": 32,
+    "layers": 1,
+    "learning_rate": 0.01,
+    "decoder": "concat_mlp"
+  },
+  "runs": [
+    {
+      "mode": "selection",
+      "train_fraction": 0.6,
+      "seed": 42,
+      "config": {
+        "epochs": 10,
+        "hidden_channels": 32,
+        "layers": 1,
+        "learning_rate": 0.01,
+        "decoder": "concat_mlp"
+      },
+      "metrics": {
+        "auc": 0.7198556191467221,
+        "average_precision": 0.6870784729302383,
+        "brier": 0.20983609220753244,
+        "ece_10_bins": 0.1321717690546892,
+        "inverse_probability_auc": 0.2801443808532778
+      },
+      "positives": 124
+    }
+  ]
+}

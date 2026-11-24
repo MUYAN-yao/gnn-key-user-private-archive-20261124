@@ -1,0 +1,23 @@
+\begin{table}[htbp]
+\caption{Results on the SNAP networks at $W=1280$, averaged over five replicates. PR denotes PageRank at the default tolerance. Incremental spread excludes the $k=5$ seeds; the gap is restricted minus full-reference spread, in nodes; agreement counts replicates with an identical ordered seed sequence.}\label{tab:primary}
+\centering\begin{tabular}{lrrrr}\toprule
+Graph / method & Candidates & Incremental & Gap & Agreement \\ \midrule
+\multicolumn{5}{l}{\textit{ca-GrQc}} \\
+Full & 5241 & 4.934 & --- & --- \\
+Degree-4k & 20 & 4.934 & +0.00000 & 5/5 \\
+PR-4k & 20 & 4.683 & -0.25082 & 0/5 \\
+PR-5\% & 263 & 4.934 & +0.00000 & 5/5 \\
+\addlinespace
+\multicolumn{5}{l}{\textit{CollegeMsg}} \\
+Full & 1438 & 10.072 & --- & --- \\
+Degree-4k & 20 & 10.072 & +0.00000 & 5/5 \\
+PR-4k & 20 & 9.164 & -0.90780 & 0/5 \\
+PR-5\% & 72 & 9.641 & -0.43094 & 0/5 \\
+\addlinespace
+\multicolumn{5}{l}{\textit{wiki-Vote}} \\
+Full & 7115 & 55.736 & --- & --- \\
+Degree-4k & 20 & 55.736 & +0.00000 & 5/5 \\
+PR-4k & 20 & 15.043 & -40.69334 & 0/5 \\
+PR-5\% & 356 & 42.206 & -13.53012 & 0/5 \\
+\bottomrule\end{tabular}
+\end{table}

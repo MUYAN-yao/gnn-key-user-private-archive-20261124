@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "archive": "D:\\校创\\基于GNN的关键用户识别\\submission\\computing-author-review-20261016-budget-precision-v1.zip",
+  "archive_sha256": "0599435a8df0585f617c2842c1970bf4182e9808a3a5abca6ae66c7451ae82b9",
+  "archive_bytes": 61773925,
+  "files_verified_after_extraction": 1792,
+  "extraction_directory": "D:\\校创\\基于GNN的关键用户识别\\tmp\\author-review-v3-budget-precision-verify-aa59af97",
+  "hash_mismatches": [],
+  "zip_crc_check": true,
+  "third_party_raw_data_excluded": true
+}

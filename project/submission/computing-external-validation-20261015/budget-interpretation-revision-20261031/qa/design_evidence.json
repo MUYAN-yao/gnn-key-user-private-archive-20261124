@@ -1,0 +1,54 @@
+{
+  "external": {
+    "conditions": 54,
+    "arms": 468,
+    "evaluation_worlds": 10000,
+    "budget_groups_with_fixed_evaluation_and_pools": 15
+  },
+  "historical_extension": {
+    "conditions": 520,
+    "arms": 4680,
+    "evaluation_worlds": 10000,
+    "budget_groups_with_fixed_evaluation_and_pools": 120
+  },
+  "posthoc_lower_budget_precision": {
+    "conditions": 30,
+    "arms": 60,
+    "same_budget_reference_hash_match": true,
+    "world_hashes_match": true
+  },
+  "ca_grqc_incremental_loss_percent": {
+    "default": [
+      -5.61,
+      2.53,
+      5.07
+    ],
+    "strict": [
+      -11.25,
+      -2.96,
+      -0.54
+    ]
+  },
+  "ca_grqc_strict_W1280_delta": 0.02608,
+  "historical_step_transition": {
+    "pairs": 40,
+    "changed_sets": 16,
+    "mean": 0.01111,
+    "minimum": -0.0383,
+    "maximum": 0.118,
+    "positive": 13,
+    "negative": 3,
+    "zero": 24
+  },
+  "historical_edge_transition": {
+    "pairs": 40,
+    "changed_sets": 29,
+    "mean": 0.061845,
+    "minimum": -0.011,
+    "maximum": 0.2572,
+    "positive": 28,
+    "negative": 1,
+    "zero": 11
+  },
+  "scope": "Stored JSON metadata and saved CSV summaries plus static source inspection; no NPZ recalculation, seed search, propagation or experimental rerun."
+}

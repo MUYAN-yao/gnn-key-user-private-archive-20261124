@@ -1,0 +1,13 @@
+--- D:\校创\基于GNN的关键用户识别\submission\computing-external-validation-20261015\contribution-action-revision-20261028\manuscript\transition_table.tex
++++ D:\校创\基于GNN的关键用户识别\submission\computing-external-validation-20261015\budget-interpretation-revision-20261031\manuscript\transition_table.tex
+@@ -1,8 +1,8 @@
+ \begin{table}[htbp]
+-\caption{Full-reference transitions under step coupling. Gain is the paired independent change in total spread; seed counts are constant. The range is across paths, not a confidence interval.}\label{tab:transitions}
++\caption{Full-reference transitions under step coupling. Change is the paired independent higher-minus-lower-budget difference in full-reference total spread; seed counts are constant. The range is across paths, not a confidence interval.}\label{tab:transitions}
+ \begin{tabular}{llrrr}
+ \toprule
+-Graph & Budgets & Set changed & Mean gain & Path range \\
++Graph & Budgets & Set changed & Mean change & Path range \\
+ \midrule
+ ca-GrQc & 80--320 & 5/5 & +0.39616 & +0.1819, +0.6139 \\
+ ca-GrQc & 320--1280 & 5/5 & +0.12720 & -0.0266, +0.2411 \\

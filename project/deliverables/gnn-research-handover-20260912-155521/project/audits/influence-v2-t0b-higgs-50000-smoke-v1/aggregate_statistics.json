@@ -1,0 +1,213 @@
+{
+  "split-0.6/degree": {
+    "train_fraction": 0.6,
+    "method": "degree",
+    "runs": 1,
+    "robust_objective": {
+      "mean": 2363.78,
+      "std": 0.0,
+      "ci95": [
+        2363.78,
+        2363.78
+      ]
+    },
+    "mean_spread": {
+      "mean": 2462.75,
+      "std": 0.0,
+      "ci95": [
+        2462.75,
+        2462.75
+      ]
+    },
+    "community_coverage": {
+      "mean": 2.0,
+      "std": 0.0
+    },
+    "paired_vs_reference": {
+      "difference_definition": "method_minus_gnn_guided_robust_greedy_v2_t0b",
+      "runs": 1,
+      "mean_difference": 0.0,
+      "exact_two_sided_sign_flip_p": 1.0
+    }
+  },
+  "split-0.6/gnn_guided_robust_greedy_v2_t0b": {
+    "train_fraction": 0.6,
+    "method": "gnn_guided_robust_greedy_v2_t0b",
+    "runs": 1,
+    "robust_objective": {
+      "mean": 2363.78,
+      "std": 0.0,
+      "ci95": [
+        2363.78,
+        2363.78
+      ]
+    },
+    "mean_spread": {
+      "mean": 2462.75,
+      "std": 0.0,
+      "ci95": [
+        2462.75,
+        2462.75
+      ]
+    },
+    "community_coverage": {
+      "mean": 2.0,
+      "std": 0.0
+    }
+  },
+  "split-0.6/gnn_top_k": {
+    "train_fraction": 0.6,
+    "method": "gnn_top_k",
+    "runs": 1,
+    "robust_objective": {
+      "mean": 2363.78,
+      "std": 0.0,
+      "ci95": [
+        2363.78,
+        2363.78
+      ]
+    },
+    "mean_spread": {
+      "mean": 2462.75,
+      "std": 0.0,
+      "ci95": [
+        2462.75,
+        2462.75
+      ]
+    },
+    "community_coverage": {
+      "mean": 2.0,
+      "std": 0.0
+    },
+    "paired_vs_reference": {
+      "difference_definition": "method_minus_gnn_guided_robust_greedy_v2_t0b",
+      "runs": 1,
+      "mean_difference": 0.0,
+      "exact_two_sided_sign_flip_p": 1.0
+    }
+  },
+  "split-0.6/greedy_mc": {
+    "train_fraction": 0.6,
+    "method": "greedy_mc",
+    "runs": 1,
+    "robust_objective": {
+      "mean": 2259.0,
+      "std": 0.0,
+      "ci95": [
+        2259.0,
+        2259.0
+      ]
+    },
+    "mean_spread": {
+      "mean": 2354.45,
+      "std": 0.0,
+      "ci95": [
+        2354.45,
+        2354.45
+      ]
+    },
+    "community_coverage": {
+      "mean": 2.0,
+      "std": 0.0
+    },
+    "paired_vs_reference": {
+      "difference_definition": "method_minus_gnn_guided_robust_greedy_v2_t0b",
+      "runs": 1,
+      "mean_difference": -104.78,
+      "exact_two_sided_sign_flip_p": 1.0
+    }
+  },
+  "split-0.6/k_shell": {
+    "train_fraction": 0.6,
+    "method": "k_shell",
+    "runs": 1,
+    "robust_objective": {
+      "mean": 3.034,
+      "std": 0.0,
+      "ci95": [
+        3.034,
+        3.034
+      ]
+    },
+    "mean_spread": {
+      "mean": 5.0,
+      "std": 0.0,
+      "ci95": [
+        5.0,
+        5.0
+      ]
+    },
+    "community_coverage": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "paired_vs_reference": {
+      "difference_definition": "method_minus_gnn_guided_robust_greedy_v2_t0b",
+      "runs": 1,
+      "mean_difference": -2360.746,
+      "exact_two_sided_sign_flip_p": 1.0
+    }
+  },
+  "split-0.6/pagerank": {
+    "train_fraction": 0.6,
+    "method": "pagerank",
+    "runs": 1,
+    "robust_objective": {
+      "mean": 2.5,
+      "std": 0.0,
+      "ci95": [
+        2.5,
+        2.5
+      ]
+    },
+    "mean_spread": {
+      "mean": 2.0,
+      "std": 0.0,
+      "ci95": [
+        2.0,
+        2.0
+      ]
+    },
+    "community_coverage": {
+      "mean": 2.0,
+      "std": 0.0
+    },
+    "paired_vs_reference": {
+      "difference_definition": "method_minus_gnn_guided_robust_greedy_v2_t0b",
+      "runs": 1,
+      "mean_difference": -2361.28,
+      "exact_two_sided_sign_flip_p": 1.0
+    }
+  },
+  "split-0.6/ris_approx": {
+    "train_fraction": 0.6,
+    "method": "ris_approx",
+    "runs": 1,
+    "robust_objective": {
+      "mean": 2363.78,
+      "std": 0.0,
+      "ci95": [
+        2363.78,
+        2363.78
+      ]
+    },
+    "mean_spread": {
+      "mean": 2462.75,
+      "std": 0.0,
+      "ci95": [
+        2462.75,
+        2462.75
+      ]
+    },
+    "community_coverage": {
+      "mean": 2.0,
+      "std": 0.0
+    },
+    "paired_vs_reference": {
+      "difference_definition": "method_minus_gnn_guided_robust_greedy_v2_t0b",
+      "runs": 1,
+      "mean_difference": 0.0,
+      "exact_two_sided_sign_flip_p": 1.0
+    }
+  }
+}

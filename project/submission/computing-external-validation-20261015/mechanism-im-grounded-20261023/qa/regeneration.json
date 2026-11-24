@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "files_checked": 25,
+  "different_files": [],
+  "hashes": {
+    "analysis\\supplement_setup_timing.csv": "3ee53546d9550003c9f83f9a01df899b2e1b31446683722d7a204c0371d209d0",
+    "analysis\\arm_path.csv": "b27fc6a3fd5de5aee3fa1fb08b8bc8730e84ad699702db75dc115b6a5fbc8875",
+    "analysis\\summary_by_method.csv": "5e5eb3ebfd52142876059dbedcffb3931ac8c7c0b5a947168a21de823e77c771",
+    "analysis\\primary_tests.csv": "4720b5be862f75f88c9eaee6815341cc72ebcce2f54a7e4ffdb5fc6ef9417ea1",
+    "analysis\\full_reference_transitions.csv": "56fa2da6563b2f7cb8fba9adfdbbe60b7c4c1826b0a1042cb042b12b392a0776",
+    "analysis\\transition_summary.csv": "7ec8439ce735503ea19b67d83bcfcf26867a6acc0581c60c55cffe295522b184",
+    "analysis\\coupling_transitions.csv": "a1f9ef4cd35ee974fce92dcaedc69fad43dad12a8b619901e8592076279fe40a",
+    "analysis\\timing_repeats.csv": "940b293bbad787ceed7716b62d51f52ede52cf24e07cfef46a85fd85b49f9b7d",
+    "analysis\\timing_summary.csv": "04f77d6749e21b670eb196c98ae9f06e4c5f42797c274ae53fa6de528c625a0f",
+    "analysis\\tolerance_cost_curves.csv": "d495034c352c20445a1447718aac481814e48b83a2198e3d953e46310abdaea5",
+    "analysis\\direction_diagnostics.csv": "bd3b627a0ed39e416f04722bc6b3713866998981916d5253c9071813dd5e6366",
+    "analysis\\figures\\Fig1_source.csv": "7cda0a96f4522558038c64b0108afdc5aae69747573587ecab60d69e3b439d53",
+    "analysis\\figures\\Fig2_source.csv": "f7a33cce2d3bc5f25058b39901fb74baed7bf93f89542d7ce327592ea9f8ec87",
+    "analysis\\figures\\Fig3_source.csv": "1a9280c08c19f5474ff035f4cb31a61eec8694dd1a774faa3ff3f1d9812f5281",
+    "analysis\\figures\\FigS1_source.csv": "1dc7e1bcc6458b5fca50bd6aba7b5d5ad152e01e83758063743d9101ceaa848c",
+    "analysis\\figures\\Fig1.png": "7e7bd5b05b9724e743fb137db242070b2a9c61897b28f477561bcae0fa984008",
+    "analysis\\figures\\Fig2.png": "795f0e8dde4fb8a5a2a3d17a4b122c4b4ff38ef3f83e657cebe34ff1111100eb",
+    "analysis\\figures\\Fig3.png": "cf5c6ee81176ea342382b1e2074009661c1456b487e88731dddb54872d32d207",
+    "analysis\\figures\\FigS1.png": "87cd6c7e58ccdf554b7323355788ea2f79ddb2b1d770e459c254d29343d78e9b",
+    "manuscript\\numbers.tex": "1d64bc65ec1cf9cf37b98172ff557281df5c7694799754187d1251032ef7ae27",
+    "manuscript\\primary_table.tex": "ac5f15e27023c1a161a330d518a93b82ba20995b4dd6dc08fc134f2aaa2c377d",
+    "manuscript\\cost_table.tex": "ff40c6aaf02ab1c2c163902a4298ad7ed188b0e4a092a32bb2d7d69e44db2f84",
+    "manuscript\\transition_table.tex": "7e9019796083244e159b8ca2790fcbd66952ede579d81ba6a2c644f0eec518e3",
+    "manuscript\\supp_tables.tex": "874396e5b61745443b16376ed3687b6dac4740b06570f2ae9f466751e4ab1985",
+    "manuscript\\precision_table.tex": "c30d0df0816b658e2c8a14de45da7946ba7a9e795514e3069f28a810663a03d6"
+  },
+  "scope": "All CSVs, figure PNG pixels and generated LaTeX tables/macros; timing measurements retained, not remeasured. PDF/SVG creation metadata not compared."
+}

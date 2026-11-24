@@ -1,0 +1,25 @@
+{
+  "new_experiments": false,
+  "raw_array_reanalysis": false,
+  "baseline_unchanged": true,
+  "numeric_translation_matches": true,
+  "math_translation_matches": true,
+  "protected_assets_unchanged": true,
+  "english_outside_contributions_unchanged": true,
+  "english": {
+    "pages": 17,
+    "pdf_sha256": "783bcd9e4577ae14fa2bb9f654af852c5a4ee59a3102ff092f55ba88f10d80c9",
+    "compile_issues": [],
+    "unresolved": false,
+    "rendered_pages": 17
+  },
+  "chinese_outside_contributions_unchanged": true,
+  "chinese": {
+    "pages": 20,
+    "pdf_sha256": "b657ace821a4542a4ffc7afdf331137d577136432c6ea55bc32bfa03677c6a89",
+    "compile_issues": [],
+    "unresolved": false,
+    "rendered_pages": 20
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,21 @@
+Dear Editors of Computing,
+
+Please consider our manuscript, “Reference Budgets and Ranking Precision in Candidate-Restricted Influence Maximization,” for publication in Computing.
+
+The manuscript examines how to interpret candidate-restriction quality when both the full-candidate reference and the ranking used to define eligibility are numerical computations. Paired selection and independent spread evaluation distinguish reference-budget effects from ranking-precision effects and relate seed changes to utility and computational cost.
+
+The central finding is a qualification of an apparent budget effect. On ca-GrQc, default PageRank changes from a mean incremental-spread gain of 5.61% to a loss of 5.07% as the selection budget increases from 80 to 1280 worlds. A post-hoc tolerance control removes this reversal while leaving budget-dependent seed changes. Losses on the two directed networks persist with a tighter PageRank convergence tolerance. The paper also shows how reference-set changes can have limited spread consequences and identifies reference-preserving degree pools in the tested highest-budget comparisons. These observations are reported with their parameter, topology and timing scopes.
+
+We consider Computing an appropriate venue for this computational evaluation of network algorithms: the results address how numerical settings affect the interpretation of algorithm comparisons and provide explicit procedures for checking those conclusions. The accompanying summary explains the empirical contribution and evaluation design. The manuscript retains the default and strict results, distinguishes the post-hoc control from the frozen main study, and supplies condition-level outputs and reproducibility instructions.
+
+Separate supplementary evidence from the completed contact-graph study covers reference budgets, local propagation-parameter changes, fixed-edge sampling and candidate coverage. These saved results have been reaggregated without new experimental runs. Their network and parameter scopes are explicit, including full-pool identity at the larger Kenya seed budget and the use of only two fixed synthetic instances; they do not replace the external-network evidence.
+
+All authors have read and approved the manuscript and agreed to its submission to Computing. The authors declare no competing interests. This work was supported by a provincial undergraduate innovation and entrepreneurship training project. Third-party raw datasets are not redistributed; source records, expected hashes and download/preprocessing instructions are provided. The reproducibility materials accompany the submission for editorial and peer-review access.
+
+Sincerely,
+
+Binbin Yong
+Corresponding author
+School of Information Science and Engineering, Lanzhou University
+Lanzhou 730000, China
+yongbb14@lzu.edu.cn

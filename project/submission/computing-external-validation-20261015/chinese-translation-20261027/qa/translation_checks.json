@@ -1,0 +1,26 @@
+{
+  "pdf_pages": 18,
+  "pdf_sha256": "bf730b32eb764e30113a8b8e0aa91684e41fba44107fe1458850a473ec0e0a03",
+  "source_english_pdf_unchanged": true,
+  "source_pdf_sha256": "849dbefb6f25fce96c82fdaa4b3fc09ac76f89a6c7eabfc49f4d31687ece9e18",
+  "untranslated_body_lines": [],
+  "preservation_checks_pass": true,
+  "main_figure_hashes_unchanged": {
+    "FigEvaluationMechanism.pdf": true,
+    "Fig4.pdf": true,
+    "Fig2.pdf": true
+  },
+  "references_unchanged": true,
+  "bilingual_pair_counts": [
+    124,
+    124
+  ],
+  "source_blocks": 124,
+  "figure_table_cards": 7,
+  "all_asset_links_exist": true,
+  "compile_issues": [],
+  "unresolved_reference_markers": false,
+  "rendered_pages": 18,
+  "new_experiments": false,
+  "status": "PASS"
+}

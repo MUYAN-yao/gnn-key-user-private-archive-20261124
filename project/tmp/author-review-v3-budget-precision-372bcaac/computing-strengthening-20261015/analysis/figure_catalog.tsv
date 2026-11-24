@@ -1,0 +1,6 @@
+Figure	Data source	Selection rule
+Fig1	reference_transitions.csv;group_summary.csv	all real graphs, resolution, full reference
+Fig2	group_summary.csv	all six candidate types, W5120 real resolution
+Fig3	path_level_metrics.csv;tolerance_sensitivity.csv	prespecified weighted4k diagnostic, all real paths
+Fig4	group_summary.csv	predefined weighted4k parameter/coupling panels; all synthetic rankings
+Fig5	timing_repeats.csv	all 180 repeats, all nine arms

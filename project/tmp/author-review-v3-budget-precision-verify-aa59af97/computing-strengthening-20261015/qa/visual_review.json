@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "reviewer": "Codex visual inspection; author review remains required",
+  "main_pages_inspected": 19,
+  "supplement_pages_inspected": 4,
+  "method": "Every rendered page inspected in contact sheets; full-resolution front page, primary effect figure, sensitivity figure and supplement table page additionally inspected. All five figure previews inspected before assembly.",
+  "checked": ["readable text and legends", "captions aligned with figures", "no clipped tables or text", "no overlap", "no missing panels", "consistent units and uncertainty descriptions", "figures within main text before discussion", "reference continuation without isolated URL page"],
+  "notes": "Default Springer page dimensions and typography retained. Whitespace around figures and section breaks remains; no body-font, line-spacing or margin compression was used. Primary effect panels use explicitly labeled different x-axis scales."
+}

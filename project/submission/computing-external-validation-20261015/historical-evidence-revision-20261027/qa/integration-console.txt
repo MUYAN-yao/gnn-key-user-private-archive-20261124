@@ -1,0 +1,75 @@
+{
+  "audit": {
+    "status": "PASS",
+    "new_experiments_executed": false,
+    "simulation_or_selection_replayed": false,
+    "scope": "Stored arrays, metadata and descriptive aggregation only; no new inference or timing.",
+    "conditions": 520,
+    "result_files_hashed": 1040,
+    "arms_recomputed": 4680,
+    "snapshot_hashes_match": true,
+    "legacy_engine_identical": true,
+    "historical_source_manifest_sha256": "d2ece59609e65a342881390c61f6873a6ba7831c53c6143907ee0b17edb5dd99",
+    "path_rows_recomputed_and_matched": 3640,
+    "group_rows_recomputed_and_matched": 378,
+    "group_columns_checked": [
+      "mean_spread_mean",
+      "mean_spread_sd",
+      "incremental_spread_mean",
+      "incremental_spread_sd",
+      "delta_mean",
+      "delta_sd",
+      "same_order_mean",
+      "same_order_sd",
+      "same_set_mean",
+      "same_set_sd",
+      "jaccard_mean",
+      "jaccard_sd",
+      "coverage_mean",
+      "coverage_sd",
+      "relative_incremental_loss_mean",
+      "relative_incremental_loss_sd"
+    ],
+    "reference_transition_rows_checked": 240,
+    "initial_study_metadata_records_read": 42,
+    "initial_study_arrays_recomputed": false
+  },
+  "key_facts": {
+    "step": {
+      "pairs": 40,
+      "changed_sets": 16,
+      "mean_delta": 0.01111,
+      "path_pair_sd": 0.027667020078064063,
+      "min_delta": -0.0383,
+      "max_delta": 0.118
+    },
+    "edge": {
+      "pairs": 40,
+      "changed_sets": 29,
+      "mean_delta": 0.061845,
+      "path_pair_sd": 0.0726892012224579,
+      "min_delta": -0.011,
+      "max_delta": 0.2572
+    },
+    "parameters": {
+      "degree_4k": {
+        "conditions": 160,
+        "order_matches": 117,
+        "negative_delta": 1,
+        "positive_delta": 42
+      },
+      "pagerank_4k": {
+        "conditions": 160,
+        "order_matches": 132,
+        "negative_delta": 1,
+        "positive_delta": 27
+      },
+      "weighted_4k": {
+        "conditions": 160,
+        "order_matches": 0,
+        "negative_delta": 117,
+        "positive_delta": 43
+      }
+    }
+  }
+}

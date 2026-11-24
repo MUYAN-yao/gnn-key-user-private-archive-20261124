@@ -1,0 +1,1062 @@
+﻿[
+    {
+        "page":  "Mechanism overview",
+        "id":  1,
+        "text":  "Candidate-restriction comparison has two resolutions",
+        "x":  32,
+        "y":  20,
+        "w":  930,
+        "h":  25,
+        "font_pt":  12.2
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  3,
+        "text":  "1",
+        "x":  40,
+        "y":  123,
+        "w":  30,
+        "h":  30,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  4,
+        "text":  "One graph; restricted pool",
+        "x":  82,
+        "y":  121,
+        "w":  255,
+        "h":  25,
+        "font_pt":  10.8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  20,
+        "text":  "",
+        "x":  47.2,
+        "y":  233.32,
+        "w":  25.6,
+        "h":  25.6,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  21,
+        "text":  "",
+        "x":  88.160000000000011,
+        "y":  184.67999999999998,
+        "w":  25.6,
+        "h":  25.6,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  22,
+        "text":  "",
+        "x":  129.12,
+        "y":  241,
+        "w":  25.6,
+        "h":  25.6,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  23,
+        "text":  "",
+        "x":  164.95999999999998,
+        "y":  200.04,
+        "w":  25.6,
+        "h":  25.6,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  24,
+        "text":  "",
+        "x":  200.79999999999998,
+        "y":  266.59999999999997,
+        "w":  25.6,
+        "h":  25.6,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  25,
+        "text":  "",
+        "x":  244.32,
+        "y":  219.23999999999998,
+        "w":  25.6,
+        "h":  25.6,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  26,
+        "text":  "",
+        "x":  281.44,
+        "y":  183.39999999999998,
+        "w":  25.6,
+        "h":  25.6,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  27,
+        "text":  "",
+        "x":  308.32,
+        "y":  247.39999999999998,
+        "w":  25.6,
+        "h":  25.6,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  28,
+        "text":  "",
+        "x":  257.12,
+        "y":  294.76,
+        "w":  25.6,
+        "h":  25.6,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  29,
+        "text":  "",
+        "x":  154.71999999999997,
+        "y":  308.84,
+        "w":  25.6,
+        "h":  25.6,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  30,
+        "text":  "",
+        "x":  90.720000000000013,
+        "y":  281.96,
+        "w":  25.6,
+        "h":  25.6,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  31,
+        "text":  "propagation graph G",
+        "x":  66,
+        "y":  333,
+        "w":  255,
+        "h":  26,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  35,
+        "text":  "ranking r(v)",
+        "x":  392,
+        "y":  150,
+        "w":  190,
+        "h":  25,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  36,
+        "text":  "1",
+        "x":  413,
+        "y":  180,
+        "w":  108,
+        "h":  27,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  37,
+        "text":  "2",
+        "x":  413,
+        "y":  210,
+        "w":  108,
+        "h":  27,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  38,
+        "text":  "3",
+        "x":  413,
+        "y":  240,
+        "w":  108,
+        "h":  27,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  39,
+        "text":  "4",
+        "x":  413,
+        "y":  270,
+        "w":  108,
+        "h":  27,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  40,
+        "text":  "5",
+        "x":  413,
+        "y":  300,
+        "w":  108,
+        "h":  27,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  41,
+        "text":  "6",
+        "x":  413,
+        "y":  330,
+        "w":  108,
+        "h":  27,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  42,
+        "text":  "7",
+        "x":  413,
+        "y":  360,
+        "w":  108,
+        "h":  27,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  43,
+        "text":  "8",
+        "x":  413,
+        "y":  390,
+        "w":  108,
+        "h":  27,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  45,
+        "text":  "top-m\nboundary",
+        "x":  545,
+        "y":  317,
+        "w":  154,
+        "h":  35,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  46,
+        "text":  "C(tau)",
+        "x":  407,
+        "y":  436,
+        "w":  121,
+        "h":  38,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  47,
+        "text":  "2",
+        "x":  67,
+        "y":  531,
+        "w":  30,
+        "h":  30,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  48,
+        "text":  "Finite reference W",
+        "x":  110,
+        "y":  529,
+        "w":  300,
+        "h":  25,
+        "font_pt":  10.8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  49,
+        "text":  "",
+        "x":  118,
+        "y":  596,
+        "w":  40,
+        "h":  29,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  52,
+        "text":  "",
+        "x":  124.5,
+        "y":  602.5,
+        "w":  5,
+        "h":  5,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  53,
+        "text":  "",
+        "x":  135.5,
+        "y":  611.5,
+        "w":  5,
+        "h":  5,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  54,
+        "text":  "",
+        "x":  146.5,
+        "y":  602.5,
+        "w":  5,
+        "h":  5,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  55,
+        "text":  "",
+        "x":  171,
+        "y":  596,
+        "w":  40,
+        "h":  29,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  58,
+        "text":  "",
+        "x":  177.5,
+        "y":  602.5,
+        "w":  5,
+        "h":  5,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  59,
+        "text":  "",
+        "x":  188.5,
+        "y":  611.5,
+        "w":  5,
+        "h":  5,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  60,
+        "text":  "",
+        "x":  199.5,
+        "y":  602.5,
+        "w":  5,
+        "h":  5,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  61,
+        "text":  "",
+        "x":  224,
+        "y":  596,
+        "w":  40,
+        "h":  29,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  64,
+        "text":  "",
+        "x":  230.5,
+        "y":  602.5,
+        "w":  5,
+        "h":  5,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  65,
+        "text":  "",
+        "x":  241.5,
+        "y":  611.5,
+        "w":  5,
+        "h":  5,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  66,
+        "text":  "",
+        "x":  252.5,
+        "y":  602.5,
+        "w":  5,
+        "h":  5,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  67,
+        "text":  "low W",
+        "x":  286,
+        "y":  599,
+        "w":  64,
+        "h":  25,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  68,
+        "text":  "",
+        "x":  118,
+        "y":  640,
+        "w":  40,
+        "h":  29,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  71,
+        "text":  "",
+        "x":  124.5,
+        "y":  646.5,
+        "w":  5,
+        "h":  5,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  72,
+        "text":  "",
+        "x":  135.5,
+        "y":  655.5,
+        "w":  5,
+        "h":  5,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  73,
+        "text":  "",
+        "x":  146.5,
+        "y":  646.5,
+        "w":  5,
+        "h":  5,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  74,
+        "text":  "",
+        "x":  153,
+        "y":  640,
+        "w":  40,
+        "h":  29,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  77,
+        "text":  "",
+        "x":  159.5,
+        "y":  646.5,
+        "w":  5,
+        "h":  5,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  78,
+        "text":  "",
+        "x":  170.5,
+        "y":  655.5,
+        "w":  5,
+        "h":  5,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  79,
+        "text":  "",
+        "x":  181.5,
+        "y":  646.5,
+        "w":  5,
+        "h":  5,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  80,
+        "text":  "",
+        "x":  188,
+        "y":  640,
+        "w":  40,
+        "h":  29,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  83,
+        "text":  "",
+        "x":  194.5,
+        "y":  646.5,
+        "w":  5,
+        "h":  5,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  84,
+        "text":  "",
+        "x":  205.5,
+        "y":  655.5,
+        "w":  5,
+        "h":  5,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  85,
+        "text":  "",
+        "x":  216.5,
+        "y":  646.5,
+        "w":  5,
+        "h":  5,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  86,
+        "text":  "",
+        "x":  223,
+        "y":  640,
+        "w":  40,
+        "h":  29,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  89,
+        "text":  "",
+        "x":  229.5,
+        "y":  646.5,
+        "w":  5,
+        "h":  5,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  90,
+        "text":  "",
+        "x":  240.5,
+        "y":  655.5,
+        "w":  5,
+        "h":  5,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  91,
+        "text":  "",
+        "x":  251.5,
+        "y":  646.5,
+        "w":  5,
+        "h":  5,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  92,
+        "text":  "",
+        "x":  258,
+        "y":  640,
+        "w":  40,
+        "h":  29,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  95,
+        "text":  "",
+        "x":  264.5,
+        "y":  646.5,
+        "w":  5,
+        "h":  5,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  96,
+        "text":  "",
+        "x":  275.5,
+        "y":  655.5,
+        "w":  5,
+        "h":  5,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  97,
+        "text":  "",
+        "x":  286.5,
+        "y":  646.5,
+        "w":  5,
+        "h":  5,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  98,
+        "text":  "",
+        "x":  293,
+        "y":  640,
+        "w":  40,
+        "h":  29,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  101,
+        "text":  "",
+        "x":  299.5,
+        "y":  646.5,
+        "w":  5,
+        "h":  5,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  102,
+        "text":  "",
+        "x":  310.5,
+        "y":  655.5,
+        "w":  5,
+        "h":  5,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  103,
+        "text":  "",
+        "x":  321.5,
+        "y":  646.5,
+        "w":  5,
+        "h":  5,
+        "font_pt":  8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  104,
+        "text":  "high W",
+        "x":  347,
+        "y":  643,
+        "w":  70,
+        "h":  25,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  111,
+        "text":  "full seeds S_full(W)",
+        "x":  116,
+        "y":  690,
+        "w":  248,
+        "h":  25,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  112,
+        "text":  "{a, c}",
+        "x":  148,
+        "y":  720,
+        "w":  76,
+        "h":  38,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  116,
+        "text":  "{a, d}",
+        "x":  264,
+        "y":  720,
+        "w":  76,
+        "h":  38,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  117,
+        "text":  "3",
+        "x":  527,
+        "y":  531,
+        "w":  30,
+        "h":  30,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  118,
+        "text":  "Ranking tolerance tau",
+        "x":  570,
+        "y":  529,
+        "w":  315,
+        "h":  25,
+        "font_pt":  10.8
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  119,
+        "text":  "m",
+        "x":  586,
+        "y":  599,
+        "w":  107,
+        "h":  36,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  120,
+        "text":  "m+1",
+        "x":  586,
+        "y":  643,
+        "w":  107,
+        "h":  36,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  124,
+        "text":  "m",
+        "x":  761,
+        "y":  599,
+        "w":  107,
+        "h":  36,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  125,
+        "text":  "m+1",
+        "x":  761,
+        "y":  643,
+        "w":  107,
+        "h":  36,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  126,
+        "text":  "{a, c}",
+        "x":  614,
+        "y":  720,
+        "w":  99,
+        "h":  38,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  130,
+        "text":  "{a, e}",
+        "x":  753,
+        "y":  720,
+        "w":  99,
+        "h":  38,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  137,
+        "text":  "MATCHED SELECTION: full greedy S_full(W)  versus  restricted-pool greedy S_pool(W, tau)",
+        "x":  155,
+        "y":  850,
+        "w":  690,
+        "h":  63,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  141,
+        "text":  "INDEPENDENT UTILITY READOUT\nD_eval = spread_eta(S_pool) - spread_eta(S_full)",
+        "x":  155,
+        "y":  972,
+        "w":  690,
+        "h":  78,
+        "font_pt":  11
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  142,
+        "text":  "Observed ca-GrQc: 2/20 candidates exchange; 5/5 selected sets change at W = 1280.",
+        "x":  150,
+        "y":  1080,
+        "w":  700,
+        "h":  49,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  144,
+        "text":  "Keep outputs distinct:",
+        "x":  40,
+        "y":  1190,
+        "w":  260,
+        "h":  25,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  145,
+        "text":  "A",
+        "x":  315,
+        "y":  1188,
+        "w":  28,
+        "h":  28,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  146,
+        "text":  "agreement",
+        "x":  351,
+        "y":  1188,
+        "w":  180,
+        "h":  28,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  147,
+        "text":  "U",
+        "x":  553,
+        "y":  1188,
+        "w":  28,
+        "h":  28,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  148,
+        "text":  "utility",
+        "x":  589,
+        "y":  1188,
+        "w":  150,
+        "h":  28,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  149,
+        "text":  "C",
+        "x":  755,
+        "y":  1188,
+        "w":  28,
+        "h":  28,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Mechanism overview",
+        "id":  150,
+        "text":  "cost",
+        "x":  791,
+        "y":  1188,
+        "w":  130,
+        "h":  28,
+        "font_pt":  10.6
+    },
+    {
+        "page":  "Coupling mechanism",
+        "id":  1,
+        "text":  "Step-indexed coupling: an analytical timing mechanism",
+        "x":  35,
+        "y":  20,
+        "w":  920,
+        "h":  30,
+        "font_pt":  13
+    },
+    {
+        "page":  "Coupling mechanism",
+        "id":  2,
+        "text":  "Illustrative chain s 鈫?u 鈫?v, h = 2. The same step-indexed world is used in the two rows.",
+        "x":  37,
+        "y":  54,
+        "w":  916,
+        "h":  25,
+        "font_pt":  8.8
+    },
+    {
+        "page":  "Coupling mechanism",
+        "id":  4,
+        "text":  "initial seeds",
+        "x":  44,
+        "y":  112,
+        "w":  167,
+        "h":  24,
+        "font_pt":  9
+    },
+    {
+        "page":  "Coupling mechanism",
+        "id":  5,
+        "text":  "t = 0",
+        "x":  274,
+        "y":  112,
+        "w":  105,
+        "h":  24,
+        "font_pt":  9
+    },
+    {
+        "page":  "Coupling mechanism",
+        "id":  6,
+        "text":  "t = 1",
+        "x":  525,
+        "y":  112,
+        "w":  105,
+        "h":  24,
+        "font_pt":  9
+    },
+    {
+        "page":  "Coupling mechanism",
+        "id":  7,
+        "text":  "realized reach",
+        "x":  812,
+        "y":  112,
+        "w":  120,
+        "h":  24,
+        "font_pt":  9
+    },
+    {
+        "page":  "Coupling mechanism",
+        "id":  8,
+        "text":  "S = {s}",
+        "x":  42,
+        "y":  154,
+        "w":  145,
+        "h":  47,
+        "font_pt":  9.5
+    },
+    {
+        "page":  "Coupling mechanism",
+        "id":  9,
+        "text":  "s",
+        "x":  290,
+        "y":  163,
+        "w":  28,
+        "h":  28,
+        "font_pt":  8
+    },
+    {
+        "page":  "Coupling mechanism",
+        "id":  13,
+        "text":  "u",
+        "x":  411,
+        "y":  163,
+        "w":  28,
+        "h":  28,
+        "font_pt":  8
+    },
+    {
+        "page":  "Coupling mechanism",
+        "id":  14,
+        "text":  "u",
+        "x":  546,
+        "y":  163,
+        "w":  28,
+        "h":  28,
+        "font_pt":  8
+    },
+    {
+        "page":  "Coupling mechanism",
+        "id":  18,
+        "text":  "v",
+        "x":  667,
+        "y":  163,
+        "w":  28,
+        "h":  28,
+        "font_pt":  8
+    },
+    {
+        "page":  "Coupling mechanism",
+        "id":  19,
+        "text":  "3 nodes",
+        "x":  814,
+        "y":  154,
+        "w":  125,
+        "h":  47,
+        "font_pt":  9.5
+    },
+    {
+        "page":  "Coupling mechanism",
+        "id":  20,
+        "text":  "S\u0027 = {s, u}",
+        "x":  42,
+        "y":  244,
+        "w":  145,
+        "h":  47,
+        "font_pt":  9.5
+    },
+    {
+        "page":  "Coupling mechanism",
+        "id":  21,
+        "text":  "u",
+        "x":  290,
+        "y":  253,
+        "w":  28,
+        "h":  28,
+        "font_pt":  8
+    },
+    {
+        "page":  "Coupling mechanism",
+        "id":  25,
+        "text":  "v",
+        "x":  411,
+        "y":  253,
+        "w":  28,
+        "h":  28,
+        "font_pt":  8
+    },
+    {
+        "page":  "Coupling mechanism",
+        "id":  26,
+        "text":  "u already acted at t = 0;\nno retry at t = 1",
+        "x":  535,
+        "y":  246,
+        "w":  180,
+        "h":  42,
+        "font_pt":  8.8
+    },
+    {
+        "page":  "Coupling mechanism",
+        "id":  27,
+        "text":  "2 nodes",
+        "x":  814,
+        "y":  244,
+        "w":  125,
+        "h":  47,
+        "font_pt":  9.5
+    },
+    {
+        "page":  "Coupling mechanism",
+        "id":  28,
+        "text":  "Adding u advances its only attempt. This realized step-indexed objective can be nonmonotone.",
+        "x":  42,
+        "y":  331,
+        "w":  897,
+        "h":  51,
+        "font_pt":  9.5
+    },
+    {
+        "page":  "Coupling mechanism",
+        "id":  29,
+        "text":  "A fixed-edge control draws one state per edge/world. This illustration alone does not establish any general submodularity result.",
+        "x":  42,
+        "y":  395,
+        "w":  897,
+        "h":  36,
+        "font_pt":  8.4
+    }
+]

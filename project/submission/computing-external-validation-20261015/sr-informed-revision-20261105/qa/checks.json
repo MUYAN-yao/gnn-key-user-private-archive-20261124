@@ -1,0 +1,14 @@
+{
+  "en": {
+    "pages": 17,
+    "layout_log_flags": [],
+    "sha256": "34d35f7196dca300d8668e2eb4370ccaa2597e51ffea0e2824a2a6dec8835c5c"
+  },
+  "zh": {
+    "pages": 19,
+    "layout_log_flags": [],
+    "sha256": "c85a393c197e0e564a6482904a1e2393a688512a5d4a55fae0fbd8f1fbfecb91"
+  },
+  "identical_scientific_assets": 66,
+  "new_experiments": false
+}
