@@ -1,4 +1,4 @@
-# 基于 GNN 的关键用户识别：私密研究归档
+# 基于 GNN 的关键用户识别：研究归档
 
 归档日期：2026-11-24。项目原名 **Robust Influence Lab**。
 
@@ -22,7 +22,7 @@
 | 尚待筛选 | [tmp](project/tmp/) | 临时工作副本、重复解包、历史验证产物 |
 | 研究进度 | [task_plan](project/task_plan.md)、[findings](project/findings.md)、[progress](project/progress.md) | 原有规划与工作记录 |
 
-项目申报书、进展报告、Visio 图件等根目录材料保留在 `project/`。日期或版本号仅表示原文件命名，不代表已经确认哪一版可投稿。
+涉及个人隐私的项目申请材料及其提取文本仅在作者本地保存，不包含在公开仓库中。其他根目录材料保留在 `project/`。日期或版本号仅表示原文件命名，不代表已经确认哪一版可投稿。
 
 ## 完整性与恢复
 
@@ -38,4 +38,4 @@
 
 先恢复分片，然后进入 `project/`，按原 README 安装依赖和启动。`web/dist` 保留以适配现有 Nginx Dockerfile；`node_modules` 未归档，可依据 `web/pnpm-lock.yaml` 重新安装。
 
-仓库设为个人账号下的 Private，不添加协作者。GitHub 仓库访问权限与项目 API 认证是两件独立的事；已授权的 GitHub 应用仍可能按账号权限访问私密仓库。
+仓库当前公开。2026-11-27 已移除个人项目申请材料及其提取文本，并清理分支提交历史。GitHub 仓库可见性与项目 API 认证是两件独立的事。

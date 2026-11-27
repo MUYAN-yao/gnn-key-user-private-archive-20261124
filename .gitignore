@@ -5,3 +5,7 @@ __pycache__/
 /project/tmp/computing-extension-deps/llvmlite/binding/llvmlite.dll
 /project/deliverables/gnn-research-handover-20260912-155521.zip
 /project/deliverables/gnn-research-handover-20260912-155521/project/data/raw/digg/unpacked/digg.edges
+
+# Personal application documents stay local
+*申报*
+**/temp_docx_content.txt

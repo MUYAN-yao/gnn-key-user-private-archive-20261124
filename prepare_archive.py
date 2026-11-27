@@ -36,6 +36,7 @@ def main():
                 excluded.append({'path':os.path.relpath(os.path.join(directory,n),root),'reason':'reinstallable dependencies or generated cache / Git metadata'})
                 dirs.remove(n)
         for name in files:
+            if '申报' in name or name=='temp_docx_content.txt':continue
             p=os.path.join(directory,name); rel=os.path.relpath(p,root).replace('\\','/')
             data=Path(p).read_bytes(); digest=hashlib.sha256(data).hexdigest()
             reason='local credential file' if name in ('.env','.npmrc','.pypirc','id_rsa','id_ed25519') and (name!='.npmrc' or b'_auth' in data) else suspect(data,name)

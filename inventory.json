@@ -1,17 +1,5 @@
 [
   {
-    "path": "兰州大学大学生创新训练计划项目申报书(1).docx",
-    "size": 139161,
-    "sha256": "217028ede20d2bd173abc4e5a1932222f61a5f84d3a6bfc660cd257ba9a9740f",
-    "storage": "project/兰州大学大学生创新训练计划项目申报书(1).docx"
-  },
-  {
-    "path": "temp_docx_content.txt",
-    "size": 6329,
-    "sha256": "d557c2a919722b884f5957e94f6406794defb9051f0ec19180fb7b6a9d0e8e7d",
-    "storage": "project/temp_docx_content.txt"
-  },
-  {
     "path": "NotoSansCJKsc-Regular.otf",
     "size": 386880,
     "sha256": "06a661d18e18862e2f9b4b3044af45af3d898b329cbe14a300849a2c1f5eba65",
@@ -48,18 +36,6 @@
     "storage": "project/draw_gantt_academic.py"
   },
   {
-    "path": "兰州大学大学生创新训练计划项目申报书.docx",
-    "size": 598969,
-    "sha256": "74578db5d895134f7536da6ceabf40d6f6bfb6ceb0d1eb95f31b41a6d16ed46f",
-    "storage": "project/兰州大学大学生创新训练计划项目申报书.docx"
-  },
-  {
-    "path": "兰州大学大学生创新训练计划项目申报书(4)(2).docx",
-    "size": 605047,
-    "sha256": "fdb9efcbb0476e3f809e8192c02a3e4860a397b116b9ba523ba353494912570d",
-    "storage": "project/兰州大学大学生创新训练计划项目申报书(4)(2).docx"
-  },
-  {
     "path": "draw_comparison.py",
     "size": 4462,
     "sha256": "018467caa9f2a483a4b708289033ebd588956705d6788e23eb4f56ecb36408dc",
@@ -76,12 +52,6 @@
     "size": 8339,
     "sha256": "309fc36d1a5741f52b0d24cb658c15ff5deb5d9f60a5ed765aa7c888b045f49b",
     "storage": "project/draw_architecture_comp_v2.py"
-  },
-  {
-    "path": "兰州大学大学生创新训练计划项目申报书2.0(5).docx",
-    "size": 919507,
-    "sha256": "2807cd53a2284aac508efded8e3ed1cb7630e544bdecbc5870d36a88f4adb6ce",
-    "storage": "project/兰州大学大学生创新训练计划项目申报书2.0(5).docx"
   },
   {
     "path": "requirements.txt",
